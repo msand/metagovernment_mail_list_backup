@@ -1,0 +1,226 @@
+From mrpdublin at gmail.com  Wed Dec  5 21:10:51 2018
+From: mrpdublin at gmail.com (Patrick Millerd)
+Date: Wed, 5 Dec 2018 20:10:51 -0600
+Subject: [MG] proxyfor.me is back up!
+In-Reply-To: <CACobxW3HoF7yxZ76gNchCOdy8WatSin0z9axf7L3pv56UFdruA@mail.gmail.com>
+References: <CACobxW3HoF7yxZ76gNchCOdy8WatSin0z9axf7L3pv56UFdruA@mail.gmail.com>
+Message-ID: <CACZ6ZgEpm50npFn5LPbg6Wef6jP+4s8REQc27r3hoNY_bkVLWQ@mail.gmail.com>
+
+Good stuff. Glad to see it up again. However this e-mail ended up in my
+spam folder. Only now checked it.
+
+On Thu, Nov 29, 2018, 12:18 PM Scott Raney <metamerman at gmail.com wrote:
+
+> I've updated and restarted proxyfor.me. It's still on AWS, but uses an
+> internal HTTPS certificate and server rather than using the (much more
+> expensive) AWS ELB system for that. It's also updated to the latest
+> versions of the tools and libraries, and there has been a *lot* of
+> progress on those over the past year: The new app is about 80% smaller
+> and only takes a third of the time to start up, mostly due to AOT
+> compilation (which works in Angular now but didn't in the version I
+> started with).
+>
+> I had to toss all the old profiles when I updated the database schema
+> to handle authentication, but have set it up in a "demo" mode where
+> you can log in as one of the bots to check it out without having to
+> fill out your profile first (instructions are on the startup screen).
+>
+> I'm not going to do any PR for this release: I'll wait until I have
+> the authentication stuff and new local (Boulder/Denver) proposals
+> finished and will call that Beta 4.
+>   Regards,
+>     Scott
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription:
+> http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20181205/0f396799/attachment-0001.html>
+
+From metamerman at gmail.com  Fri Dec 14 18:41:22 2018
+From: metamerman at gmail.com (Scott Raney)
+Date: Fri, 14 Dec 2018 16:41:22 -0700
+Subject: [MG] proxyfor.me is back up!
+In-Reply-To: <CACZ6ZgEpm50npFn5LPbg6Wef6jP+4s8REQc27r3hoNY_bkVLWQ@mail.gmail.com>
+References: <CACobxW3HoF7yxZ76gNchCOdy8WatSin0z9axf7L3pv56UFdruA@mail.gmail.com>
+	<CACZ6ZgEpm50npFn5LPbg6Wef6jP+4s8REQc27r3hoNY_bkVLWQ@mail.gmail.com>
+Message-ID: <CACobxW1HaXtS-wsdYzFgjZ6no+hpFMry01E1X-MWeE8drJJynA@mail.gmail.com>
+
+On Wed, Dec 5, 2018 at 7:11 PM Patrick Millerd <mrpdublin at gmail.com> wrote:
+>
+> Good stuff. Glad to see it up again. However this e-mail ended up in my spam folder. Only now checked it.
+
+Yeah, this mailing list is about useless, and surely more trouble than
+it's worth. Even though I've set up a gmail filter so messages don't
+get marked as spam, they still come in with a big yellow warning label
+at the top. My recommendation would be for Ed to create a
+"Metagovernment" Facebook Group (takes like 5 minutes, not counting
+finding or creating the image FB shows at the top of each group),
+email everyone on this list personally (so the message doesn't get
+shoved into their Spam folders) asking them to join the new group,
+then just shut this one down.
+
+Speaking of which, I've set up a Group for proxyfor.me:
+https://www.facebook.com/groups/proxyfor.me/ that I encourage everyone
+to join. I shut down the PHPBB forum I had running on matchism.org due
+to lack of interest and the fact that it was a significant time sink:
+Damn Russian bots, they just ruin everything, including I guess the US
+attempt at misrepresentative democracy ;-) They're pinging proxyfor.me
+all the time, but since it's a fully custom system their script kits
+aren't any help breaking in. Yet, anyway :-/
+
+I've got the new version of the app with authentication done and am
+now working on the proposals to be voted on. Which means the hard part
+is done so it should be just another few weeks before we can resume
+public testing on it...
+  Regards,
+    Scott
+
+> On Thu, Nov 29, 2018, 12:18 PM Scott Raney <metamerman at gmail.com wrote:
+>>
+>> I've updated and restarted proxyfor.me. It's still on AWS, but uses an
+>> internal HTTPS certificate and server rather than using the (much more
+>> expensive) AWS ELB system for that. It's also updated to the latest
+>> versions of the tools and libraries, and there has been a *lot* of
+>> progress on those over the past year: The new app is about 80% smaller
+>> and only takes a third of the time to start up, mostly due to AOT
+>> compilation (which works in Angular now but didn't in the version I
+>> started with).
+>>
+>> I had to toss all the old profiles when I updated the database schema
+>> to handle authentication, but have set it up in a "demo" mode where
+>> you can log in as one of the bots to check it out without having to
+>> fill out your profile first (instructions are on the startup screen).
+>>
+>> I'm not going to do any PR for this release: I'll wait until I have
+>> the authentication stuff and new local (Boulder/Denver) proposals
+>> finished and will call that Beta 4.
+>>   Regards,
+>>     Scott
+>>
+>> _______________________________________________
+>> Start : a mailing list of the Metagovernment project
+>> http://www.metagovernment.org/
+>> Post to the list: Start at metagovernment.org
+>> Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+
+
+From metamerman at gmail.com  Sat Dec 22 11:01:23 2018
+From: metamerman at gmail.com (Scott Raney)
+Date: Sat, 22 Dec 2018 09:01:23 -0700
+Subject: [MG] Metagovernment Facebook group (was Re: proxyfor.me is back up!)
+In-Reply-To: <CACobxW1HaXtS-wsdYzFgjZ6no+hpFMry01E1X-MWeE8drJJynA@mail.gmail.com>
+References: <CACobxW3HoF7yxZ76gNchCOdy8WatSin0z9axf7L3pv56UFdruA@mail.gmail.com>
+	<CACZ6ZgEpm50npFn5LPbg6Wef6jP+4s8REQc27r3hoNY_bkVLWQ@mail.gmail.com>
+	<CACobxW1HaXtS-wsdYzFgjZ6no+hpFMry01E1X-MWeE8drJJynA@mail.gmail.com>
+Message-ID: <CACobxW0GjHJOLb94TTX5ggt6ZmQNYrt4Mbg4Bfi1Zeixcmf08w@mail.gmail.com>
+
+Update on this: I looked into creating a Metagovernment Facebook group
+and discovered there already is one (created way back in 2008, long
+before I joined this list). I tried to join it, but got no response.
+It says "Pietro, Jacqueline and Mat?as are admins.": Could one of you
+please let me in? I'd also volunteer to become an admin. I'd also
+recommend just removing the approval requirement: The member names and
+posts are already public so I see no advantage to putting a gate
+across joining, especially if it isn't going to be monitored.
+
+Also, the Metagovernment FB page itself is gone, which means the info
+on http://metagovernment.org/wiki/Participate is obsolete (it doesn't
+even list the FB group). When we get the FB group problem worked out,
+I'll volunteer to edit that page to deprecate the mailing list and put
+the FB group as the primary contact.
+
+If anyone is still into the original mission of metagovernment,
+there's a marketing opportunity here too: There are several direct
+democracy groups on FB that are fairly active, but most are country or
+region-specific. It'd be good to market the Metagovernment group as an
+umbrella group for them to use to connect for more general topic
+discussions.
+
+Mailing lists I think are practically obsolete now that gmail is
+classifying more and more of them as spam (this is not the only list
+I'm having trouble with) so unless someone wants to moderate a Reddit
+group (the only other viable alternative I'm aware of) we need to move
+to the FB group if we're going to continue to collaborate in this
+field.
+  Thanks,
+    Scott
+
+On Fri, Dec 14, 2018 at 4:41 PM Scott Raney <metamerman at gmail.com> wrote:
+>
+> On Wed, Dec 5, 2018 at 7:11 PM Patrick Millerd <mrpdublin at gmail.com> wrote:
+> >
+> > Good stuff. Glad to see it up again. However this e-mail ended up in my spam folder. Only now checked it.
+>
+> Yeah, this mailing list is about useless, and surely more trouble than
+> it's worth. Even though I've set up a gmail filter so messages don't
+> get marked as spam, they still come in with a big yellow warning label
+> at the top. My recommendation would be for Ed to create a
+> "Metagovernment" Facebook Group (takes like 5 minutes, not counting
+> finding or creating the image FB shows at the top of each group),
+> email everyone on this list personally (so the message doesn't get
+> shoved into their Spam folders) asking them to join the new group,
+> then just shut this one down.
+>
+> Speaking of which, I've set up a Group for proxyfor.me:
+> https://www.facebook.com/groups/proxyfor.me/ that I encourage everyone
+> to join. I shut down the PHPBB forum I had running on matchism.org due
+> to lack of interest and the fact that it was a significant time sink:
+> Damn Russian bots, they just ruin everything, including I guess the US
+> attempt at misrepresentative democracy ;-) They're pinging proxyfor.me
+> all the time, but since it's a fully custom system their script kits
+> aren't any help breaking in. Yet, anyway :-/
+>
+> I've got the new version of the app with authentication done and am
+> now working on the proposals to be voted on. Which means the hard part
+> is done so it should be just another few weeks before we can resume
+> public testing on it...
+>   Regards,
+>     Scott
+>
+> > On Thu, Nov 29, 2018, 12:18 PM Scott Raney <metamerman at gmail.com wrote:
+> >>
+> >> I've updated and restarted proxyfor.me. It's still on AWS, but uses an
+> >> internal HTTPS certificate and server rather than using the (much more
+> >> expensive) AWS ELB system for that. It's also updated to the latest
+> >> versions of the tools and libraries, and there has been a *lot* of
+> >> progress on those over the past year: The new app is about 80% smaller
+> >> and only takes a third of the time to start up, mostly due to AOT
+> >> compilation (which works in Angular now but didn't in the version I
+> >> started with).
+> >>
+> >> I had to toss all the old profiles when I updated the database schema
+> >> to handle authentication, but have set it up in a "demo" mode where
+> >> you can log in as one of the bots to check it out without having to
+> >> fill out your profile first (instructions are on the startup screen).
+> >>
+> >> I'm not going to do any PR for this release: I'll wait until I have
+> >> the authentication stuff and new local (Boulder/Denver) proposals
+> >> finished and will call that Beta 4.
+> >>   Regards,
+> >>     Scott
+> >>
+> >> _______________________________________________
+> >> Start : a mailing list of the Metagovernment project
+> >> http://www.metagovernment.org/
+> >> Post to the list: Start at metagovernment.org
+> >> Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+> >
+> > _______________________________________________
+> > Start : a mailing list of the Metagovernment project
+> > http://www.metagovernment.org/
+> > Post to the list: Start at metagovernment.org
+> > Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+
+

@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Code architecture
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Code%20architecture&In-Reply-To=%3C2f14452a0805011951t2bb5987bq6a8f6d8762775ce2%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="008927.html">
+   <LINK REL="Next"  HREF="008938.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Code architecture</H1>
+    <B>Jacki Buros</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Code%20architecture&In-Reply-To=%3C2f14452a0805011951t2bb5987bq6a8f6d8762775ce2%40mail.gmail.com%3E"
+       TITLE="[Start] Code architecture">jburos at gmail.com
+       </A><BR>
+    <I>Thu May  1 22:51:15 EDT 2008</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="008927.html">[Start] Code architecture
+</A></li>
+        <LI>Next message (by thread): <A HREF="008938.html">[Start] Code architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>This might be a little out of left field, but I'm thinking about this
+possibility of setting up universal user accounts that are shared
+across all implementations / installations.. to, at the very least,
+give the sysadmin the option of using them. Forgive my ignorance here
+with the lingo, but I am thinking of something like domain name
+servers, where all servers reference each other (perhaps like mysql
+replication) and changes propagate among them, so that any server can
+add a user account and all servers can reference user accounts created
+on other servers.
+
+My thought is, one install is the 'primary' for any given account, but
+the user can reference that account from other installs by entering
+their username/password combination -- once referenced, the user uses
+the 'same' account on both installs though he/she authenticates for
+each separately (to ensure no security loopholes). The fact that the
+account is 'shared' means that there is the same authentication
+process (eg, password) for all installs. User activity and rating can
+be shared/merged between installs. The user can choose whether, in
+referencing his account on the 'primary', to allow modifications to
+the account to be made on only the master install or on other
+installs.
+
+Thoughts on something like this?
+
+Is there no use in allowing user accounts be shared between installs?
+Or, do we want to leave user accounts/authentication open for the sys
+admin to configure using third-party apps, etc?
+
+
+
+
+On Thu, May 1, 2008 at 8:22 PM, Aur Saraf &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">sonoflilit at gmail.com</A>&gt; wrote:
+&gt;<i> I don't see any need for a database.
+</I>&gt;<i>
+</I>&gt;<i> I envision metascore running on top of only a revision control system, that
+</I>&gt;<i> plays probably a larger role that what you see as reflected in that
+</I>&gt;<i> document, and storing everything as plaintext in there.
+</I>&gt;<i>
+</I>&gt;<i> And I don't support being RCS-agnostic, I think coupling to one specific
+</I>&gt;<i> system would save much headache.
+</I>&gt;<i>
+</I>&gt;<i>  -- Aur
+</I>&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i>  Start mailing list
+</I>&gt;<i>  <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Start at metagovernment.org</A>
+</I>&gt;<i>  <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">http://metagovernment.org/mailman/listinfo/start_metagovernment.org</A>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="008927.html">[Start] Code architecture
+</A></li>
+	<LI>Next message (by thread): <A HREF="008938.html">[Start] Code architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

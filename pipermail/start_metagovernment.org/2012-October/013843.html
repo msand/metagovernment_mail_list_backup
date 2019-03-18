@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Common business entity model
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Common%20business%20entity%20model&In-Reply-To=%3C7940B8726E254AC6A32D623AB90EB1C1%40ZyCon%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013839.html">
+   <LINK REL="Next"  HREF="013848.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Common business entity model</H1>
+    <B>marc</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Common%20business%20entity%20model&In-Reply-To=%3C7940B8726E254AC6A32D623AB90EB1C1%40ZyCon%3E"
+       TITLE="[MG] Common business entity model">marc at merkstduwas.de
+       </A><BR>
+    <I>Sun Oct 21 09:56:18 EDT 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013839.html">[MG] Common business entity model
+</A></li>
+        <LI>Next message (by thread): <A HREF="013848.html">[MG] Common business entity model
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Michael Allan wrote:
+&gt;<i>Marc said:
+</I>&gt;&gt;<i> Here is a first draft of our idea of a Common Business Entity Model
+</I>&gt;&gt;<i> (where 'Business' means it's not a 'Data' Entity Relationship Model
+</I>&gt;&gt;<i> assignable to a database schema, it's just objects found in the real
+</I>&gt;&gt;<i> world - the database schema might look totally different):
+</I>&gt;&gt;<i> <A HREF="http://wiki.piratenpartei.de/wiki/images/4/45/DSFS-BusinessEntityModel.jpg">http://wiki.piratenpartei.de/wiki/images/4/45/DSFS-BusinessEntityModel.jpg</A>
+</I>
+&gt;<i>I have some questions about the model.  To keep them separate from my
+</I>&gt;<i>other questions, I opened this thread.
+</I>
+&gt;<i>(a) Why is discussion itself not modeled?  It's crucial of course, but
+</I>&gt;<i>I don't see it anywhere.
+</I>
+This model is currently meant to be the base solely for the discussion 
+system!
+Therefore the discussion itself is a 'Process' or 'Workflow' not an 
+'Entity'.
+
+&gt;<i>(b) Why is a vote included as an actual (real world) entity?  Myself,
+</I>&gt;<i>I think of voting as a formality of the system, something new we
+</I>&gt;<i>introduce.  It does have *correlates* in the real world, but people
+</I>&gt;<i>don't actually go about casting votes in order to form their opinions,
+</I>&gt;<i>not yet.
+</I>
+Ok. Sorry. This is definitely a problem in translation. Please read 'RATING' 
+instead of 'VOTE' here!
+
+&gt;<i>(In fact, most of the right side seems to be modeling a
+</I>&gt;<i>artificial system yet to be deployed, not the real world.  I probably
+</I>&gt;<i>mistook your meaning for &quot;business entity&quot;.)
+</I>
+Yeah, that's me too ;o) Business Entity is not a good term at all. What it 
+wants to express is, that it is not a DATA ENTITY, that can be mapped 
+directly to a database schema. Even if sometimes it would ;o)
+
+In fact we are modeling the entities of an artificial system here. But maybe 
+we can use the term 'Domain Entity' as George Anadiotis suggested. That's 
+more close to what I think the entities are all about.
+
+&gt;<i>Looking at the left side, I see a few possible errors:
+</I>
+&gt;<i>(c) An opinion is not really (in itself) a document.  A document can
+</I>&gt;<i>be involved in the formalization and expression of an opinion, but the
+</I>&gt;<i>opinion is not bound to that form.
+</I>
+Yes you are right. So it is not realy about real world entities but more 
+about the domain entities that are reflected by the system. So sorry for 
+misleading you!
+
+In our working group we decided, that the Discussion System is only able to 
+deal with textual input. No video or audio processing capabilities. That's 
+why at the end everything boils down to some combination of characters.
+
+&gt;<i>(d) Likewise, a point of view is not an opinion (at least not in
+</I>&gt;<i>English).  It is one's outlook from a personal situation.  It may
+</I>&gt;<i>influence opinion in peculiar ways, but is not an opinion in itself.
+</I>
+Ok. That's unfortunately also lost in translation I believe. Please read 
+POSITION instead of POINT OF VIEW. The groups position is a consensus of all 
+individual opinions of the group members.
+
+&gt;<i>(e) Group membership is not a closed composite relation, but rather an
+</I>&gt;<i>open aggregate.  One can be a member of many groups.
+</I>
+That's true. But IMHO if a Group is composed of 2..* Participants, that 
+doesn't mean a Participant can't be member of several Groups. So maybe we 
+need a * multiplicity at the Groups side?
+
+&gt;<i>Although I don't have a full understanding yet, I suspect it will be
+</I>&gt;<i>difficult to find the right model to code by.  It may take a while.
+</I>&gt;<i>Later (in the other thread), I'll try to suggest a way of buying time
+</I>&gt;<i>and (possibly) evolving some of the models by discovery.
+</I>
+Ok. Thank you!
+
+Cheers
+Marc 
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013839.html">[MG] Common business entity model
+</A></li>
+	<LI>Next message (by thread): <A HREF="013848.html">[MG] Common business entity model
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

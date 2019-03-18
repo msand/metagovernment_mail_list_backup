@@ -1,0 +1,245 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] (frvp) Prototyping the whole of e-democracy
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28frvp%29%20Prototyping%20the%20whole%20of%20e-democracy&In-Reply-To=%3C20100503075026.GA5495%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   
+   <LINK REL="Next"  HREF="011583.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] (frvp) Prototyping the whole of e-democracy</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28frvp%29%20Prototyping%20the%20whole%20of%20e-democracy&In-Reply-To=%3C20100503075026.GA5495%40havoc.zelea.com%3E"
+       TITLE="[MG] (frvp) Prototyping the whole of e-democracy">mike at zelea.com
+       </A><BR>
+    <I>Mon May  3 03:50:26 EDT 2010</I>
+    <P><UL>
+        
+        <LI>Next message (by thread): <A HREF="011583.html">[MG] (frvp) Prototyping the whole of e-democracy
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Thomas von der Elbe wrote:
+&gt;<i> I started a poll here: <A HREF="http://u.zelea.com/w/G/p/frvp">http://u.zelea.com/w/G/p/frvp</A>
+</I>&gt;<i> 
+</I>&gt;<i> Please consider voting for me or proposing an alternative.
+</I>
+I agree with the overall aim of Thomas's plan, but I think it lacks
+clear, practical steps of execution.  Here's the steps I would specify
+(only #1 is complete, so far):
+
+     <A HREF="http://u.zelea.com/w/User:Mike-ZeleaCom/G/p/frvp">http://u.zelea.com/w/User:Mike-ZeleaCom/G/p/frvp</A>
+
+1. POLLSERVERS (done)
+
+   Deploy the essential voting facilities in one or more pollservers.
+
+      (PW)
+       |      PW  pollwiki (common) <A HREF="http://u.zelea.com/w/Pollwiki">http://u.zelea.com/w/Pollwiki</A>
+       |      PS  pollserver (only Votorola, at present)
+       |          <A HREF="http://u.zelea.com:8080/v/w/Pollserver">http://u.zelea.com:8080/v/w/Pollserver</A>
+      (PS)
+
+2. RESIDENTIAL REGISTER
+
+      Registers are for authenticating votes. Authentication is
+      required because unauthenticated votes are worse than no votes
+      at all; they cast doubt on the practice of democracy as a
+      whole. A residential register implements just one type of
+      authentication that may co-exist alongside others. For a first
+      implementation, however, a residential register has
+      advantages.[2]
+
+   Prototype the residential register, including streetwiki (SW) and
+   trustserver (TS). Integrate these with the central polling
+   facilities. <A HREF="http://metagovernment.org/wiki/Streetwiki">http://metagovernment.org/wiki/Streetwiki</A>
+
+      (PW SW)
+         |      PW SW  integral pollwiki/streetwiki <A HREF="http://u.zelea.com/w">http://u.zelea.com/w</A>
+         |      PS TS  pollserver/trustserver <A HREF="http://u.zelea.com:8080/v/w/">http://u.zelea.com:8080/v/w/</A>
+         |
+      (PS TS)
+
+   a) Compile a voter list
+
+      Have the TS compile a separate registration list per SW area
+      (city, local region), and post it openly.
+
+      Have each PS aggregate the registration lists (residential from
+      TS, member rolls from various organizations) into a single
+      voter list that combines all properties (residential,
+      organizational) that are required for its particular
+      polls. <A HREF="http://u.zelea.com/w/User:Mike-ZeleaCom/G/p/edor">http://u.zelea.com/w/User:Mike-ZeleaCom/G/p/edor</A>
+
+   b) Enforce voter eligibility based on divisions
+
+      Add local divisions as explicit registration properties in SW
+      user pages. For example, the user specifies all local electoral
+      districts in which she is resident.
+
+      Add other divisions as implicit registration properties. The
+      pollserver deduces these when compiling its voter list, based
+      on the location of the registrant's SW.
+
+   c) Enforce voter eligibility based on neighbourhood trust
+
+      Have TS trace the trust network across all areas, and set trust
+      levels as registration properties. Ranges of trust extension
+      (person to person) are unlimited at first (across continents
+      and oceans). Later, as the network condenses and strengthens,
+      the ranges will be tightened (ultimately down to neighbourhood
+      scales).
+
+      Set minimal trust levels in PW divisions, and apply these
+      during PS counts.
+
+   d) Enable users to police the register
+
+      Enable navigation of the trust network. Emplace nav aids that
+      interlink user pages on lines of trust, so trust is always
+      traceable to its sources.
+
+      Enable navigation of streets. Prototype the streetwiki pages
+      for ways, neighbourhoods, and so forth.
+
+3. FREE-RANGE VOTING
+
+      Voters must not be fenced in by competing facilities. They are
+      neither cattle nor consumers.  If their inherent potential for
+      consensus (and dissensus) is arbitrarily constrained or split
+      by non-political competition, then it will never be
+      realized. Without the potential of consensus, democracy itself
+      fails.
+
+   Wait for the first non-Votorola pollserver (voting site or tool)
+   to hook into the common architecture. Share votes with it. Let the
+   users try it out and wander freely between the
+   servers. <A HREF="http://u.zelea.com/w/User:ThomasvonderElbe_GmxDe/Vote_mirroring">http://u.zelea.com/w/User:ThomasvonderElbe_GmxDe/Vote_mirroring</A>
+   <A HREF="http://u.zelea.com/w/User:Mike-ZeleaCom/Opening_an_architecture#Free-range_voting">http://u.zelea.com/w/User:Mike-ZeleaCom/Opening_an_architecture#Free-range_voting</A>
+
+            (PW)
+            /|\
+           / | \
+          /  |  \
+         /   |   \        PW  pollwiki (common issues)
+        /    |    \       PS  pollserver (Votorola and others)
+      (PS)--(R)---(PS)    R   preference router
+        \    |    /       TS  trustserver (common registrants)
+         \   |   /
+          \  |  /
+           \ | /
+            \|/
+            (TS)
+
+4. DIFFERENCE ENGINE
+
+      Communities of practice are not portable. The tools of
+      e-democracy must reach out to people wherever they are already
+      engaged with each other, which means via their existing lines
+      of communication.
+
+   Code a bare-bones difference engine. Explore and develop the
+   interface with discussion
+   media. <A HREF="http://u.zelea.com/w/User:Mike-ZeleaCom/p/de">http://u.zelea.com/w/User:Mike-ZeleaCom/p/de</A>
+
+5. DATA ARCHIVING AND VERIFICATION FACILITIES
+
+      Verification is required, because unverified results are worse
+      than no results at all. They cast doubt on the practice of
+      democracy as a whole.
+
+   Record all vote shifts in the database, not just the lastest vote
+   dispositions. Re-implement the snapshot export interface, moving
+   it from the filebase to the database.[3]
+
+   Allow for independent verification of poll results, based on
+   static snapshots of vote, configuration and other input data.
+
+6. DISTRIBUTED ARCHITECTURE
+
+      Democracy is a decentered thing. It exists in the peripheries,
+      because that's where the people are. If the facilities are not
+      likewise distributed, then they are not facilities of
+      democracy.
+
+   Wait for the first area to request separation from the central
+   site. Help it go independent with its own wiki and servers.
+
+      (PW SW)    (PW)    (PW)
+         |        |       |
+         |        |       |
+         |        |       |
+      (PS TS)    (PS)    (PS)
+
+                 area    area
+
+   If it's a local area with a streetwiki, then subscribe to its
+   registration lists from the central pollserver. The local
+   registrants may then vote everywhere.
+
+NOTES AND REFERENCES
+
+  [2] The advantages of authentication based on residence include
+      universal tightness, so there are no cracks for sock puppets to
+      slip through. Also, voters and politicians are familiar with
+      this form of authentication, so there is no need to explain why
+      the votes should be taken seriously. For more on the rationale
+      of residential authtentication, see:
+      <A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/2010-April/002740.html.">http://metagovernment.org/pipermail/start_metagovernment.org/2010-April/002740.html.</A>
+
+  [3] Historical records of vote shifts must be implemented early
+      on. Aside from allowing more efficiency in the generation of
+      public snapshots for verification purposes, the history will
+      serve another crucial purpose. It will provide a strong
+      safeguard against vote buying. See the last item (v) at
+      <A HREF="http://zelea.com/project/votorola/d/theory.xht#vote-buy.">http://zelea.com/project/votorola/d/theory.xht#vote-buy.</A>
+
+Are any of these steps non-essential?  Or are any of the essentials
+missing?
+
+If you like, you can vote for this plan here:
+<A HREF="http://u.zelea.com:8080/v/w/Votespace?p=G!p!frvp&amp;u=Mike-ZeleaCom">http://u.zelea.com:8080/v/w/Votespace?p=G!p!frvp&amp;u=Mike-ZeleaCom</A>
+-- 
+Michael Allan
+
+Toronto, +1 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	
+	<LI>Next message (by thread): <A HREF="011583.html">[MG] (frvp) Prototyping the whole of e-democracy
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

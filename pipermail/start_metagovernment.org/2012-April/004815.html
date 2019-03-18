@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Spambots in the wiki
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Spambots%20in%20the%20wiki&In-Reply-To=%3C1334998180.Cf1D7010.24007%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013600.html">
+   <LINK REL="Next"  HREF="013603.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Spambots in the wiki</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Spambots%20in%20the%20wiki&In-Reply-To=%3C1334998180.Cf1D7010.24007%40out.zelea.com%3E"
+       TITLE="[MG] Spambots in the wiki">mike at zelea.com
+       </A><BR>
+    <I>Sat Apr 21 05:17:35 EDT 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013600.html">[MG] GUI design
+</A></li>
+        <LI>Next message (by thread): <A HREF="013603.html">[MG] Spambots in the wiki
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ed,
+
+Spambots have been hitting the wiki.  I think it's too easy a target.
+Here are the protections I have in the pollwiki, for example:
+
+  ## (A.1) no page creation by anonymous, unregistered users
+    $wgGroupPermissions['*']['createpage'] = false;
+    $wgGroupPermissions['*']['createtalk'] = false;
+
+  ## (A.2) no editing by anonymous, unregistered users
+    $wgGroupPermissions['*']['edit'] = false;
+
+  ## (A.3) no editing by unconfirmed email addresses
+  # $wgEmailConfirmToEdit = true;
+
+When A.2 isn't enough, I uncomment A.3 for a while.  It works because
+the bots generally can't handle email.  Here's the full config I use.
+The spam protections are mostly in $wgGroupPermissions,
+$wgEmailConfirmToEdit and $wgNoFollowNsExceptions.
+<A HREF="http://zelea.com/system/host/obsidian/var/www/localhost/htdocs/mediawiki-c/LocalSettings.php">http://zelea.com/system/host/obsidian/var/www/localhost/htdocs/mediawiki-c/LocalSettings.php</A>
+
+There's another problem.  A new page (welcome message) is
+automatically added for every spambot that registers.  It fills up the
+wiki and clutters up the change log, making it harder to clean up the
+mess: <A HREF="http://metagovernment.org/wiki/Special:RecentChanges">http://metagovernment.org/wiki/Special:RecentChanges</A>
+
+Instead of an automated welcome message, maybe we could look at a
+manual one?  We could take turns at it, or something like that.
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013600.html">[MG] GUI design
+</A></li>
+	<LI>Next message (by thread): <A HREF="013603.html">[MG] Spambots in the wiki
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

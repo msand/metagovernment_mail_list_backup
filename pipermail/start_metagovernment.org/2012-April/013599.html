@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Adding a theatre stage to the wiki, for Votorola users
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Adding%20a%20theatre%20stage%20to%20the%20wiki%2C%20for%20Votorola%20users&In-Reply-To=%3C1334833071.bcD8B0.9098%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013594.html">
+   <LINK REL="Next"  HREF="013606.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Adding a theatre stage to the wiki, for Votorola users</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Adding%20a%20theatre%20stage%20to%20the%20wiki%2C%20for%20Votorola%20users&In-Reply-To=%3C1334833071.bcD8B0.9098%40out.zelea.com%3E"
+       TITLE="[MG] Adding a theatre stage to the wiki, for Votorola users">mike at zelea.com
+       </A><BR>
+    <I>Thu Apr 19 08:23:21 EDT 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013594.html">[MG] Adding a theatre stage to the wiki, for Votorola users
+</A></li>
+        <LI>Next message (by thread): <A HREF="013606.html">[MG] Adding a theatre stage to the wiki, for Votorola users
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Thanks Ed,
+
+Ed Pastore said:
+&gt;<i> This is really excellent, Michael et al. Since I have a competing
+</I>&gt;<i> draft, I see that the &quot;my draft&quot; button works for me and leads to:
+</I>&gt;<i> <A HREF="http://metagovernment.org/w/index.php?title=User:Ed_Pastore/draft_rules">http://metagovernment.org/w/index.php?title=User:Ed_Pastore/draft_rules</A>
+</I>&gt;<i> although from there, I can't click on the Draft button.
+</I>
+Right, because you're already on the draft.  If you selected a person
+using the mini-votespace controls (left), then it would be re-enabled.
+
+&gt;<i> (Note, any reason why it goes there instead of the more friendly
+</I>&gt;<i> <A HREF="http://metagovernment.org/wiki/User:Ed_Pastore/draft_rules">http://metagovernment.org/wiki/User:Ed_Pastore/draft_rules</A> url?)
+</I>
+Interestingly the wiki blindly accepts this at face value:
+<A HREF="http://metagovernment.org/w/index.php?title=User:Ed_Pastore/draft_rules">http://metagovernment.org/w/index.php?title=User:Ed_Pastore/draft_rules</A>
+But redirects this to the friendlier alias:
+<A HREF="http://metagovernment.org/w/index.php?title=User:Ed+Pastore/draft+rules">http://metagovernment.org/w/index.php?title=User:Ed+Pastore/draft+rules</A>
+
+So I guess I was encoding it wrong.  It should be OK now.  Fixed here:
+<A HREF="http://zelea.com/var/db/repo/votorola/rev/be5e722e33fd">http://zelea.com/var/db/repo/votorola/rev/be5e722e33fd</A>
+
+&gt;<i> I very much like the hover-text labels on the icons, so I have some
+</I>&gt;<i> idea of what they are. Would it be possible to build it out further
+</I>&gt;<i> into a label-plus-description so the uninitiated (which is basically
+</I>&gt;<i> everyone at this point) can have a deeper understanding of each icon
+</I>&gt;<i> just by hovering over it? As the tool gains in sophistication, you
+</I>&gt;<i> could eventually make the description be an option that users could
+</I>&gt;<i> turn off.
+</I>
+Definitely - anything to make it more usable.  Maybe like these?
+
+  * Poll
+    Poll - read about the norm or election at issue
+
+  * Votes
+    Votes - see the votes, or cast a vote of your own
+
+  * Difference
+    Difference - compare the two drafts
+
+  * Message
+    Message - read what was posted to the discussion
+
+  * Actor
+    Actor - visit his/her home page
+
+  * Draft
+    Draft - read the actor's position draft
+
+  * My draft
+    My draft - view or edit your own draft
+
+  * Difference vs. my draft
+    Difference vs. my draft - compare this draft to mine
+ 
+Can anyone suggest improvements?
+
+Can anyone contribute a translation?  Please let me know, I'll point
+you to the files that need translating.  (Currently we have only
+English for Crossforum Theatre.)
+
+&gt;<i> Concerning decentralization, what role does [zelea] play in this?
+</I>&gt;<i> The poll button leads to <A HREF="http://zelea.com/w/G/p/m00">http://zelea.com/w/G/p/m00</A>
+</I>&gt;<i> Is that simply another configurable point as any other?
+</I>
+That's where the poll is defined.  A poll is always defined in a
+pollwiki (top left): <A HREF="http://zelea.com/project/outcast/_overview.xht">http://zelea.com/project/outcast/_overview.xht</A>
+
+Metagov's wiki is not a pollwiki, so the link is external.  A given
+Metagov draft can (in principle) be defined in any pollwiki, but in
+practice we don't support multiple pollwikis yet; we still have some
+work to do there.  All we have is the reference pollwiki for Outcast,
+which is currently running under my personal domain name (zelea.com).
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013594.html">[MG] Adding a theatre stage to the wiki, for Votorola users
+</A></li>
+	<LI>Next message (by thread): <A HREF="013606.html">[MG] Adding a theatre stage to the wiki, for Votorola users
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

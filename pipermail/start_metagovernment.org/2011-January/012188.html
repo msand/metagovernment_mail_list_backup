@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Decorating the bite feed - coding plan
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Decorating%20the%20bite%20feed%20-%20coding%20plan&In-Reply-To=%3C201101101025.19805.4consesus%40web.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="003397.html">
+   <LINK REL="Next"  HREF="012227.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Decorating the bite feed - coding plan</H1>
+    <B>conseo</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Decorating%20the%20bite%20feed%20-%20coding%20plan&In-Reply-To=%3C201101101025.19805.4consesus%40web.de%3E"
+       TITLE="[MG] Decorating the bite feed - coding plan">4consesus at web.de
+       </A><BR>
+    <I>Mon Jan 10 04:25:19 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="003397.html">[MG] Decorating the bite feed - coding plan
+</A></li>
+        <LI>Next message (by thread): <A HREF="012227.html">[MG] Decorating the bite feed - coding plan
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi Mike,
+
+&gt;<i> 
+</I>&gt;<i> Here's my plan for decorating the bites.  Whatever properties a
+</I>&gt;<i> particular feed puts into its bites (userID, pollID, and so forth)
+</I>&gt;<i> we'll ensure that it also puts in the properties needed by the
+</I>&gt;<i> currently displayed map.  (We already spoke briefly about this.)  So
+</I>&gt;<i> if the map is a geomap, then we'll decorate the bites with geospatial
+</I>&gt;<i> properties; if it's an x-map, then with x-properties; and so forth.
+</I>&gt;<i> This is for speed, of course.
+</I>&gt;<i> 
+</I>&gt;<i> We need 3 basic facilities for the first cut:
+</I>&gt;<i> 
+</I>&gt;<i>   1. A server-side bite factory that allows for the attachment of any
+</I>&gt;<i>      number of BiteDecorators (GeoDecorator, XDecorator, etc).  We can
+</I>&gt;<i>      easily do this, because our bites are generic hashmaps.
+</I>&gt;<i> 
+</I>&gt;<i>   2. A server-side BiteServlet that takes in generic bites and outputs
+</I>&gt;<i>      JSON on the wire.
+</I>&gt;<i> 
+</I>&gt;<i>   3. A client-side BiteFactory that takes in JSON and spits out
+</I>&gt;<i>      generic bites.
+</I>&gt;<i> 
+</I>&gt;<i> What do you think?  Should I code these up and test them on the
+</I>&gt;<i> DummyFeed?  Meantime, you could focus on producing diff bites on the
+</I>&gt;<i> server and consuming them on the client side.  The piping in between
+</I>&gt;<i> should be entirely transparent to you.
+</I>
+This is the right approach imo. Go ahead I am trying to follow you closely 
+with the DiffFeed. I am really curious to try that out on Metagov. 
+
+&gt;<i> 
+</I>&gt;<i> (BTW, If any other programmer is interested, each of these facilities
+</I>&gt;<i>  is a fairly self-contained job.  You could take one of them, if you
+</I>&gt;<i>  wished.)
+</I>
+Btw. even if somebody has ideas for Bite-types which could be relevant for 
+crossforum (independant of Votorola) this could be helpful to keep the design 
+of crossforum generic. Keep the ideas coming ;-)
+
+conseo
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="003397.html">[MG] Decorating the bite feed - coding plan
+</A></li>
+	<LI>Next message (by thread): <A HREF="012227.html">[MG] Decorating the bite feed - coding plan
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

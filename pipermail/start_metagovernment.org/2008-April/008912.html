@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Code architecture
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Code%20architecture&In-Reply-To=%3C916cd8c0804210331n30b94c75r1426c111e3101285%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="008911.html">
+   <LINK REL="Next"  HREF="008913.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Code architecture</H1>
+    <B>Manuel Barkhau</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Code%20architecture&In-Reply-To=%3C916cd8c0804210331n30b94c75r1426c111e3101285%40mail.gmail.com%3E"
+       TITLE="[Start] Code architecture">mbarkhau at googlemail.com
+       </A><BR>
+    <I>Mon Apr 21 06:31:06 EDT 2008</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="008911.html">[Start] Code architecture
+</A></li>
+        <LI>Next message (by thread): <A HREF="008913.html">[Start] Code architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>I've written an initial and incomplete outline for the architecture.
+I hope we can modify and extend this, until we have a fairly
+complete design spec.
+
+
+Available here:
+<A HREF="http://mbarkhau.dyndns.org/raw-file/3374eb5d7f0c/architecture/outline">http://mbarkhau.dyndns.org/raw-file/3374eb5d7f0c/architecture/outline</A>
+
+
+Here a copy:
+-------------
+Architecture Proposal
+
+So much of the recent discussion revolved around what the software
+should in principal be doing, Ed suggested we work toward consensus on
+this topic.
+
+Here is a basic outline of a possible architecture for metascore,
+based on what I've gathered so far from the mailing list. Certainly
+there is a bias towards my ideas.
+
+    - General Architecture:
+        - Client Server architecture for discussion.
+        - Central repository containing current valid legislation.
+        - Distributed repositories containing legislation under
+          discussion.
+        - Client is either a web browser or an e-mail client
+        - Server offers various services (see below)
+
+    - Server:
+        - All data on which the server operates, can be
+          retrieved and replicated on another instance of
+          metascore.
+            This ensures anybody can set up their own server
+            and see that the server is behaving as expected,
+            on a machine to which they have access.
+
+    - Subscriptions:
+        - available for discussions concerning topics (tags
+          see below)
+        - to all events in the life cycle (see below) of a
+          proposal
+        - messages via e-mail, rss and from the web-page
+        - amount and kind of messages are configurable based on the
+          score they receive and the topics they concern
+        - messages to discussions in which the user participates
+          will be sent regardless of subscription
+
+    - Website:
+        - pages members/groups
+        - current legislation
+        - proposed legislation
+        - discussion pages
+        - user preferences and account management
+        - no flash
+        - limited javascript(browser mustn't require it)
+
+    - Tagging:
+        - All legislation receives a unique tag which may be applied to
+          corresponding discussions.
+        - different revisions of of the same legislation use revision id
+          of the repository with a prefix &quot;rev&quot; as a tag
+        - used to group similar and competing legislation
+
+    - Discussions:
+        - Participation via e-mail
+            - Server will parse e-mails it receives for tags, so it
+              knows to which discussion a message belongs
+            - Conventions should be set up to help the server with
+              parsing
+            - Signed messages from users who have uploaded a PGP key for
+              their account, will be accepted like any message entered
+              through the web interface
+            - Unsigned messages will go through a spam filter and may
+              be marked as spam by users
+
+        - Participation through the website
+            - Messages may be entered like in any forum software
+            - Rating of messages, members and groups
+                - Ratings only apply to specific topics
+                - Ratings for value to the discussion, regardless
+                    of own opinion
+                - Ratings for level of agreement
+                - Ratings result in higher visibility of messages
+
+    - Voting:
+        - If no consensus can be reached on a proposal,
+          participants may decide to put it up for a vote.
+        - The participants can be restricted to registered and
+          verified members of the community.
+        - Voting will not be anonymous, as this will be to to difficult
+          to implement in a secure way.
+
+    - Repositories:
+        - All legislation is under revision control
+        - Legislation is plain text
+            - machine readable formating (title, paragraphs etc. can be parsed)
+        - Proposed legislation may be edited via a web interface
+-------------
+
+
+Manuel
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="008911.html">[Start] Code architecture
+</A></li>
+	<LI>Next message (by thread): <A HREF="008913.html">[Start] Code architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

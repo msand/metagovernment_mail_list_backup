@@ -1,0 +1,229 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Forum integration
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Forum%20integration&In-Reply-To=%3C20110530104810.GA4370%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012808.html">
+   <LINK REL="Next"  HREF="012810.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Forum integration</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Forum%20integration&In-Reply-To=%3C20110530104810.GA4370%40havoc.zelea.com%3E"
+       TITLE="[MG] Forum integration">mike at zelea.com
+       </A><BR>
+    <I>Mon May 30 06:48:10 EDT 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012808.html">[MG] Forum integration
+</A></li>
+        <LI>Next message (by thread): <A HREF="012810.html">[MG] Forum integration
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi Matteo,
+
+You ask what we think.  I think the list is a success.  But if others
+prefer a Web interface over email, then I withdraw my objections.  Do
+not be concerned about backward integration on my account.
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+Matteo Martini wrote:
+&gt;<i> 
+</I>&gt;<i> Hi all,I have received the below mail from Ed and I reply to 
+</I>&gt;<i> this in public, as asked by Ed.
+</I>&gt;<i> 
+</I>&gt;<i> -----------------------------------------------------------------------------------------------------------------------------
+</I>&gt;<i> &#160;
+</I>&gt;<i> Concerning 
+</I>&gt;<i> forum integration, there are three issues. OpenID is important, but the toughest 
+</I>&gt;<i> issue is integrating the new forum with the existing list server. The third 
+</I>&gt;<i> issue is choosing which forum to use.
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> If 
+</I>&gt;<i> it is logistically impractical to use a different forum, then we'll have to use 
+</I>&gt;<i> phpBB. But phpBB is fairly primitive, and I would really prefer to use a more 
+</I>&gt;<i> robust (but still open source) forum such as MyBB.
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> Supposing 
+</I>&gt;<i> we use MyBB, then the main issue is figuring out how to do two-directional 
+</I>&gt;<i> communication between the list (which is operated by Mailman software) and the 
+</I>&gt;<i> forum. Bi-directional means:
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> 1. 
+</I>&gt;<i> Any new thread in the list shows up as a new topic in one category of the 
+</I>&gt;<i> forum.
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> 2. 
+</I>&gt;<i> Any reply on the list shows up as a reply to the associated forum post.
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> 3. 
+</I>&gt;<i> Any new topic on the forum shows up as a new thread on the list.
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> 4. 
+</I>&gt;<i> Any reply on the forum shows up as a reply (ie, with a re:) on the list.
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> It 
+</I>&gt;<i> is possible the M2F can help with this
+</I>&gt;<i> <A HREF="http://mail2forum.com/v20-development/">http://mail2forum.com/v20-development/</A>
+</I>&gt;<i> but 
+</I>&gt;<i> it is in Alpha. Still it might be a good codebase to start with. They do a good 
+</I>&gt;<i> description of how it should work as well:
+</I>&gt;<i> <A HREF="http://mail2forum.com/v20-development/m2f-20-design/m2f-20-threading-uses-cases/">http://mail2forum.com/v20-development/m2f-20-design/m2f-20-threading-uses-cases/</A>
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> Then 
+</I>&gt;<i> there is the issue of OpenID integration. That is relatively straight-forward. I 
+</I>&gt;<i> would prefer to only allow people to subscribe to the list with an OpenID login. 
+</I>&gt;<i> The forum doesn't have to be an OpenID server, it can just be a client, where 
+</I>&gt;<i> people set up an OpenID somewhere else. If we use MyBB, there is an OpenID 
+</I>&gt;<i> module already built:
+</I>&gt;<i> <A HREF="http://mods.mybb.com/reviews/openid">http://mods.mybb.com/reviews/openid</A>
+</I>&gt;<i> but 
+</I>&gt;<i> I have not checked to see if it is really functional.
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> As 
+</I>&gt;<i> you can see, this is a tricky set of requirements, and they are all in flux. I 
+</I>&gt;<i> posted a question to the Mailman list to see if the people there have experience 
+</I>&gt;<i> with this sort of thing to give us some advice, but I have not heard back 
+</I>&gt;<i> yet.
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> If 
+</I>&gt;<i> we do end up having&#160;Sandesh&#160;or 
+</I>&gt;<i> someone program this, it would also be nice if they would be willing to 
+</I>&gt;<i> contribute their code back to the relevant projects so that others could use it 
+</I>&gt;<i> as well.
+</I>&gt;<i> &#160;
+</I>&gt;<i> -----------------------------------------------------------------------------------------------------------------------------
+</I>&gt;<i> &#160;
+</I>&gt;<i> I 
+</I>&gt;<i> will check with Sandesh if the requirements above can be done.
+</I>&gt;<i> I 
+</I>&gt;<i> am available to work with him nd then come back to you, preferrably with a 
+</I>&gt;<i> yes/no reply.
+</I>&gt;<i> However, 
+</I>&gt;<i> I have noted a few things that I would like to share with everybody:
+</I>&gt;<i> &#160;
+</I>&gt;<i> 1)&#160;&#160;&#160; 
+</I>&gt;<i> It looks that the list of requirements needed for a successful mailing 
+</I>&gt;<i> list-forum integration is getting longer and more difficult. I have asked few 
+</I>&gt;<i> experiences programmers and put two ads so far, but got only one reply from a 
+</I>&gt;<i> person who claims to be able to help (still, I was talking about the login 
+</I>&gt;<i> requirement only).
+</I>&gt;<i> 2)&#160;&#160;&#160; 
+</I>&gt;<i> Even if we make to successfully integrate the mailing list with the forum, there 
+</I>&gt;<i> will likely be issues, as more complicated the integration becomes, the more 
+</I>&gt;<i> likely we have errors
+</I>&gt;<i> &#160;
+</I>&gt;<i> As 
+</I>&gt;<i> for the above points, I would like to suggest a new solution: what about replace 
+</I>&gt;<i> entirely the mailing list with a forum?
+</I>&gt;<i> I 
+</I>&gt;<i> know this solution may be not recisely liked by everyone, especially the ones 
+</I>&gt;<i> already happy with the current list, but please consider this.
+</I>&gt;<i> Using 
+</I>&gt;<i> a forum insead of a mailing list would have (as far as I know) a lot of 
+</I>&gt;<i> advantages, with no disadvantage I know:
+</I>&gt;<i> &#160;
+</I>&gt;<i> 1)&#160;&#160;&#160; 
+</I>&gt;<i> with forum is easier to follow a lenghty discussion, you just need to look at 
+</I>&gt;<i> the posts in sequence
+</I>&gt;<i> 2)&#160;&#160;&#160; 
+</I>&gt;<i> it is easier to search past topics already discussed, you can have a search 
+</I>&gt;<i> function and it is easier to look for past threads
+</I>&gt;<i> 3)&#160;&#160;&#160; 
+</I>&gt;<i> easier to include pics and movies in the pst
+</I>&gt;<i> 4)&#160;&#160;&#160; 
+</I>&gt;<i> easier for new people to join the forum
+</I>&gt;<i> 5)&#160;&#160;&#160; 
+</I>&gt;<i> you can have &quot;sticky&quot; posts explaining what is Votorola and what has been done 
+</I>&gt;<i> so far
+</I>&gt;<i> &#160;
+</I>&gt;<i> I 
+</I>&gt;<i> do not know if there is any precise reason I do not know for using the mailing 
+</I>&gt;<i> list, but if not, we could try to see if a forum is better.
+</I>&gt;<i> &#160;
+</I>&gt;<i> What 
+</I>&gt;<i> I propose is:
+</I>&gt;<i> &#160;
+</I>&gt;<i> 1)&#160;&#160;&#160; 
+</I>&gt;<i> I can talk with the programmer, and we can move all the content of the mailing 
+</I>&gt;<i> list in a forum
+</I>&gt;<i> 2)&#160;&#160;&#160; 
+</I>&gt;<i> current memmbers IDs and passwords will be copied in the forum, so that people 
+</I>&gt;<i> will be able to login in the forum with the same password
+</I>&gt;<i> 3)&#160;&#160;&#160; 
+</I>&gt;<i> in a first phase, the forum will be in parallel with the mailing lsit, people 
+</I>&gt;<i> will post in one and we will copy the post in the other
+</I>&gt;<i> 4)&#160;&#160;&#160; 
+</I>&gt;<i> we will see which system works better
+</I>&gt;<i> 5)&#160;&#160;&#160; 
+</I>&gt;<i> the forum will be places from the start in a subsite of the current 
+</I>&gt;<i> metagovernment property site and will be 100% property of the people who own the mailing list now.6)&#160;&#160;&#160; 
+</I>&gt;<i> the current daily digest can be sent from the forum as well.
+</I>&gt;<i> 7)&#160;&#160;&#160; 
+</I>&gt;<i> if people will like more the forum solution, we will go ahead with the forum 
+</I>&gt;<i> only, and put a link in the mailing list site that redirects to the forum
+</I>&gt;<i> 8)&#160;&#160;&#160; 
+</I>&gt;<i> if people will like more the mailing list solution, we will quit the forum (I 
+</I>&gt;<i> will talk with the programmer and see, maybe I can bear all the expenses for the 
+</I>&gt;<i> migration myself)
+</I>&gt;<i> &#160;
+</I>&gt;<i> What 
+</I>&gt;<i> do eveybody think?
+</I>&gt;<i> &#160;
+</I>&gt;<i> Matteo
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012808.html">[MG] Forum integration
+</A></li>
+	<LI>Next message (by thread): <A HREF="012810.html">[MG] Forum integration
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

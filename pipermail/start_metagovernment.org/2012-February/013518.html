@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Difference bridge layout proposal
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Difference%20bridge%20layout%20proposal&In-Reply-To=%3C1329262066.FFc4640.4609%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013517.html">
+   <LINK REL="Next"  HREF="013523.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Difference bridge layout proposal</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Difference%20bridge%20layout%20proposal&In-Reply-To=%3C1329262066.FFc4640.4609%40out.zelea.com%3E"
+       TITLE="[MG] Difference bridge layout proposal">mike at zelea.com
+       </A><BR>
+    <I>Tue Feb 14 19:54:54 EST 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013517.html">[MG] Difference bridge layout proposal
+</A></li>
+        <LI>Next message (by thread): <A HREF="013523.html">[MG] Difference bridge layout proposal
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi C, (C already showed me a preview and we discussed it briefly on
+#votorola.)
+
+There's lots to comment on.  I look at my dev priorities (1 usability,
+2 attracting users and 3 scaling) and I guess this falls under 3; our
+basic stage design allows the user to construct different combinations
+of central scenes and peripheral tracks.  We can therefore accomodate
+the preferences of any user which is one requirement of scaling.
+<A HREF="http://zelea.com/project/votorola/_/javadoc/votorola/s/gwt/stage/StageV.html">http://zelea.com/project/votorola/_/javadoc/votorola/s/gwt/stage/StageV.html</A>
+
+You propose a new scene (horizontal difference bridge) to add to our
+repetoire plus some modified track designs for the stage.  When we get
+through alpha and beta, I suppose we'll have hundreds of scenes and
+tracks for users to combine.  My own work is currently focused on the
+minimum needed to get through alpha, but I don't want to discourage
+you and others from exploring.
+
+&gt;<i> Clarification problem (I have to skype with Mike): I am not yet sure
+</I>&gt;<i> how the left buttons in the xf toolbar are expected to behave, I
+</I>&gt;<i> have modelled them as toggle icons emphasizing which information is
+</I>&gt;<i> currently shown.
+</I>
+The white ones at top?  They are links.  I think I'll rename the top
+track &quot;LinkTrack&quot;.
+
+&gt;<i> Problems:
+</I>&gt;<i> 1) Obviously there is a lot information. At least three dimensions
+</I>&gt;<i> are in there: Differences between two texts, Votespace and
+</I>&gt;<i> communication history. Not shown is the history of differences,
+</I>&gt;<i> which could be configured in another track. Some smart ideas to
+</I>&gt;<i> strip out more details without losing core information? Maybe we
+</I>&gt;<i> don't need votespace?
+</I>
+The simpler and more focused the scene, the better it will combine
+with tracks and other scenes.  The more complex it becomes the more
+likely it'll rub something (or someone) the wrong way.  I would strip
+out unecessary details and move them to dedicated scenes or tracks.
+
+Mike
+
+
+conseo wrote:
+&gt;<i> Hi,
+</I>&gt;<i> 
+</I>&gt;<i> I have tried to make the horizontal difference bridge layout easier to 
+</I>&gt;<i> understand while adding all of Mike's information (1) except the poll track. 
+</I>&gt;<i> I'll take you through a short session on the bridge and explain my proposals 
+</I>&gt;<i> on the way:
+</I>&gt;<i> 
+</I>&gt;<i> 1) <A HREF="http://whiletaker.homeip.net/mockups/diffbridge/8/8a.xht">http://whiletaker.homeip.net/mockups/diffbridge/8/8a.xht</A>
+</I>&gt;<i> Come to the bridge, e.g. by clicking on a link in a forum post/email. Poll 
+</I>&gt;<i> type and title is shown in the left caption. Poll id is in the right caption. 
+</I>&gt;<i> Some tracks are activated by default on the xf toolbar, here the progress 
+</I>&gt;<i> track and the communications feed track. I have created smilies for that. The 
+</I>&gt;<i> colouring of the xf toolbar matches identities on the bridge below and doesn't 
+</I>&gt;<i> interfere with the red tones used to separately colour differences. Difference 
+</I>&gt;<i> #3 has already been patched in a previous session.
+</I>&gt;<i> 
+</I>&gt;<i> 2) <A HREF="http://whiletaker.homeip.net/mockups/diffbridge/8/8b.xht">http://whiletaker.homeip.net/mockups/diffbridge/8/8b.xht</A>
+</I>&gt;<i> Show the footings. I have aligned them ascending, to emphasize that it is a 
+</I>&gt;<i> different dimension (orthogonal information) and also underline the direction 
+</I>&gt;<i> of votespace. Currently I feel like making these votespace footings default as 
+</I>&gt;<i> Mike has.
+</I>&gt;<i> Clarification problem (I have to skype with Mike): I am not yet sure how the 
+</I>&gt;<i> left buttons in the xf toolbar are expected to behave, I have modelled them as 
+</I>&gt;<i> toggle icons emphasizing which information is currently shown.
+</I>&gt;<i> 
+</I>&gt;<i> Parallel voters for Ed. and Bu. are left out for now to avoid confusion. You 
+</I>&gt;<i> can directly navigate to other differences by hitting the white difference 
+</I>&gt;<i> symbols on the left of Mi. and on the right of Ed. Do you think this is handy?
+</I>&gt;<i> 
+</I>&gt;<i> 3) <A HREF="http://whiletaker.homeip.net/mockups/diffbridge/8/8c.xht">http://whiletaker.homeip.net/mockups/diffbridge/8/8c.xht</A>
+</I>&gt;<i> Click (pin) a communication element. The toolbar icon for communication 
+</I>&gt;<i> (bubble) is highlighted and the sender of the post is shown on the right 
+</I>&gt;<i> caption. Either the communication bubble icon or the text itself opens the 
+</I>&gt;<i> original post in a new tab.
+</I>&gt;<i> 
+</I>&gt;<i> 4) <A HREF="http://whiletaker.homeip.net/mockups/diffbridge/8/8d.xht">http://whiletaker.homeip.net/mockups/diffbridge/8/8d.xht</A>
+</I>&gt;<i> Ed logs in. The handle for this is missing at the moment in the xf-toolbar, 
+</I>&gt;<i> but I suppose it is meant to work that way with single-signon for the mini-
+</I>&gt;<i> beta. (2) Ed. bridges the second difference, text and bridge-button 
+</I>&gt;<i> immediately turn green and the patch operation is previewed. 
+</I>&gt;<i> 
+</I>&gt;<i> 5) <A HREF="http://whiletaker.homeip.net/mockups/diffbridge/8/8e.xht">http://whiletaker.homeip.net/mockups/diffbridge/8/8e.xht</A>
+</I>&gt;<i> Ed hovers the first difference and all communication items relating to this 
+</I>&gt;<i> difference are highlighted in its colour in the feed track. This is to give an 
+</I>&gt;<i> idea why we need to separate colour spaces between xf and other sites and in 
+</I>&gt;<i> general how highlighting helps to underline the connections. Hovering a head 
+</I>&gt;<i> in the feed can also highlight all related (linked in post) differences on the 
+</I>&gt;<i> bridge.
+</I>&gt;<i> 
+</I>&gt;<i> 6) <A HREF="http://whiletaker.homeip.net/mockups/diffbridge/8/8f.xht">http://whiletaker.homeip.net/mockups/diffbridge/8/8f.xht</A>
+</I>&gt;<i> Tooltips are shown the same way Mike has proposed for xf. On the bridge we can 
+</I>&gt;<i> use default tooltips aligned to the hovering cursor to explain actions.
+</I>&gt;<i> 
+</I>&gt;<i> Note: You can open the svg in inkscape and activate layers to play around 
+</I>&gt;<i> more. Feel free to post improved mockups in svg!
+</I>&gt;<i> 
+</I>&gt;<i> Problems:
+</I>&gt;<i> 1) Obviously there is a lot information. At least three dimensions are in 
+</I>&gt;<i> there: Differences between two texts, Votespace and communication history. Not 
+</I>&gt;<i> shown is the history of differences, which could be configured in another 
+</I>&gt;<i> track. Some smart ideas to strip out more details without losing core 
+</I>&gt;<i> information? Maybe we don't need votespace?
+</I>&gt;<i> 
+</I>&gt;<i> 2) Maybe the slider checkbox as shown in 8d is overkill. I have tried to 
+</I>&gt;<i> combine the touch-friendly checkboxes with appropriate symobls and arrows. One 
+</I>&gt;<i> could also use the simple default checkbox with a check sign instead of a 
+</I>&gt;<i> cross.
+</I>&gt;<i> 
+</I>&gt;<i> conseo
+</I>&gt;<i> 
+</I>&gt;<i> (1) <A HREF="http://zelea.com/project/votorola/s/gwt/stage/_/mock/diff-1.xht">http://zelea.com/project/votorola/s/gwt/stage/_/mock/diff-1.xht</A>
+</I>&gt;<i> (2) <A HREF="http://zelea.com/w/User:4consensus_WebDe/G/p/rovn">http://zelea.com/w/User:4consensus_WebDe/G/p/rovn</A>
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013517.html">[MG] Difference bridge layout proposal
+</A></li>
+	<LI>Next message (by thread): <A HREF="013523.html">[MG] Difference bridge layout proposal
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

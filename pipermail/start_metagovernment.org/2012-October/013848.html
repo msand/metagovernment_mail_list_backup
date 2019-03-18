@@ -1,0 +1,229 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Common business entity model
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Common%20business%20entity%20model&In-Reply-To=%3C1350875274.b6Cf6450.19023%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013843.html">
+   <LINK REL="Next"  HREF="013850.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Common business entity model</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Common%20business%20entity%20model&In-Reply-To=%3C1350875274.b6Cf6450.19023%40out.zelea.com%3E"
+       TITLE="[MG] Common business entity model">mike at zelea.com
+       </A><BR>
+    <I>Mon Oct 22 00:06:28 EDT 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013843.html">[MG] Common business entity model
+</A></li>
+        <LI>Next message (by thread): <A HREF="013850.html">[MG] [Ag Meinungsfindungstool] Common business entity model
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Marc and George,
+
+Thanks Marc, I have a rough understanding of the model now.  If any
+other English speakers have questions about it, then I'll try to
+answer them.  Sometimes explaining is the best way to learn.  ;^)
+
+Marc said:
+&gt;<i> That's true. But IMHO if a Group is composed of 2..* Participants,
+</I>&gt;<i> that doesn't mean a Participant can't be member of several
+</I>&gt;<i> Groups. So maybe we need a * multiplicity at the Groups side?
+</I>
+Or maybe an open diamond symbol (aggregate).  I think filled diamond
+(composite) implies a single group.
+
+
+George said:
+&gt;<i> So, a couple of simple domain models for argumentative discussions
+</I>&gt;<i> and consensus already exist:
+</I>&gt;<i> 1. A consensus ontology, based on IBIS, problem marketplaces and
+</I>&gt;<i> idea management:
+</I>&gt;<i> <A HREF="http://www.imc.com.gr/ontologies/eDialogos/consensus/">http://www.imc.com.gr/ontologies/eDialogos/consensus/</A>
+</I>
+Welcome George,
+
+<A HREF="http://www.imc.com.gr/ontologies/eDialogos/consensus/img/class_diagram_v0.1.png">http://www.imc.com.gr/ontologies/eDialogos/consensus/img/class_diagram_v0.1.png</A>
+I was looking at the core relations (eDialogos below).  I think I can
+map them to the terminology we use (in Outcast) and also AG Meinungs-
+findungstool (CBEM/AG):
+
+
+                  has                has
+  IdeaContest  &lt;-------  Idea  -----------&gt;  User          (eDialogos)
+
+         Poll  &lt;-------  Position  -------&gt;  Person        (Outcast)
+
+        Topic  &lt;-------  Opinion  --------&gt;  Participant   (CBEM/AG)
+
+
+Maybe this can be our Rosetta stone for the rest of the world. :-)
+
+Michael
+
+
+marc said:
+&gt;<i> Michael Allan wrote:
+</I>&gt;<i> &gt;Marc said:
+</I>&gt;<i> &gt;&gt; Here is a first draft of our idea of a Common Business Entity Model
+</I>&gt;<i> &gt;&gt; (where 'Business' means it's not a 'Data' Entity Relationship Model
+</I>&gt;<i> &gt;&gt; assignable to a database schema, it's just objects found in the real
+</I>&gt;<i> &gt;&gt; world - the database schema might look totally different):
+</I>&gt;<i> &gt;&gt; <A HREF="http://wiki.piratenpartei.de/wiki/images/4/45/DSFS-BusinessEntityModel.jpg">http://wiki.piratenpartei.de/wiki/images/4/45/DSFS-BusinessEntityModel.jpg</A>
+</I>&gt;<i> 
+</I>&gt;<i> &gt;I have some questions about the model.  To keep them separate from my
+</I>&gt;<i> &gt;other questions, I opened this thread.
+</I>&gt;<i> 
+</I>&gt;<i> &gt;(a) Why is discussion itself not modeled?  It's crucial of course, but
+</I>&gt;<i> &gt;I don't see it anywhere.
+</I>&gt;<i> 
+</I>&gt;<i> This model is currently meant to be the base solely for the discussion 
+</I>&gt;<i> system!
+</I>&gt;<i> Therefore the discussion itself is a 'Process' or 'Workflow' not an 
+</I>&gt;<i> 'Entity'.
+</I>&gt;<i> 
+</I>&gt;<i> &gt;(b) Why is a vote included as an actual (real world) entity?  Myself,
+</I>&gt;<i> &gt;I think of voting as a formality of the system, something new we
+</I>&gt;<i> &gt;introduce.  It does have *correlates* in the real world, but people
+</I>&gt;<i> &gt;don't actually go about casting votes in order to form their opinions,
+</I>&gt;<i> &gt;not yet.
+</I>&gt;<i> 
+</I>&gt;<i> Ok. Sorry. This is definitely a problem in translation. Please read 'RATING' 
+</I>&gt;<i> instead of 'VOTE' here!
+</I>&gt;<i> 
+</I>&gt;<i> &gt;(In fact, most of the right side seems to be modeling a
+</I>&gt;<i> &gt;artificial system yet to be deployed, not the real world.  I probably
+</I>&gt;<i> &gt;mistook your meaning for &quot;business entity&quot;.)
+</I>&gt;<i> 
+</I>&gt;<i> Yeah, that's me too ;o) Business Entity is not a good term at all. What it 
+</I>&gt;<i> wants to express is, that it is not a DATA ENTITY, that can be mapped 
+</I>&gt;<i> directly to a database schema. Even if sometimes it would ;o)
+</I>&gt;<i> 
+</I>&gt;<i> In fact we are modeling the entities of an artificial system here. But maybe 
+</I>&gt;<i> we can use the term 'Domain Entity' as George Anadiotis suggested. That's 
+</I>&gt;<i> more close to what I think the entities are all about.
+</I>&gt;<i> 
+</I>&gt;<i> &gt;Looking at the left side, I see a few possible errors:
+</I>&gt;<i> 
+</I>&gt;<i> &gt;(c) An opinion is not really (in itself) a document.  A document can
+</I>&gt;<i> &gt;be involved in the formalization and expression of an opinion, but the
+</I>&gt;<i> &gt;opinion is not bound to that form.
+</I>&gt;<i> 
+</I>&gt;<i> Yes you are right. So it is not realy about real world entities but more 
+</I>&gt;<i> about the domain entities that are reflected by the system. So sorry for 
+</I>&gt;<i> misleading you!
+</I>&gt;<i> 
+</I>&gt;<i> In our working group we decided, that the Discussion System is only able to 
+</I>&gt;<i> deal with textual input. No video or audio processing capabilities. That's 
+</I>&gt;<i> why at the end everything boils down to some combination of characters.
+</I>&gt;<i> 
+</I>&gt;<i> &gt;(d) Likewise, a point of view is not an opinion (at least not in
+</I>&gt;<i> &gt;English).  It is one's outlook from a personal situation.  It may
+</I>&gt;<i> &gt;influence opinion in peculiar ways, but is not an opinion in itself.
+</I>&gt;<i> 
+</I>&gt;<i> Ok. That's unfortunately also lost in translation I believe. Please read 
+</I>&gt;<i> POSITION instead of POINT OF VIEW. The groups position is a consensus of all 
+</I>&gt;<i> individual opinions of the group members.
+</I>&gt;<i> 
+</I>&gt;<i> &gt;(e) Group membership is not a closed composite relation, but rather an
+</I>&gt;<i> &gt;open aggregate.  One can be a member of many groups.
+</I>&gt;<i> 
+</I>&gt;<i> That's true. But IMHO if a Group is composed of 2..* Participants, that 
+</I>&gt;<i> doesn't mean a Participant can't be member of several Groups. So maybe we 
+</I>&gt;<i> need a * multiplicity at the Groups side?
+</I>&gt;<i> 
+</I>&gt;<i> &gt;Although I don't have a full understanding yet, I suspect it will be
+</I>&gt;<i> &gt;difficult to find the right model to code by.  It may take a while.
+</I>&gt;<i> &gt;Later (in the other thread), I'll try to suggest a way of buying time
+</I>&gt;<i> &gt;and (possibly) evolving some of the models by discovery.
+</I>&gt;<i> 
+</I>&gt;<i> Ok. Thank you!
+</I>&gt;<i> 
+</I>&gt;<i> Cheers
+</I>&gt;<i> Marc 
+</I>
+
+George Anadiotis said:
+&gt;<i> Dear Marc and Michael, all
+</I>&gt;<i> 
+</I>&gt;<i> i hope i am not &quot;interrupting&quot; your discussion, but it seems to me there is
+</I>&gt;<i> something here which i may be able to contribute - even though
+</I>&gt;<i> unfortunately i have not been active on the list, i still do some work on
+</I>&gt;<i> the topic.
+</I>&gt;<i> 
+</I>&gt;<i> So, i am glad to see that the discussion is getting active and entering
+</I>&gt;<i> what appears to me like a standardization / integration stage. Typically,
+</I>&gt;<i> there are 2 ways to deal with interoperability - on the functionality and
+</I>&gt;<i> on the data level. So in your example, that would translate to having T1
+</I>&gt;<i> being able to call some API on T2 in order to perform functions on it on
+</I>&gt;<i> behalf of a T1 user, and vice versa, and having T1 and T2 exchange some
+</I>&gt;<i> data in order to process them.
+</I>&gt;<i> 
+</I>&gt;<i> Some common denominator can be agreed on on both levels, however i would
+</I>&gt;<i> like to emphasize more on the data side of things here. It seems to me that
+</I>&gt;<i> what you are doing is trying to come up with a schema to describe basic
+</I>&gt;<i> domain entities, their properties and relations - in other words, come up
+</I>&gt;<i> with a domain ontology. I do not want to lecture anyone here or to go on
+</I>&gt;<i> extensively about this, but i would just like to point out to a body of
+</I>&gt;<i> scientific work on the subject that you may be interested in - there's no
+</I>&gt;<i> point in reinventing the wheel after all.
+</I>&gt;<i> 
+</I>&gt;<i> So, a couple of simple domain models for argumentative discussions and
+</I>&gt;<i> consensus already exist:
+</I>&gt;<i> 1. A consensus ontology, based on IBIS, problem marketplaces and idea
+</I>&gt;<i> management: <A HREF="http://www.imc.com.gr/ontologies/eDialogos/consensus/">http://www.imc.com.gr/ontologies/eDialogos/consensus/</A>
+</I>&gt;<i> 2. An argumentative discussion ontology, based on
+</I>&gt;<i> IBIS&lt;<A HREF="http://en.wikipedia.org/wiki/Issue-Based_Information_System">http://en.wikipedia.org/wiki/Issue-Based_Information_System</A>&gt;and
+</I>&gt;<i> SIOC &lt;<A HREF="http://ceur-ws.org/Vol-494/coinpaper8.pdf">http://ceur-ws.org/Vol-494/coinpaper8.pdf</A>&gt;: <A HREF="http://">http://</A>
+</I>&gt;<i> ceur-ws.org/Vol-405/paper4.pdf
+</I>&gt;<i> 3. A survey of existing work in the domain:
+</I>&gt;<i> <A HREF="http://www.semantic-web-journal.net/sites/default/files/swj138_2.pdf">http://www.semantic-web-journal.net/sites/default/files/swj138_2.pdf</A>
+</I>&gt;<i> 
+</I>&gt;<i> The 1st and 2nd approach can be harmonized, and this is set as future work.
+</I>&gt;<i> There is also a body of work on the aspect of consensus on the ontology
+</I>&gt;<i> development process itself which could be interesting here. Hope this
+</I>&gt;<i> helps, let me know if you are interested in more details.
+</I>&gt;<i> 
+</I>&gt;<i> best regards
+</I>&gt;<i> George Anadiotis
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013843.html">[MG] Common business entity model
+</A></li>
+	<LI>Next message (by thread): <A HREF="013850.html">[MG] [Ag Meinungsfindungstool] Common business entity model
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

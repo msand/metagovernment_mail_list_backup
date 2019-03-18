@@ -1,0 +1,224 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Crossforum theatre map - projecting a Vilfredo feed
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Crossforum%20theatre%20map%20-%20projecting%20a%20Vilfredo%20feed&In-Reply-To=%3CAANLkTi%3DgKGx5t_OZnb3GwjWvxd_-F%2BMV_LnsFV-hk0Se%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012183.html">
+   <LINK REL="Next"  HREF="012186.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Crossforum theatre map - projecting a Vilfredo feed</H1>
+    <B>Pietro Speroni di Fenizio</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Crossforum%20theatre%20map%20-%20projecting%20a%20Vilfredo%20feed&In-Reply-To=%3CAANLkTi%3DgKGx5t_OZnb3GwjWvxd_-F%2BMV_LnsFV-hk0Se%40mail.gmail.com%3E"
+       TITLE="[MG] Crossforum theatre map - projecting a Vilfredo feed">metagovernment at pietrosperoni.it
+       </A><BR>
+    <I>Mon Jan 10 04:34:55 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012183.html">[MG] Crossforum theatre map - projecting a Vilfredo feed
+</A></li>
+        <LI>Next message (by thread): <A HREF="012186.html">[MG] Crossforum theatre map - projecting a Vilfredo feed
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi Michael,
+Ok, let's get technical.
+
+As you know Vilfredo has a number of rooms. which provide the space
+for different groups to meet, as well as to have space that can be
+tied to geographical places or to give privacy. Rooms are not
+advertised, so if you use a weird name for the room, like
+&quot;dbwixwxwnj&quot;, no one will ever find it, unless you give them the
+direct link.
+
+Each room has an rss feed. The adress of the rss feed is:
+<A HREF="http://vilfredo.org/rss.php?room=[Name">http://vilfredo.org/rss.php?room=[Name</A> of the Room]
+
+So the room Vilfredo (where we discuss enhancement to Vilfredo itself)
+will have the rss feed:
+<A HREF="http://vilfredo.org/rss.php?room=Vilfredo">http://vilfredo.org/rss.php?room=Vilfredo</A>
+
+The only exception being the common room, which is at
+<A HREF="http://vilfredo.org/rss.php">http://vilfredo.org/rss.php</A> without any name of the room.
+
+The rss feed has several extra elements right now.
+
+Over and above the usual we have:
+vga:status
+vga:shorturl
+vga:room
+vga:numberProposals
+vga:twitter
+vga:generation
+
+The status will tell you if it is in the voting or proposing stage.
+The shorturl is the url that uses bit.ly to link to the page
+the room is the room where the question is asked
+the number proposals is the number of proposals that has been asked to
+vote among
+the twitter is a phrase that should be published through twitter
+(@Vg2A) for the question. Right now we are only publishing questions
+from the common room.
+and the generation is obviously the generation that is running.
+
+The rss is automatically fetched from yahoo pipes, and modified to be
+then pushed into twitter.
+What happens here is that the vga:twitter is substituted to the title,
+and the the result is pushed into an rss to twitter service, that
+pushes it into twitter.
+
+The address of the pipe fetching the rss feed is:
+<A HREF="http://pipes.yahoo.com/pipes/pipe.info?_id=bb6f972cba035e3a319ef7841f2a1ee2">http://pipes.yahoo.com/pipes/pipe.info?_id=bb6f972cba035e3a319ef7841f2a1ee2</A>
+
+The pipe can run for any room, and even for any other version of
+Vilfredo, as it has two inputs, the room name, and the website
+address.
+
+The rss after running through the pipe is then available for everybody.
+For example the address for the yahoo pipes rss for the room Vilfredo is:
+<A HREF="http://pipes.yahoo.com/pipes/pipe.run?_id=bb6f972cba035e3a319ef7841f2a1ee2&amp;_render=rss&amp;room=Vilfredo&amp;site=vilfredo.org">http://pipes.yahoo.com/pipes/pipe.run?_id=bb6f972cba035e3a319ef7841f2a1ee2&amp;_render=rss&amp;room=Vilfredo&amp;site=vilfredo.org</A>
+
+I think it would be a piece of cake for you to go to this yahoo pipe,
+clone the pipe (just click on the clone link) and change it so that
+you can have the rss as you want it. Provided you don't need any extra
+information this is probably the best way to proceed.
+
+We are right now thinking about doing two things:
+1) all the rooms that are all in CAPITOL LETTERS should be public, to
+the point that all of them should appear in the official twitter page.
+So we can have a SPANISH page and an ITALIAN page, and a BELGIUM page
+and an INDONESIA page, and an ENVIRONMENT page. ANd there is no need
+for the person to advertise it.
+
+2) [and this I don't know if it is possible] It is important that no
+one should have rights over a page. I don't want a situation where the
+first person that writes in a page gets possession of it, or similar.
+But it is useful if some pages were linked to some localities. For
+example the page ITALIA, should be linked to Italy. And ROMA to Rome.
+Now, I wonder if there is an automatic way to do it. Maybe there is a
+service offered by yahoo or google that given a name gives you back
+the coordinates they assume that name refers to. It might be often
+wrong, but sometimes right. If this is the case, those coordinates
+would end up being really useful for the geoforum.
+
+
+
+
+On 10 January 2011 05:45, Michael Allan &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">mike at zelea.com</A>&gt; wrote:
+&gt;<i> In reply to Pietro and Thomas,
+</I>&gt;<i>
+</I>&gt;<i> I'm keen on Pietro's idea of a question-state/vote-state feed, and
+</I>&gt;<i> hopeful we can move on it.
+</I>&gt;<i>
+</I>&gt;<i> Pietro Speroni di Fenizio wrote:
+</I>&gt;&gt;<i> We should have a system on Vilfredo where who asks a question can
+</I>&gt;&gt;<i> define a [geo]position for it.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> And who answers (or votes) a [geo]position for them. &#160;Every time a
+</I>&gt;&gt;<i> person votes or writes a proposal the question [geo]position should
+</I>&gt;&gt;<i> light up. (remember that at this time proposals or votes are
+</I>&gt;&gt;<i> anonymous, we cannot give away the [geo]position of the voter). &#160;And
+</I>&gt;&gt;<i> then when a question is moved on, all the [geo]position for the
+</I>&gt;&gt;<i> people who have voted should be available and the geomap should
+</I>&gt;&gt;<i> decide what to do with this information. Like you click on the
+</I>&gt;&gt;<i> question and the other positions appear, maybe linked. Or when the
+</I>&gt;&gt;<i> question is moved on the proposals all light up briefly. And so on.
+</I>&gt;<i>
+</I>&gt;<i> Vilfredo already has a newsfeed I think you said? &#160;Maybe we can put
+</I>&gt;<i> its news items on the crossforum stage and project them on the map.
+</I>&gt;<i> We'd need question IDs embeddable in each item and (when permitted)
+</I>&gt;<i> user IDs. &#160;Can you provide those?
+</I>&gt;<i>
+</I>&gt;<i> The geospatial meta-data (location and so forth) needn't be added
+</I>&gt;<i> directly to Vilfredo. &#160;It can be added externally using the common
+</I>&gt;<i> pollwiki. &#160;The pollwiki has semantic capabilities, so it can easily
+</I>&gt;<i> tag a Vilfredo question with meta-data. &#160;That way, if the same
+</I>&gt;<i> question happened to pop up on another vote-server (or another
+</I>&gt;<i> instance of Vilfredo), then the two could share the same meta-data.
+</I>&gt;<i>
+</I>&gt;<i> I think we could code this pretty quickly, if others agree it's a
+</I>&gt;<i> positive direction.
+</I>&gt;<i>
+</I>&gt;&gt;<i> Also it would be good if the system makes some sort of automatic
+</I>&gt;&gt;<i> video (or just renders it somehow) for a certain time. For example.
+</I>&gt;&gt;<i> What happened in the last 24 hours? And I see the video and find
+</I>&gt;&gt;<i> out.
+</I>&gt;<i>
+</I>&gt;<i> Thomas had the related idea of a replay facility where you could
+</I>&gt;<i> re-position the feed at any point in time, and run it forward or
+</I>&gt;<i> backward at varying speeds. &#160;His idea of an &quot;after-glow&quot; effect for
+</I>&gt;<i> map spotlighting was tied to that.
+</I>&gt;<i>
+</I>&gt;<i> Thomas von der Elbe wrote:
+</I>&gt;&gt;<i> Would it be difficult to have a button at the bottom of the map,
+</I>&gt;&gt;<i> which links to the ohter map (the 3-dimensional one) and back? &#160;It
+</I>&gt;&gt;<i> would make its future functionality even more clear.
+</I>&gt;<i>
+</I>&gt;<i> I guess you're right, we need a map-switching control ASAP. &#160;Where to
+</I>&gt;<i> put it raises the bigger question of control layout in general, which
+</I>&gt;<i> is something of a problem. &#160;Maybe the &quot;control mask&quot; is part of the
+</I>&gt;<i> solution, but I'm not sure:
+</I>&gt;<i> <A HREF="http://zelea.com/project/votorola/a/crossforum/theatrePlan.png">http://zelea.com/project/votorola/a/crossforum/theatrePlan.png</A>
+</I>&gt;<i>
+</I>&gt;<i> Or maybe we shouldn't think about it too much. &#160;Just float a
+</I>&gt;<i> transparent control panel somewhere on the screen as a temporary
+</I>&gt;<i> stop-gap? &#160;(I agree it's a priority.)
+</I>&gt;<i>
+</I>&gt;<i> Meantime, here are some demo links and bookmarklet controls that might
+</I>&gt;<i> be helpful: <A HREF="http://zelea.com/project/votorola/a/crossforum/#demo">http://zelea.com/project/votorola/a/crossforum/#demo</A>
+</I>&gt;<i> <A HREF="http://zelea.com/project/votorola/a/crossforum/#control">http://zelea.com/project/votorola/a/crossforum/#control</A>
+</I>&gt;<i>
+</I>&gt;<i> BTW - Conseo and I have merged code, so I'm looking at getting his
+</I>&gt;<i> live diff feed projected on the map, too.
+</I>&gt;<i>
+</I>&gt;<i> --
+</I>&gt;<i> Michael Allan
+</I>&gt;<i>
+</I>&gt;<i> Toronto, +1 416-699-9528
+</I>&gt;<i> <A HREF="http://zelea.com/">http://zelea.com/</A>
+</I>&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Start : a mailing list of the Metagovernment project
+</I>&gt;<i> <A HREF="http://www.metagovernment.org/">http://www.metagovernment.org/</A>
+</I>&gt;<i> Post to the list: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Start at metagovernment.org</A>
+</I>&gt;<i> Manage subscription: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">http://metagovernment.org/mailman/listinfo/start_metagovernment.org</A>
+</I>&gt;<i>
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012183.html">[MG] Crossforum theatre map - projecting a Vilfredo feed
+</A></li>
+	<LI>Next message (by thread): <A HREF="012186.html">[MG] Crossforum theatre map - projecting a Vilfredo feed
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

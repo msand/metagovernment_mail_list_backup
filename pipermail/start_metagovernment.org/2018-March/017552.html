@@ -1,0 +1,171 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Democratizing Blockchain Governance in Versioning
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Democratizing%20Blockchain%20Governance%20in%20Versioning&In-Reply-To=%3Cab6c887c-a422-16ef-cba4-7441d0baa1eb%40abo.fi%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="017543.html">
+   <LINK REL="Next"  HREF="008766.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Democratizing Blockchain Governance in Versioning</H1>
+    <B>Mikael Sand</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Democratizing%20Blockchain%20Governance%20in%20Versioning&In-Reply-To=%3Cab6c887c-a422-16ef-cba4-7441d0baa1eb%40abo.fi%3E"
+       TITLE="[MG] Democratizing Blockchain Governance in Versioning">msand at abo.fi
+       </A><BR>
+    <I>Sun Mar 25 10:51:45 EDT 2018</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="017543.html">[MG] Democratizing Blockchain Governance in Versioning
+</A></li>
+        <LI>Next message (by thread): <A HREF="008766.html">[MG] Direct democracy &#8212; there's an app for that
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>On 3/21/2018 1:42 AM, Scott Raney wrote:
+
+&gt;<i> On Tue, Mar 20, 2018 at 12:32 PM, Edward Pastore
+</I>&gt;<i> &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">epastore at metagovernment.org</A>&gt; wrote:
+</I>&gt;&gt;<i> There is an antidemocratic governance problem in cryptocurrencies as they
+</I>&gt;&gt;<i> exist now.
+</I>&gt;<i> Yeah, and that's really the least of the problems, the biggest one
+</I>&gt;<i> being that blockchain is a solution in search of a problem. I have yet
+</I>&gt;<i> to see anyone answer even my most basic questions as why blockchain
+</I>&gt;<i> provides anything useful at all to EDD:
+</I>&gt;<i>
+</I>&gt;<i> 1) Since you have to trust the executive branch to actually
+</I>&gt;<i> *implement* any of the decisions made using the system, why is it so
+</I>&gt;<i> much to ask to trust it to run the decisionmaking system itself?
+</I>One problem I can think of is the deletion / censoring of data, this 
+needs to be externally monitored and verified in a both centralized and 
+decentralized systems. The crucial part being to witness in what order 
+do additions to the immutable persistent storage happen, and maintain 
+consensus of this. No proof of work needed, this is actually strange 
+form of consistency, the cost of censoring/double-spend is merely 
+related to the amount of money/hardware/energy you're willing to invest 
+(probably within the budget of US/RUS military etc), rather than 
+consensus on what changes happened when. I've made a proposal based on 
+&quot;proof of communicating witnesses&quot; 
+<A HREF="https://github.com/hyperledger/hyperledger/issues/18#issuecomment-349709686">https://github.com/hyperledger/hyperledger/issues/18#issuecomment-349709686</A> 
+but later on I found <A HREF="https://www.radixdlt.com/">https://www.radixdlt.com/</A> which does essentially 
+the same thing. Monitoring and maintaining consensus can be relatively 
+fast and cheap, given the time it takes to calculate hashes and the 
+round-trip-time latency of communicating this globally.
+
+Alternatively, if simply distributed databases and a decentralized web 
+is wanted, one can use <A HREF="https://datproject.org/">https://datproject.org/</A> and 
+<A HREF="https://www.scuttlebutt.nz/">https://www.scuttlebutt.nz/</A> as a gossip protocol. No blockchain needed. 
+Can try it today with the <A HREF="https://beakerbrowser.com/">https://beakerbrowser.com/</A>
+
+And I don't see a problem with distributed ledgers and democratic 
+processes. Its up to people what system they use, not how many nodes a 
+blockchain / consensus network has.
+&gt;<i>
+</I>&gt;<i> 2) Since I think we all agree that some sort of
+</I>&gt;<i> delegation/representation system is required doesn't that require open
+</I>&gt;<i> voting, eliminating the need or even the ability to use encryption on
+</I>&gt;<i> the vote data?
+</I>&gt;<i>
+</I>&gt;<i> 3) Even if you don't believe #2 is a requirement (and I'd like to see
+</I>&gt;<i> the handwaving you'll need to do to come up with an alternative that
+</I>&gt;<i> supports delegation), surely having the ability to verify your *own*
+</I>&gt;<i> vote in a centrally managed system is sufficient to detect tampering
+</I>&gt;<i> by the executive branch?
+</I>I hope the previous paragraph makes it clear that we need to monitor 
+that all data remains immutable, not only our own.
+&gt;<i>
+</I>&gt;<i> 4) To operate at scale, the system must be able to manage billions of
+</I>&gt;<i> transactions in a relatively short period of time (certainly less than
+</I>&gt;<i> 24 hours). No blockchain system can do this, a flaw that is
+</I>&gt;<i> fundamental to the design of the architecture. How do you propose to
+</I>&gt;<i> get around this?
+</I>Have you heard about directed acyclic graphs? E.g. the Tangle used in 
+<A HREF="https://iota.org/">https://iota.org/</A>
+They can scale much nicer than the traditional blockchain with nakamoto 
+consensus.
+&gt;<i>
+</I>&gt;<i> And just to round out the collection, I *also* happen to believe that
+</I>&gt;<i> blockchain is inappropriate to even use for &quot;currency&quot; for reasons #1
+</I>&gt;<i> and #4 and furthermore because it effectively prohibits implementation
+</I>&gt;<i> of &quot;fiat currency&quot;, a tool that is necessary to manage the economy
+</I>&gt;<i> (inflation, recession, etc.) IMHO blockchain's only use is as
+</I>&gt;<i> commodity to be used for speculation (actually, I'd just call it
+</I>&gt;<i> gambling), maybe as a way of reducing the risk of criminal activity,
+</I>&gt;<i> and definitely as a way to waste a whole lot of energy thereby making
+</I>&gt;<i> it a significant contributor to climate change. It's simply delusional
+</I>&gt;<i> think about it as being &quot;money&quot;.
+</I>Fiat currency or quite similar systems can for sure be built on 
+distributed immutable log like systems as long as the participants agree 
+on the rules. You can do it without any 
+proof-of-work/stake/space/elapsed-time, if a web of trust exists among 
+the actors taking part of the economy.
+E.g. <A HREF="https://duniter.org/en/">https://duniter.org/en/</A> implements the Universal Dividend, as 
+specified by the theory called Relative Money Theory.
+<A HREF="https://duniter.org/en/theoretical/">https://duniter.org/en/theoretical/</A>
+<A HREF="http://vit.free.fr/TRM/en_US/">http://vit.free.fr/TRM/en_US/</A>
+&gt;<i>
+</I>&gt;<i> Actually the *most* amazing thing about blockchain is how completely
+</I>&gt;<i> obvious people are to the fact that it only has any value because we
+</I>&gt;<i> *believe* it has value, and yet that is the very same belief process
+</I>&gt;<i> that allows governments to exist. Why is it so hard to believe that we
+</I>&gt;<i> can change or replace the government if you can believe in something
+</I>&gt;<i> that is far more fantastical like the &quot;value&quot; of a bitcoin?
+</I>While something doesn't have universal acceptance as a method of 
+payment, or sufficiently easy liquidity, it shouldn't be considered 
+&quot;actual&quot; money. And in no case does it have any value like assets or 
+commodities do, you cannot estimate the value of them or predict if the 
+current irrational market price is above or below that value, only 
+speculate on the future exchange rates of the limited collectible(s). 
+Essentially the difference between investments and trading, the tools 
+used in one fail miserably in the other.
+&gt;<i>
+</I>&gt;<i>    Regards,
+</I>&gt;<i>      Scott
+</I>&gt;<i>
+</I>&gt;&gt;<i> P.S. Interestingly, as I was writing this, a friend sent me an article which
+</I>&gt;&gt;<i> details this exact problem:
+</I>&gt;&gt;<i> <A HREF="https://www.technologyreview.com/s/610018/bitcoin-and-ethereum-have-a-hidden-power-structure-and-its-just-been-revealed/">https://www.technologyreview.com/s/610018/bitcoin-and-ethereum-have-a-hidden-power-structure-and-its-just-been-revealed/</A>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Start : a mailing list of the Metagovernment project
+</I>&gt;<i> <A HREF="http://www.metagovernment.org/">http://www.metagovernment.org/</A>
+</I>&gt;<i> Post to the list: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Start at metagovernment.org</A>
+</I>&gt;<i> Manage subscription: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">http://metagovernment.org/mailman/listinfo/start_metagovernment.org</A>
+</I>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="017543.html">[MG] Democratizing Blockchain Governance in Versioning
+</A></li>
+	<LI>Next message (by thread): <A HREF="008766.html">[MG] Direct democracy &#8212; there's an app for that
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

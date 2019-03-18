@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Peer to Peer Architecture
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Peer%20to%20Peer%20Architecture&In-Reply-To=%3C916cd8c0805040053v2f02b2a0lb76151054ee1de70%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="008947.html">
+   <LINK REL="Next"  HREF="008968.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Peer to Peer Architecture</H1>
+    <B>Manuel Barkhau</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Peer%20to%20Peer%20Architecture&In-Reply-To=%3C916cd8c0805040053v2f02b2a0lb76151054ee1de70%40mail.gmail.com%3E"
+       TITLE="[Start] Peer to Peer Architecture">mbarkhau at googlemail.com
+       </A><BR>
+    <I>Sun May  4 03:53:19 EDT 2008</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="008947.html">[Start] Peer to Peer Architecture
+</A></li>
+        <LI>Next message (by thread): <A HREF="008968.html">[Start] Peer to Peer Architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>The thread seems to have drifted off of the mailing list, so I' reposting
+the other messages:
+
+--------------
+to	Aur Saraf &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">sonoflilit at gmail.com</A>&gt;,
+date	3 May 2008 09:02
+subject	Re: [Start] Peer to Peer Architecture
+mailed-by	googlemail.com
+	
+	
+&gt;<i> &gt; to be made available to a user and just that user, by
+</I>&gt;<i> &gt; encrypting them with his public key.
+</I>&gt;<i> &gt;
+</I>&gt;<i>
+</I>&gt;<i>  Signing them, you mean.
+</I>
+No, encrypting: if you want to send me a message across a public
+network, which only I can read, you encrypt it with my public key.
+
+&gt;<i> Why do we need anonymous votes? Forgetting the fact that it is impossible in
+</I>&gt;<i> a non-public ballot (network sniffing), I don't see any need for it in our
+</I>&gt;<i> system. On the contrary, in a system where every citizen has the power of a
+</I>&gt;<i> senator, I think every citizen's votes should be made just as public.
+</I>
+I also don't think we really need it, but as we have discussed in other
+threads, if people want it, we should offer it.
+Regarding sniffing: If the ballot, containing the vote and a token send by
+the central authority is encrypted, the only information you may be able to
+determine, is if a person has voted or not.
+
+&gt;<i> Police covers political persecution.
+</I>
+Scenario 1: Wife not wanting to upset her husband by voting
+differently from him.
+Scenario 2: Employer fires a worker for a publicly viewable vote.
+Scenario 3: Police officer becomes alienated by his colleagues for
+voting a certain way.
+etc. etc.
+
+Not much the police can do in most of these situation. Nobody is being
+directly forced to vote a certain way, nonetheless, they aren't free to
+vote as they please. All this is handled by anonymous voting.
+
+Assuming anonymous voting:
+
+Scenario 4: A person expressing wanting to vote for a controversial bill, but
+without access to a terminal from which she can't be watched.
+
+There are certain prerequisites for using this software, be it a certain
+degree of technical literacy or cheap and widespread computers. Maybe
+one of them is a certain maturity of the community, where Scenario 4
+isn't an issue. In any case, it's nothing we can solve by a technical measure,
+the only solution I see, is a voting booth.
+
+&gt;<i> Nothing can be spammed in a system where nothing is anon,
+</I>
+Who said nothing was anonymous? Nothing is stopping you, from
+creating a PGP-Keypair for an alias. I can sign all my messages as
+SpammerDeluxe, and you can be certain that all the junk mail you
+receive from me, actually comes from me. Not that thats something
+you would be interested in verifying, but that's all that the signature
+can tell you.
+
+What we may do however is allow keys to be verified by the community,
+so that you only need to accept messages with signatures from keys
+which have been verified as belonging to a member of the community.
+This mitigates the problem somewhat.
+
+Manuel
+
+-------------
+
+to	<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">mbarkhau at gmail.com</A>
+date	3 May 2008 15:30
+subject	Re: [Start] Peer to Peer Architecture
+mailed-by	gmail.com
+	
+
+On Sat, May 3, 2008 at 10:02 AM, Manuel Barkhau &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">mbarkhau at googlemail.com</A>&gt; wrote:
+
+&gt;<i>  No, encrypting: if you want to send me a message across a public
+</I>&gt;<i>  network, which only I can read, you encrypt it with my public key.
+</I>
+Sorry, my mistake. Thanks for the correction.
+
+The real problem with anonymous voting is that it makes the whole
+thing unverifiable. Without anon-voting, the only aspect of the system
+that can be cheated by the server is filtering out unwanted opinions
+(and that can be exposed easily by the poster and published, creating
+a huge scandal and overthrowing the old admins of the system). With
+anon-voting, suddenly nothing in the system can be trusted and nothing
+can be done about it. There MIGHT be a very elegant crypto solution to
+that where the votes are stored half encrypted and signed with the
+rest of the data, every user can count them and every user can verify
+his own vote... We should think about that.
+
+&gt;<i>  &gt; Nothing can be spammed in a system where nothing is anon,
+</I>&gt;<i>
+</I>&gt;<i>  Who said nothing was anonymous? Nothing is stopping you, from
+</I>&gt;<i>  creating a PGP-Keypair for an alias. I can sign all my messages as
+</I>&gt;<i>  SpammerDeluxe, and you can be certain that all the junk mail you
+</I>&gt;<i>  receive from me, actually comes from me. Not that thats something
+</I>&gt;<i>  you would be interested in verifying, but that's all that the signature
+</I>&gt;<i>  can tell you.
+</I>
+Especially if you want votes to be meaningful, you HAVE to have some
+organization that signs public keys and makes sure that they belong to
+different people (that could be the government or a private firm, all
+it needs to do is check social-security-card upon registration and
+publish its database publicly so that it is verifiable that the same
+person does not have a different registered keypair elsewere). And
+then its a matter of having the software insist on only using keys
+signed by accepted authorities.
+
+As I said elsewhere, the second step is to issue
+encryption-smart-cards that never expose their private key, to
+mitigate the risk of someone hacking into PCs, stealing the keys and
+building a voters-army.
+
+ -- Aur
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="008947.html">[Start] Peer to Peer Architecture
+</A></li>
+	<LI>Next message (by thread): <A HREF="008968.html">[Start] Peer to Peer Architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

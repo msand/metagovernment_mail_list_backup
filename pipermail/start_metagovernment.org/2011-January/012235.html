@@ -1,0 +1,299 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Mapping Participation in Drupal
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Mapping%20Participation%20in%20Drupal&In-Reply-To=%3C201101171610.35233.4consesus%40web.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012231.html">
+   <LINK REL="Next"  HREF="012242.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Mapping Participation in Drupal</H1>
+    <B>conseo</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Mapping%20Participation%20in%20Drupal&In-Reply-To=%3C201101171610.35233.4consesus%40web.de%3E"
+       TITLE="[MG] Mapping Participation in Drupal">4consesus at web.de
+       </A><BR>
+    <I>Mon Jan 17 10:10:34 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012231.html">[MG] Mapping Participation in Drupal
+</A></li>
+        <LI>Next message (by thread): <A HREF="012242.html">[MG] Mapping Participation in Drupal
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi Alex,
+
+&gt;<i> On Mon, Jan 17, 2011 at 8:02 AM, conseo &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">4consesus at web.de</A>&gt; wrote:
+</I>&gt;<i> &gt; Am Sunday 16 January 2011 schrieb Alex Rollin:
+</I>&gt;<i> &gt;&gt; <A HREF="http://afghanistanelectiondata.org/data">http://afghanistanelectiondata.org/data</A>
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt; Thanks for pointing it out, I have bookmarked it. The main problem that I
+</I>&gt;<i> &gt; see is that they have a quite different focus although their
+</I>&gt;<i> &gt; visualization (view) has some common ground with Crossforum and we might
+</I>&gt;<i> &gt; be able to learn from them at least.
+</I>&gt;<i> &gt; Their site is about visualization of static content after official
+</I>&gt;<i> &gt; elections, so they can pull all data easily once in their DB and are
+</I>&gt;<i> &gt; done. We program a live tool which consists only of a bit of glue for a
+</I>&gt;<i> &gt; completely open infrastructure regarding drafting media, poll server
+</I>&gt;<i> &gt; concepts and even the discussion media involved.  Focusing on Drupal
+</I>&gt;<i> &gt; only would roll-back the whole perspective of Crossforum + open network
+</I>&gt;<i> &gt; to a single well-designed free web-frameworkl.
+</I>&gt;<i> 
+</I>&gt;<i> The point of all the modules I mention is that, with the prototype
+</I>&gt;<i> conditions complete as Mike spec'd it, I would think it would behoove
+</I>&gt;<i> you to take a look at some mature tools that can munge just about any
+</I>&gt;<i> feed data.  Maps can be set to refresh via ajax.
+</I>
+Well mapping functionality is already implemented and we share the 
+functionality with openlayers. You really have to talk to Mike about that, as 
+I haven't had a close look at the map processing yet.
+I need to have a look at that first and it takes serious time to explore how 
+others do some concrete implementation. Can you help with some more detailed 
+information?
+
+&gt;<i> 
+</I>&gt;<i> &lt;What
+</I>&gt;<i> 
+</I>&gt;<i> &gt; is likely possible and might be interesting is to ask them for
+</I>&gt;<i> &gt; cooperation and make them compatible with Crossforum, so we share as
+</I>&gt;<i> &gt; much code and infrastructure as possible.
+</I>&gt;<i> &gt; In fact this introduces a new use case of a specific kind of pollserver,
+</I>&gt;<i> &gt; where it is only about exposing the historically fixed and static data
+</I>&gt;<i> &gt; of some official elections which is about to be visualized in the
+</I>&gt;<i> &gt; mapper. Since our effort is very generic, this should fit in nicely and
+</I>&gt;<i> &gt; be a profit for both concepts, visualization of official voting data and
+</I>&gt;<i> &gt; an actual voting network. They would have to come to us though, since we
+</I>&gt;<i> &gt; are more generic, which is pretty unlikely in my experience. And they
+</I>&gt;<i> &gt; even have to drop their implementation and switch to Java/GWT for that,
+</I>&gt;<i> &gt; whcih is even more unlikely. You could try to convince them though, they
+</I>&gt;<i> &gt; would definetly profit in the long term.
+</I>&gt;<i> 
+</I>&gt;<i> I am rather certain that the Drupal solution handles more use cases
+</I>&gt;<i> and is a wider deeper set of tools than what you are making.  
+</I>
+Of course it is. But I don't see where this is a problem. We can easily use 
+Drupal as a drafting medium (e.g. blogs) already as far as Mike has told me 
+and maybe soon even as a discussion medium (I have to write the scraper and 
+fetcher for this then). We really don't want to compete here. In fact it would 
+be lovely if you could work it out with us, since personally I'd like to 
+address drupal at some near point in the future which would make our 
+infrastructural concept *very* flexible and attractive to all kind of web 
+communities already using drupal. It would also be an appropriate scale of 
+test installation. What do you think, Michael?
+Ideally they only have to install some pollserver stuff and a crossforum 
+installation somewhere and will be able to blend that in where it makes sense 
+to use democratical processes. That way we can also learn from Drupal and see 
+where we can back our solutions up with it.
+
+&gt;<i> If that
+</I>&gt;<i> makes it more generic, I don't know.  Generic, to me, is different
+</I>&gt;<i> from &quot;lightweight&quot;, which doesn't necessarily apply, though the core
+</I>&gt;<i> for Drupal is still only 2.5mb.  
+</I>
+Which expands to how many sloc? 2.5mb of zipped source code is quite a bit 
+still. I don't have a problem with diving in there though, if it is necessary. 
+Just as a quick note on the technology involved. Drupal uses PHP which is fine 
+for web applications, but GWT imo is definetly better and younger (reflecting 
+the PHP and even Rails stuff). 
+Although I am not an original Java guy and have my concerns with it when it 
+comes to FOSS development, I have rather done some C++/KDE, GWT is still much 
+closer than PHP. In fact it is the main design focus of GWT to bring web 
+development on par with desktop/server development.
+Having type safety, java object oriented programming, standard java 
+compatibility which means you can simply move server code to the client and 
+vice-versa and a compiler as well as a well-balanced set of libraries and 
+classes prepared by Google and many companies already means that we don't have 
+to code like insane to get decent functionality and well-written + highly 
+optimized browser compatible AJAX-code. That is what Google is really tough at 
+with GWT.
+It also especially means that our model and view concepts will be easily 
+transferable to real GUI applications like an Android app or I'd even like to 
+migrate it to Qt/KDE if it makes sense. This will easily outscale any browser 
+application (including Drupal) and give us much more serious possibilities in 
+a FOSS desktop environment then sticking to default Ajax capabilities and web 
+libraries in a HTML-browser container.
+
+&gt;<i> I told Mike many months ago that I
+</I>&gt;<i> could build the base for the crossforum prototype app using these
+</I>&gt;<i> Drupal tools, and without any custom coding except to tweak a jSON
+</I>&gt;<i> parser for the feed from Mike's custom code.
+</I>
+Please(!!!) don't take that as offense, but why haven't you done it? 
+Theoretically you can do a lot already, but in fact you don't. As long as we 
+don't have anything to show and test, it will be really difficult to sort things 
+out properly. We still can switch toolkits later if it makes sense. 
+I get the point that Drupal might be a better ground for building Crossforum 
+and I want to hear your arguments (really!) since I haven't explored it for 
+this use case, but Crossforum only needs a feeder and a mapper not a content 
+managment system. This is unlikely to change, since it is only &quot;glue&quot; aka some 
+&quot;infrastructural&quot; common visualization tool for all kind of solutions 
+including Drupal.
+We can plug Drupal in, we can even load the GWT stuff inside some drupal 
+framework, because Google wants you to be able to transparently extend your 
+current applications with GWT functionality easily.
+
+&gt;<i> 
+</I>&gt;<i> &gt;&gt; &gt; There's a rather modern feed parser for Drupal:
+</I>&gt;<i> &gt;&gt; &gt; <A HREF="http://drupal.org/project/feeds">http://drupal.org/project/feeds</A>
+</I>
+I'll have a look.
+
+&gt;<i> &gt; 
+</I>&gt;<i> &gt; In general finding feed implementations is not the problem, they are
+</I>&gt;<i> &gt; pretty standard today. I have had a look at Atom first, too, when
+</I>&gt;<i> &gt; thinking about the diff feed service, as I might want to use them in a
+</I>&gt;<i> &gt; news-reader on my desktop for some issues and support for it is pretty
+</I>&gt;<i> &gt; standard. For Java this looks pretty good: <A HREF="http://abdera.apache.org/">http://abdera.apache.org/</A>
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt; But there is a very serious drawback when it comes to using Atom in a
+</I>&gt;<i> &gt; crossforum tool. It hits the wall of single origin policy. That way we
+</I>&gt;<i> &gt; have to use JSONP and although it is more &quot;low-level&quot; it is much more
+</I>&gt;<i> &gt; flexible and scalable for us since we don't have to xml-parse the data
+</I>&gt;<i> &gt; or work around Atom and some middleware like Drupal or Abdera.
+</I>&gt;<i> 
+</I>&gt;<i> Feeds is for taking data into Drupal.  It's rather amazing.  It'll
+</I>&gt;<i> handle feeds from any number of sources, and there's ways of
+</I>&gt;<i> formatting output of feeds, too, but this module is for import.  It'll
+</I>&gt;<i> accept almost any data source.  Perhaps you will take a look.  It's
+</I>&gt;<i> extraordinarily powerful.
+</I>
+Maybe we can come up with an interface to it? I don't think there is a problem 
+with drupal being able to visualize pollserver or feedservice data. This is 
+intended and only depends on a person writing the necessary drupal code. If 
+you like to access it in Drupal go ahead and help us figure out how to best 
+define the bite feeds and service communication for both use cases, Crossforum 
+and Drupal.
+If you can be quicker (which you should if drupal really spares a lot of work) 
+or can do more stuff (which is likely, since drupal allows other processing of 
+the data) it only helps us all. Crossforum (done by us in GWT) is not tied to 
+Votorola or any implementation of the open network approach in particular, so 
+you would have done a different visualization implementation for the same 
+infrastructural concepts only. We really can cooperate in any way you wish and 
+you should not need to waste too much time to care about our code really! In 
+fact that would help us a lot imo.
+
+&gt;<i> 
+</I>&gt;<i> &gt;I often like to have a look around
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; how others do things and if I can easily reuse open-source code, but in
+</I>&gt;<i> &gt; Crossforum/Votorola's case I think Michael got it right, by keeping it as
+</I>&gt;<i> &gt; simple as possible.
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt; Since what we all (not only Votorola) do here is pretty new lands and
+</I>&gt;<i> &gt; prototyping we don't want to bend around current concepts of web
+</I>&gt;<i> &gt; frameworks. They are not designed for cross-server web-uis or even
+</I>&gt;<i> &gt; global distributed networks, but in most cases rather to build some
+</I>&gt;<i> &gt; server-side service.
+</I>&gt;<i> 
+</I>&gt;<i> Crossforum is not a server side service?
+</I>
+Not really. To load a drupal site you need to connect to a single primary 
+drupal server installation somewhere, which does all the data processing (as 
+well as pulling all kind of data from feeds as you mentioned) for your AJAX 
+representation.  This even accumulates, since every single crossforum 
+installation done with drupal would have to pull all data from any other 
+service (pollserviers, forums, ...) it is subscribed to, giving you 
+exponential growth of traffic and processing likely instead of the client 
+selectively only pulling the needed data from the interesting services 
+directly. Drupal could of course also pull the data from other servers on 
+demand if the client needs it, which would then introduce still double traffic, 
+higher latency and unnecessary overhead both in traffic and service reliability 
+issues, not to speak of legal and potential censorship issues.
+By using JSONP (only) you can host your own crossforum instance (the static 
+ajax files) and then configure which pollserver/feeds in your 
+environment/interest it will pull in. In fact you can even do that on the 
+browser side by subscribing to JSONP services directly and storing the urls in 
+a cookie. That is also why Crossforum will be more scalable if we do it  
+right, because we do almost all of the processing (except of the feedservice 
+data aggregation and querying the db) on the client side and only fetch some 
+JSONP from the server if necessary.
+By the way Crossforum only contains static javascript and html files and does 
+not even need something else then a dumb http server for this reason.
+
+&gt;<i> 
+</I>&gt;<i> Drupal feeds is certainly built for taking in data from multiple
+</I>&gt;<i> services, and it can do it fast.  Replicating this facility seems a
+</I>&gt;<i> bit ... well, a lot of extra work, like I said.   Other modules spit
+</I>&gt;<i> the data back out in whatever format you want.
+</I>
+Hmm, well, to my current understanding, we can only use JSONP because we hit 
+SOP, there is really no way around it unless we do all the fetching and 
+processing on the server. And as JSON is *really* well integrated with 
+JavaScript overlays in GWT, we don't have to care about the implementation too 
+much imo and can focus on which data we want to visualize and how.
+
+&gt;<i> 
+</I>&gt;<i>  For that
+</I>&gt;<i> 
+</I>&gt;<i> &gt; reason we cannot even use GWT's RPC, since GWT is originally focused on
+</I>&gt;<i> &gt; developping commercial web services rather then a distributed web.
+</I>&gt;<i> &gt; In fact, when looking at single-origin-policy, we even hit the current
+</I>&gt;<i> &gt; web- browser concepts hard when it comes to opening the web up, since
+</I>&gt;<i> &gt; they are bound to at least one main client -&gt; server connection. You
+</I>&gt;<i> &gt; cannot browse ressources which are not stored on a single domain/host
+</I>&gt;<i> &gt; name yet.
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt; Have also a look at kio-magnet here:
+</I>&gt;<i> &gt; <A HREF="http://whilos.blogsite.org">http://whilos.blogsite.org</A> where I have proven that you can distribute
+</I>&gt;<i> &gt; the web and desktop in any way you can imagine when you break the
+</I>&gt;<i> &gt; current URL-standard and combine that with BitTorrent. This might be
+</I>&gt;<i> &gt; interesting even for Crossforum, as we can store both the app and parts
+</I>&gt;<i> &gt; of the data in a distributed shared space then.
+</I>&gt;<i> 
+</I>&gt;<i> I followed up on <A HREF="http://unhosted.org">http://unhosted.org</A> which you might find interesting.
+</I>&gt;<i>  Moves data processing back to the &quot;edge&quot; on the desktop.
+</I>
+This is really cool, thanks for the link! kio-magnet imo still goes a bit 
+further because you don't even need a server anymore, not even for storing 
+JSON data, as you can store it in a BitTorrent swarm. This might be 
+interesting for dropping JSON data for Crossforum as well, taking even more 
+load from the server side. I will mail them and see if we can profit from each 
+other as I think we complement nicely. 
+
+In general I think we have all the stack from BIOS to browser open finally 
+nowadays, so we can also make new services and integration between the web and 
+the desktop stack possible in FOSS. This should also help solving the conflict 
+between web services and desktop frameworks better.
+
+I am looking forward to your feedback!
+
+Christian
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012231.html">[MG] Mapping Participation in Drupal
+</A></li>
+	<LI>Next message (by thread): <A HREF="012242.html">[MG] Mapping Participation in Drupal
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

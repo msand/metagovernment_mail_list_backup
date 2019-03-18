@@ -1,0 +1,209 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Creating an Open Source Voting System
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Creating%20an%20Open%20Source%20Voting%20System&In-Reply-To=%3CAANLkTimQQnKfWCQZ%2BQ_d6m64Wf-FQSie1viESJ%2BC2dqp%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="011995.html">
+   <LINK REL="Next"  HREF="012020.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Creating an Open Source Voting System</H1>
+    <B>Alvaro Maceda</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Creating%20an%20Open%20Source%20Voting%20System&In-Reply-To=%3CAANLkTimQQnKfWCQZ%2BQ_d6m64Wf-FQSie1viESJ%2BC2dqp%40mail.gmail.com%3E"
+       TITLE="[MG] Creating an Open Source Voting System">alvaro.maceda at partidodeinternet.es
+       </A><BR>
+    <I>Mon Nov  8 07:27:19 EST 2010</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="011995.html">[MG] Creating an Open Source Voting System
+</A></li>
+        <LI>Next message (by thread): <A HREF="012020.html">[MG] Creating an Open Source Voting System
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hello, Zohar.
+
+I belong to a political party from Spain: &quot;Partido de Internet&quot; (PdI). Our
+elected candidates will vote the way people decide througth an internet
+voting system, so we MUST build such secure voting system over internet with
+delegation.
+
+We are centering on the voting aspects of the system because we expect it
+will be used mainly by delegation to the traditional political parties; the
+discussion and direct voting issues will be addressed later, as the system
+evolves and people get more involved in democracy.
+
+David Ruescas have been working on security issues. It seems mixed-network
+approach is not valid, because it is imposible to invalidate delegated votes
+when an user cast a direct vote, and we have some other troubles with the
+length of the options vector, but it seems we have a valid security scheme
+(in the sense of privacy, verifiability, etc)
+
+By the other hand, we are starting to define the requisites so a real
+elected candidate can use it conveniently. We are preparing a road map, and
+perhaps our approach wont be not so modular because we need a system running
+as soon as posible, so the idea is come up with something secure and
+modularize it later.
+
+This is the web of our political party (spanish):
+<A HREF="http://www.partidodeinternet.es">http://www.partidodeinternet.es</A>
+We are launching the project web site, it will be avaliable in
+<A HREF="http://agoraciudadana.org/">http://agoraciudadana.org/</A> in about two weeks. At the moment It will be
+avaliable only in spanish .
+
+The voting system will be an opensource project somewhat independent from
+PdI, so people interested in this kind of project but not in our political
+party can colaborate with more confort.
+
+Unfortunately we have more will than funds (we would kill for two full time
+programmers!); but we are very stubborn, so the system will be built sooner
+or later.
+
+If you think we can colaborate, please feel free to write me (
+<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">alvaro.maceda at partidodeinternet.es</A>), David (<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">fastness at gmail.com</A>) or
+preferably to the project mailing list (<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">pdi-aplicacion2 at googlegroups.com</A>)
+
+Regards.
+
+
+On 1 November 2010 23:58, Zohar Jackson &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">zoharj at gmail.com</A>&gt; wrote:
+
+&gt;<i>  *- Open Source Voting System* -
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> *The Idea:*
+</I>&gt;<i>
+</I>&gt;<i> *
+</I>&gt;<i> *
+</I>&gt;<i>
+</I>&gt;<i>     To build a modular, open-source, ultra-secure, Internet based voting
+</I>&gt;<i> system. An extensive API will make it easy for anyone to write modules,
+</I>&gt;<i> which can be added(and removed) at both user and server admin levels. This
+</I>&gt;<i> will allow the system to be adaptable and be used by businesses, schools,
+</I>&gt;<i> unions, legislative bodies etc...
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> *The Details:*
+</I>&gt;<i>
+</I>&gt;<i> * *
+</I>&gt;<i>
+</I>&gt;<i> *  *Because of the great flexibility of the modular system many of the
+</I>&gt;<i> systems 'details' do not need to be worked out by the system's architects
+</I>&gt;<i> but will be added in the future by independent module writers. Below are
+</I>&gt;<i> some of the ideas that should be part of the systems architecture, but could
+</I>&gt;<i> be turned off depending on the systems intended use.
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>    - Extremely secure*
+</I>&gt;<i>    - Modular constriction*
+</I>&gt;<i>    - Voting along party lines* (As module)
+</I>&gt;<i>    - Ability for users to confirm their vote
+</I>&gt;<i>    - Ability for anonymous voting
+</I>&gt;<i>    - Interactive (Wiki, information about things being voted on
+</I>&gt;<i>    pros/cons)  (As module)
+</I>&gt;<i>    - Open-source
+</I>&gt;<i>    - Multi-lingual
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>           **Modular Construction*
+</I>&gt;<i> Users and server admins can add and remove modules allowing the system to
+</I>&gt;<i> change its functionality. An extensive API will exist to allow all sorts of
+</I>&gt;<i> modules such as genetic algorithms(Vilfredo goes to Athens), social
+</I>&gt;<i> networks, wiki's, etc...
+</I>&gt;<i>
+</I>&gt;<i> *
+</I>&gt;<i> *Extremely secure *
+</I>&gt;<i> - The ability for anyone to create a vote storing server(VSS). There will
+</I>&gt;<i> be a public server with a list of IPs of all the VSSs. When a user votes,
+</I>&gt;<i> the vote will be sent simultaneously to all the VSSs. The VSSs will talk to
+</I>&gt;<i> each other to make sure the databases are identical. This will prevent any
+</I>&gt;<i> single admin from tampering with the vote. * (This is for large
+</I>&gt;<i> operations, for smaller operations an alternative will be worked out.)*
+</I>&gt;<i> - It should be so secure that even a server admin cannot hack the voting
+</I>&gt;<i> results.
+</I>&gt;<i> - Option to use Security tokens&lt;<A HREF="http://en.wikipedia.org/wiki/Security_token">http://en.wikipedia.org/wiki/Security_token</A>&gt;,
+</I>&gt;<i> or SMS
+</I>&gt;<i> - More details must be worked out
+</I>&gt;<i>
+</I>&gt;<i> **Voting along party lines *
+</I>&gt;<i>     As most users don't have time to research and vote on every issue they
+</I>&gt;<i> will be able to subscribe to a virtual political party that will
+</I>&gt;<i> automatically vote for them. The user can override and unsubscribe from that
+</I>&gt;<i> political party at any time. Additionally any user can create a political
+</I>&gt;<i> party. Similar to a podcast.
+</I>&gt;<i>   Users could also choose to align themselves with different parties on
+</I>&gt;<i> different issues. For example a man who is conservative on immigration,
+</I>&gt;<i> economy, and gay marriage, but liberal about everything else. Could choose
+</I>&gt;<i> to align himself with conservative parties for those three issues and a
+</I>&gt;<i> liberal party for every other issue.
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> *The Plan**:
+</I>&gt;<i> *    To assemble a team of programmers to live together communally and
+</I>&gt;<i> work full time on developing the software. A house(in Chicago) and funding
+</I>&gt;<i> for food and basic needs have already been setup. The team will be able to
+</I>&gt;<i> live expense free and work solely on the project. All we need now are
+</I>&gt;<i> programmers.
+</I>&gt;<i>
+</I>&gt;<i> *If you are interested in joining this team in Chicago or working on the
+</I>&gt;<i> project remotely please contact*
+</I>&gt;<i> Zohar Jackson - <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">zoharj at gmail.com</A>*
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> *
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Start : a mailing list of the Metagovernment project
+</I>&gt;<i> <A HREF="http://www.metagovernment.org/">http://www.metagovernment.org/</A>
+</I>&gt;<i> Post to the list: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Start at metagovernment.org</A>
+</I>&gt;<i> Manage subscription:
+</I>&gt;<i> <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">http://metagovernment.org/mailman/listinfo/start_metagovernment.org</A>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20101108/9b108917/attachment-0002.html">http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20101108/9b108917/attachment-0002.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="011995.html">[MG] Creating an Open Source Voting System
+</A></li>
+	<LI>Next message (by thread): <A HREF="012020.html">[MG] Creating an Open Source Voting System
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

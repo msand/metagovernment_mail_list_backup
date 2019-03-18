@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Contents of Repositories
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Contents%20of%20Repositories&In-Reply-To=%3Cf8c47620805101402l1cd57362n9da38c338b3f5d37%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="009037.html">
+   <LINK REL="Next"  HREF="009052.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Contents of Repositories</H1>
+    <B>Aur Saraf</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Contents%20of%20Repositories&In-Reply-To=%3Cf8c47620805101402l1cd57362n9da38c338b3f5d37%40mail.gmail.com%3E"
+       TITLE="[Start] Contents of Repositories">sonoflilit at gmail.com
+       </A><BR>
+    <I>Sat May 10 17:02:33 EDT 2008</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="009037.html">[Start] Contents of Repositories
+</A></li>
+        <LI>Next message (by thread): <A HREF="009052.html">[Start] Addition of wiki
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>On Sat, May 10, 2008 at 11:26 PM, Manuel Barkhau
+&lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">mbarkhau at googlemail.com</A>&gt; wrote:
+&gt;<i> &gt; Would you care to move this discussion into comments to the design
+</I>&gt;<i>  &gt; document? That would serve the double purpose of also testing out my
+</I>&gt;<i>  &gt; ideas about storing a discussion in a DVCS.
+</I>
+&gt;<i>  No, because I need your agreement, before something I say is recorded
+</I>&gt;<i>  in your repo. The other option is me cloning your repo and hoping you
+</I>&gt;<i>  will pull from it, which you may not do, if you disagree with me. The
+</I>&gt;<i>  point is, that if I express my opinion, it should be recorded, the way
+</I>&gt;<i>  I want. The only censorship that should be imposed, is by the final
+</I>&gt;<i>  reader and the whole reason for the scoring system.
+</I>
+This is an experiment. You can clone my repo, and if you see that I
+don't pull from you, you can say so on the ml and I'll be discredited.
+But I'm trying to run an experiment about how well a design can be
+done, including discussions, within a version controlled text file,
+exploiting version control's advantages (like Attribute).
+
+&gt;<i>  &gt;From the Unix philosophy:
+</I>&gt;<i>     Write programs that do one thing and do it well.
+</I>&gt;<i>
+</I>&gt;<i>  Mercurial does revision control, and it does that well. You're trying to
+</I>&gt;<i>  implement something on top of it, that it obviously isn't suited for.
+</I>
+I'm using git for VC and that only. Would you say that using pgsql for
+writing a discussion system is wrong because pg is a database and not
+a bbs?
+
+&gt;<i>  &gt; Wiki systems have proven that a discussion can reasonably be held
+</I>&gt;<i>  &gt; within a text file under version control.
+</I>&gt;<i>
+</I>&gt;<i>  I would say that wikis use discussion pages in the wiki format, not
+</I>&gt;<i>  because that is a particularly good format for discussions, but because
+</I>&gt;<i>  programmers are lazy and implementing the discussion page just like
+</I>&gt;<i>  wiki page is easier to implement.
+</I>&gt;<i>
+</I>&gt;<i>  The discussions on a wiki can be edited. They are not a reproduction of
+</I>&gt;<i>  the actual discussion that has taken place, but are cleaned up over
+</I>&gt;<i>  time to only contain relevant information. So the discussion may be held
+</I>&gt;<i>  &quot;reasonably&quot; well, but I think we need more than that. We're talking
+</I>&gt;<i>  hundreds of people writing in one text file. It just seems ridiculous.
+</I>&gt;<i>
+</I>&gt;<i>  That would be fine for making a summary of the decisions that lead to a
+</I>&gt;<i>  certain decision, or elaborating legislation, that might otherwise be
+</I>&gt;<i>  hard to penetrate. What it isn't suited for, is recording what has
+</I>&gt;<i>  actually been said.
+</I>&gt;<i>
+</I>&gt;<i>  Pulling and pushing, between repositories, implies an agreement with
+</I>&gt;<i>  the contents of them. You are agreeing that certain messages are part
+</I>&gt;<i>  of the discussion, and allowing them into you're repo when you pull. In
+</I>&gt;<i>  a wiki, this isn't much of a problem because everybody shares the
+</I>&gt;<i>  same repo. With a distributed system, this introduces unnecessary
+</I>&gt;<i>  overhead.
+</I>
+&gt;<i>  A repository is fine for legislation, because we are actually evaluating
+</I>&gt;<i>  something which we want agreement upon. Discussion however just happens,
+</I>&gt;<i>  it's there, no matter what I think of it. People can rate it and ignore
+</I>&gt;<i>  it, but it should be recorded and be available to everybody, not just
+</I>&gt;<i>  those that happen to pull from a certain repository.
+</I>
+As I said, the actual use of this system will have to be
+central-repository-based or tiered, with people talking to repos that
+interface with the central repo. So discussion CAN be sanely held,
+just like in a wiki. And even though there are advantages to building
+a BBS, there are great advantages to having the same system do
+document writing and discussion. You can see that great in wikis. What
+it means is that you have ONE LESS SYSTEM TO LEARN when you approach
+the software at first.
+
+I really like that discussion will be edited to only show what's
+relevant to a branch. Remember that there are branches and multiple
+heads and a browser that lets you easily browse the history (unlike
+wikipedia, where I think it's very wrong that moving back in time is
+so hard). I think it would be a great discussion system, more powerful
+than anything we have today for accompanying document writing with
+discussion.
+
+If you'd agree to move this discussion to the repo, we can together
+test if I'm right (even though the browser that makes it REALLY neat
+doesn't exist yet).
+
+
+ -- Aur
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="009037.html">[Start] Contents of Repositories
+</A></li>
+	<LI>Next message (by thread): <A HREF="009052.html">[Start] Addition of wiki
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

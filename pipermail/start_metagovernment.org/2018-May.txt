@@ -1,0 +1,362 @@
+From metamerman at gmail.com  Wed May  9 13:05:57 2018
+From: metamerman at gmail.com (Scott Raney)
+Date: Wed, 9 May 2018 11:05:57 -0600
+Subject: [MG] Global challenges finalists
+Message-ID: <CACobxW3WxVbk6LTO-k9vhCg-jtk-JGRaBSZBNO6VYV-h3=XkVA@mail.gmail.com>
+
+The Global Challenges competition finalists and their abstracts and
+author bios have been published at:
+https://globalchallenges.org/our-work/the-new-shape-prize/finalists
+
+The only one I found sort of interesting was the one that proposes to
+use AI to augment the proposal generation process. You can read more
+at the product web site:
+http://www.swae.io/
+
+Of course I think that one too has the wrong end of the stick: Our
+main problem isn't with the proposal generation process, it's with the
+decisionmaking (voting) process, particularly the unequal
+participation rate issue. Exactly none of the entries even address
+this, although a couple do use the term "liquid democracy" as if it
+were some sort of magic wand (and of course we all know by now that
+not only is it not magic, it doesn't even work at all).
+
+A lot of them also seem to violate the "acceptable to the powers that
+be" rule that I struggled so much with, but I guess we'll have to read
+the full proposals to see how they finesse their way around this.
+
+Anyone think any of these have any chance of even getting implemented,
+let alone working as promised?
+  Regards,
+    Scott
+
+
+From jacopo.tolja at gmail.com  Wed May  9 17:20:15 2018
+From: jacopo.tolja at gmail.com (Jacopo Tolja)
+Date: Wed, 9 May 2018 23:20:15 +0200
+Subject: [MG] Global challenges finalists
+In-Reply-To: <CACobxW3WxVbk6LTO-k9vhCg-jtk-JGRaBSZBNO6VYV-h3=XkVA@mail.gmail.com>
+References: <CACobxW3WxVbk6LTO-k9vhCg-jtk-JGRaBSZBNO6VYV-h3=XkVA@mail.gmail.com>
+Message-ID: <CAJHTwmKxss7Q7KS38LZoVzTeWJ-4M6muz8-+rVCuHtNcZ4n_Tw@mail.gmail.com>
+
+Democrare did not make it to the finalist....
+
+On Wed, May 9, 2018 at 7:05 PM, Scott Raney <metamerman at gmail.com> wrote:
+
+> The Global Challenges competition finalists and their abstracts and
+> author bios have been published at:
+> https://globalchallenges.org/our-work/the-new-shape-prize/finalists
+>
+> The only one I found sort of interesting was the one that proposes to
+> use AI to augment the proposal generation process. You can read more
+> at the product web site:
+> http://www.swae.io/
+>
+> Of course I think that one too has the wrong end of the stick: Our
+> main problem isn't with the proposal generation process, it's with the
+> decisionmaking (voting) process, particularly the unequal
+> participation rate issue. Exactly none of the entries even address
+> this, although a couple do use the term "liquid democracy" as if it
+> were some sort of magic wand (and of course we all know by now that
+> not only is it not magic, it doesn't even work at all).
+>
+> A lot of them also seem to violate the "acceptable to the powers that
+> be" rule that I struggled so much with, but I guess we'll have to read
+> the full proposals to see how they finesse their way around this.
+>
+> Anyone think any of these have any chance of even getting implemented,
+> let alone working as promised?
+>   Regards,
+>     Scott
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180509/5c016bd0/attachment.html>
+
+From micstepanek at gmail.com  Thu May 31 03:16:40 2018
+From: micstepanek at gmail.com (=?UTF-8?B?TWljaGFsIMWgdMSbcMOhbmVr?=)
+Date: Thu, 31 May 2018 09:16:40 +0200
+Subject: [MG]  mediacentric theory, global hedonism
+Message-ID: <CAEyrqBo--1b3xfuXXtU5vhOaOrvGBopGnbLNMPoj_BU81kj++A@mail.gmail.com>
+
+Hi everybody,
+I went too far, I do not know if we still understand each other. Anyway I
+hope somebody will find this interesting.
+1.Let us be vague at first and say that the goal of existence is goodness (
+8-| , 8D )
+2. "definition":   goodness = happiness  + future generations happiness +
+(animal happiness)
+3. Measuring happiness!: How are you? Answer on a scale from 0-10.
+Happiness is measurable!
+4. Now we have a variable that we would like to maximize, but we need to
+find some independent variables that maximize it.
+5. Any data may be useful, but some are more likely to be useful, like data
+from your smartphone sensors, your selected search results etc. = big data
+6. So, we got dependent variable and independent variables. Now, we need a
+way to intervene. Here comes the mediacentric theory. It is not
+bulletproof, but it has a power.
+7. We need a smaller sector than the whole media to start with. Let's find
+the most effective. I suggest it is the Internet and on the Internet
+*search engines*.
+8. There is a way how to build Goodness search engine (for marketing
+purposes I call it Happiness Search Engine). Would you like to build it?
+
+I hope you will ask for more. Imagine that I would write it in detail, who
+would read it? :D
+
+Cheers
+m.
+
+-- 
+Michal S.
+about.me/micstepanek
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180531/043ba187/attachment.html>
+
+From metamerman at gmail.com  Thu May 31 09:58:56 2018
+From: metamerman at gmail.com (Scott Raney)
+Date: Thu, 31 May 2018 07:58:56 -0600
+Subject: [MG] mediacentric theory, global hedonism
+In-Reply-To: <CAEyrqBo--1b3xfuXXtU5vhOaOrvGBopGnbLNMPoj_BU81kj++A@mail.gmail.com>
+References: <CAEyrqBo--1b3xfuXXtU5vhOaOrvGBopGnbLNMPoj_BU81kj++A@mail.gmail.com>
+Message-ID: <CACobxW1jfCORYbtkYgW5_oNCDL7gP6yKNkX+F3GjAQtC7ObYyQ@mail.gmail.com>
+
+On Thu, May 31, 2018 at 1:16 AM, Michal ?t?p?nek <micstepanek at gmail.com> wrote:
+> Hi everybody,
+> I went too far, I do not know if we still understand each other. Anyway I
+> hope somebody will find this interesting.
+> 1.Let us be vague at first and say that the goal of existence is goodness (
+> 8-| , 8D )
+> 2. "definition":   goodness = happiness  + future generations happiness +
+> (animal happiness)
+
+Maybe it's a translation issue I'm not sure "happiness" is what you
+want to use here. There's lots of research in this area that shows
+that "happiness" is relatively rare, very hard to measure (all kinds
+of reporting biases), and not generally considered to be a reasonable
+goal. I think we can learn something from the popularity of religions
+here: Do they all promise "happiness"? No, they generally promote
+peace, harmony, and well-being. I'd even put political and economic
+ideals (freedom, power, success, satisfaction of desires, etc.) or
+even simple stress reduction ahead of "happiness" as goals.
+
+I'm also increasingly tending to discount "future generations" as an
+issue because it's generally an example of replism
+(http://www.matchism.org/matchism-code/) and so not a worthy goal in
+itself. People should work to protect the future that *they* will
+have, but worrying about their genetic descendants is at best a waste
+of time and at worst counterproductive because it results in failure
+to solve *today's* problems because you've piled on tomorrow's as
+well.
+
+> 3. Measuring happiness!: How are you? Answer on a scale from 0-10. Happiness
+> is measurable!
+
+Not counting reporting bias, of course, which is a *huge* problem,
+especially if you want to compare success toward achieving the goal
+across cultures.
+
+> 4. Now we have a variable that we would like to maximize, but we need to
+> find some independent variables that maximize it.
+> 5. Any data may be useful, but some are more likely to be useful, like data
+> from your smartphone sensors, your selected search results etc. = big data
+> 6. So, we got dependent variable and independent variables. Now, we need a
+> way to intervene. Here comes the mediacentric theory. It is not bulletproof,
+> but it has a power.
+> 7. We need a smaller sector than the whole media to start with. Let's find
+> the most effective. I suggest it is the Internet and on the Internet *search
+> engines*.
+> 8. There is a way how to build Goodness search engine (for marketing
+> purposes I call it Happiness Search Engine). Would you like to build it?
+
+I'm not sure I follow this, but it looks to me like it runs right
+smack into the cross-cultural problem above.
+
+> I hope you will ask for more. Imagine that I would write it in detail, who
+> would read it? :D
+
+I'm inclined to consider this issue in the "how many angels can dance
+on the head of a pin" category: We don't need to measure any of these
+things, we just need to empower individuals to make public policy
+decisions. What they choose is what's important, not the label you
+might try to attach to it.
+  Regards,
+    Scott
+
+>
+> Cheers
+> m.
+>
+> --
+> Michal S.
+> about.me/micstepanek
+
+
+From micstepanek at gmail.com  Thu May 31 15:59:23 2018
+From: micstepanek at gmail.com (=?UTF-8?B?TWljaGFsIMWgdMSbcMOhbmVr?=)
+Date: Thu, 31 May 2018 21:59:23 +0200
+Subject: [MG] mediacentric theory, global hedonism
+In-Reply-To: <CACobxW1jfCORYbtkYgW5_oNCDL7gP6yKNkX+F3GjAQtC7ObYyQ@mail.gmail.com>
+References: <CAEyrqBo--1b3xfuXXtU5vhOaOrvGBopGnbLNMPoj_BU81kj++A@mail.gmail.com>
+	<CACobxW1jfCORYbtkYgW5_oNCDL7gP6yKNkX+F3GjAQtC7ObYyQ@mail.gmail.com>
+Message-ID: <CAEyrqBpA-4quj8CcPa3oKtGJ1qA1cyiddMOQ_9vM5Xs89D6cFw@mail.gmail.com>
+
+Scott,
+I am glad you wrote, good ideas. But for me, some meaningful interaction
+after a longer time. The rest is in text...
+
+
+On Thu, May 31, 2018 at 3:58 PM, Scott Raney <metamerman at gmail.com> wrote:
+
+> On Thu, May 31, 2018 at 1:16 AM, Michal ?t?p?nek <micstepanek at gmail.com>
+> wrote:
+> > Hi everybody,
+> > I went too far, I do not know if we still understand each other. Anyway I
+> > hope somebody will find this interesting.
+> > 1.Let us be vague at first and say that the goal of existence is
+> goodness (
+> > 8-| , 8D )
+> > 2. "definition":   goodness = happiness  + future generations happiness +
+> > (animal happiness)
+>
+> Maybe it's a translation issue I'm not sure "happiness" is what you
+> want to use here.
+
+With happiness I refer to "subjective well-being" to this collection
+https://worlddatabaseofhappiness.eur.nl/
+As a method of measurement I like smartphone Experince Sampling Method.
+https://en.wikipedia.org/wiki/Experience_sampling_method
+
+
+
+> There's lots of research in this area that shows
+> that "happiness" is relatively rare, very hard to measure (all kinds
+> of reporting biases),
+
+I some sense you are right, but I hope this article will calm your worries
+https://www.researchgate.net/publication/300332706_What_We_Have_Learnt_About_Happiness
+
+
+> and not generally considered to be a reasonable
+> goal.
+
+True, not a good goal for an individual, the intention of happiness ruins a
+lot of happiness ;). But as a measure it should be ok.
+
+
+> I think we can learn something from the popularity of religions
+> here: Do they all promise "happiness"? No, they generally promote
+> peace, harmony, and well-being. I'd even put political and economic
+> ideals (freedom, power, success, satisfaction of desires, etc.) or
+> even simple stress reduction ahead of "happiness" as goals.
+>
+> Yes. Happiness is generaly ment individualistically. But if you measure it
+for society, it is not the same happiness and it includes a lot from peace,
+harmony, well-being, freedom, success, satisfaction.
+
+I'm also increasingly tending to discount "future generations" as an
+> issue because it's generally an example of replism
+> (http://www.matchism.org/matchism-code/) and so not a worthy goal in
+> itself. People should work to protect the future that *they* will
+> have, but worrying about their genetic descendants is at best a waste
+> of time and at worst counterproductive because it results in failure
+> to solve *today's* problems because you've piled on tomorrow's as
+> well.
+
+Sure, it is not so much important as it seems in the equation. Still it has
+some secondary importance, IMHO.
+
+>
+> > 3. Measuring happiness!: How are you? Answer on a scale from 0-10.
+> Happiness
+> > is measurable!
+>
+> Not counting reporting bias, of course, which is a *huge* problem,
+> especially if you want to compare success toward achieving the goal
+> across cultures.
+>
+As far as I know there is only a few possible reporting biases.
+Misunderstanding question. Forced answer (somebody answering on one's
+bahalf). Inability to admit unhappiness, ego issue. But that is not ruining
+it, these are acceptable biases.
+
+>
+> > 4. Now we have a variable that we would like to maximize, but we need to
+> > find some independent variables that maximize it.
+> > 5. Any data may be useful, but some are more likely to be useful, like
+> data
+> > from your smartphone sensors, your selected search results etc. = big
+> data
+> > 6. So, we got dependent variable and independent variables. Now, we need
+> a
+> > way to intervene. Here comes the mediacentric theory. It is not
+> bulletproof,
+> > but it has a power.
+> > 7. We need a smaller sector than the whole media to start with. Let's
+> find
+> > the most effective. I suggest it is the Internet and on the Internet
+> *search
+> > engines*.
+> > 8. There is a way how to build Goodness search engine (for marketing
+> > purposes I call it Happiness Search Engine). Would you like to build it?
+>
+> I'm not sure I follow this, but it looks to me like it runs right
+> smack into the cross-cultural problem above.
+
+
+> > I hope you will ask for more. Imagine that I would write it in detail,
+> who
+> > would read it? :D
+>
+> I'm inclined to consider this issue in the "how many angels can dance
+> on the head of a pin" category: We don't need to measure any of these
+> things, we just need to empower individuals to make public policy
+> decisions.
+
+No, to do it properly, we do need to measure it :D Not just believe we are
+doing it correct :)
+
+
+> What they choose is what's important, not the label you
+> might try to attach to it.
+>
+
+What they choose is not the best :/. And there is the voting mehtod issue :/
+
+
+>   Regards,
+>     Scott
+>
+> >
+> > Cheers
+> > m.
+> >
+> > --
+> > Michal S.
+> > about.me/micstepanek
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+
+
+
+-- 
+Michal S.
+about.me/micstepanek
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180531/8d5512bb/attachment-0001.html>
+

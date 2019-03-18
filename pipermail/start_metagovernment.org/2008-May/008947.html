@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Peer to Peer Architecture
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Peer%20to%20Peer%20Architecture&In-Reply-To=%3Cf8c47620805021606k239c6988j7fa7eebaa9dc1cd7%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="008944.html">
+   <LINK REL="Next"  HREF="008967.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Peer to Peer Architecture</H1>
+    <B>Aur Saraf</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Peer%20to%20Peer%20Architecture&In-Reply-To=%3Cf8c47620805021606k239c6988j7fa7eebaa9dc1cd7%40mail.gmail.com%3E"
+       TITLE="[Start] Peer to Peer Architecture">sonoflilit at gmail.com
+       </A><BR>
+    <I>Fri May  2 19:06:50 EDT 2008</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="008944.html">[Start] Peer to Peer Architecture
+</A></li>
+        <LI>Next message (by thread): <A HREF="008967.html">[Start] Peer to Peer Architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>On Sat, May 3, 2008 at 1:37 AM, Manuel Barkhau &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">mbarkhau at googlemail.com</A>&gt;
+wrote:
+
+&gt;<i> &gt; Paul wrote:
+</I>&gt;<i> &gt; I'm not understanding why we need this? When you say
+</I>&gt;<i> &gt; on the net but not on a server - do you mean P2P? That
+</I>&gt;<i> &gt; is an intriguing concept!
+</I>&gt;<i>
+</I>&gt;<i> Indeed, here are some ideas on how it might work:
+</I>&gt;<i>
+</I>&gt;<i> All messages, keys, files or resources in general, are
+</I>&gt;<i> stored on the network. That is, they are replicated across
+</I>&gt;<i> multiple nodes, which serve the resources they have to
+</I>&gt;<i> clients that request them.
+</I>&gt;<i>
+</I>
+Or the distributed revision control system way: every client has it ALL.
+
+&gt;<i>
+</I>&gt;<i> All resources have a name and hash, ensuring that a
+</I>&gt;<i> receiver can verify the integrity of a resource, no matter
+</I>&gt;<i> which source it came from.
+</I>&gt;<i>
+</I>
+Handled by DRCS.
+
+&gt;<i>
+</I>&gt;<i> Additionally, every resource may have any number of tags,
+</I>&gt;<i> referencing a revision, bill, law, community, or general topic.
+</I>&gt;<i>
+</I>&gt;<i> Every member of a community has a PGP-Key with which
+</I>&gt;<i> messages can be signed and encrypted. This enables resources
+</I>&gt;<i> to be made available to a user and just that user, by
+</I>&gt;<i> encrypting them with his public key.
+</I>&gt;<i>
+</I>
+ Signing them, you mean.
+
+&gt;<i>
+</I>&gt;<i> Votes can be held anonymously, by allowing tokens to be
+</I>&gt;<i> sent from a central authority, to all members of the
+</I>&gt;<i> community. The vote and token are encrypted together with,
+</I>&gt;<i> the public key of the authority. Votes are then sent to
+</I>&gt;<i> this authority, which is the only one who can read them.
+</I>&gt;<i> Results are published publicly, and are verifiable by
+</I>&gt;<i> every user. So long as the authority can be trusted not
+</I>&gt;<i> to track which tokens were sent to which users, this
+</I>&gt;<i> system will be anonymous.
+</I>&gt;<i>
+</I>
+Why do we need anonymous votes? Forgetting the fact that it is impossible in
+a non-public ballot (network sniffing), I don't see any need for it in our
+system. On the contrary, in a system where every citizen has the power of a
+senator, I think every citizen's votes should be made just as public.
+
+&gt;<i>
+</I>&gt;<i> (Note: This does not solve the problem of political
+</I>&gt;<i> persecution, since we have no control over who may be
+</I>&gt;<i> forcing somebody to vote a certain way. If this is a
+</I>&gt;<i> problem, votes should be held in a traditional pen and
+</I>&gt;<i> paper fashion, since only a voting booth in a public
+</I>&gt;<i> setting, can guarantee that protection.)
+</I>&gt;<i>
+</I>
+Police covers political persecution.
+
+&gt;<i>
+</I>&gt;<i> Servers aggregate, index and cache the resources available
+</I>&gt;<i> on the net. They provide scoring for messages, based on
+</I>&gt;<i> the data they receive from users and provide faster access
+</I>&gt;<i> to the data of the community, than if all information had
+</I>&gt;<i> to be retrieved from different nodes.
+</I>&gt;<i>
+</I>&gt;<i> Pros:
+</I>&gt;<i>    - Scales very well with community size
+</I>&gt;<i>    - No need for servers (although they provide helpful
+</I>&gt;<i>      services and much better performance)
+</I>&gt;<i>    - Less Administration overhead
+</I>&gt;<i>    - All data is available on the net and can be independently
+</I>&gt;<i>      verified by every member of the community
+</I>&gt;<i>    - Very secure against malicious users
+</I>&gt;<i> Cons:
+</I>&gt;<i>    - More complex to implement and understand
+</I>&gt;<i>    - Potentially slower than a client server solution
+</I>&gt;<i>    - Requires dedicated client software, rather that just
+</I>&gt;<i>      a standard browser or e-mail client.
+</I>&gt;<i>    - Client software must be made for every device
+</I>&gt;<i>    - Accessibility issues
+</I>&gt;<i>    - Potential to be spammed
+</I>&gt;<i>
+</I>
+Nothing can be spammed in a system where nothing is anon, at least not more
+than once - as spamming users WILL face consequences and you cannot spam
+without revealing your true identity in a way that cannot be detected with
+100% precision (by verifying signatures).
+
+&gt;<i>
+</I>&gt;<i> Thats as far as I can think right now. Much more to be thought
+</I>&gt;<i> out here.
+</I>&gt;<i>
+</I>&gt;<i> Manuel
+</I>&gt;<i>
+</I>
+ -- Aur
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20080503/09a98aa6/attachment-0002.html">http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20080503/09a98aa6/attachment-0002.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="008944.html">[Start] Peer to Peer Architecture
+</A></li>
+	<LI>Next message (by thread): <A HREF="008967.html">[Start] Peer to Peer Architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

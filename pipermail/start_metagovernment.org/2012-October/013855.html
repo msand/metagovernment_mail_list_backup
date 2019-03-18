@@ -1,0 +1,149 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Common business entity model
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Common%20business%20entity%20model&In-Reply-To=%3C1350970938.DfdDedA0.5681%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013850.html">
+   <LINK REL="Next"  HREF="013859.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Common business entity model</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Common%20business%20entity%20model&In-Reply-To=%3C1350970938.DfdDedA0.5681%40out.zelea.com%3E"
+       TITLE="[MG] Common business entity model">mike at zelea.com
+       </A><BR>
+    <I>Tue Oct 23 02:36:16 EDT 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013850.html">[MG] [Ag Meinungsfindungstool] Common business entity model
+</A></li>
+        <LI>Next message (by thread): <A HREF="013859.html">[MG] [Ag Meinungsfindungstool] Common business entity model
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi Marc,
+
+&gt;<i> YES! And this mapping should grow. I saw already some more
+</I>&gt;<i> similarities between eDialogos and CBEM. Unfortunately I don't know
+</I>&gt;<i> 'Outcast', but maybe that's Votorolas data schema?
+</I>
+Yes, sort of.  It's the broader architecture in which Votorola is an
+optional component, or &quot;plug-in&quot;.
+
+&gt;<i> So let's see how far can we push this approach!
+</I>&gt;<i> 
+</I>&gt;<i> What do you think?
+</I>
+I think it's possible to go very far indeed.  But I wonder if there's
+a place in it for the particular kind of technology I work on, and the
+personal concerns that I have?  Those are the questions I ask in the
+other thread.  Because if there *is* a place, then I would definitely
+be willing to shoulder my share of the workload.  :-)
+
+Michael
+
+
+marc said:
+&gt;<i> Hi Michael,
+</I>&gt;<i> 
+</I>&gt;<i> I like the way you break things down!
+</I>&gt;<i> 
+</I>&gt;<i> Michael Allan wrote:
+</I>&gt;<i> &gt;Marc said:
+</I>&gt;<i> &gt;&gt; That's true. But IMHO if a Group is composed of 2..* Participants,
+</I>&gt;<i> &gt;&gt; that doesn't mean a Participant can't be member of several
+</I>&gt;<i> &gt;&gt; Groups. So maybe we need a * multiplicity at the Groups side?
+</I>&gt;<i> 
+</I>&gt;<i> &gt;Or maybe an open diamond symbol (aggregate).  I think filled diamond
+</I>&gt;<i> &gt;(composite) implies a single group.
+</I>&gt;<i> 
+</I>&gt;<i> Ok. A Group could be seen as an aggregate of Participants. For me an 
+</I>&gt;<i> *aggregate* is a HAS relation while a *composite* is a CONSISTS OF relation. 
+</I>&gt;<i> So with an composite one could argue that the Participant is dispersed in 
+</I>&gt;<i> the Group.
+</I>&gt;<i> 
+</I>&gt;<i> &gt;George said:
+</I>&gt;<i> &gt;&gt; So, a couple of simple domain models for argumentative discussions
+</I>&gt;<i> &gt;&gt; and consensus already exist:
+</I>&gt;<i> &gt;&gt; 1. A consensus ontology, based on IBIS, problem marketplaces and
+</I>&gt;<i> &gt;&gt; idea management:
+</I>&gt;<i> &gt;&gt; <A HREF="http://www.imc.com.gr/ontologies/eDialogos/consensus/">http://www.imc.com.gr/ontologies/eDialogos/consensus/</A>
+</I>&gt;<i> 
+</I>&gt;<i> &gt;<A HREF="http://www.imc.com.gr/ontologies/eDialogos/consensus/img/class_diagram_v0.1.png">http://www.imc.com.gr/ontologies/eDialogos/consensus/img/class_diagram_v0.1.png</A>
+</I>&gt;<i> &gt;I was looking at the core relations (eDialogos below).  I think I can
+</I>&gt;<i> &gt;map them to the terminology we use (in Outcast) and also AG Meinungs-
+</I>&gt;<i> &gt;findungstool (CBEM/AG):
+</I>&gt;<i> 
+</I>&gt;<i> &gt;                  has                has
+</I>&gt;<i> &gt;  IdeaContest  &lt;-------  Idea  -----------&gt;  User          (eDialogos)
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt;         Poll  &lt;-------  Position  -------&gt;  Person        (Outcast)
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt;        Topic  &lt;-------  Opinion  --------&gt;  Participant   (CBEM/AG)
+</I>&gt;<i> 
+</I>&gt;<i> &gt;Maybe this can be our Rosetta stone for the rest of the world. :-)
+</I>&gt;<i> 
+</I>&gt;<i> YES! And this mapping should grow. I saw already some more similarities 
+</I>&gt;<i> between eDialogos and CBEM. Unfortunately I don't know 'Outcast', but maybe 
+</I>&gt;<i> that's Votorolas data schema?
+</I>&gt;<i> 
+</I>&gt;<i> Maybe we can try to reach the following target: Reaching consensus about a 
+</I>&gt;<i> 'Common eDecision-Making Standard'
+</I>&gt;<i> 
+</I>&gt;<i> This may consist of
+</I>&gt;<i> 
+</I>&gt;<i> 1) A Common Domain Model (NOT a database schema); this are entities to be 
+</I>&gt;<i> common to all tools / systems
+</I>&gt;<i> 
+</I>&gt;<i> 2) A Common  Use Case Model; this are processes / workflows / actions to be 
+</I>&gt;<i> common to all tools / systems
+</I>&gt;<i> This could look like the following - just a first draft and unfortunately in 
+</I>&gt;<i> german language again:
+</I>&gt;<i> <A HREF="http://wiki.piratenpartei.de/wiki/images/e/ed/QKonsens-Anwendungsf%C3%A4lle-v01.jpg">http://wiki.piratenpartei.de/wiki/images/e/ed/QKonsens-Anwendungsf%C3%A4lle-v01.jpg</A>
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> So let's see how far can we push this approach!
+</I>&gt;<i> 
+</I>&gt;<i> What do you think?
+</I>&gt;<i> 
+</I>&gt;<i> Cheers
+</I>&gt;<i> marc 
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013850.html">[MG] [Ag Meinungsfindungstool] Common business entity model
+</A></li>
+	<LI>Next message (by thread): <A HREF="013859.html">[MG] [Ag Meinungsfindungstool] Common business entity model
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

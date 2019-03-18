@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Spambots in the wiki
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Spambots%20in%20the%20wiki&In-Reply-To=%3C4593A5E5-42ED-4D45-8508-1E223C48E3B1%40metagovernment.org%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="004815.html">
+   <LINK REL="Next"  HREF="013607.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Spambots in the wiki</H1>
+    <B>Ed Pastore</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Spambots%20in%20the%20wiki&In-Reply-To=%3C4593A5E5-42ED-4D45-8508-1E223C48E3B1%40metagovernment.org%3E"
+       TITLE="[MG] Spambots in the wiki">epastore at metagovernment.org
+       </A><BR>
+    <I>Sat Apr 21 09:00:16 EDT 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="004815.html">[MG] Spambots in the wiki
+</A></li>
+        <LI>Next message (by thread): <A HREF="013607.html">[MG] Spambots in the wiki
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Thanks for being so diligent on the spam, Michael. I have all of the protections you list already set to on (and I wish I could not, since it certainly discourages participation). Here is what I have in the settings file:
+
+## 2008-05-10 ED ADDED e-mail confirmation requirement
+$wgEmailConfirmToEdit = true;
+
+## 2008-05-10 ED ADDED some user/group permissions, see
+## <A HREF="http://www.mediawiki.org/wiki/Manual%3A%24wgGroupPermissions">http://www.mediawiki.org/wiki/Manual%3A%24wgGroupPermissions</A>
+$wgGroupPermissions = array();
+ 
+// Implicit group for all visitors
+        $wgGroupPermissions['*'    ]['createaccount']   = true;         // 1.5.0
+        $wgGroupPermissions['*'    ]['read']            = true;         // 1.5.0
+        $wgGroupPermissions['*'    ]['edit']            = false;        // 2008-05-10 Ed changed
+        $wgGroupPermissions['*'    ]['createpage']      = false;        // 2008-05-10 Ed changed
+        $wgGroupPermissions['*'    ]['createtalk']      = false;        // 2008-05-10 Ed changed
+        
+
+I also have ConfirmEdit:
+
+## 2010-01-19 ED ADDED custom captcha requirements
+## See: <A HREF="http://www.mediawiki.org/wiki/Extension:ConfirmEdit">http://www.mediawiki.org/wiki/Extension:ConfirmEdit</A>
+## Requested by Michael Allen:
+## <A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/2010-January/002504.html">http://metagovernment.org/pipermail/start_metagovernment.org/2010-January/002504.html</A>
+$wgGroupPermissions['autoconfirmed']['skipcaptcha'] = true; //different from default
+
+
+and VisualMathCaptcha:
+
+## 2011-01-17 ED ADDED wgVisualMathCaptchaItemMax
+## reference: <A HREF="http://www.mediawiki.org/wiki/Extension:VisualMathCaptcha">http://www.mediawiki.org/wiki/Extension:VisualMathCaptcha</A>
+require_once( &quot;$IP/extensions/VisualMathCaptcha/VisualMathCaptcha.setup.php&quot; );
+
+## Also added the following as per
+## <A HREF="http://www.mediawiki.org/wiki/Extension:ConfirmEdit#VisualMathCaptcha">http://www.mediawiki.org/wiki/Extension:ConfirmEdit#VisualMathCaptcha</A>
+ $wgAutoloadClasses['VisualMathConfirmCaptcha'] = &quot;$IP/extensions/VisualMathCaptcha/VisualMathConfirmCaptcha.class.php&quot;;
+
+
+...and still we are seeing spambots wander through. I am open to suggestions as to how we could tighten this further... or to tweak it somehow to loosen it for non-spambots, because it is pretty annoying security at the moment. And still not working all that well.
+
+
+As for the auto-message, the intention was to have it appear to them right as they signed up, so they would know that just signing up and leaving wouldn't really do them any good. I've had people tell me they &quot;signed up&quot; with us, only to find that all they did was create a wiki account. Hopefully those making this mistake will be notified by the new user message that they need to do more.
+
+
+On Apr 21, 2012, at 5:17 AM, Michael Allan wrote:
+
+&gt;<i> Ed,
+</I>&gt;<i> 
+</I>&gt;<i> Spambots have been hitting the wiki.  I think it's too easy a target.
+</I>&gt;<i> Here are the protections I have in the pollwiki, for example:
+</I>&gt;<i> 
+</I>&gt;<i>  ## (A.1) no page creation by anonymous, unregistered users
+</I>&gt;<i>    $wgGroupPermissions['*']['createpage'] = false;
+</I>&gt;<i>    $wgGroupPermissions['*']['createtalk'] = false;
+</I>&gt;<i> 
+</I>&gt;<i>  ## (A.2) no editing by anonymous, unregistered users
+</I>&gt;<i>    $wgGroupPermissions['*']['edit'] = false;
+</I>&gt;<i> 
+</I>&gt;<i>  ## (A.3) no editing by unconfirmed email addresses
+</I>&gt;<i>  # $wgEmailConfirmToEdit = true;
+</I>&gt;<i> 
+</I>&gt;<i> When A.2 isn't enough, I uncomment A.3 for a while.  It works because
+</I>&gt;<i> the bots generally can't handle email.  Here's the full config I use.
+</I>&gt;<i> The spam protections are mostly in $wgGroupPermissions,
+</I>&gt;<i> $wgEmailConfirmToEdit and $wgNoFollowNsExceptions.
+</I>&gt;<i> <A HREF="http://zelea.com/system/host/obsidian/var/www/localhost/htdocs/mediawiki-c/LocalSettings.php">http://zelea.com/system/host/obsidian/var/www/localhost/htdocs/mediawiki-c/LocalSettings.php</A>
+</I>&gt;<i> 
+</I>&gt;<i> There's another problem.  A new page (welcome message) is
+</I>&gt;<i> automatically added for every spambot that registers.  It fills up the
+</I>&gt;<i> wiki and clutters up the change log, making it harder to clean up the
+</I>&gt;<i> mess: <A HREF="http://metagovernment.org/wiki/Special:RecentChanges">http://metagovernment.org/wiki/Special:RecentChanges</A>
+</I>&gt;<i> 
+</I>&gt;<i> Instead of an automated welcome message, maybe we could look at a
+</I>&gt;<i> manual one?  We could take turns at it, or something like that.
+</I>&gt;<i> 
+</I>&gt;<i> -- 
+</I>&gt;<i> Michael Allan
+</I>&gt;<i> 
+</I>&gt;<i> Toronto, +1 416-699-9528
+</I>&gt;<i> <A HREF="http://zelea.com/">http://zelea.com/</A>
+</I>&gt;<i> 
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Start : a mailing list of the Metagovernment project
+</I>&gt;<i> <A HREF="http://www.metagovernment.org/">http://www.metagovernment.org/</A>
+</I>&gt;<i> Post to the list: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Start at metagovernment.org</A>
+</I>&gt;<i> Manage subscription: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">http://metagovernment.org/mailman/listinfo/start_metagovernment.org</A>
+</I>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="004815.html">[MG] Spambots in the wiki
+</A></li>
+	<LI>Next message (by thread): <A HREF="013607.html">[MG] Spambots in the wiki
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

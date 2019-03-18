@@ -1,0 +1,213 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Public meeting agendas, minutes and XML
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Public%20meeting%20agendas%2C%20minutes%20and%20XML&In-Reply-To=%3C4ACC8EA8.9179.0047.0%40coi.gsi.gov.uk%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="010854.html">
+   <LINK REL="Next"  HREF="010856.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Public meeting agendas, minutes and XML</H1>
+    <B>David Pullinger</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Public%20meeting%20agendas%2C%20minutes%20and%20XML&In-Reply-To=%3C4ACC8EA8.9179.0047.0%40coi.gsi.gov.uk%3E"
+       TITLE="[Start] Public meeting agendas, minutes and XML">David.Pullinger at coi.gsi.gov.uk
+       </A><BR>
+    <I>Wed Oct  7 07:50:49 EDT 2009</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="010854.html">[Start] Public meeting agendas, minutes and XML
+</A></li>
+        <LI>Next message (by thread): <A HREF="010856.html">[Start] Public meeting agendas, minutes and XML
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>I agree with Daniel's response. 
+
+Here in UK we have developed some RDFa for public sector consultation descriptions for the same reason which is to enable human-readable content to be machine processable.  This will not only allow many to re-use the information appropriately for the services they want to offer, but also gives the government a means of aggregating a list of all the consultations into one place to find out how citizens and stakeholders can contribute to consultations.  You can find the draft standard we are using at: 
+<A HREF="http://code.google.com/p/argot-hub/wiki/ArgotConsultation">http://code.google.com/p/argot-hub/wiki/ArgotConsultation</A> 
+
+A lot of work that has been done in developing the XML can be re-used for RDFa - for example all the business analysis of what information is worth identifying as separate elements and what end-users and developers want to be able to do with it at the end is some of the most time-consuming parts of the overall work, preceding the development of the appropriate ontology.  
+
+For interest, although irrelevant to this strand, we have also developed a Job Vacancy Description RDFa which is in use across various parts of the UK public sector.  This allows and encourages re-use by third parties, which increases accountability and reduces cost to the taxpayer in filling posts.  You can find it at:
+<A HREF="http://code.google.com/p/argot-hub/wiki/ArgotJob">http://code.google.com/p/argot-hub/wiki/ArgotJob</A> 
+
+Kind regards,
+
+David
+
+
+
+David Pullinger
+<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">david.pullinger at coi.gsi.gov.uk</A>
+Head of Digital Policy
+Central Office of Information
+Hercules House
+7 Hercules Road
+London SE1 7DU
+020 7261 8513
+07788 872321
+ 
+Twitter #digigov and blogs:  www.coi.gov.uk/blogs/digigov
+ 
+
+
+&gt;&gt;&gt;<i> &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">daniel at citizencontact.com</A>&gt; 07/10/2009 12:17 &gt;&gt;&gt;
+</I>I think that any meeting information should be in XHTML since that is the human readable form that people actually read and will use. It is easy then to make the same web page be machine processable. There are already widely accepted standards for much of the event, GIS, textual, video and other components of a meeting. 
+
+For example, the web page can include RDFa and/or Microformats for all of the information as well as link to iCal/vcard and other non-human readable formats for backwards compatibility.  The page URL for that web page can also be used as a metadata nugget for tagging/citing things that happen at the event. And you can use id attributes to allow parts of the meeting to be found (e.g. <A HREF="http://example.gov/20100217/meeting.htm#agenda-1">http://example.gov/20100217/meeting.htm#agenda-1</A> )/or even to have multiple events in the same page. And then those portions of the meeting can be separately tagged/cited (note that pure XML non-HTML document is harder to cite from within an HTML doc-see XLINK). 
+
+If for some reason it feels necessary to create new standards in XML for this data, I would recommend ALWAYS using a standard XSLT into XHTML and then including all the Microformat and/or RDFa standards in the resultant/generated XHTML. The XHTML would could exactly as described as above. This way there would not need to be the segregation of data from humans.
+
+Also some interesting work has been done on creating transcripts of videotaped meetings in a crowd sourced manner and for public posting of meetings by metavid and openmeetings.
+
+Daniel Bennett
+
+eCitizen Foundation
+
+
+
+-----Original Message-----
+From: &quot;Owen Ambur&quot; &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Owen.Ambur at verizon.net</A>&gt;
+Sent: Tuesday, October 6, 2009 8:55pm
+To: &quot;'Steven Clift'&quot; &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">clift at e-democracy.org</A>&gt;, &quot;'eGovIG IG'&quot; &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">public-egov-ig at w3.org</A>&gt;
+Cc: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">JohnPaul.Deley at eia.doe.gov</A>, &quot;'Schwartz, Adam J.'&quot; &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">aschwartz at gpo.gov</A>&gt;, &quot;'Betsy Fanning'&quot; &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">bfanning at aiim.org</A>&gt;, &quot;'Jane Harnad'&quot; &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">jane.harnad at oasis-open.org</A>&gt;, &quot;Arthur Colman&quot; &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">colman at drybridge.com</A>&gt;, &quot;Sylvia Webb&quot; &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">sylvia.webb at vision4standards.com</A>&gt;, &quot;'Metagovernment Startup Committee'&quot; &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">start at metagovernment.org</A>&gt;
+Subject: RE: Public meeting agendas, minutes and XML
+
+Steven, I don't know how much time I might be able to devote to it, but
+since I have long believed there should be a standard XML schema (XSD) for
+posting meeting notices on the Web, I'd have a hard time not participating
+in any reasonable effort to specify such a standard.
+
+While the initial iteration of the standard should be as simple and easy to
+implement as possible, it would be good to consider enabling referencing of
+the &lt;Identifiers&gt; for goals and objectives documented on the Web in
+conformance with AIIM's emerging Strategy Markup Language (StratML)
+standard.  See <A HREF="http://xml.gov/stratml/index.htm">http://xml.gov/stratml/index.htm</A> &amp;
+<A HREF="http://xml.gov/stratml/draft/StratMLGlossary.xml#Identifier">http://xml.gov/stratml/draft/StratMLGlossary.xml#Identifier</A> 
+
+Since meetings are (or at least should be) conducted to support
+accomplishment of explicitly identified goals and objectives, it would be
+good if meeting notices and agendas could reference those goals and
+objectives -- which should themselves be documented in standard, readily
+referenceable XML format on the Web (e.g., StratML).
+
+Needless to say, that is an objective to which I will be more than happy to
+contribute to the best of my ability.
+
+BTW, as you may recall, E-Democracy.org's plan is in the StratML collection
+at <A HREF="http://xml.gov/stratml/drybridge/index.htm#Other">http://xml.gov/stratml/drybridge/index.htm#Other</A> or, more specifically,
+<A HREF="http://xml.gov/stratml/drybridge/eDo.xml">http://xml.gov/stratml/drybridge/eDo.xml</A> 
+
+
+Owen Ambur
+Co-Chair Emeritus, xmlCoP  
+Co-Chair, AIIM StratML Committee
+Member, AIIM iECM Committee 
+Invited Expert, W3C eGov IG
+Communications/Membership Director, FIRM Board  
+Former Project Manager, ET.gov 
+
+
+-----Original Message-----
+From: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">public-egov-ig-request at w3.org</A> [mailto:<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">public-egov-ig-request at w3.org</A>] 
+On Behalf Of Steven Clift
+Sent: Tuesday, October 06, 2009 4:38 PM
+To: eGovIG IG
+Subject: Public meeting agendas, minutes and XML
+
+I am putting final touches on an invited grant proposal that includes
+an effort to make public meeting agendas more accessible as well as
+encourage discussion of agenda items across the Web 2.0 world in a
+more structured and visible way. Folks should be able to plunk in
+their address and be told in one place (actually lots of places from
+local media sites to government sites) what meetings are coming up
+across ALL the local government organizations that serve them (with
+state and Federal options too) and be able to set-up personalized
+notification options.
+
+Initially, we'd start with an open specification/convening process
+where we'd involve a number of stakeholders and I would like to
+appropriately suggest we will consult with this network on standards
+to apply or consider.
+
+Any reason I shouldn't do that?
+
+Then, based on the specification we'd attempt to prototype it with
+some serious meeting notice/calendar, agenda, minutes, and links to
+meeting document scraping across Minneapolis and perhaps St. Paul.
+Ideally, a standard would emerge for governments to simply put out
+this data in real-time in XML so scraping is only an interim need ...
+although with 30,000 local governments in the U.S. and lots of crowd
+sourcing, the scraping will be the only way to get many small
+governments into the service for many years.
+
+The modest proposal we are developing is a sub-set of the broader
+discussion Participation 3.0 draft we have from here:
+<A HREF="http://e-democracy.org/P3">http://e-democracy.org/P3</A> 
+
+If you like this idea and would like to volunteer your expertise or
+technology talent, let me know!  It will make it far more likely the
+idea will get off the ground sooner than later and not be another
+isolated service coming from out of the blue. E-mail me at:
+<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">clift at e-democracy.org</A> 
+
+I'll let the group know if we succeed with our proposal.
+
+Steven Clift - <A HREF="http://stevenclift.com">http://stevenclift.com</A> 
+Executive Director - <A HREF="http://E-Democracy.Org">http://E-Democracy.Org</A> 
+Donate today: <A HREF="http://e-democracy.org/donate">http://e-democracy.org/donate</A> 
+
+
+
+
+
+
+
+
+
+
+This communication is confidential and copyright.
+Anyone coming into unauthorised possession of it should disregard its content and erase it from their records.
+
+The original of this email was scanned for viruses by Government Secure Intranet (GSi) virus scanning service supplied exclusively by Cable &amp; Wireless in partnership with MessageLabs.
+On leaving the GSI this email was certified virus free.
+The MessageLabs Anti Virus Service is the first managed service to achieve the CSIA Claims Tested Mark (CCTM Certificate Number 2006/04/0007), the UK Government quality mark initiative for information security products and services. For more information about this please visit www.cctmark.gov.uk
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="010854.html">[Start] Public meeting agendas, minutes and XML
+</A></li>
+	<LI>Next message (by thread): <A HREF="010856.html">[Start] Public meeting agendas, minutes and XML
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Difference bridge layout proposal
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Difference%20bridge%20layout%20proposal&In-Reply-To=%3C1326561394.8d46e0.30632%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013492.html">
+   <LINK REL="Next"  HREF="013503.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Difference bridge layout proposal</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Difference%20bridge%20layout%20proposal&In-Reply-To=%3C1326561394.8d46e0.30632%40out.zelea.com%3E"
+       TITLE="[MG] Difference bridge layout proposal">mike at zelea.com
+       </A><BR>
+    <I>Sat Jan 14 13:34:25 EST 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013492.html">[MG] Difference bridge layout proposal
+</A></li>
+        <LI>Next message (by thread): <A HREF="013503.html">[MG] Difference bridge layout proposal
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>conseo wrote:
+&gt;<i> Do you think the new layout is better understandable by people
+</I>&gt;<i> hitting a link on one of the discussion media not yet knowing about
+</I>&gt;<i> difference patching?
+</I>
+Yes, that looks quite nice.  The horizontal symmetry is attractive and
+intuitive.
+
+&gt;<i> The major issue mcallan pointed out (2) is that we lose half the
+</I>&gt;<i> horizontal space which means that the text must be [flowed].
+</I>
+Yes.  When text is flowed, lines are broken only at paragraph ends.
+This is how wikitext is normally composed, so this is a natural layout
+for the difference view.  But frequent line breaks are required for
+differencing, so we've been using a line transformer to inject those
+breaks.  Currently we inject them at the phrase level:
+<A HREF="http://zelea.com/project/votorola/_/javadoc/votorola/a/diff/LineTransformer1.html">http://zelea.com/project/votorola/_/javadoc/votorola/a/diff/LineTransformer1.html</A>
+
+Our difference view currently shows the text complete with these line
+breaks, exactly as transformed.  We can no longer do that with a
+side-by-side view, because we'll often lack the horizontal space to
+accomodate even phrase-length lines.  So we may want to code a new
+line transformer that breaks at shorter intervals, probably at word
+level.  That would mesh nicely with a flow layout.  It would also have
+the side benefit of enabling the user to cherry pick single word
+differences that are separated by only 5-10 words of context
+(depending on how tightly we run it), as opposed to the current 2-3
+lines.  So we could cherry in texts of only 20 words length, or so;
+which is nice because such small texts are likely to be common in the
+mini-beta rollout.  (Alex was asking about this, in the OVN forum.)
+
+So this looks good.  We get ease of understanding *and* cherry picking
+in small texts.  So maybe we want to code this for the mini-beta [1]:
+
+  e) Side-by-side layout for difference bridge, with word-level line
+     breaks.
+
+I think the biggest design problem would be the visualization of
+differences and hunks.  I think we need to:
+
+  1. Decide who's coding it, and on what platform: Wicket/servlet or
+     GWT/JavaScript, or something else.
+
+  2. Mockup the text part of the view accordingly.  Draw a single
+     difference with multiple hunks, as follows:
+
+         i) A hunk with a single word inserted on one side.
+
+            Deletion will look the same, so no need to mock that
+            separately.
+
+        ii) A hunk with a whole paragraph inserted on one side, and a
+            single word changed just above and below it.
+
+            Alignment of the single word pairs between the two sides
+            is problematic here.
+
+       iii) Anything else that seems problematic.
+
+     Your current mockup doesn't show these.
+
+
+ [1] <A HREF="http://mail.zelea.com/list/votorola/2012-January/001278.html">http://mail.zelea.com/list/votorola/2012-January/001278.html</A>
+
+ [2] A hunk is one or more differences held together by context, which
+     must therefore be patched in a single operation.  There can be no
+     cherry picking within a hunk.
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+conseo wrote:
+&gt;<i> Hi,
+</I>&gt;<i> 
+</I>&gt;<i> by discussing with our toolset lately I have found the difference layout to be 
+</I>&gt;<i> rudimentary compared to some diff-patching devel tools. I have mocked up a 
+</I>&gt;<i> side-by-side draft view highlighting difference in different colours. (1)
+</I>&gt;<i> The major issue mcallan pointed out (2) is that we lose half the horizontal 
+</I>&gt;<i> space which means that the text must be floated.
+</I>&gt;<i> Do you think the new layout is better understandable by people hitting a link 
+</I>&gt;<i> on one of the discussion media not yet knowing about difference patching? It 
+</I>&gt;<i> looks familiar to my dev-eyes and I got positive feedback from a friend, but 
+</I>&gt;<i> maybe you have better ideas. SVG included. (3)
+</I>&gt;<i> 
+</I>&gt;<i> I am doing this design specific discussion on the votorola mailing list to not 
+</I>&gt;<i> interfere with metagovernment discussions.
+</I>&gt;<i> 
+</I>&gt;<i> conseo
+</I>&gt;<i> 
+</I>&gt;<i> (1) <A HREF="http://whiletaker.homeip.net/mockups/diffbridge/2/DifferenceBridge2.xht">http://whiletaker.homeip.net/mockups/diffbridge/2/DifferenceBridge2.xht</A>
+</I>&gt;<i> (2) <A HREF="http://zelea.com/var/cache/irc/votorola/12-01/13">http://zelea.com/var/cache/irc/votorola/12-01/13</A>
+</I>&gt;<i> (3) 
+</I>&gt;<i> <A HREF="http://whiletaker.homeip.net/mockups/diffbridge/2/svg/DifferenceBridge2.svg">http://whiletaker.homeip.net/mockups/diffbridge/2/svg/DifferenceBridge2.svg</A>
+</I>&gt;<i> -------------- next part --------------
+</I>&gt;<i> An HTML attachment was scrubbed...
+</I>&gt;<i> URL: &lt;<A HREF="http://mail.zelea.com/list/votorola/attachments/20120113/42e056c2/attachment.html">http://mail.zelea.com/list/votorola/attachments/20120113/42e056c2/attachment.html</A>&gt;
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013492.html">[MG] Difference bridge layout proposal
+</A></li>
+	<LI>Next message (by thread): <A HREF="013503.html">[MG] Difference bridge layout proposal
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

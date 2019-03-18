@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Difference feed setup
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Difference%20feed%20setup&In-Reply-To=%3C20110307051506.GA8237%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012440.html">
+   <LINK REL="Next"  HREF="012455.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Difference feed setup</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Difference%20feed%20setup&In-Reply-To=%3C20110307051506.GA8237%40havoc.zelea.com%3E"
+       TITLE="[MG] Difference feed setup">mike at zelea.com
+       </A><BR>
+    <I>Mon Mar  7 00:15:06 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012440.html">[MG] Difference feed setup
+</A></li>
+        <LI>Next message (by thread): <A HREF="012455.html">[MG] Difference feed setup
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Conseo, re your last:
+<A HREF="http://u.zelea.com/var/cache/irc/metagov/11-03/06">http://u.zelea.com/var/cache/irc/metagov/11-03/06</A>
+
+If mstor doesn't use FileLock, you'll probably have to wrap it:
+<A HREF="http://download.oracle.com/javase/6/docs/api/java/nio/channels/FileLock.html">http://download.oracle.com/javase/6/docs/api/java/nio/channels/FileLock.html</A>
+Otherwise it isn't safe to read the mbox file, because the MTA may not
+be finished writing it.  Postfix (for example) uses fcntl locks.
+Those are compatible with Java's FileLock, assuming the code actually
+uses it.
+
+On second thought, I think we're on the wrong track.  We gave up too
+easily on maildir.  Here's another approach:
+
+    for( each file in 'new' directory )
+    {
+        // all files in here are unseen, of course
+
+        in = new InputStream( file );
+
+        message = new javax.mail.internet.MimeMessage( in );
+
+        process( message ); // parse it to database, or whatever
+
+        FileX.renameFrom( file, file in 'cur' directory );
+          // move it to 'cur' directory
+    }
+
+What do you think?  We don't need JavaMail to move local mail files,
+we just move them ourselves.
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012440.html">[MG] Difference feed setup
+</A></li>
+	<LI>Next message (by thread): <A HREF="012455.html">[MG] Difference feed setup
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

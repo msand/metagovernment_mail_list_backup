@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Difference bridge layout proposal
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Difference%20bridge%20layout%20proposal&In-Reply-To=%3C1807199.3Hnrc084JO%40benjamin.whiletaker.homeip.net%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013533.html">
+   <LINK REL="Next"  HREF="013539.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Difference bridge layout proposal</H1>
+    <B>conseo</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Difference%20bridge%20layout%20proposal&In-Reply-To=%3C1807199.3Hnrc084JO%40benjamin.whiletaker.homeip.net%3E"
+       TITLE="[MG] Difference bridge layout proposal">4consensus at web.de
+       </A><BR>
+    <I>Tue Feb 21 11:06:49 EST 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013533.html">[MG] Difference bridge layout proposal
+</A></li>
+        <LI>Next message (by thread): <A HREF="013539.html">[MG] Difference bridge layout proposal
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi Thomas et al.,
+
+Thomas, are you still on IRC from time to time btw.? Others are invited, too. 
+#metagov and #votorola on freenode are the channels. New mockups below...
+
+&gt;<i> 
+</I>&gt;<i> In my view Conseo's ideas are also very much for 1 usability and 2
+</I>&gt;<i> attracting users, especially the horizontal bridge-layout. I think, for
+</I>&gt;<i> now the best would be, if we could come out with a combined version of
+</I>&gt;<i> your two proposals, instead of two competing ones.
+</I>
+I think so, too, obviously, but Mike is right that I can't code them myself 
+quickly and that it is better to get the current infrastructure in a usable 
+state (with the old bridge), so users tell us what they need. (At least Mike 
+seems to get some more low-level offlist feedback than us super-alpha-users 
+8-) ). Would be cool, if this could be shared somehow, Mike?
+If they want a modified bridge layout, we can tackle it then. Since Mike is 
+atm. heavily working on the xf toolbar/HUD, we should get that working with a 
+feed like functionality first. It is easier to write a new module (scene) once 
+the infrastructure is settled and we know how xf works with the tracks and 
+scenes technically. Mike has pointed out that communication is the main 
+attractor and I agree. So I port the difference feed to a track (the 
+smilies/braces) and have to modify the harvester. As this is part of the 
+mockups anyway, I don't see an immediate conflict.
+
+So this doesn't mean the mockups are in vain. We can collect ideas on the 
+way... Colouring is still an issue imo, for example.
+
+For reference, I have removed the footings from the scene and put them in a 
+track. This allowed me to radically simplify the horizontal view. (1) The 
+votespace track is a brain storm on how to show it without too much 
+distraction and space loss. With Ed pinned it looks like (2). I have also 
+added a small mugshot to the right caption, giving us a current social network 
+like HUD (like Twitter, Facebook or Diaspora). What do you think?
+
+Mike has also pointed out that the smilies replicate a lot of information 
+(eyes, shape), which can be stressing on the eyes. So while I would put them 
+in for new users, I would make it themeable or even different tracks, because 
+once you know what it is for the brace view of Mike is less stressing and I 
+would prefer it as well. It is just no good default imo.
+
+&gt;<i> 
+</I>&gt;<i> That is an interesting use-case. When would that happen? When would you
+</I>&gt;<i> come to the bridge and see an old already matched diff? If I think of
+</I>&gt;<i> something like a diff-history or just an old diff-link, wouldn't it then
+</I>&gt;<i> be better to still show the different texts and just make somehow clear
+</I>&gt;<i> that by now this has changed?
+</I>&gt;<i> 
+</I>
+I think we need a history track for this. I have put this info in the layout 
+and it looked confusing with a date (time as another hidden dimension). Making 
+it a track makes the dimension configurable and explicit. My old resource 
+track mockups already had some history ideas. (3)
+
+
+&gt;<i> I like the clickable difference symbols a lot too, but I see problems.
+</I>&gt;<i> Some of the most important diffs will be to your co-voters, I guess,
+</I>&gt;<i> which are missing here. And the ones to your candidates co-voters, which
+</I>&gt;<i> are missing in Mike's version too.
+</I>
+Right. Btw., I understand Mike's xf mockups in a way that you can always view 
+differences by the top right buttons, so you would navigate to the person (in 
+the scene/tracks) and then trigger the difference view. I have therefore 
+removed it. It is less obvious, but if we get the xf HUD right, browsing 
+votespace implicitly might work out. This is an issue though for me. Do you 
+have a solution for browsing covoters, Mike?
+
+&gt;<i> 
+</I>&gt;<i> How, if we had one of Mikes footings atop each draft in the bridge, i.e.
+</I>&gt;<i> two of them? This way we could navigate from within the bridge to truly
+</I>&gt;<i> every diff of the tree. Maybe to much?
+</I>
+I think so. We have to make the context browsable without showing all 
+information first. This ain't easy... and is the reason why it took so long to 
+get the infrastructure of xf in an implementable state.
+
+&gt;<i> I like the preview-idea. Maybe it could get a bit more clear, that at
+</I>&gt;<i> this point it is still just a preview and must still be accepted. Maybe
+</I>&gt;<i> &quot;Save preview&quot; on top instead of &quot;Accept selected&quot;?
+</I>&gt;<i> The sliders look a bit confusing to my eyes. hm ...
+</I>
+Yes the layout and wording is bad. Maybe the &quot;patch&quot; button of Mike is ok. I 
+don't know if people understand patch in this context, it is the software 
+engineering term.
+
+c
+
+(1) <A HREF="http://whiletaker.homeip.net/mockups/diffbridge/9/9a.xht">http://whiletaker.homeip.net/mockups/diffbridge/9/9a.xht</A>
+(2) <A HREF="http://whiletaker.homeip.net/mockups/diffbridge/9/9b.xht">http://whiletaker.homeip.net/mockups/diffbridge/9/9b.xht</A>
+(3) <A HREF="http://whiletaker.homeip.net/mockups/2g.xht">http://whiletaker.homeip.net/mockups/2g.xht</A>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20120221/f67d79fe/attachment-0002.html">http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20120221/f67d79fe/attachment-0002.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013533.html">[MG] Difference bridge layout proposal
+</A></li>
+	<LI>Next message (by thread): <A HREF="013539.html">[MG] Difference bridge layout proposal
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

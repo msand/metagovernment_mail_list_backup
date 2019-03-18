@@ -1,0 +1,186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Common business entity model
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Common%20business%20entity%20model&In-Reply-To=%3C1350785655.e8c80.441%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013838.html">
+   <LINK REL="Next"  HREF="013843.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Common business entity model</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Common%20business%20entity%20model&In-Reply-To=%3C1350785655.e8c80.441%40out.zelea.com%3E"
+       TITLE="[MG] Common business entity model">mike at zelea.com
+       </A><BR>
+    <I>Sat Oct 20 23:07:52 EDT 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013838.html">[MG] Requirements in regard to split opinion formation
+</A></li>
+        <LI>Next message (by thread): <A HREF="013843.html">[MG] Common business entity model
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>
+Marc said:
+&gt;<i> To be honest you don't need to be a member of our working group -
+</I>&gt;<i> even not of Pirate Party - when you want to cooperate with us. It's
+</I>&gt;<i> all about coming together and working on the right things.
+</I>
+Thank you, I'd like that. :-)  I've been hopeful ever since I listened
+to the transcript of the first meeting, especially where Oliver
+describes the group and it's raison d'&#234;tre.
+
+&gt;<i> Here is a first draft of our idea of a Common Business Entity Model
+</I>&gt;<i> (where 'Business' means it's not a 'Data' Entity Relationship Model
+</I>&gt;<i> assignable to a database schema, it's just objects found in the real
+</I>&gt;<i> world - the database schema might look totally different):
+</I>&gt;<i> <A HREF="http://wiki.piratenpartei.de/wiki/images/4/45/DSFS-BusinessEntityModel.jpg">http://wiki.piratenpartei.de/wiki/images/4/45/DSFS-BusinessEntityModel.jpg</A>
+</I>
+I have some questions about the model.  To keep them separate from my
+other questions, I opened this thread.
+
+(a) Why is discussion itself not modeled?  It's crucial of course, but
+I don't see it anywhere.
+
+(b) Why is a vote included as an actual (real world) entity?  Myself,
+I think of voting as a formality of the system, something new we
+introduce.  It does have *correlates* in the real world, but people
+don't actually go about casting votes in order to form their opinions,
+not yet.  (In fact, most of the right side seems to be modeling a
+artificial system yet to be deployed, not the real world.  I probably
+mistook your meaning for &quot;business entity&quot;.)
+
+Looking at the left side, I see a few possible errors:
+
+(c) An opinion is not really (in itself) a document.  A document can
+be involved in the formalization and expression of an opinion, but the
+opinion is not bound to that form.
+
+(d) Likewise, a point of view is not an opinion (at least not in
+English).  It is one's outlook from a personal situation.  It may
+influence opinion in peculiar ways, but is not an opinion in itself.
+
+(e) Group membership is not a closed composite relation, but rather an
+open aggregate.  One can be a member of many groups.
+
+Although I don't have a full understanding yet, I suspect it will be
+difficult to find the right model to code by.  It may take a while.
+Later (in the other thread), I'll try to suggest a way of buying time
+and (possibly) evolving some of the models by discovery.
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+marc said:
+&gt;<i> Hi Michael,
+</I>&gt;<i> 
+</I>&gt;<i> There is always time, when people doing the right things together ;o)
+</I>&gt;<i> 
+</I>&gt;<i> So you wrote
+</I>&gt;<i> &gt;Although I'm not a member of the Meinungsfindungstool working group, I
+</I>&gt;<i> &gt;have a personal concern with what you're working on.  Specifically it
+</I>&gt;<i> &gt;involves the problem of &quot;split consensus&quot; as Thomas von der Elbe has
+</I>&gt;<i> &gt;called it, or &quot;split opinion formation&quot; in your own terms.
+</I>&gt;<i> 
+</I>&gt;<i> To be honest you don't need to be a member of our working group - even not
+</I>&gt;<i> of Pirate Party - when you want to cooperate with us. It's all about coming
+</I>&gt;<i> together and working on the right things.
+</I>&gt;<i> 
+</I>&gt;<i> &gt;But first I have some questions.  Do you have time to answer?
+</I>&gt;<i> 
+</I>&gt;<i> Sure, you are welcome.
+</I>&gt;<i> 
+</I>&gt;<i> &gt;Marc said, October 10:
+</I>&gt;<i> &gt;&gt; One possible answer our working groups comes out with is, that we need to
+</I>&gt;<i> &gt;&gt; define kind of standardization. Like the W3C standardizes the internet
+</I>&gt;<i> &gt;&gt; and
+</I>&gt;<i> &gt;&gt; Business Entity Model...
+</I>&gt;<i> 
+</I>&gt;<i> &gt;And in reply to Pietro, October 16:
+</I>&gt;<i> &gt;&gt; The idea is to have a common base (framework of workflows and
+</I>&gt;<i> &gt;&gt; entities) for all tools to enable the interaction and extensibility
+</I>&gt;<i> &gt;&gt; of the overal process of decision-making. Therefore we need a common
+</I>&gt;<i> &gt;&gt; understanding of how workflows and entities interacts in the
+</I>&gt;<i> &gt;&gt; process.
+</I>&gt;<i> 
+</I>&gt;<i> &gt;I try to picture what you describe (pardon my ASCII):
+</I>&gt;<i> 
+</I>&gt;<i> Sorry, I can't cite your ascii ;o)
+</I>&gt;<i> 
+</I>&gt;<i> &gt;Here T1 and T2 are competing tools for the purpose of opinion forming.
+</I>&gt;<i> &gt;A user may choose T1 or T2.  But regardless of the choice (say it is
+</I>&gt;<i> &gt;T2), the user will remain part of the same overall opinion forming
+</I>&gt;<i> &gt;process (M).  So he/she may continue to work with other users who make
+</I>&gt;<i> &gt;different choices (T1).  This technical freedom of choice is made
+</I>&gt;<i> &gt;possible by the common standards, practices and/or databases (S) that
+</I>&gt;<i> &gt;are shared between the competing tools.  Is this picture correct?
+</I>&gt;<i> 
+</I>&gt;<i> Yes, that's what our working group tries to establish.
+</I>&gt;<i> 
+</I>&gt;<i> And even more, if the user starts with T1 and then recognizes that T2 fits 
+</I>&gt;<i> better to his needs, than he can just switch over to T2, if T2 provides a 
+</I>&gt;<i> migration path to the Common Business Entity Model (CBEM) ;o)
+</I>&gt;<i> 
+</I>&gt;<i> Here is a first draft of our idea of a Common Business Entity Model (where 
+</I>&gt;<i> 'Business' means it's not a 'Data' Entity Relationship Model assignable to a 
+</I>&gt;<i> database schema, it's just objects found in the real world - the database 
+</I>&gt;<i> schema might look totally different):
+</I>&gt;<i> <A HREF="http://wiki.piratenpartei.de/wiki/images/4/45/DSFS-BusinessEntityModel.jpg">http://wiki.piratenpartei.de/wiki/images/4/45/DSFS-BusinessEntityModel.jpg</A>
+</I>&gt;<i> 
+</I>&gt;<i> Unfortunately it's not fully translated yet, but I hope you understand our 
+</I>&gt;<i> intention. The blue rectangles are objects that are part of the base 
+</I>&gt;<i> framework standard. The red ones are specific to plug-ins, using the blue 
+</I>&gt;<i> ones to inherit from, or just defining new ones.
+</I>&gt;<i> 
+</I>&gt;<i> At the end the blue ones are those who all tools should be able to convert 
+</I>&gt;<i> their own Model into. That's the way the different tools can interchange 
+</I>&gt;<i> their data.
+</I>&gt;<i> 
+</I>&gt;<i> Does this make sense?
+</I>&gt;<i> 
+</I>&gt;<i> Cheers
+</I>&gt;<i> Marc 
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013838.html">[MG] Requirements in regard to split opinion formation
+</A></li>
+	<LI>Next message (by thread): <A HREF="013843.html">[MG] Common business entity model
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

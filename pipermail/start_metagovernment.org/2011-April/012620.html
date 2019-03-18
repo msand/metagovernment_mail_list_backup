@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Votespace social map
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Votespace%20social%20map&In-Reply-To=%3C20110416041822.GA4393%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012616.html">
+   <LINK REL="Next"  HREF="012622.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Votespace social map</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Votespace%20social%20map&In-Reply-To=%3C20110416041822.GA4393%40havoc.zelea.com%3E"
+       TITLE="[MG] Votespace social map">mike at zelea.com
+       </A><BR>
+    <I>Sat Apr 16 00:18:22 EDT 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012616.html">[MG] Votespace social map
+</A></li>
+        <LI>Next message (by thread): <A HREF="012622.html">[MG] Votespace social map
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Thomas von der Elbe wrote:
+&gt;<i> &gt; <A HREF="http://zelea.com/project/votorola/a/crossforum/vote/_/3.xht">http://zelea.com/project/votorola/a/crossforum/vote/_/3.xht</A>
+</I>&gt;<i> I like mockup II very much! If this is possible to code, then we
+</I>&gt;<i> will have something very impressive, I feel! ...
+</I>
+I think so, too.  If we add the callouts and tie them to C's diff
+feed, then it'll be obvious from the first glance what we're showing.
+We're showing real people, alive and kicking.  (Who else shows that?)
+
+&gt;<i> ... How do you think: if we climb up the tree, does the map pan the
+</I>&gt;<i> new node into the centre of the screen? It must, right? Because it
+</I>&gt;<i> may happen, that you go south 5 levels. Thats too much for the
+</I>&gt;<i> screen then, right?
+</I>
+Yes.  Max view size will be roughly 4-5 circles in a line (6-7 for
+state/world issues).  That's too large for a typical viewport/screen,
+so we'll need to pan.  I think it should be automatic, as you suggest;
+entirely automatic so there's no pan control (keep it simple).
+
+&gt;<i> With panning we can create (use) endless amounts of space. We
+</I>&gt;<i> theoretically wouldnt even need to overlap at all (like currently in
+</I>&gt;<i> the picture linked above). The smaller angle for the 20 voters of
+</I>&gt;<i> Fr. could be compensated with a longer radius. ... just to mention.
+</I>
+I started like that (angle of 9 and a 180 arc), but I think this is an
+improvement.  I actually like how it curls back on itself.  It's
+reminescent of natural patterns in leaves or mollusc shells.  The eye
+interprets the overlap as depth.
+
+The source is here if anyone wants to improve on it:
+<A HREF="http://zelea.com/project/votorola/a/crossforum/vote/VotespaceV.svg">http://zelea.com/project/votorola/a/crossforum/vote/VotespaceV.svg</A>
+
+&gt;<i> Another version of creating endless amount of space would be zoom,
+</I>&gt;<i> though. With it something like here becomes possible too, i.e. full
+</I>&gt;<i> circles of sub-voters, right?:
+</I>&gt;<i> 
+</I>&gt;<i> <A HREF="http://www.visualcomplexity.com/vc/project_details.cfm?id=744&amp;index=744&amp;domain=">http://www.visualcomplexity.com/vc/project_details.cfm?id=744&amp;index=744&amp;domain=</A>
+</I>
+Yes.  Call that a &quot;fractal&quot; design, as opposed to our &quot;radial whorl&quot;.
+
+&gt;<i> One would just zoom in deeper and deeper. And like in this picuture
+</I>&gt;<i> and like proposed before by The_User in the chat, we could have 2
+</I>&gt;<i> circles around the centre, which would give us even more
+</I>&gt;<i> space. Would voters feel bad, if they were positioned in the second
+</I>&gt;<i> row for no obvious reason? (BTW, is sorting of voters by number of
+</I>&gt;<i> votes like in the current vote-space theoretically still possible or
+</I>&gt;<i> not?)  But with the zoom we would loose some of the oversight, or
+</I>&gt;<i> not? ...
+</I>
+It would probably be OK.  If the zoom were tied to the back button,
+the user could easily back out and re-orient.  Same as with our
+geomap: <A HREF="http://metagovernment.tuxfamily.org/crossforum/#c=DG">http://metagovernment.tuxfamily.org/crossforum/#c=DG</A>
+(Hit + on the left till you're lost, then hit the back button.)
+
+The fractal attempts to show the entire tree or forest in all of its
+detail.  So it's both broad in scope and narrow in detail.  If we
+needed such a view, we could code it as separate map.  But I don't
+think it should be our first map.  It isn't as appealing.  It's like a
+microscope.  It moves you closer to tiny dots that are flattened out
+on a glass slide.  I'd rather the tiny dots on the periphery moved
+closer to me, while the big ones in the middle receded.  Then it would
+have depth and height.  The most beautiful views would then be the
+highest ones, where the voters are.
+
+The most elegant way to display quantitative data is often the
+simplest and most direct way (I agree with Edward Tufte): just show
+the numbers.  That's what we do.  We also show the text of the names.
+I think the combination of numerals and name glyphs is particularly
+informative and attractive, more so than dots.
+
+&gt;<i> ... Just an idea, I dont know, what is better. What do you think?
+</I>
+I think the radial whorl is better for the first map.  It's more than
+I'd hoped for.  Thanks too, because it's mostly your design!
+
+Should we code it?  (I'll start with some panning tests, because I've
+never panned SVG.)
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012616.html">[MG] Votespace social map
+</A></li>
+	<LI>Next message (by thread): <A HREF="012622.html">[MG] Votespace social map
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

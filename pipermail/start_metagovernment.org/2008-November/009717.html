@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] DemocracyLab's Open Source License
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20DemocracyLab%27s%20Open%20Source%20License&In-Reply-To=%3C200811162116.mAGLGlSb014512%40democracylab.us%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="009715.html">
+   <LINK REL="Next"  HREF="009729.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] DemocracyLab's Open Source License</H1>
+    <B>Mark Frischmuth</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20DemocracyLab%27s%20Open%20Source%20License&In-Reply-To=%3C200811162116.mAGLGlSb014512%40democracylab.us%3E"
+       TITLE="[Start] DemocracyLab's Open Source License">mark at democracylab.org
+       </A><BR>
+    <I>Sun Nov 16 16:21:06 EST 2008</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="009715.html">[Start] yet another slashdot article
+</A></li>
+        <LI>Next message (by thread): <A HREF="009729.html">[Start] Introductions
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hello everyone-
+ 
+DemocracyLab will be discussing open source license options at our upcoming
+board meeting on Thursday the 20th.  Bjorn Freeman-Benson, technical
+director at the Eclipse Foundation, prepared the following recommendations
+for our consideration (he will be in Germany for an Eclipse conference
+during our board meeting next week).  I would welcome any comments or
+suggestions the group has.  Thanks in advance,
+ 
+Mark 
+ 
+ 
+The open source licensing issue is an interesting one because it mixes legal
+issues with politics: there are at least two major camps, but I'll get to
+that in a bit. First, open source licenses are designed to provide three
+freedoms:
+*	The freedom to copy and use the software 
+*	The freedom to make derivative versions of the software (derivative
+works) 
+*	The freedom to redistribute the software
+There are a wide variety of open source licenses out there and each one
+provides different versions of each of these freedoms. The first freedom is
+pretty much universal, but of course there are exceptions, e.g., the JSON
+license says that is must be &quot;used for Good, not Evil&quot;
+<A HREF="http://www.crockford.com/JSON/license.html">http://www.crockford.com/JSON/license.html</A>
+ 
+There are small variations in the first freedom amongst licenses, for
+example some licenses allow the user to do pretty much anything, e.g., the
+Apache 2.0 License <A HREF="http://www.opensource.org/licenses/apache2.0.php,">http://www.opensource.org/licenses/apache2.0.php,</A> whereas
+most licenses impose some redistribution restrictions on the user as
+described below.
+ 
+The second freedom is where licenses start to differ. One school of thought
+is that anyone can make any derivative work, e.g., the BSD-style and MIT
+licenses <A HREF="http://www.opensource.org/licenses/bsd-license.php">http://www.opensource.org/licenses/bsd-license.php</A> and
+<A HREF="http://www.opensource.org/licenses/mit-license.php.">http://www.opensource.org/licenses/mit-license.php.</A> The other school of
+thought is that anyone can make a derivative work, but any such derivative
+work must be recontributed to the world under the same license terms, e.g.,
+the Mozilla Public License
+<A HREF="http://www.opensource.org/licenses/mozilla1.1.php.">http://www.opensource.org/licenses/mozilla1.1.php.</A>
+ 
+The third freedom is where the politics really start to diverge. The key to
+understanding the discussion around the freedom to redistribute is
+understanding the viral nature of certain licenses (also known as
+&quot;copyleft&quot;):
+1.	The first type of license says &quot;you have to acknowledge where this
+software came from, but other than that, you can redistribute it however you
+want&quot;. For example, you could use it in a commercial product; you could
+rewrite major portions and sell it in an iPhone app; you can copy from the
+code and paste it into your own projects; etc. The license is not viral in
+any way because it does not attach itself to the redistributed code (except,
+as I mentioned, the usual requirement that you have to acknowledge its
+provenance). 
+2.	The second type of license says &quot;you have to keep this code under
+this license, but you can use your own license for any additional code&quot;.
+Thus if you took module X and distributed it with your own module Y, then X
+must retain the original license while you use a different license for Y.
+The Eclipse Public License
+<A HREF="http://www.opensource.org/licenses/eclipse-1.0.php">http://www.opensource.org/licenses/eclipse-1.0.php</A> is like this. What this
+means is that if you modify module X (under the EPL) and redistribute your
+new X-prime, then you have to keep X-prime under the EPL. This license is
+semi-viral in that it attaches itself to the original code and all derived
+versions, but does not infect other code. 
+3.	The third type of license says &quot;you have to keep this code under
+this license *and* any other code you link up to this code *also* must be
+under this license&quot;. The GNU Public License
+<A HREF="http://www.opensource.org/licenses/gpl-license.php">http://www.opensource.org/licenses/gpl-license.php</A> is like this. Using my
+previous example, if you use module X (under the GPL) and redistribute it
+with your own code (module Y), then your module Y *must* also be GPL
+licensed. This license is maximally viral because it forces all code that it
+touches to be GPL'ed.
+The open source community political issue is between the types 1 and 2s
+versus the type 3s - without being at the Board meeting in person to explain
+the politics, let me just say that I think the type 3s are wrong (and
+naive). I think the GPL is a bad license because it restricts the freedom to
+redistribute because it injects a certain political belief into the
+software... 
+ 
+The final, and key, question is &quot;what license should we use for Democracy
+Lab?&quot; As our goal is to maximize participation and reuse, I recommend that
+we choose the Mozilla Public License: it requires that derivative versions
+of the DemocracyLab code base be made available in source code form, but it
+is not a viral license that would restrict the code's use.
+ 
+- Bjorn
+ 
+P.S. For further light reading, you might consider:
+*
+<A HREF="http://developer.novell.com/wiki/index.php/Help:Choosing_an_Open_Source_Lice">http://developer.novell.com/wiki/index.php/Help:Choosing_an_Open_Source_Lice</A>
+nse 
+*	<A HREF="http://www.onlamp.com/pub/a/onlamp/2004/11/18/licenses.html">http://www.onlamp.com/pub/a/onlamp/2004/11/18/licenses.html</A> 
+*	<A HREF="http://www.opensource.org/licenses/category">http://www.opensource.org/licenses/category</A>
+ 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20081116/f8a32650/attachment-0002.html">http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20081116/f8a32650/attachment-0002.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="009715.html">[Start] yet another slashdot article
+</A></li>
+	<LI>Next message (by thread): <A HREF="009729.html">[Start] Introductions
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

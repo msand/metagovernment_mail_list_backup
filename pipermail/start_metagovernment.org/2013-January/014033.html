@@ -1,0 +1,185 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Zohar's requirements
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Zohar%27s%20requirements&In-Reply-To=%3C1358796681.BA1670.27467%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="014032.html">
+   <LINK REL="Next"  HREF="005247.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Zohar's requirements</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Zohar%27s%20requirements&In-Reply-To=%3C1358796681.BA1670.27467%40out.zelea.com%3E"
+       TITLE="[MG] Zohar's requirements">mike at zelea.com
+       </A><BR>
+    <I>Mon Jan 21 17:00:01 EST 2013</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="014032.html">[MG] (no subject)
+</A></li>
+        <LI>Next message (by thread): <A HREF="005247.html">[MG] Start Digest, Vol 58, Issue 5
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi Zohar,
+
+Do you have any documentation for your project?  Something to help
+folks judge whether they can be of help?
+
+&gt;<i> ... Shockingly i have not been unable to find a single platform hat
+</I>&gt;<i> satisfies my reirements, which I believe are pretty basic. ...
+</I>
+Don't be too hard on us.  We try, but we don't get paid overtime. ;-)
+I guess you're in the &quot;requirements gathering&quot; phase.  You don't have
+a particular design (e.g. your own) that you're already commited to.
+Is that true?
+
+Two other requirements to consider:
+
+  (i) Voting results are actually trusted. (you imply this, but don't
+      explictly mention it)
+ (ii) Participation is meaningful to the ordinary individual.  It is
+      fulfilling, or fun, or otherwise holds his/her attention vs.
+      other media, especially rival voting media.
+
+The design of Votorola satisfies the requirements you mention, plus
+these two above.  But the current implementation isn't quite up to
+speed.  Specifically:
+
+&gt;<i> - Anonymous as well as non-anonymous voting
+</I>
+In trusted polls (trust level &gt; 0), anonymous votes are accepted but
+not counted for the default results.  All votes are published however,
+so anyone can tally and post a more inclusive result set.  They can
+use Votorola for this, or another count engine, as they please.
+
+Private voting is a lower priority for us.  Where it conflicts with
+public voting, we tend to put the development on hold.  For example,
+if anonymous participants were able to sway the results or dominate
+the social interactions, then requirements (i) and (ii) would be
+threatened.  Results would be less credible and participation less
+attractive.  We'd start losing the most motivated users.  They'd
+migrate to social media (including voting media) that better reproduce
+familiar, trusted social interactions.
+
+&gt;<i> - Verified voters (must verify that a voter exists, has only voted
+</I>&gt;<i> once, and can vote for that election)
+</I>
+Currently only for public votes.  We have a design sketch for
+verifying private votes, but it's on slow track (per above).
+
+&gt;<i> - Web and mobile
+</I>
+Our UI design (Crossforum theatre) allows for it, but we have no
+mobile implementations as yet.
+
+&gt;<i> - Extremely secure. Designed to be protected from all categories of
+</I>&gt;<i> attacks.
+</I>
+Only for public votes and results, per above.
+
+&gt;<i> A system that has the ability to replace parliments and bring power
+</I>&gt;<i> back to the people.
+</I>
+This implies that the people were once in power, then parliaments came
+along and took that power away.  Or do I misunderstand?
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+
+Zohar Jackson said:
+&gt;<i> I have looked at all the projects on metagov's site as 
+</I>&gt;<i> ell as a e &gt; more such as civitas
+</I>&gt;<i> &lt;<A HREF="https://www.cs.cornell.edu/projects/civitas/">https://www.cs.cornell.edu/projects/civitas/</A>&gt;. Shockingly i have
+</I>&gt;<i> not been unable to find a single platform 
+</I>&gt;<i> hat satisfies my
+</I>&gt;<i> reirements, which I believe are pretty basic. See below.
+</I>&gt;<i> 
+</I>&gt;<i> *Uses (what is the platform designed to be used for)
+</I>&gt;<i> 
+</I>&gt;<i>    - Any type of voting from small groups to the worlds population
+</I>&gt;<i> 
+</I>&gt;<i> Requirements
+</I>&gt;<i> 
+</I>&gt;<i>    - Anonymous as well as non-anonymous voting
+</I>&gt;<i>    - Verifiable voting (users can check their vote counted)
+</I>&gt;<i>    - Delegated voting (allowing users to subscribe and create parties)
+</I>&gt;<i>    - Modular (allowing developers and server admins to add or remove
+</I>&gt;<i>    features)
+</I>&gt;<i>    - Verified voters (must verify that a voter exists, has only voted once,
+</I>&gt;<i>    and can vote for that election)
+</I>&gt;<i>    - Support for multiple voting methods such as Schulze and Ranked pairs
+</I>&gt;<i>    - Web and mobile
+</I>&gt;<i>    - Extremely secure. Designed to be protected from all categories of
+</I>&gt;<i>    attacks.
+</I>&gt;<i>    - Multi-lingual
+</I>&gt;<i> 
+</I>&gt;<i> *
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> On Mon, Jan 21, 2013 at 1:12 AM, Jonas Liljegren &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">jonas at liljegren.org</A>&gt;wrote:
+</I>&gt;<i> 
+</I>&gt;<i> &gt; 2013-01-20 23:12, Zohar Jackson skrev:
+</I>&gt;<i> &gt; &gt;
+</I>&gt;<i> &gt; &gt; For the sake of mankind we need a secure, scaleable opensource voting
+</I>&gt;<i> &gt; &gt; platform. A platform that enables groups as small as co-ops and as large
+</I>&gt;<i> &gt; &gt; as nations to get together and vote on their issues and leaders.
+</I>&gt;<i> &gt; &gt;
+</I>&gt;<i> &gt; &gt; A system where political parties can be created as easily as podcasts.
+</I>&gt;<i> &gt; &gt; Where the community can discuss with each other the merits of new
+</I>&gt;<i> &gt; &gt; legistaltion.
+</I>&gt;<i> &gt; &gt;
+</I>&gt;<i> &gt; &gt; A system that has the ability to replace parliments and bring power back
+</I>&gt;<i> &gt; &gt; to the people.
+</I>&gt;<i> &gt; &gt;
+</I>&gt;<i> &gt; &gt; There are currently 2 of us dedicated to working on the project. If you
+</I>&gt;<i> &gt; &gt; are interested in getting involved contact us at <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">zoharj at gmail.com</A>
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; Which existing projects have you looked at?
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; --
+</I>&gt;<i> &gt; / Jonas  -  <A HREF="http://jonas.liljegren.org/">http://jonas.liljegren.org/</A>
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="014032.html">[MG] (no subject)
+</A></li>
+	<LI>Next message (by thread): <A HREF="005247.html">[MG] Start Digest, Vol 58, Issue 5
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Rapid prototyping of an open voting architecture
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Rapid%20prototyping%20of%20an%20open%20voting%20architecture&In-Reply-To=%3C20100104151126.GA4787%40obsidian.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="011239.html">
+   <LINK REL="Next"  HREF="011243.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Rapid prototyping of an open voting architecture</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Rapid%20prototyping%20of%20an%20open%20voting%20architecture&In-Reply-To=%3C20100104151126.GA4787%40obsidian.zelea.com%3E"
+       TITLE="[Start] Rapid prototyping of an open voting architecture">mike at zelea.com
+       </A><BR>
+    <I>Mon Jan  4 10:11:26 EST 2010</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="011239.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+        <LI>Next message (by thread): <A HREF="011243.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Acknowledgements (I should have mentioned earlier):
+Autocast vote mirroring is Thomas von der Elbe's invention.  The rapid
+prototyping idea came out of discussions with Thomas and David Bovill.
+The underlying architecture (registration and vote mirroring) was
+reviewed and critiqued last month by Friedrich Lindenberg, Martin
+H&#228;cker, David Bovill, Andreas Nitsche and Thomas von der Elbe.  Kai
+Londenberg and Fred Gohlke also contributed to the discussions.
+
+Replying to Ed, Pietro and Owen,
+
+Ed Pastore wrote:
+&gt;<i> Michael, I am not sure that the geographical registration should be 
+</I>&gt;<i> outsourced from the individual systems (ie, sections 1a &amp; 1b1). Some 
+</I>&gt;<i> systems such as Candiwi and (at least for now) Vilfredo, are deliberately 
+</I>&gt;<i> ignorant of geography.
+</I>
+The coders/admins may ignore the registration property of &quot;primary
+residence&quot;. Global tallies of results need not filter on that
+property, in any case.
+
+They may still be interested in &quot;residential trust level&quot;, which is
+another property of the residential register.  It assures that the
+user is not a sock puppet.  It's a universal assurance, so it's
+especially useful in the less localized polls (national, global).  But
+it requires a special type of register (mutually tight):
+<A HREF="http://t.zelea.com/wiki/User:Mike-ZeleaCom/p/edor#List_chaining">http://t.zelea.com/wiki/User:Mike-ZeleaCom/p/edor#List_chaining</A>
+
+There may be other types of mutually-tight registers (aside from
+trust-based residential).  If so, we can run them side by side.
+
+&gt;<i> In my perspective of governance, anyone who cares enough to participate in 
+</I>&gt;<i> an issue is a stakeholder in that issue and should have a voice. This is 
+</I>&gt;<i> clearly demonstrated in issues such as environmental pollution or water 
+</I>&gt;<i> use, where the actions of one geographic jurisdiction can have substantial 
+</I>&gt;<i> effects on people far away.
+</I>
+That's a use case we didn't document.  I've added it here:
+<A HREF="http://t.zelea.com/wiki/User:ThomasvonderElbe_GmxDe/Vote_mirroring#Free_expression">http://t.zelea.com/wiki/User:ThomasvonderElbe_GmxDe/Vote_mirroring#Free_expression</A>
+
+By the same token:
+<A HREF="http://t.zelea.com/wiki/User:ThomasvonderElbe_GmxDe/Vote_mirroring#Personal_vote_filtering">http://t.zelea.com/wiki/User:ThomasvonderElbe_GmxDe/Vote_mirroring#Personal_vote_filtering</A>
+
+As Owen says, &quot;Clearly, geography should not be deemed to be part of
+the essential attribution of individuals but should be available for
+usage when and where appropriate.&quot;  With personal vote filtering, the
+user decides when and where.
+
+&gt;<i> Or if the intention is to simply link users to geography in order to 
+</I>&gt;<i> develop a unique identifier...
+</I>
+Not for personal identification.  The properties (residence, trust
+level) are merely associated with one's personal identifier.  The
+purpose of the register is to make that association.  Different
+registers will associate different types of property - residential,
+group membership, and so forth.
+
+&gt;<i> Could the below system work with the geographic unit severed (or made 
+</I>&gt;<i> internal to each system), or is that the basis of the rest?
+</I>
+Use of internal registers is OK.  Use of external registers (including
+residential) is always optional.  Each voting engine makes its own
+choices.  You can mix and match registers (and thus property types) in
+any combination.
+
+    (W)  (W)  (W)  (W)   streetwikis
+  ^  |   / \   |   /   ^
+  |  |  /   \  |  /    |  (residential
+  v  | /     \ | /     v   register)
+     |/       \|/
+    (S)       (S)        streetservers
+      \       /
+  |    \     /    |
+  v     \   /     v
+         \ /
+        ((V))       voting engines (many)
+         / \
+  ^     /   \     ^
+  |    /     \    |   
+      /       \
+    (R)       (R)   other registers (internal to V,
+                    or external for party, club, school)
+
+I've done some tests.  I think it will work.  Streetservers (S) can
+pull trust edges from the wiki (who trusts whom) using a query:
+<A HREF="http://okidoke.referata.com/wiki/Special:Ask/-5B-5BUser:%2B-5D-5D-5B-5BTrust::%2B-5D-5D/-3FTrust/format%3Dcsv">http://okidoke.referata.com/wiki/Special:Ask/-5B-5BUser:%2B-5D-5D-5B-5BTrust::%2B-5D-5D/-3FTrust/format%3Dcsv</A>
+
+To push the calculated trust data back to the wiki (problems A and B,
+previous post) the streetserver uploads the data to a single page of
+the wiki.  Wiki users cannot edit this page:
+<A HREF="http://okidoke.referata.com/w/index.php?title=Okidoke:Trust_in&amp;action=edit">http://okidoke.referata.com/w/index.php?title=Okidoke:Trust_in&amp;action=edit</A>
+Trust levels of users are then visible throughout the wiki:
+<A HREF="http://okidoke.referata.com/wiki/Test_Street">http://okidoke.referata.com/wiki/Test_Street</A>
+
+Volunteer administrators/registrars can do the wiki setup for their
+hometowns (one wiki per town).  Then users can start registering
+locally.  Once registered and trusted, they can free-range and vote in
+tight polls (no sock puppets) anywhere in the world.  They can elect
+registrars and other admins, and vote up other e-dem stuff.  (It's
+just a hack.  The streetwikis will probably bog down if just 10,000
+people register.  Voting engines may be overloaded by then, too.)
+
+Pietro Speroni di Fenizio wrote:
+&gt;<i> All in all, I have to admit I don't really get the strategy of the
+</I>&gt;<i> project. I mean, ok we can mirror the votes... so what.
+</I>&gt;<i> I miss why this is important. ...
+</I>
+We're trying to document some of that.  Please critique:
+<A HREF="http://t.zelea.com/wiki/User:ThomasvonderElbe_GmxDe/Vote_mirroring#Use_cases">http://t.zelea.com/wiki/User:ThomasvonderElbe_GmxDe/Vote_mirroring#Use_cases</A>
+See also this thread:
+<A HREF="http://groups.google.com/group/votorola/t/6605b98997a7ae7d">http://groups.google.com/group/votorola/t/6605b98997a7ae7d</A>
+
+&gt;<i> A few things:
+</I>&gt;<i> 1) better than scrape: send me a hack to the vilfredo code and I will add it.
+</I>&gt;<i> Probably an XML version of the historypage. That would do.
+</I>&gt;<i> 
+</I>&gt;<i> 2) yes, the vote have a time, but I am not happy with the time being
+</I>&gt;<i> released for privacy reason of the voter. If you read when a person
+</I>&gt;<i> have voted you are actually having important information about when a
+</I>&gt;<i> person was online in RL. Not sure this is ok.
+</I>&gt;<i> 
+</I>&gt;<i> Instead I think people voting and addition should all be set to the
+</I>&gt;<i> next moveon. That's when they are counted, and considered by the
+</I>&gt;<i> system. After all each person can re-edit its votes many times before
+</I>&gt;<i> that.
+</I>
+(Thomas says Vilfredo can probably be mirrored in Votorola.  He's also
+ been chasing down some of the privacy problems.  He may be able to
+ answer your concerns.)
+
+-- 
+Michael Allan
+
+Toronto, +1 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="011239.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+	<LI>Next message (by thread): <A HREF="011243.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,282 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] AutoMatch
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20AutoMatch&In-Reply-To=%3CCACobxW1vih%2BZKCf__9RwPRkOUn9ukYJkFs09FaG8vTZfko%2B8fw%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="008230.html">
+   <LINK REL="Next"  HREF="008235.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] AutoMatch</H1>
+    <B>Scott Raney</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20AutoMatch&In-Reply-To=%3CCACobxW1vih%2BZKCf__9RwPRkOUn9ukYJkFs09FaG8vTZfko%2B8fw%40mail.gmail.com%3E"
+       TITLE="[MG] AutoMatch">metamerman at gmail.com
+       </A><BR>
+    <I>Thu Sep 22 21:29:25 EDT 2016</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="008230.html">[MG] What does &quot;delegative democracy&quot; mean to you?
+</A></li>
+        <LI>Next message (by thread): <A HREF="008235.html">[MG] good decision index
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>After reading (or at least skimming) everything I could find on LQFB
+and a fair bit of stuff on &quot;delegative democracy&quot; in general, it
+occurs to me that even the MatchSys proposal could benefit from
+&quot;learning from others' mistakes&quot;, specifically in how proxies are
+handled. Although the previous proposals for the MatchSys did include
+a proxy-matching routine that would help people could find suitable
+proxies, it suffered from several problems:
+
+1) At some point the user did have to go in and manually approve one
+or more of the suggested matching proxies. If they never did this,
+there would be no automatic vote (same problem LQFB has).
+
+2) There was no guarantee that the selected proxies would vote,
+potentially leading to a dead end and no vote. This was a serious
+problem in the PP run of LQFB, where the median numbers of direct
+votes cast was only 8 per user over three years, rendering the
+majority of members unsuitable as proxies.
+
+3) Proxies were static: Once you pick some, they continue to be used
+until you explicitly went in and redid the process. This means that if
+your proxies shifted (by redoing their profile or changing their
+voting pattern to update their current thinking), the quality of the
+match would degrade. When new and better proxies join the system, they
+wouldn't be included in your list.
+
+4) Proxies were only suggested based on psychological matches rather
+than voting history (although a separate tool was proposed to do the
+latter).
+
+5) Since proxies were to be selected manually, opportunities for
+gaming the system (e.g., demagoguery) abounded. Limiting the number of
+proxies an individual could carry was proposed as a way to limit this
+kind of thing, but that was kind of a hack.
+
+6) People might not grasp that the proxy system is not only useful to
+them, but actually essential to the proper operation of the system:
+Without it, it's likely that the most active users (largely SDAP)
+would be the ones who end up making the policy decisions, which of
+course is the same problem we have with misrepresentative democracy.
+As we learned, few people used the delegation system in LQFB, which
+would lead to the same end result in any general-audience application.
+I've read that there were a variety of reasons for people not using
+it, including lack of familiarity with it, skepticism about whether it
+was useful (let alone necessary), and lack faith in their ability to
+choose suitable proxies (obviously not helped by the fact that the
+statistics show that when people *did* designate proxies, the proxies
+don't even vote like them!) The MatchSys would obviously share most of
+these problems, although the suggested matches feature would have
+dealt with the worst part of the last one.
+
+So, to deal with all of these things, I propose AutoMatch. Here's how
+it would work:
+
+1) New users would still be required to complete the personality
+survey (e.g., the 10-question big-5 personality inventory:
+<A HREF="http://gosling.psy.utexas.edu/scales-weve-developed/ten-item-personality-measure-tipi/ten-item-personality-inventory-tipi/">http://gosling.psy.utexas.edu/scales-weve-developed/ten-item-personality-measure-tipi/ten-item-personality-inventory-tipi/</A>
+
+2) There would still be two-phase voting:
+  a) Direct Voting (DV) on that week's proposal from Monday through Friday
+  b) proxy votes calculated Friday night and emailed to all non-voters
+  c) Saturday and Sunday would be for endorse/override of the proxy votes
+  d) Sunday night, all votes are tabulated and results emailed out
+along with the announcement of the next week's proposal(s).
+
+3) The &quot;AutoMatch&quot; part would happen on Friday night: Instead of
+keeping a list of each individual's static proxies, they would
+*automatically* be recalculated for each user using a Least Squares
+match to the voters who *actually cast* votes in the DV phase. There
+would be one or two sets of proxies, one based on the Personality
+Profile and, if the user had voted on at least 10 previous proposals,
+a voting-record match. The MatchVote would then be calculated by
+averaging the votes of the 5 best matches in these two categories.
+This MatchVote would then be shown to them in the email and they'd be
+given the choice to do nothing (in which case their MatchVote would be
+automatically recorded for them), or to endorse, override, or abstain,
+in which case their actual vote would be recorded. Which of the two
+sources would be the default would be a profile setting (and the
+number 5 could vary, I suppose, based on the total number of users,
+how close the matches are, etc.)
+
+4) The &quot;choose your own proxy&quot; functionality would be retained, but in
+a separate category: Follows. You'd be able to add a &quot;Follow&quot; any time
+you see a screen name, along with a plus or minus (indicating Friend
+or Foe, a la Slashdot). The proxy vote email would *also* contain the
+calculated vote based on this set of users, but it could not be set to
+be the default proxy vote. I.e., you can follow &quot;experts&quot; or
+demagogues if you want, but you have to explicitly override your
+calculated proxy vote if you want to give your vote to them.
+
+5) The actual votes, comments, and voting records of the automatically
+selected proxies would be available by drilling down, as of course for
+the Follows. This would provide at least a rough sanity check that
+some voters would probably want, at least at first, to make sure
+they're being properly matched.
+
+Advantages of this plan:
+
+1) Near 100% participation, and with a relatively high degree of
+fidelity in assessing &quot;The Will of The People&quot;. Not that this will
+always be *perceived* as an advantage: Some people seem to want all
+decisions at least filtered through elites even if those elites don't
+just make the decisions directly as they do now.
+
+2) The AutoMatch system is completely immune to corruption and
+demagoguery. This assumes that people won't just manually override
+proxies to give their vote to one of their Follows, but this is
+probably a safe assumption, at least for neurotypicals. If this kind
+of override becomes common, a little social engineering might fix it:
+The MatchVote is calculated from the other voters who are most like
+you. They are your &quot;peeps&quot;, your gang, your own little political
+party. You should have a very good reason for overriding their
+preferences...
+
+3) Theoretical simplicity and straightforward implementation that
+wouldn't require developer-selected &quot;hacks&quot; that people might
+reasonably object to.
+
+4) Eliminates the need for re-delegation, preserving fidelity and
+again working against oligarchs/demagogues/etc.
+
+5) The AutoMatch system neatly defuses the strongest arguments against
+open voting, coercion and vote buying: Because the vast majority of
+voters are not even *expected* to cast direct votes, it becomes really
+hard to argue that their voting behavior could have been manipulated
+in any way. If a voter felt any pressure at all, they could simply let
+the auto system do its work, resulting in a vote would be cast that
+reflected their preferences with no direct accountability. Any
+proxy-based system, however, is potentially more susceptible to vote
+buying because smaller numbers of potential direct voters could be
+targeted. But because this would be a web-based system, my prediction
+would be that gossip will take care of this potential problem: Any
+voter could blow the whistle if approached to sell their vote, and any
+report of this would quickly go viral, dooming the attempt and
+probably even causing a backlash.
+
+6) Automatically does what neurotypicals really want, which is to have
+a representative that is actually *like* them and so is most likely to
+actually vote like they would if they had the time to thoroughly
+research an issue.
+
+Issues and potential disadvantages (and turning this post into a
+quadro-listicle! ;-)
+
+1) The CPU cycles required to do this matching could turn out to be
+formidable if it catches on. I can think of several ways to optimize
+it, though: Restricting comparison to voters in the same
+local/county/state/country would be a big one, but would only work (or
+indeed be necessary) when thousands+ of direct votes were cast in each
+jurisdiction.
+
+2) It of course doesn't support any sort of &quot;expertise&quot; or &quot;trust&quot;
+based proxy selection. This is IMHO only possibly a *perceived*
+disadvantage: I've concluded from a broad survey of how government
+works that at least &quot;expertise&quot; is at best uncorrelated with the
+quality of public policy decisions, and in the most important examples
+they're negatively correlated (e.g., The Wars On Communism, Drugs, and
+Terror, and how our prison and school systems work (or fail to, as the
+case may be)). I've also got a pretty hefty list of the results of
+what I call &quot;amateur social engineering&quot; at all levels of government,
+which describes the vast majority of what &quot;experts&quot; trained in &quot;Public
+Policy&quot; produce (since &quot;Public Policy&quot; as it is taught in schools
+doesn't resemble real engineering in any way). Neurotypicals could
+hardly do any worse, particularly if the proposals were in fact
+developed by qualified social engineers.
+
+3) Proxy selection could be perceived as a &quot;magical&quot; and subject to
+someone gaming the system by tampering with the algorithm. But this I
+think could be countered by the fact that verifying correct operation
+is easy to do and could be done by any outsider.
+
+4) By eliminating the &quot;popularity contest&quot; aspect of proxy selection,
+there may be less incentive for certain personality types to cast
+direct votes. Fewer voters in this phase means less fidelity in
+matching (albeit with some compensation from the fact that the few are
+probably those who had taken the most time to prepare before voting).
+But this is a general potential issue: Some personality types are just
+less common and/or just less inclined to participate than others and
+so the matching fidelity will *always* be lower for them than for
+other personality types. Still, it's far better than any system where
+these types aren't represented in the voting *at all* (which is
+basically every other system ;-)
+
+5) Any proxy-based system is going to have trouble matching
+idiosyncratic behavior (e.g., you always vote against dam projects,
+unfunded mandates, or proposals that come from certain proposers that
+you have a grudge against). But I believe a convincing argument could
+be made that this is actually a feature, not a bug, because this kind
+of behavior is generally based on logical fallacies (good being the
+enemy of the great (the nirvana fallacy), slippery slope, etc.)
+
+6) This design relies on the theory that we can use the Big 5
+personality profile to predict voting behavior, something that AFAIK
+hasn't even been rigorously investigated yet, let alone proven. But it
+has been robustly proven for ideological positions (e.g., party
+affiliation), and ideological positions are at their core just very
+crude measurements of personality. The case for using the voting
+record is better (lots of organizations publish data on
+misrepresentatives vote correlation with their policies), but AFAIK
+even this hasn't been systematically measured in any sort of direct
+democracy. If nothing else, we'll learn a *lot* by implementing this
+system and letting it run in a general-population sample.
+
+Anything I missed?
+  Regards,
+    Scott
+
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="008230.html">[MG] What does &quot;delegative democracy&quot; mean to you?
+</A></li>
+	<LI>Next message (by thread): <A HREF="008235.html">[MG] good decision index
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Spambots in the wiki
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Spambots%20in%20the%20wiki&In-Reply-To=%3C1348678030.e0bB0.15964%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013778.html">
+   <LINK REL="Next"  HREF="013781.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Spambots in the wiki</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Spambots%20in%20the%20wiki&In-Reply-To=%3C1348678030.e0bB0.15964%40out.zelea.com%3E"
+       TITLE="[MG] Spambots in the wiki">mike at zelea.com
+       </A><BR>
+    <I>Wed Sep 26 13:28:05 EDT 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013778.html">[MG] Spambots in the wiki
+</A></li>
+        <LI>Next message (by thread): <A HREF="013781.html">[MG] Spambots in the wiki
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ed Pastore said:
+&gt;<i> Thanks for keeping on top of it, Michael. I have been buried in
+</I>&gt;<i> several things recently.
+</I>
+You're welcome.
+
+&gt;<i> I added this to LocalSettings:
+</I>&gt;<i> 
+</I>&gt;<i> ## 2012-09-24 ED ADDED as per
+</I>&gt;<i> ## <A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/2012-September/004990.html">http://metagovernment.org/pipermail/start_metagovernment.org/2012-September/004990.html</A>
+</I>&gt;<i> require_once( &quot;{$IP}/extensions/TitleBlacklist/TitleBlacklist.php&quot; );
+</I>&gt;<i> $wgTitleBlacklistSources = array(
+</I>&gt;<i>     array(
+</I>&gt;<i>          'type' =&gt; TBLSRC_LOCALPAGE,
+</I>&gt;<i>          'src'  =&gt; 'MediaWiki:Titleblacklist',
+</I>&gt;<i>     ),
+</I>&gt;<i>     array(
+</I>&gt;<i>          'type' =&gt; TBLSRC_URL,
+</I>&gt;<i>          'src'  =&gt; '<A HREF="http://meta.wikimedia.org/w/index.php?title=Title_blacklist&amp;action=raw">http://meta.wikimedia.org/w/index.php?title=Title_blacklist&amp;action=raw</A>',
+</I>&gt;<i>     ),
+</I>&gt;<i> );
+</I>
+Could you comment out the second array temporarily?  I want to test a
+minimal block, see if it works.  Also (if you agree) here's another
+change for LocalSettings:
+
+    $wgCookieDomain = '.metagovernment.org';
+      # So &quot;remember my login&quot; works across aliases www.metagovernment.org,
+      # metagovernment.org, etc.  For list of all cookie settings, see:
+      # <A HREF="http://www.mediawiki.org/wiki/Manual:Configuration_settings#Cookies">http://www.mediawiki.org/wiki/Manual:Configuration_settings#Cookies</A>
+    $wgCookiePrefix = 'metagov';
+      # was 'metagov_wiki'.  changed to force everyone to re-login, so new
+      # $wgCookieDomain takes effect
+
+Because otherwise it shows me as logged in on metagovernment.org, but
+logged out on www.metagovernment.org.
+
+&gt;<i> I left in the external URL since it seemed harmless. I haven't had
+</I>&gt;<i> time to figure out the regex for the local blacklist file at
+</I>&gt;<i> <A HREF="http://www.metagovernment.org/wiki/MediaWiki:Titleblacklist">http://www.metagovernment.org/wiki/MediaWiki:Titleblacklist</A>
+</I>&gt;<i> Please feel free. :)
+</I>
+I added some commentary and formatting to the list and temporarily
+reduced it to a single block, again for testing.
+
+&gt;<i> But I did add in the content from:
+</I>&gt;<i> <A HREF="http://www.mediawiki.org/wiki/MediaWiki:Titleblacklist">http://www.mediawiki.org/wiki/MediaWiki:Titleblacklist</A>
+</I>&gt;<i> 
+</I>&gt;<i> I haven't added Extension:ConfirmAccount. We already have a lot of
+</I>&gt;<i> barriers to participation, and I'd like to avoid adding yet
+</I>&gt;<i> another. Plus adding it would give us a big approval log to deal
+</I>&gt;<i> with. If we block usernames ending in a number, I think we'll cut
+</I>&gt;<i> out the vast majority, no?
+</I>
+At least we'll get the spambot that's been on my case the last couple
+of weeks.  But I agree, TitleBlacklist is better than ConfirmAccount.
+ 
+&gt;<i> P.S. Here's Version:
+</I>&gt;<i> <A HREF="http://www.metagovernment.org/wiki/Special:Version">http://www.metagovernment.org/wiki/Special:Version</A>
+</I>
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013778.html">[MG] Spambots in the wiki
+</A></li>
+	<LI>Next message (by thread): <A HREF="013781.html">[MG] Spambots in the wiki
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

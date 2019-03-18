@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Mapping Participation in Drupal
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Mapping%20Participation%20in%20Drupal&In-Reply-To=%3C201101212346.48139.4consensus%40web.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012249.html">
+   <LINK REL="Next"  HREF="003463.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Mapping Participation in Drupal</H1>
+    <B>conseo</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Mapping%20Participation%20in%20Drupal&In-Reply-To=%3C201101212346.48139.4consensus%40web.de%3E"
+       TITLE="[MG] Mapping Participation in Drupal">4consensus at web.de
+       </A><BR>
+    <I>Fri Jan 21 17:46:47 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012249.html">[MG] Mapping Participation in Drupal
+</A></li>
+        <LI>Next message (by thread): <A HREF="003463.html">[MG] Crossforum geomap - scoping and navigation
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi,
+
+&gt;<i> 
+</I>&gt;<i> &gt; My main concern from days of old has been the centrality of the
+</I>&gt;<i> &gt; pollwiki.  I don't really want to register my content there.  I got
+</I>&gt;<i> &gt; hung up on this before.  I am merely attempting to understand this
+</I>&gt;<i> &gt; central service, the pollwiki, as we move ahead (beyond crossforum)
+</I>&gt;<i> &gt; when I say that I really do want to do drafting in Drupal.
+</I>&gt;<i> 
+</I>&gt;<i> Drafting is not unique to the pollwiki, so it's not a centrality
+</I>&gt;<i> thing.[1] The users can draft in any medium they choose, on any site,
+</I>&gt;<i> in any format or language.  Grep &quot;free-range drafting&quot;.
+</I>
+This is crucial and definetly the only perspective that has a future imo. When 
+working on something as serious as drafting (which can take many hours of 
+text-editing a day if you get serious involved in an issue) you really don't 
+want to reinvent the wheel and lock users in your particular webinterface even 
+if it is something like Drupal. I have written a blog-client for KDE for this 
+reason, which's successor is really successful nowadays. Many people don't 
+like web rich-text editors of Wordpress or Drupal.
+Allowing free-range drafting is not something that should be postponed to the 
+future and it is not in Votorola, therefore I like it. Drafting has nothing to 
+do with the pollwiki or the pollserver. It is a distinct technical process 
+which has more to do with text-editing so it can be easily seperated and 
+should therefore interface with any way that text-editing and merging is done 
+already, for example also things like latex/html +git or even code + git. That 
+way we can plug it in and change it to the needs of the users easily and can 
+even bring different communities together.
+
+&gt;<i> 
+</I>&gt;<i> I'm trying to answer your other concerns about the centrality of the
+</I>&gt;<i> pollwiki in the other thread.[2] We might end up with an open voting
+</I>&gt;<i> network that's 100% decentered to the users (pure P2P), but we can't
+</I>&gt;<i> start it that way.  We need central nodes here and there.  What I
+</I>&gt;<i> suggest [in 2] is that nothing will go into our own little center (the
+</I>&gt;<i> prototype pollwiki, or whatever we choose to call it) unless people
+</I>&gt;<i> understand the need for it and agree to it.
+</I>&gt;<i> 
+</I>&gt;<i> Remember too, the central bits are going into a *wiki*.  We're making
+</I>&gt;<i> this as radically open as possible given current technology.  We'll
+</I>&gt;<i> always be pushing the edge of that boundary.
+</I>
+In fact Michael runs his pollwiki on his low-bandwidth home-server. A 
+MediaWiki + Semantic-Media-Wiki and the database server is really not heavy in 
+current terms of hardware. You can cheaply buy embedded linux home servers 
+that would easily handle a server for a few hundred users (not concurrent) and 
+this improves as we speek. We can also easily package it and build an 
+appliance which can be run on any Linux host seperately.
+We should not define low-level technological needs before we get a use case, 
+but rather keep the architecture focused and open. As long as we allow vote-
+mirroring we actually are P2P, because the servers run P2P in a decentralized 
+network. It is not really a drawback that you need an admin to care for the 
+servers. Everything else is unrealistical atm. as no other web-service is 
+truely run P2P. Maybe Diaspora will gain some experience in this direction, 
+but even they expect you to install it on a LAMP-stack and don't show of 
+something reliable yet, so we are not worse then that in fact. 
+Don't get fooled by the term Wiki. It has nothing to do with a central project 
+like Wikipedia. The pollwiki is only for us to have a sane and easily editable 
+semantic db at hand. This allows very flexible querying and plugging in of e.g. 
+different drafting media and keeps possible applications generic. It has very 
+well defined generic hooks and interfaces so other web-services can interfere 
+with it. You can for example link position pages from the Wiki to Drupal and 
+therefore use Drupal as the web-frontend + drafting and never see the Wiki. 
+Crossforum can directly link to the drafting medium, in this case Drupal. 
+Rather imagine it as a DB server then a web-interface. Of course since it has 
+a web-interface and the semantic-media-wiki is very flexible you can use it as 
+the drafting medium and web-interface which is only a plus, but not its core 
+feature or a lock-in of Votorola. Since the Wiki is heavily open it also 
+allows pulling even of competing admins at any time and the content is never 
+really under the control of the admin (which is different with Drupal). So [1] 
+does not depend on a friendly administration but only on the users need you 
+represent when forking. It is therefore handling the voting data (drafting) 
+like FOSS code or creative-commons content like the Wikipedia's is currently 
+managed.
+ 
+[1] <A HREF="http://zelea.com/project/outcast/dep.xht#wiki">http://zelea.com/project/outcast/dep.xht#wiki</A>
+
+conseo
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012249.html">[MG] Mapping Participation in Drupal
+</A></li>
+	<LI>Next message (by thread): <A HREF="003463.html">[MG] Crossforum geomap - scoping and navigation
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

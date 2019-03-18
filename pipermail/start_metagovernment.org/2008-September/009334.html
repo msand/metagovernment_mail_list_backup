@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Synthesizing comments
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Synthesizing%20comments&In-Reply-To=%3Cc387fcdf0809050224l68c9b3afq74ad8ba57fa0bba1%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="009333.html">
+   <LINK REL="Next"  HREF="009335.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Synthesizing comments</H1>
+    <B>Pietro Speroni di Fenizio</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Synthesizing%20comments&In-Reply-To=%3Cc387fcdf0809050224l68c9b3afq74ad8ba57fa0bba1%40mail.gmail.com%3E"
+       TITLE="[Start] Synthesizing comments">metagovernment at pietrosperoni.it
+       </A><BR>
+    <I>Fri Sep  5 05:24:27 EDT 2008</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="009333.html">[Start] Synthesizing comments
+</A></li>
+        <LI>Next message (by thread): <A HREF="009335.html">[Start] Synthesizing comments
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>On Fri, Sep 5, 2008 at 8:45 AM, Manuel Barkhau &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">mbarkhau at googlemail.com</A>&gt; wrote:
+&gt;&gt;<i> graph like structure, so then it should be possible to see the
+</I>&gt;&gt;<i> comments from the POV of a single comment, with all the comments that
+</I>&gt;&gt;<i> responded to it on the right (tree style), and the ones that came
+</I>&gt;&gt;<i> before on the left (tree style), and maybe some lines from the left to
+</I>&gt;&gt;<i> the right for any comment on the right which also answered any other
+</I>&gt;&gt;<i> comment on the left.
+</I>&gt;<i>
+</I>&gt;<i> This is pretty much what I had in mind with reference tags. Any
+</I>&gt;<i> message can reference another, and the system can build a graph
+</I>&gt;<i> structure.
+</I>&gt;<i>
+</I>&gt;<i> &quot; . each message has its own tag, with the prefix &quot;message-&quot; followed
+</I>&gt;<i> by its id. This is the method by which messages are marked as replies
+</I>&gt;<i> to another. &quot;
+</I>&gt;<i>
+</I>&gt;<i> Taken from &quot;tags.py&quot;. Though it's not completely obvious from the
+</I>&gt;<i> message, I did want to keep it open to that sort of debate structure
+</I>&gt;<i> and not be limited to traditional threads.
+</I>&gt;<i>
+</I>&gt;<i> I'm not sure the interface you suggested is the best approach though.
+</I>&gt;<i> Also a connection should also be possible to established after it has
+</I>&gt;<i> been posted, not just by the author.
+</I>&gt;<i>
+</I>hmm! Very interesting!
+Yes.
+
+Some thoughts follow.
+More like an avalanche of thoughts.
+
+I am not sure if tags are the correct way to do this.
+
+I mean, tags have a weight, and we want to use this weight for various reasons.
+Also it is probably not that easy to write down the link to the
+message as a tag,
+there will be numbers involved, and codes:
+message:1234 message:7829 message:3745
+And it would make it harder to find the actual tags.
+
+Like:
+medicine economy opensource
+
+is easier to read than:
+medicine mess:1234 mess:7829 economy mess:3745 opensource
+
+So maybe a parallel system would be better. Or at least a way to
+filter out the reference tags from the way we visualize the tags of a
+comment.
+
+Also, tagging resolutions is ok, this because, resolutions are not
+everyday events, so people will go an extra mile to link them.
+Tagging comments does not seem to work. When it was tried in TagSurf
+it did not work.
+
+WHy? Because once a person have read a comment there is generally
+little need for them to remember it. SO they don't link to it.
+
+And if people do not consistently use the tags the whole thing become
+unreliable.
+
+Maybe in this case a parallel narrow folksonomy, where anyone can add
+a link might be what we really need.
+
+Another issue is that if people use those mess:tags to link different
+comments and resolutions, would this not take away power from the
+tags.
+I mean, tags work because people need them to find the
+comments/resolutions. The more you can find them without tags, the
+less people will sue tags, the more tags will be a weak way to find
+the actual similarity between resolutions.
+
+
+So I would say:
+a broad folksonomy for resolutions.
+
+A way to add links narrow folksonomy like style, for comments.
+
+Onlt the author of a resolution can add a link to a resolution, and
+say this is a sinthesis of this and that (then people vote).
+
+And more and more details.
+
+It seem to me that resolutions and comments are two different systems.
+And they should be deal separately. What is good for one, might not be
+good for the other.
+
+Maybe preparing one of those systems first, and the the other might be
+the correct way, in all case we need to be able to differentiate
+between them, so that if in future we need the two systems to work
+differently it can be done.
+
+Another idea, every time you add a comment you put your karma at
+stake. And similarly depending on how many people link to that
+comment, ignore and proceed on a different thread, your karma can go
+up and down. So it is a bit of a bet, every comment. If you add your
+comment to too many threads, your karma can go down, but if you
+effectively connect different threads, and from that moment they are
+one, your karma should go impressively up. After all you are making a
+great work for the community.
+
+We need to have a system that acknowledges all this.
+Similarly people who add links, and those are not ok, should have
+their karma go down, but if they are ok, their karma should go up.
+
+So to summarise yet again we have:
+* broad folksonomy for resolution.
+* adding links for comments (as tags, hmm, not convinced)
+* the karma should go up and down depending on how people behave
+respect to that link. If people fee the need to branch off, then the
+link might not have been a good idea, if instead people follow up,
+then you have effectively connected two threads. Kudos to you!
+
+And I still like the idea of the tick boxes. Maybe as a first
+approximation of what comments are you answering to.
+
+Pietro
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="009333.html">[Start] Synthesizing comments
+</A></li>
+	<LI>Next message (by thread): <A HREF="009335.html">[Start] Synthesizing comments
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

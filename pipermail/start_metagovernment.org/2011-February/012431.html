@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Difference feed setup
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Difference%20feed%20setup&In-Reply-To=%3C201102281557.37976.4consensus%40web.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012430.html">
+   <LINK REL="Next"  HREF="003576.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Difference feed setup</H1>
+    <B>conseo</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Difference%20feed%20setup&In-Reply-To=%3C201102281557.37976.4consensus%40web.de%3E"
+       TITLE="[MG] Difference feed setup">4consensus at web.de
+       </A><BR>
+    <I>Mon Feb 28 09:57:37 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012430.html">[MG] Difference feed setup
+</A></li>
+        <LI>Next message (by thread): <A HREF="003576.html">[MG] Social mapping in crossforum theatre
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>&gt;<i> Hey Conseo,
+</I>Hey,
+&gt;<i> 
+</I>&gt;<i> I didn't get very far.  I committed my changes:
+</I>&gt;<i> <A HREF="http://zelea.com/project/votorola/a/crossforum/crossforum.xht#diff">http://zelea.com/project/votorola/a/crossforum/crossforum.xht#diff</A>
+</I>
+Ok. 
+
+&gt;<i> 
+</I>&gt;<i> I think I took a wrong turn at Albuquerque.  I figured I'd store the
+</I>&gt;<i> harvester's incoming messages on my mailserver, but then I realized it
+</I>&gt;<i> doesn't have IMAP or POP, so I'd have to install Courier.  That seems
+</I>&gt;<i> like too much work.
+</I>
+Well you need postfix as a mailer anyway right?
+
+&gt;<i> 
+</I>&gt;<i> I was going to ask if the harvester could read from a local mailbox,
+</I>&gt;<i> or take delivery directly from the mailserver.  But most admins won't
+</I>&gt;<i> have a mailserver already running, so scratch that.
+</I>
+I already have courier running here. I can set it up for you, if you like to, 
+it shouldn't be a lot of work. 
+
+I have only IMAP enalbed, since POP3 is crippled anyway if you want to run 
+your own mailserver.
+
+I have tweaked a Debian Lenny (courier-imap  4.4.0-2) default config to my 
+needs quickly (with a howto back then some years ago). My imapd (configfile) for 
+courier reads (without comments):
+
+ADDRESS=192.168.0.1001 # ;-)
+PORT=143
+MAXDAEMONS=40
+MAXPERIP=20
+PIDFILE=/var/run/courier/imapd.pid
+TCPDOPTS=&quot;-nodnslookup -noidentlookup&quot;
+LOGGEROPTS=&quot;-name=imapd&quot;
+IMAP_CAPABILITY=&quot;IMAP4rev1 UIDPLUS CHILDREN NAMESPACE THREAD=ORDEREDSUBJECT 
+THREAD=REFERENCES SORT QUOTA IDLE&quot;
+IMAP_KEYWORDS=1
+IMAP_ACL=1
+IMAP_CAPABILITY_ORIG=&quot;IMAP4rev1 UIDPLUS CHILDREN NAMESPACE 
+THREAD=ORDEREDSUBJECT THREAD=REFERENCES SORT QUOTA AUTH=CRAM-MD5 AUTH=CRAM-
+SHA1 AUTH=CRAM-SHA256 IDLE&quot;
+IMAP_PROXY=0
+IMAP_PROXY_FOREIGN=0
+IMAP_IDLE_TIMEOUT=60
+IMAP_MAILBOX_SANITY_CHECK=1
+IMAP_CAPABILITY_TLS=&quot;$IMAP_CAPABILITY AUTH=PLAIN&quot;
+IMAP_CAPABILITY_TLS_ORIG=&quot;$IMAP_CAPABILITY_ORIG AUTH=PLAIN&quot;
+IMAP_DISABLETHREADSORT=0
+IMAP_CHECK_ALL_FOLDERS=0
+IMAP_OBSOLETE_CLIENT=0
+IMAP_UMASK=022
+IMAP_ULIMITD=65536
+IMAP_USELOCKS=1
+IMAP_SHAREDINDEXFILE=/etc/courier/shared/index
+IMAP_ENHANCEDIDLE=1
+IMAP_TRASHFOLDERNAME=Trash
+IMAP_EMPTYTRASH=Trash:7
+IMAP_MOVE_EXPUNGE_TO_TRASH=0
+SENDMAIL=/usr/sbin/sendmail
+HEADERFROM=X-IMAP-Sender
+IMAPDSTART=YES
+MAILDIRPATH=.maildir
+
+Mail will be read from ~/.maildir of the user. I also have imapd-ssl configured 
+accordingly. Authentication works through authmodulelist=&quot;authpam&quot; with me, so 
+you only need to setup a system account.
+
+&gt;<i> 
+</I>&gt;<i> Maybe gmail with IMAP enabled?  It won't scale, but it should be OK
+</I>&gt;<i> for starters.  I'll look into it tomorrow.
+</I>This is how it is supposed to work when you start to install crossforum 
+somewhere on some webspace not necessarily related to the project. But I am 
+not a friend of Google as a service provider and it would be likely more 
+default to run it locally on your own mail server. I have developped it with a 
+freemail account though.
+
+conseo
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012430.html">[MG] Difference feed setup
+</A></li>
+	<LI>Next message (by thread): <A HREF="003576.html">[MG] Social mapping in crossforum theatre
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Priorities for crossforum theatre
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Priorities%20for%20crossforum%20theatre&In-Reply-To=%3C20110223231749.GA13323%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012405.html">
+   <LINK REL="Next"  HREF="012424.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Priorities for crossforum theatre</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Priorities%20for%20crossforum%20theatre&In-Reply-To=%3C20110223231749.GA13323%40havoc.zelea.com%3E"
+       TITLE="[MG] Priorities for crossforum theatre">mike at zelea.com
+       </A><BR>
+    <I>Wed Feb 23 18:17:49 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012405.html">[MG] Priorities for crossforum theatre
+</A></li>
+        <LI>Next message (by thread): <A HREF="012424.html">[MG] Priorities for crossforum theatre
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Thomas von der Elbe wrote:
+&gt;<i> &gt; I think we need a map with a living structure. A geomap has
+</I>&gt;<i> &gt; recognition value (agree with Ed) but it's more useful when it's
+</I>&gt;<i> &gt; heavily populated with users.  We probably need a social map
+</I>&gt;<i> &gt; that's structured by live votes.  That'll be interesting even in
+</I>&gt;<i> &gt; small groups, especially to newcomers.  Maybe we can do something
+</I>&gt;<i> &gt; fast on that front?  Isn't that the next priority?
+</I>&gt;<i> 
+</I>&gt;<i> I agree. Its a high priority. And if I didnt miss something, no
+</I>&gt;<i> other project expressed further interest in connecting to the
+</I>&gt;<i> theatre so far, so I suggest, that we first integrate Votorola. And
+</I>&gt;<i> here the most interesting social map is the one showing delegation
+</I>&gt;<i> trees, isnt it?
+</I>
+Yes, probably.  We've spoken since (you, C and I) and I think we
+agreed these are now the priorities:
+
+  1. Diff feed.  C says it's ready to deploy for testing against the
+     Metagov list.  So:
+
+     a) When you have time C, please fill in setup instructions for
+        the diff feed here:
+        <A HREF="http://zelea.com/project/votorola/a/crossforum/crossforum.xht#diff">http://zelea.com/project/votorola/a/crossforum/crossforum.xht#diff</A>
+
+     b) I'll install a chat client (as you suggest) so we can hammer
+        out issues on #Metagov instead of flooding the list.
+
+     c) I'll give you SSH access to the reference server as we
+        discussed, so you can monitor things.  What's your public key?
+
+     d) I'll set up the feed services there.
+
+        Then we'll start seeing Metagov messages in the theatre app.
+
+     BTW, before I forget:
+     <A HREF="http://zelea.com/var/db/repo/votorola/file/4a948e370d4d/votorola/a/web/base/WEB-INF/web.xml">http://zelea.com/var/db/repo/votorola/file/4a948e370d4d/votorola/a/web/base/WEB-INF/web.xml</A>
+     That name (voff) won't work for the online pollserver (v), it'll
+     hit the wrong database.  Better to fetch it at runtime like this:
+
+        VOFaceWeb.contextPathToPollserverName(
+          getServletContext().getContextPath() );
+
+  2. Finish roughing out the bridge footings in the wiki.
+
+     a) For a voter's draft, automatically highlight differences
+        vs. candidate.
+
+     b) Links from draft to bridge.  You'll click next to the
+        highlighted text, and land at the corresponding diff segment
+        in the draft.
+
+     c) Indicate in the footed draft which user is on the other side
+        of the diff (as you suggest), and link directly to his footed
+        draft.
+
+        And maybe:
+
+     d) Stronger links from bridge to drafts.  The script runs faster
+        than expected, so maybe we can do the same here: link from
+        each diff segment in the bridge directly to the corresponding
+        highlighted text.
+
+        (much more later)
+
+  3. Votespace map.
+     
+Correct me anyone, if these are wrong.
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012405.html">[MG] Priorities for crossforum theatre
+</A></li>
+	<LI>Next message (by thread): <A HREF="012424.html">[MG] Priorities for crossforum theatre
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

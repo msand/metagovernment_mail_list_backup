@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Code architecture
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Code%20architecture&In-Reply-To=%3C75B03C34-B9D9-4C50-B51E-14CDE7D1411C%40metagovernment.org%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="008908.html">
+   <LINK REL="Next"  HREF="008910.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Code architecture</H1>
+    <B>Ed Pastore</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Code%20architecture&In-Reply-To=%3C75B03C34-B9D9-4C50-B51E-14CDE7D1411C%40metagovernment.org%3E"
+       TITLE="[Start] Code architecture">epastore at metagovernment.org
+       </A><BR>
+    <I>Sun Apr 20 15:51:23 EDT 2008</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="008908.html">[Start] Website updated
+</A></li>
+        <LI>Next message (by thread): <A HREF="008910.html">[Start] Code architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>I would like to summarize what I think we have decided so far in terms  
+of structuring the code. (Not talking about interface yet.) Feel free  
+to correct or disagree.
+
+Each installation of Metascore runs one community (or more). A  
+community is any self-defined group with a common concern (such as,  
+but not limited to geography). Communities may wish to have their  
+software periodically audited in order to check for tampering.
+
+User accounts are portable. So if a person has an account in one  
+community, they can easily join another with minimal setup. I do not  
+know if user accounts would have to be managed in a separate  
+repository. Each person has a score within each community.
+
+Each community is tracked by a unique community-identifier field. So  
+multiple communities can exist in one installation.
+
+Communities can share data with each other. For instance a  
+neighborhood can &quot;trust&quot; the user scores maintained by its larger  
+township. They can share laws too, so that smaller communities can  
+incorporate the laws of their larger parent community.
+
+Does this sound right so far?
+
+To address Manuel's question of language, no, I don't think we are  
+stuck on PHP/MySQL. Those were chosen because they are popular and  
+open, but we should use whatever works best. As long as it is  
+completely open. 
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="008908.html">[Start] Website updated
+</A></li>
+	<LI>Next message (by thread): <A HREF="008910.html">[Start] Code architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

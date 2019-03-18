@@ -1,0 +1,189 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Synthesizing comments
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Synthesizing%20comments&In-Reply-To=%3C916cd8c0809051331p1f1dd72ct3b36716ff2b47a15%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="009342.html">
+   <LINK REL="Next"  HREF="009345.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Synthesizing comments</H1>
+    <B>Manuel Barkhau</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Synthesizing%20comments&In-Reply-To=%3C916cd8c0809051331p1f1dd72ct3b36716ff2b47a15%40mail.gmail.com%3E"
+       TITLE="[Start] Synthesizing comments">mbarkhau at googlemail.com
+       </A><BR>
+    <I>Fri Sep  5 16:31:09 EDT 2008</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="009342.html">[Start] Synthesizing comments
+</A></li>
+        <LI>Next message (by thread): <A HREF="009345.html">[Start] Synthesizing comments
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>&gt;<i>I am not sure if tags are the correct way to do this.
+</I>
+Again I think the problem here is more about our different
+understandings of tags. I see it as a general mechanism of applying an
+attribute to a resource. That the attribute can be a link to another
+resource, isn't completely obvious. They are both just metadata for me
+and as such I'd like to have a uniform way of treating them. It's a
+more general concept that I really like as a programmer, but from a
+users perspective I have to agree that it may be more intuitive to
+have the concrete concepts links and tags seperate from each other.
+
+Slightly offtopic; I see this as a general theme in software. If you
+develop a general purpose tool, take spreadsheets for example. You
+don't have any particular use in mind. Even the people who see it,
+may not be able to imagine at first, that they could organize there
+finances with it or a professor could use it for analysing data etc.
+You have to show it to them or hope that they are creative.
+
+The best example of are probably programming languages, which have no
+specific use or intended purpose whatsoever. Yet everybody uses them.
+
+Building separate dedicated tools for everything is rather cumbersome.
+If we implement links separately and then apply a weight to those links,
+I'm not sure it will be as elegant as just having the concept of
+attributes, that can have different interpretations.
+
+&gt;<i>I mean, tags have a weight, and we want to use this weight for various reasons.
+</I>&gt;<i>Also it is probably not that easy to write down the link to the message as a tag,
+</I>&gt;<i>there will be numbers involved, and codes:
+</I>&gt;<i>message:1234 message:7829 message:3745
+</I>&gt;<i>And it would make it harder to find the actual tags.
+</I>
+The format I was thinking of is &quot;msg-title of the message&quot;
+Which would work as long as the title is unambiguous, but really you could
+stick with the ids, as long as the title is always displayed with it and
+people don't have to type it.
+
+&gt;<i>So maybe a parallel system would be better. Or at least a way to
+</I>&gt;<i>filter out the reference tags from the way we visualize the tags of a
+</I>&gt;<i>comment.
+</I>
+There is a different concept to links, so certainly you want to give them
+a distinct visual representation.
+
+&gt;<i>WHy? Because once a person have read a comment there is generally
+</I>&gt;<i>little need for them to remember it. SO they don't link to it.
+</I>
+Probably also they don't tag it.
+
+The most important thing is the scoring. Messages with higher scores
+will probably be tagged eventually. Plus the authors have an incentive
+to tag, since they want there messages to be found. If you add links
+then they have an incentive to reference resources. This helps give
+most messages some amount of tags. Of course giving links a weight just
+like tags, will help against link spamming (you see why I want them to
+be the same under the hood, so we don't have two implementations of
+the weighting mechanism.)
+
+&gt;<i>Another issue is that if people use those mess:tags to link different
+</I>&gt;<i>comments and resolutions, would this not take away power from the
+</I>&gt;<i>tags.
+</I>&gt;<i>I mean, tags work because people need them to find the
+</I>&gt;<i>comments/resolutions. The more you can find them without tags, the
+</I>&gt;<i>less people will sue tags, the more tags will be a weak way to find
+</I>&gt;<i>the actual similarity between resolutions.
+</I>
+Fundamentally we have a limited of user interaction that we want to make
+as effective as possible. If we can allow people to navigate the
+discussion with less use of tags, that will be just as well, so I don't
+quite see your point. Even if there are few tags, we can calculate the
+distance of messages to each other and to other tags, since they both
+use the same mechanism. You want to compute the distance of a message to
+another. You just calculate the distance of it's link-tag to another tag.
+
+&gt;<i>It seem to me that resolutions and comments are two different systems.
+</I>&gt;<i>And they should be deal separately. What is good for one, might not be
+</I>&gt;<i>good for the other.
+</I>
+When you're looking at a resolution, you will probably want to use that
+as a starting point to find any discussion about it. You may even want
+to see the discussion about specific sections of the resolution.
+Again, if you just use a resolution tag/link, you can calculate the
+distance of its tag to other tags and find directly relevant resources
+(via links) and related resources (via tags) .
+
+Having the same mechanisms, would allow us to use the same metaphors
+across the interface, which would hopefully be a more fluid interaction.
+
+&gt;<i>Another idea, every time you add a comment you put your karma at
+</I>&gt;<i>stake. And similarly depending on how many people link to that
+</I>&gt;<i>comment, ignore and proceed on a different thread, your karma can go
+</I>&gt;<i>up and down. So it is a bit of a bet, every comment. If you add your
+</I>&gt;<i>comment to too many threads, your karma can go down, but if you
+</I>&gt;<i>effectively connect different threads, and from that moment they are
+</I>&gt;<i>one, your karma should go impressively up. After all you are making a
+</I>&gt;<i>great work for the community.
+</I>
+This is a great way of thinking. To make a good discussion, we should
+encourage people to think about there writing and not waste peoples
+time. (Yeah I know look who's talking, and talking...) It takes you a
+minute to write a message that will be read by in our case maybe 5-20
+people, so you should give some thought to what you write. Any incentive
+to stop inane blather and flaming should be a part of the system.
+
+&gt;<i> If people fee the need to branch off, then the
+</I>&gt;<i>link might not have been a good idea, if instead people follow up,
+</I>&gt;<i>then you have effectively connected two threads. Kudos to you!
+</I>
+That gives me an idea. The very interaction of following a link,
+suggests that two resources are more related than if you hadn't, so
+you might as well capture that, and make the connections between
+resources more relevant, by giving them a greater weight. Of course
+you'd have to have a connection to begin with.
+
+&gt;<i>And I still like the idea of the tick boxes. Maybe as a first
+</I>&gt;<i>approximation of what comments are you answering to.
+</I>
+If you use the time honored mechanism of quoting the passages you are
+referencing, that could be used to establish the link. It would be
+automatically expressed in the format of your message, rather than
+having an explicit interaction with a checkbox. If people are made aware
+that this is how the system works, they will also make a habit of
+quoting people and passages they are referring to, thus increase the
+quality of there messages as a side effect.
+
+
+Manuel
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="009342.html">[Start] Synthesizing comments
+</A></li>
+	<LI>Next message (by thread): <A HREF="009345.html">[Start] Synthesizing comments
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

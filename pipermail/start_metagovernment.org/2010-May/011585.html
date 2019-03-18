@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] (frvp) Prototyping the whole of e-democracy
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28frvp%29%20Prototyping%20the%20whole%20of%20e-democracy&In-Reply-To=%3Cg2re115eb5b1005031035w70f66a1bw65efbb56ee73e81d%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="011584.html">
+   <LINK REL="Next"  HREF="011586.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] (frvp) Prototyping the whole of e-democracy</H1>
+    <B>Friedrich Lindenberg</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28frvp%29%20Prototyping%20the%20whole%20of%20e-democracy&In-Reply-To=%3Cg2re115eb5b1005031035w70f66a1bw65efbb56ee73e81d%40mail.gmail.com%3E"
+       TITLE="[MG] (frvp) Prototyping the whole of e-democracy">friedrich at pudo.org
+       </A><BR>
+    <I>Mon May  3 13:35:41 EDT 2010</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="011584.html">[MG] (frvp) Prototyping the whole of e-democracy
+</A></li>
+        <LI>Next message (by thread): <A HREF="011586.html">[MG] (frvp) Prototyping the whole of e-democracy
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Michael,
+
+thanks for your insightful reply!
+
+&gt;<i> Friedrich Lindenberg wrote:
+</I>&gt;&gt;<i> Interesting comment, especially in this context. Would you care to
+</I>&gt;&gt;<i> elaborate this a bit? &#160;I am currently working on something that you
+</I>&gt;&gt;<i> would probably call a difference engine (I go with &quot;multi-variant
+</I>&gt;&gt;<i> wiki&quot;). I feel that while I am in large parts reproducing existing
+</I>&gt;&gt;<i> tools (i.e. wikis, branch version mgmt.) the requirements for
+</I>&gt;&gt;<i> political negotiation are sufficiently different to justify this
+</I>&gt;&gt;<i> overhead.
+</I>&gt;<i>
+</I>&gt;<i> It sounds similar to a &quot;pollwiki&quot;. &#160;<A HREF="http://zelea.com/project/pollwiki/">http://zelea.com/project/pollwiki/</A>
+</I>&gt;<i>
+</I>&gt;<i> We're developing a common pollwiki (or multi-variant wiki) so that all
+</I>&gt;<i> projects can share the same design, instead of competing needlessly
+</I>&gt;<i> over it. &#160;Can you share your own design? &#160;(We want the best, and we'll
+</I>&gt;<i> use yours if it's better.)
+</I>
+It is quite similar.
+
+There is a demo of my current state at
+<A HREF="http://test.liqd.net/page/Section_2__The_House">http://test.liqd.net/page/Section_2__The_House</A> (a multi-variant wiki
+page) and <A HREF="http://test.liqd.net/page/diff?left=14&amp;right=15">http://test.liqd.net/page/diff?left=14&amp;right=15</A> (a
+rudimentary diff, this should really only show the passages that have
+changed at all). I still need to fully resolve the issue of which
+comments to show where (i.e. will users realize that there is supposed
+to be a discussion space between documents? how can I allow distinct
+discussions on page variants without fatally confusing people?).
+
+The whole idea of this is to have a HEAD variant (&quot;status quo&quot;) of
+each legal document and to allow users to create variants of that
+version (or to create a new document with an empty HEAD).
+
+This is a second step after formulating the goal of the change (e.g.
+&quot;better benefits for people on health care&quot;) as a proposal. Variants
+regarding a number of documents can then be voted to become the &quot;body&quot;
+(i.e. the implementation section) of that proposal. Finally (pending
+some consistency checks), the proposal (not the variants) can be
+decided upon.
+
+I don't use a traditional wiki engine for this because I want to
+tightly integrate with the (delegated) voting aspect of the system.
+IMHO this kind of deep-down policy text work is where DV will become
+especially powerful.
+
+There is a very rough design document at
+<A HREF="http://piratepad.net/adhcplanbeta.">http://piratepad.net/adhcplanbeta.</A> (This has partially been
+implemented and parts of it are still on my roadmap. The whole
+discussion on whether to use an existing DVCS was never really
+finished and I decided to roll my own, mostly because I would not have
+been using more than 5% of any DVCS while having to handle all of its
+complexity. I have not yet gotten into the whole geo-debate which
+seems very central to the pollwiki concept, I'm still waiting for a
+&quot;customer&quot; to give me proper requirements on this ;))
+
+&gt;<i> We usually assume that building a better mousetrap will bring the
+</I>&gt;<i> users stampeding to our door. &#160;And who knows? &#160;Maybe it will. &#160;But the
+</I>&gt;<i> opposite expectation is probably more realistic when it comes to
+</I>&gt;<i> interfacing with discussion media.
+</I>
+There is also the &quot;Berlin approach&quot; which appears to include massive
+latte macciato-fests with NGO head people. That one doesn't work,
+either.
+
+&gt;<i> The difference engine is not like that. &#160;It's not a new medium, but
+</I>&gt;<i> rather an interconnector of existing media.
+</I>
+Yet you won't get over the requirement of being able to extract some
+kind of draft text and imposing certain rules on it (e.g. disallowing
+trolls from destroying it). My gut feeling with regards to MediaWiki,
+for example, is that it was designed by a group of people who know
+WP:NPOV by heart and that this might limit its applicability to
+explicitly Non-NPOV use cases.
+
+&gt;<i> &#160;Discussions are rational in a democracy only insofar as they are
+</I>&gt;<i> &#160;focused on differences of position.
+</I>
+Nice. Is that yours? Can I cite that in my thesis somehow?
+
+&gt;<i> I don't understand, because we don't expect that of users. &#160;We do
+</I>&gt;<i> expect it of projects (tech and non-tech) that they will come together
+</I>&gt;<i> to develop the common parts of e-dem (the parts that *must* be
+</I>&gt;<i> common). &#160;But the ultimate purpose of that effort is to reach out to
+</I>&gt;<i> the users. &#160;The form of reaching out will vary, but it should always
+</I>&gt;<i> involve a maximizing of choice in regards to facilities. &#160;This
+</I>&gt;<i> includes (where possible) the choice of using an already familiar
+</I>&gt;<i> tool, or an already familiar context. &#160;(All in the spirit of free
+</I>&gt;<i> voting, because it's choice that makes the voter and choice that makes
+</I>&gt;<i> him free.)
+</I>&gt;<i>
+</I>&gt;<i> It's supposed to be a bazaar (I agree) and not a cathedral.
+</I>&gt;<i> --
+</I>&gt;<i> Michael Allan
+</I>&gt;<i>
+</I>&gt;<i> Toronto, +1 647-436-4521
+</I>&gt;<i> <A HREF="http://zelea.com/">http://zelea.com/</A>
+</I>&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Start : a mailing list of the Metagovernment project
+</I>&gt;<i> <A HREF="http://www.metagovernment.org/">http://www.metagovernment.org/</A>
+</I>&gt;<i> Post to the list: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Start at metagovernment.org</A>
+</I>&gt;<i> Manage subscription: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">http://metagovernment.org/mailman/listinfo/start_metagovernment.org</A>
+</I>&gt;<i>
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="011584.html">[MG] (frvp) Prototyping the whole of e-democracy
+</A></li>
+	<LI>Next message (by thread): <A HREF="011586.html">[MG] (frvp) Prototyping the whole of e-democracy
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

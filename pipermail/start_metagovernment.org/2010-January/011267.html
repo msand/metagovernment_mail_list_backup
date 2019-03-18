@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Rapid prototyping of an open voting architecture
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Rapid%20prototyping%20of%20an%20open%20voting%20architecture&In-Reply-To=%3C20100110055310.GA5512%40obsidian.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="011264.html">
+   <LINK REL="Next"  HREF="011275.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Rapid prototyping of an open voting architecture</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Rapid%20prototyping%20of%20an%20open%20voting%20architecture&In-Reply-To=%3C20100110055310.GA5512%40obsidian.zelea.com%3E"
+       TITLE="[Start] Rapid prototyping of an open voting architecture">mike at zelea.com
+       </A><BR>
+    <I>Sun Jan 10 00:53:10 EST 2010</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="011264.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+        <LI>Next message (by thread): <A HREF="011275.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ed Pastore wrote:
+&gt;<i> OK; that certainly makes sense. Personally I have no objection to sock 
+</I>&gt;<i> puppets (because I think trust ratings and spheres of influence can 
+</I>&gt;<i> overcome tampering better than rules-based enforcement), but I do see the 
+</I>&gt;<i> usefulness in disparate communities/engines comparing votes on the same 
+</I>&gt;<i> issue.
+</I>
+Just to be clear, we use trust ratings for this purpose - not
+rules-based enforcement.  See steps (1c and 2) for details:
+<A HREF="http://t.zelea.com/wiki/User:Mike-ZeleaCom/Opening_an_architecture#Method">http://t.zelea.com/wiki/User:Mike-ZeleaCom/Opening_an_architecture#Method</A>
+
+&gt;<i> I understand that for now this is just a rapid prototype. But at some 
+</I>&gt;<i> point, do you forsee these servers being distributed? I would like to see 
+</I>&gt;<i> any server which is claiming any sort of authority to be distributed among 
+</I>&gt;<i> a minimum of four unrelated instances. This protects the server not only 
+</I>&gt;<i> from hacking, but also from corrupt administrators.
+</I>
+In principle, the prototype is pretty safe.  All of its services are
+easily forked.  Here's the latest architecture:
+
+
+    1      (S)  (S)  (S)  (S) streetwikis
+         ^  |   / \   |   /
+         |  |  /   \  |  /
+         v  | /     \ | /
+            |/       \|/
+    2      (T)       (T)      trustservers
+             \       /
+         |    \     /
+         v     \   /
+                \ /
+ 3,4,5,7       ((V))          voting engines (many)
+                /|\
+         ^     / | \
+         |    /  |  \
+             /   |   \
+    6      (C)  (C)  (C)      poll-classifier wikis
+
+
+(S).  Streetwikis are distributed, at least one per city or region.
+Admins and registrars are elected I imagine (assuming the local voters
+organize this).  The biggest risk of corruption is maybe the owner of
+the server hardware.  But the content is always exportable to a new
+wiki.  Any user can do this, or (easier) an admin can do it from an
+off-site archive (assuming there is one).
+
+A single neighbourhood can also independently migrate to a new wiki.
+To avoid complicating things at the trustserver, a whole postal code
+would have to migrate as a unit. (In Canada, for e.g., this is maybe
+10 to 20 homes.)
+
+(T).  These are just communication glue.  They have no content and no
+users, so no scope for corruption.
+
+(V). Vote mirroring precludes corruption here.  It enables a new
+engine to effectively fork an old one.  Users can free-range over to
+the new engine, one by one.  They cannot be captured by the old engine
+(or by the new one).
+
+(C). (These were added in response to a suggestion by V&#225;clav Bel&#225;k.)
+Same as S here - the content is easy to export to a new wiki.
+
+-- 
+Michael Allan
+
+Toronto, +1 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="011264.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+	<LI>Next message (by thread): <A HREF="011275.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

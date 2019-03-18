@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Priorities for crossforum theatre
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Priorities%20for%20crossforum%20theatre&In-Reply-To=%3C201102261708.10513.4consensus%40web.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012424.html">
+   <LINK REL="Next"  HREF="012429.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Priorities for crossforum theatre</H1>
+    <B>conseo</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Priorities%20for%20crossforum%20theatre&In-Reply-To=%3C201102261708.10513.4consensus%40web.de%3E"
+       TITLE="[MG] Priorities for crossforum theatre">4consensus at web.de
+       </A><BR>
+    <I>Sat Feb 26 11:08:05 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012424.html">[MG] Priorities for crossforum theatre
+</A></li>
+        <LI>Next message (by thread): <A HREF="012429.html">[MG] Priorities for crossforum theatre
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Am Thursday 24 February 2011 schrieb Michael Allan:
+&gt;<i> Thomas von der Elbe wrote:
+</I>&gt;<i> &gt; &gt; I think we need a map with a living structure. A geomap has
+</I>&gt;<i> &gt; &gt; recognition value (agree with Ed) but it's more useful when it's
+</I>&gt;<i> &gt; &gt; heavily populated with users.  We probably need a social map
+</I>&gt;<i> &gt; &gt; that's structured by live votes.  That'll be interesting even in
+</I>&gt;<i> &gt; &gt; small groups, especially to newcomers.  Maybe we can do something
+</I>&gt;<i> &gt; &gt; fast on that front?  Isn't that the next priority?
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt; I agree. Its a high priority. And if I didnt miss something, no
+</I>&gt;<i> &gt; other project expressed further interest in connecting to the
+</I>&gt;<i> &gt; theatre so far, so I suggest, that we first integrate Votorola. And
+</I>&gt;<i> &gt; here the most interesting social map is the one showing delegation
+</I>&gt;<i> &gt; trees, isnt it?
+</I>&gt;<i> 
+</I>&gt;<i> Yes, probably.  We've spoken since (you, C and I) and I think we
+</I>&gt;<i> agreed these are now the priorities:
+</I>&gt;<i> 
+</I>&gt;<i>   1. Diff feed.  C says it's ready to deploy for testing against the
+</I>&gt;<i>      Metagov list.  So:
+</I>&gt;<i> 
+</I>&gt;<i>      a) When you have time C, please fill in setup instructions for
+</I>&gt;<i>         the diff feed here:
+</I>&gt;<i>         <A HREF="http://zelea.com/project/votorola/a/crossforum/crossforum.xht#diff">http://zelea.com/project/votorola/a/crossforum/crossforum.xht#diff</A>
+</I>
+[DONE]. Needs polish on the way still.
+
+&gt;<i> 
+</I>&gt;<i>      b) I'll install a chat client (as you suggest) so we can hammer
+</I>&gt;<i>         out issues on #Metagov instead of flooding the list.
+</I>
+I am waiting ;-)
+
+&gt;<i> 
+</I>&gt;<i>      c) I'll give you SSH access to the reference server as we
+</I>&gt;<i>         discussed, so you can monitor things.  What's your public key?
+</I>
+Attached.
+
+&gt;<i> 
+</I>&gt;<i>      d) I'll set up the feed services there.
+</I>&gt;<i> 
+</I>&gt;<i>         Then we'll start seeing Metagov messages in the theatre app.
+</I>&gt;<i> 
+</I>&gt;<i>      BTW, before I forget:
+</I>&gt;<i>     
+</I>&gt;<i> <A HREF="http://zelea.com/var/db/repo/votorola/file/4a948e370d4d/votorola/a/web/bas">http://zelea.com/var/db/repo/votorola/file/4a948e370d4d/votorola/a/web/bas</A>
+</I>&gt;<i> e/WEB-INF/web.xml That name (voff) won't work for the online pollserver
+</I>&gt;<i> (v), it'll hit the wrong database.  Better to fetch it at runtime like
+</I>&gt;<i> this:
+</I>&gt;<i> 
+</I>&gt;<i>         VOFaceWeb.contextPathToPollserverName(
+</I>&gt;<i>           getServletContext().getContextPath() );
+</I>&gt;<i> 
+</I>
+[DONE]
+
+&gt;<i>   2. Finish roughing out the bridge footings in the wiki.
+</I>&gt;<i> 
+</I>&gt;<i>      a) For a voter's draft, automatically highlight differences
+</I>&gt;<i>         vs. candidate.
+</I>&gt;<i> 
+</I>&gt;<i>      b) Links from draft to bridge.  You'll click next to the
+</I>&gt;<i>         highlighted text, and land at the corresponding diff segment
+</I>&gt;<i>         in the draft.
+</I>&gt;<i> 
+</I>&gt;<i>      c) Indicate in the footed draft which user is on the other side
+</I>&gt;<i>         of the diff (as you suggest), and link directly to his footed
+</I>&gt;<i>         draft.
+</I>&gt;<i> 
+</I>&gt;<i>         And maybe:
+</I>&gt;<i> 
+</I>&gt;<i>      d) Stronger links from bridge to drafts.  The script runs faster
+</I>&gt;<i>         than expected, so maybe we can do the same here: link from
+</I>&gt;<i>         each diff segment in the bridge directly to the corresponding
+</I>&gt;<i>         highlighted text.
+</I>&gt;<i> 
+</I>&gt;<i>         (much more later)
+</I>&gt;<i> 
+</I>&gt;<i>   3. Votespace map.
+</I>&gt;<i> 
+</I>&gt;<i> Correct me anyone, if these are wrong.
+</I>
+I am thinking about writing a bot for IRC with 
+<A HREF="http://www.jibble.org/pircbot.php">http://www.jibble.org/pircbot.php</A> which should not only allow us to track and 
+log discussions, but also let them show up in Crossforum and make IRC usage 
+for other projects a breeze. We need a bot anyway...
+
+About the Mapper:
+
+I have thought about it and since scoping is done via the Mappers it might be 
+nice to have several mappers to scope either with AND or with OR. Since we 
+don't want to blow the UI we could lay one main Mapper in the background and 
+make the others sth. like Widgets on top of it. (e.g. Text search/scope, Time 
+scope, Geographical scope, ...)
+
+Cheers,
+conseo
+-------------- next part --------------
+ssh-dss AAAAB3NzaC1kc3MAAACBAPYbF/ijwFih1/O2bQtiSv4qhaudSaqz36NXojdSDL+OG2jlQw7DbJrdjWYdh3XpBxIMn6t7mNQK844GwZHZaN4LtokazZSw78CX7yOUvR3IxiWGSJu1g+P5qVQ/a3gC7nWHre929QT7NhGk9x/TgU+6lcSDWwQe+1rEpUyz3Ke9AAAAFQC3TUBRPm3spyyCC17jf71jetoC4QAAAIA4rTG3fp7WkNbthNSV+P3fPvOhDPJ1EuJxkjXWi+Y+MAyAzcn1FaOfs5H5X06/nE3ryucXrtjVX6lASqmslAgzdL1DqJhnx6IXW2l3equPPOs46ScCjg2NoAtG+ZkpyEM4nKuA6GvZuHfi7/4cTjmvo6n5IrffoZchlj2l6noeFgAAAIEAp2oPn8Z6zZWn4hM5aDBlKXDvJCpvDHM+ih+UBTLc7jg3sS1bX+eNqMW+92d9WYHbzqr/AgqSl2Kcmdr3KZzJtjOVRsJ8xUAlTrCJT8um4MvOikJnD/wxsOHkM2peXo80AaR6RqJbmJARpl1qnq4EKo+KWc2vnHrVWNVloUggoHs=
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012424.html">[MG] Priorities for crossforum theatre
+</A></li>
+	<LI>Next message (by thread): <A HREF="012429.html">[MG] Priorities for crossforum theatre
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

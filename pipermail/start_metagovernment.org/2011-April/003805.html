@@ -1,0 +1,187 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] FW:  Metaquestion for Metagovernment
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20FW%3A%20%20Metaquestion%20for%20Metagovernment&In-Reply-To=%3C201104081722.50904.4consensus%40web.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012596.html">
+   <LINK REL="Next"  HREF="003806.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] FW:  Metaquestion for Metagovernment</H1>
+    <B>conseo</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20FW%3A%20%20Metaquestion%20for%20Metagovernment&In-Reply-To=%3C201104081722.50904.4consensus%40web.de%3E"
+       TITLE="[MG] FW:  Metaquestion for Metagovernment">4consensus at web.de
+       </A><BR>
+    <I>Fri Apr  8 11:22:50 EDT 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012596.html">[MG] Start Digest, Vol 37, Issue 1
+</A></li>
+        <LI>Next message (by thread): <A HREF="003806.html">[MG] DiffFeed running and bridging
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Am Wednesday 06 April 2011 schrieben Sie:
+&gt;<i> Conseo, with reference to your concluding question below, StratML is not
+</I>&gt;<i> abstract at all.  It is quite specific and concrete.
+</I>&gt;<i> 
+</I>&gt;<i> Part 1 has been approved as an American national standard (ANSI/AIIM
+</I>&gt;<i> 21:2009).  <A HREF="http://xml.gov/stratml/index.htm#Part1">http://xml.gov/stratml/index.htm#Part1</A>
+</I>&gt;<i>
+</I> 
+The note about abstractness was about your goals for better action towards a 
+wealthy society (which where abstract enough to reach consensus between us). I 
+have seen value in StratML in the past and I still do so now, esp. when it is 
+actually used (many ANSI standards are not widespread). And I still have 
+doubts to trust the same governments which always block democratical action to 
+introduce real processes. Is it in use somehwere already?
+
+Plan towards &quot;integration&quot; in the semantic web (SMW of Votorola)
+
+Having said that I am willing to support you if adjustments or code becomes 
+necessary. I don't see that though, since we use Semantic MediaWiki, which can 
+export RDF like this:  
+<A HREF="http://u.zelea.com/w/Special:ExportRDF/User:ThomasvonderElbe_GmxDe/G/p/frvp">http://u.zelea.com/w/Special:ExportRDF/User:ThomasvonderElbe_GmxDe/G/p/frvp</A>
+Our &quot;DB&quot;, Semantic MediaWiki, is much more generic than any specific format, so 
+we simply have to teach it how to speak StratML (or any other format we are 
+interested in). To export it we only have to transform the RDF to our desired 
+output (which seems to work already for stuff like OpenDocument (which even has 
+included RDF support) or PDF files. Maybe most interesting for you is the 
+queryable structure of documents, so drafting within Votorola's SMW will give 
+you straightforward access to create complex queries for drafts by StratML 
+properties like goals, persons, stakeholders, ...
+
+Steps:
+
+1. Create an OWL-ontology
+
+As you can see the formatting done by Thomas is not reflected in the structure 
+of the exported RDF (non semantic content is not included), since we haven't 
+defined the semantic properties which would be necessary for the structure to 
+show up. Now instead of simply adding properties as we need (and therefore 
+creating inconsistencies between different usage patterns like StratML and 
+other formatting options), Semantic MediaWiki supports external ontologies 
+which is perfect for us. All you need to do is create a valid OWL 
+representation of the StratML.xsd which should be doable with a proper XSLT-
+stylesheet. * No &quot;programming&quot; is needed. Once we have an equivalent 
+representation of the StratML.xsd (which has nothing to do with Votorola in 
+particular, but rather enables access to the StratML structured documents from 
+the semantic web), it should be stored in an official domain like the XSD is, so 
+that it can be shared from the semantic web.
+
+* Example XSLT attached. Fetched from here: 
+<A HREF="http://answers.semanticweb.com/questions/677/xsd-to-owl-importer">http://answers.semanticweb.com/questions/677/xsd-to-owl-importer</A>
+
+2. Setup Semantic MediaWiki
+
+We then need to import the ontology in the semantic media wiki, which will 
+allow us to structure drafts in a StratML compatible way. This is documented 
+here: 
+<A HREF="http://semantic-mediawiki.org/wiki/Help:Import_vocabulary">http://semantic-mediawiki.org/wiki/Help:Import_vocabulary</A>
+We would be able to draft StratML exportable documents then. This might be the 
+tricky part, since some parts of StratML will overlap with the already 
+existing data from Votorola. I think subproperties might help here, but I am 
+currently learning MediaWiki setup and development myself, so I am not sure 
+how to solve that yet. This is not mandatory though, it is only desirable to 
+keep the properties unified between different ontologies. We can then use 
+semantic forms to create is to fill in web forms for templates containing the 
+StratML properties. Have a look here it is extremely flexible: 
+<A HREF="http://www.mediawiki.org/wiki/Extension:Semantic_Forms">http://www.mediawiki.org/wiki/Extension:Semantic_Forms</A>
+
+3. Transform RDF back to StratML 
+
+Last we need an XSLT stylesheet to transform the OWL output back into StratML
+Again no programming is needed since all we do is XML transformations. It 
+might be tricky though to write this XSLT stylesheet. Again this stylesheet 
+would not be specific to Votorola or even Semantic MediaWiki, but would simply 
+map the XSD with the OWL ontology and would be therefore a candidate for 
+standards approval as well. We might need to add an &quot;Export&quot; functionality for 
+formats like that then.
+
+&gt;<i> 
+</I>&gt;<i> Are you willing and able to incorporate the usage of StratML documents into
+</I>&gt;<i> Votorola?  If so, this might be a good test/use case:
+</I>&gt;<i> <A HREF="http://xml.gov/stratml/carmel/NCFRR-FinalwStyle.xml">http://xml.gov/stratml/carmel/NCFRR-FinalwStyle.xml</A>
+</I>&gt;<i>
+</I>
+I am willing to support StratML and see value in it. It won't be high priority 
+though, since I am most interested in driving economical processes 
+democratically and have to work on Crossforum. I can do step 2 for you and can 
+help you with step 3. But you have to do step 1 first as I am not familiar with 
+StratML and OWL (yet) and the outcome should be approved as an equivalent 
+standard to the XSD. 
+
+Are you still interested? You can barely lose, since most of the work needed 
+would further backup StratML and has nothing to do with Votorola.
+
+conseo
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20110408/27a31e52/attachment.html">http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20110408/27a31e52/attachment.html</A>&gt;
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: xsd2owl.xsl
+Type: application/xslt+xml
+Size: 1094 bytes
+Desc: not available
+URL: &lt;<A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20110408/27a31e52/attachment.bin">http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20110408/27a31e52/attachment.bin</A>&gt;
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012596.html">[MG] Start Digest, Vol 37, Issue 1
+</A></li>
+	<LI>Next message (by thread): <A HREF="003806.html">[MG] DiffFeed running and bridging
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

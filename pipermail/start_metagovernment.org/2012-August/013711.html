@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Spambots in the wiki
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Spambots%20in%20the%20wiki&In-Reply-To=%3C1344120648.FEeD0.20359%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013707.html">
+   <LINK REL="Next"  HREF="004916.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Spambots in the wiki</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Spambots%20in%20the%20wiki&In-Reply-To=%3C1344120648.FEeD0.20359%40out.zelea.com%3E"
+       TITLE="[MG] Spambots in the wiki">mike at zelea.com
+       </A><BR>
+    <I>Sat Aug  4 19:28:14 EDT 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013707.html">[MG] Spambots in the wiki
+</A></li>
+        <LI>Next message (by thread): <A HREF="004916.html">[MG] About demopolitique
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ed Pastore said:
+&gt;<i> I'm not sure I quite get it, though. If both [*] and [user] are
+</I>&gt;<i> false, then how is bot true?
+</I>
+It's because the fallback [*] is prempted by an explicit setting in
+the defaults:  $wgGroupPermissions['bot']['writeapi'] = true;
+
+Add a note to your LocalSettings.php that the defaults are defined in
+includes/DefaultSettings.php (line 1390 in version 1.16):
+<A HREF="http://svn.wikimedia.org/viewvc/mediawiki/branches/REL1_16/phase3/includes/DefaultSettings.php?view=markup">http://svn.wikimedia.org/viewvc/mediawiki/branches/REL1_16/phase3/includes/DefaultSettings.php?view=markup</A>
+
+&gt;<i> <A HREF="http://www.metagovernment.org/wiki/Special:ListGroupRights">http://www.metagovernment.org/wiki/Special:ListGroupRights</A>
+</I>
+(shows that the settings have taken effect, as intended)
+
+&gt;<i> Also, have you noted all the new users popping up recently? The
+</I>&gt;<i> recent changes log has several new users each day with some random
+</I>&gt;<i> characters followed by a number:
+</I>&gt;<i> <A HREF="http://www.metagovernment.org/wiki/Special:Log/newusers">http://www.metagovernment.org/wiki/Special:Log/newusers</A>
+</I>
+Yes.  Maybe the wiki was discovered by a new spambot network.
+
+&gt;<i> I presume they are all spammers, but only a handful successfully go
+</I>&gt;<i> from registration to spamming.
+</I>&gt;<i> <A HREF="http://www.metagovernment.org/wiki/Special:RecentChanges">http://www.metagovernment.org/wiki/Special:RecentChanges</A>
+</I>&gt;<i>
+</I>&gt;<i> Looks like we're making a lot of progress... Hopefully the above
+</I>&gt;<i> will allow me to take off some other controls, though it will take
+</I>&gt;<i> me a while to figure out which can go. Any opinions?
+</I>
+I guess it's a matter of trial and error.  I'll try a new captcha in
+the pollwiki soon (still using math), then see what defences can be
+peeled back there.  Current defences are: (search &quot;spam&quot;)
+<A HREF="http://zelea.com/system/host/obsidian/var/www/localhost/htdocs/mediawiki-c/LocalSettings.php">http://zelea.com/system/host/obsidian/var/www/localhost/htdocs/mediawiki-c/LocalSettings.php</A>
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013707.html">[MG] Spambots in the wiki
+</A></li>
+	<LI>Next message (by thread): <A HREF="004916.html">[MG] About demopolitique
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

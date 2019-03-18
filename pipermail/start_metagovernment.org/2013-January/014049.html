@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Zohar's requirements, private voting and Votorola
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Zohar%27s%20requirements%2C%20private%20voting%20and%20Votorola&In-Reply-To=%3C1359378941.FBAF8eB0.25034%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="014045.html">
+   <LINK REL="Next"  HREF="014047.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Zohar's requirements, private voting and Votorola</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Zohar%27s%20requirements%2C%20private%20voting%20and%20Votorola&In-Reply-To=%3C1359378941.FBAF8eB0.25034%40out.zelea.com%3E"
+       TITLE="[MG] Zohar's requirements, private voting and Votorola">mike at zelea.com
+       </A><BR>
+    <I>Mon Jan 28 09:45:52 EST 2013</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="014045.html">[MG] Start Digest, Vol 58, Issue 8
+</A></li>
+        <LI>Next message (by thread): <A HREF="014047.html">[MG] Start Digest, Vol 58, Issue 8
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi Zohar,
+
+I second what Ed says.  You're welcome to run with a piece of Votorola
+or Outcast if you like.  Otherwise, I hope we can still cooperate in
+some way.  I think cooperation is the future for this field.
+
+Zohar Jackson said:
+&gt;<i> Votorala seems to be a promising platform. The good documentation is
+</I>&gt;<i> impressive.
+</I>
+(Thank you, we still need to document the practice.  It's been hard to
+foresee, and we're only starting to come to grips with it now.)
+
+&gt;<i> I agree with what you say. If you want to focus on public voting
+</I>&gt;<i> that's fine but I think the platform should be built in such a way
+</I>&gt;<i> to eventually allow private voting. Is Votorola built this way?
+</I>
+Yes, I think so.  Conseo alludes to a simple solution we tried to
+hammer out once: <A HREF="http://metagovernment.org/wiki/Streetwiki#Proxy_blind">http://metagovernment.org/wiki/Streetwiki#Proxy_blind</A>
+It has problems, as you see.  Maybe they can be fixed.  In any case,
+we have full control (in the code) over how we identify private voters
+in public interfaces.  If we didn't care about public verification,
+then we could simply black out the real identifier and turn the vote
+into a secret ballot.  But we do care, so we must replace the real
+identifier with a registry identifier (I think that will always be the
+case) that nevertheless allows for some form of public verification.
+So the voting part is fairly easy.
+
+The real work is in the registry.  But we can support any number of
+registries or (like proxy blind) registry extensions.  That's a design
+requirement.  So I think it means we can support any number of private
+voting schemes.  Does this make sense?
+
+
+Conseo, as I understand, pipes are unconnected with private voting.
+You're right to suggest that a private voter *as such* ought not to
+communicate with anyone.  It comprises secrecy.  (Of course, such a
+restriction defeats the main purpose of using Votorola in the first
+place, as it's mostly about communication.  But if someone wants to
+vote and can only vote anonymously, then it seems wrong to say no.)
+
+Mike
+
+
+Ed Pastore said:
+&gt;<i> On Jan 26, 2013, at 1:59 PM, Zohar Jackson wrote:
+</I>&gt;<i> 
+</I>&gt;<i> &gt; Votorala seems to be a promising platform. The good documentation is impressive.
+</I>&gt;<i> &gt; ...
+</I>&gt;<i> &gt; I agree with what you say. If you want to focus on public voting that's fine but I think the platform should be built in such a way to eventually allow private voting. Is Votorola built this way?
+</I>&gt;<i> 
+</I>&gt;<i> Many of the projects which participate here, including Votorola, are open source. Are you a programmer, Zohar? Since Votorola seems to match many of your parameters, might I suggest that you join them in their effort? That way, you can help them build it up more quickly and at the same time influence its development in ways that you think a platform should be developed. If at any point you find you differ with their development philosophy, you can fork the project and build your ideal on its foundation.
+</I>&gt;<i> 
+</I>&gt;<i> If instead you decide to start from scratch, please do continue to participate here (you can even turn off digest-mode, since usually our volume is fairly low). This community would be glad to hear how you are developing and to help with any issues you may have. Additionally, if you make your own project, please consider joining into the plugin framework, so that your project can be showcased on the Metagov site. It's free publicity, and a great way for people to try out your system and provide feedback.
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="014045.html">[MG] Start Digest, Vol 58, Issue 8
+</A></li>
+	<LI>Next message (by thread): <A HREF="014047.html">[MG] Start Digest, Vol 58, Issue 8
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

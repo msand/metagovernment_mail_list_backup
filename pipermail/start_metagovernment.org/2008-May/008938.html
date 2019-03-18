@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Code architecture
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Code%20architecture&In-Reply-To=%3C916cd8c0805020008v261fdd6ar95f663eaf6508f92%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="008935.html">
+   <LINK REL="Next"  HREF="008943.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Code architecture</H1>
+    <B>Manuel Barkhau</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Code%20architecture&In-Reply-To=%3C916cd8c0805020008v261fdd6ar95f663eaf6508f92%40mail.gmail.com%3E"
+       TITLE="[Start] Code architecture">mbarkhau at googlemail.com
+       </A><BR>
+    <I>Fri May  2 03:08:34 EDT 2008</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="008935.html">[Start] Code architecture
+</A></li>
+        <LI>Next message (by thread): <A HREF="008943.html">[Start] Code architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>&gt;<i>  with the lingo, but I am thinking of something like domain name
+</I>&gt;<i>  servers, where all servers reference each other (perhaps like mysql
+</I>
+What you are referring to, sounds very similar to open-id.
+
+&gt;<i>  the user can reference that account from other installs by entering
+</I>&gt;<i>  their username/password combination -- once referenced, the user uses
+</I>
+Rather than setting up an account system, we could use existing PGP
+infrastructure. A member of a community, would set up a PGP-Key and
+send the public key to a Keyserver. From thereon, all data she sends,
+could be verified, as originating from her.
+
+This is the best solution I can think of at the moment, if we go in the
+direction of an entirely distributed system. This will probably be more
+&quot;interesting&quot; to implement, to say the least.
+
+&gt;<i> I envision metascore running on top of only a revision control system,
+</I>&gt;<i> that plays probably a larger role that what you see as reflected in that
+</I>&gt;<i> document, and storing everything as plaintext in there.
+</I>
+The issue I see here, is that messages don't really need to be under
+version control. Implementing the scoring system on that, may also
+be more difficult. I think it would be appropriate, to separate
+discussions into a different medium than the legislation. A database
+seems to be the intuitive solution, but that may be due to our
+backgrounds. I can certainly think of how a scoring system might be
+implemented in that scenario, but there are probably other good
+approaches.
+
+One that comes to mind, would be something implemented on top of
+freenet. This is very experimental atm. and usability would be a big issue
+here, but it may be an option. All data would be &quot;on the net&quot;, so to
+speak, including the data for the scoring system. When a client connects
+to the system, it would download the scoring data, and then retrieve other
+data, such as messages, according to the users priorities and their scores.
+
+I would like to emphasize here, that the biggest issue would be usability.
+Wrapping your head around all these concepts (PGP, DVCS, Freenet,
+Scoring) is a rather big burden for a new user, which may not seem justified
+until you've come to know why they have been put in place. It may not be
+necessary for the user to know all this, but since trust in the system is
+essential, it would be good, to keep the system as simple as possible.
+
+On that note, trust in this kind of system (once you understand it) is much
+simpler, considering there won't be any people (administrators) you need
+to trust, since there would be no servers to administer.
+
+Manuel
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="008935.html">[Start] Code architecture
+</A></li>
+	<LI>Next message (by thread): <A HREF="008943.html">[Start] Code architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

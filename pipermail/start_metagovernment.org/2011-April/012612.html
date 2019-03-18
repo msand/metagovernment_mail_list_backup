@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Votespace social map
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Votespace%20social%20map&In-Reply-To=%3C20110412212745.GA4463%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012660.html">
+   <LINK REL="Next"  HREF="003827.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Votespace social map</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Votespace%20social%20map&In-Reply-To=%3C20110412212745.GA4463%40havoc.zelea.com%3E"
+       TITLE="[MG] Votespace social map">mike at zelea.com
+       </A><BR>
+    <I>Tue Apr 12 17:27:45 EDT 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012660.html">[MG] Votespace social map - layout stability
+</A></li>
+        <LI>Next message (by thread): <A HREF="003827.html">[MG] Start Digest, Vol 37, Issue 12
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Thomas von der Elbe wrote:
+&gt;<i> Mike, this thing here made me thinking: <A HREF="http://debategraph.org/home">http://debategraph.org/home</A>
+</I>&gt;<i> It does change all the time, but it also very fast opens up a new
+</I>&gt;<i> node.  If the time control was sliding backwards 20 events and it
+</I>&gt;<i> would directly jump to it and not show the ones in between, it
+</I>&gt;<i> should work, or not?
+</I>
+Yes, technically it would.  But I suspect the user will often want the
+in-betweens.  He will grab the time controls in hopes of seeing the
+history of transformations between the end points - before and after,
+past and present.  If we frustrate his hopes, he'll end up fiddling
+with the controls in an attempt to create his own animation.  So I
+think its indispensible.  (You may have been thinking as much when you
+urged that the map's spatial pans ought to be continuous and smooth,
+as opposed to discrete jumps.  I think the same rationale applies to
+the temporal pans.)
+
+Also, if the view's structure is unstable, such that an isolated vote
+shift has wide-ranging visual consequences, then it's especially hard
+to understand the relation between two distant end-points.  How did
+*this* become *that*?  So especially if we lose structural stability,
+then I think animation is more urgent than ever.  Yet we're
+constrained in our animation capabilities.  We cannot have too many
+moving pieces, at once.  Putting all of this together, I think
+structural stability is definitely a requirement. *
+
+&gt;<i> &gt; Myself, I'm starting to think that the inverse video in the
+</I>&gt;<i> &gt; theatre app could be a mistake.  It could cause us trouble in
+</I>&gt;<i> &gt; future: hard on the eyes; hard to ensure that a faded background
+</I>&gt;<i> &gt; graphic is still visible across all hardware.
+</I>&gt;<i> 
+</I>&gt;<i> By &quot;inverse video&quot; you mean the ability to slide the time contral 
+</I>&gt;<i> backwards? I think this is very very useful, isnt it?
+</I>
+No, I meant the bright on dark - bright glyphs/lines on a dark
+background.
+
+&gt;<i> What I helplessly tried to describe with words is the lower pic here:
+</I>&gt;<i> <A HREF="http://www.visualcomplexity.com/vc/project_details.cfm?id=744&amp;index=744&amp;domain=">http://www.visualcomplexity.com/vc/project_details.cfm?id=744&amp;index=744&amp;domain=</A>
+</I>
+Right.  That one would be unstable.
+
+&gt;<i> PS: What I also like about this thing (<A HREF="http://debategraph.org/home">http://debategraph.org/home</A>),
+</I>&gt;<i> it behaves like real people trying to find the best place to talk to
+</I>&gt;<i> their candidates (who is in the middle and being pressured from all
+</I>&gt;<i> sides).  And as soon as more space becomes available (because
+</I>&gt;<i> someone left), others imediatly use the chance and fill it.
+</I>
+I agree, we definitely want it to say &quot;real people&quot; in &quot;real places&quot;,
+and &quot;things happening&quot;.  For me, Debategraph doesn't look real enough,
+or connected with reality.
+
+You had a promising idea when we talked yesterday: use voice callouts
+to show that we're graphing real people.  You were worried that this
+would pose layout problems for the map.  But a solution (as we
+discussed) is to bring in the feed.  We make the feed bite (top left)
+into the callout bubble, and the callout arrow points to the person on
+the map (right):
+<A HREF="http://zelea.com/project/votorola/a/crossforum/theatrePlan.png">http://zelea.com/project/votorola/a/crossforum/theatrePlan.png</A>
+
+&gt;<i> And another thought, concerning fixed positions: Since we know
+</I>&gt;<i> already, that it doesnt make sense to display more than 20 voters
+</I>&gt;<i> per candidate, how if we define 20 fixed positions, which get filled
+</I>&gt;<i> up with voters as they grow in number. And not sort them by votes,
+</I>&gt;<i> each keeps his position until he shifts his vote. Then someone else
+</I>&gt;<i> takes his place. Would this work, Mike?
+</I>
+Yes, it might!  We'd have to track the slot assignments in the
+database to give them stability.  But it might be worth the effort.
+I'll think about this, and repost my mockups.
+
+
+ * We're animating SVG.  My favourite SVG animation is this one:
+   <A HREF="http://srufaculty.sru.edu/david.dailey/svg/balloon.svg">http://srufaculty.sru.edu/david.dailey/svg/balloon.svg</A>
+
+   It takes a surprising amount of steam to float that balloon across
+   the screen.  Current SVG layout engines are inefficient.  Running a
+   single CPU core at 100%, it takes my Firefox *minutes* to reach the
+   right-hand side of the screen, and start back again.  It takes my
+   Chrome about 10 seconds.  That's still too slow.  And that's on a
+   fast desktop computer.  We need to support slower, mobile devices,
+   too.
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012660.html">[MG] Votespace social map - layout stability
+</A></li>
+	<LI>Next message (by thread): <A HREF="003827.html">[MG] Start Digest, Vol 37, Issue 12
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

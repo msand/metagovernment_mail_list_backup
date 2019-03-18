@@ -1,0 +1,250 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Roadmap for my involvement
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Roadmap%20for%20my%20involvement&In-Reply-To=%3C8098391D-589A-4A6C-8663-F4C3D1B08DF2%40metagovernment.org%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="004220.html">
+   <LINK REL="Next"  HREF="013016.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Roadmap for my involvement</H1>
+    <B>Ed Pastore</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Roadmap%20for%20my%20involvement&In-Reply-To=%3C8098391D-589A-4A6C-8663-F4C3D1B08DF2%40metagovernment.org%3E"
+       TITLE="[MG] Roadmap for my involvement">epastore at metagovernment.org
+       </A><BR>
+    <I>Sun Sep 11 10:10:44 EDT 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="004220.html">[MG] Roadmap for my involvement
+</A></li>
+        <LI>Next message (by thread): <A HREF="013016.html">[MG] Roadmap for my involvement
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Michael and conseo: I requested you cross-post this because I am still  
+hopeful that others on the metagov list will be interested in helping  
+you out. The problem is that Votorola is still pretty developer- 
+oriented and I am not sure that the average person approaching it can  
+find a way to offer you assistance (in terms of users or reaching  
+out). Is there a way that can be done, and if so, could you detail it?  
+Or do we need Thomas for that. :)
+
+
+On Sep 5, 2011, at 12:15 PM, Michael Allan wrote:
+
+&gt;<i> (cc metagov, as requested)
+</I>&gt;<i>
+</I>&gt;<i> Hi C,
+</I>&gt;<i>
+</I>&gt;&gt;<i> Do you use procmail? We could use it to setup the scraper instead of
+</I>&gt;&gt;<i> cron for the mailing list. Since you use irssi to log and run your
+</I>&gt;&gt;<i> chat client this applies to it as well, as I guess that it supports
+</I>&gt;&gt;<i> scripting.
+</I>&gt;<i>
+</I>&gt;<i> Myself, I use <A HREF="http://www.postfix.org/local.8.html">http://www.postfix.org/local.8.html</A>
+</I>&gt;<i>
+</I>&gt;&gt;<i> Since this is a prerequisite for my planned usage and tests with the
+</I>&gt;&gt;<i> tools I think it would be best to help you with anything being
+</I>&gt;&gt;<i> necessary to make the resource management work as quickly as
+</I>&gt;&gt;<i> possible. I dive in today and you might point me to a part I could
+</I>&gt;&gt;<i> take care of. ...
+</I>&gt;<i>
+</I>&gt;<i> So far, I've identified two parts.  You're welcome to take either of
+</I>&gt;<i> these, or to suggest something else.  I can provide more details if
+</I>&gt;<i> you're interested:
+</I>&gt;<i>
+</I>&gt;<i>  1. Resources track stack.
+</I>&gt;<i>
+</I>&gt;<i>     It sits just under the toolbar, either in the votespace map or in
+</I>&gt;<i>     embedded views: <A HREF="http://zelea.com/y/vw/xf/#c=DV&amp;s=G!p!sandbox">http://zelea.com/y/vw/xf/#c=DV&amp;s=G!p!sandbox</A>
+</I>&gt;<i>
+</I>&gt;<i>     Its purpose is described here: (Resources slice stack)
+</I>&gt;<i>     <A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/2011-June/004075.html">http://metagovernment.org/pipermail/start_metagovernment.org/2011-June/004075.html</A>
+</I>&gt;<i>
+</I>&gt;<i>     That actually describes the tracks (formerly &quot;slices&quot;) for
+</I>&gt;<i>     crossforum extent.  But you'd just code the track stack itself,
+</I>&gt;<i>     which is an empty container, plus the component tracks for vote
+</I>&gt;<i>     and quantitative summation accounts.  Other developers would add
+</I>&gt;<i>     their own tracks later, as needed.
+</I>&gt;<i>
+</I>&gt;<i>  2. Client cache of server requests.
+</I>&gt;<i>
+</I>&gt;<i>     Its purpose is to prevent redundant requests from hitting the
+</I>&gt;<i>     server, especially from separate browser windows that display
+</I>&gt;<i>     similar views.  We'll use the HTML 5 client store to cache server
+</I>&gt;<i>     requests for the life of the session.
+</I>&gt;<i>
+</I>&gt;<i>     The need is not specific to resources, but it comes up now
+</I>&gt;<i>     because the embedded view in the difference bridge is going to be
+</I>&gt;<i>     hitting the server, too.
+</I>&gt;<i>
+</I>&gt;<i> My own rationale (briefly) for working on this stuff is: (a) we need
+</I>&gt;<i> users, which for us means voters; (b) the people to get voters are
+</I>&gt;<i> politicians broadly speaking, or candidates; (c) the places to find
+</I>&gt;<i> voters are vote-servers and discussion forums; (d) the extent of a
+</I>&gt;<i> vote-getting campaign across multiple servers and forums is therefore
+</I>&gt;<i> a useful resource for the participants; (e) tools are needed therefore
+</I>&gt;<i> to &quot;cultivate and harvest&quot; cross-server and crossforum extent.  So I'm
+</I>&gt;<i> making a beeline for that.
+</I>&gt;<i>
+</I>&gt;<i> My development strategy has been to start at the two ends of the I/O
+</I>&gt;<i> pipe: the input end in the pollwiki where the resource information is
+</I>&gt;<i> entered by the users; and the output end in crossforum theatre where
+</I>&gt;<i> it is viewed.  The middle bits, which mostly involve the count engine,
+</I>&gt;<i> will be coded last.  Meantime the server spits out simulated data for
+</I>&gt;<i> testing of the theatre UI.
+</I>&gt;<i>
+</I>&gt;&gt;<i> ... Btw. do you have a method to mirror resources? It would be
+</I>&gt;&gt;<i> really handy to mirror stuff like <A HREF="http://www.kickstarter.com/">http://www.kickstarter.com/</A> as
+</I>&gt;&gt;<i> raising then happens in forums. Anyway you have something similiar
+</I>&gt;&gt;<i> for the crossforum extent in mind, so I think we share a common
+</I>&gt;&gt;<i> interest here.
+</I>&gt;<i>
+</I>&gt;<i> No, I haven't pursued the idea.  Till I see a few alpha users, I'm
+</I>&gt;<i> focusing mostly on candidates.
+</I>&gt;<i>
+</I>&gt;&gt;<i> You already have pointed parts out to me, so maybe we can skype
+</I>&gt;&gt;<i> around 18:00 GMT today to figure it out more closely.
+</I>&gt;<i>
+</I>&gt;<i> OK.
+</I>&gt;<i>
+</I>&gt;&gt;<i> You have also talked about bringing the resource view to the
+</I>&gt;&gt;<i> difference bridge, which is interesting, since we might want to
+</I>&gt;&gt;<i> visualize the difference here differently, not in the semantic wiki
+</I>&gt;&gt;<i> markup style.
+</I>&gt;<i>
+</I>&gt;<i> I'm coding that now.  It's exactly the same difference bridge as
+</I>&gt;<i> before (Wicket), but with a resources view embedded at top (GWT).
+</I>&gt;<i>
+</I>&gt;&gt;<i> I have talked on #opensourceecology btw. and they have told me to
+</I>&gt;&gt;<i> write a proposal about using our software on their Wiki. I can write
+</I>&gt;&gt;<i> it up and draft it together with you if you like. Can we use a draft
+</I>&gt;&gt;<i> pointer to a text in any MediaWiki atm. or do they have to support
+</I>&gt;&gt;<i> that?
+</I>&gt;<i>
+</I>&gt;<i> No, all they require is a recent version of MW with the write API
+</I>&gt;<i> enabled.  It's enabled by default.  But I wouldn't put serious time
+</I>&gt;<i> into it unless they had an immediate need we could fill.
+</I>&gt;<i>
+</I>&gt;<i> -- 
+</I>&gt;<i> Mike
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> C wrote:
+</I>&gt;&gt;<i> Hi Mike,
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> I have fixed the outstanding glitches in the diff feed. The rest of  
+</I>&gt;&gt;<i> the night
+</I>&gt;&gt;<i> I have thought about my interests and how to best continue on  
+</I>&gt;&gt;<i> something
+</I>&gt;&gt;<i> additional to the diff feed. My development setup runs here:
+</I>&gt;&gt;<i> <A HREF="http://whiletaker.homeip.net:8080/voff/xf/#c=DDum">http://whiletaker.homeip.net:8080/voff/xf/#c=DDum</A>
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> 1. DiffFeed
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Do you use procmail? We could use it to setup the scraper instead  
+</I>&gt;&gt;<i> of cron for
+</I>&gt;&gt;<i> the mailing list. Since you use irssi to log and run your chat  
+</I>&gt;&gt;<i> client this
+</I>&gt;&gt;<i> applies to it as well, as I guess that it supports scripting.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> 2. Further involvement
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> I would like to use our software. As I have joined this project for  
+</I>&gt;&gt;<i> political
+</I>&gt;&gt;<i> reasons mainly, I am interested to use the tools to bridge forums  
+</I>&gt;&gt;<i> and bring
+</I>&gt;&gt;<i> discussion together. Especially now that I have seen the diff- 
+</I>&gt;&gt;<i> patching in
+</I>&gt;&gt;<i> action. But to make it interesting I need the resource management  
+</I>&gt;&gt;<i> stuff
+</I>&gt;&gt;<i> roughly working. I can then setup account types and draft positions  
+</I>&gt;&gt;<i> of
+</I>&gt;&gt;<i> organisations or forums and start posting there about common plans  
+</I>&gt;&gt;<i> and ways to
+</I>&gt;&gt;<i> organize available resources. So I'd like to become an activist  
+</I>&gt;&gt;<i> myself a bit.
+</I>&gt;&gt;<i> This will also give me a clearer understanding on the further  
+</I>&gt;&gt;<i> development of
+</I>&gt;&gt;<i> the difference feed, I hope.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Since this is a prerequisite for my planned usage and tests with  
+</I>&gt;&gt;<i> the tools I
+</I>&gt;&gt;<i> think it would be best to help you with anything being necessary to  
+</I>&gt;&gt;<i> make the
+</I>&gt;&gt;<i> resource management work as quickly as possible. I dive in today  
+</I>&gt;&gt;<i> and you might
+</I>&gt;&gt;<i> point me to a part I could take care of. Btw. do you have a method  
+</I>&gt;&gt;<i> to mirror
+</I>&gt;&gt;<i> resources? It would be really handy to mirror stuff like
+</I>&gt;&gt;<i> <A HREF="http://www.kickstarter.com/">http://www.kickstarter.com/</A> as raising then happens in forums.  
+</I>&gt;&gt;<i> Anyway you have
+</I>&gt;&gt;<i> something similiar for the crossforum extent in mind, so I think we  
+</I>&gt;&gt;<i> share a
+</I>&gt;&gt;<i> common interest here.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> You already have pointed parts out to me, so maybe we can skype  
+</I>&gt;&gt;<i> around 18:00
+</I>&gt;&gt;<i> GMT today to figure it out more closely.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> You have also talked about bringing the resource view to the  
+</I>&gt;&gt;<i> difference
+</I>&gt;&gt;<i> bridge, which is interesting, since we might want to visualize the  
+</I>&gt;&gt;<i> difference
+</I>&gt;&gt;<i> here differently, not in the semantic wiki markup style.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> I have talked on #opensourceecology btw. and they have told me to  
+</I>&gt;&gt;<i> write a
+</I>&gt;&gt;<i> proposal about using our software on their Wiki. I can write it up  
+</I>&gt;&gt;<i> and draft
+</I>&gt;&gt;<i> it together with you if you like. Can we use a draft pointer to a  
+</I>&gt;&gt;<i> text in any
+</I>&gt;&gt;<i> MediaWiki atm. or do they have to support that?
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> c
+</I>&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Start : a mailing list of the Metagovernment project
+</I>&gt;<i> <A HREF="http://www.metagovernment.org/">http://www.metagovernment.org/</A>
+</I>&gt;<i> Post to the list: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Start at metagovernment.org</A>
+</I>&gt;<i> Manage subscription: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">http://metagovernment.org/mailman/listinfo/start_metagovernment.org</A>
+</I>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="004220.html">[MG] Roadmap for my involvement
+</A></li>
+	<LI>Next message (by thread): <A HREF="013016.html">[MG] Roadmap for my involvement
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Voting advice application
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Voting%20advice%20application&In-Reply-To=%3C4DEF50BF.60204%40gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012847.html">
+   <LINK REL="Next"  HREF="012853.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Voting advice application</H1>
+    <B>Alex Keskitalo / D4C</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Voting%20advice%20application&In-Reply-To=%3C4DEF50BF.60204%40gmail.com%3E"
+       TITLE="[MG] Voting advice application">email.d4c at gmail.com
+       </A><BR>
+    <I>Wed Jun  8 06:36:47 EDT 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012847.html">[MG] Voting advice application
+</A></li>
+        <LI>Next message (by thread): <A HREF="012853.html">[MG] Voting advice application
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Maybe I should explain my angle:
+
+If you told a finnish person that in other countries they don't have the voting advice app (&quot;vaalikone&quot;) ecosystem, they would be surprised and wonder how you could vote blindly like that...
+
+So seeing as how you guys are building up e-democracy, surely one building block of it has to be downstream flow of relevant information to the users, like &quot;what are the issues?&quot; and &quot;what are the solutions?&quot;. when this is combined with actual candidates in actual elections with a &quot;who should i vote for?&quot; spin, you get what we get, which is population-level participation, also including virtually all candidates.
+
+This generates data, and lots of it.
+What would you do if you had years worth of opinion-mapped political data of all candidates and elected officials, all usable as open data, and on top of that, you had a private treasure trove of user data, the size of which depends on your slice of the vaalikone market?
+
+You would try to transform that into some kind of e-democracy, thats what.
+
+What kind of data do you guys have to work with?
+
+
+
+&gt;<i> Welcome Alex,
+</I>&gt;<i>
+</I>&gt;<i> Alex Keskitalo wrote:
+</I>&gt;<i> &gt;/  this is my project:
+</I>&gt;<i> /&gt;/  in finnish:<A HREF="http://apps.facebook.com/eduskuntavaalikone/">http://apps.facebook.com/eduskuntavaalikone/</A>
+</I>&gt;<i> /&gt;/  google-translated to english:
+</I>&gt;<i> /&gt;/  <A HREF="http://apps.facebook.com/eduskuntavaalikone/?trans=en">http://apps.facebook.com/eduskuntavaalikone/?trans=en</A>
+</I>&gt;<i> /&gt;/
+</I>&gt;<i> /&gt;/  it is basicly a predictive QA system where the questions are made by
+</I>&gt;<i> /&gt;/  users, and answered by election candidates.
+</I>&gt;<i> /&gt;/
+</I>&gt;<i> /&gt;/  To use it, you select your district, then select questions and rate
+</I>&gt;<i> /&gt;/  the candidate's answers, and as you do that, you form a personal top
+</I>&gt;<i> /&gt;/  10 list of candidates with an increasing confidence-level, which is
+</I>&gt;<i> /&gt;/  what every voter wants whenever an election is near. So much so that
+</I>&gt;<i> /&gt;/  the average visitor spent over 10 minutes in-app, feeding the
+</I>&gt;<i> /&gt;/  machine-learning algorithm with rather sparse but high quality
+</I>&gt;<i> /&gt;/  ratings, making it smarter by every click. See how that works?
+</I>&gt;<i> /
+</I>&gt;<i> I think so.  The larger the sample, the tighter the confidence
+</I>&gt;<i> interval on the prediction.
+</I>
+Users implicitly (explicitly?) sort the candidates by rating their answers, so they end up with a &quot;best candidates for me&quot; -list anyway, with or without the predictive algorithm.
+
+But the predictive algorithm helps to make the process easier, faster, etc for the user, by giving the user the most relevant things they need to rate, on a personalized level.
+
+so as you have rated stuff in a certain way according to your personal politics, the algorithm compares your political fingerprint to everyone else's, then it comes up with your closest political allies, searches ratings they have made to find a candidate's answer you should like, shows it to you, you rate it, algorithm runs again with new data, etc.
+
+of course that's just the generalized concept. under the hood the complexity is much higher, multiple parallel mechanisms are at work, with a self-regulating control layer on top, and that has hand-tunable parameters for stuff like how strongly should the individuals opinion be reinforced or challenged, higher order stuff like that, not perfect but helpful when you have to adapt to changing group dynamics as the numbers grow..
+
+
+
+&gt;<i> &gt;/  We are in the process of gamifying it more, adding better
+</I>&gt;<i> /&gt;/  confidence-building mechanisms into it, and most relevantly, an
+</I>&gt;<i> /&gt;/  explicit voting feature, which can have some very interesting
+</I>&gt;<i> /&gt;/  implications, as you are all well aware.
+</I>&gt;<i> /
+</I>&gt;<i> What will the voting feature be like?
+</I>The idea is that the user narrows down their candidate choices until they have a winner, then we have them confirm the result.
+
+In theory this should guarantee a machine-measurable level of confidence in the macro-result: a liquid representative trust-delegation hierarchy of sorts.
+
+in a perfect world that would already constitute a basis for some power-structure, call it e-government if you will, but that is well beyond my scope of experience.
+
+when an election is over, the generated user population is left high and dry, such a waste :D
+
+
+
+&gt;<i>
+</I>&gt;<i> &gt;/  I think this isnt strictly speaking &quot;open democracy&quot;, but that IS
+</I>&gt;<i> /&gt;/  the general direction, and everyone's just coming at it from
+</I>&gt;<i> /&gt;/  different angles, so whatever you all are building, we want to be a
+</I>&gt;<i> /&gt;/  part of it.  Also, vice verca.
+</I>&gt;<i> /
+</I>&gt;<i> Thank you, and likewise!  Tim Bonnemann recently observed that
+</I>&gt;<i> e-democracy is &quot;niche and fragmented&quot;, and I couldn't agree more.
+</I>&gt;<i> Anything we can do to remedy it would be step forward.
+</I>
+Agreed, convergence as a macro-strategy.
+
+
+&gt;<i> -- 
+</I>&gt;<i> Michael Allan
+</I>&gt;<i>
+</I>&gt;<i> Toronto, +1 416-699-9528
+</I>&gt;<i> <A HREF="http://zelea.com/">http://zelea.com/</A>
+</I>
+  &lt;<A HREF="http://zelea.com/">http://zelea.com/</A>&gt;
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20110608/45aaa0ab/attachment-0002.html">http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20110608/45aaa0ab/attachment-0002.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012847.html">[MG] Voting advice application
+</A></li>
+	<LI>Next message (by thread): <A HREF="012853.html">[MG] Voting advice application
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

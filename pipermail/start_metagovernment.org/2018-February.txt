@@ -1,0 +1,1919 @@
+From micstepanek at gmail.com  Mon Feb  5 05:52:56 2018
+From: micstepanek at gmail.com (=?UTF-8?B?TWljaGFsIMWgdMSbcMOhbmVr?=)
+Date: Mon, 5 Feb 2018 11:52:56 +0100
+Subject: [MG] Leverage Points: Places to Intervene in a System
+In-Reply-To: <83B3B7FB-FF32-482F-A103-5C2D54436218@stevecoffman.com>
+References: <83B3B7FB-FF32-482F-A103-5C2D54436218@stevecoffman.com>
+Message-ID: <CAEyrqBp--aj4r+ZwX14N2O-7VYYQHn+dkKRz_s9dsYRSPduMqA@mail.gmail.com>
+
+Thank you a lot Steve,
+as I see it now my explanation was too complicated, there are two terms
+that may explain it all:
+
+1. Sociology of happiness
+2. Leverage points
+
+I have a question for all. Please, are these two terms enough to understand
+the concept? Please, does it say something to you? No, is an acceptable
+answer :)
+
+The old stuff about the leverage points ...
+http://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
+
+
+Cheers
+m.
+
+
+On Fri, Jan 26, 2018 at 6:31 PM, Steve Coffman <steve at stevecoffman.com>
+wrote:
+
+> In my struggle to understand what Michal ?t?p?nek has been trying to
+> convey regarding his perspective of our efforts?or at least of mine, I
+> decided to approach him *off-line* as I was becoming increasing frustrated
+> (and somewhat embarrassed) at my inability to grasp what he was describing.
+> This was partially due to some language barrier I suspect, but mostly due
+> to my lack of understanding of the field/science of Systems Analysis, and
+> likely as well (I think) to some reduced mental bandwidth issues on my
+> part.  :)
+> That said, Michal very patiently continued and recommended I read
+> the following link.
+>
+> http://donellameadows.org/archives/leverage-points-
+> places-to-intervene-in-a-system/
+>
+> Here are some tantalizing excerpts:
+> From: Leverage Points: Places to Intervene in a System  By Donella
+> Meadows~
+> 6. The structure of information flows (who does and does not have access
+> to information).
+>
+> There was this subdivision of identical houses, the story goes, except
+> that for some reason the electric meter in some of the houses was installed
+> in the basement and in others it was installed in the front hall, where the
+> residents could see it constantly, going round faster or slower as they
+> used more or less electricity. With no other change, with identical prices,
+> electricity consumption was 30 percent lower in the houses where the meter
+> was in the front hall.
+>
+> We systems-heads love that story because it?s an example of a high
+> leverage point in the information structure of the system. It?s not a
+> parameter adjustment, not a strengthening or weakening of an existing loop.
+> It?s a NEW LOOP, delivering feedback to a place where it wasn?t going
+> before.
+>
+> A more recent example is the Toxic Release Inventory ? the U.S.
+> government?s requirement, instituted in 1986, that every factory releasing
+> hazardous air pollutants report those emissions publicly every year.
+> Suddenly every community could find out precisely what was coming out of
+> the smokestacks in town. There was no law against those emissions, no
+> fines, no determination of ?safe? levels, just information. But by 1990
+> emissions dropped 40 percent. They?ve continued to go down since, not so
+> much because of citizen outrage as because of corporate shame. One chemical
+> company that found itself on the Top Ten Polluters list reduced its
+> emissions by 90 percent, just to ?get off that list.?
+>
+> Compelling feedback. Suppose taxpayers got to specify on their return
+> forms what government services their tax payments must be spent on.
+> (Radical democracy!) Suppose any town or company that puts a water intake
+> pipe in a river had to put it immediately DOWNSTREAM from its own outflow
+> pipe. Suppose any public or private official who made the decision to
+> invest in a nuclear power plant got the waste from that plant stored on
+> his/her lawn. Suppose (this is an old one) the politicians who declare war
+> were required to spend that war in the front lines.
+> 4. The power to add, change, evolve, or self-organize system structure.
+>
+> The most stunning thing living systems and some social systems can do is
+> to change themselves utterly by creating whole new structures and
+> behaviors. In biological systems that power is called evolution. In human
+> economies it?s called technical advance or social revolution. In systems
+> lingo it?s called self-organization.
+>
+> Self-organization means changing any aspect of a system lower on this list
+> ? adding completely new physical structures, such as brains or wings or
+> computers ? adding new negative or positive loops, or new rules. The
+> ability to self-organize is the strongest form of system resilience. A
+> system that can evolve can survive almost any change, by changing itself.
+> The human immune system has the power to develop new responses to (some
+> kinds of ) insults it has never before encountered. The human brain can
+> take in new information and pop out completely new thoughts.
+> 2. The mindset or paradigm out of which the system ? its goals, structure,
+> rules, delays, parameters ? arises.
+>
+> Another of Jay Forrester?s famous systems sayings goes: it doesn?t matter
+> how the tax law of a country is written. There is a shared idea in the
+> minds of the society about what a ?fair? distribution of the tax load is.
+> Whatever the rules say, by fair means or foul, by complications, cheating,
+> exemptions or deductions, by constant sniping at the rules, actual tax
+> payments will push right up against the accepted idea of ?fairness.?
+>
+> The shared idea in the minds of society, the great big unstated
+> assumptions ? unstated because unnecessary to state; everyone already knows
+> them ? constitute that society?s paradigm, or deepest set of beliefs about
+> how the world works. There is a difference between nouns and verbs. Money
+> measures something real and has real meaning (therefore people who are paid
+> less are literally worth less). Growth is good. Nature is a stock of
+> resources to be converted to human purposes. Evolution stopped with the
+> emergence of *Homo sapiens*. One can ?own? land. Those are just a few of
+> the paradigmatic assumptions of our current culture, all of which have
+> utterly dumfounded other cultures, who thought them not the least bit
+> obvious.
+>
+> The ancient Egyptians built pyramids because they believed in an
+> afterlife. We build skyscrapers, because we believe that space in downtown
+> cities is enormously valuable. (Except for blighted spaces, often near the
+> skyscrapers, which we believe are worthless.) Whether it was Copernicus and
+> Kepler showing that the earth is not the center of the universe, or
+> Einstein hypothesizing that matter and energy are interchangeable, or Adam
+> Smith postulating that the selfish actions of individual players in markets
+> wonderfully accumulate to the common good, people who have managed to
+> intervene in systems at the level of paradigm have hit a leverage point
+> that totally transforms systems.
+>
+> You could say paradigms are harder to change than anything else about a
+> system, and therefore this item should be lowest on the list, not
+> second-to-highest. But there?s nothing physical or expensive or even slow
+> in the process of paradigm change. In a single individual it can happen in
+> a millisecond. All it takes is a click in the mind, a falling of scales
+> from eyes, a new way of seeing. Whole societies are another matter ? they
+> resist challenges to their paradigm harder than they resist anything else.
+>
+> So how do you change paradigms? Thomas Kuhn, who wrote the seminal book
+> about the great paradigm shifts of science,7
+> <http://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/#seven> has
+> a lot to say about that. In a nutshell, you keep pointing at the anomalies
+> and failures in the old paradigm, you keep coming yourself, and loudly and
+> with assurance from the new one, you insert people with the new paradigm in
+> places of public visibility and power. You don?t waste time with
+> reactionaries; rather you work with active change agents and with the vast
+> middle ground of people who are open-minded.
+>
+> Systems folks would say you change paradigms by modeling a system, which
+> takes you outside the system and forces you to see it whole. We say that
+> because our own paradigms have been changed that way.
+> A Final Caution
+>
+> Back from the sublime to the ridiculous, from enlightenment to caveats.
+> There is so much that has to be said to qualify this list. It is tentative
+> and its order is slithery. There are exceptions to every item that can move
+> it up or down the order of leverage. Having had the list percolating in my
+> subconscious for years has not transformed me into a Superwoman. The higher
+> the leverage point, the more the system will resist changing it ? that?s
+> why societies have to rub out truly enlightened beings.
+>
+> Magical leverage points are not easily accessible, even if we know where
+> they are and which direction to push on them. There are no cheap tickets to
+> mastery. You have to work hard at it, whether that means rigorously
+> analyzing a system or rigorously casting off your own paradigms and
+> throwing yourself into the humility of Not Knowing. In the end, it seems
+> that mastery has less to do with pushing leverage points than it does with
+> strategically, profoundly, madly letting go.
+>
+> This helps a lot Michal. I imagine I'll be referring to this list for some
+> time to come. Particularly # 1.  (if you never hear from me again...you?ll
+> know why.)
+>
+> Thanks so much,
+>
+> Steve
+>
+>
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+>
+
+
+-- 
+
+<https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+Michal ?t?p?nek
+about.me/micstepanek
+<https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180205/0cfb8039/attachment-0001.html>
+
+From micstepanek at gmail.com  Thu Feb  8 05:52:39 2018
+From: micstepanek at gmail.com (=?UTF-8?B?TWljaGFsIMWgdMSbcMOhbmVr?=)
+Date: Thu, 8 Feb 2018 11:52:39 +0100
+Subject: [MG] Leverage Points: Places to Intervene in a System
+In-Reply-To: <CAEyrqBp--aj4r+ZwX14N2O-7VYYQHn+dkKRz_s9dsYRSPduMqA@mail.gmail.com>
+References: <83B3B7FB-FF32-482F-A103-5C2D54436218@stevecoffman.com>
+	<CAEyrqBp--aj4r+ZwX14N2O-7VYYQHn+dkKRz_s9dsYRSPduMqA@mail.gmail.com>
+Message-ID: <CAEyrqBpkUZCa6SbxGnH4-85_w8LwZN9Lq99dcxEZXKM_DDrc4Q@mail.gmail.com>
+
+Actually,
+
+there is more to tell, happiness is not everything. There are more indexes
+to watch e.g. years of potential life lost, natural resources depletion,
+global climate risk index and also animal protection index.
+
+Cheers
+m.
+
+On Mon, Feb 5, 2018 at 11:52 AM, Michal ?t?p?nek <micstepanek at gmail.com>
+wrote:
+
+> Thank you a lot Steve,
+> as I see it now my explanation was too complicated, there are two terms
+> that may explain it all:
+>
+> 1. Sociology of happiness
+> 2. Leverage points
+>
+> I have a question for all. Please, are these two terms enough to
+> understand the concept? Please, does it say something to you? No, is an
+> acceptable answer :)
+>
+> The old stuff about the leverage points ...
+> http://donellameadows.org/archives/leverage-points-
+> places-to-intervene-in-a-system/
+>
+>
+> Cheers
+> m.
+>
+>
+> On Fri, Jan 26, 2018 at 6:31 PM, Steve Coffman <steve at stevecoffman.com>
+> wrote:
+>
+>> In my struggle to understand what Michal ?t?p?nek has been trying to
+>> convey regarding his perspective of our efforts?or at least of mine, I
+>> decided to approach him *off-line* as I was becoming increasing frustrated
+>> (and somewhat embarrassed) at my inability to grasp what he was describing.
+>> This was partially due to some language barrier I suspect, but mostly due
+>> to my lack of understanding of the field/science of Systems Analysis, and
+>> likely as well (I think) to some reduced mental bandwidth issues on my
+>> part.  :)
+>> That said, Michal very patiently continued and recommended I read
+>> the following link.
+>>
+>> http://donellameadows.org/archives/leverage-points-places-
+>> to-intervene-in-a-system/
+>>
+>> Here are some tantalizing excerpts:
+>> From: Leverage Points: Places to Intervene in a System  By Donella
+>> Meadows~
+>> 6. The structure of information flows (who does and does not have access
+>> to information).
+>>
+>> There was this subdivision of identical houses, the story goes, except
+>> that for some reason the electric meter in some of the houses was installed
+>> in the basement and in others it was installed in the front hall, where the
+>> residents could see it constantly, going round faster or slower as they
+>> used more or less electricity. With no other change, with identical prices,
+>> electricity consumption was 30 percent lower in the houses where the meter
+>> was in the front hall.
+>>
+>> We systems-heads love that story because it?s an example of a high
+>> leverage point in the information structure of the system. It?s not a
+>> parameter adjustment, not a strengthening or weakening of an existing loop.
+>> It?s a NEW LOOP, delivering feedback to a place where it wasn?t going
+>> before.
+>>
+>> A more recent example is the Toxic Release Inventory ? the U.S.
+>> government?s requirement, instituted in 1986, that every factory releasing
+>> hazardous air pollutants report those emissions publicly every year.
+>> Suddenly every community could find out precisely what was coming out of
+>> the smokestacks in town. There was no law against those emissions, no
+>> fines, no determination of ?safe? levels, just information. But by 1990
+>> emissions dropped 40 percent. They?ve continued to go down since, not so
+>> much because of citizen outrage as because of corporate shame. One chemical
+>> company that found itself on the Top Ten Polluters list reduced its
+>> emissions by 90 percent, just to ?get off that list.?
+>>
+>> Compelling feedback. Suppose taxpayers got to specify on their return
+>> forms what government services their tax payments must be spent on.
+>> (Radical democracy!) Suppose any town or company that puts a water intake
+>> pipe in a river had to put it immediately DOWNSTREAM from its own outflow
+>> pipe. Suppose any public or private official who made the decision to
+>> invest in a nuclear power plant got the waste from that plant stored on
+>> his/her lawn. Suppose (this is an old one) the politicians who declare war
+>> were required to spend that war in the front lines.
+>> 4. The power to add, change, evolve, or self-organize system structure.
+>>
+>> The most stunning thing living systems and some social systems can do is
+>> to change themselves utterly by creating whole new structures and
+>> behaviors. In biological systems that power is called evolution. In human
+>> economies it?s called technical advance or social revolution. In systems
+>> lingo it?s called self-organization.
+>>
+>> Self-organization means changing any aspect of a system lower on this
+>> list ? adding completely new physical structures, such as brains or wings
+>> or computers ? adding new negative or positive loops, or new rules. The
+>> ability to self-organize is the strongest form of system resilience. A
+>> system that can evolve can survive almost any change, by changing itself.
+>> The human immune system has the power to develop new responses to (some
+>> kinds of ) insults it has never before encountered. The human brain can
+>> take in new information and pop out completely new thoughts.
+>> 2. The mindset or paradigm out of which the system ? its goals,
+>> structure, rules, delays, parameters ? arises.
+>>
+>> Another of Jay Forrester?s famous systems sayings goes: it doesn?t matter
+>> how the tax law of a country is written. There is a shared idea in the
+>> minds of the society about what a ?fair? distribution of the tax load is.
+>> Whatever the rules say, by fair means or foul, by complications, cheating,
+>> exemptions or deductions, by constant sniping at the rules, actual tax
+>> payments will push right up against the accepted idea of ?fairness.?
+>>
+>> The shared idea in the minds of society, the great big unstated
+>> assumptions ? unstated because unnecessary to state; everyone already knows
+>> them ? constitute that society?s paradigm, or deepest set of beliefs about
+>> how the world works. There is a difference between nouns and verbs. Money
+>> measures something real and has real meaning (therefore people who are paid
+>> less are literally worth less). Growth is good. Nature is a stock of
+>> resources to be converted to human purposes. Evolution stopped with the
+>> emergence of *Homo sapiens*. One can ?own? land. Those are just a few of
+>> the paradigmatic assumptions of our current culture, all of which have
+>> utterly dumfounded other cultures, who thought them not the least bit
+>> obvious.
+>>
+>> The ancient Egyptians built pyramids because they believed in an
+>> afterlife. We build skyscrapers, because we believe that space in downtown
+>> cities is enormously valuable. (Except for blighted spaces, often near the
+>> skyscrapers, which we believe are worthless.) Whether it was Copernicus and
+>> Kepler showing that the earth is not the center of the universe, or
+>> Einstein hypothesizing that matter and energy are interchangeable, or Adam
+>> Smith postulating that the selfish actions of individual players in markets
+>> wonderfully accumulate to the common good, people who have managed to
+>> intervene in systems at the level of paradigm have hit a leverage point
+>> that totally transforms systems.
+>>
+>> You could say paradigms are harder to change than anything else about a
+>> system, and therefore this item should be lowest on the list, not
+>> second-to-highest. But there?s nothing physical or expensive or even slow
+>> in the process of paradigm change. In a single individual it can happen in
+>> a millisecond. All it takes is a click in the mind, a falling of scales
+>> from eyes, a new way of seeing. Whole societies are another matter ? they
+>> resist challenges to their paradigm harder than they resist anything else.
+>>
+>> So how do you change paradigms? Thomas Kuhn, who wrote the seminal book
+>> about the great paradigm shifts of science,7
+>> <http://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/#seven> has
+>> a lot to say about that. In a nutshell, you keep pointing at the anomalies
+>> and failures in the old paradigm, you keep coming yourself, and loudly and
+>> with assurance from the new one, you insert people with the new paradigm in
+>> places of public visibility and power. You don?t waste time with
+>> reactionaries; rather you work with active change agents and with the vast
+>> middle ground of people who are open-minded.
+>>
+>> Systems folks would say you change paradigms by modeling a system, which
+>> takes you outside the system and forces you to see it whole. We say that
+>> because our own paradigms have been changed that way.
+>> A Final Caution
+>>
+>> Back from the sublime to the ridiculous, from enlightenment to caveats.
+>> There is so much that has to be said to qualify this list. It is tentative
+>> and its order is slithery. There are exceptions to every item that can move
+>> it up or down the order of leverage. Having had the list percolating in my
+>> subconscious for years has not transformed me into a Superwoman. The higher
+>> the leverage point, the more the system will resist changing it ? that?s
+>> why societies have to rub out truly enlightened beings.
+>>
+>> Magical leverage points are not easily accessible, even if we know where
+>> they are and which direction to push on them. There are no cheap tickets to
+>> mastery. You have to work hard at it, whether that means rigorously
+>> analyzing a system or rigorously casting off your own paradigms and
+>> throwing yourself into the humility of Not Knowing. In the end, it seems
+>> that mastery has less to do with pushing leverage points than it does with
+>> strategically, profoundly, madly letting go.
+>>
+>> This helps a lot Michal. I imagine I'll be referring to this list for
+>> some time to come. Particularly # 1.  (if you never hear from me
+>> again...you?ll know why.)
+>>
+>> Thanks so much,
+>>
+>> Steve
+>>
+>>
+>>
+>> _______________________________________________
+>> Start : a mailing list of the Metagovernment project
+>> http://www.metagovernment.org/
+>> Post to the list: Start at metagovernment.org
+>> Manage subscription: http://metagovernment.org/mail
+>> man/listinfo/start_metagovernment.org
+>>
+>>
+>
+>
+> --
+>
+>
+> <https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+> Michal ?t?p?nek
+> about.me/micstepanek
+> <https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+>
+
+
+
+-- 
+
+<https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+Michal ?t?p?nek
+about.me/micstepanek
+<https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180208/b8bf9ae4/attachment-0001.html>
+
+From steve at stevecoffman.com  Thu Feb  8 21:46:32 2018
+From: steve at stevecoffman.com (Steve Coffman)
+Date: Thu, 8 Feb 2018 18:46:32 -0800
+Subject: [MG] Democracy.earth
+In-Reply-To: <CAEyrqBpkUZCa6SbxGnH4-85_w8LwZN9Lq99dcxEZXKM_DDrc4Q@mail.gmail.com>
+References: <83B3B7FB-FF32-482F-A103-5C2D54436218@stevecoffman.com>
+	<CAEyrqBp--aj4r+ZwX14N2O-7VYYQHn+dkKRz_s9dsYRSPduMqA@mail.gmail.com>
+	<CAEyrqBpkUZCa6SbxGnH4-85_w8LwZN9Lq99dcxEZXKM_DDrc4Q@mail.gmail.com>
+Message-ID: <5E2B392C-119A-4EBD-A4C2-8AFB6BC7DC26@stevecoffman.com>
+
+Very interesting.
+
+https://www.democracy.earth
+
+2.2 Voting.
+
+The vote token aims to be a standard for digital democracy able to interoperate with other tokens, setting a common language for the governance of blockchain based organizations. Within the context of liquid democracies, a range of voting transactions is permitted with votes:
+
+? Direct Vote: Selfish voter Alice is allowed to use her tokens to vote directly on issues as in a direct democracy. 
+
+? Basic Delegation: Alice may delegate votes to Bob. As long as Bob has access to those tokens he can use them to vote on Alice's behalf.
+
+? Tag Limited Delegation: Alice may delegate votes to Charlie under the specified condition that he can only use these tokens on issues carrying a specific tag. If the delegation specifies that delegated votes can only be used on decisions with the #environment tag, then Charlie won't be able to use these anywhere else but on those specific issues. This leads to a representation model not based on territory but on knowledge.
+
+? Transitive Delegation: If Bob received votes from Alice, he can then delegate these to Frank. This generates a chain of delegations that helps empower specific players within a community. If Alice does not desire to have third parties receiving the votes she delegated to Bob, she can turn off the transitive setting on the delegation contract. Circular delegations (e.g. Alice receiving the tokens she sent Bob from Frank) are prohibited since the original allocation of votes from an organization to its members carries a signature indicating who is the sovereign owner of the votes.
+
+? Overriding Vote: If Bob already used the delegated votes he received from Alice but she has a different opinion on a given issue, as the sovereign owner of her votes Alice can always override Bob's decision. Voters always have the final word on any given decision with their original votes.
+
+? Public Vote: Often referred as the golden rule of liquid democracies, all delegators have the right to know how their delegate has voted on any given issue with their votes. In the same way congressmen votes are public, on liquid democracies competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order to attract more delegations.
+
+? Secret Vote: A method able to guarantee vote transactions untraceable to the voter. This is indispensable in contexts of public elections held within large populations that have a high risk of coercion. Even if perfect secrecy on vote transaction is achieved, users can still be fingerprinted with exposed meta-data. For this reason, research on integration with blockchains designed for anonymous transactions with a proven track record is encouraged. This might include a mining fee to settle the vote transaction that can be either subsidized by the implementing organization or directly paid by voters. We recommend research and integration of secret votes with these blockchains: 
+
+? Ethereum: uses precompiled contracts for addition and scalar multiplication on the elliptic curve alt_bn128, for pairing checks, which permit zk- SNARKs, also see here, as implemented in the Byzantium hard fork.
+
+? ZCash: implements shielded transactions using zero-knowledge proofs.
+
+? Monero: uses ring signatures with stealth addresses. 
+
+
+2.3 User Experience.
+
+User Experience (UX) is a critical aspect of a decentralized architecture and becomes even more important as the redundant layers of centralized architectures condense to the user. In a centralized internet architecture, the user does not own the interface or experience. In a decentralized internet architecture, the user interface (UI) should be based on the user's perspective. In this sense, transactions get done under three distinct views:
+
+? Self: Using a public identity related to an individual.
+
+? Organization: In representation of an organization that extended representation rights to individuals (e.g. workplace, club, political party, etc).
+
+? Anonymous: Without any connection to a public identity.
+
+This understanding of SELF / ORG / ANON shape-shifting requirement highly influenced our interface and token design. At any given time a Sovereign user can adopt any of these modes to interact with decentralized organizations. 
+
+
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180208/bafb5b28/attachment.html>
+
+From metamerman at gmail.com  Fri Feb  9 00:18:32 2018
+From: metamerman at gmail.com (Scott Raney)
+Date: Thu, 8 Feb 2018 22:18:32 -0700
+Subject: [MG] Democracy.earth
+In-Reply-To: <5E2B392C-119A-4EBD-A4C2-8AFB6BC7DC26@stevecoffman.com>
+References: <83B3B7FB-FF32-482F-A103-5C2D54436218@stevecoffman.com>
+	<CAEyrqBp--aj4r+ZwX14N2O-7VYYQHn+dkKRz_s9dsYRSPduMqA@mail.gmail.com>
+	<CAEyrqBpkUZCa6SbxGnH4-85_w8LwZN9Lq99dcxEZXKM_DDrc4Q@mail.gmail.com>
+	<5E2B392C-119A-4EBD-A4C2-8AFB6BC7DC26@stevecoffman.com>
+Message-ID: <CACobxW3u0LgDbe5DVkL_doHY2qmAWCNWPQU+Kd5cgEvT2=UH7w@mail.gmail.com>
+
+On Thu, Feb 8, 2018 at 7:46 PM, Steve Coffman <steve at stevecoffman.com> wrote:
+> Very interesting.
+> https://www.democracy.earth
+
+Meh, it's just a rehash of the failed LiquidFB system. I've been
+trying to explain to them exactly how LiquidFB failed and why their
+system doesn't address any of the real problems in it (see the
+"Issues" tab on https://github.com/DemocracyEarth/paper), but to no
+avail. They're quite skilled at marketing (getting funding, getting
+conference invites etc.) but unfortunately seem to be almost
+completely clueless when it comes to any of the scientific or
+engineering issues that they'd need to deal with to create something
+capable of replacing our existing systems. That and they're just
+incorrigible fanboys of blockchain. It's like arguing with religious
+fanatics. They really have no good explanation of why blockchain
+technology is even relevant to the problem of public policy
+decisionmaking, but, again, it's all about the marketing with those
+guys.
+
+(snip)
+
+> ? Secret Vote: A method able to guarantee vote transactions untraceable to
+> the voter. This is indispensable in contexts of public elections held within
+> large populations that have a high risk of coercion. Even if perfect secrecy
+> on vote transaction is achieved, users can still be fingerprinted with
+> exposed meta-data. For this reason, research on integration with blockchains
+> designed for anonymous transactions with a proven track record is
+> encouraged. This might include a mining fee to settle the vote transaction
+> that can be either subsidized by the implementing organization or directly
+> paid by voters. We recommend research and integration of secret votes with
+> these blockchains:
+
+Right: They don't know how to provide this but just have some vague
+feeling that it's necessary. Which of course, as I've provided lots of
+*scientific* evidence for in the Matchism manifesto and the help
+system for proxyfor.me, is simply not true.
+  Regards,
+    Scott
+
+
+From jacopo.tolja at gmail.com  Fri Feb  9 12:07:32 2018
+From: jacopo.tolja at gmail.com (Jacopo Tolja)
+Date: Fri, 9 Feb 2018 18:07:32 +0100
+Subject: [MG] Democracy.earth
+In-Reply-To: <CACobxW3u0LgDbe5DVkL_doHY2qmAWCNWPQU+Kd5cgEvT2=UH7w@mail.gmail.com>
+References: <83B3B7FB-FF32-482F-A103-5C2D54436218@stevecoffman.com>
+	<CAEyrqBp--aj4r+ZwX14N2O-7VYYQHn+dkKRz_s9dsYRSPduMqA@mail.gmail.com>
+	<CAEyrqBpkUZCa6SbxGnH4-85_w8LwZN9Lq99dcxEZXKM_DDrc4Q@mail.gmail.com>
+	<5E2B392C-119A-4EBD-A4C2-8AFB6BC7DC26@stevecoffman.com>
+	<CACobxW3u0LgDbe5DVkL_doHY2qmAWCNWPQU+Kd5cgEvT2=UH7w@mail.gmail.com>
+Message-ID: <CAJHTwmKoDixnFMCz4ox_mFXOJUjdw22m=Bhk=2kMdeYqWrz0Vw@mail.gmail.com>
+
+Mr. Siri that ia a driving force behind democracy.earth have a long story
+in direct democracy starting with the vote in Argentina's capital Buenos
+Aires and behind the democracyOS, blockchain is just the decentralised
+media.
+Peace
+J
+
+LA DITTATURA PERFETTA AVRA' LA SEMBIANZA DI UNA DEMOCRAZIA, UNA PRIGIONE
+SENZA MURI NELLA QUALE I PRIGIONIERI NON SOGNERANNO MAI DI FUGGIRE. UN
+SISTEMA DI SCHIAVITU' DOVE, GRAZIE AL CONSUMO E AL DIVERTIMENTO, GLI
+SCHIAVI AMERANNO LA LORO SCHIAVITU.
+A.H.
+
+Il 09 Feb 2018 06:19, "Scott Raney" <metamerman at gmail.com> ha scritto:
+
+> On Thu, Feb 8, 2018 at 7:46 PM, Steve Coffman <steve at stevecoffman.com>
+> wrote:
+> > Very interesting.
+> > https://www.democracy.earth
+>
+> Meh, it's just a rehash of the failed LiquidFB system. I've been
+> trying to explain to them exactly how LiquidFB failed and why their
+> system doesn't address any of the real problems in it (see the
+> "Issues" tab on https://github.com/DemocracyEarth/paper), but to no
+> avail. They're quite skilled at marketing (getting funding, getting
+> conference invites etc.) but unfortunately seem to be almost
+> completely clueless when it comes to any of the scientific or
+> engineering issues that they'd need to deal with to create something
+> capable of replacing our existing systems. That and they're just
+> incorrigible fanboys of blockchain. It's like arguing with religious
+> fanatics. They really have no good explanation of why blockchain
+> technology is even relevant to the problem of public policy
+> decisionmaking, but, again, it's all about the marketing with those
+> guys.
+>
+> (snip)
+>
+> > ? Secret Vote: A method able to guarantee vote transactions untraceable
+> to
+> > the voter. This is indispensable in contexts of public elections held
+> within
+> > large populations that have a high risk of coercion. Even if perfect
+> secrecy
+> > on vote transaction is achieved, users can still be fingerprinted with
+> > exposed meta-data. For this reason, research on integration with
+> blockchains
+> > designed for anonymous transactions with a proven track record is
+> > encouraged. This might include a mining fee to settle the vote
+> transaction
+> > that can be either subsidized by the implementing organization or
+> directly
+> > paid by voters. We recommend research and integration of secret votes
+> with
+> > these blockchains:
+>
+> Right: They don't know how to provide this but just have some vague
+> feeling that it's necessary. Which of course, as I've provided lots of
+> *scientific* evidence for in the Matchism manifesto and the help
+> system for proxyfor.me, is simply not true.
+>   Regards,
+>     Scott
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180209/0ea92fc6/attachment-0001.html>
+
+From tim at intellitics.com  Mon Feb 19 14:32:05 2018
+From: tim at intellitics.com (Tim Bonnemann)
+Date: Mon, 19 Feb 2018 11:32:05 -0800
+Subject: [MG] ParticipateDB 2018 Digital Engagement Census
+Message-ID: <033946C9-2437-45B4-8062-FF5787420C85@intellitics.com>
+
+Hi,
+
+Some here on this list may be familiar with ParticipateDB, the online catalogue for digital engagement technology my consulting firm launched back in 2009. Last year, we spun it out under a new entity, the Center for Applied Community Engagement, LLC.
+
+We are currently running the ParticipateDB 2018 Digital Engagement Census, a global practitioner survey to find out which tools and services people have been using in their community engagement and public participation work lately.
+
+Here?s the launch announcement from February 9:
+http://blog.participatedb.com/2018/02/09/welcome-to-the-participatedb-2018-digital-engagement-census/
+
+Here?s yesterday?s update (we?ve extended the survey through February 26, plus a first glimpse at the results):
+http://blog.participatedb.com/2018/02/18/participatedb-2018-digital-engagement-census-extended-through-february-26/
+
+And here?s the census main page with the link to the online survey form:
+http://www.participatedb.com/census
+
+A lot of you are involved in developing or promoting new/interesting e-participation tools (for policy making, group decision making etc.).
+
+Would be great if you could take part or share with others in your network who might have interesting stories/examples to report.
+
+We are particularly interested in hearing from non-English speaking countries around the globe.
+
+Any questions, just let me know.
+
+Thanks,
+Tim
+
+PS: If you want to find out if your tool is already listed, check the list of 350+ tools (we still would like to hear about recent project examples, though). Thanks!
+
+-- 
+Tim Bonnemann
+Founder and CEO, Intellitics, Inc.
+Interim Director, Center for Applied Community Engagement, LLC
+San Jos?, CA 95128 (USA)
+Cell: +1 (408) 627 0700
+Fax: +1 (408) 689-0931
+Email: tim at intellitics.com
+
+New! Check out EngagePhase Weekly, the weekly newsletter covering the emerging global community engagement and public participation industry: http://engagephase.io
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180219/01dd5f21/attachment.html>
+
+From micstepanek at gmail.com  Mon Feb 19 15:13:35 2018
+From: micstepanek at gmail.com (=?UTF-8?B?TWljaGFsIMWgdMSbcMOhbmVr?=)
+Date: Mon, 19 Feb 2018 21:13:35 +0100
+Subject: [MG]  Happiness impact factor
+Message-ID: <CAEyrqBpvd8_BGCEJ4pGHdPLZLJT84fFaUMAf0Q7SHubvCu2bow@mail.gmail.com>
+
+Definitions first: Happiness as "affect balance" (Kahneman).
+Impact factor positive or negative.
+
+So if you would like where is the main trouble of this world you may like
+to measure traffic and analyze electronic communication and try to predict
+world happiness from it.
+
+You may perhaps find that governments became slaves of some media and that
+we are barking at the wrong wall.
+
+Cheers
+m.
+
+-- 
+Michal ?t?p?nek
+about.me/micstepanek
+<https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180219/b7b02512/attachment.html>
+
+From rasmus.tenbergen at world-parliament.org  Wed Feb 21 09:08:37 2018
+From: rasmus.tenbergen at world-parliament.org (Rasmus Tenbergen)
+Date: Wed, 21 Feb 2018 15:08:37 +0100
+Subject: [MG] Internet Tool for Global Debate, Voting and Elections,
+ Re:  ParticipateDB 2018 Digital Engagement Census
+Message-ID: <CAJ5TSO=gzFg96w7VnqQwDpbLS3XYyTh59UTasP-mBKb5NqkEVA@mail.gmail.com>
+
+Hi Tim and all,
+
+thank you very much for your interesting e-mail and the links, in
+particular the overview on the tools.
+
+I would like to take this as an opportunity to write to this group right
+away an e-mail I wanted to post anyway as it directly refers to your
+initiative.
+
+Over the past ca. 10 years, I have been a more or less silent observer here
+and was involved in a few bilateral and multilateral initiatives with group
+members.
+
+We are starting a big initiative at the moment (described below and almost
+identical in the attachement in case you want to forward it to others) to
+create a new internet tool for global debate, voting and elections.
+
+The participation of metagovernment list members would be very much
+appreciated and I am looking forward to hearing from old a new potential
+partners.
+
+Best regards,
+
+Rasmus Tenbergen
+
+For the Project Team of
+
+Democracy Without Borders
+
+www.democracywithoutborders.org
+
+
+
+
+
+
+
+Project Brief 01/2018
+
+
+
+*An Internet Tool for Global Debate, Voting and Elections (GDVE-it) *
+
+
+
+The World Parliament Experiment (WPE) and Democracy Without Borders (DWB)
+are pleased to announce that they will be collaborating on the development
+and promotion of an Internet Tool for Global Debate, Voting and Elections
+(GDVE-it) and that they are seeking additional partners to imple-ment this
+project.
+
+GDVE-it is a practical bottom-up approach to promoting global democracy.
+The internet platform will allow for a biometric registration as a world
+citizen and the allocation of a unique world citizen?s ID. GDVE-it will be
+a scalable and flexible platform ready to be used for different purposes.
+
+
+
+*Initial subjects *
+
+In a first step, registered world citizens will be able to vote on
+resolutions considered at the UN Security Council. Making these resolutions
+the subject of public voting is viewed as a symbolic counterbalance to the
+unrepresentative and undemocratic nature of the UN?s most important body.
+The goal is to achieve large public participation and to help build popular
+momentum for a reform of the UN and to promote global democracy in general.
+Other purposes of the platform may include to allow registered users to
+endorse symbolic World Citizen Initiatives.
+
+
+
+*Technical development and operation *
+
+In close consultation with the project?s partners, WPE will be responsible
+for the technical development and operation of GDVE-it as the successor of
+an internet tool having been implemented in the year 2000. This ?old? World
+Parliament Experiment internet tool included functionalities and features
+relevant to GDVE-it but needs a thorough technical upgrade. Also, some
+important features will need to be added, e.g. for secure personal
+identification. All functions and logical conjunctions will be rethought
+and, where necessary, improved.
+
+
+
+*Political advocacy and promotion *
+
+DWB?s role will be to help coordinate all non-technical aspects of the
+project. In particular, this concerns the creation and coordination of an
+international network of experts and project partners as well as political
+advocacy and public outreach. Generally, DWB supports GDVE-it as a sandbox
+that allows to explore the feasibility and dynamics of global participation
+and elections.
+
+
+
+*About WPE and DWB *
+
+WPE is a non-profit organization dedicated to making the idea of a
+democratically elected parliament and other forms of global democracy
+palpable: by events, campaigns and tools. DWB supports an even more
+holistic approach to democracy promotion with a focus on global democracy.
+One of its goals is the establishment of a UN Parliamentary Assembly as a
+step towards a world parliament.
+
+
+
+*The GDVE-it Network *
+
+At present, WPE and DWB are building an informal network of experts and
+institutions to support the development of GDVE-it. Membership is not tied
+to formal responsibilities. Network members will
+
+? receive frequent updates on the progress of the project and invitations
+to project meetings and conferences,
+
+? be invited to contribute ideas, concepts or code,
+
+? be asked for their opinion and advice,
+
+? support the project as they see fit ? e.g. by research, articles,
+statements, and networking.
+
+
+
+*To build an excellent GDVE-it we need to bundle the global competencies in
+this field. *
+
+*You are kindly invited to become a member of the GDVE-it network (Google
+Group: https://goo.gl/rnHh6n <https://goo.gl/rnHh6n>)!*
+
+
+
+
+
+
+
+<http://www.european-leadership-academy.com>
+<http://www.rasmus-tenbergen.de>
+
+2018-02-19 20:32 GMT+01:00 Tim Bonnemann <tim at intellitics.com>:
+
+> Hi,
+>
+> Some here on this list may be familiar with ParticipateDB, the online
+> catalogue for digital engagement technology my consulting firm launched
+> back in 2009. Last year, we spun it out under a new entity, the Center for
+> Applied Community Engagement, LLC.
+>
+> We are currently running the *ParticipateDB 2018 Digital Engagement
+> Census*, a global practitioner survey to find out which tools and
+> services people have been using in their community engagement and public
+> participation work lately.
+>
+> Here?s the launch announcement from February 9:
+> http://blog.participatedb.com/2018/02/09/welcome-to-the-
+> participatedb-2018-digital-engagement-census/
+>
+> Here?s yesterday?s update (we?ve extended the survey through February 26,
+> plus a first glimpse at the results):
+> http://blog.participatedb.com/2018/02/18/participatedb-2018-
+> digital-engagement-census-extended-through-february-26/
+>
+> And here?s the census main page with the link to the online survey form:
+> http://www.participatedb.com/census
+>
+> A lot of you are involved in developing or promoting new/interesting
+> e-participation tools (for policy making, group decision making etc.).
+>
+> Would be great if you could take part or share with others in your network
+> who might have interesting stories/examples to report.
+>
+> We are particularly interested in hearing from non-English speaking
+> countries around the globe.
+>
+> Any questions, just let me know.
+>
+> Thanks,
+> Tim
+>
+> PS: If you want to find out if your tool is already listed, check the list
+> of 350+ tools <http://www.participatedb.com/tools> (we still would like
+> to hear about recent project examples, though). Thanks!
+>
+> --
+> Tim Bonnemann
+> Founder and CEO, Intellitics, Inc. <http://www.intellitics.com>
+> Interim Director, Center for Applied Community Engagement, LLC
+> <http://www.caceinstitute.org>
+> San Jos?, CA 95128 (USA)
+> Cell: +1 (408) 627 0700 <(408)%20627-0700>
+> Fax: +1 (408) 689-0931 <(408)%20689-0931>
+> Email: tim at intellitics.com
+>
+> *New!* Check out *EngagePhase Weekly*, the weekly newsletter covering the
+> emerging global community engagement and public participation industry:
+> http://engagephase.io
+>
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180221/eb95e128/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: GDVE -it 17.1.18_ProjectBrief.pdf
+Type: application/pdf
+Size: 196127 bytes
+Desc: not available
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180221/eb95e128/attachment-0001.pdf>
+
+From micstepanek at gmail.com  Wed Feb 21 15:59:13 2018
+From: micstepanek at gmail.com (=?UTF-8?B?TWljaGFsIMWgdMSbcMOhbmVr?=)
+Date: Wed, 21 Feb 2018 21:59:13 +0100
+Subject: [MG]  happiness search engine
+Message-ID: <CAEyrqBoHufGtSp0TESHmMwAxAJVqo0nwBe4Wsd7tEVGjbJqN7Q@mail.gmail.com>
+
+Hi,
+
+you may not believe it, but you may improve your happiness even in long
+term (see e.g. Martin Seligman
+<https://en.wikipedia.org/wiki/Martin_Seligman>, Ed Diener
+<https://en.wikipedia.org/wiki/Ed_Diener> and Ruut Veenhoven
+<https://en.wikipedia.org/wiki/Ruut_Veenhoven>)
+
+And you may also design a search engine (like google) that will provide you
+with result that are likely to make people in society happy.
+It may be not obvious, that if you try to make people happy you make it
+also on the level of society.
+
+But that is not all, you may even design an app for smartphones that will
+occasionally ask you how happy you are to see how it the engine working.
+You may also need some more analytical questions and research to improve
+the search engine, but the important is - it is possible.
+
+When it comes to implementation, I will try to persuade some people behind
+some existing search engine to start one more engine and give it a try.
+
+What do you say?
+-- 
+Michal ?t?p?nek
+about.me/micstepanek
+<https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180221/c6c86dbe/attachment.html>
+
+From micstepanek at gmail.com  Mon Feb  5 05:52:56 2018
+From: micstepanek at gmail.com (=?UTF-8?B?TWljaGFsIMWgdMSbcMOhbmVr?=)
+Date: Mon, 5 Feb 2018 11:52:56 +0100
+Subject: [MG] Leverage Points: Places to Intervene in a System
+In-Reply-To: <83B3B7FB-FF32-482F-A103-5C2D54436218@stevecoffman.com>
+References: <83B3B7FB-FF32-482F-A103-5C2D54436218@stevecoffman.com>
+Message-ID: <CAEyrqBp--aj4r+ZwX14N2O-7VYYQHn+dkKRz_s9dsYRSPduMqA@mail.gmail.com>
+
+Thank you a lot Steve,
+as I see it now my explanation was too complicated, there are two terms
+that may explain it all:
+
+1. Sociology of happiness
+2. Leverage points
+
+I have a question for all. Please, are these two terms enough to understand
+the concept? Please, does it say something to you? No, is an acceptable
+answer :)
+
+The old stuff about the leverage points ...
+http://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
+
+
+Cheers
+m.
+
+
+On Fri, Jan 26, 2018 at 6:31 PM, Steve Coffman <steve at stevecoffman.com>
+wrote:
+
+> In my struggle to understand what Michal ?t?p?nek has been trying to
+> convey regarding his perspective of our efforts?or at least of mine, I
+> decided to approach him *off-line* as I was becoming increasing frustrated
+> (and somewhat embarrassed) at my inability to grasp what he was describing.
+> This was partially due to some language barrier I suspect, but mostly due
+> to my lack of understanding of the field/science of Systems Analysis, and
+> likely as well (I think) to some reduced mental bandwidth issues on my
+> part.  :)
+> That said, Michal very patiently continued and recommended I read
+> the following link.
+>
+> http://donellameadows.org/archives/leverage-points-
+> places-to-intervene-in-a-system/
+>
+> Here are some tantalizing excerpts:
+> From: Leverage Points: Places to Intervene in a System  By Donella
+> Meadows~
+> 6. The structure of information flows (who does and does not have access
+> to information).
+>
+> There was this subdivision of identical houses, the story goes, except
+> that for some reason the electric meter in some of the houses was installed
+> in the basement and in others it was installed in the front hall, where the
+> residents could see it constantly, going round faster or slower as they
+> used more or less electricity. With no other change, with identical prices,
+> electricity consumption was 30 percent lower in the houses where the meter
+> was in the front hall.
+>
+> We systems-heads love that story because it?s an example of a high
+> leverage point in the information structure of the system. It?s not a
+> parameter adjustment, not a strengthening or weakening of an existing loop.
+> It?s a NEW LOOP, delivering feedback to a place where it wasn?t going
+> before.
+>
+> A more recent example is the Toxic Release Inventory ? the U.S.
+> government?s requirement, instituted in 1986, that every factory releasing
+> hazardous air pollutants report those emissions publicly every year.
+> Suddenly every community could find out precisely what was coming out of
+> the smokestacks in town. There was no law against those emissions, no
+> fines, no determination of ?safe? levels, just information. But by 1990
+> emissions dropped 40 percent. They?ve continued to go down since, not so
+> much because of citizen outrage as because of corporate shame. One chemical
+> company that found itself on the Top Ten Polluters list reduced its
+> emissions by 90 percent, just to ?get off that list.?
+>
+> Compelling feedback. Suppose taxpayers got to specify on their return
+> forms what government services their tax payments must be spent on.
+> (Radical democracy!) Suppose any town or company that puts a water intake
+> pipe in a river had to put it immediately DOWNSTREAM from its own outflow
+> pipe. Suppose any public or private official who made the decision to
+> invest in a nuclear power plant got the waste from that plant stored on
+> his/her lawn. Suppose (this is an old one) the politicians who declare war
+> were required to spend that war in the front lines.
+> 4. The power to add, change, evolve, or self-organize system structure.
+>
+> The most stunning thing living systems and some social systems can do is
+> to change themselves utterly by creating whole new structures and
+> behaviors. In biological systems that power is called evolution. In human
+> economies it?s called technical advance or social revolution. In systems
+> lingo it?s called self-organization.
+>
+> Self-organization means changing any aspect of a system lower on this list
+> ? adding completely new physical structures, such as brains or wings or
+> computers ? adding new negative or positive loops, or new rules. The
+> ability to self-organize is the strongest form of system resilience. A
+> system that can evolve can survive almost any change, by changing itself.
+> The human immune system has the power to develop new responses to (some
+> kinds of ) insults it has never before encountered. The human brain can
+> take in new information and pop out completely new thoughts.
+> 2. The mindset or paradigm out of which the system ? its goals, structure,
+> rules, delays, parameters ? arises.
+>
+> Another of Jay Forrester?s famous systems sayings goes: it doesn?t matter
+> how the tax law of a country is written. There is a shared idea in the
+> minds of the society about what a ?fair? distribution of the tax load is.
+> Whatever the rules say, by fair means or foul, by complications, cheating,
+> exemptions or deductions, by constant sniping at the rules, actual tax
+> payments will push right up against the accepted idea of ?fairness.?
+>
+> The shared idea in the minds of society, the great big unstated
+> assumptions ? unstated because unnecessary to state; everyone already knows
+> them ? constitute that society?s paradigm, or deepest set of beliefs about
+> how the world works. There is a difference between nouns and verbs. Money
+> measures something real and has real meaning (therefore people who are paid
+> less are literally worth less). Growth is good. Nature is a stock of
+> resources to be converted to human purposes. Evolution stopped with the
+> emergence of *Homo sapiens*. One can ?own? land. Those are just a few of
+> the paradigmatic assumptions of our current culture, all of which have
+> utterly dumfounded other cultures, who thought them not the least bit
+> obvious.
+>
+> The ancient Egyptians built pyramids because they believed in an
+> afterlife. We build skyscrapers, because we believe that space in downtown
+> cities is enormously valuable. (Except for blighted spaces, often near the
+> skyscrapers, which we believe are worthless.) Whether it was Copernicus and
+> Kepler showing that the earth is not the center of the universe, or
+> Einstein hypothesizing that matter and energy are interchangeable, or Adam
+> Smith postulating that the selfish actions of individual players in markets
+> wonderfully accumulate to the common good, people who have managed to
+> intervene in systems at the level of paradigm have hit a leverage point
+> that totally transforms systems.
+>
+> You could say paradigms are harder to change than anything else about a
+> system, and therefore this item should be lowest on the list, not
+> second-to-highest. But there?s nothing physical or expensive or even slow
+> in the process of paradigm change. In a single individual it can happen in
+> a millisecond. All it takes is a click in the mind, a falling of scales
+> from eyes, a new way of seeing. Whole societies are another matter ? they
+> resist challenges to their paradigm harder than they resist anything else.
+>
+> So how do you change paradigms? Thomas Kuhn, who wrote the seminal book
+> about the great paradigm shifts of science,7
+> <http://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/#seven> has
+> a lot to say about that. In a nutshell, you keep pointing at the anomalies
+> and failures in the old paradigm, you keep coming yourself, and loudly and
+> with assurance from the new one, you insert people with the new paradigm in
+> places of public visibility and power. You don?t waste time with
+> reactionaries; rather you work with active change agents and with the vast
+> middle ground of people who are open-minded.
+>
+> Systems folks would say you change paradigms by modeling a system, which
+> takes you outside the system and forces you to see it whole. We say that
+> because our own paradigms have been changed that way.
+> A Final Caution
+>
+> Back from the sublime to the ridiculous, from enlightenment to caveats.
+> There is so much that has to be said to qualify this list. It is tentative
+> and its order is slithery. There are exceptions to every item that can move
+> it up or down the order of leverage. Having had the list percolating in my
+> subconscious for years has not transformed me into a Superwoman. The higher
+> the leverage point, the more the system will resist changing it ? that?s
+> why societies have to rub out truly enlightened beings.
+>
+> Magical leverage points are not easily accessible, even if we know where
+> they are and which direction to push on them. There are no cheap tickets to
+> mastery. You have to work hard at it, whether that means rigorously
+> analyzing a system or rigorously casting off your own paradigms and
+> throwing yourself into the humility of Not Knowing. In the end, it seems
+> that mastery has less to do with pushing leverage points than it does with
+> strategically, profoundly, madly letting go.
+>
+> This helps a lot Michal. I imagine I'll be referring to this list for some
+> time to come. Particularly # 1.  (if you never hear from me again...you?ll
+> know why.)
+>
+> Thanks so much,
+>
+> Steve
+>
+>
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+>
+
+
+-- 
+
+<https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+Michal ?t?p?nek
+about.me/micstepanek
+<https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180205/0cfb8039/attachment-0002.html>
+
+From micstepanek at gmail.com  Thu Feb  8 05:52:39 2018
+From: micstepanek at gmail.com (=?UTF-8?B?TWljaGFsIMWgdMSbcMOhbmVr?=)
+Date: Thu, 8 Feb 2018 11:52:39 +0100
+Subject: [MG] Leverage Points: Places to Intervene in a System
+In-Reply-To: <CAEyrqBp--aj4r+ZwX14N2O-7VYYQHn+dkKRz_s9dsYRSPduMqA@mail.gmail.com>
+References: <83B3B7FB-FF32-482F-A103-5C2D54436218@stevecoffman.com>
+	<CAEyrqBp--aj4r+ZwX14N2O-7VYYQHn+dkKRz_s9dsYRSPduMqA@mail.gmail.com>
+Message-ID: <CAEyrqBpkUZCa6SbxGnH4-85_w8LwZN9Lq99dcxEZXKM_DDrc4Q@mail.gmail.com>
+
+Actually,
+
+there is more to tell, happiness is not everything. There are more indexes
+to watch e.g. years of potential life lost, natural resources depletion,
+global climate risk index and also animal protection index.
+
+Cheers
+m.
+
+On Mon, Feb 5, 2018 at 11:52 AM, Michal ?t?p?nek <micstepanek at gmail.com>
+wrote:
+
+> Thank you a lot Steve,
+> as I see it now my explanation was too complicated, there are two terms
+> that may explain it all:
+>
+> 1. Sociology of happiness
+> 2. Leverage points
+>
+> I have a question for all. Please, are these two terms enough to
+> understand the concept? Please, does it say something to you? No, is an
+> acceptable answer :)
+>
+> The old stuff about the leverage points ...
+> http://donellameadows.org/archives/leverage-points-
+> places-to-intervene-in-a-system/
+>
+>
+> Cheers
+> m.
+>
+>
+> On Fri, Jan 26, 2018 at 6:31 PM, Steve Coffman <steve at stevecoffman.com>
+> wrote:
+>
+>> In my struggle to understand what Michal ?t?p?nek has been trying to
+>> convey regarding his perspective of our efforts?or at least of mine, I
+>> decided to approach him *off-line* as I was becoming increasing frustrated
+>> (and somewhat embarrassed) at my inability to grasp what he was describing.
+>> This was partially due to some language barrier I suspect, but mostly due
+>> to my lack of understanding of the field/science of Systems Analysis, and
+>> likely as well (I think) to some reduced mental bandwidth issues on my
+>> part.  :)
+>> That said, Michal very patiently continued and recommended I read
+>> the following link.
+>>
+>> http://donellameadows.org/archives/leverage-points-places-
+>> to-intervene-in-a-system/
+>>
+>> Here are some tantalizing excerpts:
+>> From: Leverage Points: Places to Intervene in a System  By Donella
+>> Meadows~
+>> 6. The structure of information flows (who does and does not have access
+>> to information).
+>>
+>> There was this subdivision of identical houses, the story goes, except
+>> that for some reason the electric meter in some of the houses was installed
+>> in the basement and in others it was installed in the front hall, where the
+>> residents could see it constantly, going round faster or slower as they
+>> used more or less electricity. With no other change, with identical prices,
+>> electricity consumption was 30 percent lower in the houses where the meter
+>> was in the front hall.
+>>
+>> We systems-heads love that story because it?s an example of a high
+>> leverage point in the information structure of the system. It?s not a
+>> parameter adjustment, not a strengthening or weakening of an existing loop.
+>> It?s a NEW LOOP, delivering feedback to a place where it wasn?t going
+>> before.
+>>
+>> A more recent example is the Toxic Release Inventory ? the U.S.
+>> government?s requirement, instituted in 1986, that every factory releasing
+>> hazardous air pollutants report those emissions publicly every year.
+>> Suddenly every community could find out precisely what was coming out of
+>> the smokestacks in town. There was no law against those emissions, no
+>> fines, no determination of ?safe? levels, just information. But by 1990
+>> emissions dropped 40 percent. They?ve continued to go down since, not so
+>> much because of citizen outrage as because of corporate shame. One chemical
+>> company that found itself on the Top Ten Polluters list reduced its
+>> emissions by 90 percent, just to ?get off that list.?
+>>
+>> Compelling feedback. Suppose taxpayers got to specify on their return
+>> forms what government services their tax payments must be spent on.
+>> (Radical democracy!) Suppose any town or company that puts a water intake
+>> pipe in a river had to put it immediately DOWNSTREAM from its own outflow
+>> pipe. Suppose any public or private official who made the decision to
+>> invest in a nuclear power plant got the waste from that plant stored on
+>> his/her lawn. Suppose (this is an old one) the politicians who declare war
+>> were required to spend that war in the front lines.
+>> 4. The power to add, change, evolve, or self-organize system structure.
+>>
+>> The most stunning thing living systems and some social systems can do is
+>> to change themselves utterly by creating whole new structures and
+>> behaviors. In biological systems that power is called evolution. In human
+>> economies it?s called technical advance or social revolution. In systems
+>> lingo it?s called self-organization.
+>>
+>> Self-organization means changing any aspect of a system lower on this
+>> list ? adding completely new physical structures, such as brains or wings
+>> or computers ? adding new negative or positive loops, or new rules. The
+>> ability to self-organize is the strongest form of system resilience. A
+>> system that can evolve can survive almost any change, by changing itself.
+>> The human immune system has the power to develop new responses to (some
+>> kinds of ) insults it has never before encountered. The human brain can
+>> take in new information and pop out completely new thoughts.
+>> 2. The mindset or paradigm out of which the system ? its goals,
+>> structure, rules, delays, parameters ? arises.
+>>
+>> Another of Jay Forrester?s famous systems sayings goes: it doesn?t matter
+>> how the tax law of a country is written. There is a shared idea in the
+>> minds of the society about what a ?fair? distribution of the tax load is.
+>> Whatever the rules say, by fair means or foul, by complications, cheating,
+>> exemptions or deductions, by constant sniping at the rules, actual tax
+>> payments will push right up against the accepted idea of ?fairness.?
+>>
+>> The shared idea in the minds of society, the great big unstated
+>> assumptions ? unstated because unnecessary to state; everyone already knows
+>> them ? constitute that society?s paradigm, or deepest set of beliefs about
+>> how the world works. There is a difference between nouns and verbs. Money
+>> measures something real and has real meaning (therefore people who are paid
+>> less are literally worth less). Growth is good. Nature is a stock of
+>> resources to be converted to human purposes. Evolution stopped with the
+>> emergence of *Homo sapiens*. One can ?own? land. Those are just a few of
+>> the paradigmatic assumptions of our current culture, all of which have
+>> utterly dumfounded other cultures, who thought them not the least bit
+>> obvious.
+>>
+>> The ancient Egyptians built pyramids because they believed in an
+>> afterlife. We build skyscrapers, because we believe that space in downtown
+>> cities is enormously valuable. (Except for blighted spaces, often near the
+>> skyscrapers, which we believe are worthless.) Whether it was Copernicus and
+>> Kepler showing that the earth is not the center of the universe, or
+>> Einstein hypothesizing that matter and energy are interchangeable, or Adam
+>> Smith postulating that the selfish actions of individual players in markets
+>> wonderfully accumulate to the common good, people who have managed to
+>> intervene in systems at the level of paradigm have hit a leverage point
+>> that totally transforms systems.
+>>
+>> You could say paradigms are harder to change than anything else about a
+>> system, and therefore this item should be lowest on the list, not
+>> second-to-highest. But there?s nothing physical or expensive or even slow
+>> in the process of paradigm change. In a single individual it can happen in
+>> a millisecond. All it takes is a click in the mind, a falling of scales
+>> from eyes, a new way of seeing. Whole societies are another matter ? they
+>> resist challenges to their paradigm harder than they resist anything else.
+>>
+>> So how do you change paradigms? Thomas Kuhn, who wrote the seminal book
+>> about the great paradigm shifts of science,7
+>> <http://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/#seven> has
+>> a lot to say about that. In a nutshell, you keep pointing at the anomalies
+>> and failures in the old paradigm, you keep coming yourself, and loudly and
+>> with assurance from the new one, you insert people with the new paradigm in
+>> places of public visibility and power. You don?t waste time with
+>> reactionaries; rather you work with active change agents and with the vast
+>> middle ground of people who are open-minded.
+>>
+>> Systems folks would say you change paradigms by modeling a system, which
+>> takes you outside the system and forces you to see it whole. We say that
+>> because our own paradigms have been changed that way.
+>> A Final Caution
+>>
+>> Back from the sublime to the ridiculous, from enlightenment to caveats.
+>> There is so much that has to be said to qualify this list. It is tentative
+>> and its order is slithery. There are exceptions to every item that can move
+>> it up or down the order of leverage. Having had the list percolating in my
+>> subconscious for years has not transformed me into a Superwoman. The higher
+>> the leverage point, the more the system will resist changing it ? that?s
+>> why societies have to rub out truly enlightened beings.
+>>
+>> Magical leverage points are not easily accessible, even if we know where
+>> they are and which direction to push on them. There are no cheap tickets to
+>> mastery. You have to work hard at it, whether that means rigorously
+>> analyzing a system or rigorously casting off your own paradigms and
+>> throwing yourself into the humility of Not Knowing. In the end, it seems
+>> that mastery has less to do with pushing leverage points than it does with
+>> strategically, profoundly, madly letting go.
+>>
+>> This helps a lot Michal. I imagine I'll be referring to this list for
+>> some time to come. Particularly # 1.  (if you never hear from me
+>> again...you?ll know why.)
+>>
+>> Thanks so much,
+>>
+>> Steve
+>>
+>>
+>>
+>> _______________________________________________
+>> Start : a mailing list of the Metagovernment project
+>> http://www.metagovernment.org/
+>> Post to the list: Start at metagovernment.org
+>> Manage subscription: http://metagovernment.org/mail
+>> man/listinfo/start_metagovernment.org
+>>
+>>
+>
+>
+> --
+>
+>
+> <https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+> Michal ?t?p?nek
+> about.me/micstepanek
+> <https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+>
+
+
+
+-- 
+
+<https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+Michal ?t?p?nek
+about.me/micstepanek
+<https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180208/b8bf9ae4/attachment-0002.html>
+
+From steve at stevecoffman.com  Thu Feb  8 21:46:32 2018
+From: steve at stevecoffman.com (Steve Coffman)
+Date: Thu, 8 Feb 2018 18:46:32 -0800
+Subject: [MG] Democracy.earth
+In-Reply-To: <CAEyrqBpkUZCa6SbxGnH4-85_w8LwZN9Lq99dcxEZXKM_DDrc4Q@mail.gmail.com>
+References: <83B3B7FB-FF32-482F-A103-5C2D54436218@stevecoffman.com>
+	<CAEyrqBp--aj4r+ZwX14N2O-7VYYQHn+dkKRz_s9dsYRSPduMqA@mail.gmail.com>
+	<CAEyrqBpkUZCa6SbxGnH4-85_w8LwZN9Lq99dcxEZXKM_DDrc4Q@mail.gmail.com>
+Message-ID: <5E2B392C-119A-4EBD-A4C2-8AFB6BC7DC26@stevecoffman.com>
+
+Very interesting.
+
+https://www.democracy.earth
+
+2.2 Voting.
+
+The vote token aims to be a standard for digital democracy able to interoperate with other tokens, setting a common language for the governance of blockchain based organizations. Within the context of liquid democracies, a range of voting transactions is permitted with votes:
+
+? Direct Vote: Selfish voter Alice is allowed to use her tokens to vote directly on issues as in a direct democracy. 
+
+? Basic Delegation: Alice may delegate votes to Bob. As long as Bob has access to those tokens he can use them to vote on Alice's behalf.
+
+? Tag Limited Delegation: Alice may delegate votes to Charlie under the specified condition that he can only use these tokens on issues carrying a specific tag. If the delegation specifies that delegated votes can only be used on decisions with the #environment tag, then Charlie won't be able to use these anywhere else but on those specific issues. This leads to a representation model not based on territory but on knowledge.
+
+? Transitive Delegation: If Bob received votes from Alice, he can then delegate these to Frank. This generates a chain of delegations that helps empower specific players within a community. If Alice does not desire to have third parties receiving the votes she delegated to Bob, she can turn off the transitive setting on the delegation contract. Circular delegations (e.g. Alice receiving the tokens she sent Bob from Frank) are prohibited since the original allocation of votes from an organization to its members carries a signature indicating who is the sovereign owner of the votes.
+
+? Overriding Vote: If Bob already used the delegated votes he received from Alice but she has a different opinion on a given issue, as the sovereign owner of her votes Alice can always override Bob's decision. Voters always have the final word on any given decision with their original votes.
+
+? Public Vote: Often referred as the golden rule of liquid democracies, all delegators have the right to know how their delegate has voted on any given issue with their votes. In the same way congressmen votes are public, on liquid democracies competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order to attract more delegations.
+
+? Secret Vote: A method able to guarantee vote transactions untraceable to the voter. This is indispensable in contexts of public elections held within large populations that have a high risk of coercion. Even if perfect secrecy on vote transaction is achieved, users can still be fingerprinted with exposed meta-data. For this reason, research on integration with blockchains designed for anonymous transactions with a proven track record is encouraged. This might include a mining fee to settle the vote transaction that can be either subsidized by the implementing organization or directly paid by voters. We recommend research and integration of secret votes with these blockchains: 
+
+? Ethereum: uses precompiled contracts for addition and scalar multiplication on the elliptic curve alt_bn128, for pairing checks, which permit zk- SNARKs, also see here, as implemented in the Byzantium hard fork.
+
+? ZCash: implements shielded transactions using zero-knowledge proofs.
+
+? Monero: uses ring signatures with stealth addresses. 
+
+
+2.3 User Experience.
+
+User Experience (UX) is a critical aspect of a decentralized architecture and becomes even more important as the redundant layers of centralized architectures condense to the user. In a centralized internet architecture, the user does not own the interface or experience. In a decentralized internet architecture, the user interface (UI) should be based on the user's perspective. In this sense, transactions get done under three distinct views:
+
+? Self: Using a public identity related to an individual.
+
+? Organization: In representation of an organization that extended representation rights to individuals (e.g. workplace, club, political party, etc).
+
+? Anonymous: Without any connection to a public identity.
+
+This understanding of SELF / ORG / ANON shape-shifting requirement highly influenced our interface and token design. At any given time a Sovereign user can adopt any of these modes to interact with decentralized organizations. 
+
+
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180208/bafb5b28/attachment-0002.html>
+
+From metamerman at gmail.com  Fri Feb  9 00:18:32 2018
+From: metamerman at gmail.com (Scott Raney)
+Date: Thu, 8 Feb 2018 22:18:32 -0700
+Subject: [MG] Democracy.earth
+In-Reply-To: <5E2B392C-119A-4EBD-A4C2-8AFB6BC7DC26@stevecoffman.com>
+References: <83B3B7FB-FF32-482F-A103-5C2D54436218@stevecoffman.com>
+	<CAEyrqBp--aj4r+ZwX14N2O-7VYYQHn+dkKRz_s9dsYRSPduMqA@mail.gmail.com>
+	<CAEyrqBpkUZCa6SbxGnH4-85_w8LwZN9Lq99dcxEZXKM_DDrc4Q@mail.gmail.com>
+	<5E2B392C-119A-4EBD-A4C2-8AFB6BC7DC26@stevecoffman.com>
+Message-ID: <CACobxW3u0LgDbe5DVkL_doHY2qmAWCNWPQU+Kd5cgEvT2=UH7w@mail.gmail.com>
+
+On Thu, Feb 8, 2018 at 7:46 PM, Steve Coffman <steve at stevecoffman.com> wrote:
+> Very interesting.
+> https://www.democracy.earth
+
+Meh, it's just a rehash of the failed LiquidFB system. I've been
+trying to explain to them exactly how LiquidFB failed and why their
+system doesn't address any of the real problems in it (see the
+"Issues" tab on https://github.com/DemocracyEarth/paper), but to no
+avail. They're quite skilled at marketing (getting funding, getting
+conference invites etc.) but unfortunately seem to be almost
+completely clueless when it comes to any of the scientific or
+engineering issues that they'd need to deal with to create something
+capable of replacing our existing systems. That and they're just
+incorrigible fanboys of blockchain. It's like arguing with religious
+fanatics. They really have no good explanation of why blockchain
+technology is even relevant to the problem of public policy
+decisionmaking, but, again, it's all about the marketing with those
+guys.
+
+(snip)
+
+> ? Secret Vote: A method able to guarantee vote transactions untraceable to
+> the voter. This is indispensable in contexts of public elections held within
+> large populations that have a high risk of coercion. Even if perfect secrecy
+> on vote transaction is achieved, users can still be fingerprinted with
+> exposed meta-data. For this reason, research on integration with blockchains
+> designed for anonymous transactions with a proven track record is
+> encouraged. This might include a mining fee to settle the vote transaction
+> that can be either subsidized by the implementing organization or directly
+> paid by voters. We recommend research and integration of secret votes with
+> these blockchains:
+
+Right: They don't know how to provide this but just have some vague
+feeling that it's necessary. Which of course, as I've provided lots of
+*scientific* evidence for in the Matchism manifesto and the help
+system for proxyfor.me, is simply not true.
+  Regards,
+    Scott
+
+
+
+From jacopo.tolja at gmail.com  Fri Feb  9 12:07:32 2018
+From: jacopo.tolja at gmail.com (Jacopo Tolja)
+Date: Fri, 9 Feb 2018 18:07:32 +0100
+Subject: [MG] Democracy.earth
+In-Reply-To: <CACobxW3u0LgDbe5DVkL_doHY2qmAWCNWPQU+Kd5cgEvT2=UH7w@mail.gmail.com>
+References: <83B3B7FB-FF32-482F-A103-5C2D54436218@stevecoffman.com>
+	<CAEyrqBp--aj4r+ZwX14N2O-7VYYQHn+dkKRz_s9dsYRSPduMqA@mail.gmail.com>
+	<CAEyrqBpkUZCa6SbxGnH4-85_w8LwZN9Lq99dcxEZXKM_DDrc4Q@mail.gmail.com>
+	<5E2B392C-119A-4EBD-A4C2-8AFB6BC7DC26@stevecoffman.com>
+	<CACobxW3u0LgDbe5DVkL_doHY2qmAWCNWPQU+Kd5cgEvT2=UH7w@mail.gmail.com>
+Message-ID: <CAJHTwmKoDixnFMCz4ox_mFXOJUjdw22m=Bhk=2kMdeYqWrz0Vw@mail.gmail.com>
+
+Mr. Siri that ia a driving force behind democracy.earth have a long story
+in direct democracy starting with the vote in Argentina's capital Buenos
+Aires and behind the democracyOS, blockchain is just the decentralised
+media.
+Peace
+J
+
+LA DITTATURA PERFETTA AVRA' LA SEMBIANZA DI UNA DEMOCRAZIA, UNA PRIGIONE
+SENZA MURI NELLA QUALE I PRIGIONIERI NON SOGNERANNO MAI DI FUGGIRE. UN
+SISTEMA DI SCHIAVITU' DOVE, GRAZIE AL CONSUMO E AL DIVERTIMENTO, GLI
+SCHIAVI AMERANNO LA LORO SCHIAVITU.
+A.H.
+
+Il 09 Feb 2018 06:19, "Scott Raney" <metamerman at gmail.com> ha scritto:
+
+> On Thu, Feb 8, 2018 at 7:46 PM, Steve Coffman <steve at stevecoffman.com>
+> wrote:
+> > Very interesting.
+> > https://www.democracy.earth
+>
+> Meh, it's just a rehash of the failed LiquidFB system. I've been
+> trying to explain to them exactly how LiquidFB failed and why their
+> system doesn't address any of the real problems in it (see the
+> "Issues" tab on https://github.com/DemocracyEarth/paper), but to no
+> avail. They're quite skilled at marketing (getting funding, getting
+> conference invites etc.) but unfortunately seem to be almost
+> completely clueless when it comes to any of the scientific or
+> engineering issues that they'd need to deal with to create something
+> capable of replacing our existing systems. That and they're just
+> incorrigible fanboys of blockchain. It's like arguing with religious
+> fanatics. They really have no good explanation of why blockchain
+> technology is even relevant to the problem of public policy
+> decisionmaking, but, again, it's all about the marketing with those
+> guys.
+>
+> (snip)
+>
+> > ? Secret Vote: A method able to guarantee vote transactions untraceable
+> to
+> > the voter. This is indispensable in contexts of public elections held
+> within
+> > large populations that have a high risk of coercion. Even if perfect
+> secrecy
+> > on vote transaction is achieved, users can still be fingerprinted with
+> > exposed meta-data. For this reason, research on integration with
+> blockchains
+> > designed for anonymous transactions with a proven track record is
+> > encouraged. This might include a mining fee to settle the vote
+> transaction
+> > that can be either subsidized by the implementing organization or
+> directly
+> > paid by voters. We recommend research and integration of secret votes
+> with
+> > these blockchains:
+>
+> Right: They don't know how to provide this but just have some vague
+> feeling that it's necessary. Which of course, as I've provided lots of
+> *scientific* evidence for in the Matchism manifesto and the help
+> system for proxyfor.me, is simply not true.
+>   Regards,
+>     Scott
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180209/0ea92fc6/attachment-0002.html>
+
+From tim at intellitics.com  Mon Feb 19 14:32:05 2018
+From: tim at intellitics.com (Tim Bonnemann)
+Date: Mon, 19 Feb 2018 11:32:05 -0800
+Subject: [MG] ParticipateDB 2018 Digital Engagement Census
+Message-ID: <033946C9-2437-45B4-8062-FF5787420C85@intellitics.com>
+
+Hi,
+
+Some here on this list may be familiar with ParticipateDB, the online catalogue for digital engagement technology my consulting firm launched back in 2009. Last year, we spun it out under a new entity, the Center for Applied Community Engagement, LLC.
+
+We are currently running the ParticipateDB 2018 Digital Engagement Census, a global practitioner survey to find out which tools and services people have been using in their community engagement and public participation work lately.
+
+Here?s the launch announcement from February 9:
+http://blog.participatedb.com/2018/02/09/welcome-to-the-participatedb-2018-digital-engagement-census/
+
+Here?s yesterday?s update (we?ve extended the survey through February 26, plus a first glimpse at the results):
+http://blog.participatedb.com/2018/02/18/participatedb-2018-digital-engagement-census-extended-through-february-26/
+
+And here?s the census main page with the link to the online survey form:
+http://www.participatedb.com/census
+
+A lot of you are involved in developing or promoting new/interesting e-participation tools (for policy making, group decision making etc.).
+
+Would be great if you could take part or share with others in your network who might have interesting stories/examples to report.
+
+We are particularly interested in hearing from non-English speaking countries around the globe.
+
+Any questions, just let me know.
+
+Thanks,
+Tim
+
+PS: If you want to find out if your tool is already listed, check the list of 350+ tools (we still would like to hear about recent project examples, though). Thanks!
+
+-- 
+Tim Bonnemann
+Founder and CEO, Intellitics, Inc.
+Interim Director, Center for Applied Community Engagement, LLC
+San Jos?, CA 95128 (USA)
+Cell: +1 (408) 627 0700
+Fax: +1 (408) 689-0931
+Email: tim at intellitics.com
+
+New! Check out EngagePhase Weekly, the weekly newsletter covering the emerging global community engagement and public participation industry: http://engagephase.io
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180219/01dd5f21/attachment-0002.html>
+
+From micstepanek at gmail.com  Mon Feb 19 15:13:35 2018
+From: micstepanek at gmail.com (=?UTF-8?B?TWljaGFsIMWgdMSbcMOhbmVr?=)
+Date: Mon, 19 Feb 2018 21:13:35 +0100
+Subject: [MG]  Happiness impact factor
+Message-ID: <CAEyrqBpvd8_BGCEJ4pGHdPLZLJT84fFaUMAf0Q7SHubvCu2bow@mail.gmail.com>
+
+Definitions first: Happiness as "affect balance" (Kahneman).
+Impact factor positive or negative.
+
+So if you would like where is the main trouble of this world you may like
+to measure traffic and analyze electronic communication and try to predict
+world happiness from it.
+
+You may perhaps find that governments became slaves of some media and that
+we are barking at the wrong wall.
+
+Cheers
+m.
+
+-- 
+Michal ?t?p?nek
+about.me/micstepanek
+<https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180219/b7b02512/attachment-0002.html>
+
+From rasmus.tenbergen at world-parliament.org  Wed Feb 21 09:08:37 2018
+From: rasmus.tenbergen at world-parliament.org (Rasmus Tenbergen)
+Date: Wed, 21 Feb 2018 15:08:37 +0100
+Subject: [MG] Internet Tool for Global Debate, Voting and Elections,
+ Re:  ParticipateDB 2018 Digital Engagement Census
+Message-ID: <CAJ5TSO=gzFg96w7VnqQwDpbLS3XYyTh59UTasP-mBKb5NqkEVA@mail.gmail.com>
+
+Hi Tim and all,
+
+thank you very much for your interesting e-mail and the links, in
+particular the overview on the tools.
+
+I would like to take this as an opportunity to write to this group right
+away an e-mail I wanted to post anyway as it directly refers to your
+initiative.
+
+Over the past ca. 10 years, I have been a more or less silent observer here
+and was involved in a few bilateral and multilateral initiatives with group
+members.
+
+We are starting a big initiative at the moment (described below and almost
+identical in the attachement in case you want to forward it to others) to
+create a new internet tool for global debate, voting and elections.
+
+The participation of metagovernment list members would be very much
+appreciated and I am looking forward to hearing from old a new potential
+partners.
+
+Best regards,
+
+Rasmus Tenbergen
+
+For the Project Team of
+
+Democracy Without Borders
+
+www.democracywithoutborders.org
+
+
+
+
+
+
+
+Project Brief 01/2018
+
+
+
+*An Internet Tool for Global Debate, Voting and Elections (GDVE-it) *
+
+
+
+The World Parliament Experiment (WPE) and Democracy Without Borders (DWB)
+are pleased to announce that they will be collaborating on the development
+and promotion of an Internet Tool for Global Debate, Voting and Elections
+(GDVE-it) and that they are seeking additional partners to imple-ment this
+project.
+
+GDVE-it is a practical bottom-up approach to promoting global democracy.
+The internet platform will allow for a biometric registration as a world
+citizen and the allocation of a unique world citizen?s ID. GDVE-it will be
+a scalable and flexible platform ready to be used for different purposes.
+
+
+
+*Initial subjects *
+
+In a first step, registered world citizens will be able to vote on
+resolutions considered at the UN Security Council. Making these resolutions
+the subject of public voting is viewed as a symbolic counterbalance to the
+unrepresentative and undemocratic nature of the UN?s most important body.
+The goal is to achieve large public participation and to help build popular
+momentum for a reform of the UN and to promote global democracy in general.
+Other purposes of the platform may include to allow registered users to
+endorse symbolic World Citizen Initiatives.
+
+
+
+*Technical development and operation *
+
+In close consultation with the project?s partners, WPE will be responsible
+for the technical development and operation of GDVE-it as the successor of
+an internet tool having been implemented in the year 2000. This ?old? World
+Parliament Experiment internet tool included functionalities and features
+relevant to GDVE-it but needs a thorough technical upgrade. Also, some
+important features will need to be added, e.g. for secure personal
+identification. All functions and logical conjunctions will be rethought
+and, where necessary, improved.
+
+
+
+*Political advocacy and promotion *
+
+DWB?s role will be to help coordinate all non-technical aspects of the
+project. In particular, this concerns the creation and coordination of an
+international network of experts and project partners as well as political
+advocacy and public outreach. Generally, DWB supports GDVE-it as a sandbox
+that allows to explore the feasibility and dynamics of global participation
+and elections.
+
+
+
+*About WPE and DWB *
+
+WPE is a non-profit organization dedicated to making the idea of a
+democratically elected parliament and other forms of global democracy
+palpable: by events, campaigns and tools. DWB supports an even more
+holistic approach to democracy promotion with a focus on global democracy.
+One of its goals is the establishment of a UN Parliamentary Assembly as a
+step towards a world parliament.
+
+
+
+*The GDVE-it Network *
+
+At present, WPE and DWB are building an informal network of experts and
+institutions to support the development of GDVE-it. Membership is not tied
+to formal responsibilities. Network members will
+
+? receive frequent updates on the progress of the project and invitations
+to project meetings and conferences,
+
+? be invited to contribute ideas, concepts or code,
+
+? be asked for their opinion and advice,
+
+? support the project as they see fit ? e.g. by research, articles,
+statements, and networking.
+
+
+
+*To build an excellent GDVE-it we need to bundle the global competencies in
+this field. *
+
+*You are kindly invited to become a member of the GDVE-it network (Google
+Group: https://goo.gl/rnHh6n <https://goo.gl/rnHh6n>)!*
+
+
+
+
+
+
+
+<http://www.european-leadership-academy.com>
+<http://www.rasmus-tenbergen.de>
+
+2018-02-19 20:32 GMT+01:00 Tim Bonnemann <tim at intellitics.com>:
+
+> Hi,
+>
+> Some here on this list may be familiar with ParticipateDB, the online
+> catalogue for digital engagement technology my consulting firm launched
+> back in 2009. Last year, we spun it out under a new entity, the Center for
+> Applied Community Engagement, LLC.
+>
+> We are currently running the *ParticipateDB 2018 Digital Engagement
+> Census*, a global practitioner survey to find out which tools and
+> services people have been using in their community engagement and public
+> participation work lately.
+>
+> Here?s the launch announcement from February 9:
+> http://blog.participatedb.com/2018/02/09/welcome-to-the-
+> participatedb-2018-digital-engagement-census/
+>
+> Here?s yesterday?s update (we?ve extended the survey through February 26,
+> plus a first glimpse at the results):
+> http://blog.participatedb.com/2018/02/18/participatedb-2018-
+> digital-engagement-census-extended-through-february-26/
+>
+> And here?s the census main page with the link to the online survey form:
+> http://www.participatedb.com/census
+>
+> A lot of you are involved in developing or promoting new/interesting
+> e-participation tools (for policy making, group decision making etc.).
+>
+> Would be great if you could take part or share with others in your network
+> who might have interesting stories/examples to report.
+>
+> We are particularly interested in hearing from non-English speaking
+> countries around the globe.
+>
+> Any questions, just let me know.
+>
+> Thanks,
+> Tim
+>
+> PS: If you want to find out if your tool is already listed, check the list
+> of 350+ tools <http://www.participatedb.com/tools> (we still would like
+> to hear about recent project examples, though). Thanks!
+>
+> --
+> Tim Bonnemann
+> Founder and CEO, Intellitics, Inc. <http://www.intellitics.com>
+> Interim Director, Center for Applied Community Engagement, LLC
+> <http://www.caceinstitute.org>
+> San Jos?, CA 95128 (USA)
+> Cell: +1 (408) 627 0700 <(408)%20627-0700>
+> Fax: +1 (408) 689-0931 <(408)%20689-0931>
+> Email: tim at intellitics.com
+>
+> *New!* Check out *EngagePhase Weekly*, the weekly newsletter covering the
+> emerging global community engagement and public participation industry:
+> http://engagephase.io
+>
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180221/eb95e128/attachment-0002.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: GDVE -it 17.1.18_ProjectBrief.pdf
+Type: application/pdf
+Size: 196127 bytes
+Desc: not available
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180221/eb95e128/attachment-0002.pdf>
+
+From micstepanek at gmail.com  Wed Feb 21 15:59:13 2018
+From: micstepanek at gmail.com (=?UTF-8?B?TWljaGFsIMWgdMSbcMOhbmVr?=)
+Date: Wed, 21 Feb 2018 21:59:13 +0100
+Subject: [MG]  happiness search engine
+Message-ID: <CAEyrqBoHufGtSp0TESHmMwAxAJVqo0nwBe4Wsd7tEVGjbJqN7Q@mail.gmail.com>
+
+Hi,
+
+you may not believe it, but you may improve your happiness even in long
+term (see e.g. Martin Seligman
+<https://en.wikipedia.org/wiki/Martin_Seligman>, Ed Diener
+<https://en.wikipedia.org/wiki/Ed_Diener> and Ruut Veenhoven
+<https://en.wikipedia.org/wiki/Ruut_Veenhoven>)
+
+And you may also design a search engine (like google) that will provide you
+with result that are likely to make people in society happy.
+It may be not obvious, that if you try to make people happy you make it
+also on the level of society.
+
+But that is not all, you may even design an app for smartphones that will
+occasionally ask you how happy you are to see how it the engine working.
+You may also need some more analytical questions and research to improve
+the search engine, but the important is - it is possible.
+
+When it comes to implementation, I will try to persuade some people behind
+some existing search engine to start one more engine and give it a try.
+
+What do you say?
+-- 
+Michal ?t?p?nek
+about.me/micstepanek
+<https://about.me/micstepanek?promo=email_sig&utm_source=product&utm_medium=email_sig&utm_campaign=edit_panel&utm_content=thumb>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180221/c6c86dbe/attachment-0002.html>
+

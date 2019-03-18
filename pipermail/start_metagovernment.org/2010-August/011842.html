@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Registration lists - code external to pollservers
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Registration%20lists%20-%20code%20external%20to%20pollservers&In-Reply-To=%3C20100809130134.GA9811%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="011841.html">
+   <LINK REL="Next"  HREF="011848.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Registration lists - code external to pollservers</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Registration%20lists%20-%20code%20external%20to%20pollservers&In-Reply-To=%3C20100809130134.GA9811%40havoc.zelea.com%3E"
+       TITLE="[MG] Registration lists - code external to pollservers">mike at zelea.com
+       </A><BR>
+    <I>Mon Aug  9 09:01:34 EDT 2010</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="011841.html">[MG] Terms of ownership for the domain name (p/owdo)
+</A></li>
+        <LI>Next message (by thread): <A HREF="011848.html">[MG] Terms of ownership for the domain name (p/owdo)
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Alex Rollin wrote:
+&gt;<i> The ability to automatically load _in-registration.xml as a voter
+</I>&gt;<i> list for a custom (non-geographic) organization appears to be the
+</I>&gt;<i> only structural addition required, and appears to be on the to-do
+</I>&gt;<i> list on
+</I>&gt;<i> <A HREF="http://u.zelea.com/system/host/u/home/v/votorola/out/votrace/">http://u.zelea.com/system/host/u/home/v/votorola/out/votrace/</A> .
+</I>
+That should be easy to prototype.  It's been floated in the past in
+the context of the Pirate Party (I think) that their various branches
+might each post a registration list on the Web.  The party's
+pollservers would then combine them into their local, server-specific
+voter lists.  (I think every pollserver needs to support this, so no
+problem.)
+
+But don't you guys use _in-registration.xml, that's an intermediate
+list on the input side.  Here's an example of a registration list on
+the output side, for use by pollservers (just 2 voters in this one):
+<A HREF="http://u.zelea.com/system/host/u/home/v/votorola/out/votrace/_snap_report/readyTrace-1/_mountedTrace/Tor.xml">http://u.zelea.com/system/host/u/home/v/votorola/out/votrace/_snap_report/readyTrace-1/_mountedTrace/Tor.xml</A>
+
+Broad concepts of the registration framework are defined here:
+<A HREF="http://u.zelea.com/w/User:Mike-ZeleaCom/G/p/edor">http://u.zelea.com/w/User:Mike-ZeleaCom/G/p/edor</A>
+
+&gt;<i> I track issues on
+</I>&gt;<i> <A HREF="http://u.zelea.com/w/P2P/How_to_Improve_Votorola_and_Pollwiki_for_P2P_Protocol_Management">http://u.zelea.com/w/P2P/How_to_Improve_Votorola_and_Pollwiki_for_P2P_Protocol_Management</A>
+</I>&gt;<i> 
+</I>&gt;<i> I'll take time to re-write them in format you recommend.
+</I>
+I only meant that you should float the most crucial/difficult design
+problem in a *discussion* thread.  I didn't see anything that looked
+deeply problematic in your list, tho, no showstoppers *and* crucial
+(but I really don't know your domain).
+
+Re: <A HREF="http://u.zelea.com/w/P2P/Poll_Decision_Conditions">http://u.zelea.com/w/P2P/Poll_Decision_Conditions</A>
+
+We already spoke about those, and they seem to be the biggest concern
+and a poor mesh with the current design.  Current design: free speech
+= no meta-rules on voting; and pollservers have now evolved into
+stupid databases of raw votes for external processing by other
+servers.  That, plus the complexity and specialized/bespokedness of
+these rules points to a layered solution implemented in code external
+to the pollservers.
+
+OTOH, all vote eligibility is scripted.  So it's anything goes if you
+can somehow impl. your rules by rejecting votes at the count stage.
+Even for our primary use case (eligibility based on residency, and
+authenticated by trust network) none of it is hardcoded into the
+Votorola pollserver.  It's all scripted by the admin, mostly here I
+think: <A HREF="http://zelea.com/system/host/u/home/v/votorola/poll.js">http://zelea.com/system/host/u/home/v/votorola/poll.js</A>
+(Or that could be just another example of code external to
+pollservers.  All of the functionality in pollwiki/streetwiki belongs
+to the category, too.)
+
+But it's crucial to start w/ talk of problems not solutions, and
+dialogue it in a thread.
+
+Hope this is more helpful,
+-- 
+Michael Allan
+
+Toronto, +1 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="011841.html">[MG] Terms of ownership for the domain name (p/owdo)
+</A></li>
+	<LI>Next message (by thread): <A HREF="011848.html">[MG] Terms of ownership for the domain name (p/owdo)
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Code architecture
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Code%20architecture&In-Reply-To=%3Cf8c47620805021628h79dc8cf6q2460a8bc61182e99%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="008943.html">
+   <LINK REL="Next"  HREF="008942.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Code architecture</H1>
+    <B>Aur Saraf</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Code%20architecture&In-Reply-To=%3Cf8c47620805021628h79dc8cf6q2460a8bc61182e99%40mail.gmail.com%3E"
+       TITLE="[Start] Code architecture">sonoflilit at gmail.com
+       </A><BR>
+    <I>Fri May  2 19:28:37 EDT 2008</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="008943.html">[Start] Code architecture
+</A></li>
+        <LI>Next message (by thread): <A HREF="008942.html">[Start] Code architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>On Fri, May 2, 2008 at 10:08 AM, Manuel Barkhau &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">mbarkhau at googlemail.com</A>&gt;
+wrote:
+
+&gt;<i> &gt;  with the lingo, but I am thinking of something like domain name
+</I>&gt;<i> &gt;  servers, where all servers reference each other (perhaps like mysql
+</I>&gt;<i>
+</I>&gt;<i> What you are referring to, sounds very similar to open-id.
+</I>&gt;<i>
+</I>&gt;<i> &gt;  the user can reference that account from other installs by entering
+</I>&gt;<i> &gt;  their username/password combination -- once referenced, the user uses
+</I>&gt;<i>
+</I>&gt;<i> Rather than setting up an account system, we could use existing PGP
+</I>&gt;<i> infrastructure. A member of a community, would set up a PGP-Key and
+</I>&gt;<i> send the public key to a Keyserver. From thereon, all data she sends,
+</I>&gt;<i> could be verified, as originating from her.
+</I>&gt;<i>
+</I>&gt;<i> This is the best solution I can think of at the moment, if we go in the
+</I>&gt;<i> direction of an entirely distributed system. This will probably be more
+</I>&gt;<i> &quot;interesting&quot; to implement, to say the least.
+</I>&gt;<i>
+</I>
+That's more or less my idea, except that I don't believe the security of a
+key saved on a PC is enough for something so sensitive and therefore
+advocate using smart cards that can sign and encrypt (but that is a decision
+that could even be left to the admin, or to the user, or to the organization
+that signs certificates...)
+
+&gt;<i>
+</I>&gt;<i> &gt; I envision metascore running on top of only a revision control system,
+</I>&gt;<i> &gt; that plays probably a larger role that what you see as reflected in that
+</I>&gt;<i> &gt; document, and storing everything as plaintext in there.
+</I>&gt;<i>
+</I>&gt;<i> The issue I see here, is that messages don't really need to be under
+</I>&gt;<i> version control. Implementing the scoring system on that, may also
+</I>&gt;<i> be more difficult. I think it would be appropriate, to separate
+</I>&gt;<i> discussions into a different medium than the legislation. A database
+</I>&gt;<i> seems to be the intuitive solution, but that may be due to our
+</I>&gt;<i> backgrounds. I can certainly think of how a scoring system might be
+</I>&gt;<i> implemented in that scenario, but there are probably other good
+</I>&gt;<i> approaches.
+</I>&gt;<i>
+</I>
+ You don't revision control messages. You revision control THREADS. See
+wikipedia's discussion system. I don't see any reason to not have discussion
+as PART of non-final branches of legislations.
+
+&gt;<i>
+</I>&gt;<i> One that comes to mind, would be something implemented on top of
+</I>&gt;<i> freenet. This is very experimental atm. and usability would be a big issue
+</I>&gt;<i> here, but it may be an option. All data would be &quot;on the net&quot;, so to
+</I>&gt;<i> speak, including the data for the scoring system. When a client connects
+</I>&gt;<i> to the system, it would download the scoring data, and then retrieve other
+</I>&gt;<i> data, such as messages, according to the users priorities and their
+</I>&gt;<i> scores.
+</I>&gt;<i>
+</I>&gt;<i> I would like to emphasize here, that the biggest issue would be usability.
+</I>&gt;<i> Wrapping your head around all these concepts (PGP, DVCS, Freenet,
+</I>&gt;<i> Scoring) is a rather big burden for a new user, which may not seem
+</I>&gt;<i> justified
+</I>&gt;<i> until you've come to know why they have been put in place. It may not be
+</I>&gt;<i> necessary for the user to know all this, but since trust in the system is
+</I>&gt;<i> essential, it would be good, to keep the system as simple as possible.
+</I>&gt;<i>
+</I>&gt;<i> On that note, trust in this kind of system (once you understand it) is
+</I>&gt;<i> much
+</I>&gt;<i> simpler, considering there won't be any people (administrators) you need
+</I>&gt;<i> to trust, since there would be no servers to administer.
+</I>&gt;<i>
+</I>&gt;<i> Manuel
+</I>
+
+ -- Aur
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20080503/d49f59de/attachment-0002.html">http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20080503/d49f59de/attachment-0002.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="008943.html">[Start] Code architecture
+</A></li>
+	<LI>Next message (by thread): <A HREF="008942.html">[Start] Code architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

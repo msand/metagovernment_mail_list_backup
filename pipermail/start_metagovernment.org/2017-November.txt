@@ -1,0 +1,101 @@
+From metamerman at gmail.com  Mon Nov  6 09:38:17 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Mon, 6 Nov 2017 07:38:17 -0700
+Subject: [MG] The end of the Metagovernment list - sad but preventable
+In-Reply-To: <2e36abd5-b7c5-00ba-0a16-864eb3ddba78@teo72.com>
+References: <c08aa27d-85df-5222-8d04-20c2ec283184@teo72.com>
+	<11fdbc52-b15d-1fc6-ecc7-d60157e56863@teo72.com>
+	<2e36abd5-b7c5-00ba-0a16-864eb3ddba78@teo72.com>
+Message-ID: <CACobxW24hUmuTafb1kOwLcQi4kMKAQu7qfcKw0S1ZGX=4g+ndQ@mail.gmail.com>
+
+On Sun, Nov 5, 2017 at 11:40 PM, Matteo Martini <teo at teo72.com> wrote:
+
+> I predict that noone will use the software that Scott is trying to create.
+> It is already a dead software
+> Scott will not listen, and his software will die
+
+Actually, it's still running (https://www.proxyfor.me/). I've even
+updated it a few times, but only bug fixes as I've been swamped with
+work in the real world and so haven't had time to do any feature
+upgrades (and I've got a whole list of them, starting with upgrading
+to Angular 4 which will enable many of the others).
+
+I also was able to leverage it to submit what I think was a very
+credible entry to the Global Challenges competition, even though it
+explicitly didn't comply with many of the rules (my claim was that any
+entry that did would by design fail to achieve anything, let alone the
+kind of change that they were trying to facilitate). As part of that I
+also experienced a bit of a shift in my general philosophy about the
+local/global balance of power: I'm coming around to a more localist
+perspective, albeit with a few explicit tweaks to prevent antisocial
+behavior at the locality level. Haven't had time to update the
+matchism.org site with this, though, either.
+
+> We need some thing simple that all people can use
+> But people prefer to feed their egos instead of building something useful
+> Sad
+
+IMHO you've misdiagnosed the problem. Egos *are* a major problem with
+our existing misrepresentative governments, but these projects I think
+suffer mainly from lack of resources and to a lesser extent with lack
+of understanding (or perhaps vision) about what we really need to
+solve our problems with previous versions of democracy. Case in point
+is the Democracy Earth project, which I've been playing gadfly to
+recently. Here's a link to the paper (read the PDF), then click on the
+"Issues" tab and read the critiques and comments about them:
+https://github.com/DemocracyEarth/paper
+  Regards,
+    Scott
+
+
+From metamerman at gmail.com  Mon Nov  6 09:38:17 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Mon, 6 Nov 2017 07:38:17 -0700
+Subject: [MG] The end of the Metagovernment list - sad but preventable
+In-Reply-To: <2e36abd5-b7c5-00ba-0a16-864eb3ddba78@teo72.com>
+References: <c08aa27d-85df-5222-8d04-20c2ec283184@teo72.com>
+	<11fdbc52-b15d-1fc6-ecc7-d60157e56863@teo72.com>
+	<2e36abd5-b7c5-00ba-0a16-864eb3ddba78@teo72.com>
+Message-ID: <CACobxW24hUmuTafb1kOwLcQi4kMKAQu7qfcKw0S1ZGX=4g+ndQ@mail.gmail.com>
+
+On Sun, Nov 5, 2017 at 11:40 PM, Matteo Martini <teo at teo72.com> wrote:
+
+> I predict that noone will use the software that Scott is trying to create.
+> It is already a dead software
+> Scott will not listen, and his software will die
+
+Actually, it's still running (https://www.proxyfor.me/). I've even
+updated it a few times, but only bug fixes as I've been swamped with
+work in the real world and so haven't had time to do any feature
+upgrades (and I've got a whole list of them, starting with upgrading
+to Angular 4 which will enable many of the others).
+
+I also was able to leverage it to submit what I think was a very
+credible entry to the Global Challenges competition, even though it
+explicitly didn't comply with many of the rules (my claim was that any
+entry that did would by design fail to achieve anything, let alone the
+kind of change that they were trying to facilitate). As part of that I
+also experienced a bit of a shift in my general philosophy about the
+local/global balance of power: I'm coming around to a more localist
+perspective, albeit with a few explicit tweaks to prevent antisocial
+behavior at the locality level. Haven't had time to update the
+matchism.org site with this, though, either.
+
+> We need some thing simple that all people can use
+> But people prefer to feed their egos instead of building something useful
+> Sad
+
+IMHO you've misdiagnosed the problem. Egos *are* a major problem with
+our existing misrepresentative governments, but these projects I think
+suffer mainly from lack of resources and to a lesser extent with lack
+of understanding (or perhaps vision) about what we really need to
+solve our problems with previous versions of democracy. Case in point
+is the Democracy Earth project, which I've been playing gadfly to
+recently. Here's a link to the paper (read the PDF), then click on the
+"Issues" tab and read the critiques and comments about them:
+https://github.com/DemocracyEarth/paper
+  Regards,
+    Scott
+
+
+

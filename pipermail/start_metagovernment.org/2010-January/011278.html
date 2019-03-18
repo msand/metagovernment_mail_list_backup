@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Streetwiki prototype
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Streetwiki%20prototype&In-Reply-To=%3C20100114045321.GA7095%40obsidian.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="011272.html">
+   <LINK REL="Next"  HREF="011283.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Streetwiki prototype</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Streetwiki%20prototype&In-Reply-To=%3C20100114045321.GA7095%40obsidian.zelea.com%3E"
+       TITLE="[Start] Streetwiki prototype">mike at zelea.com
+       </A><BR>
+    <I>Wed Jan 13 23:53:21 EST 2010</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="011272.html">[Start] Real/Virtual Activism Mashup :) &amp; request for contribution
+</A></li>
+        <LI>Next message (by thread): <A HREF="011283.html">[Start] Streetwiki prototype
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>An update on progress: we're just getting started on streetwikis.
+(Unfortunately, there's nothing here for users yet.  It's all just
+wires sticking out.)
+
+  1. What's new
+  2. Problem (request for tech help)
+  3. What else is needed
+
+Overall, we're at step 1 (we're doing these steps out of order):
+<A HREF="http://t.zelea.com/wiki/User:Mike-ZeleaCom/Opening_an_architecture#Rapid_prototyping">http://t.zelea.com/wiki/User:Mike-ZeleaCom/Opening_an_architecture#Rapid_prototyping</A>
+
+1. What's new
+-------------
+We have a partial implementation of visible containment (can't think
+of better name for it).  It relates to residence.  Here's an example,
+from the testbed wiki:
+
+  <A HREF="http://okidoke.referata.com/wiki/User:Joe">http://okidoke.referata.com/wiki/User:Joe</A>
+
+Joe has a trust level of 1.  His vote probably counts on some engines.
+But there's a warning on his user page, because he hasn't actually
+told us where he lives.  Note his &quot;Primary residence&quot; is blank.
+Here's a better example:
+
+  <A HREF="http://okidoke.referata.com/wiki/User:Sock_puppet">http://okidoke.referata.com/wiki/User:Sock_puppet</A>
+
+This guy *has* told us where he lives, but the street is apparently
+bogus.  It isn't referenced as visible/known from any of the
+neighbourhood pages:
+
+  <A HREF="http://okidoke.referata.com/wiki/Nowhere_Street">http://okidoke.referata.com/wiki/Nowhere_Street</A>
+
+But that's all OK.  The trust network will deal with it.  Both user
+pages have visible warnings, and both are listed as problematic:
+
+  <A HREF="http://okidoke.referata.com/wiki/Property:Invisible_placement">http://okidoke.referata.com/wiki/Property:Invisible_placement</A>
+
+2. Problem
+----------
+The real problem is improper containment.  Here's an example: these
+two guys are supposedly OK (no warnings):
+
+  <A HREF="http://okidoke.referata.com/wiki/User:Michael_Allan">http://okidoke.referata.com/wiki/User:Michael_Allan</A>
+  <A HREF="http://okidoke.referata.com/wiki/User:Test">http://okidoke.referata.com/wiki/User:Test</A>
+
+It's not obvious that something is wrong, but user Test's whole street
+is contained in my apartment:
+
+  <A HREF="http://okidoke.referata.com/wiki/My_Street/108/Basement">http://okidoke.referata.com/wiki/My_Street/108/Basement</A>
+
+Most users aren't going to inspect dwellings, looking for improper
+containments.  So we need to auto-detect them.  Possible solutions:
+
+  i) When back-tracing containment in template IP, ensure that
+     subpages are contained only in their proper parent pages (p/q/r
+     in p/q), and top-level pages are contained only in other
+     top-levels (p in q, not in q/r) else raise &quot;invisible
+     containment&quot; alarm: <A HREF="http://okidoke.referata.com/wiki/Template:IP">http://okidoke.referata.com/wiki/Template:IP</A>
+
+ ii) Show occupany counts at street level (of each building), and
+     corridor level (of each apartment/flat), and so forth.  Can this
+     be done in a tamper-proof way?  Can this be done without bringing
+     the wiki-server to its knees?
+
+iii) If all else fails, we can trace containment on the trustserver.
+     The tree of visible containment is logically a trust network,
+     rooted in the top level page (whole city).  The trustserver can
+     easily trace that.  (But the I/O between server and wiki is an
+     ugly hack, and we don't want to depend on it more than
+     necessary.)
+
+Or is there a better way?  (I'm leaving this aside for now.)
+
+3. What else is needed
+----------------------
+
+ * Backtracing of trust in the wiki.  So, if there's a problem, you
+   can navigate toward the root of the network, closer to registrars
+   and admin, where the ultimate responsiblity lies.
+
+ * Range restrictions for trust extension.  So everything's kept
+   localized, where it can be moderated by ordinary social
+   constraints.
+
+   (etc., there's a dozen minor technical things)
+
+ * Look and feel - making the streets look like streets - making it
+   all more-or-less useable.
+
+ * Setting up the first real streetwikis (hopefully by next week) and
+   getting the trustserver(s) to serve them.
+
+ * Drafting do-it-yourself instructions.  Hopefully it takes no more
+   than an hour for an ordinary user to create a streetwiki for his
+   hometown - basically by importing (copying) from another town's.
+
+If all goes well (?), we might have a streetwiki that's more-or-less
+usable (?), by the end of next week (a week longer than expected).
+
+-- 
+Michael Allan
+
+Toronto, +1 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="011272.html">[Start] Real/Virtual Activism Mashup :) &amp; request for contribution
+</A></li>
+	<LI>Next message (by thread): <A HREF="011283.html">[Start] Streetwiki prototype
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

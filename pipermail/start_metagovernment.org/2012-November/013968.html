@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] (proposal) Metagov as a technical plug-in framework
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28proposal%29%20Metagov%20as%20a%20technical%20plug-in%20framework&In-Reply-To=%3C1353346233.ca0fB0.19383%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013966.html">
+   <LINK REL="Next"  HREF="014000.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] (proposal) Metagov as a technical plug-in framework</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28proposal%29%20Metagov%20as%20a%20technical%20plug-in%20framework&In-Reply-To=%3C1353346233.ca0fB0.19383%40out.zelea.com%3E"
+       TITLE="[MG] (proposal) Metagov as a technical plug-in framework">mike at zelea.com
+       </A><BR>
+    <I>Mon Nov 19 12:31:30 EST 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013966.html">[MG] [Ag Meinungsfindungstool] (proposal) Metagov as atechnical	plug-in framework
+</A></li>
+        <LI>Next message (by thread): <A HREF="014000.html">[MG] (proposal) Metagov as a technical plug-in framework
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Alex and Ed,
+
+Alexander Praetorius said:
+&gt;<i> Hey, looks great - I still dont have any clue of how this toolbar
+</I>&gt;<i> works, but it feels like progress and thats a good thing. / I mean,
+</I>&gt;<i> i dont understand the workflow, but its fun clicking around :-)
+</I>
+Thanks Alex, we've been trying hard for that effect!  We may need to
+repeat it for step (b).  It's possible we'll have a complex message
+that can't easily be conveyed in a single banner.  (more below)
+
+Ed Pastore said:
+&gt;<i> This [mirroring of wiki] of course doesn't have anything to do with
+</I>&gt;<i> the list server archives, but I think it's relevant because it means
+</I>&gt;<i> we would need to support a pretty vanilla web host environment,
+</I>&gt;<i> since the mirrors could all be different.
+</I>
+Mirroring could later be augmented by bots.  MediaWiki has an API that
+enables remote bots to accomplish anything a user can.  It's enabled
+by default.  Even bidirectional mirroring is possible (though trickier
+to code), where users can edit the content from any site.
+
+More broadly (and I guess this has always been an aim for Metagov) we
+also want to replicate our tooling and practices to other communities
+and so spread outward.  Vanilla hosting would be helpful here, too.
+
+This might be a 3rd message to include in the framework banner for
+step (b), if we agree:
+
+   1. Choose any toolset you want.
+      Go ahead, turn the dial...
+
+   2. Put your own toolset here.
+      Here's how...
+
+   3. Use this framework in your own community.
+      Here's how...
+
+But I'll look into a quick design (a hack) for the &quot;dial&quot;.  Once we
+have that working, we can put up any message we agree to.  (I guess
+there's lots more to agree to down the road, too.  If we start using
+the tools at some point, then it should all come together.)
+
+&gt;<i> ... As I am trying to get at above... is tux a proper place to go,
+</I>&gt;<i> or should we look for something more flexible/powerful?
+</I>
+I have almost no experience with remote hosting.  If we succeed (which
+I don't doubt), then we'll need a super flexible host at *some* point.
+I guess we have two approaches to upward migration:
+
+  * Many small steps (expensive time wise)
+  * A few big steps (expensive $ wise)
+
+I'm feeling a little richer in time than money just now. ;^)  So I'll
+start by looking at what Tux offers in terms of a mailing list (looks
+OK for a wiki).  I'll multi-task between that, the plug-in framework
+and Votorola work.
+
+Mike
+
+
+Ed Pastore said:
+&gt;<i> Hi, Michael. A few responses in-line below.
+</I>&gt;<i> 
+</I>&gt;<i> On Nov 18, 2012, at 3:41 PM, Michael Allan wrote:
+</I>&gt;<i> 
+</I>&gt;<i> &gt; Suppose the switch had two positions instead of one: (0) banner ad,
+</I>&gt;<i> &gt; and (1) Votorola.  Not sure exactly what would go on the banner ad,
+</I>&gt;<i> &gt; but somehow it would do the job of (b).  And (0) would be the default
+</I>&gt;<i> &gt; position, ofc.
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt; If the switch UI (dial or whatever) were close to the switched views
+</I>&gt;<i> &gt; (banner ad, toolsets), then the user could change toolsets on the fly.
+</I>&gt;<i> &gt; Maybe the ad could even invite the user to operate the switch and see
+</I>&gt;<i> &gt; what's on offer.  Should we look into a quick design for this?
+</I>&gt;<i> 
+</I>&gt;<i> This seems both elegant and useful.
+</I>&gt;<i> 
+</I>&gt;<i> &gt;&gt; Also, what do you need from me to deploy?
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt; To do the same with the list archive, we might use something like
+</I>&gt;<i> &gt; Apache Substitute.  We'd need info about the host web server:
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt;  * Is it Apache?
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt;  * Does it support mod_substitute, mod_sed, or mod_line_edit?
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt;  * Where in the file system is Mailman's public archive directory
+</I>&gt;<i> &gt;    (mailman/archives/public/) that Apache serves?
+</I>&gt;<i> &gt;    <A HREF="http://www.gnu.org/software/mailman/mailman-install/node10.html">http://www.gnu.org/software/mailman/mailman-install/node10.html</A>
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt;  * How do we configure the service of that directory?  Via central
+</I>&gt;<i> &gt;    config files, as here for example?
+</I>&gt;<i> &gt;    <A HREF="http://havoc.zelea.com/system/host/havoc/etc/apache2/modules.d/50_mailman.conf">http://havoc.zelea.com/system/host/havoc/etc/apache2/modules.d/50_mailman.conf</A>
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt;    Or via a .htaccess file in the directory itself?
+</I>&gt;<i> 
+</I>&gt;<i> I'll answer most of these together. I am using a small cPanel account, which is fairly restricted. Yes, it is Apache (2.2), but I don't have a lot of power within it. It does not (and I checked, it will not) support and of those modules. Additionally, apparently this provider does not give me direct access to the pipermail archives. I now recall looking into that before: to migrate the list, I need to get the help of their tech support to get at the files.
+</I>&gt;<i> 
+</I>&gt;<i> So all of that may be further impetus to move away from this host. I have not looked into what Tuxfamily supports nor what capabilities it would provide.
+</I>&gt;<i> 
+</I>&gt;<i> This leads me to a tangent... I had at one point been thinking of setting up metagov as a mirrorable site. There is no perfect mirroring of mediawiki, but it is my understanding that I could make backups of it publicly available, and other people could make restores of it to their sites, thus making effective if slightly out-of-date mirrors. (They would just need to suspend edit capabilities and instead drive people to the master site for edits.) This would allow us to have some freedom from the authority of a single administrator (uh, me, for now), as other admins of other hosts could fork if they think I've gone rogue. :)
+</I>&gt;<i> 
+</I>&gt;<i> This of course doesn't have anything to do with the list server archives, but I think it's relevant because it means we would need to support a pretty vanilla web host environment, since the mirrors could all be different.
+</I>&gt;<i> 
+</I>&gt;<i> &gt; Meantime, I can look into what's involved in migrating to TuxFamily.
+</I>&gt;<i> &gt; Is this the latest information on that?
+</I>&gt;<i> &gt; <A HREF="http://www.metagovernment.org/wiki/Upgrade_backlog#TuxFamily_Migration">http://www.metagovernment.org/wiki/Upgrade_backlog#TuxFamily_Migration</A>
+</I>&gt;<i> 
+</I>&gt;<i> Yes, that's where I left it (quite some time ago; ahem). As I am trying to get at above... is tux a proper place to go, or should we look for something more flexible/powerful?
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013966.html">[MG] [Ag Meinungsfindungstool] (proposal) Metagov as atechnical	plug-in framework
+</A></li>
+	<LI>Next message (by thread): <A HREF="014000.html">[MG] (proposal) Metagov as a technical plug-in framework
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

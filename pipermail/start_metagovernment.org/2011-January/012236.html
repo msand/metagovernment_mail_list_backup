@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Summary parsing (was Re: Visualization problems for crossforum	theatre)
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Summary%20parsing%20%28was%20Re%3A%20Visualization%20problems%20for%20crossforum%0A%09theatre%29&In-Reply-To=%3C201101171741.54123.4consesus%40web.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012130.html">
+   <LINK REL="Next"  HREF="012244.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Summary parsing (was Re: Visualization problems for crossforum	theatre)</H1>
+    <B>conseo</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Summary%20parsing%20%28was%20Re%3A%20Visualization%20problems%20for%20crossforum%0A%09theatre%29&In-Reply-To=%3C201101171741.54123.4consesus%40web.de%3E"
+       TITLE="[MG] Summary parsing (was Re: Visualization problems for crossforum	theatre)">4consesus at web.de
+       </A><BR>
+    <I>Mon Jan 17 11:41:53 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012130.html">[MG] Visualization problems for crossforum theatre
+</A></li>
+        <LI>Next message (by thread): <A HREF="012244.html">[MG] Summary parsing (was Re: Visualization problems for crossforum	theatre)
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi,
+
+&gt;<i> Thomas von der Elbe wrote:
+</I>&gt;<i> &gt; Conseo or Mike, can you please briefly explain what information
+</I>&gt;<i> &gt; exactly the difference feed shows! Something like: user X compared
+</I>&gt;<i> &gt; position a and position b of poll p at time t?
+</I>&gt;<i> 
+</I>&gt;<i> That's pretty much it.  Except it's always tied to a particular
+</I>&gt;<i> discussion post in which a difference is being discussed.  Last Conseo
+</I>&gt;<i> and I spoke, I think we agreed that each bite of the diff feed will
+</I>&gt;<i> contain:
+</I>&gt;<i> 
+</I>&gt;<i>  a) Post URL, e.g.:
+</I>&gt;<i> 
+</I>&gt;<i>    
+</I>&gt;<i> <A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/2010-Septembe">http://metagovernment.org/pipermail/start_metagovernment.org/2010-Septembe</A>
+</I>&gt;<i> r/003091.html
+</I>&gt;<i> 
+</I>&gt;<i>  b) Short tweet-like summary of the post
+</I>&gt;<i> 
+</I>&gt;<i>     Hey Thomas, (sorry for the delay) | I made the terminology changes
+</I>&gt;<i>     (&quot;namegiver&quot;, &quot;donation&quot;) that we agreed to previously.
+</I>
+I'd like to have some feedback about how this should be done, because it is 
+not easy to parse a summary out of an E-Mail. Atm. I search the position of 
+any diffUrl and grep a text string of ~300 characters around of it. I have 
+approached it that way, because it is likely to get some relevant information 
+around the oocurance of the diff url. On the other hand it might be very 
+specific text in the middle of an argument, which cannot be understood easily. 
+I could also parse let's say ~3 sentences one before, the one with the url and 
+one after.
+Using the approach proposed by Michael would mean that we simply grep the first 
+not-quoted paragraph. It is difficult to see if there is relevant data in it. If 
+we do language and term checks, we have to do it for every language. 
+It might also be specific to the way the involved parties communicate, e.g. if 
+they usually try to advertise them and their party first. They might even try 
+to get better coverage in Crossforum (which is not such a big problem atm. 
+though).
+Another problem is that the first paragraph might be specific to one of diff- 
+urls, while you can and likely will discuss several differences in one Mail to 
+give a picture of your point of view. If we use some generic summary it will 
+be the same for every diff url occuring, even if they cover different parts of 
+the argument and the summary only covers the first diff url.
+
+We could leave it to the writer to tag it with &lt;summary url=&quot;...&quot;&gt;Some 
+summary, ....&lt;/summary&gt;, but any formatting is likely to be discarded by 
+users.
+
+What should I do? 
+
+&gt;<i> 
+</I>&gt;<i>  c) Difference URL
+</I>&gt;<i> 
+</I>&gt;<i>     <A HREF="http://u.zelea.com:8080/v/w/Diff?b=3860&amp;a=3891">http://u.zelea.com:8080/v/w/Diff?b=3860&amp;a=3891</A>
+</I>&gt;<i> 
+</I>&gt;<i>  d) URLs of the two texts:
+</I>&gt;<i> 
+</I>&gt;<i>     <A HREF="http://u.zelea.com/w/User:Mike-ZeleaCom/G/p/owdo?oldid=3891">http://u.zelea.com/w/User:Mike-ZeleaCom/G/p/owdo?oldid=3891</A>
+</I>&gt;<i>     <A HREF="http://u.zelea.com/w/User:ThomasvonderElbe%20GmxDe/G/p/owdo?oldid=3860">http://u.zelea.com/w/User:ThomasvonderElbe%20GmxDe/G/p/owdo?oldid=3860</A>
+</I>&gt;<i> 
+</I>&gt;<i>  e) Poll ID
+</I>&gt;<i> 
+</I>&gt;<i>     G/p/owdo
+</I>&gt;<i> 
+</I>&gt;<i> Much else can be derived from this, of course, including the geolocals
+</I>&gt;<i> that we'll need for the geomap.  So there can be lots more info on the
+</I>&gt;<i> theatre screen, depending on what map view the user has dialed up.
+</I>
+Christian
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012130.html">[MG] Visualization problems for crossforum theatre
+</A></li>
+	<LI>Next message (by thread): <A HREF="012244.html">[MG] Summary parsing (was Re: Visualization problems for crossforum	theatre)
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

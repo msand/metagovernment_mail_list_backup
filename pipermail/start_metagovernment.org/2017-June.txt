@@ -1,0 +1,1478 @@
+From metamerman at gmail.com  Thu Jun  1 16:43:18 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Thu, 1 Jun 2017 14:43:18 -0600
+Subject: [MG] Social Engineering Guest Opinion
+In-Reply-To: <CACZ6ZgHWFFCPsuzpeony2FBU_dsWtV7r9WOYTbKTNif8yWzMog@mail.gmail.com>
+References: <CACobxW3j9P6sEuHTB_aEnz1q+Q7nXZpk7a1PynPTkoJMQC9CCA@mail.gmail.com>
+	<CACZ6ZgHWFFCPsuzpeony2FBU_dsWtV7r9WOYTbKTNif8yWzMog@mail.gmail.com>
+Message-ID: <CACobxW04euKJC=cv7gUi3kKFtQkXRWveYJvXKUPxumBt6mZQiw@mail.gmail.com>
+
+On Wed, May 31, 2017 at 1:45 PM, Patrick Millerd <mrpdublin at gmail.com> wrote:
+> Nice job. Did you get any new signups because of this article?
+
+Don't know, I don't track signups, or even ask the usual "where did
+you hear about X" marketing questions. I can see hits increase in real
+time using AWSs monitoring features, though, when I post something on
+social media about proxyfor.me. But even then I can't distinguish
+signups from people just browsing (i.e., I'm not checking conversions,
+which is another thing that real product marketing entails). I'm
+starting to think more about this kind of stuff now that I'm shifting
+attention from development more toward marketing, though.
+  Regards,
+    Scott
+
+> On 28 May 2017 at 20:07, Scott Raney <metamerman at gmail.com> wrote:
+>>
+>> Just to show you how weird Boulder is, the local paper actually
+>> published the Guest Opinion I sent them (albeit a few weeks ago):
+>>
+>> http://www.dailycamera.com/guest-opinions/ci_31017240/scott-raney-defense-social-engineering
+>>
+>> I don't think this is a good general-purpose PR strategy, but it does
+>> show that there are people out there willing to consider a new way of
+>> doing things. It's mainly a matter of figuring out how to find them.
+>> Once we get rolling word-of-mouth should carry us the rest of the
+>> way...
+>>   Regards,
+>>     Scott
+>>
+>> _______________________________________________
+>> Start : a mailing list of the Metagovernment project
+>> http://www.metagovernment.org/
+>> Post to the list: Start at metagovernment.org
+>> Manage subscription:
+>> http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+
+
+From metamerman at gmail.com  Sat Jun 10 18:47:49 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sat, 10 Jun 2017 16:47:49 -0600
+Subject: [MG] proxyfor.me beta 2, introducing "Mini Match"
+Message-ID: <CACobxW1KjtFYDkBJLUgChH+3O5C3AU6J5iK8j0ksDpezKS0DJw@mail.gmail.com>
+
+Beta 2 of proxyfor.me, the prototype for a new form of government
+known as Democracy by Matched Proxy, is now available at:
+https://www.proxyfor.me/
+
+New to this release is "Mini Match", a way to get right to voting by
+filling out a 6-item personality/ideology inventory that takes less
+than a minute (vs the 75 item full inventory that takes about 10
+minutes). This short list is composed of the most predictive items in
+the full inventory: three from the Big 5 section and three from the
+ideological section.
+
+This feature was added in response to feedback from the early adopters
+who reported that they were hesitant to recommend the site because
+they felt completing the full inventory was too burdensome.
+Fortunately we got enough signups to validate the Mini-Match results:
+Analysis shows that it's about 80% as accurate as the full inventory.
+Either of course is vastly better than what you'd get if you matched
+the average voter to the party platform of whatever political party
+they're affiliated with, which is mostly what we're stuck with in
+conventional representative democracy.
+
+If you've been waiting for a quicker way to check out the system,
+now's the time to jump in: Fill out your Mini Match profile and then
+vote on a few proposals so we can get some data on how well it's
+working and see if there are any interaction issues between mini and
+full profiles.
+
+Cross-posts of this announcement to other lists/forums are appreciated!
+  Regards,
+    Scott
+
+
+From metamerman at gmail.com  Sun Jun 11 11:45:40 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sun, 11 Jun 2017 09:45:40 -0600
+Subject: [MG] Fwd: List of Metagovernment is dead?
+In-Reply-To: <CACobxW3DuP3ARNE7fAWeHf677oEDGxt7oWfNdFoW9Y-8wqwqjw@mail.gmail.com>
+References: <f78f76c5-b59f-ca83-b447-f97d91532eeb@teo72.com>
+	<f997cd97-2209-8021-aed7-b328334a6d14@teo72.com>
+	<CACobxW3DuP3ARNE7fAWeHf677oEDGxt7oWfNdFoW9Y-8wqwqjw@mail.gmail.com>
+Message-ID: <CACobxW2VG_hk5_VY1g39sMXQgPFa+77Ra1X8XwbnW3oaOcYV+w@mail.gmail.com>
+
+Forwarding this for Teo who's apparently having his posts lost/blocked
+again. I noticed that the list archives are being updated again,
+though, so the list itself definitely isn't quite dead yet...
+
+
+---------- Forwarded message ----------
+From: Scott Raney <metamerman at gmail.com>
+Date: Sun, Jun 11, 2017 at 9:05 AM
+Subject: Re: List of Metagovernment is dead?
+To: Matteo Martini <teo at teo72.com>
+
+
+>
+> Hi all,
+> I forecasted the death of Airesis, Votorola and Vilfredo and LQFB
+> I admit I never forecasted the death of Metagovernment
+> Unfortunately this is what is happening
+
+
+I'd call it a coma, not death, and it happened years ago: I was the
+last one to make any substantial upgrades to the wiki and that was
+over two years ago. There is very little "collaboration" going on of
+late, which is what Ed I believe set as the primary goal of the group
+(case in point, the vast majority of people on this list haven't
+signed up to even *try* proxyfor.me and so are not even in a position
+to even participate in any discussion of it).
+
+But the heart (this mailing list) still beats...
+
+>
+> Too bad people follow only their egos and are not capable of
+> understanding the needs of the people
+
+
+Yeah, we're still waiting for clarifications on *your* "understanding
+of "the needs of The People", or even any substantive claims that
+anyone else's understanding is somehow flawed. Oh, but that would
+require you to put aside *your* ego and at least attempt to understand
+our proposals or our (particularly my) criticisms of yours...
+  Regards,
+    Scott
+
+>
+> Regards,
+> Matteo
+
+
+From putergenius at gmail.com  Sun Jun 11 16:37:50 2017
+From: putergenius at gmail.com (Mark Giza)
+Date: Sun, 11 Jun 2017 16:37:50 -0400
+Subject: [MG] Fwd: List of Metagovernment is dead?
+In-Reply-To: <CACobxW2VG_hk5_VY1g39sMXQgPFa+77Ra1X8XwbnW3oaOcYV+w@mail.gmail.com>
+References: <f78f76c5-b59f-ca83-b447-f97d91532eeb@teo72.com>
+	<f997cd97-2209-8021-aed7-b328334a6d14@teo72.com>
+	<CACobxW3DuP3ARNE7fAWeHf677oEDGxt7oWfNdFoW9Y-8wqwqjw@mail.gmail.com>
+	<CACobxW2VG_hk5_VY1g39sMXQgPFa+77Ra1X8XwbnW3oaOcYV+w@mail.gmail.com>
+Message-ID: <CAAcTC91kyJBAfKDfZpfNyfS0ZJq2+mxQrKRhKP6YmxLxfNQ3Yg@mail.gmail.com>
+
+This could be a great project.
+I feel there is too much planning and not enough using and troubleshooting.
+
+On Jun 11, 2017 11:46 AM, "Scott Raney" <metamerman at gmail.com> wrote:
+
+> Forwarding this for Teo who's apparently having his posts lost/blocked
+> again. I noticed that the list archives are being updated again,
+> though, so the list itself definitely isn't quite dead yet...
+>
+>
+> ---------- Forwarded message ----------
+> From: Scott Raney <metamerman at gmail.com>
+> Date: Sun, Jun 11, 2017 at 9:05 AM
+> Subject: Re: List of Metagovernment is dead?
+> To: Matteo Martini <teo at teo72.com>
+>
+>
+> >
+> > Hi all,
+> > I forecasted the death of Airesis, Votorola and Vilfredo and LQFB
+> > I admit I never forecasted the death of Metagovernment
+> > Unfortunately this is what is happening
+>
+>
+> I'd call it a coma, not death, and it happened years ago: I was the
+> last one to make any substantial upgrades to the wiki and that was
+> over two years ago. There is very little "collaboration" going on of
+> late, which is what Ed I believe set as the primary goal of the group
+> (case in point, the vast majority of people on this list haven't
+> signed up to even *try* proxyfor.me and so are not even in a position
+> to even participate in any discussion of it).
+>
+> But the heart (this mailing list) still beats...
+>
+> >
+> > Too bad people follow only their egos and are not capable of
+> > understanding the needs of the people
+>
+>
+> Yeah, we're still waiting for clarifications on *your* "understanding
+> of "the needs of The People", or even any substantive claims that
+> anyone else's understanding is somehow flawed. Oh, but that would
+> require you to put aside *your* ego and at least attempt to understand
+> our proposals or our (particularly my) criticisms of yours...
+>   Regards,
+>     Scott
+>
+> >
+> > Regards,
+> > Matteo
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170611/ed903803/attachment-0001.html>
+
+From mrpdublin at gmail.com  Thu Jun 15 17:34:16 2017
+From: mrpdublin at gmail.com (Patrick Millerd)
+Date: Thu, 15 Jun 2017 17:34:16 -0400
+Subject: [MG]  Global Challenges- Abstract portion of contest
+Message-ID: <CACZ6ZgE3fmwnJKSoXbH0HR8uJcip=c=prw97Uz67L7Ztx24PHQ@mail.gmail.com>
+
+Not sure how many of you are attempting to enter this thing but I figured
+I'd put up my first draft of the abstract to gauge reaction. Any comment is
+appreciated. This is what my entry is supposed to cover-
+https://www.globalchallenges.org/en/the-prize/criteria
+*1. Abstract *(no more than 1000 words)
+The abstract must summarize the design of the model, including the
+institutions, regulations, decision-making paths and control mechanisms it
+involves, as well as how key individuals and other decision-making bodies
+are to be appointed.
+
+My model is verifiable direct democracy powered by the internet. Any
+decision-making system of the future needs to utilize our capabilities for
+connected communication between the general public and the mechanisms used
+in creating decisions. The necessity for the public to be able to trust in
+their ability to influence changes in their society has many advantages and
+challenges, this paper will attempt to address the significant areas of
+this outcome.
+
+
+The main challenge in a Direct Democracy is to allow everyone a voice but
+to have those voices organized in productive dialogue. The internet, more
+specifically a fully threaded forum on the internet is a great tool to
+organize discussions. An internet forum paired with a categorizing system
+for any changes within the governing body makes a comprehensive system of
+direct democracy where ideas can be brought up, discussed, voted and
+implemented all in one area.
+
+
+Ensuring everyone an equal voice means one account per individual, identity
+association between the user of the site and the physical person posting
+under that user. The forum's posting rules become enforceable with
+authentication and can ensure discussions are productive. A core tenant to
+posting on the forum is that any post is an amendment to the post it's
+replying to. Unless starting a new topic, a post is always an attempt to
+correct the post above. Any general agreement to a post can be expressed
+through a prop (upvote), props help posts gain visibility and legitimacy.
+Failure to follow established forum rules can result in a temporary
+suspension from posting.
+
+
+The identity of users, as well as other sensitive information, can be
+hidden, still available, but difficult to access without also raising flags
+on your own profile. In a true direct democracy, all information is
+accessible and verifiable, this is achievable with current computing power,
+the challenge is organizing it properly. Possible to have a physical
+building, a section in existing libraries, where users can log in to look
+up sensitive information, monitored and secured should be enough to deter
+people with malicious motives.
+
+
+Another aspect of a direct democracy is in its ability for everyone to have
+their vote counted. Even if they don't directly vote it's important that
+every user gets represented so as to not allow extremists to control
+things. With a proxy voting system that's run through a matching mechanism,
+everyone will have a vote counted for them based on their perceived
+preference. Unless they cast a direct vote, their vote will be an average
+of the 5 closest matched users that did cast a direct vote. The matching
+will be done through a variety of questions designed to predict voting
+patterns. This way if only 15% of the population cast votes, 100% will
+still be represented, offsetting the extremists.
+
+
+Starting a new topic on this fully threaded forum is to create a proposal
+for a change in government, whether it be a policy, priority, hiring or
+budgeting change. Proposals are able to be created by anyone but like the
+discussions, there are certain rules to posting. Each proposal needs to
+fill out structured criteria, sections to help organize and place their
+idea for change. This gives familiarity to all new topics so other users
+can easily navigate what's being proposed. Associated forms and links can
+be attached by computer algorithms or employees in order to legitimize a
+proposal. Every section of a proposal, as well as the proposal as a whole,
+is able to be discussed in a dedicated thread, further keeping discussion
+organized and on track.
+
+
+Proposals will fall into categories that the submitter can choose.
+Location, from any individual neighborhood to a global scope. Sections such
+as housing, transportation, healthcare, etc are also selected. From there
+sub-section categories can be chosen, bicycle law for instance in the
+transportation section. Proposals may fall into many sections and can be
+chosen and searchable through keywords, concentrating the scope of
+interested parties.
+
+
+Proposals and posts can not be edited mid-discussion to keep exchanges
+authentic. However, the original proposer may amend the proposal through
+adoption. If a post from another user makes a legitimate reply to the
+proposal and it's widely accepted by other users through propping, it is a
+good indication that the original proposer should adopt that post in order
+to gain acceptance from voters when that time comes. This adoption is done
+through a simple check mark beside the post from the proposal creator, this
+post will now be included in the final version of a proposal to be voted
+on.
+
+
+There will be employees responsible for helping in drafting proposals
+before and after the discussion process. The finished version of a proposal
+will be a concise breakdown of exactly what the proposal is proposing so as
+to encourage as many votes as possible. There may be a number of iterations
+before one is chosen by approval from users who have adopted posts in the
+proposal as well as the original proposal creator, it then goes to a
+general vote.
+
+
+
+The current departments used in the government stay functioning. The
+public, however, will now have the ability to direct the functioning of
+them, with respect to replacing heads and setting annual budgets. All
+changes and expenses by the department will be categorized for the public.
+This limits the amount of micromanaging needed from the public, without
+jeopardizing integrity. Department heads will have criteria they need to
+meet before being considered for the position, these criteria may also be
+established by the people.
+
+
+Computing efficiency will continue to improve, helping users utilize the
+system and familiarity with processes will encourage activity. Using
+technology follows the global trend in reducing the man hours required to
+run a functional system. Political bureaucracies are the hardest to adapt
+to global shifts because they are their own governing body. That's why this
+competition is so important, we need to reel in the excessiveness of
+government and make it more efficient, stifling corruption in the process.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170615/4478f092/attachment.html>
+
+From anthonydunn97202 at gmail.com  Thu Jun 15 21:49:07 2017
+From: anthonydunn97202 at gmail.com (Anthony Dunn)
+Date: Thu, 15 Jun 2017 18:49:07 -0700
+Subject: [MG] Global Challenges- Abstract portion of contest
+In-Reply-To: <CACZ6ZgE3fmwnJKSoXbH0HR8uJcip=c=prw97Uz67L7Ztx24PHQ@mail.gmail.com>
+References: <CACZ6ZgE3fmwnJKSoXbH0HR8uJcip=c=prw97Uz67L7Ztx24PHQ@mail.gmail.com>
+Message-ID: <CA+nhSpUjf46zuK1fJvfhUQe4_Dx1gUb9Zj2xsQDzXU=OzNdSuQ@mail.gmail.com>
+
+Haha you're writing for this too eh? Have you been able to figure out
+anything about who's actually reading these things? I feel like it'd be
+pretty good to know a few things about the target audience... I especially
+wonder what they're asked to look for, and if they'll automatically see all
+net gov proposals as the same.
+
+I think you have a lot of strong lines in this piece, like the beginning of
+the second paragraph, although I suspect you might wanna try running this
+paper by someone who doesn't already believe in direct democracy, I'm not
+sure it establishes an imperative for the UN to embrace DD before
+explaining what it is, or how it'd help the UN.
+
+On Thu, Jun 15, 2017 at 2:34 PM, Patrick Millerd <mrpdublin at gmail.com>
+wrote:
+
+> Not sure how many of you are attempting to enter this thing but I figured
+> I'd put up my first draft of the abstract to gauge reaction. Any comment is
+> appreciated. This is what my entry is supposed to cover-
+> https://www.globalchallenges.org/en/the-prize/criteria
+> *1. Abstract *(no more than 1000 words)
+> The abstract must summarize the design of the model, including the
+> institutions, regulations, decision-making paths and control mechanisms it
+> involves, as well as how key individuals and other decision-making bodies
+> are to be appointed.
+>
+> My model is verifiable direct democracy powered by the internet. Any
+> decision-making system of the future needs to utilize our capabilities for
+> connected communication between the general public and the mechanisms used
+> in creating decisions. The necessity for the public to be able to trust in
+> their ability to influence changes in their society has many advantages and
+> challenges, this paper will attempt to address the significant areas of
+> this outcome.
+>
+>
+> The main challenge in a Direct Democracy is to allow everyone a voice but
+> to have those voices organized in productive dialogue. The internet, more
+> specifically a fully threaded forum on the internet is a great tool to
+> organize discussions. An internet forum paired with a categorizing system
+> for any changes within the governing body makes a comprehensive system of
+> direct democracy where ideas can be brought up, discussed, voted and
+> implemented all in one area.
+>
+>
+> Ensuring everyone an equal voice means one account per individual,
+> identity association between the user of the site and the physical person
+> posting under that user. The forum's posting rules become enforceable with
+> authentication and can ensure discussions are productive. A core tenant to
+> posting on the forum is that any post is an amendment to the post it's
+> replying to. Unless starting a new topic, a post is always an attempt to
+> correct the post above. Any general agreement to a post can be expressed
+> through a prop (upvote), props help posts gain visibility and legitimacy.
+> Failure to follow established forum rules can result in a temporary
+> suspension from posting.
+>
+>
+> The identity of users, as well as other sensitive information, can be
+> hidden, still available, but difficult to access without also raising flags
+> on your own profile. In a true direct democracy, all information is
+> accessible and verifiable, this is achievable with current computing power,
+> the challenge is organizing it properly. Possible to have a physical
+> building, a section in existing libraries, where users can log in to look
+> up sensitive information, monitored and secured should be enough to deter
+> people with malicious motives.
+>
+>
+> Another aspect of a direct democracy is in its ability for everyone to
+> have their vote counted. Even if they don't directly vote it's important
+> that every user gets represented so as to not allow extremists to control
+> things. With a proxy voting system that's run through a matching mechanism,
+> everyone will have a vote counted for them based on their perceived
+> preference. Unless they cast a direct vote, their vote will be an average
+> of the 5 closest matched users that did cast a direct vote. The matching
+> will be done through a variety of questions designed to predict voting
+> patterns. This way if only 15% of the population cast votes, 100% will
+> still be represented, offsetting the extremists.
+>
+>
+> Starting a new topic on this fully threaded forum is to create a proposal
+> for a change in government, whether it be a policy, priority, hiring or
+> budgeting change. Proposals are able to be created by anyone but like the
+> discussions, there are certain rules to posting. Each proposal needs to
+> fill out structured criteria, sections to help organize and place their
+> idea for change. This gives familiarity to all new topics so other users
+> can easily navigate what's being proposed. Associated forms and links can
+> be attached by computer algorithms or employees in order to legitimize a
+> proposal. Every section of a proposal, as well as the proposal as a whole,
+> is able to be discussed in a dedicated thread, further keeping discussion
+> organized and on track.
+>
+>
+> Proposals will fall into categories that the submitter can choose.
+> Location, from any individual neighborhood to a global scope. Sections such
+> as housing, transportation, healthcare, etc are also selected. From there
+> sub-section categories can be chosen, bicycle law for instance in the
+> transportation section. Proposals may fall into many sections and can be
+> chosen and searchable through keywords, concentrating the scope of
+> interested parties.
+>
+>
+> Proposals and posts can not be edited mid-discussion to keep exchanges
+> authentic. However, the original proposer may amend the proposal through
+> adoption. If a post from another user makes a legitimate reply to the
+> proposal and it's widely accepted by other users through propping, it is a
+> good indication that the original proposer should adopt that post in order
+> to gain acceptance from voters when that time comes. This adoption is done
+> through a simple check mark beside the post from the proposal creator, this
+> post will now be included in the final version of a proposal to be voted
+> on.
+>
+>
+> There will be employees responsible for helping in drafting proposals
+> before and after the discussion process. The finished version of a proposal
+> will be a concise breakdown of exactly what the proposal is proposing so as
+> to encourage as many votes as possible. There may be a number of iterations
+> before one is chosen by approval from users who have adopted posts in the
+> proposal as well as the original proposal creator, it then goes to a
+> general vote.
+>
+>
+>
+> The current departments used in the government stay functioning. The
+> public, however, will now have the ability to direct the functioning of
+> them, with respect to replacing heads and setting annual budgets. All
+> changes and expenses by the department will be categorized for the public.
+> This limits the amount of micromanaging needed from the public, without
+> jeopardizing integrity. Department heads will have criteria they need to
+> meet before being considered for the position, these criteria may also be
+> established by the people.
+>
+>
+> Computing efficiency will continue to improve, helping users utilize the
+> system and familiarity with processes will encourage activity. Using
+> technology follows the global trend in reducing the man hours required to
+> run a functional system. Political bureaucracies are the hardest to adapt
+> to global shifts because they are their own governing body. That's why this
+> competition is so important, we need to reel in the excessiveness of
+> government and make it more efficient, stifling corruption in the process.
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170615/2136443c/attachment-0001.html>
+
+From metamerman at gmail.com  Sat Jun 17 11:25:55 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sat, 17 Jun 2017 09:25:55 -0600
+Subject: [MG] Global Challenges- Abstract portion of contest
+In-Reply-To: <CACZ6ZgE3fmwnJKSoXbH0HR8uJcip=c=prw97Uz67L7Ztx24PHQ@mail.gmail.com>
+References: <CACZ6ZgE3fmwnJKSoXbH0HR8uJcip=c=prw97Uz67L7Ztx24PHQ@mail.gmail.com>
+Message-ID: <CACobxW1AYobJJSODdtYK+xUPf3XFhY-vDrguARJOdhaWJOAdYQ@mail.gmail.com>
+
+On Thu, Jun 15, 2017 at 3:34 PM, Patrick Millerd <mrpdublin at gmail.com> wrote:
+> Not sure how many of you are attempting to enter this thing but I figured
+> I'd put up my first draft of the abstract to gauge reaction.
+
+Coincidentally I had just started on this today, too. I'm probably not
+the best reviewer (I'm competition, but also probably know a lot more
+about the issues than any of the actual judges), but think I can offer
+a reasonable simulation of a devil's advocate.
+
+(snip)
+
+> The main challenge in a Direct Democracy is to allow everyone a voice but to
+> have those voices organized in productive dialogue. The internet, more
+> specifically a fully threaded forum on the internet is a great tool to
+> organize discussions. An internet forum paired with a categorizing system
+> for any changes within the governing body makes a comprehensive system of
+> direct democracy where ideas can be brought up, discussed, voted and
+> implemented all in one area.
+
+My perception of the general conception is that the problem with DD is
+that people are idiots and you can't trust them to make good
+decisions. This of course is not the real problem, which is that DD
+with low participation rates is exactly the same as misrepresentative
+democracy because the same types of people (the SDAPs) end up making
+the decisions. Still, I think you ought to address the popular
+perception right here in the first paragraph.
+
+> Ensuring everyone an equal voice means one account per individual, identity
+> association between the user of the site and the physical person posting
+> under that user. The forum's posting rules become enforceable with
+> authentication and can ensure discussions are productive. A core tenant to
+> posting on the forum is that any post is an amendment to the post it's
+> replying to. Unless starting a new topic, a post is always an attempt to
+> correct the post above. Any general agreement to a post can be expressed
+> through a prop (upvote), props help posts gain visibility and legitimacy.
+> Failure to follow established forum rules can result in a temporary
+> suspension from posting.
+
+Here you'd also have to address the moderation issues that all other
+open forums have, and why the vast majority of them have already been
+shut down: How is this system any different from any of them? The only
+exceptions I note continue to function exactly because they're not
+open, either by design or as a result of having a very narrow scope
+(FB's "unfriending" system, and Reddit and Slashdot topics are
+generally very esoteric, although Reddit relies heavily on censorship
+and banning people to keep the peace, options we don't have in a DD
+system).
+
+> The identity of users, as well as other sensitive information, can be
+> hidden, still available, but difficult to access without also raising flags
+> on your own profile. In a true direct democracy, all information is
+> accessible and verifiable, this is achievable with current computing power,
+> the challenge is organizing it properly. Possible to have a physical
+> building, a section in existing libraries, where users can log in to look up
+> sensitive information, monitored and secured should be enough to deter
+> people with malicious motives.
+
+Interesting but it seems to me impractical: We're barely managing to
+keep public libraries open at all, let alone assigning them an
+entirely new (unfunded?) mandate. I plan to ignore this issue under
+the assumption that if no one person is given unusually large amounts
+of power, no individual is likely to become a target. People already
+trust the system to verify identities (voter rolls) without anyone
+being expected to be able to knock on doors to verify the existence of
+every person listed in the system...
+
+> Another aspect of a direct democracy is in its ability for everyone to have
+> their vote counted. Even if they don't directly vote it's important that
+> every user gets represented so as to not allow extremists to control things.
+> With a proxy voting system that's run through a matching mechanism, everyone
+> will have a vote counted for them based on their perceived preference.
+> Unless they cast a direct vote, their vote will be an average of the 5
+> closest matched users that did cast a direct vote. The matching will be done
+> through a variety of questions designed to predict voting patterns. This way
+> if only 15% of the population cast votes, 100% will still be represented,
+> offsetting the extremists.
+
+I think you'd need to expand on how the matching would be done here.
+And note that I'm not going to discourage adoption of this because
+it's somehow "mine" or that I fear the competition. In fact, I think
+it's just a great idea and the more people that submit proposals
+including this feature the more mainstream all of us will appear to
+be. Given what we saw in the "Next System" competition it seems to me
+that our real competition is handwavers who just rehash old ideas:
+Because they seem familiar the judges will be far more likely to
+choose them. The trick to winning I think is getting the balance
+between being progressive enough to appear to have a shot at making a
+real difference while still feeling familiar enough that
+non-visionaries will be able to see how it could work. This of course
+IMHO means that the winner is most likely doomed to fail to achieve
+its goal (i.e., competitions like this are the exact wrong way to go
+about making significant changes in how things are done unless you're
+sure your judges are true visionaries and not just experts in public
+policy or some other irrelevant (or even backward) field).
+
+(snip, a level of specificity that probably isn't required in the abstract)
+
+> There will be employees responsible for helping in drafting proposals before
+> and after the discussion process. The finished version of a proposal will be
+> a concise breakdown of exactly what the proposal is proposing so as to
+> encourage as many votes as possible. There may be a number of iterations
+> before one is chosen by approval from users who have adopted posts in the
+> proposal as well as the original proposal creator, it then goes to a general
+> vote.
+
+Well at least you have some idea how the $5 million will be spent ;-)
+This is actually something I'm struggling with and can't decide
+whether or not to disclose this as a problem: I'm guessing that
+proposing to drop millions on marketing (or perhaps even just
+advertising) is not going to be attractive to the judges. For my part
+I'll consider my project a failure if I have to hire an army of
+moderators or system administrators to keep the trolls from ruining
+it. And of course you already see this in the design of proxyfor.me
+(e.g., you only get one post on a proposal, you have to choose sides,
+and there is no way to directly interact with other participants).
+
+(snip, more details that probably belong in the body)
+
+I note that you didn't deal with the main point, which is
+*international* relations. I plan to deal with that by simply saying
+that looking at the problem this way is just going to result in a
+system that can't function: The problem with international relations
+is exactly the same problem with local, state, and national
+governments: Bad decisions get made because the wrong people are
+making them. The only reason to even *have* national government (let
+alone the supernational system this competition seems to be calling
+for) is to enforce the ability for people to have democracy at a local
+level. Not sure this is going to be convincing to the judges who
+probably will have a "new & improved" UN in mind, but, again, the more
+of us who call them out on this misconception the better each of our
+odds is.
+  Regards,
+    Scott
+
+
+From metamerman at gmail.com  Mon Jun 19 11:35:37 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Mon, 19 Jun 2017 09:35:37 -0600
+Subject: [MG] Metagovernment list has collapsed..
+In-Reply-To: <CAJHTwmLxnbxCAe4F1yD=CknN6_v2XXefyp52ssd7XqUBNK9OWw@mail.gmail.com>
+References: <c08aa27d-85df-5222-8d04-20c2ec283184@teo72.com>
+	<11fdbc52-b15d-1fc6-ecc7-d60157e56863@teo72.com>
+	<CAJHTwmLxnbxCAe4F1yD=CknN6_v2XXefyp52ssd7XqUBNK9OWw@mail.gmail.com>
+Message-ID: <CACobxW3i9cuqzW4uc_iL0_mPOpmdpa1uu8fDUPbPA+aCUi8VHQ@mail.gmail.com>
+
+I've added MG list to this post.
+
+On Mon, Jun 19, 2017 at 24:47 AM, Jacopo Tolja <jacopo.tolja at gmail.com> wrote:
+> Metagovernment has peaks and valleys very variable participation, not
+> believe depends on a failure, but the presence or absence of valid content
+> to talk about.
+
+Agreed, but then this is sort of Teo's point: No talk means no work is
+being done ;-)
+
+> Metagovernment have higly variable ups and down of participation, I do not
+> believe it depends from a failure, but by the presence of valid subject
+> matter.
+
+Maybe I'm just pessimistic, but I see signs that what's really
+happened here is burnout: People on this list have just given up. And
+not just here, but the Pirate Party (liquid democracy, etc.) lists,
+the Reddit groups on DD, and many of the other DD sites I'd bookmarked
+in the past are either gone or even less active than this list. Pol.is
+and Loomio both survive on niches (Taiwan for Pol.is, and Spain for
+Loomio) where the old governments are using them for opinion finding
+(albeit not for actual decisionmaking). How do I know this? Surveying
+the "competition" is part of the marketing plan for proxyfor.me, and
+that's what I'm primarily working on now (when RL doesn't keep me away
+from it).
+
+But you don't have to worry about proxyfor.me going away: It's
+actually costing me $0 the next 9 months (AWS free tier) and the costs
+will be nominal after that. I've got a long to-do list and
+historically (based on how long it took me to burn out on MetaCard and
+academics (i.e., getting a PhD)) I've still got a good 7 or 8 years to
+go on this project. I mostly remain inspired because I have yet to
+hear a coherent argument about why DeMP (Democracy by Matched Proxy)
+and the current instantiation of it in https://www.proxyfor.me/ won't
+work. Which means unlike all those other systems which IMHO have
+fundamental design flaws, what I've got at this point is mostly just a
+marketing problem. Granted it's probably worse than the marketing
+problem Pol.is and Loomio and represent.me have: Unlike them
+proxyfor.me is designed to *replace* existing governments rather than
+being satisfied to be just a minor extension helping to prop them
+up...
+
+> A Teo and other interested parties to democratic self-determination must point
+> primalepersone.it
+
+What is that site?
+  Regards,
+     Scot
+
+
+From jacopo.tolja at gmail.com  Thu Jun 29 07:31:01 2017
+From: jacopo.tolja at gmail.com (Jacopo Tolja)
+Date: Thu, 29 Jun 2017 13:31:01 +0200
+Subject: [MG] democracy.earth
+Message-ID: <CAJHTwmJk4Hvv1FxLsnvzW=xc3JMiAN9b-UYdGngReDoxSgz7xQ@mail.gmail.com>
+
+Does anyone have look into it?
+Any critique?
+It seem well established and the distributed sistem seem the solution for
+security.
+https://words.democracy.earth/organizing-your-right-to-gather-ability-to-petition-on-the-blockchain-c5412db5a008
+
+Peace Jacopo
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170629/f18e19c4/attachment.html>
+
+From pederindi at gmail.com  Thu Jun 29 10:05:07 2017
+From: pederindi at gmail.com (Pedro)
+Date: Thu, 29 Jun 2017 16:05:07 +0200
+Subject: [MG] =?utf-8?q?=22Commons_versus_neoliberalism=3A_From_an_oligarc?=
+	=?utf-8?q?hic_economy_to_the_open_social_economy=E2=80=9D_By_Yocha?=
+	=?utf-8?q?i_Benkler?=
+Message-ID: <CABr7qmS+4vvRtOXO+hyHrosPFNSoiTJK4q83QUfYc4F3JHspLw@mail.gmail.com>
+
+http://procomuns.net/en/streaming-commons-based-collaborative-economies-procomuns-2017/
+-> https://www.youtube.com/watch?v=pL-TiwzfGuQ
+
+
+From metamerman at gmail.com  Thu Jun  1 16:43:18 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Thu, 1 Jun 2017 14:43:18 -0600
+Subject: [MG] Social Engineering Guest Opinion
+In-Reply-To: <CACZ6ZgHWFFCPsuzpeony2FBU_dsWtV7r9WOYTbKTNif8yWzMog@mail.gmail.com>
+References: <CACobxW3j9P6sEuHTB_aEnz1q+Q7nXZpk7a1PynPTkoJMQC9CCA@mail.gmail.com>
+	<CACZ6ZgHWFFCPsuzpeony2FBU_dsWtV7r9WOYTbKTNif8yWzMog@mail.gmail.com>
+Message-ID: <CACobxW04euKJC=cv7gUi3kKFtQkXRWveYJvXKUPxumBt6mZQiw@mail.gmail.com>
+
+On Wed, May 31, 2017 at 1:45 PM, Patrick Millerd <mrpdublin at gmail.com> wrote:
+> Nice job. Did you get any new signups because of this article?
+
+Don't know, I don't track signups, or even ask the usual "where did
+you hear about X" marketing questions. I can see hits increase in real
+time using AWSs monitoring features, though, when I post something on
+social media about proxyfor.me. But even then I can't distinguish
+signups from people just browsing (i.e., I'm not checking conversions,
+which is another thing that real product marketing entails). I'm
+starting to think more about this kind of stuff now that I'm shifting
+attention from development more toward marketing, though.
+  Regards,
+    Scott
+
+> On 28 May 2017 at 20:07, Scott Raney <metamerman at gmail.com> wrote:
+>>
+>> Just to show you how weird Boulder is, the local paper actually
+>> published the Guest Opinion I sent them (albeit a few weeks ago):
+>>
+>> http://www.dailycamera.com/guest-opinions/ci_31017240/scott-raney-defense-social-engineering
+>>
+>> I don't think this is a good general-purpose PR strategy, but it does
+>> show that there are people out there willing to consider a new way of
+>> doing things. It's mainly a matter of figuring out how to find them.
+>> Once we get rolling word-of-mouth should carry us the rest of the
+>> way...
+>>   Regards,
+>>     Scott
+>>
+>> _______________________________________________
+>> Start : a mailing list of the Metagovernment project
+>> http://www.metagovernment.org/
+>> Post to the list: Start at metagovernment.org
+>> Manage subscription:
+>> http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+
+
+
+From metamerman at gmail.com  Sat Jun 10 18:47:49 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sat, 10 Jun 2017 16:47:49 -0600
+Subject: [MG] proxyfor.me beta 2, introducing "Mini Match"
+Message-ID: <CACobxW1KjtFYDkBJLUgChH+3O5C3AU6J5iK8j0ksDpezKS0DJw@mail.gmail.com>
+
+Beta 2 of proxyfor.me, the prototype for a new form of government
+known as Democracy by Matched Proxy, is now available at:
+https://www.proxyfor.me/
+
+New to this release is "Mini Match", a way to get right to voting by
+filling out a 6-item personality/ideology inventory that takes less
+than a minute (vs the 75 item full inventory that takes about 10
+minutes). This short list is composed of the most predictive items in
+the full inventory: three from the Big 5 section and three from the
+ideological section.
+
+This feature was added in response to feedback from the early adopters
+who reported that they were hesitant to recommend the site because
+they felt completing the full inventory was too burdensome.
+Fortunately we got enough signups to validate the Mini-Match results:
+Analysis shows that it's about 80% as accurate as the full inventory.
+Either of course is vastly better than what you'd get if you matched
+the average voter to the party platform of whatever political party
+they're affiliated with, which is mostly what we're stuck with in
+conventional representative democracy.
+
+If you've been waiting for a quicker way to check out the system,
+now's the time to jump in: Fill out your Mini Match profile and then
+vote on a few proposals so we can get some data on how well it's
+working and see if there are any interaction issues between mini and
+full profiles.
+
+Cross-posts of this announcement to other lists/forums are appreciated!
+  Regards,
+    Scott
+
+
+
+From metamerman at gmail.com  Sun Jun 11 11:45:40 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sun, 11 Jun 2017 09:45:40 -0600
+Subject: [MG] Fwd: List of Metagovernment is dead?
+In-Reply-To: <CACobxW3DuP3ARNE7fAWeHf677oEDGxt7oWfNdFoW9Y-8wqwqjw@mail.gmail.com>
+References: <f78f76c5-b59f-ca83-b447-f97d91532eeb@teo72.com>
+	<f997cd97-2209-8021-aed7-b328334a6d14@teo72.com>
+	<CACobxW3DuP3ARNE7fAWeHf677oEDGxt7oWfNdFoW9Y-8wqwqjw@mail.gmail.com>
+Message-ID: <CACobxW2VG_hk5_VY1g39sMXQgPFa+77Ra1X8XwbnW3oaOcYV+w@mail.gmail.com>
+
+Forwarding this for Teo who's apparently having his posts lost/blocked
+again. I noticed that the list archives are being updated again,
+though, so the list itself definitely isn't quite dead yet...
+
+
+---------- Forwarded message ----------
+From: Scott Raney <metamerman at gmail.com>
+Date: Sun, Jun 11, 2017 at 9:05 AM
+Subject: Re: List of Metagovernment is dead?
+To: Matteo Martini <teo at teo72.com>
+
+
+>
+> Hi all,
+> I forecasted the death of Airesis, Votorola and Vilfredo and LQFB
+> I admit I never forecasted the death of Metagovernment
+> Unfortunately this is what is happening
+
+
+I'd call it a coma, not death, and it happened years ago: I was the
+last one to make any substantial upgrades to the wiki and that was
+over two years ago. There is very little "collaboration" going on of
+late, which is what Ed I believe set as the primary goal of the group
+(case in point, the vast majority of people on this list haven't
+signed up to even *try* proxyfor.me and so are not even in a position
+to even participate in any discussion of it).
+
+But the heart (this mailing list) still beats...
+
+>
+> Too bad people follow only their egos and are not capable of
+> understanding the needs of the people
+
+
+Yeah, we're still waiting for clarifications on *your* "understanding
+of "the needs of The People", or even any substantive claims that
+anyone else's understanding is somehow flawed. Oh, but that would
+require you to put aside *your* ego and at least attempt to understand
+our proposals or our (particularly my) criticisms of yours...
+  Regards,
+    Scott
+
+>
+> Regards,
+> Matteo
+
+
+
+From putergenius at gmail.com  Sun Jun 11 16:37:50 2017
+From: putergenius at gmail.com (Mark Giza)
+Date: Sun, 11 Jun 2017 16:37:50 -0400
+Subject: [MG] Fwd: List of Metagovernment is dead?
+In-Reply-To: <CACobxW2VG_hk5_VY1g39sMXQgPFa+77Ra1X8XwbnW3oaOcYV+w@mail.gmail.com>
+References: <f78f76c5-b59f-ca83-b447-f97d91532eeb@teo72.com>
+	<f997cd97-2209-8021-aed7-b328334a6d14@teo72.com>
+	<CACobxW3DuP3ARNE7fAWeHf677oEDGxt7oWfNdFoW9Y-8wqwqjw@mail.gmail.com>
+	<CACobxW2VG_hk5_VY1g39sMXQgPFa+77Ra1X8XwbnW3oaOcYV+w@mail.gmail.com>
+Message-ID: <CAAcTC91kyJBAfKDfZpfNyfS0ZJq2+mxQrKRhKP6YmxLxfNQ3Yg@mail.gmail.com>
+
+This could be a great project.
+I feel there is too much planning and not enough using and troubleshooting.
+
+On Jun 11, 2017 11:46 AM, "Scott Raney" <metamerman at gmail.com> wrote:
+
+> Forwarding this for Teo who's apparently having his posts lost/blocked
+> again. I noticed that the list archives are being updated again,
+> though, so the list itself definitely isn't quite dead yet...
+>
+>
+> ---------- Forwarded message ----------
+> From: Scott Raney <metamerman at gmail.com>
+> Date: Sun, Jun 11, 2017 at 9:05 AM
+> Subject: Re: List of Metagovernment is dead?
+> To: Matteo Martini <teo at teo72.com>
+>
+>
+> >
+> > Hi all,
+> > I forecasted the death of Airesis, Votorola and Vilfredo and LQFB
+> > I admit I never forecasted the death of Metagovernment
+> > Unfortunately this is what is happening
+>
+>
+> I'd call it a coma, not death, and it happened years ago: I was the
+> last one to make any substantial upgrades to the wiki and that was
+> over two years ago. There is very little "collaboration" going on of
+> late, which is what Ed I believe set as the primary goal of the group
+> (case in point, the vast majority of people on this list haven't
+> signed up to even *try* proxyfor.me and so are not even in a position
+> to even participate in any discussion of it).
+>
+> But the heart (this mailing list) still beats...
+>
+> >
+> > Too bad people follow only their egos and are not capable of
+> > understanding the needs of the people
+>
+>
+> Yeah, we're still waiting for clarifications on *your* "understanding
+> of "the needs of The People", or even any substantive claims that
+> anyone else's understanding is somehow flawed. Oh, but that would
+> require you to put aside *your* ego and at least attempt to understand
+> our proposals or our (particularly my) criticisms of yours...
+>   Regards,
+>     Scott
+>
+> >
+> > Regards,
+> > Matteo
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170611/ed903803/attachment-0002.html>
+
+From mrpdublin at gmail.com  Thu Jun 15 17:34:16 2017
+From: mrpdublin at gmail.com (Patrick Millerd)
+Date: Thu, 15 Jun 2017 17:34:16 -0400
+Subject: [MG]  Global Challenges- Abstract portion of contest
+Message-ID: <CACZ6ZgE3fmwnJKSoXbH0HR8uJcip=c=prw97Uz67L7Ztx24PHQ@mail.gmail.com>
+
+Not sure how many of you are attempting to enter this thing but I figured
+I'd put up my first draft of the abstract to gauge reaction. Any comment is
+appreciated. This is what my entry is supposed to cover-
+https://www.globalchallenges.org/en/the-prize/criteria
+*1. Abstract *(no more than 1000 words)
+The abstract must summarize the design of the model, including the
+institutions, regulations, decision-making paths and control mechanisms it
+involves, as well as how key individuals and other decision-making bodies
+are to be appointed.
+
+My model is verifiable direct democracy powered by the internet. Any
+decision-making system of the future needs to utilize our capabilities for
+connected communication between the general public and the mechanisms used
+in creating decisions. The necessity for the public to be able to trust in
+their ability to influence changes in their society has many advantages and
+challenges, this paper will attempt to address the significant areas of
+this outcome.
+
+
+The main challenge in a Direct Democracy is to allow everyone a voice but
+to have those voices organized in productive dialogue. The internet, more
+specifically a fully threaded forum on the internet is a great tool to
+organize discussions. An internet forum paired with a categorizing system
+for any changes within the governing body makes a comprehensive system of
+direct democracy where ideas can be brought up, discussed, voted and
+implemented all in one area.
+
+
+Ensuring everyone an equal voice means one account per individual, identity
+association between the user of the site and the physical person posting
+under that user. The forum's posting rules become enforceable with
+authentication and can ensure discussions are productive. A core tenant to
+posting on the forum is that any post is an amendment to the post it's
+replying to. Unless starting a new topic, a post is always an attempt to
+correct the post above. Any general agreement to a post can be expressed
+through a prop (upvote), props help posts gain visibility and legitimacy.
+Failure to follow established forum rules can result in a temporary
+suspension from posting.
+
+
+The identity of users, as well as other sensitive information, can be
+hidden, still available, but difficult to access without also raising flags
+on your own profile. In a true direct democracy, all information is
+accessible and verifiable, this is achievable with current computing power,
+the challenge is organizing it properly. Possible to have a physical
+building, a section in existing libraries, where users can log in to look
+up sensitive information, monitored and secured should be enough to deter
+people with malicious motives.
+
+
+Another aspect of a direct democracy is in its ability for everyone to have
+their vote counted. Even if they don't directly vote it's important that
+every user gets represented so as to not allow extremists to control
+things. With a proxy voting system that's run through a matching mechanism,
+everyone will have a vote counted for them based on their perceived
+preference. Unless they cast a direct vote, their vote will be an average
+of the 5 closest matched users that did cast a direct vote. The matching
+will be done through a variety of questions designed to predict voting
+patterns. This way if only 15% of the population cast votes, 100% will
+still be represented, offsetting the extremists.
+
+
+Starting a new topic on this fully threaded forum is to create a proposal
+for a change in government, whether it be a policy, priority, hiring or
+budgeting change. Proposals are able to be created by anyone but like the
+discussions, there are certain rules to posting. Each proposal needs to
+fill out structured criteria, sections to help organize and place their
+idea for change. This gives familiarity to all new topics so other users
+can easily navigate what's being proposed. Associated forms and links can
+be attached by computer algorithms or employees in order to legitimize a
+proposal. Every section of a proposal, as well as the proposal as a whole,
+is able to be discussed in a dedicated thread, further keeping discussion
+organized and on track.
+
+
+Proposals will fall into categories that the submitter can choose.
+Location, from any individual neighborhood to a global scope. Sections such
+as housing, transportation, healthcare, etc are also selected. From there
+sub-section categories can be chosen, bicycle law for instance in the
+transportation section. Proposals may fall into many sections and can be
+chosen and searchable through keywords, concentrating the scope of
+interested parties.
+
+
+Proposals and posts can not be edited mid-discussion to keep exchanges
+authentic. However, the original proposer may amend the proposal through
+adoption. If a post from another user makes a legitimate reply to the
+proposal and it's widely accepted by other users through propping, it is a
+good indication that the original proposer should adopt that post in order
+to gain acceptance from voters when that time comes. This adoption is done
+through a simple check mark beside the post from the proposal creator, this
+post will now be included in the final version of a proposal to be voted
+on.
+
+
+There will be employees responsible for helping in drafting proposals
+before and after the discussion process. The finished version of a proposal
+will be a concise breakdown of exactly what the proposal is proposing so as
+to encourage as many votes as possible. There may be a number of iterations
+before one is chosen by approval from users who have adopted posts in the
+proposal as well as the original proposal creator, it then goes to a
+general vote.
+
+
+
+The current departments used in the government stay functioning. The
+public, however, will now have the ability to direct the functioning of
+them, with respect to replacing heads and setting annual budgets. All
+changes and expenses by the department will be categorized for the public.
+This limits the amount of micromanaging needed from the public, without
+jeopardizing integrity. Department heads will have criteria they need to
+meet before being considered for the position, these criteria may also be
+established by the people.
+
+
+Computing efficiency will continue to improve, helping users utilize the
+system and familiarity with processes will encourage activity. Using
+technology follows the global trend in reducing the man hours required to
+run a functional system. Political bureaucracies are the hardest to adapt
+to global shifts because they are their own governing body. That's why this
+competition is so important, we need to reel in the excessiveness of
+government and make it more efficient, stifling corruption in the process.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170615/4478f092/attachment-0002.html>
+
+From anthonydunn97202 at gmail.com  Thu Jun 15 21:49:07 2017
+From: anthonydunn97202 at gmail.com (Anthony Dunn)
+Date: Thu, 15 Jun 2017 18:49:07 -0700
+Subject: [MG] Global Challenges- Abstract portion of contest
+In-Reply-To: <CACZ6ZgE3fmwnJKSoXbH0HR8uJcip=c=prw97Uz67L7Ztx24PHQ@mail.gmail.com>
+References: <CACZ6ZgE3fmwnJKSoXbH0HR8uJcip=c=prw97Uz67L7Ztx24PHQ@mail.gmail.com>
+Message-ID: <CA+nhSpUjf46zuK1fJvfhUQe4_Dx1gUb9Zj2xsQDzXU=OzNdSuQ@mail.gmail.com>
+
+Haha you're writing for this too eh? Have you been able to figure out
+anything about who's actually reading these things? I feel like it'd be
+pretty good to know a few things about the target audience... I especially
+wonder what they're asked to look for, and if they'll automatically see all
+net gov proposals as the same.
+
+I think you have a lot of strong lines in this piece, like the beginning of
+the second paragraph, although I suspect you might wanna try running this
+paper by someone who doesn't already believe in direct democracy, I'm not
+sure it establishes an imperative for the UN to embrace DD before
+explaining what it is, or how it'd help the UN.
+
+On Thu, Jun 15, 2017 at 2:34 PM, Patrick Millerd <mrpdublin at gmail.com>
+wrote:
+
+> Not sure how many of you are attempting to enter this thing but I figured
+> I'd put up my first draft of the abstract to gauge reaction. Any comment is
+> appreciated. This is what my entry is supposed to cover-
+> https://www.globalchallenges.org/en/the-prize/criteria
+> *1. Abstract *(no more than 1000 words)
+> The abstract must summarize the design of the model, including the
+> institutions, regulations, decision-making paths and control mechanisms it
+> involves, as well as how key individuals and other decision-making bodies
+> are to be appointed.
+>
+> My model is verifiable direct democracy powered by the internet. Any
+> decision-making system of the future needs to utilize our capabilities for
+> connected communication between the general public and the mechanisms used
+> in creating decisions. The necessity for the public to be able to trust in
+> their ability to influence changes in their society has many advantages and
+> challenges, this paper will attempt to address the significant areas of
+> this outcome.
+>
+>
+> The main challenge in a Direct Democracy is to allow everyone a voice but
+> to have those voices organized in productive dialogue. The internet, more
+> specifically a fully threaded forum on the internet is a great tool to
+> organize discussions. An internet forum paired with a categorizing system
+> for any changes within the governing body makes a comprehensive system of
+> direct democracy where ideas can be brought up, discussed, voted and
+> implemented all in one area.
+>
+>
+> Ensuring everyone an equal voice means one account per individual,
+> identity association between the user of the site and the physical person
+> posting under that user. The forum's posting rules become enforceable with
+> authentication and can ensure discussions are productive. A core tenant to
+> posting on the forum is that any post is an amendment to the post it's
+> replying to. Unless starting a new topic, a post is always an attempt to
+> correct the post above. Any general agreement to a post can be expressed
+> through a prop (upvote), props help posts gain visibility and legitimacy.
+> Failure to follow established forum rules can result in a temporary
+> suspension from posting.
+>
+>
+> The identity of users, as well as other sensitive information, can be
+> hidden, still available, but difficult to access without also raising flags
+> on your own profile. In a true direct democracy, all information is
+> accessible and verifiable, this is achievable with current computing power,
+> the challenge is organizing it properly. Possible to have a physical
+> building, a section in existing libraries, where users can log in to look
+> up sensitive information, monitored and secured should be enough to deter
+> people with malicious motives.
+>
+>
+> Another aspect of a direct democracy is in its ability for everyone to
+> have their vote counted. Even if they don't directly vote it's important
+> that every user gets represented so as to not allow extremists to control
+> things. With a proxy voting system that's run through a matching mechanism,
+> everyone will have a vote counted for them based on their perceived
+> preference. Unless they cast a direct vote, their vote will be an average
+> of the 5 closest matched users that did cast a direct vote. The matching
+> will be done through a variety of questions designed to predict voting
+> patterns. This way if only 15% of the population cast votes, 100% will
+> still be represented, offsetting the extremists.
+>
+>
+> Starting a new topic on this fully threaded forum is to create a proposal
+> for a change in government, whether it be a policy, priority, hiring or
+> budgeting change. Proposals are able to be created by anyone but like the
+> discussions, there are certain rules to posting. Each proposal needs to
+> fill out structured criteria, sections to help organize and place their
+> idea for change. This gives familiarity to all new topics so other users
+> can easily navigate what's being proposed. Associated forms and links can
+> be attached by computer algorithms or employees in order to legitimize a
+> proposal. Every section of a proposal, as well as the proposal as a whole,
+> is able to be discussed in a dedicated thread, further keeping discussion
+> organized and on track.
+>
+>
+> Proposals will fall into categories that the submitter can choose.
+> Location, from any individual neighborhood to a global scope. Sections such
+> as housing, transportation, healthcare, etc are also selected. From there
+> sub-section categories can be chosen, bicycle law for instance in the
+> transportation section. Proposals may fall into many sections and can be
+> chosen and searchable through keywords, concentrating the scope of
+> interested parties.
+>
+>
+> Proposals and posts can not be edited mid-discussion to keep exchanges
+> authentic. However, the original proposer may amend the proposal through
+> adoption. If a post from another user makes a legitimate reply to the
+> proposal and it's widely accepted by other users through propping, it is a
+> good indication that the original proposer should adopt that post in order
+> to gain acceptance from voters when that time comes. This adoption is done
+> through a simple check mark beside the post from the proposal creator, this
+> post will now be included in the final version of a proposal to be voted
+> on.
+>
+>
+> There will be employees responsible for helping in drafting proposals
+> before and after the discussion process. The finished version of a proposal
+> will be a concise breakdown of exactly what the proposal is proposing so as
+> to encourage as many votes as possible. There may be a number of iterations
+> before one is chosen by approval from users who have adopted posts in the
+> proposal as well as the original proposal creator, it then goes to a
+> general vote.
+>
+>
+>
+> The current departments used in the government stay functioning. The
+> public, however, will now have the ability to direct the functioning of
+> them, with respect to replacing heads and setting annual budgets. All
+> changes and expenses by the department will be categorized for the public.
+> This limits the amount of micromanaging needed from the public, without
+> jeopardizing integrity. Department heads will have criteria they need to
+> meet before being considered for the position, these criteria may also be
+> established by the people.
+>
+>
+> Computing efficiency will continue to improve, helping users utilize the
+> system and familiarity with processes will encourage activity. Using
+> technology follows the global trend in reducing the man hours required to
+> run a functional system. Political bureaucracies are the hardest to adapt
+> to global shifts because they are their own governing body. That's why this
+> competition is so important, we need to reel in the excessiveness of
+> government and make it more efficient, stifling corruption in the process.
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170615/2136443c/attachment-0002.html>
+
+From metamerman at gmail.com  Sat Jun 17 11:25:55 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sat, 17 Jun 2017 09:25:55 -0600
+Subject: [MG] Global Challenges- Abstract portion of contest
+In-Reply-To: <CACZ6ZgE3fmwnJKSoXbH0HR8uJcip=c=prw97Uz67L7Ztx24PHQ@mail.gmail.com>
+References: <CACZ6ZgE3fmwnJKSoXbH0HR8uJcip=c=prw97Uz67L7Ztx24PHQ@mail.gmail.com>
+Message-ID: <CACobxW1AYobJJSODdtYK+xUPf3XFhY-vDrguARJOdhaWJOAdYQ@mail.gmail.com>
+
+On Thu, Jun 15, 2017 at 3:34 PM, Patrick Millerd <mrpdublin at gmail.com> wrote:
+> Not sure how many of you are attempting to enter this thing but I figured
+> I'd put up my first draft of the abstract to gauge reaction.
+
+Coincidentally I had just started on this today, too. I'm probably not
+the best reviewer (I'm competition, but also probably know a lot more
+about the issues than any of the actual judges), but think I can offer
+a reasonable simulation of a devil's advocate.
+
+(snip)
+
+> The main challenge in a Direct Democracy is to allow everyone a voice but to
+> have those voices organized in productive dialogue. The internet, more
+> specifically a fully threaded forum on the internet is a great tool to
+> organize discussions. An internet forum paired with a categorizing system
+> for any changes within the governing body makes a comprehensive system of
+> direct democracy where ideas can be brought up, discussed, voted and
+> implemented all in one area.
+
+My perception of the general conception is that the problem with DD is
+that people are idiots and you can't trust them to make good
+decisions. This of course is not the real problem, which is that DD
+with low participation rates is exactly the same as misrepresentative
+democracy because the same types of people (the SDAPs) end up making
+the decisions. Still, I think you ought to address the popular
+perception right here in the first paragraph.
+
+> Ensuring everyone an equal voice means one account per individual, identity
+> association between the user of the site and the physical person posting
+> under that user. The forum's posting rules become enforceable with
+> authentication and can ensure discussions are productive. A core tenant to
+> posting on the forum is that any post is an amendment to the post it's
+> replying to. Unless starting a new topic, a post is always an attempt to
+> correct the post above. Any general agreement to a post can be expressed
+> through a prop (upvote), props help posts gain visibility and legitimacy.
+> Failure to follow established forum rules can result in a temporary
+> suspension from posting.
+
+Here you'd also have to address the moderation issues that all other
+open forums have, and why the vast majority of them have already been
+shut down: How is this system any different from any of them? The only
+exceptions I note continue to function exactly because they're not
+open, either by design or as a result of having a very narrow scope
+(FB's "unfriending" system, and Reddit and Slashdot topics are
+generally very esoteric, although Reddit relies heavily on censorship
+and banning people to keep the peace, options we don't have in a DD
+system).
+
+> The identity of users, as well as other sensitive information, can be
+> hidden, still available, but difficult to access without also raising flags
+> on your own profile. In a true direct democracy, all information is
+> accessible and verifiable, this is achievable with current computing power,
+> the challenge is organizing it properly. Possible to have a physical
+> building, a section in existing libraries, where users can log in to look up
+> sensitive information, monitored and secured should be enough to deter
+> people with malicious motives.
+
+Interesting but it seems to me impractical: We're barely managing to
+keep public libraries open at all, let alone assigning them an
+entirely new (unfunded?) mandate. I plan to ignore this issue under
+the assumption that if no one person is given unusually large amounts
+of power, no individual is likely to become a target. People already
+trust the system to verify identities (voter rolls) without anyone
+being expected to be able to knock on doors to verify the existence of
+every person listed in the system...
+
+> Another aspect of a direct democracy is in its ability for everyone to have
+> their vote counted. Even if they don't directly vote it's important that
+> every user gets represented so as to not allow extremists to control things.
+> With a proxy voting system that's run through a matching mechanism, everyone
+> will have a vote counted for them based on their perceived preference.
+> Unless they cast a direct vote, their vote will be an average of the 5
+> closest matched users that did cast a direct vote. The matching will be done
+> through a variety of questions designed to predict voting patterns. This way
+> if only 15% of the population cast votes, 100% will still be represented,
+> offsetting the extremists.
+
+I think you'd need to expand on how the matching would be done here.
+And note that I'm not going to discourage adoption of this because
+it's somehow "mine" or that I fear the competition. In fact, I think
+it's just a great idea and the more people that submit proposals
+including this feature the more mainstream all of us will appear to
+be. Given what we saw in the "Next System" competition it seems to me
+that our real competition is handwavers who just rehash old ideas:
+Because they seem familiar the judges will be far more likely to
+choose them. The trick to winning I think is getting the balance
+between being progressive enough to appear to have a shot at making a
+real difference while still feeling familiar enough that
+non-visionaries will be able to see how it could work. This of course
+IMHO means that the winner is most likely doomed to fail to achieve
+its goal (i.e., competitions like this are the exact wrong way to go
+about making significant changes in how things are done unless you're
+sure your judges are true visionaries and not just experts in public
+policy or some other irrelevant (or even backward) field).
+
+(snip, a level of specificity that probably isn't required in the abstract)
+
+> There will be employees responsible for helping in drafting proposals before
+> and after the discussion process. The finished version of a proposal will be
+> a concise breakdown of exactly what the proposal is proposing so as to
+> encourage as many votes as possible. There may be a number of iterations
+> before one is chosen by approval from users who have adopted posts in the
+> proposal as well as the original proposal creator, it then goes to a general
+> vote.
+
+Well at least you have some idea how the $5 million will be spent ;-)
+This is actually something I'm struggling with and can't decide
+whether or not to disclose this as a problem: I'm guessing that
+proposing to drop millions on marketing (or perhaps even just
+advertising) is not going to be attractive to the judges. For my part
+I'll consider my project a failure if I have to hire an army of
+moderators or system administrators to keep the trolls from ruining
+it. And of course you already see this in the design of proxyfor.me
+(e.g., you only get one post on a proposal, you have to choose sides,
+and there is no way to directly interact with other participants).
+
+(snip, more details that probably belong in the body)
+
+I note that you didn't deal with the main point, which is
+*international* relations. I plan to deal with that by simply saying
+that looking at the problem this way is just going to result in a
+system that can't function: The problem with international relations
+is exactly the same problem with local, state, and national
+governments: Bad decisions get made because the wrong people are
+making them. The only reason to even *have* national government (let
+alone the supernational system this competition seems to be calling
+for) is to enforce the ability for people to have democracy at a local
+level. Not sure this is going to be convincing to the judges who
+probably will have a "new & improved" UN in mind, but, again, the more
+of us who call them out on this misconception the better each of our
+odds is.
+  Regards,
+    Scott
+
+
+
+From metamerman at gmail.com  Mon Jun 19 11:35:37 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Mon, 19 Jun 2017 09:35:37 -0600
+Subject: [MG] Metagovernment list has collapsed..
+In-Reply-To: <CAJHTwmLxnbxCAe4F1yD=CknN6_v2XXefyp52ssd7XqUBNK9OWw@mail.gmail.com>
+References: <c08aa27d-85df-5222-8d04-20c2ec283184@teo72.com>
+	<11fdbc52-b15d-1fc6-ecc7-d60157e56863@teo72.com>
+	<CAJHTwmLxnbxCAe4F1yD=CknN6_v2XXefyp52ssd7XqUBNK9OWw@mail.gmail.com>
+Message-ID: <CACobxW3i9cuqzW4uc_iL0_mPOpmdpa1uu8fDUPbPA+aCUi8VHQ@mail.gmail.com>
+
+I've added MG list to this post.
+
+On Mon, Jun 19, 2017 at 24:47 AM, Jacopo Tolja <jacopo.tolja at gmail.com> wrote:
+> Metagovernment has peaks and valleys very variable participation, not
+> believe depends on a failure, but the presence or absence of valid content
+> to talk about.
+
+Agreed, but then this is sort of Teo's point: No talk means no work is
+being done ;-)
+
+> Metagovernment have higly variable ups and down of participation, I do not
+> believe it depends from a failure, but by the presence of valid subject
+> matter.
+
+Maybe I'm just pessimistic, but I see signs that what's really
+happened here is burnout: People on this list have just given up. And
+not just here, but the Pirate Party (liquid democracy, etc.) lists,
+the Reddit groups on DD, and many of the other DD sites I'd bookmarked
+in the past are either gone or even less active than this list. Pol.is
+and Loomio both survive on niches (Taiwan for Pol.is, and Spain for
+Loomio) where the old governments are using them for opinion finding
+(albeit not for actual decisionmaking). How do I know this? Surveying
+the "competition" is part of the marketing plan for proxyfor.me, and
+that's what I'm primarily working on now (when RL doesn't keep me away
+from it).
+
+But you don't have to worry about proxyfor.me going away: It's
+actually costing me $0 the next 9 months (AWS free tier) and the costs
+will be nominal after that. I've got a long to-do list and
+historically (based on how long it took me to burn out on MetaCard and
+academics (i.e., getting a PhD)) I've still got a good 7 or 8 years to
+go on this project. I mostly remain inspired because I have yet to
+hear a coherent argument about why DeMP (Democracy by Matched Proxy)
+and the current instantiation of it in https://www.proxyfor.me/ won't
+work. Which means unlike all those other systems which IMHO have
+fundamental design flaws, what I've got at this point is mostly just a
+marketing problem. Granted it's probably worse than the marketing
+problem Pol.is and Loomio and represent.me have: Unlike them
+proxyfor.me is designed to *replace* existing governments rather than
+being satisfied to be just a minor extension helping to prop them
+up...
+
+> A Teo and other interested parties to democratic self-determination must point
+> primalepersone.it
+
+What is that site?
+  Regards,
+     Scot
+
+
+
+From jacopo.tolja at gmail.com  Thu Jun 29 07:31:01 2017
+From: jacopo.tolja at gmail.com (Jacopo Tolja)
+Date: Thu, 29 Jun 2017 13:31:01 +0200
+Subject: [MG] democracy.earth
+Message-ID: <CAJHTwmJk4Hvv1FxLsnvzW=xc3JMiAN9b-UYdGngReDoxSgz7xQ@mail.gmail.com>
+
+Does anyone have look into it?
+Any critique?
+It seem well established and the distributed sistem seem the solution for
+security.
+https://words.democracy.earth/organizing-your-right-to-gather-ability-to-petition-on-the-blockchain-c5412db5a008
+
+Peace Jacopo
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170629/f18e19c4/attachment-0002.html>
+
+From pederindi at gmail.com  Thu Jun 29 10:05:07 2017
+From: pederindi at gmail.com (Pedro)
+Date: Thu, 29 Jun 2017 16:05:07 +0200
+Subject: [MG] =?utf-8?q?=22Commons_versus_neoliberalism=3A_From_an_oligarc?=
+	=?utf-8?q?hic_economy_to_the_open_social_economy=E2=80=9D_By_Yocha?=
+	=?utf-8?q?i_Benkler?=
+Message-ID: <CABr7qmS+4vvRtOXO+hyHrosPFNSoiTJK4q83QUfYc4F3JHspLw@mail.gmail.com>
+
+http://procomuns.net/en/streaming-commons-based-collaborative-economies-procomuns-2017/
+-> https://www.youtube.com/watch?v=pL-TiwzfGuQ
+
+
+

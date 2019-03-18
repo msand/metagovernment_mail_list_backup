@@ -1,0 +1,1179 @@
+From metamerman at gmail.com  Sat Jul 21 09:14:25 2018
+From: metamerman at gmail.com (Scott Raney)
+Date: Sat, 21 Jul 2018 07:14:25 -0600
+Subject: [MG] The Will Of The People
+Message-ID: <CACobxW2p0Gj+4-OdCdEGSoJN+n2JAdmRD2x6XmHKQ3X8gnPZiA@mail.gmail.com>
+
+Been busy restructuring the Matchism Manifesto (www.matchism.org) to
+reflect what I've figured out from trying to implement the
+decisionmaking system (proxyfor.me). The biggest change is a shift
+away from having a "Goals" section to something more general that can
+be used both for the proxy matching system and for the proposal
+writers to gain some insight as to what The People consider to be the
+domains that need more work, and in which direction. I'm calling it an
+assessment of The Will Of The People. I used to call it "ideology"
+until I realized that what we need is a more general concept than
+that. I'm also starting to realize that there is considerable overlap
+between this and the budgeting process, but haven't yet figured out
+how to (or even whether to try to) combine these things.
+
+Here's the list so far. Have I left anything important out?
+  Regards,
+    Scott
+
+Please share your perception of how their current government manages
+the resources (time, money, attention) it expends on these items, on a
+scale of 1 to 7, with 1 being "Way too little", through "About right",
+to 7 being "Way too much":
+
+Immigrants and refugees
+Children's health and welfare
+Minimizing degree of economic inequality
+Education
+Crime and loss prevention (via police and criminal courts)
+National security/defense
+Acquisition, maintenance, and preservation of parks and open space
+Economic incentives and protections for corporations
+Infrastructure development/maintenance (transportation, utilities, etc.)
+Scientific and technological research
+Minimizing government spending and deficits/debt/taxes
+Trade policy and protecting local jobs
+An independent press/media
+Protecting the environment
+Economic protection for individuals (via regulation, and civil courts)
+Increasing general happiness and decreasing level of stress or fear
+Regulation of businesses
+Enforcing moral codes (e.g. against drug use)
+Supporting churches and organized religion
+Improving health care access, quality, and efficiency
+Maximizing individual economic efficiency (tax rates, commute times, etc.)
+Disaster recovery, loss prevention, and infrastructure resilience
+Mental illness and addiction treatment
+Maximizing the median standard of living
+Preservation of other cultures and traditions
+Increasing overall economic efficiency or GDP
+Improving individual health, safety, and/or lifespan
+Age and benefit level for retirement
+Managing per capita resource consumption (energy, land, minerals, etc.)
+Ensuring a minimum standard of living (housing and wage supplements, etc.)
+Diplomacy and international aid
+Compensating for individuals with disabilities
+
+
+From npconner at earthlink.net  Sun Jul 22 23:11:39 2018
+From: npconner at earthlink.net (Ned Conner)
+Date: Sun, 22 Jul 2018 20:11:39 -0700
+Subject: [MG] The Will Of The People
+In-Reply-To: <CACobxW2p0Gj+4-OdCdEGSoJN+n2JAdmRD2x6XmHKQ3X8gnPZiA@mail.gmail.com>
+References: <CACobxW2p0Gj+4-OdCdEGSoJN+n2JAdmRD2x6XmHKQ3X8gnPZiA@mail.gmail.com>
+Message-ID: <43b5afe8-b74b-cd76-6bd8-195234520059@earthlink.net>
+
+Quick general comments (just for the record):
+
+This approach to enabling/empowering democracy seems to me to be too 
+"purely abstract" to be effective, for a combination of two reasons:
+
+1. When a proposal is "purely abstract" (as all of the line-items are), 
+it is left to the executive to decide (undemocratically) what the 
+concrete manifestations of the abstractions will be.
+
+2. Those executives will be operating under to the Rules For Rulers 
+(beyond any concretely effective vote-driven democratic control).
+
+https://youtu.be/rStL7niR7gs
+
+A further problem is that the concrete projections of the purely 
+abstract categories will hopelessly overlap the abstract categories, 
+which will exponentially increase the "wiggle room" that the executives 
+will have.
+
+And, in voting such a list, I cannot decide how much budget to allocate 
+to each item without knowing exactly in detail *how* the money will be 
+spent.
+
+ ??? For example, if money allotted to Education is going to be spent in 
+support of the factory-school classroom teacher model that is currently 
+dominant, then I will vote that zero money be directed to Education. But 
+if the money will be spent on developing and making freely available a 
+really good online curriculum (that will have a near-zero marginal cost 
+per student), that has a "Tutoring On-Line On-Call" system available to 
+deal with potholes in the curriculum, then I will want to vote big bucks 
+to Education.
+
+I look forward to reading the newly revised Matchism Manifesto (when I 
+can get to it), and am very happy to see that your project continues to 
+progress.
+
+On 7/21/2018 6:14 AM, Scott Raney wrote:
+> Been busy restructuring the Matchism Manifesto (www.matchism.org) to
+> reflect what I've figured out from trying to implement the
+> decisionmaking system (proxyfor.me). The biggest change is a shift
+> away from having a "Goals" section to something more general that can
+> be used both for the proxy matching system and for the proposal
+> writers to gain some insight as to what The People consider to be the
+> domains that need more work, and in which direction. I'm calling it an
+> assessment of The Will Of The People. I used to call it "ideology"
+> until I realized that what we need is a more general concept than
+> that. I'm also starting to realize that there is considerable overlap
+> between this and the budgeting process, but haven't yet figured out
+> how to (or even whether to try to) combine these things.
+>
+> Here's the list so far. Have I left anything important out?
+> ?? Regards,
+> ???? Scott
+>
+> Please share your perception of how their current government manages
+> the resources (time, money, attention) it expends on these items, on a
+> scale of 1 to 7, with 1 being "Way too little", through "About right",
+> to 7 being "Way too much":
+>
+> Immigrants and refugees
+> Children's health and welfare
+> Minimizing degree of economic inequality
+> Education
+> Crime and loss prevention (via police and criminal courts)
+> National security/defense
+> Acquisition, maintenance, and preservation of parks and open space
+> Economic incentives and protections for corporations
+> Infrastructure development/maintenance (transportation, utilities, etc.)
+> Scientific and technological research
+> Minimizing government spending and deficits/debt/taxes
+> Trade policy and protecting local jobs
+> An independent press/media
+> Protecting the environment
+> Economic protection for individuals (via regulation, and civil courts)
+> Increasing general happiness and decreasing level of stress or fear
+> Regulation of businesses
+> Enforcing moral codes (e.g. against drug use)
+> Supporting churches and organized religion
+> Improving health care access, quality, and efficiency
+> Maximizing individual economic efficiency (tax rates, commute times, 
+> etc.)
+> Disaster recovery, loss prevention, and infrastructure resilience
+> Mental illness and addiction treatment
+> Maximizing the median standard of living
+> Preservation of other cultures and traditions
+> Increasing overall economic efficiency or GDP
+> Improving individual health, safety, and/or lifespan
+> Age and benefit level for retirement
+> Managing per capita resource consumption (energy, land, minerals, etc.)
+> Ensuring a minimum standard of living (housing and wage supplements, 
+> etc.)
+> Diplomacy and international aid
+> Compensating for individuals with disabilities
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: 
+> http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180722/6880067a/attachment.html>
+
+From npconner at earthlink.net  Sun Jul 22 23:14:48 2018
+From: npconner at earthlink.net (Ned Conner)
+Date: Sun, 22 Jul 2018 20:14:48 -0700
+Subject: [MG] Fwd: Re:  The Will Of The People
+In-Reply-To: <CACobxW3XTgWT2yGqJQr9c08yAKS9=kc16Nf7SqFQYfAn+h=_Uw@mail.gmail.com>
+References: <CACobxW3XTgWT2yGqJQr9c08yAKS9=kc16Nf7SqFQYfAn+h=_Uw@mail.gmail.com>
+Message-ID: <2a6d0bcf-1e7e-0caa-1eaa-ce688ccb8d2e@earthlink.net>
+
+(My bad -- my email client tricked me, and sent my email not to the list)
+
+
+-------- Forwarded Message --------
+Subject: 	Re: [MG] The Will Of The People
+Date: 	Sun, 22 Jul 2018 11:53:12 -0600
+From: 	Scott Raney <metamerman at gmail.com>
+To: 	Ned Conner <npconner at earthlink.net>
+
+
+
+On Sat, Jul 21, 2018 at 1:30 PM Ned Conner <npconner at earthlink.net> wrote:
+
+> This approach to enabling/empowering democracy seems to me to be too
+> "purely abstract" to be effective, for a combination of two reasons:
+
+As opposed to what we have now, where not only does the executive
+branch not know what we want, but *we* don't even know what we
+(collectively) want and so there's no way to even judge the quality of
+the management?
+
+> 1. When a proposal is "purely abstract" (as all of the line-items are),
+> it is left to the executive to decide (undemocratically) what the
+> concrete manifestations of the abstractions will be.
+
+Not exactly: Individual proposals still have to voted on by The
+People. Again, the main purposes of this list are to find proxy
+matches and so that the managers can use this information when
+creating new policy proposals and budget items.
+
+> 2. Those executives will be operating under to the Rules For Rulers
+> (beyond any concretely effective vote-driven democratic control).
+>                      https://youtu.be/rStL7niR7gs
+
+It's a nice story, but unfortunately really only describes the most
+simplistic and primitive form of power, kleptocracy, which is seen
+only in the very poorest and least developed places like Venezuela and
+North Korea, notably excluding Russia which is a special case because
+of the unique one-time ability for Putin to distribute massive wealth
+in state assets to his cronies (or people willing to become his
+cronies). Far more powerful, and far more common, is rule based on
+ideology which that video didn't address *at all*: Hitler, Stalin,
+Mao, Castro, and even wannabe dictators like Trump and Erdogan  didn't
+rely primarily on any sort of monetary compensation for themselves or
+their "keys" to achieve their goals, but gained and maintained power
+by exploiting ideology in their "keys" and in The People (particularly
+nationalism, but also including happy talk about
+communism/fascism/some religion or other/etc.) The solution, of
+course, is not to hope for benevolent dictators, but instead to
+severely restrict the power of the executive branch, including having
+a very simple way to remove them (such as when their popularity drops
+below that of some obvious replacement candidate, as described in
+http://www.matchism.org/managers/)
+
+> And, in voting such a list, I cannot decide how much budget to allocate
+> to each item without knowing exactly in detail *how* the money will be
+> spent.
+
+Right, which is why I'm inclined *not* to try to build the budgeting
+system on top of this assessment. Besides the relative size issue you
+mention, there is also a big problem with the lack of a one to one
+mapping of items in the two domains. For example under the "minimizing
+inequality" heading one would have to include a wide range of budget
+items from job training to wage and housing subsidies to tax rates and
+even what is taxed. While it'd be nice to have simplistic items like
+these at least as category headings, it may have to suffice to have
+the high-level overview of the budgeting system mirror something like
+the organizational structure of the executive branch.
+
+>      For example, if money allotted to Education is going to be spent in
+> support of the factory-school classroom teacher model that is currently
+> dominant, then I will vote that zero money be directed to Education. But
+> if the money will be spent on developing and making freely available a
+> really good online curriculum (that will have a near-zero marginal cost
+> per student), that has a "Tutoring On-Line On-Call" system available to
+> deal with potholes in the curriculum, then I will want to vote big bucks
+> to Education.
+
+Right: This is a job for proposals and maybe budgeting, not for a
+simple "will of the people" assessment. But maybe this also means that
+this particular line item should be tweaked, perhaps like I did with
+that other big-budget/high-conflict item, health care:
+Improving health care access, quality, and efficiency
+
+> I look forward to reading the newly revised Matchism Manifesto (when I
+> can get to it), and am very happy to see that your project continues to
+> progress.
+
+Next up is beta 3 for proxyfor.me. This run is going to be based on
+local proposals (from cities in Colorado), and will include
+authentication, at least for voters in Colorado: I've ordered the
+state-wide voter database and the state has an on-line form where you
+can look up your your ID and so we can use that for validation rather
+than having to deal with sending out postcards to every voter. This
+should work well for testing purposes, although I know it's going to
+be tough to extend this design to other localities, at least until The
+People start demanding some transparency: In some states (notably
+Texas) there is no statewide database and so basically no one actually
+knows what things like participation rates and party affiliation are.
+Instead you have to contact and pay a fee to *each county* to build up
+the database yourself which near as I can tell no one has done. My
+guess as to why it's like that is that this design facilitates
+gerrymandering because it makes it practically impossible for any
+outsider to run their own analysis on where the district boundary
+lines are (Texas, perhaps not coincidentally, being one of the most
+gerrymandered states in the country). In other states the buying
+database is prohibitively expensive (it's $50 in Colorado, but $500 in
+Oregon, for example) or there are other restrictions on getting it.
+   Regards,
+     Scott
+
+On 7/21/2018 6:14 AM, Scott Raney wrote:
+(snip)
+> Please share your perception of how their current government manages
+> the resources (time, money, attention) it expends on these items, on a
+> scale of 1 to 7, with 1 being "Way too little", through "About right",
+> to 7 being "Way too much":
+>
+> Immigrants and refugees
+> Children's health and welfare
+> Minimizing degree of economic inequality
+> Education
+> Crime and loss prevention (via police and criminal courts)
+> National security/defense
+> Acquisition, maintenance, and preservation of parks and open space
+> Economic incentives and protections for corporations
+> Infrastructure development/maintenance (transportation, utilities, etc.)
+> Scientific and technological research
+> Minimizing government spending and deficits/debt/taxes
+> Trade policy and protecting local jobs
+> An independent press/media
+> Protecting the environment
+> Economic protection for individuals (via regulation, and civil courts)
+> Increasing general happiness and decreasing level of stress or fear
+> Regulation of businesses
+> Enforcing moral codes (e.g. against drug use)
+> Supporting churches and organized religion
+> Improving health care access, quality, and efficiency
+> Maximizing individual economic efficiency (tax rates, commute times, etc.)
+> Disaster recovery, loss prevention, and infrastructure resilience
+> Mental illness and addiction treatment
+> Maximizing the median standard of living
+> Preservation of other cultures and traditions
+> Increasing overall economic efficiency or GDP
+> Improving individual health, safety, and/or lifespan
+> Age and benefit level for retirement
+> Managing per capita resource consumption (energy, land, minerals, etc.)
+> Ensuring a minimum standard of living (housing and wage supplements, etc.)
+> Diplomacy and international aid
+> Compensating for individuals with disabilities
+>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180722/2f471c5a/attachment-0001.html>
+
+From npconner at earthlink.net  Mon Jul 23 01:46:16 2018
+From: npconner at earthlink.net (Ned Conner)
+Date: Sun, 22 Jul 2018 22:46:16 -0700
+Subject: [MG] The Will OF The People
+Message-ID: <5b8cf011-1def-9592-dd61-8690c64167b9@earthlink.net>
+
+> On Sat, Jul 21, 2018 at 1:30 PM Ned Conner<npconner at earthlink.net>  wrote:
+>
+>> This approach to enabling/empowering democracy seems to me to be too
+>> "purely abstract" to be effective, for a combination of two reasons:
+> As opposed to what we have now, where not only does the executive
+> branch not know what we want, but*we*  don't even know what we
+> (collectively) want and so there's no way to even judge the quality of
+> the management?
+My suggestion is that having The Proxies respond to the items of your 
+purely abstract list would not usefully reveal "what we want". There 
+would still be no valid way to judge the quality of the management. The 
+items of the list are too abstract, vague, and overlapped.
+
+Whether responses to the list could be used for proxy matching purposes 
+is an empirical question. (Given that I myself would not be able to 
+respond to the list as directed because absolutely crucial information 
+is missing from the proposal, I doubt that it would be.)
+
+Whether managers would find the information useful when creating new 
+policy proposals and budget items would depend on what the managers were 
+trying to accomplish. Again, given how abstract, vague, and overlapped 
+the items of the list are, the information would probably be mainly 
+useful as material to be used in political speechifying.
+
+>> 1. When a proposal is "purely abstract" (as all of the line-items are),
+>> it is left to the executive to decide (undemocratically) what the
+>> concrete manifestations of the abstractions will be.
+> Not exactly: Individual proposals still have to voted on by The
+> People. Again, the main purposes of this list are to find proxy
+> matches and so that the managers can use this information when
+> creating new policy proposals and budget items.
+In keeping with rule #2 of the Rules for Rulers, the power puppeteers 
+behind the "public face" political elite (consisting of the Globality 
+Manager together with the Locality Managers) can effectively eliminate 
+The Proxies as one of its keys by presenting a steady stream (four per 
+week) of "harmless" proposals to The Proxies, thereby keeping them fully 
+occupied doing nothing.
+
+"Harmless" in this context means "not interfering with the substantive 
+plots and plans and profits of the puppeteers".
+
+The proposal at hand (having The Proxies respond to the list below) is a 
+great example of a harmless proposal. The original dozen proposals on 
+proxyfor.me provide other great examples of harmless proposals: deciding 
+whether to extend legal personhood to chimpanzees, deciding whether to 
+shut down SETI, deciding whether to mandate "Idaho Stop" ordinances 
+globally, etc. It only takes four harmless proposals per week to 
+entirely neutralize The Proxies as a political force in global governance.
+
+(From the perspective of the power puppeteers, firing Managers is 
+another class of harmless proposals, since the puppeteers can easily 
+have full control of who gets into the replacement pools. It would work 
+just fine for the puppeteers for The Proxies to fire four Managers per 
+week, forever. That would use up all the democratic decisionmaking, 
+harmlessly.)
+
+>
+>> 2. Those executives will be operating under to the Rules For Rulers
+>> (beyond any concretely effective vote-driven democratic control).
+>>                       https://youtu.be/rStL7niR7gs
+> It's a nice story, but unfortunately really only describes the most
+> simplistic and primitive form of power, kleptocracy, which is seen
+> only in the very poorest and least developed places like Venezuela and
+> North Korea, notably excluding Russia which is a special case because
+> of the unique one-time ability for Putin to distribute massive wealth
+> in state assets to his cronies (or people willing to become his
+> cronies). Far more powerful, and far more common, is rule based on
+> ideology which that video didn't address*at all*: Hitler, Stalin,
+> Mao, Castro, and even wannabe dictators like Trump and Erdogan  didn't
+> rely primarily on any sort of monetary compensation for themselves or
+> their "keys" to achieve their goals, but gained and maintained power
+> by exploiting ideology in their "keys" and in The People (particularly
+> nationalism, but also including happy talk about
+> communism/fascism/some religion or other/etc.) The solution, of
+> course, is not to hope for benevolent dictators, but instead to
+> severely restrict the power of the executive branch, including having
+> a very simple way to remove them (such as when their popularity drops
+> below that of some obvious replacement candidate, as described in
+> http://www.matchism.org/managers/)
+It sure sounds like you didn't watch the second half of the video.
+
+Ideology does not pay the bills. You are being distracted by all of the 
+political speechifying.
+
+None of the arrangements discussed on the Managers page, and none of the 
+arrangements discussed on The System page, do anything to significantly 
+restrict the power of the executive branch. Individual Managers will 
+come and go, but the power of the executive branch is entirely 
+unrestrained. You are conflating "the executive branch" with "the Manager".
+
+> (snip)
+>> Please share your perception of how their current government manages
+>> the resources (time, money, attention) it expends on these items, on a
+>> scale of 1 to 7, with 1 being "Way too little", through "About right",
+>> to 7 being "Way too much":
+>>
+>> Immigrants and refugees
+>> Children's health and welfare
+>> Minimizing degree of economic inequality
+>> Education
+>> Crime and loss prevention (via police and criminal courts)
+>> National security/defense
+>> Acquisition, maintenance, and preservation of parks and open space
+>> Economic incentives and protections for corporations
+>> Infrastructure development/maintenance (transportation, utilities, etc.)
+>> Scientific and technological research
+>> Minimizing government spending and deficits/debt/taxes
+>> Trade policy and protecting local jobs
+>> An independent press/media
+>> Protecting the environment
+>> Economic protection for individuals (via regulation, and civil courts)
+>> Increasing general happiness and decreasing level of stress or fear
+>> Regulation of businesses
+>> Enforcing moral codes (e.g. against drug use)
+>> Supporting churches and organized religion
+>> Improving health care access, quality, and efficiency
+>> Maximizing individual economic efficiency (tax rates, commute times, etc.)
+>> Disaster recovery, loss prevention, and infrastructure resilience
+>> Mental illness and addiction treatment
+>> Maximizing the median standard of living
+>> Preservation of other cultures and traditions
+>> Increasing overall economic efficiency or GDP
+>> Improving individual health, safety, and/or lifespan
+>> Age and benefit level for retirement
+>> Managing per capita resource consumption (energy, land, minerals, etc.)
+>> Ensuring a minimum standard of living (housing and wage supplements, etc.)
+>> Diplomacy and international aid
+>> Compensating for individuals with disabilities
+>>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20180722/98ba1002/attachment.html>
+
+From metamerman at gmail.com  Mon Jul 23 16:28:16 2018
+From: metamerman at gmail.com (Scott Raney)
+Date: Mon, 23 Jul 2018 14:28:16 -0600
+Subject: [MG] The Will OF The People
+In-Reply-To: <5b8cf011-1def-9592-dd61-8690c64167b9@earthlink.net>
+References: <5b8cf011-1def-9592-dd61-8690c64167b9@earthlink.net>
+Message-ID: <CACobxW0O4hfdZ2AQ9iuzxiUZW7XEFiZdpYS_v=mvSwPQGUXcjg@mail.gmail.com>
+
+On Sun, Jul 22, 2018 at 11:46 PM Ned Conner <npconner at earthlink.net> wrote:
+
+I got about half way through this response when it became clear that
+one big problem is that Ned and I are talking about different versions
+of the Matchism architecture. The major changes in the more recent
+versions (that he's apparently not read), and which you all need to
+read to have any hope of having a productive conversation about, are
+available as:
+http://www.matchism.org/will/
+http://www.matchism.org/system/
+http://www.matchism.org/managers/
+
+> My suggestion is that having The Proxies respond to the items of your purely abstract list would not usefully reveal "what we want". There would still be no valid way to judge the quality of the management. The items of the list are too abstract, vague, and overlapped.
+>
+
+Again, as opposed to what? If your claim is that by having *everyone*
+fill out this list we learn exactly zero, then you're just being a
+troll. I'd go so far as to predict that by taking this simple step
+we'd learn more than *everything* we get from polls plus voting
+records plus protests in the streets plus every other source of
+information we have on the Will Of The People now. What information do
+you think we need, and how would you propose to *practically* gather
+it?
+
+> Whether responses to the list could be used for proxy matching purposes is an empirical question. (Given that I myself would not be able to respond to the list as directed because absolutely crucial information is missing from the proposal, I doubt that it would be.)
+>
+
+Again, what would you propose instead? Require *everyone* to write a
+dissertation on their preferred outcome before they can get quality
+representation? I also think you overestimate the difficulty of this
+task, noting that it's generally about "resources" (attention, time,
+money, etc), not just about budget items. Which why IMHO this is a
+better assessment tool than even having everyone do a budget, which of
+course would be impractical anyway because of how long it would take
+them (quantity being far more important than quality when assessing
+TWOTP IMHO).
+
+> Whether managers would find the information useful when creating new policy proposals and budget items would depend on what the managers were trying to accomplish. Again, given how abstract, vague, and overlapped the items of the list are, the information would probably be mainly useful as material to be used in political speechifying.
+>
+
+And I think you're just being cynical, a classic case of the good
+being the enemy of the great. Large discrepancies in responses to this
+list would be hugely informative as to what the Will Of The People
+really is, and I'm sure we'll all be very surprised by the outcome. As
+for using this for demagoguery, again, I'd recommend reading the
+section on Managers: There's no need (or provision) for this in the
+executive branch selection system I've proposed. And I also think that
+it'd be useful information for objectively assessing Managers: If
+someone's been in that office for a year and there has been no shift
+in the Will Of The People, that's clear and convincing evidence of
+incompetence.
+
+(snip, references to obsolete versions. Oh, and you also misunderstood
+the proposal in the last beta test of proxyfor.me: It didn't have
+anything to do with SETI: It was about *broadcast*, not reception).
+
+> It sure sounds like you didn't watch the second half of the video.
+>
+> Ideology does not pay the bills. You are being distracted by all of the political speechifying.
+
+Actually I did watch it all, and appreciated the reference to HOAs,
+because that's how I got involved in this social engineering project
+in the first place. And yet my experience is exactly the opposite of
+what that video described which doesn't even mention personality as a
+factor in who rules and how. And yet my experience was almost exactly
+what Altemeyer found in his Global Change Game experiment, which, not
+to be too fine a point on it, I consider to be *the* prerequisite
+reading to doing anything in this field:
+http://matchism.org/refs/Altemeyer_2003_RWAInheritEarth.pdf
+
+I still consider ideology (Communist, Libertarian, US Democrat vs
+Republican, etc.) to be the primary driver of executive branch
+decisionmaking, but personality (e.g., the SDAP classification) is a
+close second. And this is what my experience with that dysfunctional
+HOA showed: It was run by a SD President (although additionally he was
+a psychopath) with the rest of the board being authoritarian, exactly
+like the SD + A condition in Altemeyer's experiment. And the outcome
+was the same: The HOA was completely mismanaged and was a couple of
+million dollars behind in their maintenance. And yet none of the board
+members were getting paid, nor was there even any overt corruption
+(just like in Altemeyer's experiment: Put an SD or P in charge of a
+bunch of As and corruption actually *decreases*). So, again, IMHO that
+video has completely missed the point that the two most powerful
+forces in hierarchical government have nothing to do with money or
+other resources. For SDAPs, wielding power is its own reward.
+
+> None of the arrangements discussed on the Managers page, and none of the arrangements discussed on The System page, do anything to significantly restrict the power of the executive branch. Individual Managers will come and go, but the power of the executive branch is entirely unrestrained. You are conflating "the executive branch" with "the Manager".
+>
+
+Being able to replace the Manager with only a month's delay is IMHO
+the only power we really need. Nevertheless, I am considering the idea
+of requiring putting any "executive orders" into The System and
+subject them to a simple approval process. For example, if the
+positive rating of an order drops below 25%, it is automatically
+rendered null and void. The trick here is to allow The People to stop
+a policy without having to replace the manager, yet also produce
+something robust enough that it's not subject to attempts to game the
+system (brigading, for-pay petition drives, etc.).
+  Regards,
+    Scott
+
+> (snip)
+>
+> Please share your perception of how their current government manages
+> the resources (time, money, attention) it expends on these items, on a
+> scale of 1 to 7, with 1 being "Way too little", through "About right",
+> to 7 being "Way too much":
+>
+> Immigrants and refugees
+> Children's health and welfare
+> Minimizing degree of economic inequality
+> Education
+> Crime and loss prevention (via police and criminal courts)
+> National security/defense
+> Acquisition, maintenance, and preservation of parks and open space
+> Economic incentives and protections for corporations
+> Infrastructure development/maintenance (transportation, utilities, etc.)
+> Scientific and technological research
+> Minimizing government spending and deficits/debt/taxes
+> Trade policy and protecting local jobs
+> An independent press/media
+> Protecting the environment
+> Economic protection for individuals (via regulation, and civil courts)
+> Increasing general happiness and decreasing level of stress or fear
+> Regulation of businesses
+> Enforcing moral codes (e.g. against drug use)
+> Supporting churches and organized religion
+> Improving health care access, quality, and efficiency
+> Maximizing individual economic efficiency (tax rates, commute times, etc.)
+> Disaster recovery, loss prevention, and infrastructure resilience
+> Mental illness and addiction treatment
+> Maximizing the median standard of living
+> Preservation of other cultures and traditions
+> Increasing overall economic efficiency or GDP
+> Improving individual health, safety, and/or lifespan
+> Age and benefit level for retirement
+> Managing per capita resource consumption (energy, land, minerals, etc.)
+> Ensuring a minimum standard of living (housing and wage supplements, etc.)
+> Diplomacy and international aid
+> Compensating for individuals with disabilities
+
+
+From npconner at earthlink.net  Wed Jul 25 02:15:36 2018
+From: npconner at earthlink.net (Ned Conner)
+Date: Tue, 24 Jul 2018 23:15:36 -0700
+Subject: [MG] The Will OF The People
+In-Reply-To: <CACobxW0O4hfdZ2AQ9iuzxiUZW7XEFiZdpYS_v=mvSwPQGUXcjg@mail.gmail.com>
+References: <5b8cf011-1def-9592-dd61-8690c64167b9@earthlink.net>
+	<CACobxW0O4hfdZ2AQ9iuzxiUZW7XEFiZdpYS_v=mvSwPQGUXcjg@mail.gmail.com>
+Message-ID: <ee0c0642-2506-f0f8-fcbb-a1129b3022a9@earthlink.net>
+
+
+
+On 7/23/2018 1:28 PM, Scott Raney wrote:
+> I got about half way through this response when it became clear that
+> one big problem is that Ned and I are talking about different versions
+> of the Matchism architecture. The major changes in the more recent
+> versions (that he's apparently not read), and which you all need to
+> read to have any hope of having a productive conversation about, are
+> available as:
+> http://www.matchism.org/will/
+> http://www.matchism.org/system/
+> http://www.matchism.org/managers/
+Ned> Scott, I was responding to the version that your link in the 
+original email of this thread pointed to. Not sure what gave you the 
+idea that I was responding to an older version.
+>
+>> My suggestion is that having The Proxies respond to the items of your purely abstract list would not usefully reveal "what we want". There would still be no valid way to judge the quality of the management. The items of the list are too abstract, vague, and overlapped.
+>>
+> Again, as opposed to what? If your claim is that by having *everyone*
+> fill out this list we learn exactly zero, then you're just being a
+> troll. I'd go so far as to predict that by taking this simple step
+> we'd learn more than *everything* we get from polls plus voting
+> records plus protests in the streets plus every other source of
+> information we have on the Will Of The People now. What information do
+> you think we need, and how would you propose to *practically* gather
+> it?
+Category headings are not themselves targets for resource allocation. 
+Each category heading should be a "drill-down" link that enables me to 
+navigate (through sub-categories if necessary) to each and every 
+resource-allocation-target (policy, plan, program, project) that you 
+have put into the category. When I visit a particular resource target, I 
+should find all pertinent information concerning that target concisely 
+presented. At that point you can appropriately ask me appraisal and 
+preference questions concerning that particular resource target.
+>
+>> Whether responses to the list could be used for proxy matching purposes is an empirical question. (Given that I myself would not be able to respond to the list as directed because absolutely crucial information is missing from the proposal, I doubt that it would be.)
+>>
+> Again, what would you propose instead? Require *everyone* to write a
+> dissertation on their preferred outcome before they can get quality
+> representation? I also think you overestimate the difficulty of this
+> task, noting that it's generally about "resources" (attention, time,
+> money, etc), not just about budget items. Which why IMHO this is a
+> better assessment tool than even having everyone do a budget, which of
+> course would be impractical anyway because of how long it would take
+> them (quantity being far more important than quality when assessing
+> TWOTP IMHO).
+Asking me resource allocation questions about category headings, without 
+giving me any information at all about the actual allocation targets 
+that you have put into each category, is just dumb. You should follow 
+your own stated policy: whenever I am asked a question, all the 
+information I need (in order to provide an informed response) should be 
+available to me, concisely presented. (The question is not whether 
+google is my friend, but whether *you* are my friend.)
+>
+>> Whether managers would find the information useful when creating new policy proposals and budget items would depend on what the managers were trying to accomplish. Again, given how abstract, vague, and overlapped the items of the list are, the information would probably be mainly useful as material to be used in political speechifying.
+>>
+> And I think you're just being cynical, a classic case of the good
+> being the enemy of the great. Large discrepancies in responses to this
+> list would be hugely informative as to what the Will Of The People
+> really is, and I'm sure we'll all be very surprised by the outcome.
+Any large discrepancies would more likely be attributable to widely 
+varying guesses among individuals regarding what sorts of resource 
+targets have been put into each category. "Garbage In => Garbage Out". 
+(So much for being interested in the "correct vote".)
+
+But hey, the proposal is harmless. So go for it.
+> As
+> for using this for demagoguery, again, I'd recommend reading the
+> section on Managers: There's no need (or provision) for this in the
+> executive branch selection system I've proposed.
+I have read (and now re-read) the section on Managers. You frame the 
+problems that we have as being personnel problems (rather than societal 
+arrangements problems), which then leads you to seek to set up a 
+selection process that will reliably put saints and not sinners into the 
+positions of great power in your design.
+
+You claim that The People are not competent to select saints rather than 
+sinners. At the same time, you appear to claim that The People *are* 
+competent to de-select sinners that they have previously put in office.
+
+But wait! -- You claim that, actually, The People will not do the 
+selecting in practice, The Proxies will do the selecting. (The People 
+will just watch, as spectators.) Then you claim that, although The 
+People are not competent to select saints, The Proxies *are* competent 
+to select saints, and are competent to de-select sinners.
+
+These are all empirical claims. They need to be tested, harmlessly.
+
+An alternative theory regarding how the tests will go is expressed in 
+the "Rules For Rulers" video: Managers that keep their (minimized) keys 
+happy will remain in office. Those happy keys will thereby become 
+progressively wealthier, and more powerful, and better able to control 
+the pipeline of prospective Managers.(Controlling that pipeline will be 
+the primary objective of the power puppeteers.)
+
+Under this alternative theory, our problems are not usefully framed as 
+personnel problems.? To be solved, the problems must be framed as 
+societal arrangements problems. We need to not have (at all) positions 
+of great power. Which means (among other things) no hierarchies.
+>   And I also think that
+> it'd be useful information for objectively assessing Managers: If
+> someone's been in that office for a year and there has been no shift
+> in the Will Of The People, that's clear and convincing evidence of
+> incompetence.
+If *you* don't know what the actual resource targets are in each of your 
+33 categories, then it is a pretty sure bet that nobody else will 
+either. Alternatively, if you *do* know what the resource targets are in 
+each category, then you should share that information with the rest of 
+us. To the extent that we know what the resource targets are, and to the 
+extent that the performance of the resource targets is objectively 
+measured and reported, we can indeed use that knowledge to objectively 
+assess the performance of the executive branches.
+>
+> (snip, references to obsolete versions.
+I was providing examples of "harmless" proposals. Here it is again:
+> "Harmless" in this context means "not interfering with the substantive
+> plots and plans and profits of the puppeteers".
+>
+> The proposal at hand (having The Proxies respond to the list below) is a
+> great example of a harmless proposal. The original dozen proposals on
+> proxyfor.me provide other great examples of harmless proposals: deciding
+> whether to extend legal personhood to chimpanzees, deciding whether to
+> shut down SETI, deciding whether to mandate "Idaho Stop" ordinances
+> globally, etc. It only takes four harmless proposals per week to
+> entirely neutralize The Proxies as a political force in global governance.
+And, you are right. In addition to giving "Shut down SETI" as an example 
+of a harmless proposal, I could also have given "Ban broadcasting into 
+outer space" as an example of a harmless proposal. The point was to help 
+the reader understand what I mean by "harmless" proposal. The point had 
+nothing to do with any differences between old and new versions of the 
+Matchism Manifesto. Harmless proposals are just as problematic for the 
+new version as for the older versions.
+>   Oh, and you also misunderstood
+> the proposal in the last beta test of proxyfor.me: It didn't have
+> anything to do with SETI: It was about *broadcast*, not reception).
+>
+>> It sure sounds like you didn't watch the second half of the video.
+>>
+>> Ideology does not pay the bills. You are being distracted by all of the political speechifying.
+> Actually I did watch it all, and appreciated the reference to HOAs,
+> because that's how I got involved in this social engineering project
+> in the first place. And yet my experience is exactly the opposite of
+> what that video described which doesn't even mention personality as a
+> factor in who rules and how. And yet my experience was almost exactly
+> what Altemeyer found in his Global Change Game experiment, which, not
+> to be too fine a point on it, I consider to be *the* prerequisite
+> reading to doing anything in this field:
+> http://matchism.org/refs/Altemeyer_2003_RWAInheritEarth.pdf
+Altemeyer's findings are certainly valid, but they do not frame the 
+problem-space in a helpful way. (Actually, Altemeyer's findings are not 
+doing the framing -- you are.) You are "betting your farm" on the 
+ability of The Proxies to select saints rather than sinners for the 
+positions of great power in your design. And then you are further 
+betting that when saints are selected, said saints will not be governed 
+by the Rules For Rulers. Good luck with those bets.
+> I still consider ideology (Communist, Libertarian, US Democrat vs
+> Republican, etc.) to be the primary driver of executive branch
+> decisionmaking, but personality (e.g., the SDAP classification) is a
+> close second.
+So long as our societal arrangements are such that they vest particular 
+individuals (plutocrats, Managers) with great power to make 
+public-matter decisions for their own personal benefit, we (the rest of 
+us: humanity, nature, future generations) will continue to suffer the 
+consequences of those decisions. We can fix that problem by switching to 
+societal arrangements that do *not* vest any particular individuals with 
+great power to make public-matter decisions for personal benefit.This 
+solution does not rely on our (non-existent) ability to alter the 
+ideologies and/or personalities of those vested individuals, nor does it 
+rely on our (non-existent) ability to select only incorruptible saints 
+to fill those empowered roles..
+> And this is what my experience with that dysfunctional
+> HOA showed: It was run by a SD President (although additionally he was
+> a psychopath) with the rest of the board being authoritarian, exactly
+> like the SD + A condition in Altemeyer's experiment. And the outcome
+> was the same: The HOA was completely mismanaged and was a couple of
+> million dollars behind in their maintenance. And yet none of the board
+> members were getting paid, nor was there even any overt corruption
+> (just like in Altemeyer's experiment: Put an SD or P in charge of a
+> bunch of As and corruption actually *decreases*).
+You have experienced the problems, but you have not yet experienced any 
+societal arrangement solutions to those problems. You have placed your 
+bets, but the "solutions races" that will demonstrate which solutions 
+work and which do not, have not even started yet.
+> So, again, IMHO that
+> video has completely missed the point that the two most powerful
+> forces in hierarchical government have nothing to do with money or
+> other resources. For SDAPs, wielding power is its own reward.
+You are conflating motivation with means.
+
+For SDAPs, wielding power (and gaining ever more power) is its own 
+reward. That provides their motivation.
+
+The Rules For Rulers provide the means -- they are all about how to 
+acquire, retain, and increase that power.
+
+SDAPs obey the Rules For Rulers, and so do non-SDAPs that arrive in 
+seats of power (if, for whatever reasons, they wish to remain in power).
+
+>
+>> None of the arrangements discussed on the Managers page, and none of the arrangements discussed on The System page, do anything to significantly restrict the power of the executive branch. Individual Managers will come and go, but the power of the executive branch is entirely unrestrained. You are conflating "the executive branch" with "the Manager".
+>>
+> Being able to replace the Manager with only a month's delay is IMHO
+> the only power we really need.
+This is the bet you are placing, that this arrangement will be enough. 
+You have no Plan B, no hedge, no "checks and balances".
+> Nevertheless, I am considering the idea
+> of requiring putting any "executive orders" into The System and
+> subject them to a simple approval process. For example, if the
+> positive rating of an order drops below 25%, it is automatically
+> rendered null and void. The trick here is to allow The People to stop
+> a policy without having to replace the manager, yet also produce
+> something robust enough that it's not subject to attempts to game the
+> system (brigading, for-pay petition drives, etc.).
+Here again we run into the "harmless proposals" problem. If the Manager 
+floods the democratic voting process with executive orders (4 per week 
+or whatever), he uses up all the available democratic decisionmaking -- 
+The Proxies are effectively neutralized as a force in global governance.
+>    Regards,
+>      Scott
+>
+>> (snip)
+>>
+>> Please share your perception of how their current government manages
+>> the resources (time, money, attention) it expends on these items, on a
+>> scale of 1 to 7, with 1 being "Way too little", through "About right",
+>> to 7 being "Way too much":
+>>
+>> Immigrants and refugees
+>> Children's health and welfare
+>> Minimizing degree of economic inequality
+>> Education
+>> Crime and loss prevention (via police and criminal courts)
+>> National security/defense
+>> Acquisition, maintenance, and preservation of parks and open space
+>> Economic incentives and protections for corporations
+>> Infrastructure development/maintenance (transportation, utilities, etc.)
+>> Scientific and technological research
+>> Minimizing government spending and deficits/debt/taxes
+>> Trade policy and protecting local jobs
+>> An independent press/media
+>> Protecting the environment
+>> Economic protection for individuals (via regulation, and civil courts)
+>> Increasing general happiness and decreasing level of stress or fear
+>> Regulation of businesses
+>> Enforcing moral codes (e.g. against drug use)
+>> Supporting churches and organized religion
+>> Improving health care access, quality, and efficiency
+>> Maximizing individual economic efficiency (tax rates, commute times, etc.)
+>> Disaster recovery, loss prevention, and infrastructure resilience
+>> Mental illness and addiction treatment
+>> Maximizing the median standard of living
+>> Preservation of other cultures and traditions
+>> Increasing overall economic efficiency or GDP
+>> Improving individual health, safety, and/or lifespan
+>> Age and benefit level for retirement
+>> Managing per capita resource consumption (energy, land, minerals, etc.)
+>> Ensuring a minimum standard of living (housing and wage supplements, etc.)
+>> Diplomacy and international aid
+>> Compensating for individuals with disabilities
+>
+
+
+
+From metamerman at gmail.com  Wed Jul 25 15:58:46 2018
+From: metamerman at gmail.com (Scott Raney)
+Date: Wed, 25 Jul 2018 13:58:46 -0600
+Subject: [MG] The Will OF The People
+In-Reply-To: <ee0c0642-2506-f0f8-fcbb-a1129b3022a9@earthlink.net>
+References: <5b8cf011-1def-9592-dd61-8690c64167b9@earthlink.net>
+	<CACobxW0O4hfdZ2AQ9iuzxiUZW7XEFiZdpYS_v=mvSwPQGUXcjg@mail.gmail.com>
+	<ee0c0642-2506-f0f8-fcbb-a1129b3022a9@earthlink.net>
+Message-ID: <CACobxW0jUzZzhnO=Gr_AkgHGwzGMKJEDYbWhRf=568WdURfWcg@mail.gmail.com>
+
+On Wed, Jul 25, 2018 at 12:22 AM Ned Conner <npconner at earthlink.net> wrote:
+
+> Ned> Scott, I was responding to the version that your link in the
+> original email of this thread pointed to. Not sure what gave you the
+> idea that I was responding to an older version.
+
+Because of the misunderstandings evident in your post:
+1) There is only 1 vote per week, not 4 as you implied. In the final
+implementation there might be 2 (one local, one global), but it may be
+sufficient to do something like alternate weeks instead.
+
+2) The manager-replacement process is completely separate from the
+proposal queue: Stuffing the queue would have no impact on the ability
+to remove a manager. Indeed, it would only accelerate their
+replacement because people would quickly recognize this attempt to
+manipulate them.
+
+3) Proposal stuffing wouldn't work anyway because the queue is sorted
+automatically by vote count, not by the manager (i.e., you could still
+fire a manager by proposal if enough people vote for it). There will
+probably be some need for an "emergency vote" over-ride to give the
+manager the option of moving a vote on something time-sensitive
+(disaster response, declaration of war, etc.) to the top of the queue,
+but of course if they tried to move up a non-substantive proposal
+using this method it would be a big red flag that they're trying to
+game the system and so need to be replaced...
+
+I'd also like to take the opportunity to correct the misrepresentation
+that the proposals in the last beta test were non-substantive. You may
+wish to classify them as such, but this would only expose your naivety
+about what our existing governments are actually doing now: *Most* of
+the stuff they vote on is far less substantive than *any* of the
+proposals in that queue, including renaming buildings, recognizing
+"national carrot week" or whatever, creating unfunded mandates, or
+voting on things they know aren't ever going to be made law (like the
+Republicans in the US congress voting over 60 times to repeal
+Obamacare).
+
+> Category headings are not themselves targets for resource allocation.
+
+They're not a budget, sure. But that's not what they're being used for here...
+
+> Each category heading should be a "drill-down" link that enables me to
+> navigate (through sub-categories if necessary) to each and every
+> resource-allocation-target (policy, plan, program, project) that you
+> have put into the category. When I visit a particular resource target, I
+> should find all pertinent information concerning that target concisely
+> presented. At that point you can appropriately ask me appraisal and
+> preference questions concerning that particular resource target.
+
+No, that's a "budget" which is a completely different animal, and one
+that only "activerts" will be willing to fill out (i.e., it's a recipe
+for reproducing our existing governments). I've been told that even
+the 30+ items on the list now is way too many and that I'll be lucky
+to get people to fill out the mini-match (3 items from the personality
+assessment, 3 from the "will" list). Again, the main goal here is to
+identify people who would vote like you would, with secondary goals of
+gaining some insight as to what people (as a whole!) are dissatisfied
+with and possibly being able to use shifts in that to evaluate the
+quality of the executive branch.
+
+> Any large discrepancies would more likely be attributable to widely
+> varying guesses among individuals regarding what sorts of resource
+> targets have been put into each category. "Garbage In => Garbage Out".
+> (So much for being interested in the "correct vote".)
+
+Again, this isn't a budget, it's a matching tool. Trying to dismiss it
+by claiming irrationality or low information you have it exactly
+backwards: Those are the important things to match on! Both of those
+issues should be dealt with at the proposal-voting architecture, not
+trying to change people by requiring them to have fully-informed
+general perceptions about how society is working.
+
+> I have read (and now re-read) the section on Managers. You frame the
+> problems that we have as being personnel problems (rather than societal
+> arrangements problems), which then leads you to seek to set up a
+> selection process that will reliably put saints and not sinners into the
+> positions of great power in your design.
+
+Obviously you didn't understand it, then. I'm only proposing to put
+competent people in executive decisionmaking roles. They will still
+most commonly be SDAP (i.e., not "saints"), but will at least be
+competent. The biggest problem with Donald Trump isn't that he's a
+psychopath, it's that he's incompetent. The same was true of Stalin
+and Mao, but notably not of Hitler. I'm with John Gill on this one
+(http://memory-alpha.wikia.com/wiki/John_Gill): The problem with
+Hitler wasn't that he was a SDAP, it was the fact that he was actually
+competent but The People had no way to direct him away from war and
+persecution and keep him focused on keeping the trains running on
+time.
+
+> You claim that The People are not competent to select saints rather than
+> sinners. At the same time, you appear to claim that The People *are*
+> competent to de-select sinners that they have previously put in office.
+
+I suppose this proposal runs the risk that some people will base their
+approval on moral or character grounds (an inappropriate criteria
+IMHO), but I think Donald Trump is a very good counterexample for that
+argument: People voted for him because they (mistakenly, as it turns
+out) thought that he was competent and incorruptible enough to "fix"
+the broken system and they seemed to not care at all about the fact
+that he was by pretty much everyone's definition a "sinner". But if
+you just look at the way approval ratings works in the real world,
+Trump never would have been installed as Manager under my system, and
+would be quickly replaced if he had somehow managed to stumble into
+it. Instead we'd now have Charlie Baker (governor of Massachusetts,
+and the governor who has the highest approval rating in the country).
+It's true that I don't believe people are competent to choose a
+leader, but I do believe that they are capable of recognizing whether
+they've got a good or bad one.
+
+> But wait! -- You claim that, actually, The People will not do the
+> selecting in practice, The Proxies will do the selecting. (The People
+> will just watch, as spectators.)
+
+No, everyone gets a say in Managers (it'll be a form with a top level
+menu link to it). Proxies don't apply here because there's no need:
+It's not too burdensome to express an opinion on a few people at each
+level of government.
+
+> These are all empirical claims. They need to be tested, harmlessly.
+
+Agreed, although I think there's not too much worry about the
+"harmlessly" part because this system can run in parallel with our
+existing system indefinitely. You worry too much: Our current system
+is so screwed up that unless you propose a dictatorship (or a
+government that is so incompetent that it quickly devolves into one)
+we could hardly do any worse.
+
+> An alternative theory regarding how the tests will go is expressed in
+> the "Rules For Rulers" video: Managers that keep their (minimized) keys
+> happy will remain in office. Those happy keys will thereby become
+> progressively wealthier, and more powerful, and better able to control
+> the pipeline of prospective Managers.(Controlling that pipeline will be
+> the primary objective of the power puppeteers.)
+
+How can they do that, though? Anyone can submit their name to the
+candidate queue. Really the only risk I see is that people or groups
+will *campaign* for one of the names on the list (either the current
+manager or some replacement that would be suitable to the oligarchs).
+This should be made explicitly illegal, but I'd also expect that a
+social/cultural shift will occur as part of that (i.e., if you see any
+advertising or other propaganda for a candidate it's your civic duty
+to change your rating of them to "disapprove").
+
+> Under this alternative theory, our problems are not usefully framed as
+> personnel problems.  To be solved, the problems must be framed as
+> societal arrangements problems. We need to not have (at all) positions
+> of great power. Which means (among other things) no hierarchies.
+
+Good luck with that. Matchism is designed to be implementable. Any
+system that proposes eliminating hierarchies I'm quite sure is not.
+It'd also be amateur social engineering: Supporting hierarchies is as
+natural to humans as talking and breathing. Remember: The goal is not
+to change humans, it's to design a system that fits them *as they
+are*.
+
+(big snip, all dealt with above, and are mostly the result of not
+understanding the *current* proposal)
+
+> So long as our societal arrangements are such that they vest particular
+> individuals (plutocrats, Managers) with great power to make
+> public-matter decisions for their own personal benefit, we (the rest of
+> us: humanity, nature, future generations) will continue to suffer the
+> consequences of those decisions.
+
+So you've never heard of a competent and non-corrupt manager at any
+level of government nor as head of a corporation nor even for
+management of an HOA? I have, many times. Even Charlie Baker I think
+is doing reasonably well, as is Colorado's governor Hickenlooper,
+though unfortunately people say he could never be elected president
+because apparently he's too geeky. Which means the problem isn't with
+the concept of hierarchy (which IMHO is clearly a requirement to have
+a functioning executive branch), its with our inability to select the
+right people into those roles (and, when necessary, to select someone
+to replace them).
+
+To get some idea of what the list would look like, I highly recommend
+this article:
+https://morningconsult.com/2018/04/12/americas-most-and-least-popular-governors/
+
+> We can fix that problem by switching to
+> societal arrangements that do *not* vest any particular individuals with
+> great power to make public-matter decisions for personal benefit.This
+> solution does not rely on our (non-existent) ability to alter the
+> ideologies and/or personalities of those vested individuals, nor does it
+> rely on our (non-existent) ability to select only incorruptible saints
+> to fill those empowered roles..
+
+Right, all it requires is massive quantities of unicorn farts to drug
+*all* people into behaving completely different from their current
+natures (i.e., apparently you plan to change them all into communists
+who will rearrange their lives so that decisionmaking can be done via
+soviets). Unlike you, I'm actually *not* proposing to change anyone or
+even expecting them to make more than a trivial effort to change the
+system. It's just to apply simple filters to keep the incompetent
+people out of the executive branch and to boost participation rates
+(by automating them) to prevent the elites from running the
+legislative branch primarily to benefit themselves like they do now.
+
+> You have experienced the problems, but you have not yet experienced any
+> societal arrangement solutions to those problems.
+
+Right, because there aren't any, and even if there were, it'd be
+impractical to implement them because changing "societal arrangements"
+is a classic Catch-22: You can't change them without a functioning
+decisionmaking system, and yet you can't change the decisionmaking
+system because the current arrangements don't allow for this. IMHO
+we've got to go outside the current system to change the
+decisionmaking system (i.e., cause a technology disruption) after
+which, if the right new system is in place, we won't *need* to change
+any "societal arrangements". Whereas going outside to change the
+"arrangements" first is a prescription for anarchy from which only a
+dictatorship (the natural state of a mob) can emerge.
+
+> You have placed your
+> bets, but the "solutions races" that will demonstrate which solutions
+> work and which do not, have not even started yet.
+
+Right: Although at present I seem to have this entire domain to myself
+because, excepting a few work-within-the-system types exactly *no one*
+seems to be working on anything beyond handwaving proposals about
+collecting and repurposing unicorn farts (and I don't even count
+Liquid Democracy and the Rousseau systems because those have already
+been clearly (and scientifically) shown to not work, so they're not
+even "proposals" at this point, just ways of wasting time and effort).
+
+> For SDAPs, wielding power (and gaining ever more power) is its own
+> reward. That provides their motivation.
+
+Agreed. Most of them would do what they do for a living wage without
+even the promise they'd get rich off it.
+
+> The Rules For Rulers provide the means -- they are all about how to
+> acquire, retain, and increase that power.
+
+No, that's not about power in the general sense, it's only about money
+(a very limited source of power).
+
+> SDAPs obey the Rules For Rulers, and so do non-SDAPs that arrive in
+> seats of power (if, for whatever reasons, they wish to remain in power).
+
+Again, does that video explain Hitler or Mao or Stalin? Or even Trump?
+ Most of the kleptocrats have already been driven out of the Trump
+administration, and even Ivanka has now closed up her business. I
+don't even think money is Trump's main motivation: He's a psychopath
+and does it more for the kicks than the money. He's not even promising
+his supporters more money, and this whole tariff thing is about
+jerking people around rather than funding his "keys". They support him
+because they'd rather see everyone's suffering match their own than
+ordinary competence from the executive branch.
+
+> > Being able to replace the Manager with only a month's delay is IMHO
+> > the only power we really need.
+> This is the bet you are placing, that this arrangement will be enough.
+> You have no Plan B, no hedge, no "checks and balances".
+
+If you can't replace the Manager, it's not an issue of "checks and
+balances", what you've got is a "failed state". Like what the US is
+now IMHO because even though just about everyone (and probably *all*
+senators and congressmen) realizes we need a different president,
+there's nothing they can do about it because there is no practical way
+to remove him.
+  Regards,
+    Scott
+
+

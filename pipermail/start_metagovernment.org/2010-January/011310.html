@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Streetwiki prototype and register mirroring
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Streetwiki%20prototype%20and%20register%20mirroring&In-Reply-To=%3C20100120142744.GB11904%40obsidian.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="011295.html">
+   <LINK REL="Next"  HREF="011287.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Streetwiki prototype and register mirroring</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Streetwiki%20prototype%20and%20register%20mirroring&In-Reply-To=%3C20100120142744.GB11904%40obsidian.zelea.com%3E"
+       TITLE="[Start] Streetwiki prototype and register mirroring">mike at zelea.com
+       </A><BR>
+    <I>Wed Jan 20 09:27:44 EST 2010</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="011295.html">[Start] Streetwiki prototype
+</A></li>
+        <LI>Next message (by thread): <A HREF="011287.html">[Start] Streetwiki prototype
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Replying to Ed (verification) and Pietro (forking);
+also mooting the idea of register mirroring (bottom):
+
+Ed Pastore wrote
+&gt;<i> I can think of so many that I don't know where to start. There are
+</I>&gt;<i> obvious ones, like an admin deleting a post they don't like, or
+</I>&gt;<i> changing a user's trust rating...  But then there are subtle things
+</I>&gt;<i> like an admin moving an issue they like to greater prominence, or
+</I>&gt;<i> authenticating a single sock puppet past the sock puppet
+</I>&gt;<i> controls. These latter sorts of things may not be caught for a long
+</I>&gt;<i> time, which is why relying on the &quot;crowd&quot; to police the admins isn't
+</I>&gt;<i> reliable. Sure, people could fork to a new engine... but only if
+</I>&gt;<i> they notice a reason to do so.
+</I>
+You mention trust levels and sock puppets.  Both come together in the
+registration lists.  Registration lists are what the voting engines
+see, so the crucial thing is to ensure they're correct.  I added a use
+case for this, with example data from the live trustserver:
+<A HREF="http://metagovernment.org/wiki/Streetwiki#Verification_of_registration_lists">http://metagovernment.org/wiki/Streetwiki#Verification_of_registration_lists</A>
+
+There should be no way for an administrator to tamper with that data.
+Can anyone see a loophole?  We should be able to prototype most of the
+verification stuff, within a week or two.  It's part of the prototype
+design.
+
+&gt;<i> If however the admin's actions had to be duplicated by three other
+</I>&gt;<i> geographically disparate admins, then the chance of any kind of tampering is
+</I>&gt;<i> extremely low.
+</I>
+This is essentially what the watchdog/verifiers do.  They duplicate -
+both data and procedures.  It should be possible for any technically
+inclined user to verify an entire voter register on her own, in this
+way.
+
+&gt;<i> Again, I understand that distributed redundant systems are no easy task,
+</I>&gt;<i> but it is something to at least keep in mind. I am not sure if these operate
+</I>&gt;<i> on the same principle, but I *think* the root nameservers are set up in a
+</I>&gt;<i> similar way:
+</I>&gt;<i> <A HREF="http://en.wikipedia.org/wiki/Root_nameserver">http://en.wikipedia.org/wiki/Root_nameserver</A>
+</I>
+They designed the Internet to be highly robust.  (You probably know,
+ARPA was a military outfit.)  I guess e-democracy has to be robust,
+too.  Redundancy is a big part of that (I agree).
+
+Pietro Speroni di Fenizio wrote:
+&gt;<i> ... The old forum broke down, and we, the old crowd, decided we
+</I>&gt;<i> wanted now to make a new forum, where we could decide how it would
+</I>&gt;<i> work. We discussed all the details, and also the name. Among us was
+</I>&gt;<i> a new person, we did not know very well. Before we finished deciding
+</I>&gt;<i> he bought the domain name, installed a standard forum, and invited
+</I>&gt;<i> everybody in. Calling it &quot;our website&quot;. But he kept all
+</I>&gt;<i> control. When we discussed this further, the community has already
+</I>&gt;<i> settled. It was starting to grow. We tried to set up a concurrent
+</I>&gt;<i> community, but the community would only visit it in the
+</I>&gt;<i> week-ends. And eventually it died... It was a great lesson.
+</I>&gt;<i>
+</I>&gt;<i>  After some years this guy lost interest in the topic, so he defined
+</I>&gt;<i> a few low level administrators to policy the system, went to live in
+</I>&gt;<i> Africa, and we pretty much lost all tracks of him. The board
+</I>&gt;<i> remained there, with its google adsense, request for donations when
+</I>&gt;<i> you sign in, and is now the top forum in its topic... Forking only
+</I>&gt;<i> makes sense if you have some really good novelty.
+</I>
+Hopefully it won't be possible for anything like that to happen within
+the e-dem infrastructure.  All essential services must be fork-able.
+Even if a fork isn't popular at first, it must be viable.  For the
+most part, I think the design of the prototype ensures this.
+
+An idea: we might improve fork-ability by enabling a form of register
+mirroring.  It would have use cases similar to vote mirroring:
+<A HREF="http://t.zelea.com/wiki/User:ThomasvonderElbe_GmxDe/Vote_mirroring#Use_cases">http://t.zelea.com/wiki/User:ThomasvonderElbe_GmxDe/Vote_mirroring#Use_cases</A>
+But instead of users free-ranging across voting engines, they would
+free-range across competing streetwikis and voter registers.  (If this
+is a good idea, I think we can probably prototype it in a few weeks.)
+
+-- 
+Michael Allan
+
+Toronto, +1 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="011295.html">[Start] Streetwiki prototype
+</A></li>
+	<LI>Next message (by thread): <A HREF="011287.html">[Start] Streetwiki prototype
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

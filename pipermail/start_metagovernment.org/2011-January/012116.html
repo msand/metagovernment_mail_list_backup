@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Hosting and collaborative development of crossforum theatre
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Hosting%20and%20collaborative%20development%20of%20crossforum%20theatre&In-Reply-To=%3C20110103045030.GA4202%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012109.html">
+   <LINK REL="Next"  HREF="012121.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Hosting and collaborative development of crossforum theatre</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Hosting%20and%20collaborative%20development%20of%20crossforum%20theatre&In-Reply-To=%3C20110103045030.GA4202%40havoc.zelea.com%3E"
+       TITLE="[MG] Hosting and collaborative development of crossforum theatre">mike at zelea.com
+       </A><BR>
+    <I>Sun Jan  2 23:50:30 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012109.html">[MG] Visualization problems for crossforum theatre
+</A></li>
+        <LI>Next message (by thread): <A HREF="012121.html">[MG] Hosting and collaborative development of crossforum theatre
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ed Pastore wrote:
+&gt;<i> Michael, it occurs to me that if you were to try to implement all of
+</I>&gt;<i> the suggestions made so far on this thread, you would be coding for
+</I>&gt;<i> quite some considerable time. Is there any way you can readily draw
+</I>&gt;<i> others into the effort, once the parameters are better defined?
+</I>
+If I follow, the app structure might be a draw.  We allow an
+open-ended selection of various feed and map components (diff feed,
+news feed, geomap, tag map, and so on).  The user can dial up whatever
+combo of these he wants to see.  Later we'll add selectors for this,
+as Thomas suggests.  Currently it's done by manipulating the URL:
+
+  <A HREF="http://u.zelea.com:8080/v/crossforum/#c=DumDum">http://u.zelea.com:8080/v/crossforum/#c=DumDum</A>
+  dummy feed + dummy map
+
+  <A HREF="http://u.zelea.com:8080/v/crossforum/#c=DumT">http://u.zelea.com:8080/v/crossforum/#c=DumT</A>
+  dummy feed + triaxial poll map
+
+   ^ switch back and forth between these two maps, and the feed should
+     keep ticking away unaffected
+
+  <A HREF="http://u.zelea.com:8080/v/crossforum/#c=DT">http://u.zelea.com:8080/v/crossforum/#c=DT</A>
+  diff feed (still in conseo's repo) + triaxial poll map
+
+On top of that, each component is normally divided into client and
+server sides.  So overall, the app is broken up into these small (but
+meaningful) pieces, each of which a developer could pick up and run
+with.
+
+&gt;<i> If it is useful, I now have control of the metagov hosting space on  
+</I>&gt;<i> tuxfamily.org. I haven't had time to set up anything on it just yet,  
+</I>&gt;<i> but the whole idea behind it is that it is to be a hosting space for  
+</I>&gt;<i> more than just one of us. If you would like to be an admin of that  
+</I>&gt;<i> account (and if nobody on the list objects to that), then you could  
+</I>&gt;<i> set up a development and/or collaboration environment there.
+</I>
+Should we host the prototype there?  It seems more neutral, a better
+setting for a cross-project app.  I guess the URL would be:
+<A HREF="http://metagov.tuxfamily.org:8080/v/crossforum/">http://metagov.tuxfamily.org:8080/v/crossforum/</A>
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012109.html">[MG] Visualization problems for crossforum theatre
+</A></li>
+	<LI>Next message (by thread): <A HREF="012121.html">[MG] Hosting and collaborative development of crossforum theatre
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

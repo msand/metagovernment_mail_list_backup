@@ -1,0 +1,473 @@
+From metamerman at gmail.com  Fri Sep  1 17:34:45 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Fri, 1 Sep 2017 15:34:45 -0600
+Subject: [MG] Book review of "Democracy for Realists"
+Message-ID: <CACobxW0D9=CLTtB7YVBN_k3V+Q=Ddc-D7CJhd3+qbg4oUydPDQ@mail.gmail.com>
+
+Looks like everyone else took the summer off too: I was swamped by
+demands in RL and about the only political thing I got done was to
+read Democracy for Realists (Achen and Bartels, 2016). Hopefully
+things will settle down and I can get back to updating proxyfor.me now
+that the Angular developers have released version 4 which reportedly
+has fixed many of the design flaws that were vexing me with the
+previous version (Angular 2: Seems they skipped "3").
+
+I can't say that I'd recommend the book, especially for this group
+which is undoubtedly fully aware of all the flaws in misrepresentative
+democracy. It's criticism of direct democracy is at best half-hearted
+and they offer exactly pretty much only one anecdotal analysis to
+justify their dismissal of it: Apparently there was an example of The
+People cutting fire department budgets when given direct control over
+them in Illinois (data from Tessin 2009, which turns out to be an
+unpublished PhD dissertation). Unfortunately although the authors
+claim that this was a bad outcome, they offer very little in terms of
+economic analysis to prove it. Sure, fire response times increased,
+but they never provide any direct evidence that compared fire
+insurance rates in these counties in Illinois with comparable counties
+other states to prove that it was economically an unwise decision. Not
+to mention the whole problem of expecting people to make wise
+decisions when the only power they're given is to veto a tax increase
+(vs. giving them total control over the budget which would allow them
+to cut some other service to use that money to beef up fire fighting).
+There is of course no citation of any experiments actually comparing
+direct with representative democracy (e.g., maybe compare how often
+major decisions are reversed in the two systems: My money would be on
+representative democracy having a far higher failure rate by this
+criteria). I haven't found experimental reports like that either,
+though.
+
+I was also very disappointed that they failed to deliver on the
+promises made by the endorsements on the dust jacket (and cited in the
+reviews on Amazon and elsewhere): Nowhere do they propose a better
+system, or even any way to improve our current systems beyond some
+vague handwaving about how reducing inequality will result in better
+democracy. Unfortunately they apparently even lack even any awareness
+of the Catch-22 implicit in their recommendation. All in all I think
+the title of the book should probably have been "Democracy for Cynics"
+;-)
+
+About the only thing I *did* find enlightening were the
+descriptions/examples of how demagogues take advantage of uninformed
+voters and how they even have major impacts in the operation of
+small-scale "deliberative democracies" like New England town halls
+(i.e., "activerts" end up making the decisions in those forums, just
+like they do in misrepresentative democracies everywhere else).
+
+Anyone else get anything else out of it?
+  Regards,
+     Scott
+
+
+From harrystottle at fullmoon.nu  Sat Sep  2 10:55:49 2017
+From: harrystottle at fullmoon.nu (harrystottle at fullmoon.nu)
+Date: Sat, 02 Sep 2017 15:55:49 +0100
+Subject: [MG] Book review of "Democracy for Realists"
+In-Reply-To: <CACobxW0D9=CLTtB7YVBN_k3V+Q=Ddc-D7CJhd3+qbg4oUydPDQ@mail.gmail.com>
+References: <CACobxW0D9=CLTtB7YVBN_k3V+Q=Ddc-D7CJhd3+qbg4oUydPDQ@mail.gmail.com>
+Message-ID: <0c161964a3140b5d423ca73142434345@fullmoon.nu>
+
+Scott,
+thanks for saving me the trouble of reading it too!
+
+Harry
+On 2017-09-01 10:34 PM, Scott Raney wrote:
+> Looks like everyone else took the summer off too: I was swamped by
+> demands in RL and about the only political thing I got done was to
+> read Democracy for Realists (Achen and Bartels, 2016). Hopefully
+> things will settle down and I can get back to updating proxyfor.me now
+> that the Angular developers have released version 4 which reportedly
+> has fixed many of the design flaws that were vexing me with the
+> previous version (Angular 2: Seems they skipped "3").
+> 
+> I can't say that I'd recommend the book, especially for this group
+> which is undoubtedly fully aware of all the flaws in misrepresentative
+> democracy. It's criticism of direct democracy is at best half-hearted
+> and they offer exactly pretty much only one anecdotal analysis to
+> justify their dismissal of it: Apparently there was an example of The
+> People cutting fire department budgets when given direct control over
+> them in Illinois (data from Tessin 2009, which turns out to be an
+> unpublished PhD dissertation). Unfortunately although the authors
+> claim that this was a bad outcome, they offer very little in terms of
+> economic analysis to prove it. Sure, fire response times increased,
+> but they never provide any direct evidence that compared fire
+> insurance rates in these counties in Illinois with comparable counties
+> other states to prove that it was economically an unwise decision. Not
+> to mention the whole problem of expecting people to make wise
+> decisions when the only power they're given is to veto a tax increase
+> (vs. giving them total control over the budget which would allow them
+> to cut some other service to use that money to beef up fire fighting).
+> There is of course no citation of any experiments actually comparing
+> direct with representative democracy (e.g., maybe compare how often
+> major decisions are reversed in the two systems: My money would be on
+> representative democracy having a far higher failure rate by this
+> criteria). I haven't found experimental reports like that either,
+> though.
+> 
+> I was also very disappointed that they failed to deliver on the
+> promises made by the endorsements on the dust jacket (and cited in the
+> reviews on Amazon and elsewhere): Nowhere do they propose a better
+> system, or even any way to improve our current systems beyond some
+> vague handwaving about how reducing inequality will result in better
+> democracy. Unfortunately they apparently even lack even any awareness
+> of the Catch-22 implicit in their recommendation. All in all I think
+> the title of the book should probably have been "Democracy for Cynics"
+> ;-)
+> 
+> About the only thing I *did* find enlightening were the
+> descriptions/examples of how demagogues take advantage of uninformed
+> voters and how they even have major impacts in the operation of
+> small-scale "deliberative democracies" like New England town halls
+> (i.e., "activerts" end up making the decisions in those forums, just
+> like they do in misrepresentative democracies everywhere else).
+> 
+> Anyone else get anything else out of it?
+>   Regards,
+>      Scott
+> 
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription:
+> http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+
+
+From metamerman at gmail.com  Sat Sep  2 15:23:20 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sat, 2 Sep 2017 13:23:20 -0600
+Subject: [MG] Book review of "Democracy for Realists"
+In-Reply-To: <0c161964a3140b5d423ca73142434345@fullmoon.nu>
+References: <CACobxW0D9=CLTtB7YVBN_k3V+Q=Ddc-D7CJhd3+qbg4oUydPDQ@mail.gmail.com>
+	<0c161964a3140b5d423ca73142434345@fullmoon.nu>
+Message-ID: <CACobxW3sboVzuj-0dAOUWoQ2RSCo0mfoocX7SCyEWxLt5TY11w@mail.gmail.com>
+
+On Sat, Sep 2, 2017 at 8:55 AM,  <harrystottle at fullmoon.nu> wrote:
+> Scott,
+> thanks for saving me the trouble of reading it too!
+
+I know I've used this analogy before, but it's all so reminiscent of
+studying the arrangement of the deck chairs on the Titanic: We already
+*know* that misrepresentative democracy is hopelessly flawed and that
+no minor tweaks to it is going to make it perform acceptably. Do we
+really need to know to the third decimal place how humans display
+irrational and even unpredictable behavior in our current systems to
+design new systems that eliminate the underlying flaws that lead to
+that kind of behavior? It's really a shame to see so many bright
+people spinning their wheels trying to theorize about how an
+inherently flawed system actually works, especially when they could
+instead be working on the kind of applied research that would allow
+social engineers to design and implement a better one...
+  Regards,
+    Scott
+
+> Harry
+>
+
+
+From metamerman at gmail.com  Sat Sep  2 21:23:31 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sat, 2 Sep 2017 19:23:31 -0600
+Subject: [MG] Democracy.Earth paper on GitHub
+Message-ID: <CACobxW0hYLewJztVaqdhRTiBc0VB_3rYqRTQp-GYH2fL+bnndw@mail.gmail.com>
+
+Democracy.Earth is trying something new, releasing a white paper on GitHub:
+https://github.com/DemocracyEarth/paper
+
+Unfortunately they've fallen for Liquid Democracy as the underlying
+technology, something I think we've pretty much concluded is
+non-viable. I'd like to advise them of this issue, but curiously can't
+really figure out how to do this given the constraints of GitHub.
+Anyone else have any idea other than just opening an "issue" that
+their entire system is doomed to failure because of a fundamental
+design flaw?
+
+If you'd like, I'll post the screed I've written for them here, though
+of course you've probably all already seen everything in it during the
+analysis of the LQFB system we did last year.
+
+I do recommend reading the paper, if only to see how little being
+associated with big-shot organizations like TED and Y Combinator
+really gets you in terms of competence (or enlightenment)...
+
+I also recommend reading the "Google Votes" paper they cite, another
+Liquid Democracy implementation:
+http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series
+
+Curiously (or perhaps not) the delegation rate in "Google Votes" was
+almost exactly the same as LQFB (around 3%) which is just another nail
+in the coffin of the Liquid Democracy architecture. This just
+reinforces my conclusion that the only viable decisionmaking
+technology will include having delegation be the *default* (i.e.,
+proxy selection will have to be "opt out" rather than "opt in").
+  Regards,
+    Scott
+
+
+From metamerman at gmail.com  Fri Sep  8 11:17:14 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Fri, 8 Sep 2017 09:17:14 -0600
+Subject: [MG] New topics on the matchism forum for your review
+Message-ID: <CACobxW3ee2LLA8R0Bxiip35qDORp04n+iRepkM_rRJnQgfSWFw@mail.gmail.com>
+
+I've been struggling with Russian (at least according to their IP
+addresses) spammers/trolls/bots hacking into the Matchism forum for
+the past few months, a problem that has gotten significantly worse
+over the past few weeks. The problem is that most of the "Captcha"
+routines have now been broken, resulting in fake accounts being
+created at the rate of dozens an hour (and once an account is
+"verified" by email they promptly fill the forum with spam and/or fake
+political rants).
+
+But I think I've got these holes plugged now and would appreciate it
+if you all could help me make sure that I haven't just shut *everyone*
+out. If you could create an account and make sure you can post
+(nothing selling erection pills, just so I can distinguish you from
+the spammers!), it'd be very helpful.
+
+To give you something to talk about, I've posted my response to the
+Democracy.earth proposal, and put up a short "rules of thumb for
+designing an EDD system" post:
+http://www.matchism.org/forum/viewforum.php?f=8
+  Regards,
+    Scott
+
+
+From metamerman at gmail.com  Fri Sep  1 17:34:45 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Fri, 1 Sep 2017 15:34:45 -0600
+Subject: [MG] Book review of "Democracy for Realists"
+Message-ID: <CACobxW0D9=CLTtB7YVBN_k3V+Q=Ddc-D7CJhd3+qbg4oUydPDQ@mail.gmail.com>
+
+Looks like everyone else took the summer off too: I was swamped by
+demands in RL and about the only political thing I got done was to
+read Democracy for Realists (Achen and Bartels, 2016). Hopefully
+things will settle down and I can get back to updating proxyfor.me now
+that the Angular developers have released version 4 which reportedly
+has fixed many of the design flaws that were vexing me with the
+previous version (Angular 2: Seems they skipped "3").
+
+I can't say that I'd recommend the book, especially for this group
+which is undoubtedly fully aware of all the flaws in misrepresentative
+democracy. It's criticism of direct democracy is at best half-hearted
+and they offer exactly pretty much only one anecdotal analysis to
+justify their dismissal of it: Apparently there was an example of The
+People cutting fire department budgets when given direct control over
+them in Illinois (data from Tessin 2009, which turns out to be an
+unpublished PhD dissertation). Unfortunately although the authors
+claim that this was a bad outcome, they offer very little in terms of
+economic analysis to prove it. Sure, fire response times increased,
+but they never provide any direct evidence that compared fire
+insurance rates in these counties in Illinois with comparable counties
+other states to prove that it was economically an unwise decision. Not
+to mention the whole problem of expecting people to make wise
+decisions when the only power they're given is to veto a tax increase
+(vs. giving them total control over the budget which would allow them
+to cut some other service to use that money to beef up fire fighting).
+There is of course no citation of any experiments actually comparing
+direct with representative democracy (e.g., maybe compare how often
+major decisions are reversed in the two systems: My money would be on
+representative democracy having a far higher failure rate by this
+criteria). I haven't found experimental reports like that either,
+though.
+
+I was also very disappointed that they failed to deliver on the
+promises made by the endorsements on the dust jacket (and cited in the
+reviews on Amazon and elsewhere): Nowhere do they propose a better
+system, or even any way to improve our current systems beyond some
+vague handwaving about how reducing inequality will result in better
+democracy. Unfortunately they apparently even lack even any awareness
+of the Catch-22 implicit in their recommendation. All in all I think
+the title of the book should probably have been "Democracy for Cynics"
+;-)
+
+About the only thing I *did* find enlightening were the
+descriptions/examples of how demagogues take advantage of uninformed
+voters and how they even have major impacts in the operation of
+small-scale "deliberative democracies" like New England town halls
+(i.e., "activerts" end up making the decisions in those forums, just
+like they do in misrepresentative democracies everywhere else).
+
+Anyone else get anything else out of it?
+  Regards,
+     Scott
+
+
+
+From harrystottle at fullmoon.nu  Sat Sep  2 10:55:49 2017
+From: harrystottle at fullmoon.nu (harrystottle at fullmoon.nu)
+Date: Sat, 02 Sep 2017 15:55:49 +0100
+Subject: [MG] Book review of "Democracy for Realists"
+In-Reply-To: <CACobxW0D9=CLTtB7YVBN_k3V+Q=Ddc-D7CJhd3+qbg4oUydPDQ@mail.gmail.com>
+References: <CACobxW0D9=CLTtB7YVBN_k3V+Q=Ddc-D7CJhd3+qbg4oUydPDQ@mail.gmail.com>
+Message-ID: <0c161964a3140b5d423ca73142434345@fullmoon.nu>
+
+Scott,
+thanks for saving me the trouble of reading it too!
+
+Harry
+On 2017-09-01 10:34 PM, Scott Raney wrote:
+> Looks like everyone else took the summer off too: I was swamped by
+> demands in RL and about the only political thing I got done was to
+> read Democracy for Realists (Achen and Bartels, 2016). Hopefully
+> things will settle down and I can get back to updating proxyfor.me now
+> that the Angular developers have released version 4 which reportedly
+> has fixed many of the design flaws that were vexing me with the
+> previous version (Angular 2: Seems they skipped "3").
+> 
+> I can't say that I'd recommend the book, especially for this group
+> which is undoubtedly fully aware of all the flaws in misrepresentative
+> democracy. It's criticism of direct democracy is at best half-hearted
+> and they offer exactly pretty much only one anecdotal analysis to
+> justify their dismissal of it: Apparently there was an example of The
+> People cutting fire department budgets when given direct control over
+> them in Illinois (data from Tessin 2009, which turns out to be an
+> unpublished PhD dissertation). Unfortunately although the authors
+> claim that this was a bad outcome, they offer very little in terms of
+> economic analysis to prove it. Sure, fire response times increased,
+> but they never provide any direct evidence that compared fire
+> insurance rates in these counties in Illinois with comparable counties
+> other states to prove that it was economically an unwise decision. Not
+> to mention the whole problem of expecting people to make wise
+> decisions when the only power they're given is to veto a tax increase
+> (vs. giving them total control over the budget which would allow them
+> to cut some other service to use that money to beef up fire fighting).
+> There is of course no citation of any experiments actually comparing
+> direct with representative democracy (e.g., maybe compare how often
+> major decisions are reversed in the two systems: My money would be on
+> representative democracy having a far higher failure rate by this
+> criteria). I haven't found experimental reports like that either,
+> though.
+> 
+> I was also very disappointed that they failed to deliver on the
+> promises made by the endorsements on the dust jacket (and cited in the
+> reviews on Amazon and elsewhere): Nowhere do they propose a better
+> system, or even any way to improve our current systems beyond some
+> vague handwaving about how reducing inequality will result in better
+> democracy. Unfortunately they apparently even lack even any awareness
+> of the Catch-22 implicit in their recommendation. All in all I think
+> the title of the book should probably have been "Democracy for Cynics"
+> ;-)
+> 
+> About the only thing I *did* find enlightening were the
+> descriptions/examples of how demagogues take advantage of uninformed
+> voters and how they even have major impacts in the operation of
+> small-scale "deliberative democracies" like New England town halls
+> (i.e., "activerts" end up making the decisions in those forums, just
+> like they do in misrepresentative democracies everywhere else).
+> 
+> Anyone else get anything else out of it?
+>   Regards,
+>      Scott
+> 
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription:
+> http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+
+
+
+From metamerman at gmail.com  Sat Sep  2 15:23:20 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sat, 2 Sep 2017 13:23:20 -0600
+Subject: [MG] Book review of "Democracy for Realists"
+In-Reply-To: <0c161964a3140b5d423ca73142434345@fullmoon.nu>
+References: <CACobxW0D9=CLTtB7YVBN_k3V+Q=Ddc-D7CJhd3+qbg4oUydPDQ@mail.gmail.com>
+	<0c161964a3140b5d423ca73142434345@fullmoon.nu>
+Message-ID: <CACobxW3sboVzuj-0dAOUWoQ2RSCo0mfoocX7SCyEWxLt5TY11w@mail.gmail.com>
+
+On Sat, Sep 2, 2017 at 8:55 AM,  <harrystottle at fullmoon.nu> wrote:
+> Scott,
+> thanks for saving me the trouble of reading it too!
+
+I know I've used this analogy before, but it's all so reminiscent of
+studying the arrangement of the deck chairs on the Titanic: We already
+*know* that misrepresentative democracy is hopelessly flawed and that
+no minor tweaks to it is going to make it perform acceptably. Do we
+really need to know to the third decimal place how humans display
+irrational and even unpredictable behavior in our current systems to
+design new systems that eliminate the underlying flaws that lead to
+that kind of behavior? It's really a shame to see so many bright
+people spinning their wheels trying to theorize about how an
+inherently flawed system actually works, especially when they could
+instead be working on the kind of applied research that would allow
+social engineers to design and implement a better one...
+  Regards,
+    Scott
+
+> Harry
+>
+
+
+
+From metamerman at gmail.com  Sat Sep  2 21:23:31 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sat, 2 Sep 2017 19:23:31 -0600
+Subject: [MG] Democracy.Earth paper on GitHub
+Message-ID: <CACobxW0hYLewJztVaqdhRTiBc0VB_3rYqRTQp-GYH2fL+bnndw@mail.gmail.com>
+
+Democracy.Earth is trying something new, releasing a white paper on GitHub:
+https://github.com/DemocracyEarth/paper
+
+Unfortunately they've fallen for Liquid Democracy as the underlying
+technology, something I think we've pretty much concluded is
+non-viable. I'd like to advise them of this issue, but curiously can't
+really figure out how to do this given the constraints of GitHub.
+Anyone else have any idea other than just opening an "issue" that
+their entire system is doomed to failure because of a fundamental
+design flaw?
+
+If you'd like, I'll post the screed I've written for them here, though
+of course you've probably all already seen everything in it during the
+analysis of the LQFB system we did last year.
+
+I do recommend reading the paper, if only to see how little being
+associated with big-shot organizations like TED and Y Combinator
+really gets you in terms of competence (or enlightenment)...
+
+I also recommend reading the "Google Votes" paper they cite, another
+Liquid Democracy implementation:
+http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series
+
+Curiously (or perhaps not) the delegation rate in "Google Votes" was
+almost exactly the same as LQFB (around 3%) which is just another nail
+in the coffin of the Liquid Democracy architecture. This just
+reinforces my conclusion that the only viable decisionmaking
+technology will include having delegation be the *default* (i.e.,
+proxy selection will have to be "opt out" rather than "opt in").
+  Regards,
+    Scott
+
+
+
+From metamerman at gmail.com  Fri Sep  8 11:17:14 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Fri, 8 Sep 2017 09:17:14 -0600
+Subject: [MG] New topics on the matchism forum for your review
+Message-ID: <CACobxW3ee2LLA8R0Bxiip35qDORp04n+iRepkM_rRJnQgfSWFw@mail.gmail.com>
+
+I've been struggling with Russian (at least according to their IP
+addresses) spammers/trolls/bots hacking into the Matchism forum for
+the past few months, a problem that has gotten significantly worse
+over the past few weeks. The problem is that most of the "Captcha"
+routines have now been broken, resulting in fake accounts being
+created at the rate of dozens an hour (and once an account is
+"verified" by email they promptly fill the forum with spam and/or fake
+political rants).
+
+But I think I've got these holes plugged now and would appreciate it
+if you all could help me make sure that I haven't just shut *everyone*
+out. If you could create an account and make sure you can post
+(nothing selling erection pills, just so I can distinguish you from
+the spammers!), it'd be very helpful.
+
+To give you something to talk about, I've posted my response to the
+Democracy.earth proposal, and put up a short "rules of thumb for
+designing an EDD system" post:
+http://www.matchism.org/forum/viewforum.php?f=8
+  Regards,
+    Scott
+
+
+

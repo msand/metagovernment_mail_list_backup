@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Mapping Participation in Drupal
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Mapping%20Participation%20in%20Drupal&In-Reply-To=%3C201101170802.40121.4consesus%40web.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012226.html">
+   <LINK REL="Next"  HREF="012231.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Mapping Participation in Drupal</H1>
+    <B>conseo</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Mapping%20Participation%20in%20Drupal&In-Reply-To=%3C201101170802.40121.4consesus%40web.de%3E"
+       TITLE="[MG] Mapping Participation in Drupal">4consesus at web.de
+       </A><BR>
+    <I>Mon Jan 17 02:02:39 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012226.html">[MG] Mapping Participation in Drupal
+</A></li>
+        <LI>Next message (by thread): <A HREF="012231.html">[MG] Mapping Participation in Drupal
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Am Sunday 16 January 2011 schrieb Alex Rollin:
+&gt;<i> Also, a nice write-up:
+</I>&gt;<i> <A HREF="http://developmentseed.org/blog/2009/dec/17/opening-afghanistans-election-d">http://developmentseed.org/blog/2009/dec/17/opening-afghanistans-election-d</A>
+</I>&gt;<i> ata-open-source-data-browser
+</I>&gt;<i> 
+</I>&gt;<i>  of how these tools are used to power the site:
+</I>&gt;<i> <A HREF="http://afghanistanelectiondata.org/data">http://afghanistanelectiondata.org/data</A>
+</I>
+Thanks for pointing it out, I have bookmarked it. The main problem that I see 
+is that they have a quite different focus although their visualization (view) 
+has some common ground with Crossforum and we might be able to learn from them 
+at least.
+Their site is about visualization of static content after official elections, so 
+they can pull all data easily once in their DB and are done. We program a live 
+tool which consists only of a bit of glue for a completely open infrastructure 
+regarding drafting media, poll server concepts and even the discussion media 
+involved.  Focusing on Drupal only would roll-back the whole perspective of 
+Crossforum + open network to a single well-designed free web-frameworkl. What 
+is likely possible and might be interesting is to ask them for cooperation and 
+make them compatible with Crossforum, so we share as much code and 
+infrastructure as possible.
+In fact this introduces a new use case of a specific kind of pollserver, where 
+it is only about exposing the historically fixed and static data of some official 
+elections which is about to be visualized in the mapper. Since our effort is 
+very generic, this should fit in nicely and be a profit for both concepts, 
+visualization of official voting data and an actual voting network. They would 
+have to come to us though, since we are more generic, which is pretty unlikely 
+in my experience. And they even have to drop their implementation and switch 
+to Java/GWT for that, whcih is even more unlikely. You could try to convince 
+them though, they would definetly profit in the long term.
+
+&gt;<i> &gt; 
+</I>&gt;<i> &gt; There's a rather modern feed parser for Drupal:
+</I>&gt;<i> &gt; <A HREF="http://drupal.org/project/feeds">http://drupal.org/project/feeds</A>
+</I>
+In general finding feed implementations is not the problem, they are pretty 
+standard today. I have had a look at Atom first, too, when thinking about the 
+diff feed service, as I might want to use them in a news-reader on my desktop 
+for some issues and support for it is pretty standard. For Java this looks 
+pretty good: <A HREF="http://abdera.apache.org/">http://abdera.apache.org/</A>
+
+But there is a very serious drawback when it comes to using Atom in a 
+crossforum tool. It hits the wall of single origin policy. That way we have to 
+use JSONP and although it is more &quot;low-level&quot; it is much more flexible and 
+scalable for us since we don't have to xml-parse the data or work around Atom 
+and some middleware like Drupal or Abdera. I often like to have a look around 
+how others do things and if I can easily reuse open-source code, but in 
+Crossforum/Votorola's case I think Michael got it right, by keeping it as 
+simple as possible.
+
+Since what we all (not only Votorola) do here is pretty new lands and 
+prototyping we don't want to bend around current concepts of web frameworks. 
+They are not designed for cross-server web-uis or even global distributed 
+networks, but in most cases rather to build some server-side service. For that 
+reason we cannot even use GWT's RPC, since GWT is originally focused on 
+developping commercial web services rather then a distributed web.
+In fact, when looking at single-origin-policy, we even hit the current web-
+browser concepts hard when it comes to opening the web up, since they are 
+bound to at least one main client -&gt; server connection. You cannot browse 
+ressources which are not stored on a single domain/host name yet. 
+
+Have also a look at kio-magnet here:
+<A HREF="http://whilos.blogsite.org">http://whilos.blogsite.org</A> where I have proven that you can distribute the web  
+and desktop in any way you can imagine when you break the current URL-standard 
+and combine that with BitTorrent. This might be interesting even for 
+Crossforum, as we can store both the app and parts of the data in a 
+distributed shared space then.
+
+Christian (conseo)
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012226.html">[MG] Mapping Participation in Drupal
+</A></li>
+	<LI>Next message (by thread): <A HREF="012231.html">[MG] Mapping Participation in Drupal
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

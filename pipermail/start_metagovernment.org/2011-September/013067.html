@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Mixdemocracy and Collaborative Governance
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Mixdemocracy%20and%20Collaborative%20Governance&In-Reply-To=%3C1316731508.7941.YahooMailNeo%40web110610.mail.gq1.yahoo.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013062.html">
+   <LINK REL="Next"  HREF="013063.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Mixdemocracy and Collaborative Governance</H1>
+    <B>David Gleason</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Mixdemocracy%20and%20Collaborative%20Governance&In-Reply-To=%3C1316731508.7941.YahooMailNeo%40web110610.mail.gq1.yahoo.com%3E"
+       TITLE="[MG] Mixdemocracy and Collaborative Governance">chc_media at yahoo.com
+       </A><BR>
+    <I>Thu Sep 22 18:45:08 EDT 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013062.html">[MG] Mixdemocracy and Collaborative Governance
+</A></li>
+        <LI>Next message (by thread): <A HREF="013063.html">[MG] Mixdemocracy and Collaborative Governance
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>A few more comments on the subject of a new type of network-oriented information system:
+- The data model has to be simple.&#160; The concept of XML/RDF/OWL/semantic web &quot;3.0&quot; has gone in the wrong direction and these are too complex and error prone for use by normal people.&#160; They are probably great for enterprise-level high-budget projects where data will be used more by machines than by people, but they are too complex to be realistically usable by the general public and less experienced developers.&#160; I'm creating something that will have the same flexibility, few limitations, and won't require 1000's pages of specs to define.&#160; My initial target applications are not collaborative governance, but simpler things like CMS's, since thos are what everyone is using and they are easy to extend so I see that as the most obvious place to move information itself from being static and isolated to being dynamic and interconnected.
+- The GUI is a fairly minor detail for me, compared to first addressing the complexity barrier that now causes most development to be relatively slow, bug prone, and isolated, due to too many technologies and too much inconsistency.&#160; Collaborative governancedoes not have a big enough budget behind it for it to be possible to implement a good enough system by using typical current technology approaches.&#160; I encourage everyone to watch this recent presentation by Alan Kay to get an idea of what I mean <A HREF="http://www.tele-task.de/de/archive/video/flash/14029/&#160;">http://www.tele-task.de/de/archive/video/flash/14029/&#160;</A> (Alan Kay was the guy who first coined the term &quot;object-oriented&quot;, yet he has a very different definition of that than what is has more recently come to imply in programming languages like C++, Java, etc.&#160; His current STEPS project has been able to take the typical 20M lines of code associated with a typical PC SW stack and reduce it in size by 1000 times. This is perhaps the most significant computer
+ science project so far of the century.)
+- Currently I'm just using PHP and MySQL (with InnoDB engine).&#160; At some point I might have to go with a database that more directly accommodates OO or graph-oriented data but mysql is working fine at the moment.&#160; Fortunately I'm not trying to model anything complicated now but am just focusing on basic CMS types of applications.
+
+Thanks,
+David
+
+________________________________
+From: &quot;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">alex at twister11.de</A>&quot; &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">alex at twister11.de</A>&gt;
+
+
+I guess I'm thinking about building a similar thing, but i believe the
+most important thing of the product to be the user interface.
+There are such advanced software out there that could do everything i
+can and cannot imagine, when it comes to the backend and how it
+manages data and its verious forms.
+The one thing that really matters for the people who use it, is the
+user interface.
+Its all they see and of course, they like performance and everything
+to work smooth, but if the user interface is to complicated, they wont
+use it.
+
+I'm thinking about letting people interact or lets say communicate on
+a very direct level. (Like a mindmap instead of collumns and rows)
+You might know mindmap software/ You can use colors, pictures and so
+much stuff to personalize it... you probably could define types and
+map&#160; yellow-ballons-with-ducks-on-it to a type u think might be best
+described by that picture.
+Now i'm thinking about excel and how you can define operations over
+rows and columns ... what if you could define those on elements of
+your personal mindmap?
+
+Sure, because there is a data structure in the background, you could
+still create plugins that use it to visualize it in different ways,
+but the core visualzation lets you directly interact with your data
+model... so everything your data&#160; model is capable of has to be mapped
+to a visual element representing it in an intuitive way.
+Thats what &quot;visual analytics&quot; is all about...
+
+2011/9/22 Jonas Liljegren &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">jonas at liljegren.org</A>&gt;:
+&gt;<i> 2011-09-21 23:57, David Gleason skrev:
+</I>&gt;&gt;<i> A few random thoughts:
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> - I agree that collaborative governance has to start from the bottom up.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> - c.g. has to be based on open source software,and must be provable as
+</I>&gt;&gt;<i> mathematically correct, i.e. as simple as possible (see some of Alan
+</I>&gt;&gt;<i> Kay's recent work e.g.
+</I>&gt;&gt;<i> <A HREF="http://www.tele-task.de/de/archive/video/flash/14029/">http://www.tele-task.de/de/archive/video/flash/14029/</A>), and inherently
+</I>&gt;&gt;<i> bug-free.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> - The system must deal with sets of simple issues at a granular level,
+</I>&gt;&gt;<i> i.e. things that can be resolved to a single change in a process or
+</I>&gt;&gt;<i> resource allocation. &#160;These could be grouped into larger things but the
+</I>&gt;&gt;<i> granularity has to be there to allow the full extent of any proposal to
+</I>&gt;&gt;<i> be completely clear, with references/sources provided, etc. &#160;That way
+</I>&gt;&gt;<i> people can refine and comment on individual things as needed, but it
+</I>&gt;&gt;<i> won't turn into a huge blob of text and subjective interpretations.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> - A network-oriented architecture must be taken in the software, which
+</I>&gt;&gt;<i> manages complexity by modeling things as networks of nodes (resources,
+</I>&gt;&gt;<i> people, groups, organizations) and dynamic relationships. &#160;In other
+</I>&gt;&gt;<i> words it has to model the real world. &#160;(Kind of like object-oriented
+</I>&gt;&gt;<i> programming, but without the emphasis on programming, without the
+</I>&gt;&gt;<i> limitations of typical OO structures, and with an equal emphasis on the
+</I>&gt;&gt;<i> dynamic relationships between objects.) &#160;If a system does not accurately
+</I>&gt;&gt;<i> capture existing reality, most people will not be able to understand the
+</I>&gt;&gt;<i> existing reality, what changes or optimizations are therefore
+</I>&gt;&gt;<i> appropriate, or what effects those changes would have.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> (I see this above point as the biggest issue, and am now developing a
+</I>&gt;&gt;<i> web information system that makes it easy for non-programmers to
+</I>&gt;&gt;<i> construct and share any type of data structures and relations to model
+</I>&gt;&gt;<i> those kinds of things. &#160;It's probably many ~6 months away from being
+</I>&gt;&gt;<i> useful however.)
+</I>&gt;<i>
+</I>&gt;<i> Hi! I'm also has a lot of id&#233;as about how to model the world with all
+</I>&gt;<i> the types of relations.
+</I>&gt;<i>
+</I>&gt;<i> I'm building <A HREF="http://gov.e2d.se/">http://gov.e2d.se/</A> on top of an application framework I
+</I>&gt;<i> developed, inspired by RDF and the semantic web. It's uses a realy
+</I>&gt;<i> powerful and flexible nodal network database.
+</I>&gt;<i>
+</I>&gt;<i> It's just a prototype. Lots of things to do. But it's built to be
+</I>&gt;<i> actually useful for voting on internal issues in the Aktiv Demokrati
+</I>&gt;<i> party. It includes condorcet priority voting, delegated voting and a
+</I>&gt;<i> couple of other things. See example here:
+</I>&gt;<i> &#160;<A HREF="http://val.aktivdemokrati.se/proposition/display.tt?id=117700">http://val.aktivdemokrati.se/proposition/display.tt?id=117700</A>
+</I>&gt;<i>
+</I>&gt;<i> --
+</I>&gt;<i> / Jonas &#160;- &#160;<A HREF="http://jonas.liljegren.org/myself/">http://jonas.liljegren.org/myself/</A>
+</I>-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20110922/31fa4558/attachment-0002.html">http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20110922/31fa4558/attachment-0002.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013062.html">[MG] Mixdemocracy and Collaborative Governance
+</A></li>
+	<LI>Next message (by thread): <A HREF="013063.html">[MG] Mixdemocracy and Collaborative Governance
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

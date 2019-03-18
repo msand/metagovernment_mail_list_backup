@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Clearing entry paths for new users
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Clearing%20entry%20paths%20for%20new%20users&In-Reply-To=%3C20110212140531.GA23072%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012387.html">
+   <LINK REL="Next"  HREF="012397.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Clearing entry paths for new users</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Clearing%20entry%20paths%20for%20new%20users&In-Reply-To=%3C20110212140531.GA23072%40havoc.zelea.com%3E"
+       TITLE="[MG] Clearing entry paths for new users">mike at zelea.com
+       </A><BR>
+    <I>Sat Feb 12 09:05:31 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012387.html">[MG] (bug) Draft pointers unstable in remote diff URLs
+</A></li>
+        <LI>Next message (by thread): <A HREF="012397.html">[MG] Clearing entry paths for new users
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ed Pastore wrote:
+&gt;<i> Some hopefully constructive criticism...
+</I>&gt;<i> 
+</I>&gt;<i> &gt; ... Note that we now have &quot;diff me&quot; links in the UI ...
+</I>&gt;<i> 
+</I>&gt;<i> In the interests of approachability, instead of &quot;diff me&quot; with  
+</I>&gt;<i> explanatory text in the &lt;a title&gt;, would you consider having the  
+</I>&gt;<i> entire text of the title be the link... perhaps with an &quot;expert mode&quot;  
+</I>&gt;<i> that collapses that long text into just &quot;diff me.&quot;
+</I>
+I started out as you suggest, then I tried to do more:
+
+  <A HREF="http://u.zelea.com:8080/v/w/D?b=4047&amp;a=4042&amp;aR=2706&amp;bR=2720">http://u.zelea.com:8080/v/w/D?b=4047&amp;a=4042&amp;aR=2706&amp;bR=2720</A>
+
+  (hit refresh)
+
+I don't think I succeeded.  It's visually confusing - not sure why.
+Maybe with fresh eyes tomorrow I'll see what's wrong.
+
+&gt;<i> &gt; I'm working to clear a path of entry for new users, maybe
+</I>&gt;<i> &gt; something like this:
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt;  1. Potential user is attracted by drafting chatter in the list
+</I>&gt;<i> &gt;     and follows one of the embedded diff links (like above).
+</I>&gt;<i> 
+</I>&gt;<i> Is this a good point of entry? It just shows the diff fragments
+</I>&gt;<i> without surrounding context. Shouldn't users be encouraged to start
+</I>&gt;<i> on someone's full draft? And/or would it be hard to do a full
+</I>&gt;<i> side-by- side, even if most of the content is duplicated?
+</I>
+I agree with your first intuition, the full draft is a natural for
+context.  It's indispensible.
+
+Thomas wrote:
+&gt;<i> Would the same be possible like above, i.e. have both possibilities?
+</I>&gt;<i> Show full text comparison or collapse to diffs only? That would be
+</I>&gt;<i> best I guess.
+</I>
+If we go with a full draft, then the problem is reduced to one of
+traversal.  We traverse (2) in order to expand the context, then (3)
+to collapse it back again.
+
+        (1)         (2)
+
+        --&gt;         --&gt;
+  List       Bridge      Wiki
+        &lt;--         &lt;--
+
+        (4)         (3)
+
+Currently only (1) is easily traversible.  In that sense, the bridge
+is only 1/4 built.  For a user stranded in the wiki, the crucial
+crossing is (3).  Maybe that's the next thing to code?
+
+(I'll reply to other points, soon)
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012387.html">[MG] (bug) Draft pointers unstable in remote diff URLs
+</A></li>
+	<LI>Next message (by thread): <A HREF="012397.html">[MG] Clearing entry paths for new users
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

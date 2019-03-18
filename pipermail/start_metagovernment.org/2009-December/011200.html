@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Rapid prototyping of an open voting architecture
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Rapid%20prototyping%20of%20an%20open%20voting%20architecture&In-Reply-To=%3C20091222031840.GB6312%40obsidian.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="011199.html">
+   <LINK REL="Next"  HREF="011201.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Rapid prototyping of an open voting architecture</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Rapid%20prototyping%20of%20an%20open%20voting%20architecture&In-Reply-To=%3C20091222031840.GB6312%40obsidian.zelea.com%3E"
+       TITLE="[Start] Rapid prototyping of an open voting architecture">mike at zelea.com
+       </A><BR>
+    <I>Mon Dec 21 22:18:40 EST 2009</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="011199.html">[Start] Consensus on the Wall of text found!
+</A></li>
+        <LI>Next message (by thread): <A HREF="011201.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>This is technical information for developers of voting engines.  It
+follows from recent discussions that were held in private.  It relates
+to earlier discussions in the list about standardization and
+interoperability (February, May 2009).  The original post was to the
+Votorola list (apologies if you saw it already), and the wiki:
+<A HREF="http://t.zelea.com/wiki/User:Mike-ZeleaCom/Opening_an_architecture#Rapid_prototyping">http://t.zelea.com/wiki/User:Mike-ZeleaCom/Opening_an_architecture#Rapid_prototyping</A>
+----------------------------------------------------------------------
+
+ Rapid prototyping might be used to hack together an open
+ architecture, prior to a full design effort.  This is a description
+ of the prototyping method.  In summary:
+ (1) registration data are posted to the Web in a flat file;
+ (2) voting engines read the data to compile their voter lists;
+ (3) vote data of each engine are likewise posted in flat files; and
+ (4) other engines read the vote data and image the votes.
+ These hacks should suffice to implement the use case of free-range
+ voting in as little as 3 weeks.
+
+Method
+------
+
+ 1. Create a register of the voters who are eligible to vote on
+    architectural design documents. ^[1][2]
+
+    a) In a wiki, create a list of e-democracy projects.
+
+       Define the criteria for inclusion in the list.  For example, a
+       project must have running code (alpha or later), and must be a
+       participant in the prototyping effort. ^[2]
+
+    b) Under each project, enter the names of up to 4 individuals who
+       are eligible to vote.  These individuals will typically be
+       contributors to the project.  The limit of 4 is intended to
+       equalize the representation across all projects (large and
+       small).
+
+       The length of the resulting *registration list* is 4P or less,
+       where P is the number of projects.  This is short enough that
+       sock puppets are easy to detect.  The list may therefore claim
+       to be *tight*.
+
+    c) Under each name, enter that individual's *personal identifiers*
+       (OpenID, email address and engine-specific usernames).  Cover
+       whatever identifier formats are used by the participating
+       voting engines.
+
+ 2. Code the *voter list* compilation for each engine.  This is a
+    temporary hack for the list compiler. ^[1]
+
+    a) Copy the registration list from the register (1).
+
+    b) Translate the registration list to the engine's native
+       voter-eligiblity format.  The result is effectively a voter
+       list for that engine.  Its content will be equivalent to that
+       of the other engines' lists.
+
+    c) Recompile the list periodically, as needed.
+
+ 3. Code the export of *original votes* from each *source engine*.
+    This is a temporary hack for the *vote monitoring* interface.  For
+    each architectural document at issue: ^[3]
+
+    a) Create a new poll (aka. &quot;issue&quot;).
+
+    b) Export all of the poll's original votes to a text file (vote
+       list).  For each original vote in the list, record the
+       particulars that define it.  The exact format will depend on
+       the engine's voting method, but just as an example:
+
+          i. Subject identifier (voter)
+         ii. Object identifier (delegate or proposal)
+        iii. Timestamp ^[4]
+
+    c) Post the vote list to the Web at BASE_URL/ISSUE, where BASE_URL
+       is the URL for all of the engine's vote lists; and ISSUE is a
+       pre-agreed universal identifier for the prospective issue
+       (i.e. for the architectural document).
+
+    d) Re-export the vote list periodically, as needed.
+
+ 4. Code the *pull mirroring* on each *destination engine*.  This is a
+    temporary hack for an autocaster.  For each source engine (3):
+    ^[3]
+
+    a) Copy the vote list from the source engine.
+
+    b) Translate each original vote to an *image vote* in the
+       destination engine's native format.
+
+    c) Re-pull the vote list periodically, as needed.
+
+ The shared voter registrations (1,2) will enable the developers (as
+ users) to wander from engine to engine, without restriction.  The
+ vote mirroring (3,4) will effectively pool their votes across all
+ engines.  Thus free-range voting may be implemented as an alpha
+ prototype.  Developers may use the prototype to vote up the design
+ documents, even while they develop the code to the specifications of
+ the design.  Later, when residential registers are brought online,
+ voting may be extended to the general public.
+
+Notes
+-----
+
+ [1] <A HREF="http://t.zelea.com/wiki/User:Mike-ZeleaCom/Registration_framework">http://t.zelea.com/wiki/User:Mike-ZeleaCom/Registration_framework</A>
+
+ [2] The general category of voted issues and the eligibility criteria
+     for the voters do not really matter.  But voting on the
+     architectural documents (as the issue) has the advantage of
+     enabling the developers to eat their own dogfood.
+
+ [3] <A HREF="http://t.zelea.com/wiki/User:ThomasvonderElbe_GmxDe/Vote_mirroring">http://t.zelea.com/wiki/User:ThomasvonderElbe_GmxDe/Vote_mirroring</A>
+
+ [4] Timestamping of exported votes allows for older originals to be
+     replaced by newer images.
+
+-- 
+Michael Allan
+
+Toronto, +1 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="011199.html">[Start] Consensus on the Wall of text found!
+</A></li>
+	<LI>Next message (by thread): <A HREF="011201.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

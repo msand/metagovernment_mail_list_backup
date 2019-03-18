@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Home page redesign competition
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Home%20page%20redesign%20competition&In-Reply-To=%3CEC1D8BAF-672B-41B3-89A5-E2F8000D6739%40metagovernment.org%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012358.html">
+   <LINK REL="Next"  HREF="012360.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Home page redesign competition</H1>
+    <B>Ed Pastore</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Home%20page%20redesign%20competition&In-Reply-To=%3CEC1D8BAF-672B-41B3-89A5-E2F8000D6739%40metagovernment.org%3E"
+       TITLE="[MG] Home page redesign competition">epastore at metagovernment.org
+       </A><BR>
+    <I>Sat Feb  5 11:04:51 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012358.html">[MG] Home page redesign competition
+</A></li>
+        <LI>Next message (by thread): <A HREF="012360.html">[MG] Home page redesign competition
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>On Feb 4, 2011, at 11:19 PM, Michael Allan wrote:
+
+&gt;<i> whilo wrote:
+</I>&gt;&gt;<i> I am ok with it. I don't know exactly what is involved to get
+</I>&gt;&gt;<i> free-range drafting working, but I am open to tasks.
+</I>&gt;<i>
+</I>&gt;<i> There were some difficulties (sorry for the long delay), but it seems
+</I>&gt;<i> to be working now.  To try it out in the metagov wiki, we need a few
+</I>&gt;<i> config changes.  Ed?
+</I>&gt;<i>
+</I>&gt;<i>  1. Please verify (when you have a moment) that $wgEnableWriteAPI is
+</I>&gt;<i>     *not* set to false in LocalSettings.php.
+</I>&gt;<i>     <A HREF="http://www.mediawiki.org/wiki/Manual:$wgEnableWriteAPI">http://www.mediawiki.org/wiki/Manual:$wgEnableWriteAPI</A>
+</I>
+This is not set in LocalSettings, so I made no change as the default  
+is true.
+
+&gt;<i>  2. Ensure that bots are not barred from using the write API.  You
+</I>&gt;<i>     might see something like this:
+</I>&gt;<i>
+</I>&gt;<i>       $wgGroupPermissions['*']['writeapi'] = false;
+</I>
+I did not see any instance of &quot;writeapi&quot; in the LocalSettings...
+
+&gt;<i>     If so, then add this after it:
+</I>&gt;<i>
+</I>&gt;<i>       $wgGroupPermissions['bot']['writeapi'] = true;
+</I>
+but I added the above
+
+&gt;<i>     The item &quot;use of the write API&quot; should now appear here as a right
+</I>&gt;<i>     for bots: <A HREF="http://metagovernment.org/wiki/Special:ListGroupRights">http://metagovernment.org/wiki/Special:ListGroupRights</A>
+</I>
+...and now this appears in the linked page.
+
+&gt;<i>  3. Then make user Vobot a 'bot':
+</I>&gt;<i>     <A HREF="http://metagovernment.org/w/index.php?title=Special%3AUserRights&amp;user=Vobot">http://metagovernment.org/w/index.php?title=Special%3AUserRights&amp;user=Vobot</A>
+</I>
+This user is now a bot.
+
+&gt;<i> This will enable us to experiment with the tools on the homepage
+</I>&gt;<i> drafts - differencing, patching and cherry-picking changes across
+</I>&gt;<i> texts.  Vobot is the agent that writes the results back to the wiki.
+</I>
+Great!
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012358.html">[MG] Home page redesign competition
+</A></li>
+	<LI>Next message (by thread): <A HREF="012360.html">[MG] Home page redesign competition
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

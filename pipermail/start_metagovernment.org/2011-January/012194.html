@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Crossforum theatre map - projecting a Vilfredo feed
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Crossforum%20theatre%20map%20-%20projecting%20a%20Vilfredo%20feed&In-Reply-To=%3C20110111094655.GA6424%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012186.html">
+   <LINK REL="Next"  HREF="003346.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Crossforum theatre map - projecting a Vilfredo feed</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Crossforum%20theatre%20map%20-%20projecting%20a%20Vilfredo%20feed&In-Reply-To=%3C20110111094655.GA6424%40havoc.zelea.com%3E"
+       TITLE="[MG] Crossforum theatre map - projecting a Vilfredo feed">mike at zelea.com
+       </A><BR>
+    <I>Tue Jan 11 04:46:55 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012186.html">[MG] Crossforum theatre map - projecting a Vilfredo feed
+</A></li>
+        <LI>Next message (by thread): <A HREF="003346.html">[MG] Pollserver Federation - Crosstalk between voting systems
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>&gt;<i> Each room has an rss feed. The adress of the rss feed is:
+</I>&gt;<i> <A HREF="http://vilfredo.org/rss.php?room=[Name">http://vilfredo.org/rss.php?room=[Name</A> of the Room]
+</I>&gt;<i> ... The only exception being the common room, which is at
+</I>&gt;<i> <A HREF="http://vilfredo.org/rss.php">http://vilfredo.org/rss.php</A> without any name of the room.
+</I>
+Thanks Pietro, that's what we need.  Here's the guts:
+
+&lt;item&gt;
+    &lt;title&gt;is there a better phrase than 'open source democracy'?&lt;/title&gt;
+    &lt;link&gt;<A HREF="http://vilfredo.org/viewquestion.php?q=53&lt;/link">http://vilfredo.org/viewquestion.php?q=53&lt;/link</A>&gt;
+    &lt;description&gt;...Status: Now Voting! ...Many phrases have been... &lt;/description&gt;
+    &lt;pubDate&gt;Thu, 06 Jan 2011 13:00:03 +0100&lt;/pubDate&gt;
+    &lt;guid&gt;<A HREF="http://vilfredo.org/viewquestion.php?q=53&lt;/guid">http://vilfredo.org/viewquestion.php?q=53&lt;/guid</A>&gt;
+    &lt;vga:generation&gt;16&lt;/vga:generation&gt;
+    &lt;vga:numberProposals&gt;3&lt;/vga:numberProposals&gt;
+    &lt;vga:status&gt;Now Voting!&lt;/vga:status&gt;
+    &lt;vga:room&gt;Common&lt;/vga:room&gt;
+    &lt;vga:shorturl&gt;<A HREF="http://j.mp/g7lVYG&lt;/vga:shorturl">http://j.mp/g7lVYG&lt;/vga:shorturl</A>&gt;
+    &lt;vga:twitter&gt;[16] is there a better phrase than... &lt;/vga:twitter&gt;
+    &lt;/item&gt;
+
+The &lt;guid&gt; appears to contain the question ID (53).  That would be
+enough to put Vilfredo on the theatre stage.  We could start on that,
+probably this week.  (I think it's interesting that we don't need any
+modifications to Vilfredo for this.)
+
+What about user IDs?  (Maybe this is where mods are needed?)  When the
+voting reaches a stage where Vilfredo allows it, will you put user IDs
+into a news item, too?  We don't absolutely need them, but it would
+make things more interesting.
+
+I didn't know about Yahoo pipes and how they can do geolocation, but
+I'm not sure we can use them for that purpose.  They might fail in
+some situations, as for example in fetching the geolocals for Vilfredo
+users.  The common pollwiki can give us those.  (It's interesting
+because we might even use it to track the physical locations of users
+in real time (if they permit!).  Conseo has a use case for this that's
+become stuck in my mind, as a pattern for local activism.  Tell you
+later...)
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+&gt;<i> The rss feed has several extra elements right now.
+</I>&gt;<i> 
+</I>&gt;<i> Over and above the usual we have:
+</I>&gt;<i> vga:status
+</I>&gt;<i> vga:shorturl
+</I>&gt;<i> vga:room
+</I>&gt;<i> vga:numberProposals
+</I>&gt;<i> vga:twitter
+</I>&gt;<i> vga:generation
+</I>&gt;<i> 
+</I>&gt;<i> The status will tell you if it is in the voting or proposing stage.
+</I>&gt;<i> The shorturl is the url that uses bit.ly to link to the page
+</I>&gt;<i> the room is the room where the question is asked
+</I>&gt;<i> the number proposals is the number of proposals that has been asked to
+</I>&gt;<i> vote among
+</I>&gt;<i> the twitter is a phrase that should be published through twitter
+</I>&gt;<i> (@Vg2A) for the question. Right now we are only publishing questions
+</I>&gt;<i> from the common room.
+</I>&gt;<i> and the generation is obviously the generation that is running.
+</I>&gt;<i> 
+</I>&gt;<i> The rss is automatically fetched from yahoo pipes, and modified to be
+</I>&gt;<i> then pushed into twitter.
+</I>&gt;<i> What happens here is that the vga:twitter is substituted to the title,
+</I>&gt;<i> and the the result is pushed into an rss to twitter service, that
+</I>&gt;<i> pushes it into twitter.
+</I>&gt;<i> 
+</I>&gt;<i> The address of the pipe fetching the rss feed is:
+</I>&gt;<i> <A HREF="http://pipes.yahoo.com/pipes/pipe.info?_id=bb6f972cba035e3a319ef7841f2a1ee2">http://pipes.yahoo.com/pipes/pipe.info?_id=bb6f972cba035e3a319ef7841f2a1ee2</A>
+</I>&gt;<i> 
+</I>&gt;<i> The pipe can run for any room, and even for any other version of
+</I>&gt;<i> Vilfredo, as it has two inputs, the room name, and the website
+</I>&gt;<i> address.
+</I>&gt;<i> 
+</I>&gt;<i> The rss after running through the pipe is then available for everybody.
+</I>&gt;<i> For example the address for the yahoo pipes rss for the room Vilfredo is:
+</I>&gt;<i> <A HREF="http://pipes.yahoo.com/pipes/pipe.run?_id=bb6f972cba035e3a319ef7841f2a1ee2&amp;_render=rss&amp;room=Vilfredo&amp;site=vilfredo.org">http://pipes.yahoo.com/pipes/pipe.run?_id=bb6f972cba035e3a319ef7841f2a1ee2&amp;_render=rss&amp;room=Vilfredo&amp;site=vilfredo.org</A>
+</I>&gt;<i> 
+</I>&gt;<i> I think it would be a piece of cake for you to go to this yahoo pipe,
+</I>&gt;<i> clone the pipe (just click on the clone link) and change it so that
+</I>&gt;<i> you can have the rss as you want it. Provided you don't need any extra
+</I>&gt;<i> information this is probably the best way to proceed.
+</I>&gt;<i> 
+</I>&gt;<i> We are right now thinking about doing two things:
+</I>&gt;<i> 1) all the rooms that are all in CAPITOL LETTERS should be public, to
+</I>&gt;<i> the point that all of them should appear in the official twitter page.
+</I>&gt;<i> So we can have a SPANISH page and an ITALIAN page, and a BELGIUM page
+</I>&gt;<i> and an INDONESIA page, and an ENVIRONMENT page. ANd there is no need
+</I>&gt;<i> for the person to advertise it.
+</I>&gt;<i> 
+</I>&gt;<i> 2) [and this I don't know if it is possible] It is important that no
+</I>&gt;<i> one should have rights over a page. I don't want a situation where the
+</I>&gt;<i> first person that writes in a page gets possession of it, or similar.
+</I>&gt;<i> But it is useful if some pages were linked to some localities. For
+</I>&gt;<i> example the page ITALIA, should be linked to Italy. And ROMA to Rome.
+</I>&gt;<i> Now, I wonder if there is an automatic way to do it. Maybe there is a
+</I>&gt;<i> service offered by yahoo or google that given a name gives you back
+</I>&gt;<i> the coordinates they assume that name refers to. It might be often
+</I>&gt;<i> wrong, but sometimes right. If this is the case, those coordinates
+</I>&gt;<i> would end up being really useful for the geoforum.
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012186.html">[MG] Crossforum theatre map - projecting a Vilfredo feed
+</A></li>
+	<LI>Next message (by thread): <A HREF="003346.html">[MG] Pollserver Federation - Crosstalk between voting systems
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

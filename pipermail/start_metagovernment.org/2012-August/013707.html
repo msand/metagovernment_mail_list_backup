@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Spambots in the wiki
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Spambots%20in%20the%20wiki&In-Reply-To=%3C1C4279CB-798C-42B2-8DA7-1201BD1B0F97%40metagovernment.org%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013702.html">
+   <LINK REL="Next"  HREF="013711.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Spambots in the wiki</H1>
+    <B>Ed Pastore</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Spambots%20in%20the%20wiki&In-Reply-To=%3C1C4279CB-798C-42B2-8DA7-1201BD1B0F97%40metagovernment.org%3E"
+       TITLE="[MG] Spambots in the wiki">epastore at metagovernment.org
+       </A><BR>
+    <I>Sat Aug  4 11:02:50 EDT 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013702.html">[MG] Spambots in the wiki
+</A></li>
+        <LI>Next message (by thread): <A HREF="013711.html">[MG] Spambots in the wiki
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>OK, I added this to LocalSettings.php:
+
+## 2012-08-04 ED ADDED as per
+## <A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/2012-August/004915.html">http://metagovernment.org/pipermail/start_metagovernment.org/2012-August/004915.html</A>
+## Details at:
+## <A HREF="http://www.mediawiki.org/wiki/Manual:$wgGroupPermissions">http://www.mediawiki.org/wiki/Manual:$wgGroupPermissions</A>
+## (A.1) close API to anonymous, unregistered users
+$wgGroupPermissions['*']['writeapi'] = false;
+## (A.2) close API to ordinary users, leave open for registered bots
+$wgGroupPermissions['user']['writeapi'] = false;
+
+I'm not sure I quite get it, though. If both [*] and [user] are false, then how is bot true?
+
+Also, have you noted all the new users popping up recently? The recent changes log has several new users each day with some random characters followed by a number:
+<A HREF="http://www.metagovernment.org/wiki/Special:Log/newusers">http://www.metagovernment.org/wiki/Special:Log/newusers</A>
+I presume they are all spammers, but only a handful successfully go from registration to spamming.
+<A HREF="http://www.metagovernment.org/wiki/Special:RecentChanges">http://www.metagovernment.org/wiki/Special:RecentChanges</A>
+Looks like we're making a lot of progress... Hopefully the above will allow me to take off some other controls, though it will take me a while to figure out which can go. Any opinions?
+<A HREF="http://www.metagovernment.org/wiki/Special:Version">http://www.metagovernment.org/wiki/Special:Version</A>
+<A HREF="http://www.metagovernment.org/wiki/Special:ListGroupRights">http://www.metagovernment.org/wiki/Special:ListGroupRights</A>
+
+
+On Aug 3, 2012, at 9:16 PM, Michael Allan wrote:
+
+&gt;<i> PS,
+</I>&gt;<i> 
+</I>&gt;&gt;<i> ## (A.1) close API to anonymous, unregistered users
+</I>&gt;&gt;<i>  $wgGroupPermissions['*']['writeapi'] = false;
+</I>&gt;<i> 
+</I>&gt;<i> But I forgot that Metagov is being spammed by registered users.  So
+</I>&gt;<i> Metagov would also need the second line:
+</I>&gt;<i> 
+</I>&gt;<i>  ## (A.2) close API to ordinary users, leave open for registered bots
+</I>&gt;<i>    $wgGroupPermissions['user']['writeapi'] = false;
+</I>&gt;<i> 
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Start : a mailing list of the Metagovernment project
+</I>&gt;<i> <A HREF="http://www.metagovernment.org/">http://www.metagovernment.org/</A>
+</I>&gt;<i> Post to the list: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Start at metagovernment.org</A>
+</I>&gt;<i> Manage subscription: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">http://metagovernment.org/mailman/listinfo/start_metagovernment.org</A>
+</I>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013702.html">[MG] Spambots in the wiki
+</A></li>
+	<LI>Next message (by thread): <A HREF="013711.html">[MG] Spambots in the wiki
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

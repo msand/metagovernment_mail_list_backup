@@ -1,0 +1,186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Votorola, DemocracyLab, White House 2, etc.
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Votorola%2C%20DemocracyLab%2C%20White%20House%202%2C%20etc.&In-Reply-To=%3C20090519143301.GA3562%40obsidian.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="010350.html">
+   <LINK REL="Next"  HREF="010331.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Votorola, DemocracyLab, White House 2, etc.</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Votorola%2C%20DemocracyLab%2C%20White%20House%202%2C%20etc.&In-Reply-To=%3C20090519143301.GA3562%40obsidian.zelea.com%3E"
+       TITLE="[Start] Votorola, DemocracyLab, White House 2, etc.">mike at zelea.com
+       </A><BR>
+    <I>Tue May 19 10:33:01 EDT 2009</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="010350.html">[Start] Votorola, DemocracyLab, White House 2, etc.
+</A></li>
+        <LI>Next message (by thread): <A HREF="010331.html">[Start] Votorola, DemocracyLab, White House 2, etc.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi all,
+
+It's good to trade ideas out in the open.  I only hope organizers like
+Ed and Giovani aren't getting the impression that it's first and
+foremost a technical problem - that inter-project cooperation depends
+on agreeing to specific solutions on voter identity and
+authentication, and so forth.  I'm worried they're shaking their heads
+and saying to themselves:
+
+   And what next?  There are just too many hurdles.  There's no point
+   even *talking* about cooperation at an organization level until
+   they sort out their technical differences.
+
+Truth is - and see if you agree - we have no technical disagreements
+at an *architectural* level - not on anything - and that's all that
+matters to project leaders.  See if you follow me...
+
+Thomas von der Elbe wrote:
+&gt;<i> If we will have different levels of authentication-security then we can
+</I>&gt;<i> also have different authentication-methods.
+</I>
+Exactly true.  And maybe we even *must* have different ones, all side
+by side.
+
+Giovani can confirm: the purpose of authentication is to tie online
+identity (ID) to some other property such as a physical residence
+(traditional voter register) or physical body (biometric signature).
+For a given ID, one method could tie it to a residence:
+
+  ID definitely lives on 522 Main Street
+
+Another could tie it to a body:
+
+  ID definitely has retinal pattern R
+
+And so on, for all the other *authentic* properties of ID that anyone
+might care about.  There can even be 6 different auth methods for a
+given property - say residential address - provided by 6 different
+auth services.  The more the better.  We actually *want* multiple auth
+methods, auth services.
+
+Kris Dev wrote:
+&gt;<i> To my knowledge, even OpenID suggests biometric as a form of digital
+</I>&gt;<i> signature. I feel it is the best to create a unique and fail proof identity;
+</I>&gt;<i> unless someone disagrees with me and has a better alternative to suggest.
+</I>
+I agree that we should use whatever ID format is the accepted
+standard.  However, it need not carry authentication data in itself.
+The ID is just a unique online name.  Authentication is a separate
+concern.
+
+Biometrics auth is interesting though.  I never considered anything
+beyond residential auth, and it really gets me thinking...  it's all
+bigger than I thought, just 2 weeks ago!
+
+Pietro Speroni di Fenizio wrote:
+&gt;<i> Regarding the centralised system, it seem to me that a facebook system
+</I>&gt;<i> is the best we can aim for. In facebook what really identifies a
+</I>&gt;<i> person is not his name but his list of friends. So it is not that easy
+</I>&gt;<i> to create a fake identity. Especially if you clarify that each person
+</I>&gt;<i> to vote must (insert here some social requirements, have x friends,
+</I>&gt;<i> with which he passes x messages...). The problem with this is that
+</I>&gt;<i> there are few people who are really asocial...
+</I>
+True, because the only authenticated property here is that ID has lots
+of online friends.  (Lucky for him, that can be helpful! :) And it
+could be helpful for other voters to know this, in some cases.  In
+those cases, voters could filter the results, &quot;Show me the same poll
+results, but now include only people who are popular online&quot; (?
+maybe).
+
+&gt;<i> Then of course there is the issue that some system do not need user
+</I>&gt;<i> identification, but this is another ball game. Many system do need it,
+</I>&gt;<i> so we better prepare for that.
+</I>
+(So we're as open as possible to all systems, to all newcomers, and
+ new ideas.  I agree, and it seems like a strategy that nobody can
+ compete against!  We could only win at it.)
+
+Manuel Barkhau wrote:
+&gt;<i> Social network requirements seem to have some paralels to a network
+</I>&gt;<i> of trust...  In order for this to work, the confidence level of the
+</I>&gt;<i> person verifying will have to be inherited by the person being
+</I>&gt;<i> verified. If the small world theorem is correct, it shouldn't be
+</I>&gt;<i> hard for a real person to be verified by at least a few other
+</I>&gt;<i> people, giveing each real person a high level of confidence.
+</I>
+This is essentially how Votorola's trust network is coded.
+<A HREF="http://zelea.com/project/votorola/s/manual.xht#Trust">http://zelea.com/project/votorola/s/manual.xht#Trust</A>
+
+&gt;<i> Clustering by verifications may allow to find people who are trying to game
+</I>&gt;<i> the system, since fake identities should only be verified by few conspireing
+</I>&gt;<i> people. I'm not sure about this though, sounds like a research topic.
+</I>
+We hammered out a basic design sketch for a neighbourhood trust
+network (strictly for residential auth) in open discussions, a couple
+of years ago:
+<A HREF="http://lists.hmdc.harvard.edu/lists/apsa_itp_at_lists_hmdc_harvard_edu/2007_08/threads.html">http://lists.hmdc.harvard.edu/lists/apsa_itp_at_lists_hmdc_harvard_edu/2007_08/threads.html</A>
+
+It cannot easily be gamed if all trust edges are traceable to a
+trusted root node (admin/registrar).  There can be no circular islands
+of trust.  But there are other pitfalls, and it didn't take long for
+those political scientists and sociologists to see the biggest one!
+(Fortunately, it was easy to correct.)
+
+I bet we'll get lots of research help if we come together and start
+working on this in open fashion.  Our open networks - register,
+polling, authentication, discussion and discourse, brainstorming,
+classification, analysis, simulation, etc. - could serve as testbeds
+in which researchers float their lab apps, and from which they draw a
+bunch of empirical data for their studies.  If we help them, they will
+probably help us, too.
+
+So maybe we'll soon be able to give a technical thumbs up to Ed,
+Giovani, and other project leaders (anyone else listening) that we can
+do this stuff.  The hurdles don't seem to be technical.  What do you
+think?
+
+-- 
+Michael Allan
+
+Toronto, 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="010350.html">[Start] Votorola, DemocracyLab, White House 2, etc.
+</A></li>
+	<LI>Next message (by thread): <A HREF="010331.html">[Start] Votorola, DemocracyLab, White House 2, etc.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

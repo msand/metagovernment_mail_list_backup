@@ -1,0 +1,245 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Rapid prototyping of an open voting architecture
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Rapid%20prototyping%20of%20an%20open%20voting%20architecture&In-Reply-To=%3C20091231153734.GA7365%40obsidian.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="011228.html">
+   <LINK REL="Next"  HREF="011204.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Rapid prototyping of an open voting architecture</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Rapid%20prototyping%20of%20an%20open%20voting%20architecture&In-Reply-To=%3C20091231153734.GA7365%40obsidian.zelea.com%3E"
+       TITLE="[Start] Rapid prototyping of an open voting architecture">mike at zelea.com
+       </A><BR>
+    <I>Thu Dec 31 10:37:34 EST 2009</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="011228.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+        <LI>Next message (by thread): <A HREF="011204.html">[Start] Proposed IRC meeting
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>The proposal below is similar to the original (top of thread) except
+that it:
+
+  * Gives non-tech people a major role in the effort;
+
+  * Opens up free-range voting to all users, instead of just a
+    short-list of project members; and
+
+  * Takes a week longer (roughly) to hack together.
+
+There's an unsolved technical problem, in two parts:
+
+ A. How to effectively set an *immutable* semantic property (value =
+    numeric trust level) on each user page of the register-wiki (see
+    2d).
+
+ B. How to do (A) from the register-server, given that the admin of
+    the server only has &quot;sysop&quot; privileges as a user of the remote
+    wiki, and no other means of access?
+
+It might still work without (A,B), but it wouldn't be nearly as nice.
+The computed trust levels wouldn't be visible in the register-wiki.
+You'd have to go to a separate server to see them.  You wouldn't be
+able to use them in conditional template expressions, e.g. to prevent
+untrusted residents from appearing in the street pages, and so forth.
+
+(There could be other problems, too.  Please critique, if you have
+ time.)
+
+
+<A HREF="http://t.zelea.com/wiki/User:Mike-ZeleaCom/Opening_an_architecture#Rapid_prototyping">http://t.zelea.com/wiki/User:Mike-ZeleaCom/Opening_an_architecture#Rapid_prototyping</A>
+----------------------------------------------------------------------
+
+ Rapid prototyping might be used to hack together an open
+ architecture, prior to a full design effort.  This is a description
+ of the prototyping method.  In summary:
+
+ (1) users set up a federation of semantic register-wikis;
+ (2) separate register-servers compile the registration lists and post
+     them to the Web as flat files;
+ (3) voting engines read the registration lists and compile their
+     voter lists;
+ (4) vote data of each engine are likewise posted as flat files; and
+ (5) other engines read the vote data and image the votes.
+
+ These hacks should suffice to implement the use cases of &quot;register
+ once, vote_anywhere&quot; and &quot;free-range voting&quot; in as little as 4
+ weeks. ^[1][2]
+
+METHOD
+------
+
+ 1. Set up a federation of register-wikis.  Steps (1 and 2) are a
+    temporary hack for a *chainable* set of mutually *tight*
+    residential registers. ^[3]
+
+    a) Users set up a semantic register-wiki for each city or region
+       that wishes to participate.  They may use a free host like
+       referata.com.  The registers must be geographically disjoint
+       (non-overlapping) in jurisdiction.
+
+       Each street is given a separate page in the wiki, and each
+       block a separate page section.  Intersections are linked to
+       cross-street pages, so users may easily &quot;turn corners&quot; as they
+       navigate through the neighbourhood.  Blocks contain buildings,
+       and buildings contain residents.  Each resident is linked to a
+       user page.
+
+    b) On each user page, the user enters *registration properties*.
+       A template is provided for this.  The registration properties
+       include:
+
+          i. Primary residential address
+         ii. Personal identifiers (Email address, OpenID, and
+             engine-specific usernames) for each type of voting engine
+             that is participating in the prototype
+
+    c) On each user page, the user may extend *trust edges* to other
+       users.  She may also extend *doubt signals*.  Templates are
+       provided for these. ^[4][5]
+
+ 2. Code the compilation of the *registration lists*.  Each
+    register-wiki (1) is associated with a separate register-server
+    (2).  For each wiki/server pair: ^[3]
+
+    a) Copy the registration and trust data from the register-wiki
+       (1).  The data is exported in RDF, from a query page.
+
+    b) Trace out the trust network and compute the trust level of each
+       user.  Compile a registration list including the user
+       properties (above), plus the authorative property of:
+
+        iii. Trust level
+
+    c) Post the registration list to the Web.
+
+    d) Write the trust levels back to the register-wiki as immutable
+       semantic properties.  Local queries may reference them and show
+       them to users, but users may not alter them.  (How to do this
+       is an unsolved problem.)
+
+    e) Recompile the registration list periodically, as needed.
+
+ 3. Code the *voter list* compilation for each engine.  This is a
+    temporary hack for the list compiler. ^[3]
+
+    a) Copy the registration lists from the register-servers (2).
+
+    b) Chain the registration lists together and translate them to the
+       engine's native voter-eligiblity format.  The result is
+       effectively a voter list for that engine.  Its content will be
+       equivalent to that of the other engines' lists.
+
+    c) Recompile the voter list periodically, as needed.
+
+ 4. Code the export of *original votes* from each *source engine*.
+    This is a temporary hack for the &quot;vote monitoring&quot; interface.  For
+    each votable issue: ^[6]
+
+    a) Create a new poll (aka. &quot;issue&quot;).
+
+    b) Export all of the poll's original votes to a text file (vote
+       list).  For each original vote in the list, record the
+       particulars that define it.  The exact format will depend on
+       the engine's voting method, but just as an example:
+
+          i. Subject identifier (voter)
+         ii. Object identifier (delegate or proposal)
+        iii. Timestamp ^[7]
+
+    c) Post the vote list to the Web at a URL that encodes the
+       particular issue.  Ideally the issue is enocoded as a
+       pre-agreed universal identifier.  If not, clients may
+       cross-translate issues via a semantic wiki table, which serves
+       as a temporary hack for a *classification engine*. ^[8]
+
+    d) Re-export the vote list periodically, as needed.
+
+ 5. Code the *pull mirroring* on each *destination engine*.  This is a
+    temporary hack for an autocaster.  For each source engine (4):
+    ^[6]
+
+    a) Copy the vote list from the source engine.
+
+    b) Translate each original vote to an image vote in the
+       destination engine's native format.
+
+    c) Re-pull the vote list periodically, as needed.
+
+ The shared voter registrations (1,2,3) will enable users to wander
+ from engine to engine, without restriction.  The vote mirroring (4,5)
+ will effectively pool their votes across all engines.  Thus
+ free-range voting may be implemented as an extended-alpha prototype.
+ Users may use the prototype to vote up system rules, plans, policies
+ and designs - and to elect administrators, registrars and other
+ officials - even while the system is being developed and deployed.
+
+NOTES
+-----
+
+ [1] <A HREF="http://t.zelea.com/wiki/User:Mike-ZeleaCom/p/edor#Register_once.2C_vote_anywhere">http://t.zelea.com/wiki/User:Mike-ZeleaCom/p/edor#Register_once.2C_vote_anywhere</A>
+
+ [2] <A HREF="http://t.zelea.com/wiki/User:Mike-ZeleaCom/Opening_an_architecture#Free-range_voting">http://t.zelea.com/wiki/User:Mike-ZeleaCom/Opening_an_architecture#Free-range_voting</A>
+
+ [3] <A HREF="http://t.zelea.com/wiki/User:Mike-ZeleaCom/Registration_framework">http://t.zelea.com/wiki/User:Mike-ZeleaCom/Registration_framework</A>
+
+ [4] <A HREF="http://zelea.com/project/votorola/s/manual.xht#Trust">http://zelea.com/project/votorola/s/manual.xht#Trust</A>
+
+ [5] <A HREF="http://zelea.com/project/votorola/s/manual.xht#doubt-signaling">http://zelea.com/project/votorola/s/manual.xht#doubt-signaling</A>
+
+ [6] <A HREF="http://t.zelea.com/wiki/User:ThomasvonderElbe_GmxDe/Vote_mirroring">http://t.zelea.com/wiki/User:ThomasvonderElbe_GmxDe/Vote_mirroring</A>
+
+ [7] Timestamping of exported votes allows for older originals to be
+     replaced by newer images.
+
+ [8] <A HREF="http://t.zelea.com/wiki/User:Mike-ZeleaCom/Opening_an_architecture#Classification_framework">http://t.zelea.com/wiki/User:Mike-ZeleaCom/Opening_an_architecture#Classification_framework</A>
+
+-- 
+Michael Allan
+
+Toronto, +1 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="011228.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+	<LI>Next message (by thread): <A HREF="011204.html">[Start] Proposed IRC meeting
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] (frvp) Prototyping the whole of e-democracy
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28frvp%29%20Prototyping%20the%20whole%20of%20e-democracy&In-Reply-To=%3C20100505160219.GA9076%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="011588.html">
+   <LINK REL="Next"  HREF="011587.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] (frvp) Prototyping the whole of e-democracy</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28frvp%29%20Prototyping%20the%20whole%20of%20e-democracy&In-Reply-To=%3C20100505160219.GA9076%40havoc.zelea.com%3E"
+       TITLE="[MG] (frvp) Prototyping the whole of e-democracy">mike at zelea.com
+       </A><BR>
+    <I>Wed May  5 12:02:19 EDT 2010</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="011588.html">[MG] (frvp) Prototyping the whole of e-democracy
+</A></li>
+        <LI>Next message (by thread): <A HREF="011587.html">[MG] slides and academic voting theory
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ed Pastore wrote:
+&gt;<i> I am glad you recognize it as crucial (right?), because as we have  
+</I>&gt;<i> found with Vilfredo (for example), votes without discussion are  
+</I>&gt;<i> anemic. People want to be able to explain why they voted a certain way  
+</I>&gt;<i> and/or to know why others did not vote for them. Same goes for  
+</I>&gt;<i> discussion and drafting.
+</I>
+(I agree, it's crucial.)  We had a similar learning experience,
+drafting and voting up plans with Votorola.  We weren't on the same
+page (who ever is?) and we found it difficult to talk about our
+differences in any concrete way.
+
+&gt;<i> Just allowing a discussion to happen somewhere else doesn't create a  
+</I>&gt;<i> good user experience. By comparison, look at the Candiwi model where  
+</I>&gt;<i> comments can be introduced into each line of a proposal. This (or at  
+</I>&gt;<i> least some kind) of tight integration between discussion and drafting  
+</I>&gt;<i> (and hopefully voting too) seems like a much, much more powerful end  
+</I>&gt;<i> result.
+</I>
+We also looked at text annotation (Thomas and I).  In the end, we
+didn't go that route.  Rather than embed the content of one medium in
+another (commentary/discussion in drafting), we agreed it's better to
+bridge the two by linkage.  (Now I'm thinking, we could rename the
+tool a &quot;difference bridge&quot;.)
+
+&gt;<i> Can you explain more clearly how this difference engine would be  
+</I>&gt;<i> experienced by the user?
+</I>
+Below is a mock-up of a difference view (proposed alpha).  You kind of
+have to squint at it, because it's twice removed from what an ordinary
+user would eventually see.  The main part (a) is the basic difference
+fragment between two position drafts.  In this fragment, the voter is
+proposing a higher tax rate than the candidate:
+
+ (b)  &lt;&lt;&lt; Voter-VxCa, rev 946     +7 CO-VOTERS with same diff: *******
+      &gt;&gt;&gt; Candidate-CxCa, rev 934
+      - - - @@ ... @@ frag 11
+        blah blah context blah
+ (a)  &lt; The tax rate is 0.60% of assessed value, per annum.
+      &gt; The tax rate is 0.55% of assessed value, per annum.
+        blah blah context blah
+ (c)  - - -                            merge to:  &lt;&lt; LEFT  |  RIGHT &gt;&gt;
+ (d)  This diff is DISCUSSED AT:
+      * <A HREF="http://list.somewhere.com/t3645/post356">http://list.somewhere.com/t3645/post356</A>
+      * <A HREF="http://list.elsewhere.com/t87/post98">http://list.elsewhere.com/t87/post98</A>
+      * and so forth
+
+ (this is all from <A HREF="http://zelea.com/project/de/abstract.xht">http://zelea.com/project/de/abstract.xht</A>)
+
+Also shown are several extended features, including (b) a tally of
+other voters of the same candidate who are proposing the same
+difference; (c) cherry-picking merge controls that allow for the
+transfer of the difference in either direction; and (d) reverse links
+to all known places where the difference is being discussed.
+
+Following the links in (d) you may join in the discussions.  The
+discussions, in turn, are tied to the difference view by embedded
+links; as in this list post, for example:
+
+  Dear candidate,
+
+  Please note that 7 of us are recommending a higher tax rate.
+  Amongst us, we provide over half of your total votes:
+  <A HREF="http://diff.erehwon.com/taxpol/Voter-VxCa/946/Candidate-CxCa/934#11">http://diff.erehwon.com/taxpol/Voter-VxCa/946/Candidate-CxCa/934#11</A>
+
+  Why do you continue to use a lower rate in your own draft?
+
+  Your faithful voter,
+  etc etc
+
+We've talked about using this kind of tool for missionary work.  We'd
+go into forums where political differences are already the topic of
+discussion (albeit less concrete and focused) and tool them up with
+these embedded links, and so forth.  (Just as votes without discussion
+can seem anemic, as you say, so sometimes can discussion without
+votes.)
+
+-- 
+Michael Allan
+
+Toronto, +1 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="011588.html">[MG] (frvp) Prototyping the whole of e-democracy
+</A></li>
+	<LI>Next message (by thread): <A HREF="011587.html">[MG] slides and academic voting theory
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

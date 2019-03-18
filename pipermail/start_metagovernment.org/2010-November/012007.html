@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Proxy blind for a residential voter registry
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Proxy%20blind%20for%20a%20residential%20voter%20registry&In-Reply-To=%3C20101105071221.GA5944%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012005.html">
+   <LINK REL="Next"  HREF="012010.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Proxy blind for a residential voter registry</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Proxy%20blind%20for%20a%20residential%20voter%20registry&In-Reply-To=%3C20101105071221.GA5944%40havoc.zelea.com%3E"
+       TITLE="[MG] Proxy blind for a residential voter registry">mike at zelea.com
+       </A><BR>
+    <I>Fri Nov  5 03:12:21 EDT 2010</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012005.html">[MG] Anonymous Verifiable Voting
+</A></li>
+        <LI>Next message (by thread): <A HREF="012010.html">[MG] Slashdot on Open Source Governance
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>There was some discussion off-list about how to implement a private
+voting option within an open architecture that is based (by default)
+on public voting.  Thomas and I had been mooting the design of a
+&quot;proxy blind&quot; for this purpose back in January.  With Thomas's
+permission, I've updated the wiki to add the results of that earlier
+discussion, including the text of our private emails, in case anyone
+else wants to join in the design effort.
+
+<A HREF="http://metagovernment.org/wiki/Streetwiki#Proxy_blind">http://metagovernment.org/wiki/Streetwiki#Proxy_blind</A>
+----------------------------------------------------------------------
+A proxy blind is a proposed method for implmenenting a private voting
+option. It works by splitting the registrant's identity in two: 1) a
+registration ID and 2) a voting ID or proxy. The equivalence of the
+two ID's is a secret between the registrant and registrar (the
+blind). The identity of the voter, as such, is therefore unknown to
+anyone else.
+
+No design sketch has been attempted yet. See the design discussions
+under <A HREF="http://metagovernment.org/wiki/Talk:Streetwiki#Proxy_blind">http://metagovernment.org/wiki/Talk:Streetwiki#Proxy_blind</A>
+from which these notes are excerpted:
+
+  * User registers under R-email, which gets trust from neighbours.
+    Neighbours say that R-email is not a sock puppet.
+
+  * User votes under V-email, which is vouched by registrar.
+
+  * Only registrar knows that R and V-email belong to same person.
+
+  * User promises never to vote using R-email.  Registrar checks now
+    and again to confirm that R-email never votes.
+
+  So you can never vote with R-email or do anything else that ties it
+  to V-email.  You have two registrations in streetwiki:
+
+    R-reg: R-email + street address (real)
+
+    V-reg: V-email + street address (surrogate) + personal identifiers
+           (OpenID and so forth) for other voting engines
+
+  We have to be clear about the problems - basically that we cannot
+  *really* assure them of privacy yet.  Otherwise, if we give the
+  wrong intial impression, it will be difficult to defend the
+  technology from attacks in the mass media.
+
+See also:
+<A HREF="http://metagovernment.org/wiki/Talk:Streetwiki#Residential_authentication_by_trust_and_authority">http://metagovernment.org/wiki/Talk:Streetwiki#Residential_authentication_by_trust_and_authority</A>
+
+ a) Streetwiki with trust network, to
+
+       i) Verify residential address, and
+
+      ii) Verify honesty of (b) and (c);
+
+ b) Additional registries to authenticate residential address by other
+    schemes, including by authority; and
+
+ c) Proxy blind to keep registration and voter ID's separate, if
+    that's what a user wants.
+
+And see the thread: The case for anonymity:
+<A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/2010-August/thread.html#3051">http://metagovernment.org/pipermail/start_metagovernment.org/2010-August/thread.html#3051</A>
+
+-- 
+Michael Allan
+
+Toronto, +1 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012005.html">[MG] Anonymous Verifiable Voting
+</A></li>
+	<LI>Next message (by thread): <A HREF="012010.html">[MG] Slashdot on Open Source Governance
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

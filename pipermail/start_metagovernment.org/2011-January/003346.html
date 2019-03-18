@@ -1,0 +1,300 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Pollserver Federation - Crosstalk between voting systems
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Pollserver%20Federation%20-%20Crosstalk%20between%20voting%20systems&In-Reply-To=%3CAANLkTimmkWoCgK%3D2y7_HuXayOihQQz4%3D4ER1b7oLD01%2B%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012194.html">
+   <LINK REL="Next"  HREF="012135.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Pollserver Federation - Crosstalk between voting systems</H1>
+    <B>Alex Rollin</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Pollserver%20Federation%20-%20Crosstalk%20between%20voting%20systems&In-Reply-To=%3CAANLkTimmkWoCgK%3D2y7_HuXayOihQQz4%3D4ER1b7oLD01%2B%40mail.gmail.com%3E"
+       TITLE="[MG] Pollserver Federation - Crosstalk between voting systems">alex.rollin at gmail.com
+       </A><BR>
+    <I>Tue Jan  4 15:49:10 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012194.html">[MG] Crossforum theatre map - projecting a Vilfredo feed
+</A></li>
+        <LI>Next message (by thread): <A HREF="012135.html">[MG] Pollserver Federation - Crosstalk between voting systems
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>It seems we are getting closer to a &quot;standard&quot; for the information
+needed for a &quot;poll&quot; or other consensus building process to continue
+online.
+
+Things in this email in &quot;marks&quot; are simple recommendations, as all of
+it is, and not meant to be set in stone or to be taken as
+argumentative or rude.  Please forgive me if my writing comes across
+that way.  Email sucks.
+
+So, for the last thread we were talking about cross-forum theater and
+the kind of data/information that the display would eat/show to users.
+ Mike's idea was that the &quot;action&quot; for cross-forum would be the
+&quot;Difference,&quot; the comparison between two positions.  Mike and so many
+of us are highly super-enthused by the idea that people will actively
+change positions and move these changes around.  It makes sense that
+we &quot;Should&quot; design an &quot;activity viewer&quot; that displays this information
+to users as the &quot;contents&quot; of such activity is what we imagine to be
+the heart of wide-spread consensus building activities.
+
+In the last post, Thomas requested an Mike delivered a succinct
+description of what an &quot;activity packet&quot; for a &quot;Diff&quot; might look like.
+ The idea is that this activity would have a bunch of metadata
+attached to it that would allow us to show the activity in several
+contexts useful to the user.  Loaded into this is an assumption that
+the user is in need of a way to act on this activity, also, in
+addition to reading it, and I'll get to that in a minute.
+
+Here's the basics Mike listed for the &quot;Diff&quot; activity packet.
+
+This is the packet of information that the cross-forum app can use to
+show information to the user.
+
+ a) Post URL: full URI where the post of the Difference is located.
+ b) &quot;140 char&quot; summary of diff by the author of the Difference
+ c) Diff URL: full URI of the comparison/diff between 2 positions
+ d) URLs of the two positions being compared/&quot;Diff'd&quot;
+ e) Poll ID: Some unique string that is the same for both positions
+
+In addition to this we are also assuming that there will be a whole
+bunch of additional meta-data  that is useful to the task of
+displaying this information contextually as a &quot;stream&quot; or map or in
+any other way that will help the user to make sense of a lot of
+conversation and allow them to focus on an area/section that is
+important to them.  Some of this metadata might be:
+
+1.  Friend status - is the author a &quot;friend&quot; through some social network
+2.  Tree status - is the author up or down the &quot;tree&quot;, in-line, or in
+another &quot;branch&quot;
+3.  Tree changes - what changes have ensued in the tree that are
+related to this change (more/less supporters)
+4.  Location information - location of author, location of poll,
+action/outcome location (poll in Germany about something in Indonesia)
+5.  Resulting cross-forum action - how many people clicked on or
+interacted with this post
+6.  Status of poll - have conditions, if any, been met?  What are the
+conditions?
+7.  Poll rank - priority of the poll in your own ranking system, and
+across your allies
+
+I am sure that anyone who puts their mind to it can come up with some
+interesting things related to to additional metadata based on what
+they would want to get out of this app, and what information would be
+needed for them to get that outcome.
+
+Building on what Owen and others have said, I would highly recommend
+that this description you just wrote, Mike, become a document to be
+built upon over time.  I do my little bit here to write a more general
+description, above, towards that effort.  My new &quot;position,&quot; if you
+will.  This could eventually become an &quot;oVote Diff standard&quot; like the
+oStatus standard: <A HREF="http://ostatus.org/specification">http://ostatus.org/specification</A>
+
+If a standard, then, any system engaged in the most basic of consensus
+building activities would want to implement this standard so that they
+could participate in an ever widening circle of consensus building
+discussion and simultaneously give their user/participants more
+freedom in how they participate.  Win-win-win.
+
+I'd like to take this a step further, and backwards, now.  Again,
+please take what I offer as constructive contribution as opposed to
+critique.  I am attempting to leave all critique out of this email,
+and shoudl you feel you encounter any, please give me the benefit of
+the doubt.
+
+To give some prologue, I am in total agreement about the concept of
+&quot;consensus-splitting&quot; and vote mirroring.  This is a hugely important
+concept and underlies the importance and feeling of immediacy of
+cross-forum and the evolution of standards for cross-talk between
+consensus building systems.
+
+I believe that as the actual &quot;content&quot; of the data layer for the
+cross-forum &quot;eVote Diff Standard&quot; becomes clearer as a &quot;component&quot; in
+the system that the entire open architecture that has become the real
+product of the votorola work can take many strides forward.  With
+Conseo's input, I am seeing that the cross-forum &quot;viewer&quot; is starting
+to give other people from other projects a real taste of what we have
+been working on with the advancement of Votorola.  This cross-talk and
+these standards could become a rally point for other projects, and of
+course many have individuals have shown an interest.
+
+So, the step forward is to see that &quot;open consensus building&quot; and
+&quot;cross-talk&quot; are entry points for the projects to work together
+towards something.
+
+The step backward (and forward again) is to start to open a larger
+conversation around what a pollserver is, what a vote server is, and
+what these things &quot;mean&quot; for individuals and groups who have consensus
+building projects and also for those who simply want to participate in
+the consensus building process within their own projects.
+
+Implicit in the description of the &quot;eVote Comparison Standard&quot; is the
+idea that a voting system provides the facility for users to:
+
+1.  Create a unique poll
+2.  Create  a position within that poll
+3.  Allow users to vote for a position
+4.  Allow another user to propose a competing position
+5.  Allow a user to produce a &quot;Comparison/Diff&quot; between 2 position
+
+I may be mistaken here, but, in short, this is the description of what
+a &quot;pollserver&quot; does within the architecture of votorola.
+
+Would this set of activities, and the accompanying data output (Unique
+poll id, unique position id, Unique URI for (each, each version of a)
+position) also be a good basis for a standard?
+
+The standardization of such a thing would allow us to make the statement:
+
+&quot;if you implement these things within your polling facility (or
+application, or whatever you want to call it) and provide data access
+(of this type and variety) then you can participate in these ways
+within the open architecture.  Additionally your users will be able to
+participate in the ever widening number of sites that are supported in
+the &quot;cross-forum&quot; application that can be customized for your users,
+giving them a new freedom to participate across the web.&quot;
+
+I've gotten a bit mixed up over the last year that I've been working
+with Thomas and Mike about where authentication takes place.
+Authentication is a huge part of eliminating sock puppets and I don't
+think anybody doubts the utility of it, and there seems to be a number
+of places where authentication touches each of the systems within the
+open architecture Mike has been working on.  Because of this I get a
+little mixed up, and so I preface my next statements by saying that I
+am really not sure how much currently attributed to the Voteserver or
+something else.
+
+Regardless of whether this is the Voteserver or something else, it
+seems to me that we do need a standard for &quot;unique identity&quot; ON THE
+WEB.  It seems to me that it is up to the administrators of each
+polling facility to take into account that polls shared &quot;between
+polling faclilities&quot; will invite voters to create duplicate
+identities, and that their will/must be some form of standard for
+rooting out such duplicates in order for polls that take place across
+multiple servers (each with it's own identity system) to have
+validity.
+
+Based on this need, then, I would say that there is a clear need for
+at least 1 standard that allows all polling facilities to implement
+some form of identity check (that can be verified) to reach a certain
+level of &quot;certainty&quot; that adequate steps, to a certain level of
+certainty, are being taken to eliminate duplicates.
+
+Put together then, we would have  an architecture where:
+
+1.  Individuals and organizations could construct a polling facility
+to meet their needs
+2.  Implement specific standards within that polling facility for
+Consensus-Building, Authentication, and &quot;eVote Comparisons/Cross-forum
+participation)
+3.  These polling facilities could then rely on the ability to
+interact across any number of polling facilities across the web.
+
+This would be a set of guidelines that would create a &quot;federation
+standard&quot; that would allow for widespread participation in the &quot;basics
+of consensus building&quot;.
+
+I would need to register this personal app with the pollserver, then,
+and &quot;claim&quot; it.
+
+I do beg of you to be kind by slicing and dicing my recommendation
+(and not me) as I do my best to be helpful and not hurtful.  I mean no
+offense in anything I write.  I am simply pointing out something that
+I hope we can continue to work on together.
+
+I realize that there are deep discussion within each of the projects
+about the necessity of this or that widget or rules about
+authentication, but is it not possible that this is one of the
+greatest goals that we could achieve together, and therefore worth
+working towards if for no other reason than the sheer awesome-ness of
+the possibility?
+
+--
+Alex
+werk: <A HREF="http://commoning.net">http://commoning.net</A>
+me: <A HREF="http://alexrollin.com">http://alexrollin.com</A>
+mob: +31 (0) 6 31 56 96 88
+&#8220;It&#8217;s no longer possible for a country to collapse in isolation. Now
+we all collapse. &#160;The only path to stability is to equalize the
+consumption rates of the first and developing world. Our dream is no
+longer possible in the new world.&#8221; - Jared Diamond
+
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012194.html">[MG] Crossforum theatre map - projecting a Vilfredo feed
+</A></li>
+	<LI>Next message (by thread): <A HREF="012135.html">[MG] Pollserver Federation - Crosstalk between voting systems
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

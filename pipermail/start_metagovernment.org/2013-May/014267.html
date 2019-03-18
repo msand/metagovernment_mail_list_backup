@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Crowdsourcing the History of eDemocracy
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Crowdsourcing%20the%20History%20of%20eDemocracy&In-Reply-To=%3C1368609963.25410.6995%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="014261.html">
+   <LINK REL="Next"  HREF="014269.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Crowdsourcing the History of eDemocracy</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Crowdsourcing%20the%20History%20of%20eDemocracy&In-Reply-To=%3C1368609963.25410.6995%40out.zelea.com%3E"
+       TITLE="[MG] Crowdsourcing the History of eDemocracy">mike at zelea.com
+       </A><BR>
+    <I>Wed May 15 08:36:27 EDT 2013</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="014261.html">[MG] Crowdsourcing the History of eDemocracy
+</A></li>
+        <LI>Next message (by thread): <A HREF="014269.html">[MG] Crowdsourcing the History of eDemocracy
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Pietro and Ed,
+
+Pietro asked:
+&gt;<i> &gt; In particular can someone trace back the exact author and the date
+</I>&gt;<i> &gt; of the idea that voting should not be linked with a specific
+</I>&gt;<i> &gt; platform? Although this intuition has not yet reached full
+</I>&gt;<i> &gt; maturation I think it deserves a place as one of the ideas that
+</I>&gt;<i> &gt; might come up in the future.
+</I>
+Ed answered:
+&gt;<i> &gt; I believe Thomas von der Elbe came up with free range voting:
+</I>&gt;<i> &gt; Michael can confirm and give a date.
+</I>
+Mark Murphy speaks of aggregation in his 2008 essay [1].  That same
+year he wrote in an email, &quot;Anybody can cast their vote on the issue,
+again by publishing a POSH-enhanced Web page.&quot; [2] He seems to have
+wanted the votes to be free of central servers and instead in the
+hands of self-publishing voters.  That's a beautiful idea.  The
+servers become just aggregators, or what today I'd call &quot;vote mirrors&quot;
+- except they're tied to a single standard for the vote form [3].
+That's one problem.  Another is that few people would actually be
+inclined to host their own votes, most would instead come to rely on
+vote-servers.  So it's impractical as envisioned.
+
+Thomas's first post to Metagov (May 2009) takes a different approach.
+He's trying to get the vote-servers that already exist and already
+host votes to cooperate [4].  At one point in the thread, I suggest
+vote pooling [5].  But pooling embraces centralization, which is the
+opposite of putting the vote in the voter's hands; it's unattractive.
+
+The key to the problem turns out to be translation across vote forms.
+That's the basis of vote mirroring, which Thomas invented in December
+2009 [6].  It effectively puts the *form* of the vote in the voter's
+hands because he/she can now choose any vote-server or voting method,
+including (if need be) his/her own.
+
+So Murphy was the first to go chasing after platform freedom (that I
+know of), but Thomas was the first to actually catch it.
+
+Pietro asked:
+&gt;<i> What were the differences between Votorola and Candiwi?
+</I>
+Both support distributed drafting based on diff/patch tools.  The main
+differences are probably in the voting and discussion media.  But I
+don't remember Candiwi's design for those.
+
+&gt;<i> I know Votorola has a nice tree structure of changes to a page. Has
+</I>&gt;<i> this been implemented or it is only theorethical (i.e. should I put
+</I>&gt;<i> it down as theorethical result)
+</I>
+What we have are tree structures of *extant* differences, as opposed
+to historical changes.  For example, here's Frank's draft:
+<A HREF="http://zelea.com/w/User:Frank-FlippityNet/Sys/p/sandbox">http://zelea.com/w/User:Frank-FlippityNet/Sys/p/sandbox</A>
+Here's the current difference vs. his voter Georgina:
+<A HREF="http://zelea.com:8080/v/w/D?a=5339&amp;b=6054&amp;s">http://zelea.com:8080/v/w/D?a=5339&amp;b=6054&amp;s</A>
+And here's the social tree structure that relates Georgina and Frank:
+<A HREF="http://zelea.com:8080/v/w/Votespace?p=Sys!p!sandbox&amp;u=Frank-FlippityNet">http://zelea.com:8080/v/w/Votespace?p=Sys!p!sandbox&amp;u=Frank-FlippityNet</A>
+
+That's not a realistic example, of course, and not very instructive.
+The practice docs indexed on the home page are more instructive:
+<A HREF="http://zelea.com/project/votorola/home.html">http://zelea.com/project/votorola/home.html</A>
+
+&gt;<i> Then Free Range Voting (this was how it was called), Michael starts
+</I>&gt;<i> speaking about it on the 22/12/2009.
+</I>&gt;<i> 
+</I>&gt;<i> Now what is its relation with Votorola?
+</I>
+Free-range voting is the primary use case for vote mirroring.  It's
+shown here: (see FRV) <A HREF="http://zelea.com/project/outcast/_overview.xht">http://zelea.com/project/outcast/_overview.xht</A>
+The three vote-servers in that cluster (V) are supplied by different
+providers.  Users may freely range from server to server (vote form to
+vote form); they can never be captured by a dominant provider, even
+one that had 99.9% of the users.  The relation with Votorola is that
+we might be one of the providers.  That would be unlikely without vote
+mirroring, because it would be a dog-eat-dog race to the bottom.
+
+Mike
+
+
+ [1] Mark Murphy. 2008. The &#8220;killer app&#8221; of public participation. In
+     Rebooting America. Edited by Allison Fine, Micah L. Sifrey, Andrew
+     Rasiej and Joshua Levy. Personal Democracy
+     Press. <A HREF="http://rebooting.personaldemocracy.com/node/5499">http://rebooting.personaldemocracy.com/node/5499</A>
+
+ [2] <A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/2009-February/001195.html">http://metagovernment.org/pipermail/start_metagovernment.org/2009-February/001195.html</A>
+
+ [3] Mark Murphy. 2007. xDebate formats specification, version
+     0.1.  Not published.
+
+     It's a Semantic HTML (POSH) schemata for federated debate on
+     political issues.
+
+ [4] <A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/2009-May/001404.html">http://metagovernment.org/pipermail/start_metagovernment.org/2009-May/001404.html</A>
+
+ [5] <A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/2009-May/001517.html">http://metagovernment.org/pipermail/start_metagovernment.org/2009-May/001517.html</A>
+
+ [6] <A HREF="http://zelea.com/w/User:ThomasvonderElbe_GmxDe/Vote_mirroring">http://zelea.com/w/User:ThomasvonderElbe_GmxDe/Vote_mirroring</A>
+     <A HREF="https://groups.google.com/forum/?fromgroups=#!topic/votorola/ZgW5iZenrn0">https://groups.google.com/forum/?fromgroups=#!topic/votorola/ZgW5iZenrn0</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="014261.html">[MG] Crowdsourcing the History of eDemocracy
+</A></li>
+	<LI>Next message (by thread): <A HREF="014269.html">[MG] Crowdsourcing the History of eDemocracy
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

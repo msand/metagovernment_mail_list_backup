@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Creating an Open Source Voting System
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Creating%20an%20Open%20Source%20Voting%20System&In-Reply-To=%3C20101102000219.GA4977%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="011994.html">
+   <LINK REL="Next"  HREF="012016.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Creating an Open Source Voting System</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Creating%20an%20Open%20Source%20Voting%20System&In-Reply-To=%3C20101102000219.GA4977%40havoc.zelea.com%3E"
+       TITLE="[MG] Creating an Open Source Voting System">mike at zelea.com
+       </A><BR>
+    <I>Mon Nov  1 20:02:19 EDT 2010</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="011994.html">[MG] Creating an Open Source Voting System
+</A></li>
+        <LI>Next message (by thread): <A HREF="012016.html">[MG] Creating an Open Source Voting System
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi Zohar,
+
+What you propose may go beyond open source.  I think it's more of an
+open architecture.  It also seems to be a general-purpose architecture
+(you speak of Vilfredo as a module) that would go beyond e-voting
+(Mark Frischmuth mentions TrustTheVote [1]) and into the wider domain
+of e-democracy.
+
+Mark Murphy was the first to expound ideas of radical openness in
+e-democracy, so far as I know. [2]
+
+Partly insprired by him, Thomas and I have been designing an open
+architecture for a couple of years. [3] Others are looking at applying
+it in related domains (e.g. Alex in organizational decision making).
+We have running code in the form of working prototypes. [4] I think
+we've covered all of what you've sketched here, except:
+
+  * Modules are not primarily integrated by local API, but rather by
+    network protocols.
+  * Public voting is the default, and private is an add-on.
+
+IMHO radical openness is the only way to go.  That's the crucial
+thing.  The more radically open the better, because you can't compete
+against that in *this* domain.  I hope we can work together to that
+end, even just sharing notes initially.
+
+ [1] <A HREF="http://www.trustthevote.org/">http://www.trustthevote.org/</A>
+
+ [2] Mark Murphy.  2008.  The &#8220;Killer App&#8221; of Public Participation.
+     In Rebooting America.  Edited by Allison Fine, Micah L. Sifrey,
+     Andrew Rasiej and Joshua Levy.  Personal Democracy Press.
+     <A HREF="http://rebooting.personaldemocracy.com/">http://rebooting.personaldemocracy.com/</A>
+
+ [3] The architectural docs are not collected yet, and are still
+     rather spotty.  Links to the various docs are collected here in
+     the theory: <A HREF="http://zelea.com/project/autonomy/content.xht">http://zelea.com/project/autonomy/content.xht</A>
+
+     See sections I and II.
+
+ [4] The architecture itself is project neutral, but most of the
+     initial prototype coding is courtesy of Votorola:
+     <A HREF="http://zelea.com/project/votorola/home.xht">http://zelea.com/project/votorola/home.xht</A>
+
+-- 
+Michael Allan
+
+Toronto, +1 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+Zohar Jackson wrote:
+&gt;<i>  *- Open Source Voting System* -
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> *The Idea:*
+</I>&gt;<i> 
+</I>&gt;<i> *
+</I>&gt;<i> *
+</I>&gt;<i> 
+</I>&gt;<i>     To build a modular, open-source, ultra-secure, Internet based voting
+</I>&gt;<i> system. An extensive API will make it easy for anyone to write modules,
+</I>&gt;<i> which can be added(and removed) at both user and server admin levels. This
+</I>&gt;<i> will allow the system to be adaptable and be used by businesses, schools,
+</I>&gt;<i> unions, legislative bodies etc...
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> *The Details:*
+</I>&gt;<i> 
+</I>&gt;<i> * *
+</I>&gt;<i> 
+</I>&gt;<i> *  *Because of the great flexibility of the modular system many of the
+</I>&gt;<i> systems 'details' do not need to be worked out by the system's architects
+</I>&gt;<i> but will be added in the future by independent module writers. Below are
+</I>&gt;<i> some of the ideas that should be part of the systems architecture, but could
+</I>&gt;<i> be turned off depending on the systems intended use.
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i>    - Extremely secure*
+</I>&gt;<i>    - Modular constriction*
+</I>&gt;<i>    - Voting along party lines* (As module)
+</I>&gt;<i>    - Ability for users to confirm their vote
+</I>&gt;<i>    - Ability for anonymous voting
+</I>&gt;<i>    - Interactive (Wiki, information about things being voted on pros/cons)
+</I>&gt;<i>    (As module)
+</I>&gt;<i>    - Open-source
+</I>&gt;<i>    - Multi-lingual
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i>           **Modular Construction*
+</I>&gt;<i> Users and server admins can add and remove modules allowing the system to
+</I>&gt;<i> change its functionality. An extensive API will exist to allow all sorts of
+</I>&gt;<i> modules such as genetic algorithms(Vilfredo goes to Athens), social
+</I>&gt;<i> networks, wiki's, etc...
+</I>&gt;<i> 
+</I>&gt;<i> *
+</I>&gt;<i> *Extremely secure *
+</I>&gt;<i> - The ability for anyone to create a vote storing server(VSS). There will be
+</I>&gt;<i> a public server with a list of IPs of all the VSSs. When a user votes, the
+</I>&gt;<i> vote will be sent simultaneously to all the VSSs. The VSSs will talk to each
+</I>&gt;<i> other to make sure the databases are identical. This will prevent any single
+</I>&gt;<i> admin from tampering with the vote. * (This is for large operations, for
+</I>&gt;<i> smaller operations an alternative will be worked out.)*
+</I>&gt;<i> - It should be so secure that even a server admin cannot hack the voting
+</I>&gt;<i> results.
+</I>&gt;<i> - Option to use Security tokens&lt;<A HREF="http://en.wikipedia.org/wiki/Security_token">http://en.wikipedia.org/wiki/Security_token</A>&gt;,
+</I>&gt;<i> or SMS
+</I>&gt;<i> - More details must be worked out
+</I>&gt;<i> 
+</I>&gt;<i> **Voting along party lines *
+</I>&gt;<i>     As most users don't have time to research and vote on every issue they
+</I>&gt;<i> will be able to subscribe to a virtual political party that will
+</I>&gt;<i> automatically vote for them. The user can override and unsubscribe from that
+</I>&gt;<i> political party at any time. Additionally any user can create a political
+</I>&gt;<i> party. Similar to a podcast.
+</I>&gt;<i>   Users could also choose to align themselves with different parties on
+</I>&gt;<i> different issues. For example a man who is conservative on immigration,
+</I>&gt;<i> economy, and gay marriage, but liberal about everything else. Could choose
+</I>&gt;<i> to align himself with conservative parties for those three issues and a
+</I>&gt;<i> liberal party for every other issue.
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> *The Plan**:
+</I>&gt;<i> *    To assemble a team of programmers to live together communally and work
+</I>&gt;<i> full time on developing the software. A house(in Chicago) and funding for
+</I>&gt;<i> food and basic needs have already been setup. The team will be able to live
+</I>&gt;<i> expense free and work solely on the project. All we need now are
+</I>&gt;<i> programmers.
+</I>&gt;<i> 
+</I>&gt;<i> *If you are interested in joining this team in Chicago or working on the
+</I>&gt;<i> project remotely please contact*
+</I>&gt;<i> Zohar Jackson - <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">zoharj at gmail.com</A>*
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="011994.html">[MG] Creating an Open Source Voting System
+</A></li>
+	<LI>Next message (by thread): <A HREF="012016.html">[MG] Creating an Open Source Voting System
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] List of projects
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20List%20of%20projects&In-Reply-To=%3C1370625914.AAa0bD380.9038%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="005497.html">
+   <LINK REL="Next"  HREF="005499.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] List of projects</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20List%20of%20projects&In-Reply-To=%3C1370625914.AAa0bD380.9038%40out.zelea.com%3E"
+       TITLE="[MG] List of projects">mike at zelea.com
+       </A><BR>
+    <I>Fri Jun  7 14:27:00 EDT 2013</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="005497.html">[MG] List of projects
+</A></li>
+        <LI>Next message (by thread): <A HREF="005499.html">[MG] Wise Use of Funds Raised
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi Ed,
+
+&gt;<i> Semantic wiki sounds great, though it does make sense to update
+</I>&gt;<i> MediaWiki first. I am leery of locking-in obsolescence, which then
+</I>&gt;<i> just makes future upgrading all the harder.
+</I>
+SMW is admittedly more complex than other extensions, and it does add
+steps to the upgrade process.  But they're fairly straightforward.
+I've gone through several upgrade cycles and never hit problems
+crossing MW 1.16 with SMW, except the usual PostgreSQL hangups
+(PostgreSQL is poorly supported by SMW).  But Metagov is using MySQL.
+<A HREF="http://semantic-mediawiki.org/wiki/Special:Contributions/Michael_Allan">http://semantic-mediawiki.org/wiki/Special:Contributions/Michael_Allan</A>
+
+&gt;<i> I still have not had time to dedicate to upgrading/installing,
+</I>&gt;<i> however. I'll try to get to it relatively soon. Or, Michael, if
+</I>&gt;<i> you're game, you're welcome to have ftp or shell access for the
+</I>&gt;<i> site... :)
+</I>
+I can't spare much time now because I'm late getting Votorola into
+shape for practice trials.  But I'll be upgrading my own servers in a
+month or so, including the wikis.  I'll probably switch to MySQL then
+(SMW seems to have completely abandoned PostreSQL now), which means
+I'll be learning MySQL backups and such.  So if you're still tied up
+at the time, then I could try to carry the Metagov upgrade along, too.
+Once SMW is installed (if we go that route), then I must also code the
+initial templates for the comparison tables and such.  But I'm fairly
+efficient at that part (do it all the time), so it shouldn't take more
+than a few days once I get started.
+
+There's certainly a need for cross-project comparisons provided
+they're accurate and timely.  I don't mind putting a little work into
+making that possible.
+
+Mike
+
+
+&gt;<i> On May 15, 2013, at 5:18 AM, Michael Allan wrote:
+</I>&gt;<i> 
+</I>&gt;<i> &gt; Ed Pastore said:
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt;&gt; That sounds great, Michael. However, it means I will have to first
+</I>&gt;<i> &gt;&gt; update MediaWiki, as Metagov is lagging at 1.1.16.
+</I>&gt;<i> &gt;&gt; <A HREF="http://www.metagovernment.org/wiki/Special:Version">http://www.metagovernment.org/wiki/Special:Version</A>
+</I>&gt;<i> &gt;&gt; I'll try to get to that soon, but am still having trouble finding
+</I>&gt;<i> &gt;&gt; worthwhile chunks of time.
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt; We used it with MW 1.16 once.  I forget exactly which version we used,
+</I>&gt;<i> &gt; but these claim to support 1.16:
+</I>&gt;<i> &gt; <A HREF="http://semantic-mediawiki.org/wiki/Help:Installation_1.6.0_-_1.6.2">http://semantic-mediawiki.org/wiki/Help:Installation_1.6.0_-_1.6.2</A>
+</I>&gt;<i> &gt; <A HREF="http://semantic-mediawiki.org/wiki/Help:Installation_1.7.0">http://semantic-mediawiki.org/wiki/Help:Installation_1.7.0</A>
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt; I think you can download those versions here:
+</I>&gt;<i> &gt; <A HREF="http://sourceforge.net/projects/semediawiki/files/semediawiki/">http://sourceforge.net/projects/semediawiki/files/semediawiki/</A>
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt;&gt; I was thinking I would need to break out the list into at least
+</I>&gt;<i> &gt;&gt; three tables: software projects, political parties, and
+</I>&gt;<i> &gt;&gt; philosophy/umbrella groups, because they have different kinds of
+</I>&gt;<i> &gt;&gt; data. For example, software should reference the license type and
+</I>&gt;<i> &gt;&gt; code repository, while political party should reference the
+</I>&gt;<i> &gt;&gt; geography. If I understand correctly, you are saying Semantic
+</I>&gt;<i> &gt;&gt; MediaWiki would allow us to use one table to maintain these
+</I>&gt;<i> &gt;&gt; different structures of data?
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt; One database, many tables.  When a datum changes in the database (when
+</I>&gt;<i> &gt; a URL is updated, or a number corrected), the change is automatically
+</I>&gt;<i> &gt; propagated to all tables that show that datum.  If no table happens to
+</I>&gt;<i> &gt; show it, then the datum still exists in the database.  The database is
+</I>&gt;<i> &gt; actually just the pages of the wiki.  The tables harvest their data,
+</I>&gt;<i> &gt; filter them into so many rows (each a page), and present them in
+</I>&gt;<i> &gt; columns (properties of the pages).
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt;            P  Q  R
+</I>&gt;<i> &gt;   Page A
+</I>&gt;<i> &gt;   Page B
+</I>&gt;<i> &gt;   Page C
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt; The advantage is we're now free to create variant tables.  Say that's
+</I>&gt;<i> &gt; the &quot;philosophy table&quot; above.  A user may copy it elsewhere in the
+</I>&gt;<i> &gt; wiki and modify it.  He may change the columns and the inclusion
+</I>&gt;<i> &gt; criteria (rows) to yield a more general &quot;table of theories&quot;:
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt;            P  R  S  T
+</I>&gt;<i> &gt;   Page A
+</I>&gt;<i> &gt;   Page B
+</I>&gt;<i> &gt;   Page B2
+</I>&gt;<i> &gt;   Page C
+</I>&gt;<i> &gt;   Page D
+</I>&gt;<i> &gt;   Page D2
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt; The data to fill both tables are automatically pulled from the
+</I>&gt;<i> &gt; individual philosophy/theory pages (A, B, etc).  It's a nice design.
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt; Mike
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="005497.html">[MG] List of projects
+</A></li>
+	<LI>Next message (by thread): <A HREF="005499.html">[MG] Wise Use of Funds Raised
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

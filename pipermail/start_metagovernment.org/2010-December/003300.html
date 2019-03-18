@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Vilfredo Christmass update
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Vilfredo%20Christmass%20update&In-Reply-To=%3CAANLkTimvX17kpcxBWevv0aOa2MH_geHAUccLTN0JBVca%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="003299.html">
+   <LINK REL="Next"  HREF="012088.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Vilfredo Christmass update</H1>
+    <B>Pietro Speroni di Fenizio</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Vilfredo%20Christmass%20update&In-Reply-To=%3CAANLkTimvX17kpcxBWevv0aOa2MH_geHAUccLTN0JBVca%40mail.gmail.com%3E"
+       TITLE="[MG] Vilfredo Christmass update">metagovernment at pietrosperoni.it
+       </A><BR>
+    <I>Sat Dec 25 14:10:19 EST 2010</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="003299.html">[MG] Fwd: VgtA: is there a better phrase than 'open source	democracy'?
+</A></li>
+        <LI>Next message (by thread): <A HREF="012088.html">[MG] Vilfredo and Crossforum Theatre
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>We made a huge Christmass update, and we haven't finished yet.
+
+I have posted this message to Vilfredo Develops in Athens, but since
+it is a big update I wanted to share it here as well.
+
+By the way, I also had the time to look at the mails that are being
+sent, and I could test the work at
+<A HREF="http://u.zelea.com:8080/v/crossforum/#s=05050N">http://u.zelea.com:8080/v/crossforum/#s=05050N</A>
+which I found absolutely fascinating.
+I also have tons of ideas I would like to throw in, but right now I am
+really focused with coding Vg2A.
+
+Recently a tweet I read from Chris Anderson:
+Lesson from running a 13,000 person robotics community: everybody's
+got ideas, but only prototypes are taken seriously.
+<A HREF="http://twitter.com/#!/chr1sa/status/12607028698554368">http://twitter.com/#!/chr1sa/status/12607028698554368</A>
+
+My very non politically correct thinking is that we should find a
+place for this principle in our wiki.
+
+Follows the report of the last software update:
+(keep the history image from the last question open to understand better:
+<A HREF="http://vilfredo.org/viewhistoryofquestion.php?q=53">http://vilfredo.org/viewhistoryofquestion.php?q=53</A>
+)
+---------
+With the Christmass vacations we had the time to really make some big
+progress on Vilfredo.
+
+While Derek focused on Captcha, and security issues, I mainly worked
+on introducing Graphviz images inside Vilfredo.
+
+I always wanted to do it. It seemed Vilfredo voting structure was just
+begging for it. And indeed once we made them, the result came out
+awesome. Still a lot of work needed to be done to create images of
+different size, introducing all sort of simplifications, to make the
+graph &quot;as simple as possible, but not simpler&quot; as Einstein would have
+said. Each voter in a generation of a question was represented as a
+darkpink egg, while every proposal with a box. A blue box if the
+proposal was in the pareto front. The position of the box would tell
+us how many people voted for that proposal, and a black arrow would
+indicate which proposal dominate (if above) &#160;or were dominated (if
+below) by it. After a bit of training (I intend to make a screencast)
+a person looking at one of those graphs can see who voted for what,
+what are the pareto fronts (that is immediate), which proposals have
+been voted by the same people, and which people only voted for a
+single proposal (thus forcing it to be in the Pareto Front).
+
+A lot of work went into making the image readable, and finding a good
+compromise between having all the information I wanted to pour in it,
+and keeping the image not too complex. And if Vilfredo starts to be
+more popular, with more people using it, those images might still
+become messy and spaghetti-monster like.
+
+We then introduced in the images the possibility to highlight
+particular proposals (thus highlighting all the users that voted for
+that proposal as well as all the proposals above and below), and the
+possibility to highlight particular users.
+
+One fo the interesting side effect is that Graphviz dot program
+started to place near proposals that are voted by &quot;about&quot; the same
+people. Which often have also a lot in common. In one case I spotted 3
+proposal that were bundled together by graphviz and that were
+basically saying the same thing in different ways!
+
+I think we are really onto something with those images, and the
+intuitive understanding of the space of the proposals that the image
+give. It's still a 2 dimensional structure. It probably wouldn't work
+with too many proposals, some times it works better, some times it
+works less well, but all in all it is a great progress.
+
+Then we integrated those images in the pages of the site.
+
+The proposal page was fully redesigned, to show all the generation a
+proposal went through. (A winning proposal goes from one generation to
+the next).
+
+A generation page was introduced with all the information about that
+particular generation. This page was particularly challenging, as I
+managed to fit into it also some information about &quot;alternative
+history&quot;. In other words, if this person did not vote, how would
+things be different? Was there a way for this person to make the
+Pareto Front smaller?
+
+In a normal voting democracy, no person alone has real impact on the
+voting time. This is not necessarily true when the process uses the
+Pareto Front. So we go and look for each person in what way (if any)
+their presence changed the resulting Pareto Front.
+
+It's all very new,
+it's all very exciting,
+and it all needs a lot of testing.
+
+Oh, yes, we also changed the history page.
+
+You can see an example of this work looking at the pages:
+
+<A HREF="http://vilfredo.org/viewquestion.php?q=67&amp;room=Vilfredo">http://vilfredo.org/viewquestion.php?q=67&amp;room=Vilfredo</A>
+<A HREF="http://vilfredo.org/viewhistoryofquestion.php?q=67&amp;room=Vilfredo">http://vilfredo.org/viewhistoryofquestion.php?q=67&amp;room=Vilfredo</A>
+and for a particularly interesting generation look at this one:
+<A HREF="http://vilfredo.org/viewgeneration.php?q=67&amp;g=1&amp;room=Vilfredo">http://vilfredo.org/viewgeneration.php?q=67&amp;g=1&amp;room=Vilfredo</A>
+
+But we haven't finished yet.
+
+Cheers,
+Pietro
+
+</PRE>
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="003299.html">[MG] Fwd: VgtA: is there a better phrase than 'open source	democracy'?
+</A></li>
+	<LI>Next message (by thread): <A HREF="012088.html">[MG] Vilfredo and Crossforum Theatre
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

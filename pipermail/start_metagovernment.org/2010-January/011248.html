@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Rapid prototyping of an open voting architecture
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Rapid%20prototyping%20of%20an%20open%20voting%20architecture&In-Reply-To=%3Cc387fcdf1001050700j77752301o5380b62605a4e6ca%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="011249.html">
+   <LINK REL="Next"  HREF="011246.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Rapid prototyping of an open voting architecture</H1>
+    <B>Pietro Speroni di Fenizio</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Rapid%20prototyping%20of%20an%20open%20voting%20architecture&In-Reply-To=%3Cc387fcdf1001050700j77752301o5380b62605a4e6ca%40mail.gmail.com%3E"
+       TITLE="[Start] Rapid prototyping of an open voting architecture">metagovernment at pietrosperoni.it
+       </A><BR>
+    <I>Tue Jan  5 10:00:12 EST 2010</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="011249.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+        <LI>Next message (by thread): <A HREF="011246.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi Thomas,
+
+
+2010/1/5 Thomas von der Elbe &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">ThomasvonderElbe at gmx.de</A>&gt;:
+&gt;<i> Hello,
+</I>&gt;<i>
+</I>&gt;<i> Pietro Speroni di Fenizio schrieb:
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> I still have doubts. For example in Vilfredo you don't vote for things
+</I>&gt;&gt;<i> once and for all,
+</I>&gt;&gt;<i> you vote on them, and revote, and revote. And each time you refine.
+</I>&gt;&gt;<i> Sometimes the same user votes for something in one generation, and
+</I>&gt;&gt;<i> then ignores it in another generation. And all this is part of the
+</I>&gt;&gt;<i> process that sends implicit feedback to the other users.
+</I>&gt;&gt;<i> I don't see how in this system it would work to have it all mirrored.
+</I>&gt;<i>
+</I>&gt;<i> Yes, as far as I understand, Vilfredo is very unique among the other
+</I>&gt;<i> voting-tools. But I think, that some of the information users give to
+</I>&gt;<i> Vilfredo can be mirrored into other tools. At the very least the last vote
+</I>&gt;<i> each user casts in a certain question before a new generation has started.
+</I>&gt;<i> If he doesnt participate in the new generation then its an open question,
+</I>&gt;<i> wether he gave up to convince the others or was convinced himself by the
+</I>&gt;<i> majority of the others.
+</I>&gt;<i>
+</I>&gt;<i> If I understand Vilfredo right, this is actually an interesting question for
+</I>&gt;<i> every user. Does the result reflect the majority now or is it just a measure
+</I>&gt;<i> of the patience of the users to convince the others, i.e. their felt
+</I>&gt;<i> importance of the debate?
+</I>&gt;<i> Maybe this question could be answered by the users, if you add an option
+</I>&gt;<i> like: &quot;I still stay with my last vote, but dont participate any longer.&quot;
+</I>
+Nope, sorry. I thought about that before. But it just makes it easy to
+people to write a question, vote for it, and then sit back, and wait
+until everybody else agrees with them. SInce the system does not sum
+votes, but takes the pareto front it is open to that kind of
+exploitation. Yes a person could do that manually, but it is annoying.
+
+So if people are willing to pay the price of going over and over to a
+question, they deserve to be inculded in the parteo front. Anything
+that let them automatise that process need to be excluded. Or the
+whole process would fail.
+
+Pareto front are really powerful, but they have their drawback too.
+And one of them is that each user have veto power.
+
+Veto power+automatic voting= stalling.
+
+&gt;<i>
+</I>&gt;<i> In that case even the votes from former generations could be exported.
+</I>&gt;<i>
+</I>&gt;&gt;<i> Still I see more problems coming out. For example, the pareto front
+</I>&gt;&gt;<i> works perfectly well both if you use binary voting (support/ignore) a
+</I>&gt;&gt;<i> three votes (YES, maybe, NO), n-values ranking, complete ranking, and
+</I>&gt;&gt;<i> so on. In fact it is such a general concept that, provided that in
+</I>&gt;&gt;<i> each generation a user only votes using one system, Vilfredo could
+</I>&gt;&gt;<i> cope with that too.
+</I>&gt;<i>
+</I>&gt;<i> Mirroring votes is just a way of translating. Each mirroring engine has to
+</I>&gt;<i> decide, how he tanslates something. This can be done well or not well (then
+</I>&gt;<i> it will be critiqued for the bad job). If you want to translate a ranked
+</I>&gt;<i> voting (-10 to +10) into a binary, information will be lost. But it is still
+</I>&gt;<i> a valid information to tanslate the +10 votes into a &quot;Yes&quot;. I would even say
+</I>&gt;<i> all votes from +1 to +10 are translatable to &quot;Yes&quot;.
+</I>
+Nah, that would not work. If you have people voting all 10 and 9, they
+deserve to be considered as much as people voting all 1 and 0. The
+problem is always that you are comparing apples (summing up votes) and
+oranges (comparing sets).
+
+I am ok to add a page with the info about the whole history of a page.
+But I have no trust that you can take part of that information and
+keep it meaningful. And if you take the whole of it, you are basically
+recreating Vilfredo. Why?
+
+&gt;<i>
+</I>&gt;&gt;<i> What would you do about the rooms? The room existence in private. you
+</I>&gt;&gt;<i> might be aware of some rooms, but in general the rooms are there to
+</I>&gt;&gt;<i> let people have a place to discuss things in private. If I were to let
+</I>&gt;&gt;<i> an external entity know about what rooms are active, the whole privacy
+</I>&gt;&gt;<i> issue would be gone.
+</I>&gt;<i>
+</I>&gt;<i> One way could be to only allow public rooms to mirror. Another could be,
+</I>&gt;<i> that in a private poll the mirroring engine also only allows the same users
+</I>&gt;<i> to participate.
+</I>
+There is no such things as public rooms and non public room. Each room
+is public to the people who are aware of it.
+You could mirror the common room. And some key rooms that we chose to
+mirror. But understand that there is no formal definition of public
+room.
+
+&gt;<i>
+</I>&gt;<i> Greetings,
+</I>&gt;<i> Thomas
+</I>
+Greetings,
+Pietro
+
+&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Start mailing list of the Metagovernment project
+</I>&gt;<i> <A HREF="http://www.metagovernment.org">http://www.metagovernment.org</A>
+</I>&gt;<i> Post to the list: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Start at metagovernment.org</A>
+</I>&gt;<i> Manage subscription:
+</I>&gt;<i> <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">http://metagovernment.org/mailman/listinfo/start_metagovernment.org</A>
+</I>&gt;<i>
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="011249.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+	<LI>Next message (by thread): <A HREF="011246.html">[Start] Rapid prototyping of an open voting architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

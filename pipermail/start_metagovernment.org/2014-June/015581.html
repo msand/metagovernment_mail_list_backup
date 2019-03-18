@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] (BUG) Blank pollwiki pages with Internet Explorer 11
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28BUG%29%20Blank%20pollwiki%20pages%20with%20Internet%20Explorer%2011&In-Reply-To=%3C1403131524.bffa0a0.28729%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="015572.html">
+   <LINK REL="Next"  HREF="015587.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] (BUG) Blank pollwiki pages with Internet Explorer 11</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28BUG%29%20Blank%20pollwiki%20pages%20with%20Internet%20Explorer%2011&In-Reply-To=%3C1403131524.bffa0a0.28729%40out.zelea.com%3E"
+       TITLE="[MG] (BUG) Blank pollwiki pages with Internet Explorer 11">mike at zelea.com
+       </A><BR>
+    <I>Wed Jun 18 19:10:35 EDT 2014</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="015572.html">[MG] Cooperative tools for planning the home page
+</A></li>
+        <LI>Next message (by thread): <A HREF="015587.html">[MG] (BUG) Blank pollwiki pages with Internet Explorer 11
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Thanks Marc, It's kind of you to help.  (cc Votorola)
+
+Based on your screenshot, I traced the fault to this MediaWiki bug:
+<A HREF="https://bugzilla.wikimedia.org/show_bug.cgi?id=50873">https://bugzilla.wikimedia.org/show_bug.cgi?id=50873</A>
+
+I patched it.  I don't have IE11 to test the patch, but I spoofed the
+UA string and it seems to be working.  When you've a moment, please
+confirm the fix:
+
+  1. Clear your 'temporary internet files'.  On English keyboards,
+     that's shift-ctrl delete.
+  2. <A HREF="http://zelea.com/w/Wiki:Privacy_policy">http://zelea.com/w/Wiki:Privacy_policy</A>
+
+Is it still blank?  Or does it look OK?
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+marc said:
+&gt;<i> Hi Mike,
+</I>&gt;<i> 
+</I>&gt;<i> You asked:
+</I>&gt;<i> &gt; What's your browser and version?
+</I>&gt;<i> IE 11.0.9600.17107
+</I>&gt;<i> 
+</I>&gt;<i> &gt; Do you see only a white screen?
+</I>&gt;<i> Yes, with some triangle in the upper left corner (see screen shot 
+</I>&gt;<i> &lt;<A HREF="http://merkstduwas.de/area51/zela_com-blankscreen.png">http://merkstduwas.de/area51/zela_com-blankscreen.png</A>&gt;).
+</I>&gt;<i> 
+</I>&gt;<i> &gt; What do you see for page source (e.g. &quot;View page source&quot;)?
+</I>&gt;<i> Some HTML and Script code.
+</I>&gt;<i> 
+</I>&gt;<i> &gt; Do you also have a problem with any of these pages?
+</I>&gt;<i> &gt; 1. <A HREF="http://zelea.com/w/Wiki:Privacy_policy">http://zelea.com/w/Wiki:Privacy_policy</A>
+</I>&gt;<i> Yes, also blank.
+</I>&gt;<i> 
+</I>&gt;<i> &gt; 2. <A HREF="http://metagovernment.org/wiki/User:Michael_Allan/draft">http://metagovernment.org/wiki/User:Michael_Allan/draft</A>
+</I>&gt;<i> No, shows up fine.
+</I>&gt;<i> 
+</I>&gt;<i> &gt; 3. <A HREF="http://metagovernment.org/wiki/Help:Contents">http://metagovernment.org/wiki/Help:Contents</A>
+</I>&gt;<i> No, shows up fine.
+</I>&gt;<i> 
+</I>&gt;<i> I guess you might better provide the &quot;X-UA-Compatible&quot; meta tag with content 
+</I>&gt;<i> set to &quot;IE=10&quot; for these pages.
+</I>&gt;<i> This should solve the problem.
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="015572.html">[MG] Cooperative tools for planning the home page
+</A></li>
+	<LI>Next message (by thread): <A HREF="015587.html">[MG] (BUG) Blank pollwiki pages with Internet Explorer 11
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

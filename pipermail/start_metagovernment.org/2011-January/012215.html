@@ -1,0 +1,559 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] StratML Interaction
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20StratML%20Interaction&In-Reply-To=%3C00a001cbb2d6%24e5f58750%24b1e095f0%24%40Ambur%40verizon.net%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012205.html">
+   <LINK REL="Next"  HREF="003422.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] StratML Interaction</H1>
+    <B>Owen Ambur</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20StratML%20Interaction&In-Reply-To=%3C00a001cbb2d6%24e5f58750%24b1e095f0%24%40Ambur%40verizon.net%3E"
+       TITLE="[MG] StratML Interaction">Owen.Ambur at verizon.net
+       </A><BR>
+    <I>Wed Jan 12 23:03:54 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012205.html">[MG] StratML Interaction
+</A></li>
+        <LI>Next message (by thread): <A HREF="003422.html">[MG] the movie here now and some links
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Alex, I hope we're not overloading others with more than they care to see
+along these lines.  However, my responses to your questions appear below in
+[brackets].
+
+Owen
+
+-----Original Message-----
+From: Alex Rollin [mailto:<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">alex.rollin at gmail.com</A>] 
+Sent: Tuesday, January 11, 2011 10:13 PM
+To: Owen Ambur
+Cc: Metagovernment Project
+Subject: Re: [MG] StratML Interaction
+
+On Wed, Jan 12, 2011 at 1:38 AM, Owen Ambur &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Owen.Ambur at verizon.net</A>&gt; wrote:
+&gt;<i> In Part 1, for example, the &lt;Identifier&gt; elements associated with other
+</I>&gt;<i> elements can be used to enable persistent and, if GUIDs are used, globally
+</I>&gt;<i> unique referencing.&#160; Here are a couple examples:
+</I>
+&gt;<i> &#183;&#160;&#160;&#160;&#160;&#160;&#160;&#160; A Google query in which OMB is discoverable via its GUID in three
+</I>&gt;<i> different StratML files
+</I>
+
+I was considering this earlier, this exact issue of a unique ID for
+each section of a document, when I wrote to you.  It's certainly an
+important piece of the puzzle when looking for a comparison, say,
+between mission and objectives between 2 separate organizations.
+
+
+On the subject of Objectives, is how are versions for the plans
+handled?  Is there one ID for the plan, and then another for the
+version?  Are there also ways to list the previous versions?
+
+[StratML Parts 1 &amp; 2 do not address version control per se.  However, yes,
+applications and services implementing the StratML standard can and,
+hopefully, will leverage the &lt;Identifier&gt; element for version control not
+only at the plan level but also at the element level within each plan.
+Hopefully, services will emerge that maintain a complete archival history of
+all versions of all elements of all plans (or at least those of interest to
+their own stakeholders).]
+
+&gt;<i> Applications and services can leverage the &lt;Identifier&gt;s to enable
+</I>explicit
+&gt;<i> referencing in providing input and feedback on goals and objectives, e.g.,
+</I>&gt;<i> by presenting renditions that have mailto links embedded and automatically
+</I>&gt;<i> inserting the goal/objective name in the subject line and a link in the
+</I>text
+&gt;<i> of the message.&#160; On the receiving end, applications can automatically
+</I>route
+&gt;<i> input and feedback based upon the &lt;Identifier&gt;s of the goals/objectives to
+</I>&gt;<i> which it pertains.
+</I>
+So, between a unique identifier for an objective and the
+idintifier/contact information for the person/stakeholder responsible
+for the objective you get a very specific Person to talk to.
+
+[In Parts 1 &amp; 2 the only contact information is for the &quot;submitter&quot; (i.e.,
+the person who submitted the plan/report in StratML format) who may or may
+not be the appropriate POC for comments on any particular goal or objective.
+However, in Part 3 it may be appropriate to reuse the &lt;FirstName&gt;,
+&lt;LastName&gt;, &lt;EmailAddress&gt; and &lt;PhoneNumber&gt; elements as children of a
+&lt;PointOfContact&gt; child of each goal and objective.  Other means of directing
+comments to the appropriate person/place could also be considered, depending
+upon the interest of those participating in specification of Part 3.]
+
+Is there an expectation of a standard for a comment?  For example,
+could a person that comments on the plan also be labelled with a
+stakeholder role?  And is there going to be a GUID for the comment
+itself?
+
+[This is beyond anything the StratML Committee has contemplated thus far,
+and it seems like a standard for &quot;comments&quot; might be a bit beyond the scope
+of what we should try to take on.  Again, though, what the Committee decides
+to take up will depend upon the interests of the participants and their
+willingness to undertake the necessary effort.]
+
+
+&gt;<i> Applications and services can also:
+</I>&gt;<i> &#183;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Apply semantic analysis to the text of goal and objective
+</I>&gt;<i> &lt;Description&gt;s to identify those that are similar and/or may be
+</I>&gt;<i> complementary and, thus, candidates for joint pursuit by potential
+</I>&gt;<i> performance partners.
+</I>&gt;<i> &#183;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Leverage the &lt;Stakeholder&gt; element to provide value-added
+</I>services
+&gt;<i> to particular groups of stakeholders.
+</I>&gt;<i>
+</I>&gt;<i> &#183;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Support each of the other purposes of the standard:
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> o&#160;&#160; Facilitate the sharing, referencing, indexing, discovery, linking,
+</I>&gt;<i> reuse, and analyses of the elements of strategic plans, including goal and
+</I>&gt;<i> objective statements as well as the names and descriptions of stakeholder
+</I>&gt;<i> groups and any other content commonly included in strategic plans.
+</I>&gt;<i>
+</I>&gt;<i> o&#160;&#160; Enable the concept of &quot;strategic alignment&quot; to be realized in literal
+</I>&gt;<i> linkages among goal and objective statements (leveraging the &lt;Identifier&gt;
+</I>&gt;<i> elements as well as the &lt;Relationship&gt; element of StratML Part 2) and all
+</I>&gt;<i> other records created by organizations in the routine course of their
+</I>&gt;<i> business processes.
+</I>
+When I asked about tracking comments and the makers of the comments it
+seems like it might fit in here then.
+
+I was the tech support for a lobby group for awhile.  We pushed a lot
+of letter writing campaigns and a few times we wrote back to...the
+FDA, I think,...to get a list of all the people who had commented
+during a public comment period along with the text of what they wrote.
+ I think it was all scanned or dumped from email.  it was messy.
+Nevertheless, such a thing was available.  One of them has something
+like 50,000 pieces in it.  Huge, and a tremendous amount of work for
+whoever collated it.
+
+How can StratML help with this kind of thing?  Is there going to be
+markup for structural relationships, like government representatives,
+senators, particular offices and titular roles, or is it always going
+to be an email address?
+
+[In Parts 1 &amp; 2 the StratML Committee felt that organizational relationships
+were less important than the core elements that have been included.
+However, they are on our radar for potential consideration in Part 3:
+<A HREF="http://xml.gov/stratml/index.htm#Part3">http://xml.gov/stratml/index.htm#Part3</A>  If we do decide to address that
+concept, the issue will be whether to reuse our general purpose
+&lt;Relationship&gt; element or to try to hard code a more detailed structure for
+organizations. <A HREF="http://xml.gov/stratml/draft/StratMLGlossary.xml#Relationship">http://xml.gov/stratml/draft/StratMLGlossary.xml#Relationship</A>
+My sense is that the former might be preferable and that specifying a formal
+structure for organizations is beyond the scope of what the StratML
+Committee should endeavor to do.]
+
+I think part of why I'm asking is because part of the issue seems to
+me to be supplying some form of interface for &quot;claiming&quot; which kind of
+stakeholder you are when you write in to comment.  This helps the
+information get to the right place/person, as well as insuring that
+anyone who has real responsibility to a specific stakeholder can/does
+fulfiill the obligation of their office and &quot;write back!&quot; to that
+person.  Or, at least collect that feedback in some way so that the
+reprinting of the 52,000 comments can be done more easily and more
+regularly next time.  I can only imagine the huge cost of doing such a
+thing currently.
+
+[It seems to me that routing of comments depends more upon the focus of the
+comment (e.g., the goal or objective it addresses) rather that the
+attributes of the individuals submitting them.  In those cases, the
+&lt;Identifier&gt;s associated with each goal and objective can be leveraged by
+applications and services to route comments appropriately.  However, I
+recognize there are special cases (e.g., comments to Members of Congress)
+that may warrant special treatment.  In those cases, it seems to me that it
+might be more appropriate to rely upon applications and services rather than
+to try to build the necessary logic into the StratML schema itself.  Again,
+though, that is just my thought at this point.  I can be persuaded
+otherwise, and what the StratML Committee actual decides to do in Part 3
+will depend upon: a) the interest and willingness of individuals to do the
+work, and b) the consensus of the &quot;members&quot; (participants) of the Committee.
+(Participation is open.)]
+
+&gt;<i>
+</I>&gt;<i> o&#160;&#160; Facilitate updating and maintenance of&#160; discrete elements of strategic
+</I>&gt;<i> plans without requiring review and approval of the entire plan through
+</I>&gt;<i> bureaucratic channels, thereby helping to make the strategic planning
+</I>&gt;<i> process more agile and responsive to stakeholder feedback and changing
+</I>&gt;<i> circumstances, thus helping to overcome the tendency of strategic plans to
+</I>&gt;<i> become outdated &quot;shelfware&quot;.
+</I>
+Would this be something like breaking an objective and stakeholder
+group &quot;out of the plan&quot; so that group could focus on that one
+objective and then integrate it back into the over all plan?
+
+[Exactly how this would occur will depend upon how each application and
+service deals with the files but, yes, I understand what you are suggesting
+is one of the features that Andre Cusson of 01 Communications, for example,
+is building into their StratML portal.
+<A HREF="http://stratml.hyperbase.com/stratml.html">http://stratml.hyperbase.com/stratml.html</A> In any event, the &lt;Identifier&gt;
+element associated with each goal and objective statement is designed to
+enable explicit referencing of discrete elements of each plan regardless of
+where they may reside.]
+
+So, is there, then, a way of doing &quot;versions&quot; and &quot;version dates&quot; for
+each of the sections that receives a OMB/GUID?  What's the diff
+between an OMB and a GUID, btw?
+
+[Again, this would be up to applications and services but, yes, it would be
+logical to associate a date/time stamp with a GUID to enable usage of the
+&lt;Identifier&gt; element for version control.  Dealing with this issue in
+greater detail might be a candidate for consideration in Part 3.]
+
+&gt;<i> o&#160;&#160; Work together to link their performance goals to key groups, including
+</I>&gt;<i> citizens, businesses, and other governments, as well as internal Federal
+</I>&gt;<i> Government operations;
+</I>
+When we say &quot;link&quot; here, what do we mean?  Putting up a &quot;tweet&quot; that
+says a new plan has been published that effect &quot;citizens&quot; or is there
+more detail to be had?
+
+[In the short run (i.e., as soon as a plan it posted on the Web in StratML
+format with the &lt;Identifier&gt; elements populated), direct links become
+possible, e.g., this
+<A HREF="http://xml.gov/stratml/carmel/OGDwStyle.xml#_7d88050e-142e-11df-a454-3f207a6">http://xml.gov/stratml/carmel/OGDwStyle.xml#_7d88050e-142e-11df-a454-3f207a6</A>
+4ea2a  In the future, hopefully, services will emerge that leverage the GUID
+&lt;Identifier&gt;s to point (enable links) to individual elements wherever they
+reside on the Web, i.e., without regard to the rest of the URL.  Presumably,
+StratML applications and services will enable subscription to individual
+goals and objectives as well as entire plans via such means as RSS, Atom,
+Twitter, etc.]  
+
+I think this goes back to feedback, again.  It's not just about
+publishing the stuff, though that's a great start.  We need to get
+feedback/new drafts into the process and adjust more quickly with more
+input from broader groups.
+
+When they say link what do they really mean?
+
+[We mean literal linkages, e.g., hypertext links.  However, conceptual
+linkage is also an important point.  A lot of lip service has been paid to
+the concept of &quot;strategic alignment&quot; that doesn't really amount to much in
+reality.  StratML enables literal &quot;alignment&quot; (linkage) of records to the
+strategic goals and objectives they support, a vice versa.]
+
+&gt;<i> o&#160;&#160; Adopt open standards (e.g., StratML) enabling the organization and
+</I>&gt;<i> categorization of Government information in a way that is searchable
+</I>&gt;<i> electronically and interoperably across agencies.
+</I>&gt;<i>
+</I>&gt;<i> Since StratML Part 2 still needs to be finalized as an ANSI/AIIM standard,
+</I>&gt;<i> we have not yet begun to consider Part 3.
+</I>
+Can you say more about ANSI/AIIM?  I'm not familiar with that.  What
+should eDemocracy projects know about ANSI/AIIM?  How could that help
+us to bring our tools to bear on these deliverables?
+
+[See <A HREF="http://ansi.org/,">http://ansi.org/,</A> particularly
+<A HREF="http://ansi.org/about_ansi/overview/overview.aspx?menuid=1,">http://ansi.org/about_ansi/overview/overview.aspx?menuid=1,</A> and
+<A HREF="http://www.aiim.org/,">http://www.aiim.org/,</A> particularly <A HREF="http://www.aiim.org/Resources/Standards">http://www.aiim.org/Resources/Standards</A>
+AIIM is an ANSI-accredited standards development organization (SDO).  AIIM
+will be taking StratML Part 1 to ISO as a proposed international standard.
+See <A HREF="http://www.iso.org/iso/home.html,">http://www.iso.org/iso/home.html,</A> particularly
+<A HREF="http://www.iso.org/iso/about.htm">http://www.iso.org/iso/about.htm</A>] 
+
+However, whereas we have kept
+&gt;<i> Parts 1 &amp; 2 as simple as possible, in Part 3 we will be free to begin to
+</I>&gt;<i> take on more complexity and, thus, more risk of failure as well as more
+</I>&gt;<i> potential for gain.&#160; Some preliminary candidates for inclusion in Part 3
+</I>are
+&gt;<i> outlined at <A HREF="http://xml.gov/stratml/index.htm#Part3">http://xml.gov/stratml/index.htm#Part3</A>
+</I>
+Geospatial referencing of organizations, goals, objectives, and stakeholders
+Gannon Dick's thoughts on &quot;encoded resources&quot; (e.g., country codes),
+February 7, 2010
+
+Good stuff.  This is the kind of metadata we are working on for the
+crossforum app now.
+
+Citation of relevant legal or other authorities
+
+I think I saw that citations are already included in some form, now,
+yes?  This helps to further contextualize a strategy plan, then, and
+also to publish &quot;what we think we know about what law governs this
+plan&quot; kind of thing?
+
+[StratML Parts 1 &amp; 2 do not include any element(s) explicitly referencing
+&quot;authorities,&quot; e.g., laws, regulations, and policies.  That concept is on
+our radar for consideration in Part 3:
+<A HREF="http://xml.gov/stratml/index.htm#Part3">http://xml.gov/stratml/index.htm#Part3</A>  However, what actually makes its way
+into Part 3 will depend upon the consensus of participants in AIIM's StratML
+Committee.  Indeed, whether there will be a Part 3 depends upon whether Part
+2, like Part 1, is approved as an ANSI/AIIM standard.  Part 2 is about to
+enter the ANSI/AIIM review process.  Meanwhile, as indicated above, AIIM is
+preparing to advance Part 1 for ISO approval.  Such approval will depend
+upon the interest and support of a certain number of other countries besides
+the U.S.]
+
+Categorization of goals and objectives based upon various taxonomies,
+This is interesting.  These are all linked on the page at
+<A HREF="http://xml.gov/stratml/index.htm#Part3">http://xml.gov/stratml/index.htm#Part3</A> .  I recommend folks take a
+look at these.  Structured taxonomies are important when we have
+hugely generalized facilities like stratml.  All of our Metagov
+projects are generalized.  We could have a process for introducing
+these structured schemas and linking them to our projects.
+
+[I'm not sure what you mean by &quot;they are all linked on the page ...&quot;  A link
+is provided to a summary of the U.S. Federal Enterprise Architecture (FEA)
+Performance Reference Model (PRM), and the other FEA &quot;models&quot; are also
+summarized on that page.  However, the PRM is just one of many taxonomies by
+which goals and objectives might be categorized, and if we do enable
+categorization in Part 3, I'd like to do so in a generic way that enables
+users to identify the taxonomy they are using along with documenting the
+category(ies) within that taxonomy under which each goal and objective is
+being classified.] 
+
+Note: StratML Part 2 includes the Relationship element as a child of
+PerformanceIndicator to enable users to link inputs, processes,
+outputs, and outcomes to each other in the ValueChain, if they wish
+Point of contact elements as children of the Stakeholder element to
+enable automated transmission of input and feedback to designated
+points of contact for each Goal and Objective
+Personal attributes of individuals and groups of Stakeholders
+Version control at the element level, perhaps by applying a time/date
+element or attribute
+
+This is quite powerful.  This is one way that the product of
+government funding can end up back in the hands of the people who paid
+for the work in the first place.
+
+[I agree the &lt;Relationship&gt; element is conceptually quite helpful.  However,
+the gap between potential results and actual results is commonly quite
+large.  Just because the capability is supported in the standard doesn't
+necessarily mean that anyone will use it or that they will do so
+sufficiently to achieve large-scale network effects.  Indeed, it remains to
+be seen whether even the much simpler Part 1 will be used, much less Part 2
+or even more complex additional parts.  For example, I have not yet seen any
+evidence that subscribers to this listserv plan to use any part of it.] 
+
+Referencing of &lt;Project&gt;s and &lt;Program&gt;s.
+See, for example, Project Management XML Schema (PMXML)
+Also interesting at <A HREF="http://xml.gov/stratml/draft/StratMLGlossary.xml#Program">http://xml.gov/stratml/draft/StratMLGlossary.xml#Program</A>
+
+&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> As AIIM&#146;s StratML Committee &#160;begins to consider Part 3, I hope that you
+</I>and
+&gt;<i> others will participate in helping to identify and specify additional
+</I>&gt;<i> elements and attributes that can add the greatest value, including support
+</I>&gt;<i> for the kind of interactivity that is required to make strategic and
+</I>&gt;<i> performance plans more meaningful to and productive for stakeholders.
+</I>
+Well, I know for myself, at least, that StraML is more comprehensive
+than I can fully encompass at the moment as far as structured data is
+concerned.  My research into applying StratML at the local level
+showed me that most organizations are still struggling with thee
+basics of what must have been version 1 of the specification, and that
+includes myself!
+
+[Absolutely.  That's why it is important not to get ahead of ourselves and
+overload others with too much complexity to soon.]
+
+That said, I think that we have 2 sides of a coin here.  Most of the
+metagov projects are concerned with methods for deliberation online,
+and a strategy document is the product of such a deliberation.  I go a
+step further and say also that the product needs go back and inform
+the method to the extent to which that is possible, and hence the
+progress in identifying ways in which StratML can be integrated into
+the way we write positions and strategies and format, from the very
+beginning, a proposal that is to be deliberated.
+
+[I agree that the potential for synergy between the StratML standard and
+Metgov applications is great.  The question is whether we can muster the
+will and wisdom to capitalize on that potential in ways that will be
+meaningful and manageable by others.]
+
+Alex
+&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> From: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">start-bounces at metagovernment.org</A>
+</I>&gt;<i> [mailto:<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">start-bounces at metagovernment.org</A>] On Behalf Of Alex Rollin
+</I>&gt;<i> Sent: Tuesday, January 11, 2011 4:05 PM
+</I>&gt;<i> To: Metagovernment Project
+</I>&gt;<i> Subject: [MG] StratML Interaction
+</I>&gt;<i>
+</I>&gt;<i> Hi Owen,
+</I>&gt;<i>
+</I>&gt;<i> I was wondering if you could give us some detail about the interactive
+</I>&gt;<i> features of StratML.
+</I>&gt;<i>
+</I>&gt;<i> A lot of the Metagov projects are focused on the interaction between
+</I>&gt;<i> stakeholders of various types.
+</I>&gt;<i>
+</I>&gt;<i> I asked you a similar question about the newest and latest version of
+</I>&gt;<i> StratML that was just being approved, v2? &#160;and I didn't really understand
+</I>&gt;<i> what you had planned for interaction.
+</I>&gt;<i>
+</I>&gt;<i> I've been considering the next steps in documenting the options that
+</I>&gt;<i> Votorola users have. &#160;As I may have mentioned to you, I am interested in
+</I>&gt;<i> doing additional work to format the positions that are used in Votorola
+</I>&gt;<i> which might be considered a strategic plan, in many cases. &#160;I have
+</I>explored
+&gt;<i> the MediaWiki semantic wiki options and seen some possibilities for
+</I>&gt;<i> exporting the positions in XML, which is neat, too. &#160;Over time I expect to
+</I>&gt;<i> make more process, but in the mean time I wanted to ask you to inform us
+</I>on
+&gt;<i> what you are looking to support for commenting and feedback in StratML.
+</I>&gt;<i>
+</I>&gt;<i> There are several criteria that make Votorola special and near and dear to
+</I>&gt;<i> my heart and of course the bulk of this is due to Michael's deep study
+</I>into
+&gt;<i> the theory of communication and interaction, and how stuff gets done.
+</I>&gt;<i>
+</I>&gt;<i> As I mull over how to write this down in some way I was wondering what
+</I>&gt;<i> process you have in your mind for how Strategic Plans become a &quot;focus
+</I>point&quot;
+&gt;<i> for community and stakeholder action.
+</I>&gt;<i>
+</I>&gt;<i> Does one or more of the MetaGov projects come closer to what you have in
+</I>&gt;<i> mind?
+</I>&gt;<i>
+</I>&gt;<i> I imagine that you must be frustrated, sometimes, with the machine
+</I>&gt;<i> readability of the software here :) &#160;In working with Michael the last year
+</I>I
+&gt;<i> have seen how much thought he is putting into his coding work, and I am
+</I>sure
+&gt;<i> the same is true for everyone else as well. &#160;I think it'll come sooner
+</I>&gt;<i> rather than later, and we are still working on prototyping the basic
+</I>&gt;<i> services before we implement a data standard for the positions.
+</I>&gt;<i>
+</I>&gt;<i> So, how will stakeholders interact around a StratML plan in this and later
+</I>&gt;<i> versions? &#160;Will they be commenting on particular objectives? &#160;Contacting
+</I>&gt;<i> particular stakeholders? &#160;Are you planning on offering some form of
+</I>&gt;<i> notification standard that delivers comments on a plan back to the public
+</I>as
+&gt;<i> well, so that these comments can then be seen by others? &#160;Will there be a
+</I>&gt;<i> requirement for notifications, so that stakeholders can receive
+</I>&gt;<i> notifications of comments on their or other objectives?
+</I>&gt;<i>
+</I>&gt;<i> --
+</I>&gt;<i> Alex
+</I>&gt;<i> werk: <A HREF="http://commoning.net">http://commoning.net</A>
+</I>&gt;<i> me: <A HREF="http://alexrollin.com">http://alexrollin.com</A>
+</I>&gt;<i> mob: +31 (0) 6 31 56 96 88
+</I>&gt;<i> &#147;It&#146;s no longer possible for a country to collapse in isolation. Now we
+</I>all
+&gt;<i> collapse. &#160;The only path to stability is to equalize the consumption rates
+</I>&gt;<i> of the first and developing world. Our dream is no longer possible in the
+</I>&gt;<i> new world.&#148; - Jared Diamond
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> On Tue, Jan 11, 2011 at 9:45 PM, Owen Ambur &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Owen.Ambur at verizon.net</A>&gt;
+</I>wrote:
+&gt;<i>
+</I>&gt;<i> Thanks for the pointer, Alex.&#160; The request is now in StratML format at
+</I>&gt;<i> <A HREF="http://xml.gov/stratml/drybridge/index.htm#DOS">http://xml.gov/stratml/drybridge/index.htm#DOS</A> or, more specifically,
+</I>&gt;<i> <A HREF="http://xml.gov/stratml/carmel/IFPwStyle.xml">http://xml.gov/stratml/carmel/IFPwStyle.xml</A>
+</I>&gt;<i>
+</I>&gt;<i> While they are not all 501(c)(3) organizations, perhaps a qualifying
+</I>&gt;<i> cosponsor might be found among those listed at
+</I>&gt;<i> <A HREF="http://xml.gov/stratml/drybridge/index.htm#Nonprofits">http://xml.gov/stratml/drybridge/index.htm#Nonprofits</A>
+</I>&gt;<i>
+</I>&gt;<i> Among the purposes of the StratML standard is to facilitate the discovery
+</I>of
+&gt;<i> potential performance partners:
+</I>&gt;<i> <A HREF="http://xml.gov/stratml/index.htm#DefinitionPurposes&#160;">http://xml.gov/stratml/index.htm#DefinitionPurposes&#160;</A> However, tools,
+</I>&gt;<i> applications, and services are needed to leverage StratML documents in
+</I>&gt;<i> support of those purposes.
+</I>&gt;<i>
+</I>&gt;<i> BTW, I have been encouraging IRS to enable tax-exempt charitable
+</I>&gt;<i> organizations to document their missions, visions, values, goals,
+</I>&gt;<i> objectives, and stakeholders on their own websites in StratML format.
+</I>&gt;<i> Section 10 of the new GPRA Modernization Act (GMA) requires U.S. federal
+</I>&gt;<i> agencies to publish their strategic and performance plans and reports in
+</I>&gt;<i> machine-readable formats (like StratML).&#160; &#147;Tax-expeditures&#148; (such as
+</I>&gt;<i> deductions attributable to donations to qualified charities) are
+</I>referenced
+&gt;<i> five times in the Act.&#160; So it will be necessary for agencies to estimate
+</I>the
+&gt;<i> amount of tax revenue not collected due to donations to charities pursuing
+</I>&gt;<i> objectives that complement those of the agencies themselves.&#160; Rendering
+</I>the
+&gt;<i> plans of .gov agencies and tax-exempt charities in StratML format will
+</I>&gt;<i> facilitate compliance with this new provision of law.&#160; The data
+</I>requirements
+&gt;<i> associated with the GMA will be prime topics of consideration in StratML
+</I>&gt;<i> Part 3.
+</I>&gt;<i>
+</I>&gt;<i> Owen
+</I>&gt;<i>
+</I>&gt;<i> From: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">start-bounces at metagovernment.org</A>
+</I>&gt;<i> [mailto:<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">start-bounces at metagovernment.org</A>] On Behalf Of Alex Rollin
+</I>&gt;<i> Sent: Tuesday, January 11, 2011 12:29 PM
+</I>&gt;<i> To: Metagovernment Project
+</I>&gt;<i> Subject: [MG] Grants from US Dept. of State
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> Do we lack of a US 501c3 sponsor?
+</I>&gt;<i>
+</I>&gt;<i> <A HREF="http://www.state.gov/g/drl/p/127829.htm">http://www.state.gov/g/drl/p/127829.htm</A>
+</I>&gt;<i>
+</I>&gt;<i> Grants for internet projects that defy censorship.
+</I>&gt;<i>
+</I>&gt;<i> Isn't voting in self-defining networks something that should defy
+</I>&gt;<i> censorship?
+</I>&gt;<i>
+</I>&gt;<i> --
+</I>&gt;<i> Alex
+</I>&gt;<i> werk: <A HREF="http://commoning.net">http://commoning.net</A>
+</I>&gt;<i> me: <A HREF="http://alexrollin.com">http://alexrollin.com</A>
+</I>&gt;<i> mob: +31 (0) 6 31 56 96 88
+</I>&gt;<i> &#147;It&#146;s no longer possible for a country to collapse in isolation. Now we
+</I>all
+&gt;<i> collapse. &#160;The only path to stability is to equalize the consumption rates
+</I>&gt;<i> of the first and developing world. Our dream is no longer possible in the
+</I>&gt;<i> new world.&#148; - Jared Diamond
+</I>&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Start : a mailing list of the Metagovernment project
+</I>&gt;<i> <A HREF="http://www.metagovernment.org/">http://www.metagovernment.org/</A>
+</I>&gt;<i> Post to the list: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Start at metagovernment.org</A>
+</I>&gt;<i> Manage subscription:
+</I>&gt;<i> <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">http://metagovernment.org/mailman/listinfo/start_metagovernment.org</A>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012205.html">[MG] StratML Interaction
+</A></li>
+	<LI>Next message (by thread): <A HREF="003422.html">[MG] the movie here now and some links
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

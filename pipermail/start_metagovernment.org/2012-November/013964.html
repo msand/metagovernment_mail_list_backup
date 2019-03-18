@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] (proposal) Metagov as a technical plug-in framework
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28proposal%29%20Metagov%20as%20a%20technical%20plug-in%20framework&In-Reply-To=%3CFB44218E-EDE7-4328-B5BE-0842637E5562%40metagovernment.org%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="014000.html">
+   <LINK REL="Next"  HREF="005148.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] (proposal) Metagov as a technical plug-in framework</H1>
+    <B>Ed Pastore</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28proposal%29%20Metagov%20as%20a%20technical%20plug-in%20framework&In-Reply-To=%3CFB44218E-EDE7-4328-B5BE-0842637E5562%40metagovernment.org%3E"
+       TITLE="[MG] (proposal) Metagov as a technical plug-in framework">epastore at metagovernment.org
+       </A><BR>
+    <I>Sun Nov 18 21:20:27 EST 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="014000.html">[MG] (proposal) Metagov as a technical plug-in framework
+</A></li>
+        <LI>Next message (by thread): <A HREF="005148.html">[MG] Freenode channel #metagov
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi, Michael. A few responses in-line below.
+
+On Nov 18, 2012, at 3:41 PM, Michael Allan wrote:
+
+&gt;<i> Suppose the switch had two positions instead of one: (0) banner ad,
+</I>&gt;<i> and (1) Votorola.  Not sure exactly what would go on the banner ad,
+</I>&gt;<i> but somehow it would do the job of (b).  And (0) would be the default
+</I>&gt;<i> position, ofc.
+</I>&gt;<i> 
+</I>&gt;<i> If the switch UI (dial or whatever) were close to the switched views
+</I>&gt;<i> (banner ad, toolsets), then the user could change toolsets on the fly.
+</I>&gt;<i> Maybe the ad could even invite the user to operate the switch and see
+</I>&gt;<i> what's on offer.  Should we look into a quick design for this?
+</I>
+This seems both elegant and useful.
+
+&gt;&gt;<i> Also, what do you need from me to deploy?
+</I>&gt;<i> 
+</I>&gt;<i> To do the same with the list archive, we might use something like
+</I>&gt;<i> Apache Substitute.  We'd need info about the host web server:
+</I>&gt;<i> 
+</I>&gt;<i>  * Is it Apache?
+</I>&gt;<i> 
+</I>&gt;<i>  * Does it support mod_substitute, mod_sed, or mod_line_edit?
+</I>&gt;<i> 
+</I>&gt;<i>  * Where in the file system is Mailman's public archive directory
+</I>&gt;<i>    (mailman/archives/public/) that Apache serves?
+</I>&gt;<i>    <A HREF="http://www.gnu.org/software/mailman/mailman-install/node10.html">http://www.gnu.org/software/mailman/mailman-install/node10.html</A>
+</I>&gt;<i> 
+</I>&gt;<i>  * How do we configure the service of that directory?  Via central
+</I>&gt;<i>    config files, as here for example?
+</I>&gt;<i>    <A HREF="http://havoc.zelea.com/system/host/havoc/etc/apache2/modules.d/50_mailman.conf">http://havoc.zelea.com/system/host/havoc/etc/apache2/modules.d/50_mailman.conf</A>
+</I>&gt;<i> 
+</I>&gt;<i>    Or via a .htaccess file in the directory itself?
+</I>
+I'll answer most of these together. I am using a small cPanel account, which is fairly restricted. Yes, it is Apache (2.2), but I don't have a lot of power within it. It does not (and I checked, it will not) support and of those modules. Additionally, apparently this provider does not give me direct access to the pipermail archives. I now recall looking into that before: to migrate the list, I need to get the help of their tech support to get at the files.
+
+So all of that may be further impetus to move away from this host. I have not looked into what Tuxfamily supports nor what capabilities it would provide.
+
+This leads me to a tangent... I had at one point been thinking of setting up metagov as a mirrorable site. There is no perfect mirroring of mediawiki, but it is my understanding that I could make backups of it publicly available, and other people could make restores of it to their sites, thus making effective if slightly out-of-date mirrors. (They would just need to suspend edit capabilities and instead drive people to the master site for edits.) This would allow us to have some freedom from the authority of a single administrator (uh, me, for now), as other admins of other hosts could fork if they think I've gone rogue. :)
+
+This of course doesn't have anything to do with the list server archives, but I think it's relevant because it means we would need to support a pretty vanilla web host environment, since the mirrors could all be different.
+
+&gt;<i> Meantime, I can look into what's involved in migrating to TuxFamily.
+</I>&gt;<i> Is this the latest information on that?
+</I>&gt;<i> <A HREF="http://www.metagovernment.org/wiki/Upgrade_backlog#TuxFamily_Migration">http://www.metagovernment.org/wiki/Upgrade_backlog#TuxFamily_Migration</A>
+</I>
+Yes, that's where I left it (quite some time ago; ahem). As I am trying to get at above... is tux a proper place to go, or should we look for something more flexible/powerful?
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="014000.html">[MG] (proposal) Metagov as a technical plug-in framework
+</A></li>
+	<LI>Next message (by thread): <A HREF="005148.html">[MG] Freenode channel #metagov
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

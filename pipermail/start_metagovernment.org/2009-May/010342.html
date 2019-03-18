@@ -1,0 +1,201 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Votorola, DemocracyLab, White House 2, etc.
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Votorola%2C%20DemocracyLab%2C%20White%20House%202%2C%20etc.&In-Reply-To=%3C20090518202249.GB4330%40obsidian.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="010335.html">
+   <LINK REL="Next"  HREF="010354.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Votorola, DemocracyLab, White House 2, etc.</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Votorola%2C%20DemocracyLab%2C%20White%20House%202%2C%20etc.&In-Reply-To=%3C20090518202249.GB4330%40obsidian.zelea.com%3E"
+       TITLE="[Start] Votorola, DemocracyLab, White House 2, etc.">mike at zelea.com
+       </A><BR>
+    <I>Mon May 18 16:22:49 EDT 2009</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="010335.html">[Start] Votorola, DemocracyLab, White House 2, etc.
+</A></li>
+        <LI>Next message (by thread): <A HREF="010354.html">[Start] Votorola, DemocracyLab, White House 2, etc.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ed Pastore wrote:
+
+&gt;&gt;<i>  1. 'Stakeholder involvement' rather than anyone's (outsider's)
+</I>&gt;&gt;<i>     involvement.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i>     The problem here, I guess, is that the projects are split on
+</I>&gt;&gt;<i>     whether or not to enforce this?
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i>     But there's a technical solution to that, right?  The user can
+</I>&gt;&gt;<i>     filter out the votes at a higher level according to the criterion
+</I>&gt;&gt;<i>     of stakeholder involvement - or not filter them.  So we can have
+</I>&gt;&gt;<i>     it both ways.
+</I>&gt;<i>
+</I>&gt;<i> By user, do you mean admin?
+</I>
+I mean the end user, who is viewing the results.
+
+(In truth, this is technically difficult.  At first, we can do it only
+ in a limited way, on preset filter criteria.  But my feeling is, this
+ will be enough to accomodate the core needs of all the projects.
+ Later, it will get more flexible, and users will be able to &quot;dial up&quot;
+ their own filter criteria, effectively calling up a recount.)
+
+&gt;<i> In any event, the idea of stakeholdership does not have to be strictly 
+</I>&gt;<i> enforced across the board. All we need is some common standard that can 
+</I>&gt;<i> place the user geographically, such as a postal code, perhaps?
+</I>
+I guess that's the most important bit of info.  It's part of the
+voter's registration too - what you see when you look at the voter's
+entry in the register.  And it's visible for all to see.  So it's easy
+for anyone to use the geo-data as a criterion when filtering the
+votes, during a count - or not to use it.
+
+But maybe we can allow voters to attach *any* information to their
+registrations, ad hoc?  So maybe some agency gets the idea, in future,
+that only people who graduated from a certain school (this is a dumb
+example) should be able to vote?  No problem.  Those who cared enough
+to be counted by this agency would enter their alma mater into a
+'school' field, and attach that field to their registrations.  The
+agency would filter on that field.  (Everybody else would just ignore
+ it.)
+
+Something like that, anyway - it shouldn't be a problem.
+
+&gt;&gt;<i>  2. Unique identity of the stakeholder / voter.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i>     Ed is warning us that this could slow up the deployment, or
+</I>&gt;&gt;<i>     restrict its reach.  But again, there's maybe a technical
+</I>&gt;&gt;<i>     solution: what if the authentication facility has an on/off
+</I>&gt;&gt;<i>     switch?  Or better yet, what if it's got varying authentication
+</I>&gt;&gt;<i>     levels, some that impose a lighter admin/user burden?  Then we
+</I>&gt;&gt;<i>     (admins) can just dial up whatever level we like, or turn it off
+</I>&gt;&gt;<i>     completely.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i>     Also, there's different ideas on how to design this.  But maybe
+</I>&gt;&gt;<i>     that's no problem either.  We can be open to multiple solutions
+</I>&gt;&gt;<i>     (see 4).
+</I>&gt;<i>
+</I>&gt;<i> The question here, from the Metagovernment point of view, is: who gets to 
+</I>&gt;<i> be the admin? The Metascore team's solution is to work toward a DVCS model 
+</I>&gt;<i> where there is no singular admin in charge of a community, but it still 
+</I>&gt;<i> seems like there is some basic software administration going on (or am I 
+</I>&gt;<i> just not understanding it correctly?), and I still see problems with having 
+</I>&gt;<i> a privileged user, as that opens a clear avenue for corruption.
+</I>
+(A lot will be clearer when we answer Thomas's questions.  He is
+ asking about core architecture.)
+
+Just to say what it does first, this multi-level authentication
+facility: It labels each voter with an authentication score, from 0
+(don't know from Adam) upward, with increasing levels of certainty
+that the person really is who they claim to be.
+
+In terms of who decides what authentication level to impose - this is
+maybe easier than I was thinking - maybe it is just the end user.  I'm
+thinking that an authentication level can be just one more criterion,
+on the count filter.  (&quot;I don't trust these results, and they're
+awfully close!  Please jack up the authentication level by one
+notch.&quot;)
+
+The job of the admin (registrar) would be to ensure that the
+facilities for authentication were made available to the voters, and
+then let the voters choose their own level - whatever they felt they
+needed.  (Don't really care, just play-voting?  Then zero is OK.  Want
+to be included in the most pernickity of counts?  Then put in some
+extra effort and get yourself authenticated to level 4 or 5.)
+
+&gt;<i> But as to the question of identity, it seems like the best solution is an 
+</I>&gt;<i> external one. That should make standardization much easier. My vote here, 
+</I>&gt;<i> however, would be to ensure that it is not a commercial one; again for fear 
+</I>&gt;<i> of undue influence.
+</I>
+(If I put on my architect's cap, just for a minute, I have to be
+ neutral.  My own design doesn't matter.  *Any* solution that someone
+ has the fire-under-the-butt to code, we have to accomodate it,
+ because we want an open architecture.)
+
+&gt;&gt;<i>  3. Permitting only single vote of each stakeholder on each subject.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i>     (I guess we all want this, if we can have it.  In that case, 2 is
+</I>&gt;&gt;<i>      part of the solution.)
+</I>&gt;<i>
+</I>&gt;<i> Well, as Pietro notes, Metascore and Vilfredo may not have this 
+</I>&gt;<i> requirement, as they have internal maths to correct for multiple 
+</I>&gt;<i> identities.
+</I>
+(Those voting engines enforce req. #3 by statistical means or
+ something - not by authentication - OK.  All approaches are allowed.
+
+ The only thing is - the thing we hope to agree to - is that we share
+ common standards so clients can pick and choose among the different
+ engines, without becoming locked in - as Owen said, and Thomas
+ underlined - we keep it an open field, for all to play in fairly.)
+
+&gt;<i> But the question of votes-per-user should be entirely internal to any 
+</I>&gt;<i> particular solution and not require a cross-platform standard.
+</I>
+Agreed - that would be best.
+
+(Ideally everything is internal - all components of the open network
+ are black boxes.  They expose interfaces only where other components
+ depend on them for something.  Those interfaces are best standardized
+ where possible.  That's really all there is to it.
+
+ The standards are purely technical.  The coders sort them out amongst
+ themselves, because they're the ones who gotta live with the
+ consequences.  It shouldn't affect anything at an organizational
+ level - just the fact that it's now an open field.)
+
+Sorry, this is a lot of info all at once - for me too.  (Some parts of
+ Votorola are being turned inside out by this, and others will have to
+ be scrapped.)
+
+-- 
+Michael Allan
+
+Toronto, 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="010335.html">[Start] Votorola, DemocracyLab, White House 2, etc.
+</A></li>
+	<LI>Next message (by thread): <A HREF="010354.html">[Start] Votorola, DemocracyLab, White House 2, etc.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

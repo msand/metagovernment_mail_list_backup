@@ -1,0 +1,3117 @@
+From metamerman at gmail.com  Sun Jul  2 19:08:50 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sun, 2 Jul 2017 17:08:50 -0600
+Subject: [MG] 
+	=?utf-8?q?=22Commons_versus_neoliberalism=3A_From_an_oligar?=
+	=?utf-8?q?chic_economy_to_the_open_social_economy=E2=80=9D_By_Yoch?=
+	=?utf-8?q?ai_Benkler?=
+In-Reply-To: <CABr7qmS+4vvRtOXO+hyHrosPFNSoiTJK4q83QUfYc4F3JHspLw@mail.gmail.com>
+References: <CABr7qmS+4vvRtOXO+hyHrosPFNSoiTJK4q83QUfYc4F3JHspLw@mail.gmail.com>
+Message-ID: <CACobxW20NTgioDuudLo0BTRgmboXtkZ9iy9vG4+sFwkUTmYXuQ@mail.gmail.com>
+
+On Thu, Jun 29, 2017 at 8:05 AM, Pedro <pederindi at gmail.com> wrote:
+> http://procomuns.net/en/streaming-commons-based-collaborative-economies-procomuns-2017/
+> -> https://www.youtube.com/watch?v=pL-TiwzfGuQ
+
+Interesting how they do English and Spanish not with subtitles but
+with English on the left channel and Spanish on the right.
+
+I'll admit to just skimming it (it's over 2 hours long!) but what I
+saw is the usual detailed descriptions of the problems with a lot of
+handwaving about solutions. This one, like most of the "commons" based
+proposals seemed to me particularly weak on the transition plan. They
+just seem to fundamentally lack any awareness that it's
+*decisionmaking* that's the problem, not anything to do with the
+economy: Even if there *were* something fundamentally wrong with plain
+old capitalism (which they are far from proving, or even providing
+arguments that couldn't easily be ripped to shreds by anyone who
+understands both systems) you *still* have to solve the decisionmaking
+problem first in order to implement any replacement. They all seem to
+live in this fantasyland where oligarchs just voluntarily give up
+their power as a response to a small minority of activists asking them
+to do so, armed only with "better ideas". Has any revolution happened
+that way?
+  Regards,
+    Scott
+
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+
+
+From metamerman at gmail.com  Sun Jul  2 19:24:43 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sun, 2 Jul 2017 17:24:43 -0600
+Subject: [MG] democracy.earth
+In-Reply-To: <CAJHTwmJk4Hvv1FxLsnvzW=xc3JMiAN9b-UYdGngReDoxSgz7xQ@mail.gmail.com>
+References: <CAJHTwmJk4Hvv1FxLsnvzW=xc3JMiAN9b-UYdGngReDoxSgz7xQ@mail.gmail.com>
+Message-ID: <CACobxW3=NMyMSwk-gOo83=RTizrvJZ+BHXfSh-4i9z1u_H+nEA@mail.gmail.com>
+
+On Thu, Jun 29, 2017 at 5:31 AM, Jacopo Tolja <jacopo.tolja at gmail.com> wrote:
+> Does anyone have look into it?
+> Any critique?
+
+Maybe I'm just thick but I've read several of these blockchain
+proposals and have never been able to grasp what problem it is that
+they're really trying to solve.
+
+> It seem well established and the distributed sistem seem the solution for
+> security.
+> https://words.democracy.earth/organizing-your-right-to-gather-ability-to-petition-on-the-blockchain-c5412db5a008
+
+Mostly what I come away with is that these people are so obsessed with
+the technology that they'll enthusiastically endorse virtually
+anything just so long as it uses blockchains. But blockchains are very
+slow, non-scalable (they all just break down entirely if more than a
+few thousand transactions per second are required), but most damningly
+they're simply *not* transparent because you have to trust massive
+amounts of code and computing cycles with no possible way to verify
+the outcomes by hand. Blockchain proponents need to defend their
+proposals vs. open voting (as in proxyfor.me) where you can look
+directly at the raw data and see that you're not being screwed over by
+some hacker that understands the system better than you do. In the
+case of blockchain it means that only approximately 0.000001% of the
+population is capable of controlling or even verifying the operation.
+Which is exactly the recipe we already have for corruption and
+oligarchy...
+  Regards,
+    Scott
+
+
+From jacopo.tolja at gmail.com  Mon Jul  3 05:30:23 2017
+From: jacopo.tolja at gmail.com (Jacopo Tolja)
+Date: Mon, 3 Jul 2017 11:30:23 +0200
+Subject: [MG] democracy.earth
+In-Reply-To: <CACobxW3=NMyMSwk-gOo83=RTizrvJZ+BHXfSh-4i9z1u_H+nEA@mail.gmail.com>
+References: <CAJHTwmJk4Hvv1FxLsnvzW=xc3JMiAN9b-UYdGngReDoxSgz7xQ@mail.gmail.com>
+	<CACobxW3=NMyMSwk-gOo83=RTizrvJZ+BHXfSh-4i9z1u_H+nEA@mail.gmail.com>
+Message-ID: <CAJHTwm+Z=tiv81WocubYHpAjLHacD3jFMmPZLQnQAxguPq0Xfg@mail.gmail.com>
+
+Thank you Scott i understand your point but if that thrust can become
+manageable and we get notification every time one node screw up something?
+and by rule that node is escluded untill it verified his own data ?
+If the system is designed to control milion of contract like ethereum , or
+value transaction bitcoin why cannot be used to control discussion and
+decision?
+
+
+As a starter https://discipl.org/2017/02/15/p2pollderblog/
+
+
+
+
+
+
+
+On Mon, Jul 3, 2017 at 1:24 AM, Scott Raney <metamerman at gmail.com> wrote:
+
+> On Thu, Jun 29, 2017 at 5:31 AM, Jacopo Tolja <jacopo.tolja at gmail.com>
+> wrote:
+> > Does anyone have look into it?
+> > Any critique?
+>
+> Maybe I'm just thick but I've read several of these blockchain
+> proposals and have never been able to grasp what problem it is that
+> they're really trying to solve.
+>
+> > It seem well established and the distributed sistem seem the solution for
+> > security.
+> > https://words.democracy.earth/organizing-your-right-to-
+> gather-ability-to-petition-on-the-blockchain-c5412db5a008
+>
+> Mostly what I come away with is that these people are so obsessed with
+> the technology that they'll enthusiastically endorse virtually
+> anything just so long as it uses blockchains. But blockchains are very
+> slow, non-scalable (they all just break down entirely if more than a
+> few thousand transactions per second are required), but most damningly
+> they're simply *not* transparent because you have to trust massive
+> amounts of code and computing cycles with no possible way to verify
+> the outcomes by hand. Blockchain proponents need to defend their
+> proposals vs. open voting (as in proxyfor.me) where you can look
+> directly at the raw data and see that you're not being screwed over by
+> some hacker that understands the system better than you do. In the
+> case of blockchain it means that only approximately 0.000001% of the
+> population is capable of controlling or even verifying the operation.
+> Which is exactly the recipe we already have for corruption and
+> oligarchy...
+>   Regards,
+>     Scott
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170703/9a55dd06/attachment.html>
+
+From pederindi at gmail.com  Mon Jul  3 07:12:35 2017
+From: pederindi at gmail.com (Pedro)
+Date: Mon, 3 Jul 2017 13:12:35 +0200
+Subject: [MG] 
+	=?utf-8?q?=22Commons_versus_neoliberalism=3A_From_an_oligar?=
+	=?utf-8?q?chic_economy_to_the_open_social_economy=E2=80=9D_By_Yoch?=
+	=?utf-8?q?ai_Benkler?=
+In-Reply-To: <CACobxW20NTgioDuudLo0BTRgmboXtkZ9iy9vG4+sFwkUTmYXuQ@mail.gmail.com>
+References: <CABr7qmS+4vvRtOXO+hyHrosPFNSoiTJK4q83QUfYc4F3JHspLw@mail.gmail.com>
+	<CACobxW20NTgioDuudLo0BTRgmboXtkZ9iy9vG4+sFwkUTmYXuQ@mail.gmail.com>
+Message-ID: <CABr7qmSuWUPM_JFgYree-kRJvwoZWD98qA8zTgZnY560oKLjgA@mail.gmail.com>
+
+Scott,
+
+it's not just about better ideas, is a superior model against classic
+private vs public property
+
+you can get in touch reading its theories or putting it in practice
+
+this talk (video) is a discussion towards the formalization of a model
+that is currently working, and revolutioning our society.
+
+For example, look how big it is that in this communication we are
+heavily using tools operated by free software/open source (by diferent
+third party entities: email, IETF, Internet, service providers). This
+is fairly new approach in our recent history. And is the init for a
+new commons revolution, step by step.
+
+Here you have some examples of different revolutions with its great wars:
+
+microsoft vs linux (microsoft is joining open source movement)
+private encyclopedias vs wikipedia
+private networks vs Internet ( still running ->
+https://www.fightforthefuture.org/ )
+
+
+
+decision making is not a problem (for me), this problem is from some
+people to accept the consensus approach
+
+I agree a lot with this guys, and I try to run this way in the
+organizations I'm part of (and are governing a commons resource):
+
+In many ways, the IETF runs on the beliefs of its participants. One of
+the "founding beliefs" is embodied in an early quote about the IETF
+from David Clark: "We reject kings, presidents and voting. We believe
+in rough consensus and running code". Another early quote that has
+become a commonly-held belief in the IETF comes from Jon Postel: "Be
+conservative in what you send and liberal in what you accept".
+
+found here: https://www.ietf.org/tao.html
+
+Well, in this words, or otehrs, is the suggested way to run a Commons
+(common infrastructure, consensus about the rules taking in account
+big majority of participants => consensus)
+
+On Mon, Jul 3, 2017 at 1:08 AM, Scott Raney <metamerman at gmail.com> wrote:
+> On Thu, Jun 29, 2017 at 8:05 AM, Pedro <pederindi at gmail.com> wrote:
+>> http://procomuns.net/en/streaming-commons-based-collaborative-economies-procomuns-2017/
+>> -> https://www.youtube.com/watch?v=pL-TiwzfGuQ
+>
+> Interesting how they do English and Spanish not with subtitles but
+> with English on the left channel and Spanish on the right.
+>
+> I'll admit to just skimming it (it's over 2 hours long!) but what I
+> saw is the usual detailed descriptions of the problems with a lot of
+> handwaving about solutions. This one, like most of the "commons" based
+> proposals seemed to me particularly weak on the transition plan. They
+> just seem to fundamentally lack any awareness that it's
+> *decisionmaking* that's the problem, not anything to do with the
+> economy: Even if there *were* something fundamentally wrong with plain
+> old capitalism (which they are far from proving, or even providing
+> arguments that couldn't easily be ripped to shreds by anyone who
+> understands both systems) you *still* have to solve the decisionmaking
+> problem first in order to implement any replacement. They all seem to
+> live in this fantasyland where oligarchs just voluntarily give up
+> their power as a response to a small minority of activists asking them
+> to do so, armed only with "better ideas". Has any revolution happened
+> that way?
+>   Regards,
+>     Scott
+>
+>> _______________________________________________
+>> Start : a mailing list of the Metagovernment project
+>> http://www.metagovernment.org/
+>> Post to the list: Start at metagovernment.org
+>> Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+
+
+From metamerman at gmail.com  Mon Jul  3 11:10:45 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Mon, 3 Jul 2017 09:10:45 -0600
+Subject: [MG] democracy.earth
+In-Reply-To: <CAJHTwm+Z=tiv81WocubYHpAjLHacD3jFMmPZLQnQAxguPq0Xfg@mail.gmail.com>
+References: <CAJHTwmJk4Hvv1FxLsnvzW=xc3JMiAN9b-UYdGngReDoxSgz7xQ@mail.gmail.com>
+	<CACobxW3=NMyMSwk-gOo83=RTizrvJZ+BHXfSh-4i9z1u_H+nEA@mail.gmail.com>
+	<CAJHTwm+Z=tiv81WocubYHpAjLHacD3jFMmPZLQnQAxguPq0Xfg@mail.gmail.com>
+Message-ID: <CACobxW2LXVMTQUKwFsWd9=Th4t=oVRNtKMZXMDH=tFzmiuqOvw@mail.gmail.com>
+
+On Mon, Jul 3, 2017 at 3:30 AM, Jacopo Tolja <jacopo.tolja at gmail.com> wrote:
+> Thank you Scott i understand your point but if that thrust can become
+> manageable and we get notification every time one node screw up something?
+
+And if there are a thousand nodes? That kind of scalability is exactly
+the problem. How many nodes with hacked software need to be introduced
+to render the whole system non-functional?
+
+> and by rule that node is escluded untill it verified his own data ?
+
+Again, IMHO it's not about theoretical reliability, it's about trust:
+I spent hours a few days ago fighting off an attack on the Matchism
+forums from attacks originating in the Ukraine and/or Russia, for
+example. How can you design a system where vote rigging is organized
+(or even state sponsored)? No one will trust *any* of the results if
+they can't plainly see the results for themselves. Nor should they.
+
+> If the system is designed to control milion of contract like ethereum , or
+> value transaction bitcoin why cannot be used to control discussion and
+> decision?
+
+Bitcoin demonstrates the problem exactly: I don't know if you've read
+much on the scalability of it, but it's not even *theoretically*
+capable of processing even a small fraction of 1% of the transactions
+that Visa or Mastercard can. A system where 10 billion people could
+vote in one day just can't work if each of the notes must verify all
+of the transaction (and if they don't, again, no one should trust the
+output). And why even have a system that requires all this processing
+when direct open voting solves it transparently and with minimal CPU
+requirements? Secrecy? Sorry, if you believe that is required you're
+not reading the research (i.e., the only people that see it a
+requirement are either clinically paranoid or simply misinformed and
+the problem will go away if you explain how the system works and then
+get them to use it a few times). And besides reporting the results of
+just asking The People about this, it's demonstrated every day by
+their willing to cast public votes in a vast array of other forums).
+
+> As a starter https://discipl.org/2017/02/15/p2pollderblog/
+
+Hadn't seen that, but it looks like the same obsessional/delusional
+stuff that all the other blockchain groupies are proposing. But maybe
+you can tell me how it solves any of the *real* problems with
+democracy:
+
+1) Non-participation (i.e., only the activerts cast ballots).
+
+2) Misrepresentatives (i.e., any system that relies on people being
+able to predict/control how a politician will vote/act on their
+behalf).
+
+3) Transparency (i.e., where you can easily, reliably, and directly
+verify that your (and/or your proxies') votes were properly recorded).
+
+In fact I only see a few potential benefits in all of the blockchain
+proposals, all of which are either not essential or can be achieved
+other ways:
+
+1) Secrecy: Your vote can't be traced back to you unless you give out
+your keys (the downside being that no one can verify all of the
+votes).
+
+2) Distributed data: Hacking the main server won't bring down the
+entire system (although sharding databases, as proxyfor.me is designed
+to use, will also prevent this, and yet without opening the Pandora's
+box of letting *anyone* claim they're running a legitimate node).
+
+3) Distributed control: There's no one "government" in charge of
+everything. But this, again, IMHO is missing the point: Government
+can't function without an executive branch, and if you can't trust the
+executive branch you've got far worse problems that just whether your
+votes are being counted properly (i.e., a corrupt executive branch
+will just ignore the output of your fancy blockchain system).
+  Regards,
+    Scott
+
+
+From metamerman at gmail.com  Mon Jul  3 12:01:48 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Mon, 3 Jul 2017 10:01:48 -0600
+Subject: [MG] 
+	=?utf-8?q?=22Commons_versus_neoliberalism=3A_From_an_oligar?=
+	=?utf-8?q?chic_economy_to_the_open_social_economy=E2=80=9D_By_Yoch?=
+	=?utf-8?q?ai_Benkler?=
+In-Reply-To: <CABr7qmSuWUPM_JFgYree-kRJvwoZWD98qA8zTgZnY560oKLjgA@mail.gmail.com>
+References: <CABr7qmS+4vvRtOXO+hyHrosPFNSoiTJK4q83QUfYc4F3JHspLw@mail.gmail.com>
+	<CACobxW20NTgioDuudLo0BTRgmboXtkZ9iy9vG4+sFwkUTmYXuQ@mail.gmail.com>
+	<CABr7qmSuWUPM_JFgYree-kRJvwoZWD98qA8zTgZnY560oKLjgA@mail.gmail.com>
+Message-ID: <CACobxW3PG=w0jRHLaC6a+eNVR=nNN7_iN8zQhDcqxdDgNZPEMw@mail.gmail.com>
+
+On Mon, Jul 3, 2017 at 5:12 AM, Pedro <pederindi at gmail.com> wrote:
+
+> it's not just about better ideas, is a superior model against classic
+> private vs public property
+
+Maybe we have a language barrier issue here, but "superior model" ===
+"better ideas" in my usage of English.
+
+> you can get in touch reading its theories or putting it in practice
+> this talk (video) is a discussion towards the formalization of a model
+> that is currently working, and revolutioning our society.
+
+You didn't address the issue: How far is this "revolution" going to
+get when the 1% decide not to play along?
+
+> For example, look how big it is that in this communication we are
+> heavily using tools operated by free software/open source (by diferent
+> third party entities: email, IETF, Internet, service providers). This
+> is fairly new approach in our recent history. And is the init for a
+> new commons revolution, step by step.
+
+Fanboy talk. Let's not talk about the tools, let's talk about how the
+1% is going to sit idly by when this movement gains any traction.
+
+> Here you have some examples of different revolutions with its great wars:
+>
+> microsoft vs linux (microsoft is joining open source movement)
+> private encyclopedias vs wikipedia
+> private networks vs Internet ( still running ->
+> https://www.fightforthefuture.org/ )
+
+I see no "revolution" in any of those examples: Both systems seem to
+still be working in all of these cases. And in the case of Microsoft
+they're still winning (and by a *lot*: Microsoft's market cap is *28*
+times bigger than Red Hat, for example). And although there are many
+better examples of disruptive technologies (I'd use cell phones and
+Uber), you're missing the fundamental point which is that in those
+cases the new technology is clearly superior to the old technology for
+*everyone*, not just a few fanboys. "Commons" economic proposals can't
+even theoretically make that claim (i.e., the 1% are always going to
+be to-the-death opposed to it, and I predict you'd have a lot of
+trouble even convincing the top 20% to play along).
+
+> decision making is not a problem (for me), this problem is from some
+> people to accept the consensus approach
+
+Maybe I missed something, then: How do any of these "commons"
+proposals address the issue of decisionmaking in a way that it becomes
+binding on the 1%?
+
+> I agree a lot with this guys, and I try to run this way in the
+> organizations I'm part of (and are governing a commons resource):
+>
+> In many ways, the IETF runs on the beliefs of its participants. One of
+> the "founding beliefs" is embodied in an early quote about the IETF
+> from David Clark: "We reject kings, presidents and voting. We believe
+> in rough consensus and running code". Another early quote that has
+> become a commonly-held belief in the IETF comes from Jon Postel: "Be
+> conservative in what you send and liberal in what you accept".
+
+I've actually studied this organization and believe that you have been
+misinformed about how it *actually* works: Special interests (vendors)
+wield almost all of the power in that organization, and the chairman
+of the committee (essentially the executive branch) holds the rest.
+The average "citizen" in that government has no more power to
+influence the outcomes of the decisionmaking there than any of us do
+in RL government.
+
+> found here: https://www.ietf.org/tao.html
+>
+> Well, in this words, or otehrs, is the suggested way to run a Commons
+> (common infrastructure, consensus about the rules taking in account
+> big majority of participants => consensus)
+
+Again, that's not what "consensus" means. And IETF I would say
+operates more on a "no reasonable objection" basis than a consensus
+basis anyway. And that model just won't work if your system has to
+make decisions in moral rather than just technical realms (i.e., just
+try to make public policy on abortion using "humming" ;-)
+  Regards,
+    Scott
+
+
+From metamerman at gmail.com  Mon Jul  3 19:53:03 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Mon, 3 Jul 2017 17:53:03 -0600
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+Message-ID: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+
+Here's the current draft of my entry for the GCF prize:
+http://www.matchism.org/refs/GCF_entry.pdf
+
+Questions:
+1) Is it intelligible?
+
+2) Is the argument complete, or are there holes to be filled?
+
+3) Is the level of snark appropriate (I didn't follow the rules, and
+make specific arguments about why this is necessary and why any entry
+that does follow the rules is doomed to failure).
+
+4) I came in at 5100 words for the description (close to the 5500 word
+max), but am well under for the other two sections. Have I "left money
+on the table" by doing this?
+
+For anyone who hasn't read matchism.org or my other white papers, this
+is a good summary of the system and includes only a skeleton
+description of the philosophy behind it. It'd therefore be especially
+helpful to get your take on it to make sure I didn't leave too much
+out.
+  Regards,
+    Scott
+
+
+From steve at stevecoffman.com  Tue Jul  4 15:16:44 2017
+From: steve at stevecoffman.com (Steve Coffman)
+Date: Tue, 4 Jul 2017 12:16:44 -0700
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+Message-ID: <EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+
+First off Scott, kudos to you for having put all of this together. In my mind, it's well-thought-out and has obviously been a lot of work.
+
+I?m very curious about the outcome of this competition and am hoping we'll have a chance to peruse the top entries, including the ones that don?t win the big $$$. I appreciate being able to read yours ahead of time and hope you do well!
+
+Overall I would say it?s "intelligible" and "complete" enough. I read the material on Matchism.org <http://matchism.org/> a while back, so I already have a deeper understanding of your project. I think what you?re presenting to this competition will certainly get the overall idea across. 
+
+As far as the level of ?snark??. I think you could probably leave out the criticism of those running the competition as being a part of the problem, and still achieve your objective.
+"Again this is a decision for The People to make, not some elites running a contest that seeks to ?improve? things without being willing to compromise on their ?elite? status (or the elite status of ?leaders? in other fields or countries) or their preferences for how things should be done."
+
+"What is wrong, at least with respect [to] what?s best for the human species as a whole, is for elites of any sort to prescribe the outcomes of public policy decisionmaking, the people running this competition included."
+
+Also, I noticed a few typos or grammatical errors, like the one in the line above. (Sorry I didn?t make a note of the others.)
+
+Overall, I find myself agreeing with many aspects of your project. I've been working on a decision-making *process/structure* of my own and am surprised to see how many parallels there are between the two. (At this point I don?t know if I will be submitting mine to the GCF competition as I?m not sure I'll have the time to complete it before the 9/30 deadline. And there is a project developing closer to home that may be a more concrete and practical application. We?ll see.)
+
+Also, I have some questions for you:
+
+1. Is there a limit to the number of votes any one proxy can carry? (You may have stated this on your website but I don?t remember seeing it, and it?s a lot of material to reread.)
+
+2. Also, would proxies be aware of how many votes they are representing?
+
+3. I can see how being a proxy (particularly for a large number of people) would be a huge responsibility that might encourage one in that position to become more deeply familiar with the records of candidates, and the complexity of proposals being voted on. I can also see how a large segment of the population, through assigning their votes to a proxy, could ultimately become disengaged from, or abdicate, their civic responsibility by no longer paying as much attention to the issues that matter most. (Not that the malaise of apathy and cynicism generated by our current system is any better.) I?m curious though if you have a deeper sense of how this might actually play out?.in real life?.in that regard?
+
+What I really like about your Plan is how it would make the one-size-fits-all dynamic of political parties obsolete.
+
+All the best,
+Steve
+
+
+> On Jul 3, 2017, at 4:53 PM, Scott Raney <metamerman at gmail.com> wrote:
+> 
+> Here's the current draft of my entry for the GCF prize:
+> http://www.matchism.org/refs/GCF_entry.pdf
+> 
+> Questions:
+> 1) Is it intelligible?
+> 
+> 2) Is the argument complete, or are there holes to be filled?
+> 
+> 3) Is the level of snark appropriate (I didn't follow the rules, and
+> make specific arguments about why this is necessary and why any entry
+> that does follow the rules is doomed to failure).
+> 
+> 4) I came in at 5100 words for the description (close to the 5500 word
+> max), but am well under for the other two sections. Have I "left money
+> on the table" by doing this?
+> 
+> For anyone who hasn't read matchism.org or my other white papers, this
+> is a good summary of the system and includes only a skeleton
+> description of the philosophy behind it. It'd therefore be especially
+> helpful to get your take on it to make sure I didn't leave too much
+> out.
+>  Regards,
+>    Scott
+> 
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170704/d63c7b9c/attachment.html>
+
+From metamerman at gmail.com  Tue Jul  4 18:02:35 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Tue, 4 Jul 2017 16:02:35 -0600
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+Message-ID: <CACobxW03rgmSnv+kj9NbBkuzvUAFjnnoaKpFoZf5RTV5jAV99A@mail.gmail.com>
+
+On Tue, Jul 4, 2017 at 1:16 PM, Steve Coffman <steve at stevecoffman.com> wrote:
+
+(kind words snip!)
+
+> Overall I would say it?s "intelligible" and "complete" enough. I read the
+> material on Matchism.org a while back, so I already have a deeper
+> understanding of your project. I think what you?re presenting to this
+> competition will certainly get the overall idea across.
+
+Thanks for the feedback!
+
+> As far as the level of ?snark??. I think you could probably leave out the
+> criticism of those running the competition as being a part of the problem,
+> and still achieve your objective.
+
+I go back and forth on this: Is it better to just ignore the rules or
+to point out how they would render any model that follows them
+unworkable?
+
+> Overall, I find myself agreeing with many aspects of your project. I've been
+> working on a decision-making *process/structure* of my own and am surprised
+> to see how many parallels there are between the two. (At this point I don?t
+> know if I will be submitting mine to the GCF competition as I?m not sure
+> I'll have the time to complete it before the 9/30 deadline. And there is a
+> project developing closer to home that may be a more concrete and practical
+> application. We?ll see.)
+
+I recommend you, and everyone else, take the time to do this: Nothing
+like having to write everything down to see if you really understand
+your own system. I find holes in mine every time I do this...
+
+> Also, I have some questions for you:
+>
+> 1. Is there a limit to the number of votes any one proxy can carry? (You may
+> have stated this on your website but I don?t remember seeing it, and it?s a
+> lot of material to reread.)
+
+No. I believe it's essential to have this limit if people can pick
+their own proxies, but as that architecture has been proven not to
+work, there's really no reason to impose this limit if proxies are
+automatically calculated: Better to have a few overloaded people that
+really are representational of you than to match you with people who
+aren't like you. The major risk here is corruption of those
+individuals, but IMHO it's a low risk because it's hard to impossible
+to predict where the inflection points are going to be for each
+proposal (i.e., which personality/ideology "types" are going to have
+the close 50/50 ratio where bribing a few of them will change the
+outcome). Then again, if the proposals are well written most of them
+will pass with sufficiently large majorities that it would be a
+hopeless task to try to change the outcome by bribing a few (or even a
+few thousand) individual voters.
+
+> 2. Also, would proxies be aware of how many votes they are representing?
+
+I don't currently show this, but it's easy enough to calculate, even
+using the raw data files that are output at the close of each vote.
+The problem now is that the numbers are small and so there's no point,
+but it might be useful to show this in the future to encourage certain
+personality types to vote more often. Many areas in the search space
+are going to be pretty sparse because some personality types are just
+rare, but also because there is a correlation between personality
+types and participation rates (e.g., high conscientiousness
+individuals (mostly conservatives) have significantly higher
+participation rates than low-conscientiousness individuals). But this
+problem is not unique to proxyfor.me: It's screwing up our existing
+misrepresentative democracies already. The result of these unequal
+participation rates is that elected officials are significantly more
+conservative than the population as a whole.
+
+> 3. I can see how being a proxy (particularly for a large number of people)
+> would be a huge responsibility that might encourage one in that position to
+> become more deeply familiar with the records of candidates, and the
+> complexity of proposals being voted on. I can also see how a large segment
+> of the population, through assigning their votes to a proxy, could
+> ultimately become disengaged from, or abdicate, their civic responsibility
+> by no longer paying as much attention to the issues that matter most. (Not
+> that the malaise of apathy and cynicism generated by our current system is
+> any better.) I?m curious though if you have a deeper sense of how this might
+> actually play out?.in real life?.in that regard?
+
+All I can predict is that it'll be a *lot* less of a problem with DeMP
+(Democracy by Matched Proxy) than with any other form of democracy.
+The only potential problem I see that if the number of available
+matches is really low for a significant portion of the population due
+to low participation rates that region in the search space will become
+a target for people who try to game the system by faking their profile
+and then voting opposite to what people with real profiles would.
+There are many ways of combating this, though, the most obvious of
+which is to have the system automatically calculate where these weak
+spots are and send out an engraved invitation to the people nearby to
+increase their participation rates lest the bad guys end up jerking
+them around. It's sort of the opposite of what you're proposing:
+Rather than reward or encourage voters who are carrying a high burden,
+we would try to scare non-voters into becoming direct voters by
+pointing out that they're likely to be taken advantage of because, as
+a group, their participation rates are too low. But note that low
+participation rates *in general* are not a problem: I believe you
+could run the whole world's government with a few thousand people. But
+the key is that the personality/ideology search space of the active
+participants needs to have the same distribution as the population as
+a whole, which is something we're very, very far from in
+misrepresentative democracy.
+
+I also don't worry about the expertise/time investment issue nearly as
+much as you (and probably most people working in this field)
+apparently do. There are a lot better ways to deal with this than
+chaining people to their desks by instilling fear of making a mistake.
+The ability to redo a version-upgrade of a proposal being the most
+important of these: How many changed votes do you think they'd see if
+Brexit were voted on again? Having well-written proposals and
+presenting the pro/con arguments right at decision time are two more.
+
+> What I really like about your Plan is how it would make the
+> one-size-fits-all dynamic of political parties obsolete.
+
+Exactly. How much the zealots are going to resist this because they
+don't have their "tribe" to fight for remains to be seen, but I am
+encourages by the decreasing rates of party affiliation the world
+over. I think most people are pretty sick of political parties and
+will just override those tribalists when at some point they are given
+the opportunity. Getting rid of politicians at the same time I also
+figure will appeal to most people.
+  Regards,
+    Scott
+
+> All the best,
+> Steve
+
+
+From jacopo.tolja at gmail.com  Wed Jul  5 01:48:39 2017
+From: jacopo.tolja at gmail.com (Jacopo Tolja)
+Date: Wed, 5 Jul 2017 07:48:39 +0200
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+Message-ID: <CAJHTwm++CRBPyy4TbVW3Gp4-NLtqNEK1AqUpJaypbwDS6E5Pag@mail.gmail.com>
+
+Scott I read your proposal and I can say that you did a really good job and
+I believe you have a very strong candidate for the Global Challenge.
+Proxyfor.me is an advanced LQFB, were the liquid function is automated.
+Still the proposal building does not have a collaborative process and I
+believe in this fall short.
+Kind Regards
+Jacopo
+
+
+On Tue, Jul 4, 2017 at 9:16 PM, Steve Coffman <steve at stevecoffman.com>
+wrote:
+
+> First off Scott, kudos to you for having put all of this together. In my
+> mind, it's well-thought-out and has obviously been a lot of work.
+>
+> I?m very curious about the outcome of this competition and am hoping we'll
+> have a chance to peruse the top entries, including the ones that don?t win
+> the big $$$. I appreciate being able to read yours ahead of time and hope
+> you do well!
+>
+> Overall I would say it?s "intelligible" and "complete" enough. I read the
+> material on Matchism.org a while back, so I already have a deeper
+> understanding of your project. I think what you?re presenting to this
+> competition will certainly get the overall idea across.
+>
+> As far as the level of ?snark??. I think you could probably leave out the
+> criticism of those running the competition as being a part of the problem,
+> and still achieve your objective.
+>
+> "Again this is a decision for The People to make, not some elites running
+> a contest that seeks to ?improve? things without being willing to
+> compromise on their ?elite? status (or the elite status of ?leaders?
+> in other fields or countries) or their preferences for how things should be
+> done."
+> "What is wrong, at least with respect [to] what?s best for the human
+> species as a whole, is for elites of any sort to prescribe the outcomes of
+> public policy decisionmaking, the people running this competition included."
+>
+> Also, I noticed a few typos or grammatical errors, like the one in the
+> line above. (Sorry I didn?t make a note of the others.)
+>
+> Overall, I find myself agreeing with many aspects of your project. I've
+> been working on a decision-making *process/structure* of my own and am
+> surprised to see how many parallels there are between the two. (At this
+> point I don?t know if I will be submitting mine to the GCF competition as
+> I?m not sure I'll have the time to complete it before the 9/30 deadline.
+> And there is a project developing closer to home that may be a more
+> concrete and practical application. We?ll see.)
+>
+> Also, I have some questions for *you:*
+>
+> 1. Is there a limit to the number of votes any one proxy can carry? (You
+> may have stated this on your website but I don?t remember seeing it, and
+> it?s a lot of material to reread.)
+>
+> 2. Also, would proxies be aware of how many votes they are representing?
+>
+> 3. I can see how being a proxy (particularly for a large number of people)
+> would be a huge responsibility that might encourage one in that position to
+> become more deeply familiar with the records of candidates, and the
+> complexity of proposals being voted on. I can also see how a large segment
+> of the population, through assigning their votes to a proxy, could
+> ultimately become disengaged from, or abdicate, their civic responsibility
+> by no longer paying as much attention to the issues that matter most. (Not
+> that the malaise of apathy and cynicism generated by our current system is
+> any better.) I?m curious though if you have a deeper sense of how this
+> might actually play out?.in real life?.in that regard?
+>
+> What I *really* like about your Plan is how it would make the
+> one-size-fits-all dynamic of political parties obsolete.
+>
+> All the best,
+> Steve
+>
+>
+> On Jul 3, 2017, at 4:53 PM, Scott Raney <metamerman at gmail.com> wrote:
+>
+> Here's the current draft of my entry for the GCF prize:
+> http://www.matchism.org/refs/GCF_entry.pdf
+>
+> Questions:
+> 1) Is it intelligible?
+>
+> 2) Is the argument complete, or are there holes to be filled?
+>
+> 3) Is the level of snark appropriate (I didn't follow the rules, and
+> make specific arguments about why this is necessary and why any entry
+> that does follow the rules is doomed to failure).
+>
+> 4) I came in at 5100 words for the description (close to the 5500 word
+> max), but am well under for the other two sections. Have I "left money
+> on the table" by doing this?
+>
+> For anyone who hasn't read matchism.org or my other white papers, this
+> is a good summary of the system and includes only a skeleton
+> description of the philosophy behind it. It'd therefore be especially
+> helpful to get your take on it to make sure I didn't leave too much
+> out.
+>  Regards,
+>    Scott
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+>
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170705/52f52bd1/attachment-0001.html>
+
+From metamerman at gmail.com  Wed Jul  5 19:55:30 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Wed, 5 Jul 2017 17:55:30 -0600
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <CAJHTwm++CRBPyy4TbVW3Gp4-NLtqNEK1AqUpJaypbwDS6E5Pag@mail.gmail.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CAJHTwm++CRBPyy4TbVW3Gp4-NLtqNEK1AqUpJaypbwDS6E5Pag@mail.gmail.com>
+Message-ID: <CACobxW1KAckr8BGnJNd=FXwbehi0-OwiZByG3ohvqdOXbPd1VA@mail.gmail.com>
+
+On Tue, Jul 4, 2017 at 11:48 PM, Jacopo Tolja <jacopo.tolja at gmail.com> wrote:
+> Scott I read your proposal and I can say that you did a really good job and
+> I believe you have a very strong candidate for the Global Challenge.
+> Proxyfor.me is an advanced LQFB, were the liquid function is automated.
+
+There is an overlap in features, for sure. If LQFB was better known
+and/or more successful I might have even marketed it this way. But
+besides the delegation fail, LQFB makes a big noise about the
+multi-proposal feature which I *also* believe doesn't work the way it
+was supposed to.
+
+> Still the proposal building does not have a collaborative process and I
+> believe in this fall short.
+
+I of course disagree: IMHO proposal generation is something that
+should be, and probably can only be, left to experts. I would
+therefore challenge you to answer these questions:
+
+1) What evidence do you have that this sort of collaboration results
+in better proposals? Certainly this has never been shown to be the
+case for LQFB and we've never seen this in any of the experiments this
+group has run on any of the other decisionmaking systems (Loomio,
+Vilfredo, etc.). In all of those examples the more participation there
+is at the proposal generation stage the *worse* it gets...
+
+2) Have you looked closely at the various petition oriented
+(slacktivism) sites like  change.org, avaaz.org, or
+petitions.whitehouse.gov? Would you be satisfied with that level of
+quality in the proposals on an actual decionmaking system?
+
+3) You may not be aware of this, but one feature of proxyfor.me is
+that the proposal owner, unlike everyone else, *does* get to see the
+running vote count. And of course gets to see all the comments posted.
+With the built-in Q&A and versioning features of proxyfor.me, doesn't
+that provide a kind of "collaboration" albeit with primarily a one-way
+flow from voter to proposer?
+
+4) If you still believe that "collaboration" is necessary, what's to
+prevent people using some other tool (Slack, Google Docs, etc.) to
+collaborate prior to exposing it to a large population, the majority
+of which would not be interested (or even able) to collaborate on the
+actual preparation of a proposal?
+
+5) I think the main, and perhaps only, concern in this area is that
+proposals that would pass with large supermajorities might be excluded
+from the queue by whoever is maintaining it. My main rebuttal to this
+is that is what I've said before: If you don't trust the executive
+branch of government you've got worse problems than whether your
+proposal generation or decisionmaking system have flaws. It agree,
+however, that it might be useful to create a separate site (or even
+encourage the use of a slacktivism site) as a screening mechanism
+where something that gets an endorsement from X% of the voter rolls
+*automatically* gets put into the proxyfor.me queue.
+
+Of course I'm not going to hold my breath that you'll be able to
+respond to any of these: The recent example of the block-chain and
+economic commons proponents on this list simply crawling back under
+their rocks when any challenge to their proposals is raised leads me
+to believe that I'm pretty good at poking holes in things  ;-)
+  Regards,
+    Scott
+
+> Kind Regards
+> Jacopo
+
+
+From steve at stevecoffman.com  Wed Jul  5 22:51:16 2017
+From: steve at stevecoffman.com (Steve Coffman)
+Date: Wed, 5 Jul 2017 19:51:16 -0700
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <CACobxW1KAckr8BGnJNd=FXwbehi0-OwiZByG3ohvqdOXbPd1VA@mail.gmail.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CAJHTwm++CRBPyy4TbVW3Gp4-NLtqNEK1AqUpJaypbwDS6E5Pag@mail.gmail.com>
+	<CACobxW1KAckr8BGnJNd=FXwbehi0-OwiZByG3ohvqdOXbPd1VA@mail.gmail.com>
+Message-ID: <898D3260-BD69-4BAE-A47B-5D26C82B324E@stevecoffman.com>
+
+> Jacopo Tolja <jacopo.tolja at gmail.com> wrote:
+> Still the proposal building does not have a collaborative process and I
+believe in this fall short.
+
+Scott Raney <metamerman at gmail.com> wrote:
+> I of course disagree: IMHO proposal generation is something that
+> should be, and probably can only be, left to experts.
+
+I think having experts writing proposals is critical. I think the collaborative process is equally so. I don?t see them being mutually exclusive. In my mind, a hybrid is possible if the two are allowed to inform each other.
+
+Experts are more efficient, more experienced, more knowledgeable than the average person, and very likely have some gift and/or passion they bring to the project or proposal. 
+
+Collaboration brings people together for a conversation about things that really matter to them. They become informed (often by the experts) not just about the details of the project but about each other as well. This could be very healing for a community, particularly if it?s a regular practice. I would say the connections that follow a community coming together to make agreements about their commons will have repercussions that will last for generations.
+
+I?m a builder by trade and would offer this analogy. A home is much more likely to fit those who it?s built for if the architect, the owners, and the builder all work closely together throughout the entire process.
+
+From steve at stevecoffman.com  Sun Jul  9 01:20:03 2017
+From: steve at stevecoffman.com (Steve Coffman)
+Date: Sat, 8 Jul 2017 22:20:03 -0700
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <898D3260-BD69-4BAE-A47B-5D26C82B324E@stevecoffman.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CAJHTwm++CRBPyy4TbVW3Gp4-NLtqNEK1AqUpJaypbwDS6E5Pag@mail.gmail.com>
+	<CACobxW1KAckr8BGnJNd=FXwbehi0-OwiZByG3ohvqdOXbPd1VA@mail.gmail.com>
+	<898D3260-BD69-4BAE-A47B-5D26C82B324E@stevecoffman.com>
+Message-ID: <70CBC37A-C043-4A6A-8EF7-C2C6C9CBC9CC@stevecoffman.com>
+
+>> Jacopo Tolja <jacopo.tolja at gmail.com> wrote:
+>> Still the proposal building does not have a collaborative process and I
+> believe in this fall short.
+> 
+> Scott Raney <metamerman at gmail.com> wrote:
+>> I of course disagree: IMHO proposal generation is something that
+>> should be, and probably can only be, left to experts.
+
+> Steve Coffman <steve at stevecoffman.com> wrote:
+> I think having experts writing proposals is critical. I think the collaborative process is equally so. I don?t see them being mutually exclusive. In my mind, a hybrid is possible if the two are allowed to inform each other.
+
+For me, the question is how do we structure an organization (or society) such that all players are meeting at the same table, equal in their sovereignty, and operating at a capacity such that a dynamic synergy emerges from their alliance.
+
+Giving everyone a vote, whether directly or by proxy, is relatively easy. Crowd-sourcing a collaborative social-organism that can successfully manage it's own affairs is the real design challenge. And scaling it to regional and global levels adds an even greater level of complexity.
+
+I actually believe these constraints are surmountable. Indeed, I think to some degree, they?ve already been solved for. The greatest challenge, as I see it, is to bootstrap a System that?s completely unfamiliar...through a collaborative global mindset that doesn?t yet exist.
+
+From metamerman at gmail.com  Sun Jul  9 17:06:21 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sun, 9 Jul 2017 15:06:21 -0600
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <70CBC37A-C043-4A6A-8EF7-C2C6C9CBC9CC@stevecoffman.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CAJHTwm++CRBPyy4TbVW3Gp4-NLtqNEK1AqUpJaypbwDS6E5Pag@mail.gmail.com>
+	<CACobxW1KAckr8BGnJNd=FXwbehi0-OwiZByG3ohvqdOXbPd1VA@mail.gmail.com>
+	<898D3260-BD69-4BAE-A47B-5D26C82B324E@stevecoffman.com>
+	<70CBC37A-C043-4A6A-8EF7-C2C6C9CBC9CC@stevecoffman.com>
+Message-ID: <CACobxW02KfdN2rZpYgm-GEzKhD0rsPVrcfQP1_k7dqsrAMMwig@mail.gmail.com>
+
+On Sat, Jul 8, 2017 at 11:20 PM, Steve Coffman <steve at stevecoffman.com> wrote:
+
+> For me, the question is how do we structure an organization (or society) such that all players are meeting at the same table, equal in their sovereignty, and operating at a capacity such that a dynamic synergy emerges from their alliance.
+>
+
+I believe this to be the natural mode of human decisionmaking: It's
+essentially how "public policy" decisions were made by members of our
+species for millions of years before technological advances supported
+the development of hierarchical forms of government.
+
+> Giving everyone a vote, whether directly or by proxy, is relatively easy. Crowd-sourcing a collaborative social-organism that can successfully manage it's own affairs is the real design challenge. And scaling it to regional and global levels adds an even greater level of complexity.
+>
+
+It doesn't seem that daunting to me: The trick is to use the *same*
+system for all levels, and even the same proposals, at least to the
+greatest extent possible. For example everyone votes using the same
+system on the same proposal (e.g., the last proposal on proxyfor.me,
+the "Idaho stop") but it only becomes binding in those localities
+where it passes by majority vote. Eventually natural flow of people
+and culture between localities will have the effect of homogenizing
+public policy, reducing the level of conflict between localities.
+
+> I actually believe these constraints are surmountable. Indeed, I think to some degree, they?ve already been solved for. The greatest challenge, as I see it, is to bootstrap a System that?s completely unfamiliar...through a collaborative global mindset that doesn?t yet exist.
+
+I.e., it's a marketing problem, not a technical problem. Proxyfor.me
+*seems* to work and can easily be scaled to a worldwide population.
+The problem is that people have to *believe* that it can change things
+long before it will have any chance to actually do so. This is hard to
+do without either having a lot of money, a population that is under
+severe stress and so is willing to try anything, and/or a charismatic
+leader.
+
+The more scary part for me is that this is a "tipping point" kind of
+thing, where once momentum starts to build the transition will occur
+incredibly rapidly. Cars and cell phones and even computers were
+niche-market kinds of things for years or decades and this worked to
+the benefit of the technology because a physical infrastructure had to
+be developed to support them, allowing time to work out the bugs.
+Cultural changes can happen *much* more rapidly even when the
+"technology" isn't quite ready, the various fascist and communist
+revolutions being demonstrations of that problem. I worry a lot less
+about what level of collaboration and consensus is required to make a
+system optimal than about the people getting the idea in their heads
+that they deserve something better and things going all haywire when
+the technology turns out to have problematic emergent properties.
+  Regards,
+    Scott
+
+
+From metamerman at gmail.com  Sun Jul  9 17:30:27 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sun, 9 Jul 2017 15:30:27 -0600
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <CACobxW03rgmSnv+kj9NbBkuzvUAFjnnoaKpFoZf5RTV5jAV99A@mail.gmail.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CACobxW03rgmSnv+kj9NbBkuzvUAFjnnoaKpFoZf5RTV5jAV99A@mail.gmail.com>
+Message-ID: <CACobxW3hh7m+OuCn_kZB4DUXyROs9wG-ZTZmNJjzuqrGY49hgA@mail.gmail.com>
+
+On Tue, Jul 4, 2017 at 1:16 PM, Steve Coffman <steve at stevecoffman.com> wrote:
+
+>> As far as the level of ?snark??. I think you could probably leave out the
+>> criticism of those running the competition as being a part of the problem,
+>> and still achieve your objective.
+
+I'm still struggling with this. I removed all the snark from the model
+description section, but am left with a big hole about why the model
+doesn't comply with the rules. And so I do believe it's necessary to
+confront this issue, and in fact also believe that the people running
+the contest *are* likely to be a part of the problem if their winning
+entry goes pear-shaped: I'd give any winning entry that follows the
+rules about a 99% chance of amounting to nothing, but about a 1%
+chance of resulting in global instability (knowing what I know about
+human and government behavior, I'd estimate the chances of it actually
+achieving the desired outcome at essentially 0%).
+
+So here's what I've got in the "argument" section. Unfortunately I
+think it goes beyond mere snark to outright hostility, but "No guts,
+no glory", right?
+
+1. Core Values.
+
+It is admittedly a leap of faith that a truly accurate democratic
+decisionmaking system will facilitate the stated goals of the GCP
+(?the good of all humanity?, ?respect for the equal value of all human
+beings?, etc.). Nor is there even any guarantee that it will ?solve?
+the climate change or any other environmental problem in any way that
+has been proposed or predicted so far. But it is (or will be) what it
+is: A reflection of the Will of The People. To predict that the result
+of this change will be counter to any particular set of moral
+principles would mean believing that existing government architectures
+(dictatorship, oligarchy, and misrepresentative democracy) are somehow
+more motivated or able to achieve them. Does anyone believe that?
+
+But what happens if The People decide to not change their lifestyles
+by reducing their energy consumption but instead decide that their
+response to climate change will be an adaptation strategy where they
+force (albeit also fund) the relocation of people in low-elevation
+nations/areas? While this would be a ?failure? by the criteria
+implicitly imposed for the GCP, it is hard to make a coherent argument
+that it is actually ?wrong?: What is wrong, at least with respect
+what?s best for the human species as a whole, is for elites of any
+sort to prescribe the outcomes of public policy decisionmaking, The
+Will of The People be damned.
+
+This means that although the proposed model has a large overlap with
+the overall goals and specific requirements for this competition, it
+explicitly and by design does not comply with all of them. The choice
+here is clear: You can either prescribe the outcome of a
+decisionmaking process and design a system to achieve that result, or
+you can decide in advance to accept the result of a global and truly
+democratic process and then work to create a system that implements
+that process, even if that means putting aside your prescriptions
+(biases) about how (or even whether) any particular problem is solved.
+In other words, It is simply inappropriate to include requirements
+such as ?decisions within the governance model must not deal with the
+internal affairs of individual states?: Again this is a decision for
+The People to make, not some elites running a contest that seeks to
+?improve? things without being willing to compromise on their ?elite?
+status (or the elite status of ?leaders? in other fields or countries)
+or their preferences for how things should be done.
+
+Unfortunately there is an even bigger  misconception that the Global
+Challenges Prize (GCP) rules seem to be based on, a requirement that
+is also deliberately disregarded in this entry:  It is simply not
+possible to design a system that corrects for externalities if it is a
+requirement that misrepresentation remain a fundamental  operating
+characteristic of the system (i.e., that ?This requirement eliminates
+models that rely on time-consuming and controversial changes in the
+political system of individual states, e.g. models that postulate that
+all states should be democracies.?). To claim (or even hope) otherwise
+is merely incompetent social engineering. Imposing this as a
+requirement not only will result in a winning entry that will fail to
+achieve anything, let alone the goals of the competition, but will
+likely be such a spectacular failure that it will set back progress in
+this domain for years or decades. Having their hearts in the right
+place does not excuse anyone from the responsibility of ensuring that
+The People are not harmed as the result of spending millions of
+dollars promoting unworkable or even counterproductive ideas. And that
+includes any requirement that the system must prop up dictators.
+
+
+From steve at stevecoffman.com  Sun Jul  9 20:01:54 2017
+From: steve at stevecoffman.com (Steve Coffman)
+Date: Sun, 9 Jul 2017 17:01:54 -0700
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <CACobxW3hh7m+OuCn_kZB4DUXyROs9wG-ZTZmNJjzuqrGY49hgA@mail.gmail.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CACobxW03rgmSnv+kj9NbBkuzvUAFjnnoaKpFoZf5RTV5jAV99A@mail.gmail.com>
+	<CACobxW3hh7m+OuCn_kZB4DUXyROs9wG-ZTZmNJjzuqrGY49hgA@mail.gmail.com>
+Message-ID: <E6D8A0EA-4B83-4077-A4F3-65176FA57648@stevecoffman.com>
+
+On Jul 9, 2017, at 2:30 PM, Scott Raney <metamerman at gmail.com> wrote:
+
+> I'm still struggling with this. I removed all the snark from the model
+> description section, but am left with a big hole about why the model
+> doesn't comply with the rules. And so I do believe it's necessary to
+> confront this issue? 
+
+Agreed.
+
+> So here's what I've got in the "argument" section.
+
+(big snip)
+
+> It is simply not possible [IMO] to design a system that corrects for externalities if it is a
+> requirement that [any system currently built on] misrepresentation remain a fundamental operating
+> characteristic of the system?
+
+Very powerful point. Could maybe stand on it?s own.
+
+> To claim (or even hope) otherwise is merely incompetent social engineering.
+
+Meh. 
+
+> Imposing this as a
+> requirement not only will result in a winning entry that will fail to
+> achieve anything, let alone the goals of the competition,
+
+Big assumption. 
+
+> but will likely be such a spectacular failure that it will set back progress in
+> this domain for years or decades.
+
+Maybe. Maybe the winner(s) will work around that in some way. Like something that allows the Nation State to remain sovereign, but declares individual sovereignty to be even greater, and/or establishes that *Global Citizens*  are supreme to *Corporate Citizens*. (We could gain a lot of ground just by instituting the latter.) I think it?s all about setting our priorities. And that to me means building a platform whereby we can collaborate in crafting a collective agreement, at scale. With that in place we could perform all kinds of magic on the current power structures.
+
+> Having their hearts in the right
+> place does not excuse anyone from the responsibility of ensuring that
+> The People are not harmed as the result of spending millions of
+> dollars promoting unworkable or even counterproductive ideas.
+
+If you can express your concern without the snarky judgement and assumption sandwich, you may save your entry from a quick trip to the round file. I?m assuming it?s a real concern and not just some cynical dart you?re throwing.  :)
+
+> And that includes any requirement that the system must prop up dictators.
+
+I think I see where you?re coming from. It?s easy for some billionaire to throw a little change at a problem without having thought through the consequences deeply in his own mind. On top of that, he?ll likely earn a substantial dose of celebrity for being all kinds of cuddly things to the current progressive wave of waking discontent. He might even cover has ass (consciously or un) by injecting a little safety clause that safeguards his very comfortable (elite) position in the current hierarchy.
+
+Or he could just be a very fortunate man whose had a change of heart and wants to do the right thing, but the extension in his critical thinking hasn?t yet caught up with the expansion in his heart. It may be that he?s created the Challenge because he feels incapable of generating some workable solution on his own. Who can say? 
+
+Personally, I see this Challenge as emerging from a greater existential impulse. I think it?s admirable that you?ve positioned yourself through what I?m guessing has been years of deep thinking and hard work such that you have a very well-developed and intelligent model (IMO) that you can contribute to the Challenge. 
+
+If we are going to *crowd-source* a new paradigm, I imagine we?ll need to get very accustomed to working around (what we judge to be) incomplete or faulty reasoning without damaging the connection we have with others. Tricky business!
+
+
+
+
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170709/45ca281c/attachment.html>
+
+From metamerman at gmail.com  Mon Jul 10 16:29:25 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Mon, 10 Jul 2017 14:29:25 -0600
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <E6D8A0EA-4B83-4077-A4F3-65176FA57648@stevecoffman.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CACobxW03rgmSnv+kj9NbBkuzvUAFjnnoaKpFoZf5RTV5jAV99A@mail.gmail.com>
+	<CACobxW3hh7m+OuCn_kZB4DUXyROs9wG-ZTZmNJjzuqrGY49hgA@mail.gmail.com>
+	<E6D8A0EA-4B83-4077-A4F3-65176FA57648@stevecoffman.com>
+Message-ID: <CACobxW3uKv5TkPSWNw3TTFF9o_PHhZXF=NW931uWjWT4UzhMcA@mail.gmail.com>
+
+On Sun, Jul 9, 2017 at 6:01 PM, Steve Coffman <steve at stevecoffman.com> wrote:
+
+> Imposing this as a
+> requirement not only will result in a winning entry that will fail to
+> achieve anything, let alone the goals of the competition,
+>
+> Big assumption.
+
+Not assumption, prediction, perhaps even to the level of actual
+"knowledge". As Spock said:
+
+"If I let go of a hammer on a planet that has a positive gravity, I
+need not see it fall to know that it has in fact fallen."
+
+> but will likely be such a spectacular failure that it will set back progress
+> in
+> this domain for years or decades.
+>
+> Maybe. Maybe the winner(s) will work around that in some way. Like something
+> that allows the Nation State to remain sovereign, but declares individual
+> sovereignty to be even greater, and/or establishes that *Global Citizens*
+> are supreme to *Corporate Citizens*. (We could gain a lot of ground just by
+> instituting the latter.) I think it?s all about setting our priorities. And
+> that to me means building a platform whereby we can collaborate in crafting
+> a collective agreement, at scale. With that in place we could perform all
+> kinds of magic on the current power structures.
+
+I'm certainly not going to rule out the possibility of someone out
+there having an epiphany and coming up with some way around SDAP
+behavior that doesn't involve creating a system that prevents SDAPs
+from climbing into positions of power. But given that so few people
+even realize that this is in fact the problem it seems very unlikely
+to me (i.e., most people are going to need to have back-to-back
+epiphanies to come up with anything even equivalent to DeMP, let alone
+provably better). Unfortunately I see that same blindness in your
+comment above. It just doesn't matter what sort of power-sharing
+system you come up with: If at its root it relies on SDAPs in existing
+government systems (including corporate oligarchies) voluntarily
+ceding power to The People it's a hammer that's going to fall whether
+you see it or not.
+
+> > Having their hearts in the right
+> > place does not excuse anyone from the responsibility of ensuring that
+> > The People are not harmed as the result of spending millions of
+> > dollars promoting unworkable or even counterproductive ideas.
+>
+> If you can express your concern without the snarky judgement and assumption
+> sandwich, you may save your entry from a quick trip to the round file. I?m
+> assuming it?s a real concern and not just some cynical dart you?re throwing.
+> :)
+
+It is, but I would concede that it's a pretty minor concern and so can
+probably be left out. The odds of them actually harming anyone or
+stopping people like us from soldiering on are down there in same the
+sub-1% realm that the winning plan will actually amount to anything,
+at least to the extent that it follows the rules.
+
+> > And that includes any requirement that the system must prop up dictators.
+>
+> I think I see where you?re coming from. It?s easy for some billionaire to
+> throw a little change at a problem without having thought through the
+> consequences deeply in his own mind. On top of that, he?ll likely earn a
+> substantial dose of celebrity for being all kinds of cuddly things to the
+> current progressive wave of waking discontent. He might even cover has ass
+> (consciously or un) by injecting a little safety clause that safeguards his
+> very comfortable (elite) position in the current hierarchy.
+
+He's old enough that I doubt he worries about such things. And he
+seems to not have any children, hopefully eliminating any bias he
+might have against a system that deals with oligarchy in part by
+eliminating the custom of inheritance (for the record, though, his
+wife was apparently opposed to forming the GCF).
+
+But I wasn't insinuating that I think he has any ulterior motives for
+imposing a requirement that the proposed model not destabilize
+dictatorships (as a goal or merely as a side-effect). I'm sure they
+think imposing such a rule is just a matter of practicality. It's
+possible, though, that they also harbor a niggling fear of being held
+responsible for being the cause of a revolution in some faraway place.
+
+> If we are going to *crowd-source* a new paradigm, I imagine we?ll need to
+> get very accustomed to working around (what we judge to be) incomplete or
+> faulty reasoning without damaging the connection we have with others. Tricky
+> business!
+
+Tell me about it ;-)  Fortunately this *doesn't* seem to be an issue
+when explaining my system to regular people. Most of them are rightly
+skeptical about its chances, but that always seems to originate from a
+cynicism that there is any possibility of taking the-powers-that-be
+down a notch or two. It seems to not come from perceived flaws in its
+goals or mechanisms (like one gets if one proposes something
+recognizable as libertarianism or communism). Even the most rabid
+constitutionalists I've dealt with (on FB) seem to at least have half
+an open mind about the fact that the US constitution has serious flaws
+and that there might be better ways to organize a government.
+
+Thanks for the feedback: I'll take another stab at pruning back the snark ;-)
+  Regards,
+    Scott
+
+
+From jacopo.tolja at gmail.com  Wed Jul 12 07:51:05 2017
+From: jacopo.tolja at gmail.com (Jacopo Tolja)
+Date: Wed, 12 Jul 2017 13:51:05 +0200
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <CACobxW3uKv5TkPSWNw3TTFF9o_PHhZXF=NW931uWjWT4UzhMcA@mail.gmail.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CACobxW03rgmSnv+kj9NbBkuzvUAFjnnoaKpFoZf5RTV5jAV99A@mail.gmail.com>
+	<CACobxW3hh7m+OuCn_kZB4DUXyROs9wG-ZTZmNJjzuqrGY49hgA@mail.gmail.com>
+	<E6D8A0EA-4B83-4077-A4F3-65176FA57648@stevecoffman.com>
+	<CACobxW3uKv5TkPSWNw3TTFF9o_PHhZXF=NW931uWjWT4UzhMcA@mail.gmail.com>
+Message-ID: <CAJHTwmLrYzSw1h22j5FcwaKj=a4OwFXQ8kw3fYEkY05CWYQ2zg@mail.gmail.com>
+
+I suggest to mention the MG and our ML in any of the proposals that may be
+generated by members of the MG.
+This will draw attention to the effort that we are discussing long before
+the GCP was in place given that we have the same goal.
+My 2 cents
+Jacopo
+
+On Mon, Jul 10, 2017 at 10:29 PM, Scott Raney <metamerman at gmail.com> wrote:
+
+> On Sun, Jul 9, 2017 at 6:01 PM, Steve Coffman <steve at stevecoffman.com>
+> wrote:
+>
+> > Imposing this as a
+> > requirement not only will result in a winning entry that will fail to
+> > achieve anything, let alone the goals of the competition,
+> >
+> > Big assumption.
+>
+> Not assumption, prediction, perhaps even to the level of actual
+> "knowledge". As Spock said:
+>
+> "If I let go of a hammer on a planet that has a positive gravity, I
+> need not see it fall to know that it has in fact fallen."
+>
+> > but will likely be such a spectacular failure that it will set back
+> progress
+> > in
+> > this domain for years or decades.
+> >
+> > Maybe. Maybe the winner(s) will work around that in some way. Like
+> something
+> > that allows the Nation State to remain sovereign, but declares individual
+> > sovereignty to be even greater, and/or establishes that *Global Citizens*
+> > are supreme to *Corporate Citizens*. (We could gain a lot of ground just
+> by
+> > instituting the latter.) I think it?s all about setting our priorities.
+> And
+> > that to me means building a platform whereby we can collaborate in
+> crafting
+> > a collective agreement, at scale. With that in place we could perform all
+> > kinds of magic on the current power structures.
+>
+> I'm certainly not going to rule out the possibility of someone out
+> there having an epiphany and coming up with some way around SDAP
+> behavior that doesn't involve creating a system that prevents SDAPs
+> from climbing into positions of power. But given that so few people
+> even realize that this is in fact the problem it seems very unlikely
+> to me (i.e., most people are going to need to have back-to-back
+> epiphanies to come up with anything even equivalent to DeMP, let alone
+> provably better). Unfortunately I see that same blindness in your
+> comment above. It just doesn't matter what sort of power-sharing
+> system you come up with: If at its root it relies on SDAPs in existing
+> government systems (including corporate oligarchies) voluntarily
+> ceding power to The People it's a hammer that's going to fall whether
+> you see it or not.
+>
+> > > Having their hearts in the right
+> > > place does not excuse anyone from the responsibility of ensuring that
+> > > The People are not harmed as the result of spending millions of
+> > > dollars promoting unworkable or even counterproductive ideas.
+> >
+> > If you can express your concern without the snarky judgement and
+> assumption
+> > sandwich, you may save your entry from a quick trip to the round file.
+> I?m
+> > assuming it?s a real concern and not just some cynical dart you?re
+> throwing.
+> > :)
+>
+> It is, but I would concede that it's a pretty minor concern and so can
+> probably be left out. The odds of them actually harming anyone or
+> stopping people like us from soldiering on are down there in same the
+> sub-1% realm that the winning plan will actually amount to anything,
+> at least to the extent that it follows the rules.
+>
+> > > And that includes any requirement that the system must prop up
+> dictators.
+> >
+> > I think I see where you?re coming from. It?s easy for some billionaire to
+> > throw a little change at a problem without having thought through the
+> > consequences deeply in his own mind. On top of that, he?ll likely earn a
+> > substantial dose of celebrity for being all kinds of cuddly things to the
+> > current progressive wave of waking discontent. He might even cover has
+> ass
+> > (consciously or un) by injecting a little safety clause that safeguards
+> his
+> > very comfortable (elite) position in the current hierarchy.
+>
+> He's old enough that I doubt he worries about such things. And he
+> seems to not have any children, hopefully eliminating any bias he
+> might have against a system that deals with oligarchy in part by
+> eliminating the custom of inheritance (for the record, though, his
+> wife was apparently opposed to forming the GCF).
+>
+> But I wasn't insinuating that I think he has any ulterior motives for
+> imposing a requirement that the proposed model not destabilize
+> dictatorships (as a goal or merely as a side-effect). I'm sure they
+> think imposing such a rule is just a matter of practicality. It's
+> possible, though, that they also harbor a niggling fear of being held
+> responsible for being the cause of a revolution in some faraway place.
+>
+> > If we are going to *crowd-source* a new paradigm, I imagine we?ll need to
+> > get very accustomed to working around (what we judge to be) incomplete or
+> > faulty reasoning without damaging the connection we have with others.
+> Tricky
+> > business!
+>
+> Tell me about it ;-)  Fortunately this *doesn't* seem to be an issue
+> when explaining my system to regular people. Most of them are rightly
+> skeptical about its chances, but that always seems to originate from a
+> cynicism that there is any possibility of taking the-powers-that-be
+> down a notch or two. It seems to not come from perceived flaws in its
+> goals or mechanisms (like one gets if one proposes something
+> recognizable as libertarianism or communism). Even the most rabid
+> constitutionalists I've dealt with (on FB) seem to at least have half
+> an open mind about the fact that the US constitution has serious flaws
+> and that there might be better ways to organize a government.
+>
+> Thanks for the feedback: I'll take another stab at pruning back the snark
+> ;-)
+>   Regards,
+>     Scott
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170712/77ca2c59/attachment-0001.html>
+
+From jacopo.tolja at gmail.com  Wed Jul 12 15:32:51 2017
+From: jacopo.tolja at gmail.com (Jacopo Tolja)
+Date: Wed, 12 Jul 2017 21:32:51 +0200
+Subject: [MG] responsibility
+In-Reply-To: <CAB8mRPhNDUGeWXUnQycqpbkv_rXKCkVut4XcqNG51QUTDesjNg@mail.gmail.com>
+References: <CAB8mRPhNDUGeWXUnQycqpbkv_rXKCkVut4XcqNG51QUTDesjNg@mail.gmail.com>
+Message-ID: <CAJHTwmJPCuFzB9qptTV_A6B97U-amRmGq6mRumnZMAnZXrzWtw@mail.gmail.com>
+
+I was doin a reserach in this specific matter and I find out that the page
+was deleted, Michal do you have any info on thais subject matter?
+Kind Regards
+Jacopo
+
+On Thu, Apr 7, 2016 at 9:36 AM, Michal ?t?p?nek <spolecenska.burza at gmail.com
+> wrote:
+
+> Hi,
+>
+> I would like to suggest a sensible politics for our responsibility:
+>
+> Avoid potentially harmful lock-ins in your social choice design.
+> Test modules, before you test whole design.
+> ---
+>
+> https://en.wikipedia.org/wiki/Lock-in_(decision-making)
+>
+> I think we cannot take responsibility for all possible outcomes, nor we
+> can test all possible outcomes.
+>
+> Any suggestions?
+>
+> Kind regards
+> m.
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170712/9d9de1fe/attachment.html>
+
+From rslzdr at gmail.com  Wed Jul 12 18:16:01 2017
+From: rslzdr at gmail.com (=?UTF-8?B?TWljaGFsIMWgdMSbcMOhbmVr?=)
+Date: Thu, 13 Jul 2017 00:16:01 +0200
+Subject: [MG] responsibility
+In-Reply-To: <CAJHTwmJPCuFzB9qptTV_A6B97U-amRmGq6mRumnZMAnZXrzWtw@mail.gmail.com>
+References: <CAB8mRPhNDUGeWXUnQycqpbkv_rXKCkVut4XcqNG51QUTDesjNg@mail.gmail.com>
+	<CAJHTwmJPCuFzB9qptTV_A6B97U-amRmGq6mRumnZMAnZXrzWtw@mail.gmail.com>
+Message-ID: <CAApCfOCtMBfE9AcWfq6J6PVdajvn84uaM=CE3=JKO=39_K1aHg@mail.gmail.com>
+
+Hello Jacopo,
+
+this is my first read MG email after a few months, I am very glad to read
+my name in it, thank you :)
+As you may guess I became dissatisfied with the MG list and moved my
+activities to ResearchGate.
+
+Responsibility is one of the reasons. Unnecessary use of ideology and
+political philosophy instead of the philosophy of science and political
+science is irresponsible for me.
+
+As for the old email, lock-ins seems to be problems of ideology, where
+things may get big (and locked) before they are examined enough. Lock-ins
+do not seem to be dangerous if there are trials and predefined generic
+measure.
+As for modules, I do not see any reason why not to use them.
+
+Cheers
+m.
+
+
+On Wed, Jul 12, 2017 at 9:32 PM, Jacopo Tolja <jacopo.tolja at gmail.com>
+wrote:
+
+> I was doin a reserach in this specific matter and I find out that the page
+> was deleted, Michal do you have any info on thais subject matter?
+> Kind Regards
+> Jacopo
+>
+> On Thu, Apr 7, 2016 at 9:36 AM, Michal ?t?p?nek <
+> spolecenska.burza at gmail.com> wrote:
+>
+>> Hi,
+>>
+>> I would like to suggest a sensible politics for our responsibility:
+>>
+>> Avoid potentially harmful lock-ins in your social choice design.
+>> Test modules, before you test whole design.
+>> ---
+>>
+>> https://en.wikipedia.org/wiki/Lock-in_(decision-making)
+>>
+>> I think we cannot take responsibility for all possible outcomes, nor we
+>> can test all possible outcomes.
+>>
+>> Any suggestions?
+>>
+>> Kind regards
+>> m.
+>>
+>> _______________________________________________
+>> Start : a mailing list of the Metagovernment project
+>> http://www.metagovernment.org/
+>> Post to the list: Start at metagovernment.org
+>> Manage subscription: http://metagovernment.org/mail
+>> man/listinfo/start_metagovernment.org
+>>
+>>
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+>
+
+
+-- 
+michalstepanek.github.io
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170713/4575a6d8/attachment.html>
+
+From metamerman at gmail.com  Sun Jul  2 19:08:50 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sun, 2 Jul 2017 17:08:50 -0600
+Subject: [MG] 
+	=?utf-8?q?=22Commons_versus_neoliberalism=3A_From_an_oligar?=
+	=?utf-8?q?chic_economy_to_the_open_social_economy=E2=80=9D_By_Yoch?=
+	=?utf-8?q?ai_Benkler?=
+In-Reply-To: <CABr7qmS+4vvRtOXO+hyHrosPFNSoiTJK4q83QUfYc4F3JHspLw@mail.gmail.com>
+References: <CABr7qmS+4vvRtOXO+hyHrosPFNSoiTJK4q83QUfYc4F3JHspLw@mail.gmail.com>
+Message-ID: <CACobxW20NTgioDuudLo0BTRgmboXtkZ9iy9vG4+sFwkUTmYXuQ@mail.gmail.com>
+
+On Thu, Jun 29, 2017 at 8:05 AM, Pedro <pederindi at gmail.com> wrote:
+> http://procomuns.net/en/streaming-commons-based-collaborative-economies-procomuns-2017/
+> -> https://www.youtube.com/watch?v=pL-TiwzfGuQ
+
+Interesting how they do English and Spanish not with subtitles but
+with English on the left channel and Spanish on the right.
+
+I'll admit to just skimming it (it's over 2 hours long!) but what I
+saw is the usual detailed descriptions of the problems with a lot of
+handwaving about solutions. This one, like most of the "commons" based
+proposals seemed to me particularly weak on the transition plan. They
+just seem to fundamentally lack any awareness that it's
+*decisionmaking* that's the problem, not anything to do with the
+economy: Even if there *were* something fundamentally wrong with plain
+old capitalism (which they are far from proving, or even providing
+arguments that couldn't easily be ripped to shreds by anyone who
+understands both systems) you *still* have to solve the decisionmaking
+problem first in order to implement any replacement. They all seem to
+live in this fantasyland where oligarchs just voluntarily give up
+their power as a response to a small minority of activists asking them
+to do so, armed only with "better ideas". Has any revolution happened
+that way?
+  Regards,
+    Scott
+
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+
+
+
+From metamerman at gmail.com  Sun Jul  2 19:24:43 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sun, 2 Jul 2017 17:24:43 -0600
+Subject: [MG] democracy.earth
+In-Reply-To: <CAJHTwmJk4Hvv1FxLsnvzW=xc3JMiAN9b-UYdGngReDoxSgz7xQ@mail.gmail.com>
+References: <CAJHTwmJk4Hvv1FxLsnvzW=xc3JMiAN9b-UYdGngReDoxSgz7xQ@mail.gmail.com>
+Message-ID: <CACobxW3=NMyMSwk-gOo83=RTizrvJZ+BHXfSh-4i9z1u_H+nEA@mail.gmail.com>
+
+On Thu, Jun 29, 2017 at 5:31 AM, Jacopo Tolja <jacopo.tolja at gmail.com> wrote:
+> Does anyone have look into it?
+> Any critique?
+
+Maybe I'm just thick but I've read several of these blockchain
+proposals and have never been able to grasp what problem it is that
+they're really trying to solve.
+
+> It seem well established and the distributed sistem seem the solution for
+> security.
+> https://words.democracy.earth/organizing-your-right-to-gather-ability-to-petition-on-the-blockchain-c5412db5a008
+
+Mostly what I come away with is that these people are so obsessed with
+the technology that they'll enthusiastically endorse virtually
+anything just so long as it uses blockchains. But blockchains are very
+slow, non-scalable (they all just break down entirely if more than a
+few thousand transactions per second are required), but most damningly
+they're simply *not* transparent because you have to trust massive
+amounts of code and computing cycles with no possible way to verify
+the outcomes by hand. Blockchain proponents need to defend their
+proposals vs. open voting (as in proxyfor.me) where you can look
+directly at the raw data and see that you're not being screwed over by
+some hacker that understands the system better than you do. In the
+case of blockchain it means that only approximately 0.000001% of the
+population is capable of controlling or even verifying the operation.
+Which is exactly the recipe we already have for corruption and
+oligarchy...
+  Regards,
+    Scott
+
+
+
+From jacopo.tolja at gmail.com  Mon Jul  3 05:30:23 2017
+From: jacopo.tolja at gmail.com (Jacopo Tolja)
+Date: Mon, 3 Jul 2017 11:30:23 +0200
+Subject: [MG] democracy.earth
+In-Reply-To: <CACobxW3=NMyMSwk-gOo83=RTizrvJZ+BHXfSh-4i9z1u_H+nEA@mail.gmail.com>
+References: <CAJHTwmJk4Hvv1FxLsnvzW=xc3JMiAN9b-UYdGngReDoxSgz7xQ@mail.gmail.com>
+	<CACobxW3=NMyMSwk-gOo83=RTizrvJZ+BHXfSh-4i9z1u_H+nEA@mail.gmail.com>
+Message-ID: <CAJHTwm+Z=tiv81WocubYHpAjLHacD3jFMmPZLQnQAxguPq0Xfg@mail.gmail.com>
+
+Thank you Scott i understand your point but if that thrust can become
+manageable and we get notification every time one node screw up something?
+and by rule that node is escluded untill it verified his own data ?
+If the system is designed to control milion of contract like ethereum , or
+value transaction bitcoin why cannot be used to control discussion and
+decision?
+
+
+As a starter https://discipl.org/2017/02/15/p2pollderblog/
+
+
+
+
+
+
+
+On Mon, Jul 3, 2017 at 1:24 AM, Scott Raney <metamerman at gmail.com> wrote:
+
+> On Thu, Jun 29, 2017 at 5:31 AM, Jacopo Tolja <jacopo.tolja at gmail.com>
+> wrote:
+> > Does anyone have look into it?
+> > Any critique?
+>
+> Maybe I'm just thick but I've read several of these blockchain
+> proposals and have never been able to grasp what problem it is that
+> they're really trying to solve.
+>
+> > It seem well established and the distributed sistem seem the solution for
+> > security.
+> > https://words.democracy.earth/organizing-your-right-to-
+> gather-ability-to-petition-on-the-blockchain-c5412db5a008
+>
+> Mostly what I come away with is that these people are so obsessed with
+> the technology that they'll enthusiastically endorse virtually
+> anything just so long as it uses blockchains. But blockchains are very
+> slow, non-scalable (they all just break down entirely if more than a
+> few thousand transactions per second are required), but most damningly
+> they're simply *not* transparent because you have to trust massive
+> amounts of code and computing cycles with no possible way to verify
+> the outcomes by hand. Blockchain proponents need to defend their
+> proposals vs. open voting (as in proxyfor.me) where you can look
+> directly at the raw data and see that you're not being screwed over by
+> some hacker that understands the system better than you do. In the
+> case of blockchain it means that only approximately 0.000001% of the
+> population is capable of controlling or even verifying the operation.
+> Which is exactly the recipe we already have for corruption and
+> oligarchy...
+>   Regards,
+>     Scott
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170703/9a55dd06/attachment-0002.html>
+
+From pederindi at gmail.com  Mon Jul  3 07:12:35 2017
+From: pederindi at gmail.com (Pedro)
+Date: Mon, 3 Jul 2017 13:12:35 +0200
+Subject: [MG] 
+	=?utf-8?q?=22Commons_versus_neoliberalism=3A_From_an_oligar?=
+	=?utf-8?q?chic_economy_to_the_open_social_economy=E2=80=9D_By_Yoch?=
+	=?utf-8?q?ai_Benkler?=
+In-Reply-To: <CACobxW20NTgioDuudLo0BTRgmboXtkZ9iy9vG4+sFwkUTmYXuQ@mail.gmail.com>
+References: <CABr7qmS+4vvRtOXO+hyHrosPFNSoiTJK4q83QUfYc4F3JHspLw@mail.gmail.com>
+	<CACobxW20NTgioDuudLo0BTRgmboXtkZ9iy9vG4+sFwkUTmYXuQ@mail.gmail.com>
+Message-ID: <CABr7qmSuWUPM_JFgYree-kRJvwoZWD98qA8zTgZnY560oKLjgA@mail.gmail.com>
+
+Scott,
+
+it's not just about better ideas, is a superior model against classic
+private vs public property
+
+you can get in touch reading its theories or putting it in practice
+
+this talk (video) is a discussion towards the formalization of a model
+that is currently working, and revolutioning our society.
+
+For example, look how big it is that in this communication we are
+heavily using tools operated by free software/open source (by diferent
+third party entities: email, IETF, Internet, service providers). This
+is fairly new approach in our recent history. And is the init for a
+new commons revolution, step by step.
+
+Here you have some examples of different revolutions with its great wars:
+
+microsoft vs linux (microsoft is joining open source movement)
+private encyclopedias vs wikipedia
+private networks vs Internet ( still running ->
+https://www.fightforthefuture.org/ )
+
+
+
+decision making is not a problem (for me), this problem is from some
+people to accept the consensus approach
+
+I agree a lot with this guys, and I try to run this way in the
+organizations I'm part of (and are governing a commons resource):
+
+In many ways, the IETF runs on the beliefs of its participants. One of
+the "founding beliefs" is embodied in an early quote about the IETF
+from David Clark: "We reject kings, presidents and voting. We believe
+in rough consensus and running code". Another early quote that has
+become a commonly-held belief in the IETF comes from Jon Postel: "Be
+conservative in what you send and liberal in what you accept".
+
+found here: https://www.ietf.org/tao.html
+
+Well, in this words, or otehrs, is the suggested way to run a Commons
+(common infrastructure, consensus about the rules taking in account
+big majority of participants => consensus)
+
+On Mon, Jul 3, 2017 at 1:08 AM, Scott Raney <metamerman at gmail.com> wrote:
+> On Thu, Jun 29, 2017 at 8:05 AM, Pedro <pederindi at gmail.com> wrote:
+>> http://procomuns.net/en/streaming-commons-based-collaborative-economies-procomuns-2017/
+>> -> https://www.youtube.com/watch?v=pL-TiwzfGuQ
+>
+> Interesting how they do English and Spanish not with subtitles but
+> with English on the left channel and Spanish on the right.
+>
+> I'll admit to just skimming it (it's over 2 hours long!) but what I
+> saw is the usual detailed descriptions of the problems with a lot of
+> handwaving about solutions. This one, like most of the "commons" based
+> proposals seemed to me particularly weak on the transition plan. They
+> just seem to fundamentally lack any awareness that it's
+> *decisionmaking* that's the problem, not anything to do with the
+> economy: Even if there *were* something fundamentally wrong with plain
+> old capitalism (which they are far from proving, or even providing
+> arguments that couldn't easily be ripped to shreds by anyone who
+> understands both systems) you *still* have to solve the decisionmaking
+> problem first in order to implement any replacement. They all seem to
+> live in this fantasyland where oligarchs just voluntarily give up
+> their power as a response to a small minority of activists asking them
+> to do so, armed only with "better ideas". Has any revolution happened
+> that way?
+>   Regards,
+>     Scott
+>
+>> _______________________________________________
+>> Start : a mailing list of the Metagovernment project
+>> http://www.metagovernment.org/
+>> Post to the list: Start at metagovernment.org
+>> Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+
+
+
+From metamerman at gmail.com  Mon Jul  3 11:10:45 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Mon, 3 Jul 2017 09:10:45 -0600
+Subject: [MG] democracy.earth
+In-Reply-To: <CAJHTwm+Z=tiv81WocubYHpAjLHacD3jFMmPZLQnQAxguPq0Xfg@mail.gmail.com>
+References: <CAJHTwmJk4Hvv1FxLsnvzW=xc3JMiAN9b-UYdGngReDoxSgz7xQ@mail.gmail.com>
+	<CACobxW3=NMyMSwk-gOo83=RTizrvJZ+BHXfSh-4i9z1u_H+nEA@mail.gmail.com>
+	<CAJHTwm+Z=tiv81WocubYHpAjLHacD3jFMmPZLQnQAxguPq0Xfg@mail.gmail.com>
+Message-ID: <CACobxW2LXVMTQUKwFsWd9=Th4t=oVRNtKMZXMDH=tFzmiuqOvw@mail.gmail.com>
+
+On Mon, Jul 3, 2017 at 3:30 AM, Jacopo Tolja <jacopo.tolja at gmail.com> wrote:
+> Thank you Scott i understand your point but if that thrust can become
+> manageable and we get notification every time one node screw up something?
+
+And if there are a thousand nodes? That kind of scalability is exactly
+the problem. How many nodes with hacked software need to be introduced
+to render the whole system non-functional?
+
+> and by rule that node is escluded untill it verified his own data ?
+
+Again, IMHO it's not about theoretical reliability, it's about trust:
+I spent hours a few days ago fighting off an attack on the Matchism
+forums from attacks originating in the Ukraine and/or Russia, for
+example. How can you design a system where vote rigging is organized
+(or even state sponsored)? No one will trust *any* of the results if
+they can't plainly see the results for themselves. Nor should they.
+
+> If the system is designed to control milion of contract like ethereum , or
+> value transaction bitcoin why cannot be used to control discussion and
+> decision?
+
+Bitcoin demonstrates the problem exactly: I don't know if you've read
+much on the scalability of it, but it's not even *theoretically*
+capable of processing even a small fraction of 1% of the transactions
+that Visa or Mastercard can. A system where 10 billion people could
+vote in one day just can't work if each of the notes must verify all
+of the transaction (and if they don't, again, no one should trust the
+output). And why even have a system that requires all this processing
+when direct open voting solves it transparently and with minimal CPU
+requirements? Secrecy? Sorry, if you believe that is required you're
+not reading the research (i.e., the only people that see it a
+requirement are either clinically paranoid or simply misinformed and
+the problem will go away if you explain how the system works and then
+get them to use it a few times). And besides reporting the results of
+just asking The People about this, it's demonstrated every day by
+their willing to cast public votes in a vast array of other forums).
+
+> As a starter https://discipl.org/2017/02/15/p2pollderblog/
+
+Hadn't seen that, but it looks like the same obsessional/delusional
+stuff that all the other blockchain groupies are proposing. But maybe
+you can tell me how it solves any of the *real* problems with
+democracy:
+
+1) Non-participation (i.e., only the activerts cast ballots).
+
+2) Misrepresentatives (i.e., any system that relies on people being
+able to predict/control how a politician will vote/act on their
+behalf).
+
+3) Transparency (i.e., where you can easily, reliably, and directly
+verify that your (and/or your proxies') votes were properly recorded).
+
+In fact I only see a few potential benefits in all of the blockchain
+proposals, all of which are either not essential or can be achieved
+other ways:
+
+1) Secrecy: Your vote can't be traced back to you unless you give out
+your keys (the downside being that no one can verify all of the
+votes).
+
+2) Distributed data: Hacking the main server won't bring down the
+entire system (although sharding databases, as proxyfor.me is designed
+to use, will also prevent this, and yet without opening the Pandora's
+box of letting *anyone* claim they're running a legitimate node).
+
+3) Distributed control: There's no one "government" in charge of
+everything. But this, again, IMHO is missing the point: Government
+can't function without an executive branch, and if you can't trust the
+executive branch you've got far worse problems that just whether your
+votes are being counted properly (i.e., a corrupt executive branch
+will just ignore the output of your fancy blockchain system).
+  Regards,
+    Scott
+
+
+
+From metamerman at gmail.com  Mon Jul  3 12:01:48 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Mon, 3 Jul 2017 10:01:48 -0600
+Subject: [MG] 
+	=?utf-8?q?=22Commons_versus_neoliberalism=3A_From_an_oligar?=
+	=?utf-8?q?chic_economy_to_the_open_social_economy=E2=80=9D_By_Yoch?=
+	=?utf-8?q?ai_Benkler?=
+In-Reply-To: <CABr7qmSuWUPM_JFgYree-kRJvwoZWD98qA8zTgZnY560oKLjgA@mail.gmail.com>
+References: <CABr7qmS+4vvRtOXO+hyHrosPFNSoiTJK4q83QUfYc4F3JHspLw@mail.gmail.com>
+	<CACobxW20NTgioDuudLo0BTRgmboXtkZ9iy9vG4+sFwkUTmYXuQ@mail.gmail.com>
+	<CABr7qmSuWUPM_JFgYree-kRJvwoZWD98qA8zTgZnY560oKLjgA@mail.gmail.com>
+Message-ID: <CACobxW3PG=w0jRHLaC6a+eNVR=nNN7_iN8zQhDcqxdDgNZPEMw@mail.gmail.com>
+
+On Mon, Jul 3, 2017 at 5:12 AM, Pedro <pederindi at gmail.com> wrote:
+
+> it's not just about better ideas, is a superior model against classic
+> private vs public property
+
+Maybe we have a language barrier issue here, but "superior model" ===
+"better ideas" in my usage of English.
+
+> you can get in touch reading its theories or putting it in practice
+> this talk (video) is a discussion towards the formalization of a model
+> that is currently working, and revolutioning our society.
+
+You didn't address the issue: How far is this "revolution" going to
+get when the 1% decide not to play along?
+
+> For example, look how big it is that in this communication we are
+> heavily using tools operated by free software/open source (by diferent
+> third party entities: email, IETF, Internet, service providers). This
+> is fairly new approach in our recent history. And is the init for a
+> new commons revolution, step by step.
+
+Fanboy talk. Let's not talk about the tools, let's talk about how the
+1% is going to sit idly by when this movement gains any traction.
+
+> Here you have some examples of different revolutions with its great wars:
+>
+> microsoft vs linux (microsoft is joining open source movement)
+> private encyclopedias vs wikipedia
+> private networks vs Internet ( still running ->
+> https://www.fightforthefuture.org/ )
+
+I see no "revolution" in any of those examples: Both systems seem to
+still be working in all of these cases. And in the case of Microsoft
+they're still winning (and by a *lot*: Microsoft's market cap is *28*
+times bigger than Red Hat, for example). And although there are many
+better examples of disruptive technologies (I'd use cell phones and
+Uber), you're missing the fundamental point which is that in those
+cases the new technology is clearly superior to the old technology for
+*everyone*, not just a few fanboys. "Commons" economic proposals can't
+even theoretically make that claim (i.e., the 1% are always going to
+be to-the-death opposed to it, and I predict you'd have a lot of
+trouble even convincing the top 20% to play along).
+
+> decision making is not a problem (for me), this problem is from some
+> people to accept the consensus approach
+
+Maybe I missed something, then: How do any of these "commons"
+proposals address the issue of decisionmaking in a way that it becomes
+binding on the 1%?
+
+> I agree a lot with this guys, and I try to run this way in the
+> organizations I'm part of (and are governing a commons resource):
+>
+> In many ways, the IETF runs on the beliefs of its participants. One of
+> the "founding beliefs" is embodied in an early quote about the IETF
+> from David Clark: "We reject kings, presidents and voting. We believe
+> in rough consensus and running code". Another early quote that has
+> become a commonly-held belief in the IETF comes from Jon Postel: "Be
+> conservative in what you send and liberal in what you accept".
+
+I've actually studied this organization and believe that you have been
+misinformed about how it *actually* works: Special interests (vendors)
+wield almost all of the power in that organization, and the chairman
+of the committee (essentially the executive branch) holds the rest.
+The average "citizen" in that government has no more power to
+influence the outcomes of the decisionmaking there than any of us do
+in RL government.
+
+> found here: https://www.ietf.org/tao.html
+>
+> Well, in this words, or otehrs, is the suggested way to run a Commons
+> (common infrastructure, consensus about the rules taking in account
+> big majority of participants => consensus)
+
+Again, that's not what "consensus" means. And IETF I would say
+operates more on a "no reasonable objection" basis than a consensus
+basis anyway. And that model just won't work if your system has to
+make decisions in moral rather than just technical realms (i.e., just
+try to make public policy on abortion using "humming" ;-)
+  Regards,
+    Scott
+
+
+
+From metamerman at gmail.com  Mon Jul  3 19:53:03 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Mon, 3 Jul 2017 17:53:03 -0600
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+Message-ID: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+
+Here's the current draft of my entry for the GCF prize:
+http://www.matchism.org/refs/GCF_entry.pdf
+
+Questions:
+1) Is it intelligible?
+
+2) Is the argument complete, or are there holes to be filled?
+
+3) Is the level of snark appropriate (I didn't follow the rules, and
+make specific arguments about why this is necessary and why any entry
+that does follow the rules is doomed to failure).
+
+4) I came in at 5100 words for the description (close to the 5500 word
+max), but am well under for the other two sections. Have I "left money
+on the table" by doing this?
+
+For anyone who hasn't read matchism.org or my other white papers, this
+is a good summary of the system and includes only a skeleton
+description of the philosophy behind it. It'd therefore be especially
+helpful to get your take on it to make sure I didn't leave too much
+out.
+  Regards,
+    Scott
+
+
+
+From steve at stevecoffman.com  Tue Jul  4 15:16:44 2017
+From: steve at stevecoffman.com (Steve Coffman)
+Date: Tue, 4 Jul 2017 12:16:44 -0700
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+Message-ID: <EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+
+First off Scott, kudos to you for having put all of this together. In my mind, it's well-thought-out and has obviously been a lot of work.
+
+I?m very curious about the outcome of this competition and am hoping we'll have a chance to peruse the top entries, including the ones that don?t win the big $$$. I appreciate being able to read yours ahead of time and hope you do well!
+
+Overall I would say it?s "intelligible" and "complete" enough. I read the material on Matchism.org <http://matchism.org/> a while back, so I already have a deeper understanding of your project. I think what you?re presenting to this competition will certainly get the overall idea across. 
+
+As far as the level of ?snark??. I think you could probably leave out the criticism of those running the competition as being a part of the problem, and still achieve your objective.
+"Again this is a decision for The People to make, not some elites running a contest that seeks to ?improve? things without being willing to compromise on their ?elite? status (or the elite status of ?leaders? in other fields or countries) or their preferences for how things should be done."
+
+"What is wrong, at least with respect [to] what?s best for the human species as a whole, is for elites of any sort to prescribe the outcomes of public policy decisionmaking, the people running this competition included."
+
+Also, I noticed a few typos or grammatical errors, like the one in the line above. (Sorry I didn?t make a note of the others.)
+
+Overall, I find myself agreeing with many aspects of your project. I've been working on a decision-making *process/structure* of my own and am surprised to see how many parallels there are between the two. (At this point I don?t know if I will be submitting mine to the GCF competition as I?m not sure I'll have the time to complete it before the 9/30 deadline. And there is a project developing closer to home that may be a more concrete and practical application. We?ll see.)
+
+Also, I have some questions for you:
+
+1. Is there a limit to the number of votes any one proxy can carry? (You may have stated this on your website but I don?t remember seeing it, and it?s a lot of material to reread.)
+
+2. Also, would proxies be aware of how many votes they are representing?
+
+3. I can see how being a proxy (particularly for a large number of people) would be a huge responsibility that might encourage one in that position to become more deeply familiar with the records of candidates, and the complexity of proposals being voted on. I can also see how a large segment of the population, through assigning their votes to a proxy, could ultimately become disengaged from, or abdicate, their civic responsibility by no longer paying as much attention to the issues that matter most. (Not that the malaise of apathy and cynicism generated by our current system is any better.) I?m curious though if you have a deeper sense of how this might actually play out?.in real life?.in that regard?
+
+What I really like about your Plan is how it would make the one-size-fits-all dynamic of political parties obsolete.
+
+All the best,
+Steve
+
+
+> On Jul 3, 2017, at 4:53 PM, Scott Raney <metamerman at gmail.com> wrote:
+> 
+> Here's the current draft of my entry for the GCF prize:
+> http://www.matchism.org/refs/GCF_entry.pdf
+> 
+> Questions:
+> 1) Is it intelligible?
+> 
+> 2) Is the argument complete, or are there holes to be filled?
+> 
+> 3) Is the level of snark appropriate (I didn't follow the rules, and
+> make specific arguments about why this is necessary and why any entry
+> that does follow the rules is doomed to failure).
+> 
+> 4) I came in at 5100 words for the description (close to the 5500 word
+> max), but am well under for the other two sections. Have I "left money
+> on the table" by doing this?
+> 
+> For anyone who hasn't read matchism.org or my other white papers, this
+> is a good summary of the system and includes only a skeleton
+> description of the philosophy behind it. It'd therefore be especially
+> helpful to get your take on it to make sure I didn't leave too much
+> out.
+>  Regards,
+>    Scott
+> 
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170704/d63c7b9c/attachment-0002.html>
+
+From metamerman at gmail.com  Tue Jul  4 18:02:35 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Tue, 4 Jul 2017 16:02:35 -0600
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+Message-ID: <CACobxW03rgmSnv+kj9NbBkuzvUAFjnnoaKpFoZf5RTV5jAV99A@mail.gmail.com>
+
+On Tue, Jul 4, 2017 at 1:16 PM, Steve Coffman <steve at stevecoffman.com> wrote:
+
+(kind words snip!)
+
+> Overall I would say it?s "intelligible" and "complete" enough. I read the
+> material on Matchism.org a while back, so I already have a deeper
+> understanding of your project. I think what you?re presenting to this
+> competition will certainly get the overall idea across.
+
+Thanks for the feedback!
+
+> As far as the level of ?snark??. I think you could probably leave out the
+> criticism of those running the competition as being a part of the problem,
+> and still achieve your objective.
+
+I go back and forth on this: Is it better to just ignore the rules or
+to point out how they would render any model that follows them
+unworkable?
+
+> Overall, I find myself agreeing with many aspects of your project. I've been
+> working on a decision-making *process/structure* of my own and am surprised
+> to see how many parallels there are between the two. (At this point I don?t
+> know if I will be submitting mine to the GCF competition as I?m not sure
+> I'll have the time to complete it before the 9/30 deadline. And there is a
+> project developing closer to home that may be a more concrete and practical
+> application. We?ll see.)
+
+I recommend you, and everyone else, take the time to do this: Nothing
+like having to write everything down to see if you really understand
+your own system. I find holes in mine every time I do this...
+
+> Also, I have some questions for you:
+>
+> 1. Is there a limit to the number of votes any one proxy can carry? (You may
+> have stated this on your website but I don?t remember seeing it, and it?s a
+> lot of material to reread.)
+
+No. I believe it's essential to have this limit if people can pick
+their own proxies, but as that architecture has been proven not to
+work, there's really no reason to impose this limit if proxies are
+automatically calculated: Better to have a few overloaded people that
+really are representational of you than to match you with people who
+aren't like you. The major risk here is corruption of those
+individuals, but IMHO it's a low risk because it's hard to impossible
+to predict where the inflection points are going to be for each
+proposal (i.e., which personality/ideology "types" are going to have
+the close 50/50 ratio where bribing a few of them will change the
+outcome). Then again, if the proposals are well written most of them
+will pass with sufficiently large majorities that it would be a
+hopeless task to try to change the outcome by bribing a few (or even a
+few thousand) individual voters.
+
+> 2. Also, would proxies be aware of how many votes they are representing?
+
+I don't currently show this, but it's easy enough to calculate, even
+using the raw data files that are output at the close of each vote.
+The problem now is that the numbers are small and so there's no point,
+but it might be useful to show this in the future to encourage certain
+personality types to vote more often. Many areas in the search space
+are going to be pretty sparse because some personality types are just
+rare, but also because there is a correlation between personality
+types and participation rates (e.g., high conscientiousness
+individuals (mostly conservatives) have significantly higher
+participation rates than low-conscientiousness individuals). But this
+problem is not unique to proxyfor.me: It's screwing up our existing
+misrepresentative democracies already. The result of these unequal
+participation rates is that elected officials are significantly more
+conservative than the population as a whole.
+
+> 3. I can see how being a proxy (particularly for a large number of people)
+> would be a huge responsibility that might encourage one in that position to
+> become more deeply familiar with the records of candidates, and the
+> complexity of proposals being voted on. I can also see how a large segment
+> of the population, through assigning their votes to a proxy, could
+> ultimately become disengaged from, or abdicate, their civic responsibility
+> by no longer paying as much attention to the issues that matter most. (Not
+> that the malaise of apathy and cynicism generated by our current system is
+> any better.) I?m curious though if you have a deeper sense of how this might
+> actually play out?.in real life?.in that regard?
+
+All I can predict is that it'll be a *lot* less of a problem with DeMP
+(Democracy by Matched Proxy) than with any other form of democracy.
+The only potential problem I see that if the number of available
+matches is really low for a significant portion of the population due
+to low participation rates that region in the search space will become
+a target for people who try to game the system by faking their profile
+and then voting opposite to what people with real profiles would.
+There are many ways of combating this, though, the most obvious of
+which is to have the system automatically calculate where these weak
+spots are and send out an engraved invitation to the people nearby to
+increase their participation rates lest the bad guys end up jerking
+them around. It's sort of the opposite of what you're proposing:
+Rather than reward or encourage voters who are carrying a high burden,
+we would try to scare non-voters into becoming direct voters by
+pointing out that they're likely to be taken advantage of because, as
+a group, their participation rates are too low. But note that low
+participation rates *in general* are not a problem: I believe you
+could run the whole world's government with a few thousand people. But
+the key is that the personality/ideology search space of the active
+participants needs to have the same distribution as the population as
+a whole, which is something we're very, very far from in
+misrepresentative democracy.
+
+I also don't worry about the expertise/time investment issue nearly as
+much as you (and probably most people working in this field)
+apparently do. There are a lot better ways to deal with this than
+chaining people to their desks by instilling fear of making a mistake.
+The ability to redo a version-upgrade of a proposal being the most
+important of these: How many changed votes do you think they'd see if
+Brexit were voted on again? Having well-written proposals and
+presenting the pro/con arguments right at decision time are two more.
+
+> What I really like about your Plan is how it would make the
+> one-size-fits-all dynamic of political parties obsolete.
+
+Exactly. How much the zealots are going to resist this because they
+don't have their "tribe" to fight for remains to be seen, but I am
+encourages by the decreasing rates of party affiliation the world
+over. I think most people are pretty sick of political parties and
+will just override those tribalists when at some point they are given
+the opportunity. Getting rid of politicians at the same time I also
+figure will appeal to most people.
+  Regards,
+    Scott
+
+> All the best,
+> Steve
+
+
+
+From jacopo.tolja at gmail.com  Wed Jul  5 01:48:39 2017
+From: jacopo.tolja at gmail.com (Jacopo Tolja)
+Date: Wed, 5 Jul 2017 07:48:39 +0200
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+Message-ID: <CAJHTwm++CRBPyy4TbVW3Gp4-NLtqNEK1AqUpJaypbwDS6E5Pag@mail.gmail.com>
+
+Scott I read your proposal and I can say that you did a really good job and
+I believe you have a very strong candidate for the Global Challenge.
+Proxyfor.me is an advanced LQFB, were the liquid function is automated.
+Still the proposal building does not have a collaborative process and I
+believe in this fall short.
+Kind Regards
+Jacopo
+
+
+On Tue, Jul 4, 2017 at 9:16 PM, Steve Coffman <steve at stevecoffman.com>
+wrote:
+
+> First off Scott, kudos to you for having put all of this together. In my
+> mind, it's well-thought-out and has obviously been a lot of work.
+>
+> I?m very curious about the outcome of this competition and am hoping we'll
+> have a chance to peruse the top entries, including the ones that don?t win
+> the big $$$. I appreciate being able to read yours ahead of time and hope
+> you do well!
+>
+> Overall I would say it?s "intelligible" and "complete" enough. I read the
+> material on Matchism.org a while back, so I already have a deeper
+> understanding of your project. I think what you?re presenting to this
+> competition will certainly get the overall idea across.
+>
+> As far as the level of ?snark??. I think you could probably leave out the
+> criticism of those running the competition as being a part of the problem,
+> and still achieve your objective.
+>
+> "Again this is a decision for The People to make, not some elites running
+> a contest that seeks to ?improve? things without being willing to
+> compromise on their ?elite? status (or the elite status of ?leaders?
+> in other fields or countries) or their preferences for how things should be
+> done."
+> "What is wrong, at least with respect [to] what?s best for the human
+> species as a whole, is for elites of any sort to prescribe the outcomes of
+> public policy decisionmaking, the people running this competition included."
+>
+> Also, I noticed a few typos or grammatical errors, like the one in the
+> line above. (Sorry I didn?t make a note of the others.)
+>
+> Overall, I find myself agreeing with many aspects of your project. I've
+> been working on a decision-making *process/structure* of my own and am
+> surprised to see how many parallels there are between the two. (At this
+> point I don?t know if I will be submitting mine to the GCF competition as
+> I?m not sure I'll have the time to complete it before the 9/30 deadline.
+> And there is a project developing closer to home that may be a more
+> concrete and practical application. We?ll see.)
+>
+> Also, I have some questions for *you:*
+>
+> 1. Is there a limit to the number of votes any one proxy can carry? (You
+> may have stated this on your website but I don?t remember seeing it, and
+> it?s a lot of material to reread.)
+>
+> 2. Also, would proxies be aware of how many votes they are representing?
+>
+> 3. I can see how being a proxy (particularly for a large number of people)
+> would be a huge responsibility that might encourage one in that position to
+> become more deeply familiar with the records of candidates, and the
+> complexity of proposals being voted on. I can also see how a large segment
+> of the population, through assigning their votes to a proxy, could
+> ultimately become disengaged from, or abdicate, their civic responsibility
+> by no longer paying as much attention to the issues that matter most. (Not
+> that the malaise of apathy and cynicism generated by our current system is
+> any better.) I?m curious though if you have a deeper sense of how this
+> might actually play out?.in real life?.in that regard?
+>
+> What I *really* like about your Plan is how it would make the
+> one-size-fits-all dynamic of political parties obsolete.
+>
+> All the best,
+> Steve
+>
+>
+> On Jul 3, 2017, at 4:53 PM, Scott Raney <metamerman at gmail.com> wrote:
+>
+> Here's the current draft of my entry for the GCF prize:
+> http://www.matchism.org/refs/GCF_entry.pdf
+>
+> Questions:
+> 1) Is it intelligible?
+>
+> 2) Is the argument complete, or are there holes to be filled?
+>
+> 3) Is the level of snark appropriate (I didn't follow the rules, and
+> make specific arguments about why this is necessary and why any entry
+> that does follow the rules is doomed to failure).
+>
+> 4) I came in at 5100 words for the description (close to the 5500 word
+> max), but am well under for the other two sections. Have I "left money
+> on the table" by doing this?
+>
+> For anyone who hasn't read matchism.org or my other white papers, this
+> is a good summary of the system and includes only a skeleton
+> description of the philosophy behind it. It'd therefore be especially
+> helpful to get your take on it to make sure I didn't leave too much
+> out.
+>  Regards,
+>    Scott
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+>
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170705/52f52bd1/attachment-0002.html>
+
+From metamerman at gmail.com  Wed Jul  5 19:55:30 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Wed, 5 Jul 2017 17:55:30 -0600
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <CAJHTwm++CRBPyy4TbVW3Gp4-NLtqNEK1AqUpJaypbwDS6E5Pag@mail.gmail.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CAJHTwm++CRBPyy4TbVW3Gp4-NLtqNEK1AqUpJaypbwDS6E5Pag@mail.gmail.com>
+Message-ID: <CACobxW1KAckr8BGnJNd=FXwbehi0-OwiZByG3ohvqdOXbPd1VA@mail.gmail.com>
+
+On Tue, Jul 4, 2017 at 11:48 PM, Jacopo Tolja <jacopo.tolja at gmail.com> wrote:
+> Scott I read your proposal and I can say that you did a really good job and
+> I believe you have a very strong candidate for the Global Challenge.
+> Proxyfor.me is an advanced LQFB, were the liquid function is automated.
+
+There is an overlap in features, for sure. If LQFB was better known
+and/or more successful I might have even marketed it this way. But
+besides the delegation fail, LQFB makes a big noise about the
+multi-proposal feature which I *also* believe doesn't work the way it
+was supposed to.
+
+> Still the proposal building does not have a collaborative process and I
+> believe in this fall short.
+
+I of course disagree: IMHO proposal generation is something that
+should be, and probably can only be, left to experts. I would
+therefore challenge you to answer these questions:
+
+1) What evidence do you have that this sort of collaboration results
+in better proposals? Certainly this has never been shown to be the
+case for LQFB and we've never seen this in any of the experiments this
+group has run on any of the other decisionmaking systems (Loomio,
+Vilfredo, etc.). In all of those examples the more participation there
+is at the proposal generation stage the *worse* it gets...
+
+2) Have you looked closely at the various petition oriented
+(slacktivism) sites like  change.org, avaaz.org, or
+petitions.whitehouse.gov? Would you be satisfied with that level of
+quality in the proposals on an actual decionmaking system?
+
+3) You may not be aware of this, but one feature of proxyfor.me is
+that the proposal owner, unlike everyone else, *does* get to see the
+running vote count. And of course gets to see all the comments posted.
+With the built-in Q&A and versioning features of proxyfor.me, doesn't
+that provide a kind of "collaboration" albeit with primarily a one-way
+flow from voter to proposer?
+
+4) If you still believe that "collaboration" is necessary, what's to
+prevent people using some other tool (Slack, Google Docs, etc.) to
+collaborate prior to exposing it to a large population, the majority
+of which would not be interested (or even able) to collaborate on the
+actual preparation of a proposal?
+
+5) I think the main, and perhaps only, concern in this area is that
+proposals that would pass with large supermajorities might be excluded
+from the queue by whoever is maintaining it. My main rebuttal to this
+is that is what I've said before: If you don't trust the executive
+branch of government you've got worse problems than whether your
+proposal generation or decisionmaking system have flaws. It agree,
+however, that it might be useful to create a separate site (or even
+encourage the use of a slacktivism site) as a screening mechanism
+where something that gets an endorsement from X% of the voter rolls
+*automatically* gets put into the proxyfor.me queue.
+
+Of course I'm not going to hold my breath that you'll be able to
+respond to any of these: The recent example of the block-chain and
+economic commons proponents on this list simply crawling back under
+their rocks when any challenge to their proposals is raised leads me
+to believe that I'm pretty good at poking holes in things  ;-)
+  Regards,
+    Scott
+
+> Kind Regards
+> Jacopo
+
+
+
+From steve at stevecoffman.com  Wed Jul  5 22:51:16 2017
+From: steve at stevecoffman.com (Steve Coffman)
+Date: Wed, 5 Jul 2017 19:51:16 -0700
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <CACobxW1KAckr8BGnJNd=FXwbehi0-OwiZByG3ohvqdOXbPd1VA@mail.gmail.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CAJHTwm++CRBPyy4TbVW3Gp4-NLtqNEK1AqUpJaypbwDS6E5Pag@mail.gmail.com>
+	<CACobxW1KAckr8BGnJNd=FXwbehi0-OwiZByG3ohvqdOXbPd1VA@mail.gmail.com>
+Message-ID: <898D3260-BD69-4BAE-A47B-5D26C82B324E@stevecoffman.com>
+
+> Jacopo Tolja <jacopo.tolja at gmail.com> wrote:
+> Still the proposal building does not have a collaborative process and I
+believe in this fall short.
+
+Scott Raney <metamerman at gmail.com> wrote:
+> I of course disagree: IMHO proposal generation is something that
+> should be, and probably can only be, left to experts.
+
+I think having experts writing proposals is critical. I think the collaborative process is equally so. I don?t see them being mutually exclusive. In my mind, a hybrid is possible if the two are allowed to inform each other.
+
+Experts are more efficient, more experienced, more knowledgeable than the average person, and very likely have some gift and/or passion they bring to the project or proposal. 
+
+Collaboration brings people together for a conversation about things that really matter to them. They become informed (often by the experts) not just about the details of the project but about each other as well. This could be very healing for a community, particularly if it?s a regular practice. I would say the connections that follow a community coming together to make agreements about their commons will have repercussions that will last for generations.
+
+I?m a builder by trade and would offer this analogy. A home is much more likely to fit those who it?s built for if the architect, the owners, and the builder all work closely together throughout the entire process.
+
+
+From steve at stevecoffman.com  Sun Jul  9 01:20:03 2017
+From: steve at stevecoffman.com (Steve Coffman)
+Date: Sat, 8 Jul 2017 22:20:03 -0700
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <898D3260-BD69-4BAE-A47B-5D26C82B324E@stevecoffman.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CAJHTwm++CRBPyy4TbVW3Gp4-NLtqNEK1AqUpJaypbwDS6E5Pag@mail.gmail.com>
+	<CACobxW1KAckr8BGnJNd=FXwbehi0-OwiZByG3ohvqdOXbPd1VA@mail.gmail.com>
+	<898D3260-BD69-4BAE-A47B-5D26C82B324E@stevecoffman.com>
+Message-ID: <70CBC37A-C043-4A6A-8EF7-C2C6C9CBC9CC@stevecoffman.com>
+
+>> Jacopo Tolja <jacopo.tolja at gmail.com> wrote:
+>> Still the proposal building does not have a collaborative process and I
+> believe in this fall short.
+> 
+> Scott Raney <metamerman at gmail.com> wrote:
+>> I of course disagree: IMHO proposal generation is something that
+>> should be, and probably can only be, left to experts.
+
+> Steve Coffman <steve at stevecoffman.com> wrote:
+> I think having experts writing proposals is critical. I think the collaborative process is equally so. I don?t see them being mutually exclusive. In my mind, a hybrid is possible if the two are allowed to inform each other.
+
+For me, the question is how do we structure an organization (or society) such that all players are meeting at the same table, equal in their sovereignty, and operating at a capacity such that a dynamic synergy emerges from their alliance.
+
+Giving everyone a vote, whether directly or by proxy, is relatively easy. Crowd-sourcing a collaborative social-organism that can successfully manage it's own affairs is the real design challenge. And scaling it to regional and global levels adds an even greater level of complexity.
+
+I actually believe these constraints are surmountable. Indeed, I think to some degree, they?ve already been solved for. The greatest challenge, as I see it, is to bootstrap a System that?s completely unfamiliar...through a collaborative global mindset that doesn?t yet exist.
+
+
+From metamerman at gmail.com  Sun Jul  9 17:06:21 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sun, 9 Jul 2017 15:06:21 -0600
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <70CBC37A-C043-4A6A-8EF7-C2C6C9CBC9CC@stevecoffman.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CAJHTwm++CRBPyy4TbVW3Gp4-NLtqNEK1AqUpJaypbwDS6E5Pag@mail.gmail.com>
+	<CACobxW1KAckr8BGnJNd=FXwbehi0-OwiZByG3ohvqdOXbPd1VA@mail.gmail.com>
+	<898D3260-BD69-4BAE-A47B-5D26C82B324E@stevecoffman.com>
+	<70CBC37A-C043-4A6A-8EF7-C2C6C9CBC9CC@stevecoffman.com>
+Message-ID: <CACobxW02KfdN2rZpYgm-GEzKhD0rsPVrcfQP1_k7dqsrAMMwig@mail.gmail.com>
+
+On Sat, Jul 8, 2017 at 11:20 PM, Steve Coffman <steve at stevecoffman.com> wrote:
+
+> For me, the question is how do we structure an organization (or society) such that all players are meeting at the same table, equal in their sovereignty, and operating at a capacity such that a dynamic synergy emerges from their alliance.
+>
+
+I believe this to be the natural mode of human decisionmaking: It's
+essentially how "public policy" decisions were made by members of our
+species for millions of years before technological advances supported
+the development of hierarchical forms of government.
+
+> Giving everyone a vote, whether directly or by proxy, is relatively easy. Crowd-sourcing a collaborative social-organism that can successfully manage it's own affairs is the real design challenge. And scaling it to regional and global levels adds an even greater level of complexity.
+>
+
+It doesn't seem that daunting to me: The trick is to use the *same*
+system for all levels, and even the same proposals, at least to the
+greatest extent possible. For example everyone votes using the same
+system on the same proposal (e.g., the last proposal on proxyfor.me,
+the "Idaho stop") but it only becomes binding in those localities
+where it passes by majority vote. Eventually natural flow of people
+and culture between localities will have the effect of homogenizing
+public policy, reducing the level of conflict between localities.
+
+> I actually believe these constraints are surmountable. Indeed, I think to some degree, they?ve already been solved for. The greatest challenge, as I see it, is to bootstrap a System that?s completely unfamiliar...through a collaborative global mindset that doesn?t yet exist.
+
+I.e., it's a marketing problem, not a technical problem. Proxyfor.me
+*seems* to work and can easily be scaled to a worldwide population.
+The problem is that people have to *believe* that it can change things
+long before it will have any chance to actually do so. This is hard to
+do without either having a lot of money, a population that is under
+severe stress and so is willing to try anything, and/or a charismatic
+leader.
+
+The more scary part for me is that this is a "tipping point" kind of
+thing, where once momentum starts to build the transition will occur
+incredibly rapidly. Cars and cell phones and even computers were
+niche-market kinds of things for years or decades and this worked to
+the benefit of the technology because a physical infrastructure had to
+be developed to support them, allowing time to work out the bugs.
+Cultural changes can happen *much* more rapidly even when the
+"technology" isn't quite ready, the various fascist and communist
+revolutions being demonstrations of that problem. I worry a lot less
+about what level of collaboration and consensus is required to make a
+system optimal than about the people getting the idea in their heads
+that they deserve something better and things going all haywire when
+the technology turns out to have problematic emergent properties.
+  Regards,
+    Scott
+
+
+
+From metamerman at gmail.com  Sun Jul  9 17:30:27 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Sun, 9 Jul 2017 15:30:27 -0600
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <CACobxW03rgmSnv+kj9NbBkuzvUAFjnnoaKpFoZf5RTV5jAV99A@mail.gmail.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CACobxW03rgmSnv+kj9NbBkuzvUAFjnnoaKpFoZf5RTV5jAV99A@mail.gmail.com>
+Message-ID: <CACobxW3hh7m+OuCn_kZB4DUXyROs9wG-ZTZmNJjzuqrGY49hgA@mail.gmail.com>
+
+On Tue, Jul 4, 2017 at 1:16 PM, Steve Coffman <steve at stevecoffman.com> wrote:
+
+>> As far as the level of ?snark??. I think you could probably leave out the
+>> criticism of those running the competition as being a part of the problem,
+>> and still achieve your objective.
+
+I'm still struggling with this. I removed all the snark from the model
+description section, but am left with a big hole about why the model
+doesn't comply with the rules. And so I do believe it's necessary to
+confront this issue, and in fact also believe that the people running
+the contest *are* likely to be a part of the problem if their winning
+entry goes pear-shaped: I'd give any winning entry that follows the
+rules about a 99% chance of amounting to nothing, but about a 1%
+chance of resulting in global instability (knowing what I know about
+human and government behavior, I'd estimate the chances of it actually
+achieving the desired outcome at essentially 0%).
+
+So here's what I've got in the "argument" section. Unfortunately I
+think it goes beyond mere snark to outright hostility, but "No guts,
+no glory", right?
+
+1. Core Values.
+
+It is admittedly a leap of faith that a truly accurate democratic
+decisionmaking system will facilitate the stated goals of the GCP
+(?the good of all humanity?, ?respect for the equal value of all human
+beings?, etc.). Nor is there even any guarantee that it will ?solve?
+the climate change or any other environmental problem in any way that
+has been proposed or predicted so far. But it is (or will be) what it
+is: A reflection of the Will of The People. To predict that the result
+of this change will be counter to any particular set of moral
+principles would mean believing that existing government architectures
+(dictatorship, oligarchy, and misrepresentative democracy) are somehow
+more motivated or able to achieve them. Does anyone believe that?
+
+But what happens if The People decide to not change their lifestyles
+by reducing their energy consumption but instead decide that their
+response to climate change will be an adaptation strategy where they
+force (albeit also fund) the relocation of people in low-elevation
+nations/areas? While this would be a ?failure? by the criteria
+implicitly imposed for the GCP, it is hard to make a coherent argument
+that it is actually ?wrong?: What is wrong, at least with respect
+what?s best for the human species as a whole, is for elites of any
+sort to prescribe the outcomes of public policy decisionmaking, The
+Will of The People be damned.
+
+This means that although the proposed model has a large overlap with
+the overall goals and specific requirements for this competition, it
+explicitly and by design does not comply with all of them. The choice
+here is clear: You can either prescribe the outcome of a
+decisionmaking process and design a system to achieve that result, or
+you can decide in advance to accept the result of a global and truly
+democratic process and then work to create a system that implements
+that process, even if that means putting aside your prescriptions
+(biases) about how (or even whether) any particular problem is solved.
+In other words, It is simply inappropriate to include requirements
+such as ?decisions within the governance model must not deal with the
+internal affairs of individual states?: Again this is a decision for
+The People to make, not some elites running a contest that seeks to
+?improve? things without being willing to compromise on their ?elite?
+status (or the elite status of ?leaders? in other fields or countries)
+or their preferences for how things should be done.
+
+Unfortunately there is an even bigger  misconception that the Global
+Challenges Prize (GCP) rules seem to be based on, a requirement that
+is also deliberately disregarded in this entry:  It is simply not
+possible to design a system that corrects for externalities if it is a
+requirement that misrepresentation remain a fundamental  operating
+characteristic of the system (i.e., that ?This requirement eliminates
+models that rely on time-consuming and controversial changes in the
+political system of individual states, e.g. models that postulate that
+all states should be democracies.?). To claim (or even hope) otherwise
+is merely incompetent social engineering. Imposing this as a
+requirement not only will result in a winning entry that will fail to
+achieve anything, let alone the goals of the competition, but will
+likely be such a spectacular failure that it will set back progress in
+this domain for years or decades. Having their hearts in the right
+place does not excuse anyone from the responsibility of ensuring that
+The People are not harmed as the result of spending millions of
+dollars promoting unworkable or even counterproductive ideas. And that
+includes any requirement that the system must prop up dictators.
+
+
+
+From steve at stevecoffman.com  Sun Jul  9 20:01:54 2017
+From: steve at stevecoffman.com (Steve Coffman)
+Date: Sun, 9 Jul 2017 17:01:54 -0700
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <CACobxW3hh7m+OuCn_kZB4DUXyROs9wG-ZTZmNJjzuqrGY49hgA@mail.gmail.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CACobxW03rgmSnv+kj9NbBkuzvUAFjnnoaKpFoZf5RTV5jAV99A@mail.gmail.com>
+	<CACobxW3hh7m+OuCn_kZB4DUXyROs9wG-ZTZmNJjzuqrGY49hgA@mail.gmail.com>
+Message-ID: <E6D8A0EA-4B83-4077-A4F3-65176FA57648@stevecoffman.com>
+
+On Jul 9, 2017, at 2:30 PM, Scott Raney <metamerman at gmail.com> wrote:
+
+> I'm still struggling with this. I removed all the snark from the model
+> description section, but am left with a big hole about why the model
+> doesn't comply with the rules. And so I do believe it's necessary to
+> confront this issue? 
+
+Agreed.
+
+> So here's what I've got in the "argument" section.
+
+(big snip)
+
+> It is simply not possible [IMO] to design a system that corrects for externalities if it is a
+> requirement that [any system currently built on] misrepresentation remain a fundamental operating
+> characteristic of the system?
+
+Very powerful point. Could maybe stand on it?s own.
+
+> To claim (or even hope) otherwise is merely incompetent social engineering.
+
+Meh. 
+
+> Imposing this as a
+> requirement not only will result in a winning entry that will fail to
+> achieve anything, let alone the goals of the competition,
+
+Big assumption. 
+
+> but will likely be such a spectacular failure that it will set back progress in
+> this domain for years or decades.
+
+Maybe. Maybe the winner(s) will work around that in some way. Like something that allows the Nation State to remain sovereign, but declares individual sovereignty to be even greater, and/or establishes that *Global Citizens*  are supreme to *Corporate Citizens*. (We could gain a lot of ground just by instituting the latter.) I think it?s all about setting our priorities. And that to me means building a platform whereby we can collaborate in crafting a collective agreement, at scale. With that in place we could perform all kinds of magic on the current power structures.
+
+> Having their hearts in the right
+> place does not excuse anyone from the responsibility of ensuring that
+> The People are not harmed as the result of spending millions of
+> dollars promoting unworkable or even counterproductive ideas.
+
+If you can express your concern without the snarky judgement and assumption sandwich, you may save your entry from a quick trip to the round file. I?m assuming it?s a real concern and not just some cynical dart you?re throwing.  :)
+
+> And that includes any requirement that the system must prop up dictators.
+
+I think I see where you?re coming from. It?s easy for some billionaire to throw a little change at a problem without having thought through the consequences deeply in his own mind. On top of that, he?ll likely earn a substantial dose of celebrity for being all kinds of cuddly things to the current progressive wave of waking discontent. He might even cover has ass (consciously or un) by injecting a little safety clause that safeguards his very comfortable (elite) position in the current hierarchy.
+
+Or he could just be a very fortunate man whose had a change of heart and wants to do the right thing, but the extension in his critical thinking hasn?t yet caught up with the expansion in his heart. It may be that he?s created the Challenge because he feels incapable of generating some workable solution on his own. Who can say? 
+
+Personally, I see this Challenge as emerging from a greater existential impulse. I think it?s admirable that you?ve positioned yourself through what I?m guessing has been years of deep thinking and hard work such that you have a very well-developed and intelligent model (IMO) that you can contribute to the Challenge. 
+
+If we are going to *crowd-source* a new paradigm, I imagine we?ll need to get very accustomed to working around (what we judge to be) incomplete or faulty reasoning without damaging the connection we have with others. Tricky business!
+
+
+
+
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170709/45ca281c/attachment-0002.html>
+
+From metamerman at gmail.com  Mon Jul 10 16:29:25 2017
+From: metamerman at gmail.com (Scott Raney)
+Date: Mon, 10 Jul 2017 14:29:25 -0600
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <E6D8A0EA-4B83-4077-A4F3-65176FA57648@stevecoffman.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CACobxW03rgmSnv+kj9NbBkuzvUAFjnnoaKpFoZf5RTV5jAV99A@mail.gmail.com>
+	<CACobxW3hh7m+OuCn_kZB4DUXyROs9wG-ZTZmNJjzuqrGY49hgA@mail.gmail.com>
+	<E6D8A0EA-4B83-4077-A4F3-65176FA57648@stevecoffman.com>
+Message-ID: <CACobxW3uKv5TkPSWNw3TTFF9o_PHhZXF=NW931uWjWT4UzhMcA@mail.gmail.com>
+
+On Sun, Jul 9, 2017 at 6:01 PM, Steve Coffman <steve at stevecoffman.com> wrote:
+
+> Imposing this as a
+> requirement not only will result in a winning entry that will fail to
+> achieve anything, let alone the goals of the competition,
+>
+> Big assumption.
+
+Not assumption, prediction, perhaps even to the level of actual
+"knowledge". As Spock said:
+
+"If I let go of a hammer on a planet that has a positive gravity, I
+need not see it fall to know that it has in fact fallen."
+
+> but will likely be such a spectacular failure that it will set back progress
+> in
+> this domain for years or decades.
+>
+> Maybe. Maybe the winner(s) will work around that in some way. Like something
+> that allows the Nation State to remain sovereign, but declares individual
+> sovereignty to be even greater, and/or establishes that *Global Citizens*
+> are supreme to *Corporate Citizens*. (We could gain a lot of ground just by
+> instituting the latter.) I think it?s all about setting our priorities. And
+> that to me means building a platform whereby we can collaborate in crafting
+> a collective agreement, at scale. With that in place we could perform all
+> kinds of magic on the current power structures.
+
+I'm certainly not going to rule out the possibility of someone out
+there having an epiphany and coming up with some way around SDAP
+behavior that doesn't involve creating a system that prevents SDAPs
+from climbing into positions of power. But given that so few people
+even realize that this is in fact the problem it seems very unlikely
+to me (i.e., most people are going to need to have back-to-back
+epiphanies to come up with anything even equivalent to DeMP, let alone
+provably better). Unfortunately I see that same blindness in your
+comment above. It just doesn't matter what sort of power-sharing
+system you come up with: If at its root it relies on SDAPs in existing
+government systems (including corporate oligarchies) voluntarily
+ceding power to The People it's a hammer that's going to fall whether
+you see it or not.
+
+> > Having their hearts in the right
+> > place does not excuse anyone from the responsibility of ensuring that
+> > The People are not harmed as the result of spending millions of
+> > dollars promoting unworkable or even counterproductive ideas.
+>
+> If you can express your concern without the snarky judgement and assumption
+> sandwich, you may save your entry from a quick trip to the round file. I?m
+> assuming it?s a real concern and not just some cynical dart you?re throwing.
+> :)
+
+It is, but I would concede that it's a pretty minor concern and so can
+probably be left out. The odds of them actually harming anyone or
+stopping people like us from soldiering on are down there in same the
+sub-1% realm that the winning plan will actually amount to anything,
+at least to the extent that it follows the rules.
+
+> > And that includes any requirement that the system must prop up dictators.
+>
+> I think I see where you?re coming from. It?s easy for some billionaire to
+> throw a little change at a problem without having thought through the
+> consequences deeply in his own mind. On top of that, he?ll likely earn a
+> substantial dose of celebrity for being all kinds of cuddly things to the
+> current progressive wave of waking discontent. He might even cover has ass
+> (consciously or un) by injecting a little safety clause that safeguards his
+> very comfortable (elite) position in the current hierarchy.
+
+He's old enough that I doubt he worries about such things. And he
+seems to not have any children, hopefully eliminating any bias he
+might have against a system that deals with oligarchy in part by
+eliminating the custom of inheritance (for the record, though, his
+wife was apparently opposed to forming the GCF).
+
+But I wasn't insinuating that I think he has any ulterior motives for
+imposing a requirement that the proposed model not destabilize
+dictatorships (as a goal or merely as a side-effect). I'm sure they
+think imposing such a rule is just a matter of practicality. It's
+possible, though, that they also harbor a niggling fear of being held
+responsible for being the cause of a revolution in some faraway place.
+
+> If we are going to *crowd-source* a new paradigm, I imagine we?ll need to
+> get very accustomed to working around (what we judge to be) incomplete or
+> faulty reasoning without damaging the connection we have with others. Tricky
+> business!
+
+Tell me about it ;-)  Fortunately this *doesn't* seem to be an issue
+when explaining my system to regular people. Most of them are rightly
+skeptical about its chances, but that always seems to originate from a
+cynicism that there is any possibility of taking the-powers-that-be
+down a notch or two. It seems to not come from perceived flaws in its
+goals or mechanisms (like one gets if one proposes something
+recognizable as libertarianism or communism). Even the most rabid
+constitutionalists I've dealt with (on FB) seem to at least have half
+an open mind about the fact that the US constitution has serious flaws
+and that there might be better ways to organize a government.
+
+Thanks for the feedback: I'll take another stab at pruning back the snark ;-)
+  Regards,
+    Scott
+
+
+
+From jacopo.tolja at gmail.com  Wed Jul 12 07:51:05 2017
+From: jacopo.tolja at gmail.com (Jacopo Tolja)
+Date: Wed, 12 Jul 2017 13:51:05 +0200
+Subject: [MG] matchism.org/proxyfor.me GCF entry draft
+In-Reply-To: <CACobxW3uKv5TkPSWNw3TTFF9o_PHhZXF=NW931uWjWT4UzhMcA@mail.gmail.com>
+References: <CACobxW24Ka-dQ6gyYxd7EMXMW8gGpXR9HgBwUkPeL7mXxtN-0A@mail.gmail.com>
+	<EF8C542D-9D0F-4C2E-B06D-206AC1606AD1@stevecoffman.com>
+	<CACobxW03rgmSnv+kj9NbBkuzvUAFjnnoaKpFoZf5RTV5jAV99A@mail.gmail.com>
+	<CACobxW3hh7m+OuCn_kZB4DUXyROs9wG-ZTZmNJjzuqrGY49hgA@mail.gmail.com>
+	<E6D8A0EA-4B83-4077-A4F3-65176FA57648@stevecoffman.com>
+	<CACobxW3uKv5TkPSWNw3TTFF9o_PHhZXF=NW931uWjWT4UzhMcA@mail.gmail.com>
+Message-ID: <CAJHTwmLrYzSw1h22j5FcwaKj=a4OwFXQ8kw3fYEkY05CWYQ2zg@mail.gmail.com>
+
+I suggest to mention the MG and our ML in any of the proposals that may be
+generated by members of the MG.
+This will draw attention to the effort that we are discussing long before
+the GCP was in place given that we have the same goal.
+My 2 cents
+Jacopo
+
+On Mon, Jul 10, 2017 at 10:29 PM, Scott Raney <metamerman at gmail.com> wrote:
+
+> On Sun, Jul 9, 2017 at 6:01 PM, Steve Coffman <steve at stevecoffman.com>
+> wrote:
+>
+> > Imposing this as a
+> > requirement not only will result in a winning entry that will fail to
+> > achieve anything, let alone the goals of the competition,
+> >
+> > Big assumption.
+>
+> Not assumption, prediction, perhaps even to the level of actual
+> "knowledge". As Spock said:
+>
+> "If I let go of a hammer on a planet that has a positive gravity, I
+> need not see it fall to know that it has in fact fallen."
+>
+> > but will likely be such a spectacular failure that it will set back
+> progress
+> > in
+> > this domain for years or decades.
+> >
+> > Maybe. Maybe the winner(s) will work around that in some way. Like
+> something
+> > that allows the Nation State to remain sovereign, but declares individual
+> > sovereignty to be even greater, and/or establishes that *Global Citizens*
+> > are supreme to *Corporate Citizens*. (We could gain a lot of ground just
+> by
+> > instituting the latter.) I think it?s all about setting our priorities.
+> And
+> > that to me means building a platform whereby we can collaborate in
+> crafting
+> > a collective agreement, at scale. With that in place we could perform all
+> > kinds of magic on the current power structures.
+>
+> I'm certainly not going to rule out the possibility of someone out
+> there having an epiphany and coming up with some way around SDAP
+> behavior that doesn't involve creating a system that prevents SDAPs
+> from climbing into positions of power. But given that so few people
+> even realize that this is in fact the problem it seems very unlikely
+> to me (i.e., most people are going to need to have back-to-back
+> epiphanies to come up with anything even equivalent to DeMP, let alone
+> provably better). Unfortunately I see that same blindness in your
+> comment above. It just doesn't matter what sort of power-sharing
+> system you come up with: If at its root it relies on SDAPs in existing
+> government systems (including corporate oligarchies) voluntarily
+> ceding power to The People it's a hammer that's going to fall whether
+> you see it or not.
+>
+> > > Having their hearts in the right
+> > > place does not excuse anyone from the responsibility of ensuring that
+> > > The People are not harmed as the result of spending millions of
+> > > dollars promoting unworkable or even counterproductive ideas.
+> >
+> > If you can express your concern without the snarky judgement and
+> assumption
+> > sandwich, you may save your entry from a quick trip to the round file.
+> I?m
+> > assuming it?s a real concern and not just some cynical dart you?re
+> throwing.
+> > :)
+>
+> It is, but I would concede that it's a pretty minor concern and so can
+> probably be left out. The odds of them actually harming anyone or
+> stopping people like us from soldiering on are down there in same the
+> sub-1% realm that the winning plan will actually amount to anything,
+> at least to the extent that it follows the rules.
+>
+> > > And that includes any requirement that the system must prop up
+> dictators.
+> >
+> > I think I see where you?re coming from. It?s easy for some billionaire to
+> > throw a little change at a problem without having thought through the
+> > consequences deeply in his own mind. On top of that, he?ll likely earn a
+> > substantial dose of celebrity for being all kinds of cuddly things to the
+> > current progressive wave of waking discontent. He might even cover has
+> ass
+> > (consciously or un) by injecting a little safety clause that safeguards
+> his
+> > very comfortable (elite) position in the current hierarchy.
+>
+> He's old enough that I doubt he worries about such things. And he
+> seems to not have any children, hopefully eliminating any bias he
+> might have against a system that deals with oligarchy in part by
+> eliminating the custom of inheritance (for the record, though, his
+> wife was apparently opposed to forming the GCF).
+>
+> But I wasn't insinuating that I think he has any ulterior motives for
+> imposing a requirement that the proposed model not destabilize
+> dictatorships (as a goal or merely as a side-effect). I'm sure they
+> think imposing such a rule is just a matter of practicality. It's
+> possible, though, that they also harbor a niggling fear of being held
+> responsible for being the cause of a revolution in some faraway place.
+>
+> > If we are going to *crowd-source* a new paradigm, I imagine we?ll need to
+> > get very accustomed to working around (what we judge to be) incomplete or
+> > faulty reasoning without damaging the connection we have with others.
+> Tricky
+> > business!
+>
+> Tell me about it ;-)  Fortunately this *doesn't* seem to be an issue
+> when explaining my system to regular people. Most of them are rightly
+> skeptical about its chances, but that always seems to originate from a
+> cynicism that there is any possibility of taking the-powers-that-be
+> down a notch or two. It seems to not come from perceived flaws in its
+> goals or mechanisms (like one gets if one proposes something
+> recognizable as libertarianism or communism). Even the most rabid
+> constitutionalists I've dealt with (on FB) seem to at least have half
+> an open mind about the fact that the US constitution has serious flaws
+> and that there might be better ways to organize a government.
+>
+> Thanks for the feedback: I'll take another stab at pruning back the snark
+> ;-)
+>   Regards,
+>     Scott
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170712/77ca2c59/attachment-0002.html>
+
+From jacopo.tolja at gmail.com  Wed Jul 12 15:32:51 2017
+From: jacopo.tolja at gmail.com (Jacopo Tolja)
+Date: Wed, 12 Jul 2017 21:32:51 +0200
+Subject: [MG] responsibility
+In-Reply-To: <CAB8mRPhNDUGeWXUnQycqpbkv_rXKCkVut4XcqNG51QUTDesjNg@mail.gmail.com>
+References: <CAB8mRPhNDUGeWXUnQycqpbkv_rXKCkVut4XcqNG51QUTDesjNg@mail.gmail.com>
+Message-ID: <CAJHTwmJPCuFzB9qptTV_A6B97U-amRmGq6mRumnZMAnZXrzWtw@mail.gmail.com>
+
+I was doin a reserach in this specific matter and I find out that the page
+was deleted, Michal do you have any info on thais subject matter?
+Kind Regards
+Jacopo
+
+On Thu, Apr 7, 2016 at 9:36 AM, Michal ?t?p?nek <spolecenska.burza at gmail.com
+> wrote:
+
+> Hi,
+>
+> I would like to suggest a sensible politics for our responsibility:
+>
+> Avoid potentially harmful lock-ins in your social choice design.
+> Test modules, before you test whole design.
+> ---
+>
+> https://en.wikipedia.org/wiki/Lock-in_(decision-making)
+>
+> I think we cannot take responsibility for all possible outcomes, nor we
+> can test all possible outcomes.
+>
+> Any suggestions?
+>
+> Kind regards
+> m.
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170712/9d9de1fe/attachment-0002.html>
+
+From rslzdr at gmail.com  Wed Jul 12 18:16:01 2017
+From: rslzdr at gmail.com (=?UTF-8?B?TWljaGFsIMWgdMSbcMOhbmVr?=)
+Date: Thu, 13 Jul 2017 00:16:01 +0200
+Subject: [MG] responsibility
+In-Reply-To: <CAJHTwmJPCuFzB9qptTV_A6B97U-amRmGq6mRumnZMAnZXrzWtw@mail.gmail.com>
+References: <CAB8mRPhNDUGeWXUnQycqpbkv_rXKCkVut4XcqNG51QUTDesjNg@mail.gmail.com>
+	<CAJHTwmJPCuFzB9qptTV_A6B97U-amRmGq6mRumnZMAnZXrzWtw@mail.gmail.com>
+Message-ID: <CAApCfOCtMBfE9AcWfq6J6PVdajvn84uaM=CE3=JKO=39_K1aHg@mail.gmail.com>
+
+Hello Jacopo,
+
+this is my first read MG email after a few months, I am very glad to read
+my name in it, thank you :)
+As you may guess I became dissatisfied with the MG list and moved my
+activities to ResearchGate.
+
+Responsibility is one of the reasons. Unnecessary use of ideology and
+political philosophy instead of the philosophy of science and political
+science is irresponsible for me.
+
+As for the old email, lock-ins seems to be problems of ideology, where
+things may get big (and locked) before they are examined enough. Lock-ins
+do not seem to be dangerous if there are trials and predefined generic
+measure.
+As for modules, I do not see any reason why not to use them.
+
+Cheers
+m.
+
+
+On Wed, Jul 12, 2017 at 9:32 PM, Jacopo Tolja <jacopo.tolja at gmail.com>
+wrote:
+
+> I was doin a reserach in this specific matter and I find out that the page
+> was deleted, Michal do you have any info on thais subject matter?
+> Kind Regards
+> Jacopo
+>
+> On Thu, Apr 7, 2016 at 9:36 AM, Michal ?t?p?nek <
+> spolecenska.burza at gmail.com> wrote:
+>
+>> Hi,
+>>
+>> I would like to suggest a sensible politics for our responsibility:
+>>
+>> Avoid potentially harmful lock-ins in your social choice design.
+>> Test modules, before you test whole design.
+>> ---
+>>
+>> https://en.wikipedia.org/wiki/Lock-in_(decision-making)
+>>
+>> I think we cannot take responsibility for all possible outcomes, nor we
+>> can test all possible outcomes.
+>>
+>> Any suggestions?
+>>
+>> Kind regards
+>> m.
+>>
+>> _______________________________________________
+>> Start : a mailing list of the Metagovernment project
+>> http://www.metagovernment.org/
+>> Post to the list: Start at metagovernment.org
+>> Manage subscription: http://metagovernment.org/mail
+>> man/listinfo/start_metagovernment.org
+>>
+>>
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_
+> metagovernment.org
+>
+>
+
+
+-- 
+michalstepanek.github.io
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20170713/4575a6d8/attachment-0002.html>
+

@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Votespace social map
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Votespace%20social%20map&In-Reply-To=%3C20110414112042.GA9406%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012613.html">
+   <LINK REL="Next"  HREF="012616.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Votespace social map</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Votespace%20social%20map&In-Reply-To=%3C20110414112042.GA9406%40havoc.zelea.com%3E"
+       TITLE="[MG] Votespace social map">mike at zelea.com
+       </A><BR>
+    <I>Thu Apr 14 07:20:42 EDT 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012613.html">[MG] Votespace social map
+</A></li>
+        <LI>Next message (by thread): <A HREF="012616.html">[MG] Votespace social map
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Thomas von der Elbe wrote:
+&gt;<i> And another thought, concerning fixed positions: Since we know
+</I>&gt;<i> already, that it doesnt make sense to display more than 20 voters
+</I>&gt;<i> per candidate, how if we define 20 fixed positions, which get filled
+</I>&gt;<i> up with voters as they grow in number. And not sort them by votes,
+</I>&gt;<i> each keeps his position until he shifts his vote. Then someone else
+</I>&gt;<i> takes his place...
+</I>
+Applying this idea [1], here's a revised mockup.[2]  First the forest:
+<A HREF="http://zelea.com/project/votorola/a/crossforum/vote/_/1.xht">http://zelea.com/project/votorola/a/crossforum/vote/_/1.xht</A>
+The feed here will be scoped down to a single poll.
+
+Clicking on an end-candidate (An.), you to start climb a tree:
+<A HREF="http://zelea.com/project/votorola/a/crossforum/vote/_/2.xht">http://zelea.com/project/votorola/a/crossforum/vote/_/2.xht</A>
+The feed is simultaneously scoped to that tree.
+
+Click on a delegate (Fr.) to climb further, scoping down to his/her
+branch: <A HREF="http://zelea.com/project/votorola/a/crossforum/vote/_/3.xht">http://zelea.com/project/votorola/a/crossforum/vote/_/3.xht</A>
+
+Note that a given voter (say Ev.) always keeps the same position in
+the votespace plane (a little east-southeast of center), provided that
+neither he nor his candidates shift their votes.
+
+If it's roughly right, we can start coding it.  What do you think?
+
+
+[1] A poster in #metagov (The User) came up with a similar idea.
+    <A HREF="http://zelea.com/var/cache/irc/metagov/11-04/12">http://zelea.com/var/cache/irc/metagov/11-04/12</A>
+
+    In addition, he suggested reserving abandoned slots in case their
+    voters return.  If we assign the slot based on a hash of the vote
+    name, and use a deterministic collision avoidance mechanism (such
+    as clockwise walk) in cases where the hashed slot is taken, then
+    it should (in most cases) have the effect of reserving the slot.
+
+    It will also have the effect of tending to place a given voter in
+    the same slot for every vote.  So if he's slotted 5 for his vote
+    in poll X/p/a, then he'll probably be slotted 5 in X/p/b.
+
+[2] Current SVG source is here:
+    <A HREF="http://zelea.com/project/votorola/a/crossforum/vote/VotespaceV.svg">http://zelea.com/project/votorola/a/crossforum/vote/VotespaceV.svg</A>
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 3.png
+Type: image/png
+Size: 86574 bytes
+Desc: not available
+URL: &lt;<A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20110414/49fac437/attachment-0002.png">http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20110414/49fac437/attachment-0002.png</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012613.html">[MG] Votespace social map
+</A></li>
+	<LI>Next message (by thread): <A HREF="012616.html">[MG] Votespace social map
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

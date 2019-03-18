@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] (proposal) Plug-in framework design
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28proposal%29%20Plug-in%20framework%20design&In-Reply-To=%3C1353983232.05d8DF7D0.4832%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013995.html">
+   <LINK REL="Next"  HREF="005191.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] (proposal) Plug-in framework design</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28proposal%29%20Plug-in%20framework%20design&In-Reply-To=%3C1353983232.05d8DF7D0.4832%40out.zelea.com%3E"
+       TITLE="[MG] (proposal) Plug-in framework design">mike at zelea.com
+       </A><BR>
+    <I>Mon Nov 26 21:28:16 EST 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013995.html">[MG] (proposal) Plug-in framework design
+</A></li>
+        <LI>Next message (by thread): <A HREF="005191.html">[MG] TuxFamily migration
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Thomas and Ed,
+
+Thomas von der Elbe said:
+&gt;<i> Wow, the switch came fast! I like it!
+</I>
+Thank you!  (I posted about the Votorola bug here)
+<A HREF="http://mail.zelea.com/list/votorola/2012-November/001540.html">http://mail.zelea.com/list/votorola/2012-November/001540.html</A>
+
+I agree with Ed that the introductory banner and homepage ought to
+work together.  They have complimentary strengths.  The banner is
+everywhere, while the homepage has more room for explanatory content.
+I also like Ed's proposed content for the homepage.
+
+Here's a rough, first proposal for the content of the banner:
+
+
+                      Metagovernment
+
+        0                  0                    0            0     
+    '       V          '       V            '       V    '       V 
+
+   '    +--&gt; I        '    +    I          '    +    I  '    +    I
+
+    '       '          '       X &lt;--+       '       X    '       X 
+        '                  '        |           '            '
+                                    |
+      Choose             Offer -----+         Extend  ---&gt;
+      ------             -----                ------
+
+
+This is visible to newcomers on all Metagov pages.  The text at top is
+a link to the home page.  The primary message of the graphical story
+beneath is directed at toolset developers.  It says, &quot;Put your toolset
+here or you're gonna be a loser.&quot;
+
+The first graphic (left) is a live toolset switch, initially set on
+the introductory toolset (i.e. the banner).  When the mouse is over
+the left third of the banner, the text at top transitions to:
+
+   Choose any toolset you want
+
+(middle) The graphic is faded except for the X and the &quot;insertion&quot;
+arrow, which are lit as links.  They lead to instructions for
+developers.  When the mouse is over the middle third of the banner,
+the text at top transitions to:
+
+   Offer your own toolset.
+
+(right) The graphic is faded except for the &quot;extension&quot; arrow and the
+rightmost switch, which are lit as links.  They lead to instructions
+for administrators.  When the mouse is over the right third of the
+banner, the text at top transitions to:
+
+   Extend these choices to your own community.
+
+What do you think?  Does anyone want to draw a proper mockup?  If not,
+I can draw one (after I fix my bugs).
+
+
+Ed Pastore said:
+&gt;<i> Very nice! (I think the triangle needs to be a bit larger and
+</I>&gt;<i> perhaps more colorful: I didn't even see it at first. And certainly
+</I>&gt;<i> other refinements will evolve, but it's a fantastic start.)
+</I>
+(Thank you!)  We could make the popper brighter by default, as long as
+it's possible to dim it down again.  It floats over the toolset or
+(when off) the page content, so it normally needs to be inconspicuous
+and minimal.  (Unlike colour, the size should probably be invariable,
+so developers can easily accomodate it.)
+
+Another possibility: whenever the switch container (banner or switch
+window) is dismissed, it could dramatically collapse to the top right
+corner, cueing the user to the location of the popper.
+
+Mike
+
+
+Thomas von der Elbe said:
+&gt;<i> Wow, the switch came fast! I like it!
+</I>&gt;<i> 
+</I>&gt;<i> A possible bug: if I switch back and forth between the options, the 
+</I>&gt;<i> vote-track-appearance breaks now and then in my firefox. I send you a 
+</I>&gt;<i> screen-picture.
+</I>&gt;<i> 
+</I>&gt;<i> Thomas
+</I>
+
+Ed Pastore said:
+&gt;<i> Very nice! (I think the triangle needs to be a bit larger and perhaps more colorful: I didn't even see it at first. And certainly other refinements will evolve, but it's a fantastic start.)
+</I>&gt;<i> 
+</I>&gt;<i> I started thinking about what the Introduction banner should say, and I realized I was seeing a lot of redundancy with the proposed new homepage text, e.g.:
+</I>&gt;<i> <A HREF="http://metagovernment.org/wiki/User:Ed_Pastore/redesign/draft2">http://metagovernment.org/wiki/User:Ed_Pastore/redesign/draft2</A>
+</I>&gt;<i> 
+</I>&gt;<i> Wouldn't it make sense to combine these two?
+</I>&gt;<i> 
+</I>&gt;<i> Here's a rough first draft:
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> The Metagovernment project is developing the public tools and practices to enable everyone to have full and meaningful participation in governance.
+</I>&gt;<i> 
+</I>&gt;<i> Participating projects are showcasing their tools on this site! Click the triangle in the very upper-right corner of any page to try out different tools.
+</I>&gt;<i> 
+</I>&gt;<i> And please join our active discussion in our mailing list. There you can provide feedback on these tools, help us develop them and their supporting ideas, and/or showcase your own project on this site.
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013995.html">[MG] (proposal) Plug-in framework design
+</A></li>
+	<LI>Next message (by thread): <A HREF="005191.html">[MG] TuxFamily migration
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

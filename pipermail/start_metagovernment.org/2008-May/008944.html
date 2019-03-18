@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Peer to Peer Architecture
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Peer%20to%20Peer%20Architecture&In-Reply-To=%3C916cd8c0805021537m14fa8c77sfe3fde9d296061d9%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="008931.html">
+   <LINK REL="Next"  HREF="008947.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Peer to Peer Architecture</H1>
+    <B>Manuel Barkhau</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Peer%20to%20Peer%20Architecture&In-Reply-To=%3C916cd8c0805021537m14fa8c77sfe3fde9d296061d9%40mail.gmail.com%3E"
+       TITLE="[Start] Peer to Peer Architecture">mbarkhau at googlemail.com
+       </A><BR>
+    <I>Fri May  2 18:37:16 EDT 2008</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="008931.html">[Start] Transition to Open Source Government
+</A></li>
+        <LI>Next message (by thread): <A HREF="008947.html">[Start] Peer to Peer Architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>&gt;<i> Paul wrote:
+</I>&gt;<i> I'm not understanding why we need this? When you say
+</I>&gt;<i> on the net but not on a server - do you mean P2P? That
+</I>&gt;<i> is an intriguing concept!
+</I>
+Indeed, here are some ideas on how it might work:
+
+All messages, keys, files or resources in general, are
+stored on the network. That is, they are replicated across
+multiple nodes, which serve the resources they have to
+clients that request them.
+
+All resources have a name and hash, ensuring that a
+receiver can verify the integrity of a resource, no matter
+which source it came from.
+
+Additionally, every resource may have any number of tags,
+referencing a revision, bill, law, community, or general topic.
+
+Every member of a community has a PGP-Key with which
+messages can be signed and encrypted. This enables resources
+to be made available to a user and just that user, by
+encrypting them with his public key.
+
+Votes can be held anonymously, by allowing tokens to be
+sent from a central authority, to all members of the
+community. The vote and token are encrypted together with,
+the public key of the authority. Votes are then sent to
+this authority, which is the only one who can read them.
+Results are published publicly, and are verifiable by
+every user. So long as the authority can be trusted not
+to track which tokens were sent to which users, this
+system will be anonymous.
+
+(Note: This does not solve the problem of political
+persecution, since we have no control over who may be
+forcing somebody to vote a certain way. If this is a
+problem, votes should be held in a traditional pen and
+paper fashion, since only a voting booth in a public
+setting, can guarantee that protection.)
+
+Servers aggregate, index and cache the resources available
+on the net. They provide scoring for messages, based on
+the data they receive from users and provide faster access
+to the data of the community, than if all information had
+to be retrieved from different nodes.
+
+Pros:
+    - Scales very well with community size
+    - No need for servers (although they provide helpful
+      services and much better performance)
+    - Less Administration overhead
+    - All data is available on the net and can be independently
+      verified by every member of the community
+    - Very secure against malicious users
+Cons:
+    - More complex to implement and understand
+    - Potentially slower than a client server solution
+    - Requires dedicated client software, rather that just
+      a standard browser or e-mail client.
+    - Client software must be made for every device
+    - Accessibility issues
+    - Potential to be spammed
+
+Thats as far as I can think right now. Much more to be thought
+out here.
+
+Manuel
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="008931.html">[Start] Transition to Open Source Government
+</A></li>
+	<LI>Next message (by thread): <A HREF="008947.html">[Start] Peer to Peer Architecture
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

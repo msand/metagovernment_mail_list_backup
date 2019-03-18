@@ -1,0 +1,226 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Suggestion for Vilfredo
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Suggestion%20for%20Vilfredo&In-Reply-To=%3Cc387fcdf0911240213j31bd9efdmdace0a45f2b9cbe3%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="011104.html">
+   <LINK REL="Next"  HREF="011109.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Suggestion for Vilfredo</H1>
+    <B>Pietro Speroni di Fenizio</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Suggestion%20for%20Vilfredo&In-Reply-To=%3Cc387fcdf0911240213j31bd9efdmdace0a45f2b9cbe3%40mail.gmail.com%3E"
+       TITLE="[Start] Suggestion for Vilfredo">metagovernment at pietrosperoni.it
+       </A><BR>
+    <I>Tue Nov 24 05:13:09 EST 2009</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="011104.html">[Start] Suggestion for Vilfredo
+</A></li>
+        <LI>Next message (by thread): <A HREF="011109.html">[Start] Suggestion for Vilfredo
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>2009/11/23 Mat&#237;as Battocchia &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">battox at gmail.com</A>&gt;
+
+&gt;<i> The repeated proposals are a (small) problem. When I like a proposal and
+</I>&gt;<i> see similar ones, I vote for all of them, and I imagine that everybody does
+</I>&gt;<i> the same thing. So, the repeated proposals are likely to reach the next
+</I>&gt;<i> generation together. Humans can see the consensus but not Vilfredo, who
+</I>&gt;<i> thinks that --for example-- the 3 remaining proposals are all different when
+</I>&gt;<i> in fact happens the opposite thing. To make Vilfredo close the question,
+</I>&gt;<i> only one must left.
+</I>&gt;<i>
+</I>&gt;<i> To tell that two (or more) proposals are equivalent: hold shift down and
+</I>&gt;<i> select them, instead of a &quot;tic&quot; the letter &quot;a&quot; appears besides each one (or
+</I>&gt;<i> a &quot;b&quot; if you clicked twice...). Could this be useful?
+</I>&gt;<i>
+</I>&gt;<i>
+</I>Dear Matias,
+I think you are absolutely correct that we need a way to tell Vilfredo what
+is the relation between different proposals.
+
+And I have been thinking a lot about what relations are there, and how to
+tell it.
+
+The problem is, what is people do not agree that two proposals are
+equivalent (or generally related)?
+
+In any case I think the minimum set of possible relations should be:
+(a is equivalent to b)
+(a implies b)
+
+strictly speaking you just need implies, and if a implies b and b implies a,
+then they are equivalent.
+
+The relation implies is for situation like:
+A) -let's go to Lisbon
+B) -Let's go to Portugal
+
+here A implies B.
+because Lisbon is in Portugal.
+
+generally once an implication have been certified (how?), this should have
+an effect on the resulting answers.
+But first it should have an implication on the way people vote.
+
+If A imply B, and you have voted for A, but not for B,
+
+(in the example above this would mean that you voted to go to Lisbon, but
+not to Portugal)
+
+ then you should receive an email asking you to chose between three mutually
+exclusive possibilities:
+1) either you claim that A does not imply B
+or
+2) you also support B
+or
+3) you stop supporting A.
+
+And if you do not answer in x time we imply that your default answer is ...
+(answer defined among the user options. Possible answer n. 2 or n. 3. It is
+NOT possible to have answer 1 as default answer).
+
+So if this system was in place the fact of having A implying B, would force
+that if A is in the Pareto Front than also B should be there.
+But because A is a more precise answer than B, and A is in the Pareto front
+it means that everybody that votes for B also voted for A (or B would
+dominate A), thus we can ignore B, and only keep A.
+
+So if A implies B, and A is in the Pareto Front we can ignore B, and take it
+away from the Pareto Front. After all it is logically implied in A.
+
+If instead there are people that vote for B but not for A, then we also are
+going to have only one solution in the Pareto Front, because everybody who
+vote for A has voted for B, thus B dominates A, and B will be in the Pareto
+front but not A.
+
+So it seems that just by using the implication relation we can go a long
+way, and we are assured to have always either A or B in the Pareto front but
+not both.
+
+Now we should mention the fact that the implication relation is transitive,
+so if A implies B and B implies C, than A implies C. (A=&gt;B=&gt;C then A=&gt;C)
+So if A=&gt;B=&gt;C then we will always have only one of the three in the Pareto
+Front.
+
+And finally there is the closed loop case: if A implies B, and B implies C,
+and C implies A than A, B ad C are all equivalent!  (A=&gt;B=&gt;C=&gt;A then A&lt;=B&lt;=C
+and A=B=C)
+So any closed loop of implications means (implies :-) ) that all the element
+in the loop are equivalent.
+
+If we code the implication in Vilfredo, the algorithm should be able to
+understand all those relations.
+
+Instead we need to solve the problem:
+how to tell Vilfredo that a proposal implies another.
+
+I will claim that it is absolutely not possible to do it automatically.
+The idea of having people at the voting time define the implications seems
+good enough.
+Also the author of a proposal should be able to define an implication when
+he is writing it. Implications respect to the inherited proposal from last
+round, and implications between the new proposal he is writing)
+Maybe the person who asked the question could have an option to define those
+relationships after the moveon, just before the voting time.
+Also everybody else (only people logged in?) should be able to define those
+relationships during the voting time.
+When people have started to define relationships, Vilfredo should
+immediately jump in.
+
+If person John have started saying that A implies B, then Vilfredo should
+ask Sarah (who went to vote next): does A imply B? does B imply A?
+
+Until Vilfredo has at least 3 people agreeing on the implication, and at
+least a majority of (a lot! maybe 2/3rds, 3/4rth) saying that the
+implication is there.
+
+When this happens Vilfredo should start using (-yes, even in the middle of
+the voting time-) this knowledge to suggest to people what they should vote
+(example: this should appear with javascript: you voted to go to Lisbon, so
+you must agree also to go to Portugal?
+Answers:
+- yes I do
+- no, I did not realise Lisbon was in Portugal/
+- Vilfredo you are mistaken, Lisbon is not in Portugal).
+And this is important because then the person will not need to receive an
+email later, as explained later...
+
+And of course at some point we could even consider having a specific karma
+on implication (you get points by having people agree on an implication you
+define, you lose points every time someone -after you- disagree on an
+implication you define).
+
+This karma could be the same or a different one that is currently being
+suggested at the wall of text question.
+
+This is it. If we were to code this system I think Vilfredo would REALLY
+kick ass.
+
+But as you can see it is not really basic, we might need some time to code
+it all.
+
+Thoughts?
+
+Pietro
+
+----------
+
+Dr. Pietro Speroni di Fenizio,
+
+Post Doc at University of Coimbra
+
+Home Page: <A HREF="http://www.pietrosperoni.it">http://www.pietrosperoni.it</A>
+Mobile (Italy): +39 (345) 4542069
+
+Home Address:
+Pietro Speroni di Fenizio
+Sitio Curcodia,
+Ribas,
+Vila Nova de Poiares
+3350-099
+Portugal
+
+
+Sent from Coimbra, 06, Portugal
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20091124/3a46b183/attachment-0002.html">http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20091124/3a46b183/attachment-0002.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="011104.html">[Start] Suggestion for Vilfredo
+</A></li>
+	<LI>Next message (by thread): <A HREF="011109.html">[Start] Suggestion for Vilfredo
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

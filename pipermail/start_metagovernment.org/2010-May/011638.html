@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Interface with discussion media (4) by difference bridge
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Interface%20with%20discussion%20media%20%284%29%20by%20difference%20bridge&In-Reply-To=%3C20100527090337.GA4359%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="011636.html">
+   <LINK REL="Next"  HREF="011661.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Interface with discussion media (4) by difference bridge</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Interface%20with%20discussion%20media%20%284%29%20by%20difference%20bridge&In-Reply-To=%3C20100527090337.GA4359%40havoc.zelea.com%3E"
+       TITLE="[MG] Interface with discussion media (4) by difference bridge">mike at zelea.com
+       </A><BR>
+    <I>Thu May 27 05:03:37 EDT 2010</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="011636.html">[MG] Interface with discussion media (4) by difference bridge
+</A></li>
+        <LI>Next message (by thread): <A HREF="011661.html">[MG] Interface with discussion media (4) by difference bridge
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>&gt;<i> &gt; ...  But where are the users?  I think we should ascertain that.
+</I>&gt;<i> &gt; ... I think we need to see them, up front.  Otherwise, we're in
+</I>&gt;<i> &gt; danger of building an empty cathedral.
+</I>
+Thomas wrote:
+&gt;<i> Yes Mike, I agree. But it's good to know, what is possible in the future
+</I>&gt;<i> even though it might not be the first priority for now, right? At least
+</I>&gt;<i> thats true for the geo-political nav/search.
+</I>
+I agree.
+
+&gt;<i> At some point the number of cities or local areas will be too
+</I>&gt;<i> many. The question is, if we expect single areas of the wiki to go
+</I>&gt;<i> independent before that. Otherwise I'd prefer to have all the cities
+</I>&gt;<i> of Germany somehow &quot;behind/below&quot; Germany, i.e. not on the same
+</I>&gt;<i> nav-level. So behind a link &quot;local&quot; a list of countries, and behind
+</I>&gt;<i> the selected country the list of cities/oranizations. Maybe this
+</I>&gt;<i> could also be done with a wiki property?  [quoted from other thread]
+</I>
+Yes.  We can use the area property for that.  So Dresden is in Saxony
+[[Area::Saxony]], and Saxony is in Germany [[Area::Germany]].
+<A HREF="http://u.zelea.com/w/Property:Area">http://u.zelea.com/w/Property:Area</A>
+It's easy enough to model a hierarchy.  It's a little trickier to view
+it, because there are so many possibilities (see details at bottom).
+
+But coming back to my point, this is a lot of work.  I think we need
+help from the users, especially as we don't have an immediate problem.
+The current area nav seems OK: <A HREF="http://u.zelea.com/w/Site:List_of_areas">http://u.zelea.com/w/Site:List_of_areas</A>
+
+Regarding users, the difference bridge is a little more usable now.
+Here for example, one of your voters is complaining of a simple
+spelling mistake: <A HREF="http://u.zelea.com:8080/v/w/Diff?b=3116&amp;a=3103#h3">http://u.zelea.com:8080/v/w/Diff?b=3116&amp;a=3103#h3</A>
+(login under alias &quot;b&quot;, to play with patch controls)
+
+You're off for holidays, so that leaves me as the only tester.  We're
+headed for elections here in Toronto, so maybe I can find a gung-ho
+tester or two locally: <A HREF="http://www.toronto.ca/elections/">http://www.toronto.ca/elections/</A>
+-- 
+Michael Allan
+
+Toronto, +1 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+PS (details of geo-nav)
+
+You can use the built in property browser (like we do now for the
+trust network) to browse the area hierarchy.  Or you can have drill
+down lists (as you describe) implemented with semantic queries
+(possibly in &quot;concepts&quot;)
+<A HREF="http://semantic-mediawiki.org/wiki/Help:Concepts">http://semantic-mediawiki.org/wiki/Help:Concepts</A>
+
+Or you can have tree views.  And/or your federal area can have a
+federal map showing all the states; while each state has a state-wide
+map showing all the local cities and regions.  Each city/region, in
+turn, can have maps showing all the electoral districts.  (Maybe like
+ I have in Toronto: <A HREF="http://u.zelea.com/w/Tor">http://u.zelea.com/w/Tor</A>
+ But I haven't filled in all the districts there, just some.)
+
+Drilling down even further, each city/region can have neighbourhood
+and street maps for purposes of policing the voter registry.  We
+haven't prototyped any of those layouts yet, but we can do them very
+quickly, as needed.  So you can see your own street (maybe click for
+Google Street View, if it's available); your own building; your own
+corridor; your own flat; and ultimately you yourself (the first free
+voter on your block ;-).
+
+In general, area admins/users have complete freedom in regards to
+exploring all the various (bewildering really) navigation
+possibilities.  And if some of their choices/inventions are especially
+cool (and also politically neutral) then we could incorporate them in
+the temporary central wiki, instead of (or in addition to) our boring
+list of areas: <A HREF="http://u.zelea.com/w/Site:List_of_areas">http://u.zelea.com/w/Site:List_of_areas</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="011636.html">[MG] Interface with discussion media (4) by difference bridge
+</A></li>
+	<LI>Next message (by thread): <A HREF="011661.html">[MG] Interface with discussion media (4) by difference bridge
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

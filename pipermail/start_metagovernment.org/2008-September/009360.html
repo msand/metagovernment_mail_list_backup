@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Distribution model (hi, Aur!)
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Distribution%20model%20%28hi%2C%20Aur%21%29&In-Reply-To=%3Cf8c47620809080721w755efdc7kacc507fef5d4f1df%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="009359.html">
+   <LINK REL="Next"  HREF="009361.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Distribution model (hi, Aur!)</H1>
+    <B>Aur Saraf</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Distribution%20model%20%28hi%2C%20Aur%21%29&In-Reply-To=%3Cf8c47620809080721w755efdc7kacc507fef5d4f1df%40mail.gmail.com%3E"
+       TITLE="[Start] Distribution model (hi, Aur!)">sonoflilit at gmail.com
+       </A><BR>
+    <I>Mon Sep  8 10:21:23 EDT 2008</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="009359.html">[Start] Distribution model  (hi, Aur!)
+</A></li>
+        <LI>Next message (by thread): <A HREF="009361.html">[Start] Distribution model (hi, Aur!)
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi!
+
+I never left, I just wasn't as vocal... I'm still reading and
+following non-stop.
+
+On Sun, Sep 7, 2008 at 7:34 PM, Ed Pastore &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">epastore at metagovernment.org</A>&gt; wrote:
+&gt;<i> It's great to see you back on the list, Aur! I was beginning to
+</I>&gt;<i> suspect we had lost you to the MyVote.org.il group. :) Can I ask what
+</I>&gt;<i> your opinion is of your branch of Metascore? You may have noticed that
+</I>&gt;<i> Manuel's branch has gained some momentum, and he now has two other
+</I>&gt;<i> developers working with him on it.
+</I>
+My branch is still waiting for some other people from the community to
+contribute their 2c, because otherwise it would become too distanced
+from what the community thinks and won't have a chance at acceptance
+later on.
+
+&gt;<i> I am happy either way. I think more branches can only make us stronger
+</I>&gt;<i> in the long run, but I also would like to see us have something
+</I>&gt;<i> concrete to show the world sooner rather than later.
+</I>&gt;<i>
+</I>&gt;<i> I am also wondering if there is anything really exclusive about your
+</I>&gt;<i> ideas. I know that yours are technically disparate in their
+</I>&gt;<i> implementation, but I don' think it necessarily has to be that way.
+</I>&gt;<i> Manuel's server-based idea is easer to get rolling, and (at this
+</I>&gt;<i> point, anyway) much easier for the average end-user to understand.
+</I>&gt;<i> However, there are inherent weaknesses to a server-based approach, and
+</I>&gt;<i> I think adding a distributed element to it would be extremely helpful.
+</I>
+Manuel's proposed implementation, as far as I understand it (and
+that's not very well), doesn't feel right. No hard feelings, of
+course, it's just not my path as a code artist :P And since this is a
+hobby project, I can allow myself to follow my feelings like this.
+
+My proposed implementation is my attempt at something REALLY robust -
+something robust enough for me to trust the world population's freedom
+in. A server-based solution just won't do for something this big.
+
+&gt;<i> As an example, here is a scenario I have been developing in my mind. I
+</I>&gt;<i> see distribution working on several levels, and for several reasons
+</I>&gt;<i> (security, resilience, user freedom).
+</I>&gt;<i>
+</I>&gt;<i> Community distribution: I can imagine that each separate community
+</I>&gt;<i> would have its own implementation of Metascore. Communities could
+</I>&gt;<i> share elements (resolutions, users, scores, etc.) with each other by
+</I>&gt;<i> means of prefixed tags.
+</I>
+That's why I'm separating data format from the tools. It's easy to
+build different tools on top of my data - although they'd be in many
+ways very similar to my tools.
+
+&gt;<i> Server distribution: Within one instance of Metascore, there should be
+</I>&gt;<i> more than one server. This provides redundancy, checksumming against
+</I>&gt;<i> hacking, and protection from rogue administrators.
+</I>
+This is not enough IMHO.
+
+&gt;<i> User distribution (more to Aur's model): I would like to see each user
+</I>&gt;<i> maintain their identity outside of any particular server. This gives
+</I>&gt;<i> them portability between different instances of Metascore and also
+</I>&gt;<i> gives them security in the integrity of their own virtual identity.
+</I>
+Here you're aiming at a more cryptographically secure OpenID - which
+is a part of my implementation that I didn't touch yet and don't
+intend to (I can let other people write it when the time is ripe, and
+oh, they will).
+
+
+So as I said, I'll get back to designing when I've received more
+feedback to what's already in my repository.
+
+ -- Aur
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="009359.html">[Start] Distribution model  (hi, Aur!)
+</A></li>
+	<LI>Next message (by thread): <A HREF="009361.html">[Start] Distribution model (hi, Aur!)
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

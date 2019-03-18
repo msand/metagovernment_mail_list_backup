@@ -1,0 +1,164 @@
+From mrpdublin at gmail.com  Thu Nov  8 15:24:32 2018
+From: mrpdublin at gmail.com (Patrick Millerd)
+Date: Thu, 8 Nov 2018 15:24:32 -0500
+Subject: [MG] "good country" disappears down the slacktivism rabbit
+ hole...
+In-Reply-To: <CACobxW3+F4psWb1Uf241ohNdnpyR6yu+3yxjxO9yrexMCtqGJA@mail.gmail.com>
+References: <CACobxW3+F4psWb1Uf241ohNdnpyR6yu+3yxjxO9yrexMCtqGJA@mail.gmail.com>
+Message-ID: <CACZ6ZgGc+OavM=XMcZ+NurtUnTR7rCjxK+HmiERLU5W3j78rxw@mail.gmail.com>
+
+This message has a big spam warning on it, even though it's a
+g-mail account, g-mail could not verify it really came from you. Might be a
+reason for inactivity?
+
+As for my own activity, it's fairly dormant but alive. Ready to participate
+when required.
+
+https://www.needpedia.com/ This guy is still actively pursuing his project,
+though I don't know how he intends to really bring power to the people, an
+attempt is kinda being made.
+
+On Tue, 30 Oct 2018 at 19:48, Scott Raney <metamerman at gmail.com> wrote:
+
+> The "good country" project was very interesting to me when it first
+> launched several years ago. What they produced was a ranking of
+> countries using objective criteria to assess the living conditions of
+> the population (standard of living, crime rate, measures of individual
+> freedom, etc.).  I thought this might be useful as a tool for
+> evaluating existing governments and informing people about when they
+> needed to be changed.
+>
+> Unfortunately they've decided to pivot and join the ranks of
+> slacktivism organizations like Avaaz, MoveOn, and change.org which are
+> based on the premise that the way to change the world is to give up
+> the hope of wielding any actual political power in favor of limiting
+> us to begging the elites for a little consideration on individual
+> issues. Worse, they've jumped on the AI bandwagon such that no one
+> really can understand how "The Will of The People" is determined. Oh
+> well. I guess we can at least be thankful that they didn't drink the
+> blockchain Kool-Aid:
+> https://goodcountry.org/wp-content/uploads/2018/09/The-Good-Country.pdf
+>
+> Anyone still working on a system that will give The People *actual*
+> power instead of just reinforcing systems whose fundamental operating
+> characteristic is deference to elites?
+>   Regards,
+>     Scott
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription:
+> http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20181108/3caec472/attachment.html>
+
+From metamerman at gmail.com  Fri Nov  9 20:05:25 2018
+From: metamerman at gmail.com (Scott Raney)
+Date: Fri, 9 Nov 2018 18:05:25 -0700
+Subject: [MG] "good country" disappears down the slacktivism rabbit
+ hole...
+In-Reply-To: <CACZ6ZgGc+OavM=XMcZ+NurtUnTR7rCjxK+HmiERLU5W3j78rxw@mail.gmail.com>
+References: <CACobxW3+F4psWb1Uf241ohNdnpyR6yu+3yxjxO9yrexMCtqGJA@mail.gmail.com>
+	<CACZ6ZgGc+OavM=XMcZ+NurtUnTR7rCjxK+HmiERLU5W3j78rxw@mail.gmail.com>
+Message-ID: <CACobxW18ghUOZjB3awxbnWkzQeJMB5vc4vKK+BO1Jh467-HpGw@mail.gmail.com>
+
+On Thu, Nov 8, 2018 at 1:24 PM Patrick Millerd <mrpdublin at gmail.com> wrote:
+> This message has a big spam warning on it, even though it's a g-mail account, g-mail could not verify it really came from you. Might be a reason for inactivity?
+
+Yours had that message too in my gmail reader :-(
+
+> As for my own activity, it's fairly dormant but alive. Ready to participate when required.
+
+I had to mothball proxyfor.me when my free trial on AWS expired and
+they started charging me almost 40 bucks a month for it (most of that
+was for ELB, which I didn't really need but that they require to
+provide HTTPS support). I'm looking at the various alternatives: It'd
+be good to port it at least once anyway to prove that it's not tied to
+any particular platform. I also got the Colorado voter database and
+started hacking that to create a way to authenticate voters without
+risking exposing their information, sending them a postcard, or
+require them to provide a credit card (like most of the other systems
+have). Next round I plan to shadow the Boulder and/or Denver city
+council proposals with authenticated voters, which ought to be
+illuminating...
+
+> https://www.needpedia.com/ This guy is still actively pursuing his project, though I don't know how he intends to really bring power to the people, an attempt is kinda being made.
+
+Looks to me like he underestimates the amount of "government" required
+to keep a system like that working. Wikipedia is kind of a nightmare
+because of that (lots of topics where the foxes are guarding the
+henhouses).
+  Regards,
+     Scott
+
+> On Tue, 30 Oct 2018 at 19:48, Scott Raney <metamerman at gmail.com> wrote:
+>>
+>> The "good country" project was very interesting to me when it first
+>> launched several years ago. What they produced was a ranking of
+>> countries using objective criteria to assess the living conditions of
+>> the population (standard of living, crime rate, measures of individual
+>> freedom, etc.).  I thought this might be useful as a tool for
+>> evaluating existing governments and informing people about when they
+>> needed to be changed.
+>>
+>> Unfortunately they've decided to pivot and join the ranks of
+>> slacktivism organizations like Avaaz, MoveOn, and change.org which are
+>> based on the premise that the way to change the world is to give up
+>> the hope of wielding any actual political power in favor of limiting
+>> us to begging the elites for a little consideration on individual
+>> issues. Worse, they've jumped on the AI bandwagon such that no one
+>> really can understand how "The Will of The People" is determined. Oh
+>> well. I guess we can at least be thankful that they didn't drink the
+>> blockchain Kool-Aid:
+>> https://goodcountry.org/wp-content/uploads/2018/09/The-Good-Country.pdf
+>>
+>> Anyone still working on a system that will give The People *actual*
+>> power instead of just reinforcing systems whose fundamental operating
+>> characteristic is deference to elites?
+>>   Regards,
+>>     Scott
+>>
+>> _______________________________________________
+>> Start : a mailing list of the Metagovernment project
+>> http://www.metagovernment.org/
+>> Post to the list: Start at metagovernment.org
+>> Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+>
+> _______________________________________________
+> Start : a mailing list of the Metagovernment project
+> http://www.metagovernment.org/
+> Post to the list: Start at metagovernment.org
+> Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+
+
+From metamerman at gmail.com  Thu Nov 29 13:18:00 2018
+From: metamerman at gmail.com (Scott Raney)
+Date: Thu, 29 Nov 2018 11:18:00 -0700
+Subject: [MG] proxyfor.me is back up!
+Message-ID: <CACobxW3HoF7yxZ76gNchCOdy8WatSin0z9axf7L3pv56UFdruA@mail.gmail.com>
+
+I've updated and restarted proxyfor.me. It's still on AWS, but uses an
+internal HTTPS certificate and server rather than using the (much more
+expensive) AWS ELB system for that. It's also updated to the latest
+versions of the tools and libraries, and there has been a *lot* of
+progress on those over the past year: The new app is about 80% smaller
+and only takes a third of the time to start up, mostly due to AOT
+compilation (which works in Angular now but didn't in the version I
+started with).
+
+I had to toss all the old profiles when I updated the database schema
+to handle authentication, but have set it up in a "demo" mode where
+you can log in as one of the bots to check it out without having to
+fill out your profile first (instructions are on the startup screen).
+
+I'm not going to do any PR for this release: I'll wait until I have
+the authentication stuff and new local (Boulder/Denver) proposals
+finished and will call that Beta 4.
+  Regards,
+    Scott
+
+

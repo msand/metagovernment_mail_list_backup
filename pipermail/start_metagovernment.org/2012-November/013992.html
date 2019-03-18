@@ -1,0 +1,276 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] (proposal) Plug-in framework design
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28proposal%29%20Plug-in%20framework%20design&In-Reply-To=%3C1353880822.77BbbB30.17985%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="005187.html">
+   <LINK REL="Next"  HREF="013993.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] (proposal) Plug-in framework design</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28proposal%29%20Plug-in%20framework%20design&In-Reply-To=%3C1353880822.77BbbB30.17985%40out.zelea.com%3E"
+       TITLE="[MG] (proposal) Plug-in framework design">mike at zelea.com
+       </A><BR>
+    <I>Sun Nov 25 17:02:05 EST 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="005187.html">[MG] (proposal) Plug-in framework design
+</A></li>
+        <LI>Next message (by thread): <A HREF="013993.html">[MG] (proposal) Plug-in framework design
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>A tentative prototype of the plug-in framework is coded and deployed
+for MediaWiki: <A HREF="http://metagovernment.org/wiki/">http://metagovernment.org/wiki/</A>
+
+WALK THROUGH
+
+   1. Hover the mouse over the small triangle in the top right corner
+      of the page, then click.
+
+      The toolset switch appears.  It looks like this:
+
+           0. Off
+           1. Introduction
+         &gt; 2. Votorola
+
+                   (close)
+
+      Note: tested only on Firefox and Chrome.  Currently disabled and
+      invisible on IE.
+
+   2. Click &quot;Off&quot;.
+
+      The page reloads without a toolset.  Votorola is gone.  The
+      switch remains visible:
+
+         &gt; 0. Off
+           1. Introduction
+           2. Votorola
+
+                   (close)
+
+   3. Click &quot;Introduction&quot;.
+
+      The page reloads with the introductory &quot;toolset&quot;.
+
+           0. Off
+         &gt; 1. Introduction
+           2. Votorola
+
+                   (close)
+
+   4. Click &quot;close&quot; to dismiss the switch.
+
+   5. Navigate around the wiki.  Note that the chosen toolset is now
+      visible on every page.
+
+      Please report any problems you see.
+
+SCOPE
+
+   This is a prototype of the underlying switch mechanism.  The switch
+   view and the introductory toolset are only placeholders.  Therefore
+   the introductory toolset is not yet set as the default. (It's too
+   ugly.)
+
+DEPLOYMENT
+
+   General:    <A HREF="http://metagovernment.tuxfamily.org/plug/">http://metagovernment.tuxfamily.org/plug/</A>
+   Mediawiki:  <A HREF="http://metagovernment.org/wiki/MediaWiki:Common.js">http://metagovernment.org/wiki/MediaWiki:Common.js</A>
+               (blanking this page will disable the framework)
+
+SOURCE CODE
+
+   The source has no home on Metagov yet.  Meantime:
+
+      My working copy: <A HREF="http://zelea.com/project/metagov/">http://zelea.com/project/metagov/</A>
+      My repository:   <A HREF="http://zelea.com/var/db/repo/metagov/">http://zelea.com/var/db/repo/metagov/</A>
+
+ACKNOWLEDGMENT
+
+   Thomas von der Elbe is acknowledged in the code:
+   <A HREF="http://zelea.com/var/db/repo/metagov/file/605d1ccd620e/plug.js">http://zelea.com/var/db/repo/metagov/file/605d1ccd620e/plug.js</A>
+   He proposed a somewhat similar device in 2009: (item 6)
+   <A HREF="http://mail.zelea.com/list/votorola/2009-December/000215.html">http://mail.zelea.com/list/votorola/2009-December/000215.html</A>
+
+FUTURE WORK
+
+   The design is still open.  If we learn of a better design, we can
+   discard this prototype and code another.
+
+   Meantime, we still need to complete step (b).
+   <A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/2012-November/005130.html">http://metagovernment.org/pipermail/start_metagovernment.org/2012-November/005130.html</A>
+   That probably means designing a banner for the introductory
+   toolset.  We thought of inviting the user to operate the switch:
+   <A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/2012-November/005177.html">http://metagovernment.org/pipermail/start_metagovernment.org/2012-November/005177.html</A>
+   Maybe also invite new toolsets and other communities:
+   <A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/2012-November/005181.html">http://metagovernment.org/pipermail/start_metagovernment.org/2012-November/005181.html</A>
+
+   But how exactly?  Does anyone know?  Or does anyone have
+   alternative ideas for the introductory toolset?
+
+Mike
+
+
+Michael Allan said:
+&gt;<i> This is a design proposal for a prototype of the plug-in framework.
+</I>&gt;<i> 
+</I>&gt;<i>     Name     Metagovernment plug-in framework
+</I>&gt;<i>     Trunk    <A HREF="http://hg.tuxfamily.org/metagov/plug/">http://hg.tuxfamily.org/metagov/plug/</A>  (to be created)
+</I>&gt;<i>     License  MIT
+</I>&gt;<i>     Stage    Prototype, might be throw-away
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> Runtime components
+</I>&gt;<i> ------------------
+</I>&gt;<i> The framework is composed of JavaScript that is loaded into the page
+</I>&gt;<i> being viewed by the user.  It is initially coded as plain JavaScript,
+</I>&gt;<i> without commiting to a platform such as jQuery or GWT (so keeping it
+</I>&gt;<i> as open as possible to new developers).  The main components are:
+</I>&gt;<i> 
+</I>&gt;<i>     Introductory toolset
+</I>&gt;<i> 
+</I>&gt;<i>         A toolset that introduces the framework.  This is the default.
+</I>&gt;<i>         Its implementation has yet to be agreed.  Meantime it will
+</I>&gt;<i>         render as a banner that is empty of content except for a
+</I>&gt;<i>         switch view.
+</I>&gt;<i> 
+</I>&gt;<i>     Switch
+</I>&gt;<i> 
+</I>&gt;<i>         Mechanism for setting the toolset as preferred by the user.
+</I>&gt;<i>         The switch state is backed by the browser's HTML5 local store.
+</I>&gt;<i>         If the browser has none, then the switch is disabled and
+</I>&gt;<i>         locked in the default position (introductory toolset).
+</I>&gt;<i> 
+</I>&gt;<i>     Switch view
+</I>&gt;<i> 
+</I>&gt;<i>         The user interface of the switch.  It will probably look like
+</I>&gt;<i>         this initially, at least till we can mock up and agree on
+</I>&gt;<i>         something nicer:
+</I>&gt;<i> 
+</I>&gt;<i>             0. Off
+</I>&gt;<i>           * 1. Introduction
+</I>&gt;<i>             2. Votorola
+</I>&gt;<i> 
+</I>&gt;<i>                     (close)
+</I>&gt;<i> 
+</I>&gt;<i>         The user clicks to choose.  The &quot;off&quot; choice is temporarily
+</I>&gt;<i>         disabled (greyed out) pending demand.  The &quot;close&quot; link only
+</I>&gt;<i>         appears when the user has explicitly summoned the view, not
+</I>&gt;<i>         when the view is incorporated in the introductory toolset.
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> Configuration
+</I>&gt;<i> -------------
+</I>&gt;<i> The configuration is mostly in the wiki.  It consists of:
+</I>&gt;<i> 
+</I>&gt;<i>     Toolset category
+</I>&gt;<i> 
+</I>&gt;<i>         Category page, to which all toolset pages belong.
+</I>&gt;<i> 
+</I>&gt;<i>     Toolset page
+</I>&gt;<i> 
+</I>&gt;<i>         One for each toolset.  It records the following information
+</I>&gt;<i>         which (for now) is manually transcribed into the switch code.
+</I>&gt;<i> 
+</I>&gt;<i>             title - informal name shown on switch view
+</I>&gt;<i> 
+</I>&gt;<i>             wikiLauncher - URL of script for launching the toolset in
+</I>&gt;<i>                the context of a wiki page.  (there'll be other
+</I>&gt;<i>                contexts later)
+</I>&gt;<i> 
+</I>&gt;<i>     Toolset registry
+</I>&gt;<i> 
+</I>&gt;<i>         Page listing toolsets by page name.  It is manually
+</I>&gt;<i>         transcribed into the switch code.
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> Functions
+</I>&gt;<i> ---------
+</I>&gt;<i> 
+</I>&gt;<i>     Launch
+</I>&gt;<i> 
+</I>&gt;<i>         The toolset launcher is executed at load time before the parse
+</I>&gt;<i>         of the document is complete.  The steps are:
+</I>&gt;<i> 
+</I>&gt;<i>             1. Read switch, yielding chosen toolset.
+</I>&gt;<i> 
+</I>&gt;<i>             2. Write script element for toolset launcher.  It may be
+</I>&gt;<i>                written to the head or body (indefinite).
+</I>&gt;<i> 
+</I>&gt;<i>     Switch
+</I>&gt;<i> 
+</I>&gt;<i>         If the switch is not visible, then the user must summon it.
+</I>&gt;<i>         In Votorola this will entail hovering the mouse at top right
+</I>&gt;<i>         of the link track (over a small triangle) to expose a button,
+</I>&gt;<i>         then clicking on the button to display the switch.
+</I>&gt;<i> 
+</I>&gt;<i>         For newcomers, the switch will normally be visible as part of
+</I>&gt;<i>         the introductory &quot;toolset&quot;.  When the switch is visible:
+</I>&gt;<i> 
+</I>&gt;<i>             1. Receive user's click on chosen toolset.
+</I>&gt;<i> 
+</I>&gt;<i>             2. Set switch state accordingly.
+</I>&gt;<i> 
+</I>&gt;<i>             3. Reload page, launching chosen toolset.
+</I>&gt;<i> 
+</I>&gt;<i>             4. Ensure the switch view is shown again in the same
+</I>&gt;<i>                location.
+</I>&gt;<i> 
+</I>&gt;<i>         The user may continue switching, or move on to other things.
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> Comments
+</I>&gt;<i> --------
+</I>&gt;<i> In plain JavaScript it'll be a little slower to code.  Still not more
+</I>&gt;<i> than 10 man days for the first cut, or (for me) 30 calendar days.
+</I>&gt;<i> 
+</I>&gt;<i> Can anyone foresee problems?  Or would anyone else like to code it?
+</I>&gt;<i> If not, then I can probably start on it myself in a few days.
+</I>&gt;<i> 
+</I>&gt;<i> -- 
+</I>&gt;<i> Michael Allan
+</I>&gt;<i> 
+</I>&gt;<i> Toronto, +1 416-699-9528
+</I>&gt;<i> <A HREF="http://zelea.com/">http://zelea.com/</A>
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="005187.html">[MG] (proposal) Plug-in framework design
+</A></li>
+	<LI>Next message (by thread): <A HREF="013993.html">[MG] (proposal) Plug-in framework design
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

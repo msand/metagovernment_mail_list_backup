@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] (proposal) Plug-in framework design
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28proposal%29%20Plug-in%20framework%20design&In-Reply-To=%3C1354353983.dA2AEc0.32627%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   
+   <LINK REL="Next"  HREF="014006.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] (proposal) Plug-in framework design</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28proposal%29%20Plug-in%20framework%20design&In-Reply-To=%3C1354353983.dA2AEc0.32627%40out.zelea.com%3E"
+       TITLE="[MG] (proposal) Plug-in framework design">mike at zelea.com
+       </A><BR>
+    <I>Sat Dec  1 05:37:36 EST 2012</I>
+    <P><UL>
+        
+        <LI>Next message (by thread): <A HREF="014006.html">[MG] (proposal) Plug-in framework design
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Here's my mockup for the introductory toolset:
+<A HREF="http://metagovernment.tuxfamily.org/plug/introMock.html">http://metagovernment.tuxfamily.org/plug/introMock.html</A>
+
+It follows my original proposal except the left image is no longer a
+live switch.  I had second thoughts about that; the switch operation
+would be too confusing.
+
+Does anyone see a problem with this design?  Or does anyone have an
+alternative design to propose?  If not, we could probably deploy this
+particular one early next week.
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+Michael Allan said:
+&gt;<i> Thomas and Ed,
+</I>&gt;<i> 
+</I>&gt;<i> Thomas von der Elbe said:
+</I>&gt;<i> &gt; Wow, the switch came fast! I like it!
+</I>&gt;<i> 
+</I>&gt;<i> Thank you!  (I posted about the Votorola bug here)
+</I>&gt;<i> <A HREF="http://mail.zelea.com/list/votorola/2012-November/001540.html">http://mail.zelea.com/list/votorola/2012-November/001540.html</A>
+</I>&gt;<i> 
+</I>&gt;<i> I agree with Ed that the introductory banner and homepage ought to
+</I>&gt;<i> work together.  They have complimentary strengths.  The banner is
+</I>&gt;<i> everywhere, while the homepage has more room for explanatory content.
+</I>&gt;<i> I also like Ed's proposed content for the homepage.
+</I>&gt;<i> 
+</I>&gt;<i> Here's a rough, first proposal for the content of the banner:
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i>                       Metagovernment
+</I>&gt;<i> 
+</I>&gt;<i>         0                  0                    0            0     
+</I>&gt;<i>     '       V          '       V            '       V    '       V 
+</I>&gt;<i> 
+</I>&gt;<i>    '    +--&gt; I        '    +    I          '    +    I  '    +    I
+</I>&gt;<i> 
+</I>&gt;<i>     '       '          '       X &lt;--+       '       X    '       X 
+</I>&gt;<i>         '                  '        |           '            '
+</I>&gt;<i>                                     |
+</I>&gt;<i>       Choose             Offer -----+         Extend  ---&gt;
+</I>&gt;<i>       ------             -----                ------
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> This is visible to newcomers on all Metagov pages.  The text at top is
+</I>&gt;<i> a link to the home page.  The primary message of the graphical story
+</I>&gt;<i> beneath is directed at toolset developers.  It says, &quot;Put your toolset
+</I>&gt;<i> here or you're gonna be a loser.&quot;
+</I>&gt;<i> 
+</I>&gt;<i> The first graphic (left) is a live toolset switch, initially set on
+</I>&gt;<i> the introductory toolset (i.e. the banner).  When the mouse is over
+</I>&gt;<i> the left third of the banner, the text at top transitions to:
+</I>&gt;<i> 
+</I>&gt;<i>    Choose any toolset you want
+</I>&gt;<i> 
+</I>&gt;<i> (middle) The graphic is faded except for the X and the &quot;insertion&quot;
+</I>&gt;<i> arrow, which are lit as links.  They lead to instructions for
+</I>&gt;<i> developers.  When the mouse is over the middle third of the banner,
+</I>&gt;<i> the text at top transitions to:
+</I>&gt;<i> 
+</I>&gt;<i>    Offer your own toolset.
+</I>&gt;<i> 
+</I>&gt;<i> (right) The graphic is faded except for the &quot;extension&quot; arrow and the
+</I>&gt;<i> rightmost switch, which are lit as links.  They lead to instructions
+</I>&gt;<i> for administrators.  When the mouse is over the right third of the
+</I>&gt;<i> banner, the text at top transitions to:
+</I>&gt;<i> 
+</I>&gt;<i>    Extend these choices to your own community.
+</I>&gt;<i> 
+</I>&gt;<i> What do you think?  Does anyone want to draw a proper mockup?  If not,
+</I>&gt;<i> I can draw one (after I fix my bugs).
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> Ed Pastore said:
+</I>&gt;<i> &gt; Very nice! (I think the triangle needs to be a bit larger and
+</I>&gt;<i> &gt; perhaps more colorful: I didn't even see it at first. And certainly
+</I>&gt;<i> &gt; other refinements will evolve, but it's a fantastic start.)
+</I>&gt;<i> 
+</I>&gt;<i> (Thank you!)  We could make the popper brighter by default, as long as
+</I>&gt;<i> it's possible to dim it down again.  It floats over the toolset or
+</I>&gt;<i> (when off) the page content, so it normally needs to be inconspicuous
+</I>&gt;<i> and minimal.  (Unlike colour, the size should probably be invariable,
+</I>&gt;<i> so developers can easily accomodate it.)
+</I>&gt;<i> 
+</I>&gt;<i> Another possibility: whenever the switch container (banner or switch
+</I>&gt;<i> window) is dismissed, it could dramatically collapse to the top right
+</I>&gt;<i> corner, cueing the user to the location of the popper.
+</I>&gt;<i> 
+</I>&gt;<i> Mike
+</I>
+</PRE>
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	
+	<LI>Next message (by thread): <A HREF="014006.html">[MG] (proposal) Plug-in framework design
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

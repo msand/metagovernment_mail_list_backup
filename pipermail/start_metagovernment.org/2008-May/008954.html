@@ -1,0 +1,170 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] A half baked vision
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20A%20half%20baked%20vision&In-Reply-To=%3Cf8c47620805021935y55cdfa84gb67257bfad18d6cd%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="008999.html">
+   <LINK REL="Next"  HREF="008955.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] A half baked vision</H1>
+    <B>Aur Saraf</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20A%20half%20baked%20vision&In-Reply-To=%3Cf8c47620805021935y55cdfa84gb67257bfad18d6cd%40mail.gmail.com%3E"
+       TITLE="[Start] A half baked vision">sonoflilit at gmail.com
+       </A><BR>
+    <I>Fri May  2 22:35:01 EDT 2008</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="008999.html">[Start] Peer to Peer Architecture
+</A></li>
+        <LI>Next message (by thread): <A HREF="008955.html">[Start] A half baked vision
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE> * I only care about the software we build. Any philosophy-of-politics
+discussion right now is meaningless as the masses will decide that the
+moment we make the tools available, and what they do WILL surprise all
+of us, if we judge based on the experience of any social application
+of the web to date
+
+ * I don't really like the division you guys are thinking up to
+geographic and topical boards. I think one huge lawbook can hold all
+the legislation for the planet, with tagging making it easier for
+someone to keep track of just legislation relevant to his town or
+hobby.
+
+ * I'm still thinking about scoring systems. I'm not sure there's
+reason for users to have a personal score - it doesn't make much
+sense, in fact, to have someone's vote count more just because other
+people liked his suggestions. Maybe the only &quot;score&quot; should be that
+given to branches of a proposed law, and that used to decide when and
+which branch and revision get merged to the &quot;release&quot; branch. Maybe
+also rating comments, but using those ratings just for deciding which
+comments to display in the client, not for any math that matters to
+the mechanics of lawmaking. An alternative would be that every time I
+vote up someone's comment in a law tagged &quot;UK&quot;, &quot;Manchester&quot; and
+&quot;restaurant&quot; his rankings in these three tags would be affected
+accordingly, as well as his &quot;generic&quot; ranking, and if he does not yet
+have a ranking relating to a certain legislation, a fraction of his
+generic rating would be used by default until he gets one.
+
+ * When thinking about the software, I strive in this order for:
+   * Simplicity of the interface
+   * Flexibility of the interface
+   * Flexibility of the data model
+
+ * I base my design very closely on DRCSs, and use their terminology -
+revision, branch, commit log... you should try working with one before
+you read this or you'll need much googling
+
+The data model would be a directory structure of plaintext files under
+revision control by a tool like git that allows very cheap branching
+and advanced merging.
+
+In the legislations directory you'd have one text file per proposed
+law (of course, in the &quot;release&quot; branch there would only be those of
+accepted versions of laws).
+This text file would contain a lightly-marked-up law. There would be
+markup for a comment box.
+At first I thought about markup for user-id and crypto-sig for every
+sequence of text, but then I realised:
+1) It would work for comments, since they are not meant to be edited,
+but for legislation - say I write a sentence, sign it, then you fix a
+typo, my sig is now unverifiable in the latest revision
+2) The data is already there in the revision history, so instead of
+duplicating data, lets have the client traverse the whole history when
+it displays a file, and remember what was written by whom (and verify
+the crypto signatures which would be given in the commit log)
+On second thought,
+
+There would also be markup for voting, that is comprised of a line
+containing SSN of voter, rank given by voter and a crypto signature of
+the string legislationname-branchname-revisionnumber-rankgiven. That
+means, of course, that a revision's initial score is that of the
+revision before it - which is in my opinion a correct behavior. We
+COULD have the engine reduce a tiny bit of score for each new
+revision, to make it harder to jump-on-the-bandwagon with a tiny
+change and have YOUR version selected over the one everyone voted for
+by merit of a handful votes.
+
+Special attention should be given to how legislations are tagged,
+since otherwise it would be easy to game the system - you branch an
+obscure legislation, tag it with a thousand tags, vote for it and have
+your friends do so too, and suddenly your score in so many tags is
+up...
+
+In the users directory you'd have one file per social security number
+of a user, with a plaintext templated file that has the user's
+rating(s), bio and userpage (like in wikipedia), perhaps also public
+key (should this be stored elsewhere? I haven't thought through the
+security aspects of this thoroughly).
+
+The interface would be a program that can do the pushing-pulling of
+data to/from other computers, could do the maths and calculate scores
+and decide when something is ripe for inclusion in &quot;release&quot; and
+automatically send it there, could verify all the crypto sig
+correctness and the integrity of all the data, could handle voting and
+could show a legislation tree as follows:
+ * at each moment it shows one revision. The text is color coded for
+different authors and hovering the mouse on a passage shows who wrote
+it and when. Comments can be folded and unfolded.
+ * a passage can be selected and its history summarized in a timeline
+that can be scrolled to quickly see how it had grown (animated)
+ * a tree is shown, similar to the timeline, that can be moved through
+to quickly and animatedly browse different revisions and branches of
+the legislation
+ * maybe there should be markers of fading visibility to indicate
+recently deleted passages
+ * one can start editing at any point and the interface will
+automatically crypto-sign the edit and submit it (of course, an easy
+option to first branch the legislation should exist)
+
+other features would be ability to browse user profiles and userpages
+and write there, but that is about the same things.
+
+
+This is it. There is no step four. I am astounded by how simple this
+all is once written down :) This makes me very happy, I thought it
+would be a much harder thing to implement. The math should be given
+thought that I didn't, but except for that my design probably works.
+
+ -- Aur
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="008999.html">[Start] Peer to Peer Architecture
+</A></li>
+	<LI>Next message (by thread): <A HREF="008955.html">[Start] A half baked vision
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

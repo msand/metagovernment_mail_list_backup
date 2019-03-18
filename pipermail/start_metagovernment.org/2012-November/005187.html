@@ -1,0 +1,201 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] (proposal) Plug-in framework design
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28proposal%29%20Plug-in%20framework%20design&In-Reply-To=%3C1353382732.fe880.28001%40out.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="013957.html">
+   <LINK REL="Next"  HREF="013992.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] (proposal) Plug-in framework design</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20%28proposal%29%20Plug-in%20framework%20design&In-Reply-To=%3C1353382732.fe880.28001%40out.zelea.com%3E"
+       TITLE="[MG] (proposal) Plug-in framework design">mike at zelea.com
+       </A><BR>
+    <I>Mon Nov 19 22:40:54 EST 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="013957.html">[MG] The Little Horse from Athens
+</A></li>
+        <LI>Next message (by thread): <A HREF="013992.html">[MG] (proposal) Plug-in framework design
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>This is a design proposal for a prototype of the plug-in framework.
+
+    Name     Metagovernment plug-in framework
+    Trunk    <A HREF="http://hg.tuxfamily.org/metagov/plug/">http://hg.tuxfamily.org/metagov/plug/</A>  (to be created)
+    License  MIT
+    Stage    Prototype, might be throw-away
+
+
+Runtime components
+------------------
+The framework is composed of JavaScript that is loaded into the page
+being viewed by the user.  It is initially coded as plain JavaScript,
+without commiting to a platform such as jQuery or GWT (so keeping it
+as open as possible to new developers).  The main components are:
+
+    Introductory toolset
+
+        A toolset that introduces the framework.  This is the default.
+        Its implementation has yet to be agreed.  Meantime it will
+        render as a banner that is empty of content except for a
+        switch view.
+
+    Switch
+
+        Mechanism for setting the toolset as preferred by the user.
+        The switch state is backed by the browser's HTML5 local store.
+        If the browser has none, then the switch is disabled and
+        locked in the default position (introductory toolset).
+
+    Switch view
+
+        The user interface of the switch.  It will probably look like
+        this initially, at least till we can mock up and agree on
+        something nicer:
+
+            0. Off
+          * 1. Introduction
+            2. Votorola
+
+                    (close)
+
+        The user clicks to choose.  The &quot;off&quot; choice is temporarily
+        disabled (greyed out) pending demand.  The &quot;close&quot; link only
+        appears when the user has explicitly summoned the view, not
+        when the view is incorporated in the introductory toolset.
+
+
+Configuration
+-------------
+The configuration is mostly in the wiki.  It consists of:
+
+    Toolset category
+
+        Category page, to which all toolset pages belong.
+
+    Toolset page
+
+        One for each toolset.  It records the following information
+        which (for now) is manually transcribed into the switch code.
+
+            title - informal name shown on switch view
+
+            wikiLauncher - URL of script for launching the toolset in
+               the context of a wiki page.  (there'll be other
+               contexts later)
+
+    Toolset registry
+
+        Page listing toolsets by page name.  It is manually
+        transcribed into the switch code.
+
+
+Functions
+---------
+
+    Launch
+
+        The toolset launcher is executed at load time before the parse
+        of the document is complete.  The steps are:
+
+            1. Read switch, yielding chosen toolset.
+
+            2. Write script element for toolset launcher.  It may be
+               written to the head or body (indefinite).
+
+    Switch
+
+        If the switch is not visible, then the user must summon it.
+        In Votorola this will entail hovering the mouse at top right
+        of the link track (over a small triangle) to expose a button,
+        then clicking on the button to display the switch.
+
+        For newcomers, the switch will normally be visible as part of
+        the introductory &quot;toolset&quot;.  When the switch is visible:
+
+            1. Receive user's click on chosen toolset.
+
+            2. Set switch state accordingly.
+
+            3. Reload page, launching chosen toolset.
+
+            4. Ensure the switch view is shown again in the same
+               location.
+
+        The user may continue switching, or move on to other things.
+
+
+Comments
+--------
+In plain JavaScript it'll be a little slower to code.  Still not more
+than 10 man days for the first cut, or (for me) 30 calendar days.
+
+Can anyone foresee problems?  Or would anyone else like to code it?
+If not, then I can probably start on it myself in a few days.
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="013957.html">[MG] The Little Horse from Athens
+</A></li>
+	<LI>Next message (by thread): <A HREF="013992.html">[MG] (proposal) Plug-in framework design
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

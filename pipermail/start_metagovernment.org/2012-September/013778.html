@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Spambots in the wiki
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Spambots%20in%20the%20wiki&In-Reply-To=%3CBDECDB5B-0B88-45EE-8105-C64344895FE7%40metagovernment.org%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="004990.html">
+   <LINK REL="Next"  HREF="013779.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Spambots in the wiki</H1>
+    <B>Ed Pastore</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Spambots%20in%20the%20wiki&In-Reply-To=%3CBDECDB5B-0B88-45EE-8105-C64344895FE7%40metagovernment.org%3E"
+       TITLE="[MG] Spambots in the wiki">epastore at metagovernment.org
+       </A><BR>
+    <I>Mon Sep 24 21:46:07 EDT 2012</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="004990.html">[MG] Spambots in the wiki
+</A></li>
+        <LI>Next message (by thread): <A HREF="013779.html">[MG] Spambots in the wiki
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Thanks for keeping on top of it, Michael. I have been buried in several things recently.
+
+I added this to LocalSettings:
+
+
+## 2012-09-24 ED ADDED as per
+## <A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/2012-September/004990.html">http://metagovernment.org/pipermail/start_metagovernment.org/2012-September/004990.html</A>
+require_once( &quot;{$IP}/extensions/TitleBlacklist/TitleBlacklist.php&quot; );
+$wgTitleBlacklistSources = array(
+    array(
+         'type' =&gt; TBLSRC_LOCALPAGE,
+         'src'  =&gt; 'MediaWiki:Titleblacklist',
+    ),
+    array(
+         'type' =&gt; TBLSRC_URL,
+         'src'  =&gt; '<A HREF="http://meta.wikimedia.org/w/index.php?title=Title_blacklist&amp;action=raw">http://meta.wikimedia.org/w/index.php?title=Title_blacklist&amp;action=raw</A>',
+    ),
+);
+
+
+I left in the external URL since it seemed harmless. I haven't had time to figure out the regex for the local blacklist file at
+<A HREF="http://www.metagovernment.org/wiki/MediaWiki:Titleblacklist">http://www.metagovernment.org/wiki/MediaWiki:Titleblacklist</A>
+Please feel free. :)
+
+But I did add in the content from:
+<A HREF="http://www.mediawiki.org/wiki/MediaWiki:Titleblacklist">http://www.mediawiki.org/wiki/MediaWiki:Titleblacklist</A>
+
+
+I haven't added Extension:ConfirmAccount. We already have a lot of barriers to participation, and I'd like to avoid adding yet another. Plus adding it would give us a big approval log to deal with. If we block usernames ending in a number, I think we'll cut out the vast majority, no?
+
+
+P.S. Here's Version:
+<A HREF="http://www.metagovernment.org/wiki/Special:Version">http://www.metagovernment.org/wiki/Special:Version</A>
+
+
+
+On Sep 24, 2012, at 11:47 AM, Michael Allan wrote:
+
+&gt;<i> Hi Ed,
+</I>&gt;<i> 
+</I>&gt;<i> We're getting hammered lately.
+</I>&gt;<i> <A HREF="http://metagovernment.org/w/index.php5?title=Special%3ALog&amp;type=block">http://metagovernment.org/w/index.php5?title=Special%3ALog&amp;type=block</A>
+</I>&gt;<i> 
+</I>&gt;<i> The pattern of usernames and content is similar indicating a single
+</I>&gt;<i> spambot.  Possible solutions: (1) disallow usernames ending in
+</I>&gt;<i> numbers: <A HREF="http://www.mediawiki.org/wiki/Extension:TitleBlacklist">http://www.mediawiki.org/wiki/Extension:TitleBlacklist</A>
+</I>&gt;<i> 
+</I>&gt;<i> (2) Require approval for all new accounts:
+</I>&gt;<i> <A HREF="http://www.mediawiki.org/wiki/Extension:ConfirmAccount">http://www.mediawiki.org/wiki/Extension:ConfirmAccount</A>
+</I>&gt;<i> 
+</I>&gt;<i> Best might be a combination (1, 2) in which only suspicious usernames
+</I>&gt;<i> required approval.  Not sure this is possible.
+</I>&gt;<i> 
+</I>&gt;<i> -- 
+</I>&gt;<i> Michael Allan
+</I>&gt;<i> 
+</I>&gt;<i> Toronto, +1 416-699-9528
+</I>&gt;<i> <A HREF="http://zelea.com/">http://zelea.com/</A>
+</I>&gt;<i> 
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Start : a mailing list of the Metagovernment project
+</I>&gt;<i> <A HREF="http://www.metagovernment.org/">http://www.metagovernment.org/</A>
+</I>&gt;<i> Post to the list: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Start at metagovernment.org</A>
+</I>&gt;<i> Manage subscription: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">http://metagovernment.org/mailman/listinfo/start_metagovernment.org</A>
+</I>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="004990.html">[MG] Spambots in the wiki
+</A></li>
+	<LI>Next message (by thread): <A HREF="013779.html">[MG] Spambots in the wiki
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

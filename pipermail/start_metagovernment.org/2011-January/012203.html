@@ -1,0 +1,351 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] StratML Interaction
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20StratML%20Interaction&In-Reply-To=%3C010f01cbb1f1%241d865a50%2458930ef0%24%40Ambur%40verizon.net%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="003415.html">
+   <LINK REL="Next"  HREF="012205.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] StratML Interaction</H1>
+    <B>Owen Ambur</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20StratML%20Interaction&In-Reply-To=%3C010f01cbb1f1%241d865a50%2458930ef0%24%40Ambur%40verizon.net%3E"
+       TITLE="[MG] StratML Interaction">Owen.Ambur at verizon.net
+       </A><BR>
+    <I>Tue Jan 11 19:38:59 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="003415.html">[MG] StratML Interaction
+</A></li>
+        <LI>Next message (by thread): <A HREF="012205.html">[MG] StratML Interaction
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Alex, since StratML is merely a data standard, it does not have interactive
+&quot;features&quot; per se, at least not in the sense that software applications do.
+However, as we incorporate more complexity into subsequent parts of the
+standard, we do want to consider additional elements and attributes
+supporting interactivity in software applications and services.
+
+ 
+
+In Part 1, for example, the &lt;Identifier&gt; elements associated with other
+elements can be used to enable persistent and, if GUIDs are used, globally
+unique referencing.  Here are a couple examples: 
+
+ 
+
+.        A Google query
+&lt;<A HREF="http://www.google.com/#sclient=psy&amp;hl=en&amp;site=&amp;source=hp&amp;q=_7d87fdb6-142e-1">http://www.google.com/#sclient=psy&amp;hl=en&amp;site=&amp;source=hp&amp;q=_7d87fdb6-142e-1</A>
+1df-a454-3f207a64ea2a&amp;aq=&amp;aqi=&amp;aql=f&amp;oq=&amp;gs_rfai=&amp;pbx=1&amp;fp=7b989c6c17f79c85&gt;
+in which OMB is discoverable via its GUID in three different StratML files 
+
+.        Objective 2.B
+&lt;<A HREF="http://www.xml.gov/stratml/carmel/OMBwStyle.xml#_04d1b421-e00d-436e-8869-06">http://www.xml.gov/stratml/carmel/OMBwStyle.xml#_04d1b421-e00d-436e-8869-06</A>
+e8b22d3767&gt; , GPRA and GMRA, in OMB's strategic plan
+
+ 
+
+Applications and services can leverage the &lt;Identifier&gt;s to enable explicit
+referencing in providing input and feedback on goals and objectives, e.g.,
+by presenting renditions that have mailto links embedded and automatically
+inserting the goal/objective name in the subject line and a link in the text
+of the message.  On the receiving end, applications can automatically route
+input and feedback based upon the &lt;Identifier&gt;s of the goals/objectives to
+which it pertains.
+
+ 
+
+Applications and services can also:
+
+ 
+
+.        Apply semantic analysis to the text of goal and objective
+&lt;Description&gt;s to identify those that are similar and/or may be
+complementary and, thus, candidates for joint pursuit by potential
+performance partners.
+
+.        Leverage the &lt;Stakeholder&gt; element to provide value-added services
+to particular groups of stakeholders.
+
+.        Support each of the other purposes of the standard:
+
+ 
+
+o   Facilitate the sharing, referencing, indexing, discovery, linking,
+reuse, and analyses of the elements of strategic plans, including goal and
+objective statements as well as the names and descriptions of stakeholder
+groups and any other content commonly included in strategic plans. 
+
+o   Enable the concept of &quot;strategic alignment&quot; to be realized in literal
+linkages among goal and objective statements (leveraging the &lt;Identifier&gt;
+elements as well as the &lt;Relationship
+&lt;<A HREF="http://xml.gov/stratml/draft/StratMLGlossary.xml#Relationship">http://xml.gov/stratml/draft/StratMLGlossary.xml#Relationship</A>&gt; &gt; element of
+StratML Part 2) and all other records created by organizations in the
+routine course of their business processes. 
+
+o   Facilitate updating and maintenance of  discrete elements of strategic
+plans without requiring review and approval of the entire plan through
+bureaucratic channels, thereby helping to make the strategic planning
+process more agile and responsive to stakeholder feedback and changing
+circumstances, thus helping to overcome the tendency of strategic plans to
+become outdated &quot;shelfware&quot;. 
+
+o   Reduce the needless time, effort, inconsistencies, and delays associated
+with maintaining data redundantly in myriad &quot;stovepipe&quot; systems rather than
+referencing the authoritative sources.
+
+o   Enable agencies to comply with the provisions of subsections 202(b)(4)
+&lt;<A HREF="http://xml.gov/documents/completed/eGovXML.htm#202b">http://xml.gov/documents/completed/eGovXML.htm#202b</A>&gt; &amp; (5) and 207(d)
+&lt;<A HREF="http://xml.gov/documents/completed/eGovXML.htm#207d">http://xml.gov/documents/completed/eGovXML.htm#207d</A>&gt;  of the eGov Act,
+which respectively require agencies to: 
+
+o   Work together to link their performance goals to key groups, including
+citizens, businesses, and other governments, as well as internal Federal
+Government operations; and 
+
+o   Adopt open standards (e.g., StratML) enabling the organization and
+categorization of Government information in a way that is searchable
+electronically and interoperably across agencies. 
+
+Since StratML Part 2 still needs to be finalized as an ANSI/AIIM standard,
+we have not yet begun to consider Part 3.  However, whereas we have kept
+Parts 1 &amp; 2 as simple as possible, in Part 3 we will be free to begin to
+take on more complexity and, thus, more risk of failure as well as more
+potential for gain.  Some preliminary candidates for inclusion in Part 3 are
+outlined at <A HREF="http://xml.gov/stratml/index.htm#Part3">http://xml.gov/stratml/index.htm#Part3</A>    Now that Congress has
+given final passage to the GPRA Modernization Act
+&lt;<A HREF="http://xml.gov/stratml/references/HR2142.htm">http://xml.gov/stratml/references/HR2142.htm</A>&gt; , the data requirements that
+are implicit within it will also be high priorities for consideration in
+Part 3, particularly since section 10
+&lt;<A HREF="http://xml.gov/stratml/references/HR2142.htm#SEC10">http://xml.gov/stratml/references/HR2142.htm#SEC10</A>&gt;  of the Act requires
+agencies to publish their plans and reports in machine-readable formats,
+like StratML.
+
+ 
+
+As AIIM's StratML Committee  begins to consider Part 3, I hope that you and
+others will participate in helping to identify and specify additional
+elements and attributes that can add the greatest value, including support
+for the kind of interactivity that is required to make strategic and
+performance plans more meaningful to and productive for stakeholders.
+
+ 
+
+Owen
+
+ 
+
+From: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">start-bounces at metagovernment.org</A>
+[mailto:<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">start-bounces at metagovernment.org</A>] On Behalf Of Alex Rollin
+Sent: Tuesday, January 11, 2011 4:05 PM
+To: Metagovernment Project
+Subject: [MG] StratML Interaction
+
+ 
+
+Hi Owen,
+
+ 
+
+I was wondering if you could give us some detail about the interactive
+features of StratML.
+
+ 
+
+A lot of the Metagov projects are focused on the interaction between
+stakeholders of various types.
+
+ 
+
+I asked you a similar question about the newest and latest version of
+StratML that was just being approved, v2?  and I didn't really understand
+what you had planned for interaction.
+
+ 
+
+I've been considering the next steps in documenting the options that
+Votorola users have.  As I may have mentioned to you, I am interested in
+doing additional work to format the positions that are used in Votorola
+which might be considered a strategic plan, in many cases.  I have explored
+the MediaWiki semantic wiki options and seen some possibilities for
+exporting the positions in XML, which is neat, too.  Over time I expect to
+make more process, but in the mean time I wanted to ask you to inform us on
+what you are looking to support for commenting and feedback in StratML.
+
+ 
+
+There are several criteria that make Votorola special and near and dear to
+my heart and of course the bulk of this is due to Michael's deep study into
+the theory of communication and interaction, and how stuff gets done.
+
+ 
+
+As I mull over how to write this down in some way I was wondering what
+process you have in your mind for how Strategic Plans become a &quot;focus point&quot;
+for community and stakeholder action.
+
+ 
+
+Does one or more of the MetaGov projects come closer to what you have in
+mind?
+
+ 
+
+I imagine that you must be frustrated, sometimes, with the machine
+readability of the software here :)  In working with Michael the last year I
+have seen how much thought he is putting into his coding work, and I am sure
+the same is true for everyone else as well.  I think it'll come sooner
+rather than later, and we are still working on prototyping the basic
+services before we implement a data standard for the positions.   
+
+ 
+
+So, how will stakeholders interact around a StratML plan in this and later
+versions?  Will they be commenting on particular objectives?  Contacting
+particular stakeholders?  Are you planning on offering some form of
+notification standard that delivers comments on a plan back to the public as
+well, so that these comments can then be seen by others?  Will there be a
+requirement for notifications, so that stakeholders can receive
+notifications of comments on their or other objectives?
+
+--
+Alex
+werk: <A HREF="http://commoning.net">http://commoning.net</A>
+me: <A HREF="http://alexrollin.com">http://alexrollin.com</A>
+mob: +31 (0) 6 31 56 96 88
+&quot;It's no longer possible for a country to collapse in isolation. Now we all
+collapse.  The only path to stability is to equalize the consumption rates
+of the first and developing world. Our dream is no longer possible in the
+new world.&quot; - Jared Diamond
+
+
+
+
+On Tue, Jan 11, 2011 at 9:45 PM, Owen Ambur &lt;<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Owen.Ambur at verizon.net</A>&gt; wrote:
+
+Thanks for the pointer, Alex.  The request is now in StratML format at
+<A HREF="http://xml.gov/stratml/drybridge/index.htm#DOS">http://xml.gov/stratml/drybridge/index.htm#DOS</A> or, more specifically,
+<A HREF="http://xml.gov/stratml/carmel/IFPwStyle.xml">http://xml.gov/stratml/carmel/IFPwStyle.xml</A> 
+
+ 
+
+While they are not all 501(c)(3) organizations, perhaps a qualifying
+cosponsor might be found among those listed at
+<A HREF="http://xml.gov/stratml/drybridge/index.htm#Nonprofits">http://xml.gov/stratml/drybridge/index.htm#Nonprofits</A> 
+
+ 
+
+Among the purposes of the StratML standard is to facilitate the discovery of
+potential performance partners:
+<A HREF="http://xml.gov/stratml/index.htm#DefinitionPurposes">http://xml.gov/stratml/index.htm#DefinitionPurposes</A>  However, tools,
+applications, and services are needed to leverage StratML documents in
+support of those purposes.
+
+ 
+
+BTW, I have been encouraging IRS to enable tax-exempt charitable
+organizations to document their missions, visions, values, goals,
+objectives, and stakeholders on their own websites in StratML format.
+Section 10 &lt;<A HREF="http://xml.gov/stratml/references/HR2142.htm#SEC10">http://xml.gov/stratml/references/HR2142.htm#SEC10</A>&gt;  of the new
+GPRA Modernization Act (GMA) requires U.S. federal agencies to publish their
+strategic and performance plans and reports in machine-readable formats
+(like StratML).  &quot;Tax-expeditures&quot; (such as deductions attributable to
+donations to qualified charities) are referenced five times in the Act.  So
+it will be necessary for agencies to estimate the amount of tax revenue not
+collected due to donations to charities pursuing objectives that complement
+those of the agencies themselves.  Rendering the plans of .gov agencies and
+tax-exempt charities in StratML format will facilitate compliance with this
+new provision of law.  The data requirements associated with the GMA will be
+prime topics of consideration in StratML Part 3
+&lt;<A HREF="http://xml.gov/stratml/index.htm#Part3">http://xml.gov/stratml/index.htm#Part3</A>&gt; .
+
+ 
+
+Owen
+
+ 
+
+From: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">start-bounces at metagovernment.org</A>
+[mailto:<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">start-bounces at metagovernment.org</A>] On Behalf Of Alex Rollin
+Sent: Tuesday, January 11, 2011 12:29 PM
+To: Metagovernment Project
+Subject: [MG] Grants from US Dept. of State
+
+ 
+
+Do we lack of a US 501c3 sponsor?
+
+ 
+
+<A HREF="http://www.state.gov/g/drl/p/127829.htm">http://www.state.gov/g/drl/p/127829.htm</A>
+
+ 
+
+Grants for internet projects that defy censorship.
+
+ 
+
+Isn't voting in self-defining networks something that should defy
+censorship?
+
+--
+Alex
+werk: <A HREF="http://commoning.net">http://commoning.net</A>
+me: <A HREF="http://alexrollin.com">http://alexrollin.com</A>
+mob: +31 (0) 6 31 56 96 88
+&quot;It's no longer possible for a country to collapse in isolation. Now we all
+collapse.  The only path to stability is to equalize the consumption rates
+of the first and developing world. Our dream is no longer possible in the
+new world.&quot; - Jared Diamond
+
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+<A HREF="http://www.metagovernment.org/">http://www.metagovernment.org/</A>
+Post to the list: <A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">Start at metagovernment.org</A>
+Manage subscription:
+<A HREF="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">http://metagovernment.org/mailman/listinfo/start_metagovernment.org</A>
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20110111/ee804c04/attachment-0002.html">http://metagovernment.org/pipermail/start_metagovernment.org/attachments/20110111/ee804c04/attachment-0002.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="003415.html">[MG] StratML Interaction
+</A></li>
+	<LI>Next message (by thread): <A HREF="012205.html">[MG] StratML Interaction
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

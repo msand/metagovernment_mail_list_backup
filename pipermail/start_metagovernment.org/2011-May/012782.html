@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Wiki
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Wiki&In-Reply-To=%3C20110525074054.GB5901%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012773.html">
+   <LINK REL="Next"  HREF="003940.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Wiki</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Wiki&In-Reply-To=%3C20110525074054.GB5901%40havoc.zelea.com%3E"
+       TITLE="[MG] Wiki">mike at zelea.com
+       </A><BR>
+    <I>Wed May 25 03:40:54 EDT 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012773.html">[MG] Wiki
+</A></li>
+        <LI>Next message (by thread): <A HREF="003940.html">[MG] Update about forum and prize issues
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ed Pastore wrote:
+&gt;<i> Michael Allan wrote:
+</I>&gt;<i> &gt; I meant that Metagov would probably be restricted to a single area
+</I>&gt;<i> &gt; in the pollwiki: <A HREF="http://u.zelea.com/w/Site:List_of_areas">http://u.zelea.com/w/Site:List_of_areas</A>
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; Metagov content then would be stored as subpages of the area page.
+</I>&gt;<i> &gt; Assuming area name 'M', the pages would be named M/this and M/that.
+</I>&gt;<i> &gt; See for example how Toronto's pages are named:
+</I>&gt;<i> &gt; <A HREF="http://u.zelea.com/w/Special:PrefixIndex/Tor">http://u.zelea.com/w/Special:PrefixIndex/Tor</A>
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; The only pages sitting at top level in a multi-area wiki are the area
+</I>&gt;<i> &gt; pages themselves: <A HREF="http://u.zelea.com/w/Category:Area">http://u.zelea.com/w/Category:Area</A>
+</I>&gt;<i> 
+</I>&gt;<i> But there also needs to be &quot;meta&quot;content which is outside the scope of  
+</I>&gt;<i> the issue-related content: something that helps orient people to the  
+</I>&gt;<i> site when they first visit it. Could you flip the idea, and have all  
+</I>&gt;<i> of the area pages inside a directory and all related content in sub- 
+</I>&gt;<i> directories of that?
+</I>
+Unfortunately no.  A multi-area pollwiki is a logical stand-in for
+multiple wikis.  If we allowed meta-content, then it would seem to
+take priority over area content.  If an area admin disagreed with the
+meta-content, then he'd be tempted to decamp and set up a pollwiki of
+his own.  We can't support that yet and don't want to spend time on it
+till it's crucial, so we came up with the idea of a strictly neutral,
+multi-area pollwiki, just as a stopgap.  More here:
+<A HREF="http://zelea.com/project/outcast/dep.xht">http://zelea.com/project/outcast/dep.xht</A>
+
+&gt;<i> Neither that nor your solution sounds very elegant. Are you  
+</I>&gt;<i> envisioning merging the two wikis? Couldn't they exist side-by-side?
+</I>
+Definitely.  A pollwiki is a user-editable database of polling data
+and related content.  It may contain non-polling content too, but only
+if that makes sense and is convenient.  The best arrangement for
+Metagov is probably:
+
+  a) Ordinary content in ordinary wiki.
+
+  b) Polling related data/content in an area of the common pollwiki.
+
+Later Metagov can go independent if necessary by upgrading the
+ordinary wiki into a pollwiki proper (semantic extensions etc.) and
+migrating the polling data/content across.  You'd have to deploy your
+own cluster of vote-servers too, so this is no small operation.  See:
+<A HREF="http://zelea.com/project/outcast/dep.xht#mul">http://zelea.com/project/outcast/dep.xht#mul</A>
+
+&gt;<i> &gt; BTW - Ed, I noticed that you're fighting vandalism in the wiki again.
+</I>&gt;<i> &gt; I'm not sure, but one thing to try (temporarily as needed) might be:
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt;  $wgEmailConfirmToEdit = true;
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; <A HREF="http://www.mediawiki.org/wiki/Manual:$wgEmailConfirmToEdit">http://www.mediawiki.org/wiki/Manual:$wgEmailConfirmToEdit</A>
+</I>&gt;<i> 
+</I>&gt;<i> I'm somewhat reluctant to further raise the barriers to participation.  
+</I>&gt;<i> As it is, contributors must register and pass a captcha. The people  
+</I>&gt;<i> who are still passing those barriers might not be hindered by an e- 
+</I>&gt;<i> mail requirement. I'm open to ideas...
+</I>
+The pollwiki requires new registrants to enter their email addresses
+and we never really get attacked.  Maybe that's just because we're off
+the beaten path, but it definitely complicates things for an attacker
+if he needs a bona-fide email address.  Still I agree, I'd only raise
+the barriers temporarily in response to attacks, and only as high as
+needed.
+
+Another possible method is to temporarily block edits from users who
+aren't &quot;autoconfirmed&quot;.  Ordinary users will already be autoconfirmed.
+This probably only works if the attackers strike soon after
+registering, because I think autoconfirmation is based on a timer.
+And it's a little trickier to set up.
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012773.html">[MG] Wiki
+</A></li>
+	<LI>Next message (by thread): <A HREF="003940.html">[MG] Update about forum and prize issues
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

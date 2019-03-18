@@ -1,0 +1,170 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Starting e-democracy: What next?
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Starting%20e-democracy%3A%20What%20next%3F&In-Reply-To=%3C20100515203617.GA4790%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="011596.html">
+   <LINK REL="Next"  HREF="011608.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Starting e-democracy: What next?</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Starting%20e-democracy%3A%20What%20next%3F&In-Reply-To=%3C20100515203617.GA4790%40havoc.zelea.com%3E"
+       TITLE="[MG] Starting e-democracy: What next?">mike at zelea.com
+       </A><BR>
+    <I>Sat May 15 16:36:17 EDT 2010</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="011596.html">[MG] Identity in the Cloud
+</A></li>
+        <LI>Next message (by thread): <A HREF="011608.html">[MG] Starting e-democracy: What next?
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>We now have a voter registry that's technically functional.  It's
+ready for sharing among multiple projects, voting sites, and so forth.
+(See details at bottom.)  What other facilities are needed in order to
+start e-democracy?  If we coded them, how would you use them?
+
+I'm assuming everyone would agree that e-democracy hasn't happened
+yet, and that the missing ingredients are the technical facilities.
+(People can already do the &quot;democracy&quot; part, they only need the &quot;e-&quot;
+part.)  So what exactly is missing?  If you had it, how would you go
+about starting e-democracy?
+
+I'm only a tool developer, so I ask for your help.
+Best to all,
+-- 
+Michael Allan
+
+Toronto, +1 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+RESIDENTIAL REGISTRY (2a-c)
+===========================
+Reposted from <A HREF="http://groups.google.com/group/votorola/t/fa41aa4918dddaa6">http://groups.google.com/group/votorola/t/fa41aa4918dddaa6</A>
+
+This task is largely complete, except for the last item (2d).
+<A HREF="http://u.zelea.com/w/User:Mike-ZeleaCom/G/p/frvp#Residential_registry">http://u.zelea.com/w/User:Mike-ZeleaCom/G/p/frvp#Residential_registry</A>
+
+This is mostly technical infrastructure.  It gives us a functional
+prototype of a voter register that's ready for sharing with other
+clients.  Votorola's pollserver is the reference client, but others
+have equal access to the same registration data.  Details:
+
+2a) Compiling voter lists
+-------------------------
+  The latest register for each local area is posted here.  If your
+  area in the wiki has registrants, they'll show up here:
+  <A HREF="http://u.zelea.com/system/host/u/home/v/votorola/out/votrace/">http://u.zelea.com/system/host/u/home/v/votorola/out/votrace/</A>
+
+  For each registrant, it tells:
+  * Where he/she lives, postal code, electoral districts, etc.
+  * The level of trust at which this data is authenticated
+
+  Pollservers may use these registers to compile their voter lists,
+  exactly as Votorola does.
+
+2b) Enforcing voter eligibility based on divisions
+--------------------------------------------------
+  Here's a riding (electoral district) in which only local registrants
+  are entitled to vote:
+  <A HREF="http://u.zelea.com/w/Tor/riding/Trinity-Spadina">http://u.zelea.com/w/Tor/riding/Trinity-Spadina</A>
+
+  Here's a voter who has registered to vote in that riding:
+  <A HREF="http://u.zelea.com/w/User:Mike-ZeleaCom">http://u.zelea.com/w/User:Mike-ZeleaCom</A>
+
+  Divisional restrictions like this may be configured to cover any
+  geo-political area of residence (city-wide, state-wide, etc). More
+  information: <A HREF="http://u.zelea.com/w/Property:Division">http://u.zelea.com/w/Property:Division</A>
+
+  Try it out.  You can't vote here unless you're locally registered:
+  <A HREF="http://u.zelea.com:8080/v/w/Votespace?p=Tor!p!tsmp">http://u.zelea.com:8080/v/w/Votespace?p=Tor!p!tsmp</A>
+
+2c) Enforcing voter eligibility based on trust
+----------------------------------------------
+
+  Here's a poll that's restricted to voters who are authenticated to a
+  trust level of 1: <A HREF="http://u.zelea.com/w/G/p/vohall">http://u.zelea.com/w/G/p/vohall</A>
+
+  Here are some trusted voters:
+  <A HREF="http://u.zelea.com/w/User:ThomasvonderElbe_GmxDe">http://u.zelea.com/w/User:ThomasvonderElbe_GmxDe</A>
+  <A HREF="http://u.zelea.com/w/User:Mike-ZeleaCom">http://u.zelea.com/w/User:Mike-ZeleaCom</A>
+
+  More information: <A HREF="http://u.zelea.com/w/Property:Trust_level">http://u.zelea.com/w/Property:Trust_level</A>
+
+  Try it out.  You need level 1 to vote here:
+  <A HREF="http://u.zelea.com:8080/v/w/Votespace?p=G!p!vohall">http://u.zelea.com:8080/v/w/Votespace?p=G!p!vohall</A>
+
+2d) Policing the voter registry
+-------------------------------
+
+  This part isn't ready yet.  We still need layouts of streets etc. so
+  neighbours can detect local sock puppets:
+  <A HREF="http://metagovernment.org/wiki/Streetwiki#Policing_for_local_sock_puppets">http://metagovernment.org/wiki/Streetwiki#Policing_for_local_sock_puppets</A>
+
+  Meantime, all we have for policing is rudimentary browsing of the
+  trust network.  For example, to see who's trusting Thomas:
+
+    <A HREF="http://u.zelea.com/w/Special:Browse/User:ThomasvonderElbe-20GmxDe">http://u.zelea.com/w/Special:Browse/User:ThomasvonderElbe-20GmxDe</A>
+
+  The trust sources are listed at top left.  Browse to any of them by
+  clicking on the round icon.  For example:
+
+    <A HREF="http://u.zelea.com/w/Special:Browse/User:Mike-2DZeleaCom">http://u.zelea.com/w/Special:Browse/User:Mike-2DZeleaCom</A>
+
+  Trust *destinations* are listed at bottom right.
+
+Other changes
+-------------
+
+* The front page of the server now links to the compiled data exports
+  (poll counts, voter registers, etc): <A HREF="http://u.zelea.com:8080/v/w/">http://u.zelea.com:8080/v/w/</A>
+
+* Configuration changes made in the wiki (poll titles, eligibility
+  criteria, trust signatures, and so forth) now automatically find
+  their way to the pollserver within a few hours.  If you don't want
+  to wait, you can force an immediate refresh (only for a poll).  For
+  example: <A HREF="http://u.zelea.com:8080/v/w/Poll?p=Sys!p!sandbox">http://u.zelea.com:8080/v/w/Poll?p=Sys!p!sandbox</A>
+
+That's all.  Please report any bugs you see.
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="011596.html">[MG] Identity in the Cloud
+</A></li>
+	<LI>Next message (by thread): <A HREF="011608.html">[MG] Starting e-democracy: What next?
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

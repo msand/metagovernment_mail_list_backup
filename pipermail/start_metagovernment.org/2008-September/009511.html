@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Google Moderator
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Google%20Moderator&In-Reply-To=%3C48DEB877.4050304%40composent.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="009510.html">
+   <LINK REL="Next"  HREF="009513.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Google Moderator</H1>
+    <B>Scott Lewis</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Google%20Moderator&In-Reply-To=%3C48DEB877.4050304%40composent.com%3E"
+       TITLE="[Start] Google Moderator">slewis at composent.com
+       </A><BR>
+    <I>Sat Sep 27 18:49:27 EDT 2008</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="009510.html">[Start] Google Moderator
+</A></li>
+        <LI>Next message (by thread): <A HREF="009513.html">[Start] Google Moderator
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi Rob,
+
+I want to give some replies to your assertions about App Engine...as 
+I've used it some now, and so have some idea of what it does/doesn't do 
+as well as what Google is doing with it (at least so far).
+
+Rob Peters wrote:
+&gt;<i> Google's App Engine is very similar to Django.  In fact, Django can be 
+</I>&gt;<i> used with App Engine with only some conversion.  So, I believe it 
+</I>&gt;<i> would be possible to design your application to use Django and deploy 
+</I>&gt;<i> it on App Engine with a minimum of fuss.  This would allow us to use 
+</I>&gt;<i> App Engine's load-balancing and scaling architecture with the 
+</I>&gt;<i> possibility of pulling out and deploying a Django web-site at the cost 
+</I>&gt;<i> of converting the data models.
+</I>
+Yes...it is possible to use Django (at least parts of it) and deploy 
+something on App Engine.  BUT, you have to be a little bit careful about 
+what parts of Django you use for this to be a smooth transition.  So, 
+for example, using Django's templating system will convert easily, but 
+using Django's db/query API will not (because Google's db API is 
+different).  Perhaps this is what you were referring to WRT converting 
+data models, but I'm not certain.
+
+&gt;<i>
+</I>&gt;<i> However, I don't think App Engine is worth it for 2 reasons: 1. You 
+</I>&gt;<i> can't upload files.  
+</I>
+You can use binary large objects and/or large text in their db...which 
+could be used to store files.  But there are limits on the amount of 
+data (for free usage anyway).
+
+&gt;<i> 2. App Engine's greatest features (load-balancing and unlimited 
+</I>&gt;<i> scaling) are problems we don't have yet.  Django hosting can be had 
+</I>&gt;<i> for $10 a month on a no-contract basis, and for considerably less if 
+</I>&gt;<i> you're willing to pay for a year in advance.
+</I>
+Another thing to consider here is the application deploy and 
+administration...which for App Engine is quite good IMHO.  I don't know 
+anything about how well/what Django does in this area.
+
+&gt;<i> I really think App Engine appeals to people in the same way that 
+</I>&gt;<i> people dream of being a rock star.  Musicians worry about getting 
+</I>&gt;<i> signed to a record label and then they figure they will make 
+</I>&gt;<i> millions.  But in truth, most musicians will never make any money from 
+</I>&gt;<i> their work.  But the dream drives them on.  
+</I>
+Huh?  This is sort of a strange thing to say IMHO.  In my view as a 
+professional developer for &gt; 20 years the App Engine technology is 
+good......the service is good (so far), and clearly people are doing 
+some interesting applications with it (both Google and others).  And 
+it's free...admittedly for limited usage, but they are probably just 
+keeping their commercial options open with something that is very new 
+(April this year).  I would doubt *very* strongly that they would 
+arbitrarily close down an application created by a not-for-profit for 
+public usage...unless the application was clearly objectionable on its face.
+
+&gt;<i> Google says to people, &quot;when you hit it big, we'll be there to make 
+</I>&gt;<i> sure your web site scales.&quot;  In truth,  most people's websites will 
+</I>&gt;<i> never hit it big, most sites will not get slashdotted, and I'm willing 
+</I>&gt;<i> to bet that 99% of all App Engine sites will never require any scaling 
+</I>&gt;<i> beyond what's available with the most basic of web hosting.  
+</I>
+Perhaps so (apps won't require scaling)...but what's your point?  I 
+would guess that 99% of all web sites also don't require scaling (and 
+could run from my laptop and DSL line).  But if you can have it (serious 
+scaling) for free, why would that be a problem?...as it seems that have 
+support for something that can scale...especially for something that 
+aspires to be available/used by the voting public (a large group) and/or 
+other groups.
+
+&gt;<i> We have some mountains to climb with Metagovernment, but scaling 
+</I>&gt;<i> issues of our web application is not one of them.  And it may never be 
+</I>&gt;<i> one of them.
+</I>
+If there's little hope of your service being used by more than only a 
+few people, then why are you doing it?  You are right that most apps 
+never get used by as many people as intended/desired by the 
+creators...but that doesn't mean you design it to be used by 10 people, 
+does it?
+
+&gt;<i> Why sacrifice essential privacies and freedoms for a benefit we don't 
+</I>&gt;<i> know we need?
+</I>
+What essential privacies and freedoms are being sacrificed?  I don't see 
+what is being sacrificed here.  Yes, Google has a use agreement...which 
+is probably in place mostly to protect the company from lawsuits.  And 
+yes they are a commercial entity...but you might notice that (as an 
+example), the Google Moderator app was created by some Google employees 
+in their 20% time...i.e. the time the company gives its employees to use 
+working on whatever they want.  And more than once they have deployed 
+new technologies with little idea of what/whether it would generate any 
+revenue.
+
+&gt;<i>
+</I>&gt;<i> I think we should rather prefer the freedom of web hosting where we 
+</I>&gt;<i> know the host is not combing our data, 
+</I>
+Personally, I think this is way too paranoid.  There is no evidence that 
+Google does this, or has any intention of doing it.  And actually 
+there's plenty of evidence of the opposite (i.e. that they don't do it 
+and have no intention of doing it).
+
+&gt;<i> where we can build the Django application any way we like, where we 
+</I>&gt;<i> can move that application to another host at a moment's notice and 
+</I>&gt;<i> have no down time, where anyone can sign up.  
+</I>
+You seem to imply that some people can't sign up for a Google App Engine 
+app.  This is not the case (each app has it's own user db...and that's 
+not based upon one's gmail account).
+
+&gt;<i> All for $84 a year.  Money well spent, in my opinion.
+</I>
+Well, the 'freedom' to move the application to another host/hosts does 
+have some value, but in my opinion you are overstating that value, 
+overstating what is given up by using the App Engine (i.e. the privacy 
+concerns), and understating the value of scaling and admin/deploy support.
+
+Regards,
+
+Scott
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="009510.html">[Start] Google Moderator
+</A></li>
+	<LI>Next message (by thread): <A HREF="009513.html">[Start] Google Moderator
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

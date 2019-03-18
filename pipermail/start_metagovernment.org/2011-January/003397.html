@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Decorating the bite feed - coding plan
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Decorating%20the%20bite%20feed%20-%20coding%20plan&In-Reply-To=%3C20110110090930.GA15086%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012219.html">
+   <LINK REL="Next"  HREF="012188.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Decorating the bite feed - coding plan</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Decorating%20the%20bite%20feed%20-%20coding%20plan&In-Reply-To=%3C20110110090930.GA15086%40havoc.zelea.com%3E"
+       TITLE="[MG] Decorating the bite feed - coding plan">mike at zelea.com
+       </A><BR>
+    <I>Mon Jan 10 04:09:30 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012219.html">[MG] Open Society Fellowship
+</A></li>
+        <LI>Next message (by thread): <A HREF="012188.html">[MG] Decorating the bite feed - coding plan
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi Conseo,
+
+Here's my plan for decorating the bites.  Whatever properties a
+particular feed puts into its bites (userID, pollID, and so forth)
+we'll ensure that it also puts in the properties needed by the
+currently displayed map.  (We already spoke briefly about this.)  So
+if the map is a geomap, then we'll decorate the bites with geospatial
+properties; if it's an x-map, then with x-properties; and so forth.
+This is for speed, of course.
+
+We need 3 basic facilities for the first cut:
+
+  1. A server-side bite factory that allows for the attachment of any
+     number of BiteDecorators (GeoDecorator, XDecorator, etc).  We can
+     easily do this, because our bites are generic hashmaps.
+
+  2. A server-side BiteServlet that takes in generic bites and outputs
+     JSON on the wire.
+
+  3. A client-side BiteFactory that takes in JSON and spits out
+     generic bites.
+
+What do you think?  Should I code these up and test them on the
+DummyFeed?  Meantime, you could focus on producing diff bites on the
+server and consuming them on the client side.  The piping in between
+should be entirely transparent to you.
+
+(BTW, If any other programmer is interested, each of these facilities
+ is a fairly self-contained job.  You could take one of them, if you
+ wished.)
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012219.html">[MG] Open Society Fellowship
+</A></li>
+	<LI>Next message (by thread): <A HREF="012188.html">[MG] Decorating the bite feed - coding plan
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

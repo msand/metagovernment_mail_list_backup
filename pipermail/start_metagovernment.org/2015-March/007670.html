@@ -1,0 +1,180 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] OpenDemocracy.fi and some related aspects to the common roadmap
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20OpenDemocracy.fi%20and%20some%20related%20aspects%20to%20the%20common%20roadmap&In-Reply-To=%3C5510518B.90604%40abo.fi%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="016460.html">
+   <LINK REL="Next"  HREF="016458.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] OpenDemocracy.fi and some related aspects to the common roadmap</H1>
+    <B>Mikael Sand</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20OpenDemocracy.fi%20and%20some%20related%20aspects%20to%20the%20common%20roadmap&In-Reply-To=%3C5510518B.90604%40abo.fi%3E"
+       TITLE="[MG] OpenDemocracy.fi and some related aspects to the common roadmap">msand at abo.fi
+       </A><BR>
+    <I>Mon Mar 23 13:46:51 EDT 2015</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="016460.html">[MG] Tracking (Applying) Progress
+</A></li>
+        <LI>Next message (by thread): <A HREF="016458.html">[MG] OpenDemocracy.fi and some related aspects to the common roadmap
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hello everyone involved in Metagovernment!
+
+This will be my first communication to the mailing list, so some 
+introduction probably maybe useful.
+Introduction
+
+tl;dr; I'm a computer scientist involved in e.g. the OpenDemocracy.fi 
+project
+
+I subscribed to this mailing list a few years back when we added 
+OpenDemocracy.fi to the Metagovernment list of projects. I was reading 
+every e-mail for some months (years?) and attempting to resolve the 
+major discussion topics in my mind and figure out some suitable 
+structure to attempt building and testing. At some point, the volume and 
+mess of the format became more than my life, studies, work and research 
+allowed for and I almost completely stopped reading the e-mails.
+
+Meanwhile, we built an open source range-voting (-100% to +100%) and 
+self proclaimed expert-trust range based representation for opinion 
+approximation. We did it as a project course in the university, and 
+wanted to experiment with technologies which we had no previous 
+experience with. So we built a prototype using Vaadin, Spring, Roo, 
+OpenId, OpenAuth, etc. At first we were four developers and we planned 
+the amount of work accordingly. After some time, two of the developers 
+had to leave because of some personal circumstances, and there we were, 
+two developers eagerly having planned far too much work, using 
+technology combinations which had too much learning curve given the 
+circumstances. The end result was a working system, but nothing we 
+wanted to show or tell about to people. It didn't feel fully usable nor 
+scalable.
+
+The models and concepts we had in use received support from e.g. Hannu 
+Nurmi, a local professor / expert in voting theory, systems, decision 
+and game theory etc. <A HREF="http://users.utu.fi/hnurmi/homepage/webpub.pdf">http://users.utu.fi/hnurmi/homepage/webpub.pdf</A>
+
+We also started a non-profit organization which exists to this day, but 
+hasn't had major activities recently. We also received some media 
+interest and the Finnish people seem very positive and open to the ideas 
+and concepts.
+
+I have a master of science degree with major in computer science and 
+minors in physics and mathematics. I wrote my master thesis on the topic 
+of &quot;Quantum Computation and Algorithms using Hilbert-spaces and the 
+Quantum Circuit Model&quot;. I have worked almost a year in the financial 
+industry with analyzing and visualizing data relating to the banks, 
+central banks, insurers, nations, currencies, securities and other 
+macro-prudential risks and oversight. This job has finally ended (thank 
+you existence and everything holy!) and currently I'm starting to work 
+as a researcher at &#197;bo Akademi University where I'll be employed as 
+project manager and coder for a project in the industrial economy 
+department. I'll be working on removing some of the major inefficiencies 
+of one of the most wasteful industries in the world, shipping. I also 
+have a side project: <A HREF="http://www.infnitewhiteboard.com">http://www.infnitewhiteboard.com</A> and currently I'm 
+prototyping a new system called the infinite white space. We also have 
+some other open-source real-time peer-to-peer initiatives which 
+hopefully will result in university spin-offs and other organizations 
+with benefits to the general public.
+
+
+
+Today
+
+Today I started reading the latest emails in the list again, and felt 
+positively surprised by the kind of language/linguistics in use. 
+Therefore I decided to write this e-mail as an open invitation for 
+collaboration and further discussion.
+
+Our current direction involves keeping the data models and interfaces 
+from our first OpenDemocracy.fi prototype. We currently have a Swagger 
+specification defined. Using this, anyone can generate the boilerplate 
+code needed to create servers and clients using any of the programming 
+languages which have swagger implementations available. This creates 
+REST-ful clients and servers which allow creating categorized 
+propositions with options, casting range-votes and comments for each 
+option, claiming to be an expert in some category, trusting some 
+self-proclaimed expert in some category.
+
+If a user decides to give positive trust to some self proclaimed experts 
+in some category, then we use the votes of those experts as an 
+approximation of the opinion of the user, for this category. This 
+applies until the user decides to cast a vote in a proposition, at which 
+point we use their latest vote as an approximation of their current 
+opinion. Thus if a user feels improperly represented by any collection 
+of experts and combination of trust to them, then they can just vote 
+directly in all the topics of relevance to them. This allows adapting to 
+good experts gone bad, by removing trust or even recommending others not 
+to trust, represented as negative trust.
+
+This system might allow studying changes in opinion over time, as it 
+allows continued updating of timestamped opinion approximations, and can 
+allow monitoring the progress and perceived successes/failures of 
+implemented propositions.
+
+We're now considering to implement a minimal responsive mobile first 
+version using Meteor and Polymer, releasing this on github and writing 
+some tutorials to help others try to build similar web standards based 
+things. Optimally we could try to interface with some other projects and 
+try to properly integrate open data-sharing protocols. Hopefully this 
+could lead to fast enough iteration and gamification, such that people 
+would enjoy using the systems and improve in the process.
+
+So count us in on the presentations and discussions relating to common 
+roadmaps.
+
+With love and respect
+Mikael Sand and the rest of the OpenDemocracy.fi team
+
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="016460.html">[MG] Tracking (Applying) Progress
+</A></li>
+	<LI>Next message (by thread): <A HREF="016458.html">[MG] OpenDemocracy.fi and some related aspects to the common roadmap
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

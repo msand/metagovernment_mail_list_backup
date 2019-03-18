@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Decorating the bite feed
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Decorating%20the%20bite%20feed&In-Reply-To=%3C20110116153818.GA19144%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012241.html">
+   <LINK REL="Next"  HREF="003400.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Decorating the bite feed</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Decorating%20the%20bite%20feed&In-Reply-To=%3C20110116153818.GA19144%40havoc.zelea.com%3E"
+       TITLE="[MG] Decorating the bite feed">mike at zelea.com
+       </A><BR>
+    <I>Sun Jan 16 10:38:18 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012241.html">[MG] Drupal integration (was: MG] Decorating the bite feed - coding	plan)
+</A></li>
+        <LI>Next message (by thread): <A HREF="003400.html">[MG] open-legislation mailing list
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>An update on this (some of it technical),
+
+The decorators are now coded.  The app looks the same, but the feed is
+actually coming from the server side:
+<A HREF="http://u.zelea.com/var/deploy/crossforum/#c=DumG">http://u.zelea.com/var/deploy/crossforum/#c=DumG</A>
+
+This means we're ready to stream real, live data into the app, and see
+it projected on the map.  It also means (this is the technical part)
+that users will be able to juxtapose any feed type with any map type
+and the server won't be brought to its knees keeping all the
+combinations fed with data.  The decorators are fast.  They decorate
+the bite stream on the fly (in mid-transmission) with whatever
+additional data is required for the user's chosen map.  For example,
+these bites are decorated with data for geomapping:
+<A HREF="http://u.zelea.com:8080/v/xfDum?callback=foo&amp;form=json&amp;pretty=y">http://u.zelea.com:8080/v/xfDum?callback=foo&amp;form=json&amp;pretty=y</A>
+
+Now all we need is data.  Christian is quietly working on code to
+scrape the mailing lists &amp;c for consensus-making discussions, so we'll
+soon be able to put a spotlight on those.  Maybe the question now is:
+What else is hidden or obscure that shouldn't be?  We might be able to
+put a spotlight on it, pretty fast.
+
+More about the crossforum app:
+<A HREF="http://zelea.com/project/votorola/a/crossforum/">http://zelea.com/project/votorola/a/crossforum/</A>
+And the servlet that provides the dummy feed:
+<A HREF="http://zelea.com/project/votorola/_/javadoc/votorola/a/crossforum/dum/DummyFeedSS.html">http://zelea.com/project/votorola/_/javadoc/votorola/a/crossforum/dum/DummyFeedSS.html</A>
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012241.html">[MG] Drupal integration (was: MG] Decorating the bite feed - coding	plan)
+</A></li>
+	<LI>Next message (by thread): <A HREF="003400.html">[MG] open-legislation mailing list
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

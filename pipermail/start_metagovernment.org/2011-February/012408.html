@@ -1,0 +1,163 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Clearing entry paths for new users
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Clearing%20entry%20paths%20for%20new%20users&In-Reply-To=%3C20110216085720.GA4433%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012404.html">
+   <LINK REL="Next"  HREF="012417.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Clearing entry paths for new users</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Clearing%20entry%20paths%20for%20new%20users&In-Reply-To=%3C20110216085720.GA4433%40havoc.zelea.com%3E"
+       TITLE="[MG] Clearing entry paths for new users">mike at zelea.com
+       </A><BR>
+    <I>Wed Feb 16 03:57:20 EST 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012404.html">[MG] Clearing entry paths for new users
+</A></li>
+        <LI>Next message (by thread): <A HREF="012417.html">[MG] Clearing entry paths for new users
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ed and Thomas wrote:
+&gt;<i> &gt; Steps 7-9 seem very unintuitive, since &quot;diff me&quot; serves the
+</I>&gt;<i> &gt; opposite purpose earlier (explanatory text aside, it's still
+</I>&gt;<i> &gt; confusing).  Couldn't these three steps be automated? After saving
+</I>&gt;<i> &gt; in step 6, it could then run the diff against my original and
+</I>&gt;<i> &gt; present the user with a convenient link to that diff, with the
+</I>&gt;<i> &gt; text: &quot;Here is the link to the differences between your draft and
+</I>&gt;<i> &gt; the one you based it on.&quot; or other such plain language.
+</I>&gt;<i> 
+</I>&gt;<i> I dont know, if I would want an automatic diff, after I finished my
+</I>&gt;<i> position. But to solve the problem: How if we would have a &quot;diff vs.
+</I>&gt;<i> candidate&quot; besides every &quot;diff me&quot;?
+</I>
+We might have to return to these questions later, when the entrance
+and exit ways are clear.  That's the key problem, as I think Ed points
+out.  Whatever the solution is, it'll affect how the traffic flows.
+
+Likewise for the other suggestions involving UI details.  I'll skip
+them just for now if it's OK, because we can revisit them more
+productively later.
+
+Ed and Thomas:
+&gt;<i> &gt; This methodology became cumbersome when I looked at both of these
+</I>&gt;<i> &gt; (above) which are related to each other.  ...  I Went to Mike's
+</I>&gt;<i> &gt; first ...  and patched it into mine...  Then I went to Thomas' ...
+</I>&gt;<i> &gt; and the fragment 3 is still there, even though half of it is now
+</I>&gt;<i> &gt; the same as mine. This is because the diff links are static. Once
+</I>&gt;<i> &gt; I patched in Mike's, the diff link I should have been looking at
+</I>&gt;<i> &gt; was ...
+</I>&gt;<i> &gt; 
+</I>&gt;<i> &gt; Is there a desire to eventually make this sort of thing avoidable
+</I>&gt;<i> &gt; somehow?
+</I>&gt;<i>
+</I>&gt;<i> Possible solution: Have a message on top of the page: &quot;This diff is
+</I>&gt;<i> outdated! For the current one click here.&quot;
+</I>
+Yes I agree, we need to indicate whether or not the diff is current.
+To be sure, we can still patch from old diffs without harm (except
+maybe they fail), but it's better to see the latest.
+
+I forget why that post had multiple diffs in the first place.  I can't
+see the diffs themselves because they were broken by that bug fix.
+But usually we need only a single diff per post.
+
+&gt;<i> &gt;
+</I>&gt;<i> &gt;        (1)          (2)
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt;        --&gt;           --&gt;
+</I>&gt;<i> &gt;  List       Bridge       Wiki
+</I>&gt;<i> &gt;        &lt;--&lt;--
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt;        (4)          (3)
+</I> 
+Thomas wrote:
+&gt;<i> I like very much, what you propose, Mike! The easier it is to move 
+</I>&gt;<i> between the three places the better.
+</I>&gt;<i> 
+</I>&gt;<i> I didnt know, that it is possible to have the wiki also show the diffs 
+</I>&gt;<i> and have links to and from them. But if this is true, the only function 
+</I>&gt;<i> left exclusivly for the diff-bridge is patching then. Couldnt this also 
+</I>&gt;<i> be done with the wiki?
+</I>
+I don't think so.  The draft page can't actually show the diff.  Or
+rather, I think it shouldn't.  The job of that page is to show the
+draft text.  If we introduce structural changes to it, I think we risk
+a &quot;train wreck&quot; in the UI.
+
+The bridge footing has a lighter touch.  It's like a shadow.  It only
+shows the portions of text that differ, not *how* they differ.  It's
+light enough that it can be installed as a user script, and yet it's
+still sufficient to anchor the bridge on the wiki side, which is all
+we need in order to solve the problem.
+
+I think these light touches are going to pay off.  What we're doing is
+interconnecting the various media (drafting, discussion, voting) with
+flexible bridges or channels.  So the media continue doing their work
+unimpeded, each spinning according to its own logic and mechanism.
+Interference problems are avoided, yet the additions are sufficient to
+bring the media into new relations with each other.  That's really all
+we need to do.
+
+Because society is like that, too.  Maybe this justification isn't
+needed, but I think it's interesting.  It's one of the insights we get
+from Habermas that society is not moulded all of a piece.  Its various
+parts, or aspects each has its own internal logic and &quot;design fit&quot;
+with the whole.  The greatest danger is that one of them is allowed to
+interfere too much with another and prevent it &quot;spinning&quot; as it
+should.  So here too, it takes a light touch.
+
+That said, the engineering task at this level is not to interconnect
+the various parts of society differently, but only to free up one of
+them.  I mean what Habermas calls the &quot;public sphere&quot;.  Theory says it
+got caught up in the machinery of the other parts and deflated.  Yet
+if we reconnect its communication media with a suitably light touch,
+then the public sphere is going re-inflate and float free.
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012404.html">[MG] Clearing entry paths for new users
+</A></li>
+	<LI>Next message (by thread): <A HREF="012417.html">[MG] Clearing entry paths for new users
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

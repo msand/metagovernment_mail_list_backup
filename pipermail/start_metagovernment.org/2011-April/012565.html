@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Ease of entry
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Ease%20of%20entry&In-Reply-To=%3C20110401121011.GA30607%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="003775.html">
+   <LINK REL="Next"  HREF="012569.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Ease of entry</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Ease%20of%20entry&In-Reply-To=%3C20110401121011.GA30607%40havoc.zelea.com%3E"
+       TITLE="[MG] Ease of entry">mike at zelea.com
+       </A><BR>
+    <I>Fri Apr  1 08:10:11 EDT 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="003775.html">[MG] Ease of entry
+</A></li>
+        <LI>Next message (by thread): <A HREF="012569.html">[MG] Ease of entry
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Thomas von der Elbe wrote:
+&gt;<i> &gt;&gt; Only, I would immidiatly link to the creation page, if &quot;My&quot; is
+</I>&gt;<i> &gt;&gt; clicked by a user without an own draft.
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; So sometimes 'My' would behave as a modal switch (as originally
+</I>&gt;<i> &gt; suggested), and at other times as a direct link?
+</I>&gt;<i> 
+</I>&gt;<i> Yes, because in the latter case it cannot behave like a switch, because 
+</I>&gt;<i> there is nothing to switch to yet.
+</I>
+It could still switch modes.  It would go into 'My' mode, enabling the
+draft link and so forth, exactly as it normally does.
+
+But maybe it's moot.  In practice, the footing script won't always
+*know* if you have a draft, or not, till after you click on the link.
+Then you're redirected through the server, which may require you to
+login so that it can discover who you are (see original post), and
+complete the request.
+
+&gt;<i> You didnt answer to the following:
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt;&gt; ... And concerning the issue of space: How if we had a
+</I>&gt;<i> &gt;&gt; collapsable menue like in the theatre map? This could then be
+</I>&gt;<i> &gt;&gt; really big, covering the whole left wiki menue. Wouldnt that be
+</I>&gt;<i> &gt;&gt; great?
+</I>&gt;<i> 
+</I>&gt;<i> I'm really excited about it.
+</I>
+It might be a good idea if we were stuck, at some point.  It would buy
+us more space, at the cost of added complexity to access the controls
+vs. the sidebar (or vice versa).  But for now, I think we have enough
+space to do what's needed.
+
+People may want to put more stuff into these draft pages in future,
+but I think they'll be fighting an uphill battle.  The rationale of
+the architecture demands that functional additions to the component
+media - drafting, voting, discussion - be deployed externally in
+common bridges, umbrellas, what have you that impact on those media
+with a light touch.  Every exception to that rule fights against the
+openness of the architecture by making it harder to add new
+components, such as alternative drafting, voting and discussion tools.
+It's this rationale that gave us the difference bridge in the first
+place, and later crossforum theatre.
+
+Imagine that an instance of the theatre app running in your phone,
+say, could somehow be &quot;aware&quot; that you're viewing a draft page in your
+Web browser on the desktop.  It would then go into a supporting mode
+in which it provided all the navigation aids you needed, but which
+MediaWiki (or whatever) could not provide.  It might even awaken a
+copy of itself on the desktop, or in the browser, if necessary.
+Something like that might be the future.  Plus apps that talk to each
+other as they pass on the street.  That's all part and parcel of
+deploying in the public sphere.
+
+To save time, I think I'll add a draft creation link, but defer the
+automatic creation.  Instead, I'll write step by step instructions for
+manual creation.  That should be enough to bounce the problem back to
+the political side of the court.  Ease of entry is one thing, but we
+also need entrants.  (And then I can rejoin C in the theatre app.)
+
+&gt;<i> &gt;&gt; One more idea: If you click on a user, the footing gets fixed. To
+</I>&gt;<i> &gt;&gt; unfix it you have to click this user again. Additionally I'd like
+</I>&gt;<i> &gt;&gt; to be able to click on the orininal user to unfix the footings.
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; <A HREF="http://metagovernment.org/wiki/User:Conseo/draft">http://metagovernment.org/wiki/User:Conseo/draft</A>
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; Currently if you click by mistake, say out of curiosity, then you can
+</I>&gt;<i> &gt; always click again to undo the result.
+</I>&gt;<i> 
+</I>&gt;<i> I like this and want to keep it.
+</I>&gt;<i> 
+</I>&gt;<i> &gt;   It'll be hard to remain
+</I>&gt;<i> &gt; consistent with that behaviour if we allow clicking on the origin
+</I>&gt;<i> &gt; (4c.).  What happens when we click there first, like just after the
+</I>&gt;<i> &gt; page loads?
+</I>&gt;<i> 
+</I>&gt;<i> After this page loads, no footing is fixed. So clicking on 4c. doesnt 
+</I>&gt;<i> &quot;unfix&quot; anything. So nothing happens. Only if a footing is fixed, you 
+</I>&gt;<i> can return to the original state by clicking on 4c. or on the other 
+</I>&gt;<i> user. You can understand it as: clicking on 4c. shows the footings of 
+</I>&gt;<i> 4c. in 4c. which equals: no footings. :-)
+</I>
+Then you can't click twice to undo an off-click on the origin (4c.).
+The footprint vanishes, and clicking again does not bring it back. (!)
+Logically, there's no way to make it behave consistently except by
+keeping it non-clickable.  That's why I think the solution is to make
+it *look* non-clickable.  If I'd done that in the first place, you
+would never have noticed. ;-)
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="003775.html">[MG] Ease of entry
+</A></li>
+	<LI>Next message (by thread): <A HREF="012569.html">[MG] Ease of entry
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

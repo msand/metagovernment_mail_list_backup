@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] The Murphy Score(?) and Standing
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20The%20Murphy%20Score%28%3F%29%20and%20Standing&In-Reply-To=%3C499B6B14.6000800%40commonsware.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="009972.html">
+   <LINK REL="Next"  HREF="009961.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] The Murphy Score(?) and Standing</H1>
+    <B>Mark Murphy</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20The%20Murphy%20Score%28%3F%29%20and%20Standing&In-Reply-To=%3C499B6B14.6000800%40commonsware.com%3E"
+       TITLE="[Start] The Murphy Score(?) and Standing">mmurphy at commonsware.com
+       </A><BR>
+    <I>Tue Feb 17 20:57:40 EST 2009</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="009972.html">[Start] The Murphy Score(?) and Standing
+</A></li>
+        <LI>Next message (by thread): <A HREF="009961.html">[Start] The Murphy Score(?) and Standing
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Michael Allan wrote:
+&gt;<i> I'm also keen on the &quot;ecosystem&quot; concept.  If there's some way you can
+</I>&gt;<i> share your designs, thoughts, etc., I'd like to put them to practical
+</I>&gt;<i> use.  It's no fun, being an ecosystem of one. :)
+</I>
+The following is a substantial excerpt from an email I sent last year to
+a prominent technologist -- I think he's attending TransparencyCamp.
+It's stream-of-consciousness, heavy on the tech, and not exactly
+well-edited. But, since I don't have time right now to answer some of
+your other questions (though I hope too...sometime...), I figured this
+would help explain a bit.
+
+And since the acronym didn't completely catch on, POSH is Plain Ol'
+Semantic HTML (see the work of Chris Messina).
+
+=====================
+
+If we want an independent, verifiable, public mechanism for people to
+vote and comment on the topics of the day and get those compiled results
+to decision-makers, our best model is the blogosphere, by which I mean a
+loose confederation of sites and services, operating on agreed-upon
+standards.
+
+This is a system of issues (&quot;When should our troops leave Iraq?&quot;) an
+positions taken by citizens on those issues.
+
+John Q. Citizen can raise an issue by posting a Web page marked up in a
+POSH format, providing the title and description of the issue, the
+community to which it applies (San Francisco, or San Mateo County, or
+CA, or USA, or such-and-so school board, etc.), the choices voters can
+choose from, and how those choices are scored (multiple choice,
+allocate-100-points-among-them-budget-style, etc.). Of course, that Web
+page is probably built by a blog-style editor (online or off), or a
+widget, or a F8/OpenSocial app, or whatever. And, the system could
+support pure XML or JSON as well.
+
+Also in the issue is embedded John's OpenID (unless he's posting it
+anonymously) and a service provider URL, the latter indicating where one
+can go to find the results of the voting. This could be integrated with
+the tools that were used to create the issue (e.g., WordPress) or be
+something independent (e.g., Disqus).
+
+The issue is put out in a feed, and cross-posted to blogs, publicized
+via banners and widgets, fed to search engines, and all the typical Web
+promotion stuff. This gets the issue into the hands of other interested
+citizens, particularly those citizens of the community referenced in the
+issue. Anybody can cast their vote on the issue, again by publishing a
+POSH-enhanced Web page. The vote is at minimum their vote (given the
+choices and scoring system) and their OpenID (unless anonymous), with
+hooks for adding more material for them to defend their position if they
+choose (e.g., link to blog posting, links to references of studies or
+analyses)
+
+Then, with a trackback/ping type of mechanism, the issue's service
+provider is notified of the new/changed position, which adds it to the
+roster of results and adds the score to the running tally, This in turn
+can update widgets, banners, etc. showing the current issue status.
+
+Results can be filtered by standing, so there's one tally for all
+respondents, a tally for the non-anonymous subset, a tally for those
+whose OpenIDs are verified as being members of the community of
+relevance for the issue, etc. The latter subset, of course, is the one
+of key importance for any politician or other authority figure, since
+they'll primarily care what the people who elected them think.
+
+In the end, it's a standard for encoding issues and positions, plus the
+Web service APIs for the trackbacks, plus the encoding of results, and a
+few other things. That spec won't be short, but it won't be too tough to
+implement -- it's all REST-ish simple Web services, simple encoding
+conventions, and OpenID. It's not like it needs a new wire protocol or
+encryption scheme or anything. And I can probably be talked out of the
+OpenID requirement if there's some other scheme for truly globally
+unique user IDs.
+
+Everything after that is a matter of an ecosystem of firms and
+non-profits providing services around that standard:
+
+-- tools to raise issues and take positions, with the latter in
+particular being multi-modal (Internet, SMS, IVR, wandering canvasser
+with an Internet tablet, etc.)
+-- tools to keep the authorities associated with the community informed
+of public opinion by whatever means they're comfortable with (Web, fax,
+snail mail, etc.)
+-- services to help promote issues to gain more positions
+-- tools to help rate issues and positions, to help people filter out
+trolls and the like
+-- tools to help smaller municipalities interested in this stuff
+integrate it into their own Web presence, to the extent they have one
+-- and so forth
+
+The information model (issues, positions, communities, and citizens)
+should work for any size community. By keeping everything public and
+CC-licensed, with open source reference implementations and the like,
+there should be no real limit to the ecosystem that could emerge, just
+like the ecosystem of blog-related firms.
+
+The open standards also help reduce the odds of any one firm dominating
+the &quot;market&quot;, and even if one does, it'll make it harder to cook the
+books and claim the public thinks X when it really thinks Y, since the
+results can be validated. Similarly, it's rather difficult for any
+government to shut it down -- they can ignore it, but the citizens may
+eventually get pissed at that and choose to elect folk who promise to
+pay attention.
+
+It avoids the one-sided-ness of petitions, the lack of standing from Web
+polls, and the lack of countability of opinions posted in blogs or sent
+by email. And, it doesn't require government permission, though
+government interest (and, therefore, promotion) would certainly be useful.
+
+-- 
+Mark Murphy (a Commons Guy)
+<A HREF="http://commonsware.com">http://commonsware.com</A>
+_The Busy Coder's Guide to Android Development_ Version 2.0 Available!
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="009972.html">[Start] The Murphy Score(?) and Standing
+</A></li>
+	<LI>Next message (by thread): <A HREF="009961.html">[Start] The Murphy Score(?) and Standing
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

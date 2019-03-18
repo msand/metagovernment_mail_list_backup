@@ -1,0 +1,216 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [MG] Cascading agreement, money, communities and other resources in votespace
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Cascading%20agreement%2C%20money%2C%0A%20communities%20and%20other%20resources%20in%20votespace&In-Reply-To=%3C20110611100116.GA7066%40havoc.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="012849.html">
+   <LINK REL="Next"  HREF="012870.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[MG] Cascading agreement, money, communities and other resources in votespace</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BMG%5D%20Cascading%20agreement%2C%20money%2C%0A%20communities%20and%20other%20resources%20in%20votespace&In-Reply-To=%3C20110611100116.GA7066%40havoc.zelea.com%3E"
+       TITLE="[MG] Cascading agreement, money, communities and other resources in votespace">mike at zelea.com
+       </A><BR>
+    <I>Sat Jun 11 06:01:16 EDT 2011</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="012849.html">[MG] Come together or reach out - was cascading etc.
+</A></li>
+        <LI>Next message (by thread): <A HREF="012870.html">[MG] Cascading agreement, money, communities and other resources in votespace
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>I have a layout to propose.  This layout should be sufficient to cover
+all resource types.
+
+Thomas von der Elbe wrote:
+&gt;<i> A community has no kindergarden but wants one. They start a poll and
+</I>&gt;<i> many different plans emerge of how it should be like, where exactly
+</I>&gt;<i> it should be located etc. Every plan expresses the amount of the
+</I>&gt;<i> different necessary resources for its realization, i.e. votes,
+</I>&gt;<i> money, land, labour, bricks, wood, ... And now all the people voting
+</I>&gt;<i> for a paricular plan can express what recources they are willing to
+</I>&gt;<i> contribute. And the count-engine counts them all up. So everyone can
+</I>&gt;<i> see, what is still missing and what not. If the count reaches 100%
+</I>&gt;<i> the plan can be executed, all the resources are there. Happy
+</I>&gt;<i> parents, happy children! :-)
+</I>
+I won't draw any mockups (no need), just ASCII diagrams.  Here's the
+proposed layout for the votespace map:
+
+
+  +----------------+-------------------------------------------------+
+  |                |               Resources toolbar                 |
+  |                +-------------------------------------------------+
+  |  Resources  -&gt; |-------------------------------------------------|
+  |  slice stack   +-------------------------------------------------+
+  |                |           Resources heads up display            |
+  |                |                                                 |
+  |                |                                                 |
+  |     Diff       |                                                 |
+  |     feed       |               Votespace view                    |
+  |                |                                                 |
+  |                |                                                 |
+  |                |                                                 |
+  |                |                                                 |
+  |                |                                                 |
+  |                |           Votespace heads up display            |
+  |                +-------------------------------------------------+
+  |                |               Votespace toolbar                 |
+  +----------------+-------------------------------------------------+
+
+
+The affected components are:
+
+  * Home pages of activists
+  * Difference bridge
+  * Votespace map in crossforum theatre (shown above)
+
+The home pages of the activists will display the theatre app as
+configured above.  Each group of activists will work on one poll at a
+time and the votespace map will show that poll.
+
+The difference bridge is to be topped by a resources view (toolbar,
+stack and HUD) the same as the one shown for the votespace map (above)
+in all but two ways.  First, the bridge's view will include a
+prominent link to the view embedded in the theatre app [1].  Second,
+the resource type will not be selectable by the user.  Instead the
+view will always show the default resource type for the diff
+candidate's branch [2].
+
+Details for the votespace map follow:
+
+Diff feed
+---------
+    C's diff feed is unchanged.
+
+Resources toolbar
+-----------------
+    The resources toolbar summarizes a voting branch's progress in
+    gathering the resources of a selected type, such as agreement,
+    crossforum extent or money.  For any resource instance that is
+    selected in a slice (below), it provides a view of that resource
+    and controls for working with it.
+
+    It also provides a control for selecting among the different
+    resource types that are defined for that branch [2].
+
+Resources slice stack
+---------------------
+    A stack of zero or more slices through the resource space.  Each
+    slice is a thin, horizontal representation of some aspect of that
+    overall space, including resources gathered and ungathered.
+
+    Each resource type defines its own slices.  For crossforum extent,
+    two slices are initially proposed:
+
+    Forums slice (resource type = crossforum extent)
+    ------------
+        The forums slice shows individual forums ordered
+        alphabetically from left to right.  Forums that are nominally
+        activated by the branch (its people being active in them) are
+        distinguished from the inactive forums.
+
+        When a forum is beneath the mouse, it is summarized in the
+        heads up display (below).  The name of the forum is shown.
+
+        When a forum is selected, it is featured in the resources
+        toolbar (above) and the votespace view (below).  The toolbar
+        shows the forum name and provides links to related views.  The
+        votespace view indicates the nodes and branches that are
+        active in that forum.
+
+    Meeting places slice (resource type = crossforum extent)
+    --------------------
+        Meeting places are forums in geospace.  This slice is similar
+        to the forums slice (above) except in two ways.  First, it
+        shows only those forums that are situated in geospace.  Online
+        forums are excluded.  Coffee shops may be included, but not
+        IRC channels run by coffee shops.  Second, it arranges the
+        forums in geographic clusters.  For example, it shows places
+        in New York, then places in Madrid, then C's bus shelter in
+        Mannheim - and so forth.
+
+Resources heads up display
+--------------------------
+    The heads up display projects information over the underlying view
+    (votespace or difference bridge) whenever the mouse hovers over a
+    particular resource.  It's main purpose is to help the user decide
+    whether to select the resource for further action.
+
+Votespace view
+--------------
+    The votespace view is unchanged structurally.  The big difference
+    is that it now shows the accumulation of whatever resource type is
+    currently selected.
+
+Votespace heads up display
+--------------------------
+    This is similar to the resources heads up display, but it applies
+    to the nodes of the votespace view.
+
+Votespace toolbar
+-----------------
+    For any branch that is opened in the votespace view, the toolbar
+    shows the username of the root node.  It provides controls for
+    working with the node or branch, including links to related views.
+
+Notes
+-----
+  [1] Link from bridge to votespace map will sit where the resource
+      selector (not shown) would have sat.
+
+  [2] The root node of each branch (or tree) defines the resource
+      particulars for that branch.  The definition includes the types
+      that are required, which type is most crucial (default for
+      views), and all other particulars that are branch configurable.
+      The definition may be overridden upstream by any node.  As a
+      consequence, both the resource types and the structure of the
+      resources view may vary across the trees and branches of
+      votespace.
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="012849.html">[MG] Come together or reach out - was cascading etc.
+</A></li>
+	<LI>Next message (by thread): <A HREF="012870.html">[MG] Cascading agreement, money, communities and other resources in votespace
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Start] Votorola, DemocracyLab, White House 2, etc.
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Votorola%2C%20DemocracyLab%2C%20White%20House%202%2C%20etc.&In-Reply-To=%3C20090519194525.GA3337%40obsidian.zelea.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="010355.html">
+   <LINK REL="Next"  HREF="010357.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Start] Votorola, DemocracyLab, White House 2, etc.</H1>
+    <B>Michael Allan</B> 
+    <A HREF="mailto:start%40metagovernment.org?Subject=Re%3A%20%5BStart%5D%20Votorola%2C%20DemocracyLab%2C%20White%20House%202%2C%20etc.&In-Reply-To=%3C20090519194525.GA3337%40obsidian.zelea.com%3E"
+       TITLE="[Start] Votorola, DemocracyLab, White House 2, etc.">mike at zelea.com
+       </A><BR>
+    <I>Tue May 19 15:45:25 EDT 2009</I>
+    <P><UL>
+        <LI>Previous message (by thread): <A HREF="010355.html">[Start] Votorola, DemocracyLab, White House 2, etc.
+</A></li>
+        <LI>Next message (by thread): <A HREF="010357.html">[Start] Votorola, DemocracyLab, White House 2, etc.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>In answer to Ed: I get lost without a diagram, here's one:
+
+
+    voting clients
+
+  A    B     C    D
+
+    \  |     |  /
+     \ |     | /
+
+       X     Y
+
+   voting services
+   and vote pools
+
+
+Each client (A, B, C, D) is essentially a user interface (UI).  It's a
+place where people see what there is to vote on; cast votes; see
+results; and make sense of them.  The client may be full-blown e-dem
+Web site with a variety of proposals, like White House 2; or single
+proposal affair that is run by a user, maybe as a blog page with a
+&quot;Vote&quot; button (vote for me!); or just about any site or service
+imagineable that would want to present a voting UI to the world.
+
+Each voting service (X, Y) is provided by a server, or distributed
+network of servers, dedicated to maintaining a vote pool on behalf of
+its clients.  Here I show only two services, which might be Metascore
+(X) and Votorola (Y).
+
+The lines going up/down are voting interfaces.  To the extent the
+interfaces are standardized, clients will be free to switch from one
+service to the other without having to recode their UI, retrain their
+users, etc.  The voting services will therefore appear to the client
+as &quot;pluggable components&quot; in the sense that client admins may choose
+whichever one they like, and may expect to have more choices in
+future.
+
+&gt;&gt;<i>  c. When a voter [at C] votes for a proposal (P) in the context of a
+</I>&gt;&gt;<i>     Votorola issue (I), and another voter [at D] votes for another
+</I>&gt;&gt;<i>     proposal (Q) in the context of the same issue, then both P and Q
+</I>&gt;&gt;<i>     are thereby made alternative proposals of I.
+</I>
+Ed Pastore wrote:
+&gt;<i> My question here would be... how are proposals associated with issues? The
+</I>&gt;<i> term &quot;issue&quot; is a rather vague concept, and as far as I know, different 
+</I>&gt;<i> projects handle it differently (if they have even tackled it yet).
+</I>
+Are you asking in the context of Votorola's service (Y)?  Or
+Metascore's (X)?  For Votorola, it is very simple: a proposal is
+associated with an issue (I) whenever - in the context of that issue -
+a voter casts a vote for it.  For example, a blogger who knows nothing
+about issue (I) may express an opinion on her blog.  A voter may see
+this and think, &quot;Hey, that's a great idea for how to solve issue (I)!&quot;
+
+So the voter casts a vote for the blogger, pre-registering her if
+necessary, and linking her candidacy to the blog page.  (Voters can
+freely do these things in order to nominate new candidates/proposals.)
+So now the blog page is a new proposal under issue (I), and all other
+voters can see it as such.  (Hopefully, someone informs the blogger!)
+
+In the context of Metascore - not sure.  It's up to you guys.  I can
+look at your docs later, and make suggestions - no problem.  As far as
+possible though, it would be good if we (voting service providers)
+make our client interfaces (to accept incoming votes, post results,
+etc.) compatible.
+
+&gt;<i> ... I think DemocracyLab uses a formal taxonomy of pre-defined
+</I>&gt;<i> issues. I think the Metascore team is considering using a folksonomy
+</I>&gt;<i> to have issues interrelate by organic user tagging. How can such
+</I>&gt;<i> things be made compatible? The concept of proposals speaking to
+</I>&gt;<i> issues is a very central one to every project, and probably should
+</I>&gt;<i> be scrutinized at length.
+</I>
+(By issue I think you mean, as I do, the general action under
+ consideration, such as adopting a new Climate Change Policy.  You
+ don't mean a specific proposal for that action; what I call a
+ &quot;candidate&quot;.)
+
+Relations among issues are not necessarily part of the voting service.
+They might just as easily (and maybe this is better) be a separate
+service to the clients - issue classification service (ICS).  So users
+may use the ICS to browse for other policies, plans and laws that are
+related in some sense to the Climate Change Policy; and so forth.
+
+Anyway, the voting services (X, Y) are under no restrictions in how
+they do things.  But whatever they do, they should try to align
+themselves and factor out the alignments as interface standards,
+wherever that may prove useful to the clients.
+
+This is open network architecture.  (We do this, could be big news.
+Someone start it rolling, nothing'll stop it... my opinion.)
+-- 
+Michael Allan
+
+Toronto, 647-436-4521
+<A HREF="http://zelea.com/">http://zelea.com/</A>
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message (by thread): <A HREF="010355.html">[Start] Votorola, DemocracyLab, White House 2, etc.
+</A></li>
+	<LI>Next message (by thread): <A HREF="010357.html">[Start] Votorola, DemocracyLab, White House 2, etc.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html">[ date ]</a>
+              <a href="thread.html">[ thread ]</a>
+              <a href="subject.html">[ subject ]</a>
+              <a href="author.html">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://metagovernment.org/mailman/listinfo/start_metagovernment.org">More information about the Start
+mailing list</a><br>
+</body></html>
